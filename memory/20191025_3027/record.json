@@ -1,0 +1,31 @@
+{
+  "uid": "20191025_3027",
+  "category": "memory",
+  "subcategory": "DDR4",
+  "achieved_at": "2019-10-25",
+  "achieved_at_approximate": false,
+  "value_mhz": 3027.2,
+  "hardware": {
+    "primary": "Crucial",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "OGS",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

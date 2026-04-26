@@ -1,0 +1,31 @@
+{
+  "uid": "20160603_2515",
+  "category": "memory",
+  "subcategory": "DDR4",
+  "achieved_at": "2016-06-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 2515.9,
+  "hardware": {
+    "primary": "Zadak511",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "racoon",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

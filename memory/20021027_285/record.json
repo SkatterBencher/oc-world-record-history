@@ -1,0 +1,31 @@
+{
+  "uid": "20021027_285",
+  "category": "memory",
+  "subcategory": "DDR",
+  "achieved_at": "2002-10-27",
+  "achieved_at_approximate": false,
+  "value_mhz": 285.7,
+  "hardware": {
+    "primary": "A-Data",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "ほりっちょ",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

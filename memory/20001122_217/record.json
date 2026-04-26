@@ -1,0 +1,31 @@
+{
+  "uid": "20001122_217",
+  "category": "memory",
+  "subcategory": "SDR",
+  "achieved_at": "2000-11-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 217.32,
+  "hardware": {
+    "primary": "Unknown",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "OptArc",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "SDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

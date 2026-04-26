@@ -1,0 +1,31 @@
+{
+  "uid": "20230607_5627",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2023-06-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 5627.3,
+  "hardware": {
+    "primary": "GIGABYTE",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Hicookie",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "20220426_5001",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2022-04-26",
+  "achieved_at_approximate": false,
+  "value_mhz": 5001.8,
+  "hardware": {
+    "primary": "Kingston Fury",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Kovan Yang",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "20220705_5275",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2022-07-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 5275.9,
+  "hardware": {
+    "primary": "ASUSTeK x R.O.G",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "lupin_no_musume",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

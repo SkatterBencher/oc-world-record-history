@@ -1,0 +1,31 @@
+{
+  "uid": "20181019_2782",
+  "category": "memory",
+  "subcategory": "DDR4",
+  "achieved_at": "2018-10-19",
+  "achieved_at_approximate": false,
+  "value_mhz": 2782.9,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Hocayu",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

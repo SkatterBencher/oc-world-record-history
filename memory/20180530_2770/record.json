@@ -1,0 +1,31 @@
+{
+  "uid": "20180530_2770",
+  "category": "memory",
+  "subcategory": "DDR4",
+  "achieved_at": "2018-05-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 2770.7,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Kovan Yang",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

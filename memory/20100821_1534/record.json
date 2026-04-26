@@ -1,0 +1,31 @@
+{
+  "uid": "20100821_1534",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2010-08-21",
+  "achieved_at_approximate": false,
+  "value_mhz": 1534.0,
+  "hardware": {
+    "primary": "Corsair",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Marmott",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

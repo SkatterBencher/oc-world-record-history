@@ -1,0 +1,31 @@
+{
+  "uid": "20040727_347",
+  "category": "memory",
+  "subcategory": "DDR",
+  "achieved_at": "2004-07-27",
+  "achieved_at_approximate": false,
+  "value_mhz": 347.63,
+  "hardware": {
+    "primary": "A-Data",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Tanuki",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

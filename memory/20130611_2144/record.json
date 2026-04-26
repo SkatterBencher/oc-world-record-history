@@ -1,0 +1,31 @@
+{
+  "uid": "20130611_2144",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2013-06-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 2144.6,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Hiwa",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

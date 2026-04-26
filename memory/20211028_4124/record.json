@@ -1,0 +1,31 @@
+{
+  "uid": "20211028_4124",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2021-10-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 4124.2,
+  "hardware": {
+    "primary": "Kingston Fury",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Splave",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "20170113_2630",
+  "category": "memory",
+  "subcategory": "DDR4",
+  "achieved_at": "2017-01-13",
+  "achieved_at_approximate": false,
+  "value_mhz": 2630.4,
+  "hardware": {
+    "primary": "Teamgroup",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Audigy",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

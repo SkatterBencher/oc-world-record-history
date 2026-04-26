@@ -1,0 +1,31 @@
+{
+  "uid": "20021103_286",
+  "category": "memory",
+  "subcategory": "DDR",
+  "achieved_at": "2002-11-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 286.8,
+  "hardware": {
+    "primary": "V-Data",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Vigor",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

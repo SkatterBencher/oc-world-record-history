@@ -1,0 +1,31 @@
+{
+  "uid": "20170529_2644",
+  "category": "memory",
+  "subcategory": "DDR4",
+  "achieved_at": "2017-05-29",
+  "achieved_at_approximate": false,
+  "value_mhz": 2644.0,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Splave",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

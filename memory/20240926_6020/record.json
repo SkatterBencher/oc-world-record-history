@@ -1,0 +1,31 @@
+{
+  "uid": "20240926_6020",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2024-09-26",
+  "achieved_at_approximate": false,
+  "value_mhz": 6020.6,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "CENS",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

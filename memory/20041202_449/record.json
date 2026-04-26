@@ -1,0 +1,31 @@
+{
+  "uid": "20041202_449",
+  "category": "memory",
+  "subcategory": "DDR2",
+  "achieved_at": "2004-12-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 449.7,
+  "hardware": {
+    "primary": "Unknown",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Maiko",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR2"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

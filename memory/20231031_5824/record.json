@@ -1,0 +1,31 @@
+{
+  "uid": "20231031_5824",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2023-10-31",
+  "achieved_at_approximate": false,
+  "value_mhz": 5824.1,
+  "hardware": {
+    "primary": "SK Hynix",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "lupin_no_musume",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

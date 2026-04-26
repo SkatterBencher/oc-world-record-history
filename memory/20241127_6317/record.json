@@ -1,0 +1,31 @@
+{
+  "uid": "20241127_6317",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2024-11-27",
+  "achieved_at_approximate": false,
+  "value_mhz": 6317.5,
+  "hardware": {
+    "primary": "Patriot",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Snakeeyes",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

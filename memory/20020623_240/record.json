@@ -1,0 +1,31 @@
+{
+  "uid": "20020623_240",
+  "category": "memory",
+  "subcategory": "DDR",
+  "achieved_at": "2002-06-23",
+  "achieved_at_approximate": false,
+  "value_mhz": 240.0,
+  "hardware": {
+    "primary": "Samsung",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Aguri",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

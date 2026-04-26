@@ -1,0 +1,31 @@
+{
+  "uid": "20020530_235",
+  "category": "memory",
+  "subcategory": "DDR",
+  "achieved_at": "2002-05-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 235.5,
+  "hardware": {
+    "primary": "Kingmax",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Neuro",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "20130610_2142",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2013-06-10",
+  "achieved_at_approximate": false,
+  "value_mhz": 2142.8,
+  "hardware": {
+    "primary": "Teamgroup",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "NickShih",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

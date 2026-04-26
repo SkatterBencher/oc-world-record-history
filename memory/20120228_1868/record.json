@@ -1,0 +1,31 @@
+{
+  "uid": "20120228_1868",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2012-02-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 1868.3,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Christian Ney",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

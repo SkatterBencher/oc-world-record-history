@@ -1,0 +1,31 @@
+{
+  "uid": "20060518_645",
+  "category": "memory",
+  "subcategory": "DDR2",
+  "achieved_at": "2006-05-18",
+  "achieved_at_approximate": false,
+  "value_mhz": 645.0,
+  "hardware": {
+    "primary": "A-Data",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Funa",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR2"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

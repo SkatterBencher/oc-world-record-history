@@ -1,0 +1,31 @@
+{
+  "uid": "20070601_1144",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2007-06-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 1144.2,
+  "hardware": {
+    "primary": "Micron",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "X-965",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

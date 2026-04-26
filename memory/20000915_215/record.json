@@ -1,0 +1,31 @@
+{
+  "uid": "20000915_215",
+  "category": "memory",
+  "subcategory": "SDR",
+  "achieved_at": "2000-09-15",
+  "achieved_at_approximate": false,
+  "value_mhz": 215.85,
+  "hardware": {
+    "primary": "Unknown",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Hide",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "SDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

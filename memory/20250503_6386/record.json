@@ -1,0 +1,31 @@
+{
+  "uid": "20250503_6386",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2025-05-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 6386.8,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Bl4ckdot",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

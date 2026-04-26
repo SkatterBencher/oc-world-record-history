@@ -1,0 +1,31 @@
+{
+  "uid": "20111122_1733",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2011-11-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 1733.8,
+  "hardware": {
+    "primary": "Corsair",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Planet",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "20211103_4352",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2021-11-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 4352.3,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Hocayu",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

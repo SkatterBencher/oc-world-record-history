@@ -1,0 +1,31 @@
+{
+  "uid": "20130809_2202",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2013-08-09",
+  "achieved_at_approximate": false,
+  "value_mhz": 2202.0,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "TeamAU",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

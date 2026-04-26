@@ -1,0 +1,31 @@
+{
+  "uid": "20251103_6605",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2025-11-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 6605.7,
+  "hardware": {
+    "primary": "Patriot",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "AiMax",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

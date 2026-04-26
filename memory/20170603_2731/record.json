@@ -1,0 +1,31 @@
+{
+  "uid": "20170603_2731",
+  "category": "memory",
+  "subcategory": "DDR4",
+  "achieved_at": "2017-06-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 2731.8,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "NickShih",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

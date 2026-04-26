@@ -1,0 +1,31 @@
+{
+  "uid": "20070928_1178",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2007-09-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 1178.9,
+  "hardware": {
+    "primary": "Micron",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "JtChen2002",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

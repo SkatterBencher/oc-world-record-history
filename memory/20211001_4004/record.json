@@ -1,0 +1,31 @@
+{
+  "uid": "20211001_4004",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2021-10-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 4004.1,
+  "hardware": {
+    "primary": "GIGABYTE",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Unknown",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

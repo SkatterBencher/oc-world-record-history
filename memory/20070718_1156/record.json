@@ -1,0 +1,31 @@
+{
+  "uid": "20070718_1156",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2007-07-18",
+  "achieved_at_approximate": false,
+  "value_mhz": 1156.0,
+  "hardware": {
+    "primary": "Micron",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Dav",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

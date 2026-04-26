@@ -1,0 +1,31 @@
+{
+  "uid": "20140630_2310",
+  "category": "memory",
+  "subcategory": "DDR3",
+  "achieved_at": "2014-06-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 2310.1,
+  "hardware": {
+    "primary": "HyperX",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "sofos1990",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

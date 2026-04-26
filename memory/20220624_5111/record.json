@@ -1,0 +1,31 @@
+{
+  "uid": "20220624_5111",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2022-06-24",
+  "achieved_at_approximate": false,
+  "value_mhz": 5111.7,
+  "hardware": {
+    "primary": "Intel",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Hicookie",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "20030701_296",
+  "category": "memory",
+  "subcategory": "DDR",
+  "achieved_at": "2003-07-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 296.2,
+  "hardware": {
+    "primary": "Transcend",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "光弘",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

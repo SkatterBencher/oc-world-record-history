@@ -1,0 +1,31 @@
+{
+  "uid": "20241024_6053",
+  "category": "memory",
+  "subcategory": "DDR5",
+  "achieved_at": "2024-10-24",
+  "achieved_at_approximate": false,
+  "value_mhz": 6053.7,
+  "hardware": {
+    "primary": "Kingston",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Kovan",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
