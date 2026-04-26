@@ -63,6 +63,12 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .record-count { font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
 
+/* CHART CONTAINER */
+.chart-container {
+  margin: 20px 0 30px;
+  height: 220px;
+}
+
 /* PAGES */
 .page { display: none; }
 .page.active { display: flex; flex-direction: column; min-height: calc(100vh - 56px); }
@@ -222,6 +228,18 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 }
 .panel-nav-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); }
 .panel-nav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.panel-hero {
+  margin-bottom: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.panel-hero img {
+  width: 100%;
+  display: block;
+}
 
 /* ABOUT */
 .about-content { max-width: 680px; margin: 60px auto; padding: 0 32px; }
