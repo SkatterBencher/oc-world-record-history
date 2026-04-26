@@ -1,0 +1,29 @@
+{
+  "uid": "20110902_8429",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2011-09-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 8429.38,
+  "hardware": {
+    "primary": "AMD FX-8150",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

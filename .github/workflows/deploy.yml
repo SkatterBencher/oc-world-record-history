@@ -1,0 +1,79 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build index
+        run: python3 build.py
+
+      - name: Validate schema (optional, install jsonschema to enable)
+        run: |
+          pip install jsonschema --quiet || true
+          python3 -c "
+          import json, os, sys
+          try:
+            import jsonschema
+          except ImportError:
+            print('jsonschema not installed, skipping validation')
+            sys.exit(0)
+          with open('_schema/record.schema.json') as f:
+            schema = json.load(f)
+          errors = []
+          for cat in ['cpu','gpu','memory']:
+            cat_dir = cat
+            if not os.path.isdir(cat_dir): continue
+            for uid in os.listdir(cat_dir):
+              rfile = os.path.join(cat_dir, uid, 'record.json')
+              if not os.path.exists(rfile): continue
+              with open(rfile) as f:
+                record = json.load(f)
+              try:
+                jsonschema.validate(record, schema)
+              except jsonschema.ValidationError as e:
+                errors.append(f'{rfile}: {e.message}')
+          if errors:
+            for e in errors: print(f'ERROR: {e}')
+            sys.exit(1)
+          print(f'All records valid')
+          "
+
+      - name: Upload artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

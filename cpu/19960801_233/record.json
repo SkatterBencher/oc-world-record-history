@@ -1,0 +1,29 @@
+{
+  "uid": "19960801_233",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1996-08-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 233.0,
+  "hardware": {
+    "primary": "Intel Pentium Pro 200",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Masashi",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

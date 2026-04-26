@@ -1,0 +1,29 @@
+{
+  "uid": "20050729_6925",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2005-07-29",
+  "achieved_at_approximate": false,
+  "value_mhz": 6925.2,
+  "hardware": {
+    "primary": "Intel Pentium 4 670",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "TAM",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

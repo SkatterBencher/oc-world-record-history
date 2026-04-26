@@ -1,0 +1,29 @@
+{
+  "uid": "20050118_6495",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2005-01-18",
+  "achieved_at_approximate": false,
+  "value_mhz": 6495.2,
+  "hardware": {
+    "primary": "Intel Pentium 4 570J",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Futto-kun",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

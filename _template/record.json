@@ -1,0 +1,35 @@
+{
+  "uid": "YYYYMMDD_valueMHz",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "YYYY-MM-DD",
+  "achieved_at_approximate": false,
+  "value_mhz": 0.0,
+  "hardware": {
+    "primary": null,
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Unknown",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "your-github-handle"
+}

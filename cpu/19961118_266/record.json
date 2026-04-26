@@ -1,0 +1,29 @@
+{
+  "uid": "19961118_266",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1996-11-18",
+  "achieved_at_approximate": false,
+  "value_mhz": 266.0,
+  "hardware": {
+    "primary": "Intel Pentium Pro 200 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Kryotech",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

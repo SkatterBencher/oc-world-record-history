@@ -1,0 +1,29 @@
+{
+  "uid": "20030524_4762",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2003-05-24",
+  "achieved_at_approximate": false,
+  "value_mhz": 4762.4,
+  "hardware": {
+    "primary": "Intel Pentium 4 3.0 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "OMEGA",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

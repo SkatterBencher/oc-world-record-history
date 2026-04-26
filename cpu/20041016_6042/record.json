@@ -1,0 +1,29 @@
+{
+  "uid": "20041016_6042",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2004-10-16",
+  "achieved_at_approximate": false,
+  "value_mhz": 6042.5,
+  "hardware": {
+    "primary": "Intel Pentium 4 560",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Memesama",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

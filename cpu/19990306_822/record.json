@@ -1,0 +1,31 @@
+{
+  "uid": "19990306_822",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1999-03-06",
+  "achieved_at_approximate": false,
+  "value_mhz": 822.0,
+  "hardware": {
+    "primary": "Intel Celeron 333",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Mr. Kondo",
+      "real_name": "近藤さん",
+      "aliases": [
+        "ja0hxv"
+      ],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

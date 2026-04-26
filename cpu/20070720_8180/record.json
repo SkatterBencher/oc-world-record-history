@@ -1,0 +1,29 @@
+{
+  "uid": "20070720_8180",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2007-07-20",
+  "achieved_at_approximate": false,
+  "value_mhz": 8180.4,
+  "hardware": {
+    "primary": "Intel Pentium 4 631",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Duck",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

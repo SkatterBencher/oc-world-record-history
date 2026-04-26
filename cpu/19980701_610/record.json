@@ -1,0 +1,29 @@
+{
+  "uid": "19980701_610",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1998-07-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 610.0,
+  "hardware": {
+    "primary": "Unknown",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Unknown",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

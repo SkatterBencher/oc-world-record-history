@@ -1,0 +1,29 @@
+{
+  "uid": "20030214_4599",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2003-02-14",
+  "achieved_at_approximate": false,
+  "value_mhz": 4599.85,
+  "hardware": {
+    "primary": "Intel Pentium 4 3.06 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

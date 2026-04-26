@@ -1,0 +1,29 @@
+{
+  "uid": "20031230_5255",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2003-12-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 5255.0,
+  "hardware": {
+    "primary": "Unknown",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Frank Volkel",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "19990619_921",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1999-06-19",
+  "achieved_at_approximate": false,
+  "value_mhz": 921.16,
+  "hardware": {
+    "primary": "Intel Celeron 466",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Mr. Kondo",
+      "real_name": "近藤さん",
+      "aliases": [
+        "ja0hxv"
+      ],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

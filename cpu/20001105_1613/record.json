@@ -1,0 +1,29 @@
+{
+  "uid": "20001105_1613",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2000-11-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 1613.45,
+  "hardware": {
+    "primary": "AMD Athlon 1100 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Mr. Yu",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20000903_1612",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2000-09-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 1612.66,
+  "hardware": {
+    "primary": "Intel Pentium III 850 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "HIDE",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

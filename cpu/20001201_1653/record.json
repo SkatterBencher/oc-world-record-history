@@ -1,0 +1,29 @@
+{
+  "uid": "20001201_1653",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2000-12-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 1653.02,
+  "hardware": {
+    "primary": "Intel Pentium III 933 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Anpanman",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

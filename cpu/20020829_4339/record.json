@@ -1,0 +1,29 @@
+{
+  "uid": "20020829_4339",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2002-08-29",
+  "achieved_at_approximate": false,
+  "value_mhz": 4339.0,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.8 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Muropaketti",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

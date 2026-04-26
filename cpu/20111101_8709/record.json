@@ -1,0 +1,29 @@
+{
+  "uid": "20111101_8709",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2011-11-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 8709.06,
+  "hardware": {
+    "primary": "AMD FX-8150",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "AndreYang",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

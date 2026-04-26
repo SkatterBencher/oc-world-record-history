@@ -1,0 +1,29 @@
+{
+  "uid": "20020819_4309",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2002-08-19",
+  "achieved_at_approximate": false,
+  "value_mhz": 4309.62,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.4 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Unknown",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

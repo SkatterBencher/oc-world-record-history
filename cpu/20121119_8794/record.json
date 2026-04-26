@@ -1,0 +1,29 @@
+{
+  "uid": "20121119_8794",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2012-11-19",
+  "achieved_at_approximate": false,
+  "value_mhz": 8794.33,
+  "hardware": {
+    "primary": "AMD FX-8350",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "AndreYang",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

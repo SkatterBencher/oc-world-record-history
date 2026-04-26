@@ -1,0 +1,29 @@
+{
+  "uid": "20050809_7133",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2005-08-09",
+  "achieved_at_approximate": false,
+  "value_mhz": 7133.5,
+  "hardware": {
+    "primary": "Intel Pentium 4 670",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Memesama",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20100923_8242",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2010-09-23",
+  "achieved_at_approximate": false,
+  "value_mhz": 8242.45,
+  "hardware": {
+    "primary": "Intel Celeron D 360",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Duck",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

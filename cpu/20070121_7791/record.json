@@ -1,0 +1,29 @@
+{
+  "uid": "20070121_7791",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2007-01-21",
+  "achieved_at_approximate": false,
+  "value_mhz": 7791.79,
+  "hardware": {
+    "primary": "Intel Pentium 4 631",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "ThuG",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20011107_3391",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2001-11-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 3391.12,
+  "hardware": {
+    "primary": "Intel Xeon 1.7 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Eric",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20021201_4456",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2002-12-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 4456.58,
+  "hardware": {
+    "primary": "Intel Pentium 4 3.06 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Tamozyouri",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

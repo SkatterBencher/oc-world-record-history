@@ -1,0 +1,29 @@
+{
+  "uid": "19980111_416",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1998-01-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 416.5,
+  "hardware": {
+    "primary": "Intel Pentium II 333 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Masashi",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,36 @@
+{
+  "uid": "20040525_6009",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2004-05-25",
+  "achieved_at_approximate": false,
+  "value_mhz": 6009.8,
+  "hardware": {
+    "primary": "Intel Pentium 4 560",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    },
+    {
+      "handle": "The Stilt",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20111031_8491",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2011-10-31",
+  "achieved_at_approximate": false,
+  "value_mhz": 8491.7,
+  "hardware": {
+    "primary": "AMD FX-8150",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Chew*",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

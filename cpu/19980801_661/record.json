@@ -1,0 +1,29 @@
+{
+  "uid": "19980801_661",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1998-08-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 661.5,
+  "hardware": {
+    "primary": "Intel Pentium II 450 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "RYK",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

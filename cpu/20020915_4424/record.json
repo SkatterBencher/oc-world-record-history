@@ -1,0 +1,29 @@
+{
+  "uid": "20020915_4424",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2002-09-15",
+  "achieved_at_approximate": false,
+  "value_mhz": 4424.99,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.5 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20030703_5125",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2003-07-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 5125.91,
+  "hardware": {
+    "primary": "Intel Pentium 4 3.2 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "TAM",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

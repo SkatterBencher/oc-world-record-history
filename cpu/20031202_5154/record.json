@@ -1,0 +1,29 @@
+{
+  "uid": "20031202_5154",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2003-12-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 5154.54,
+  "hardware": {
+    "primary": "Intel Pentium 4 XE 3.20G",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Memesama",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

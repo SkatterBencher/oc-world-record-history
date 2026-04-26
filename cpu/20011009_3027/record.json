@@ -1,0 +1,29 @@
+{
+  "uid": "20011009_3027",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2001-10-09",
+  "achieved_at_approximate": false,
+  "value_mhz": 3027.41,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.0 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

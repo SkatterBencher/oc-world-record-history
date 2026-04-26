@@ -1,0 +1,29 @@
+{
+  "uid": "20020710_4244",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2002-07-10",
+  "achieved_at_approximate": false,
+  "value_mhz": 4244.7,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.53 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Son",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

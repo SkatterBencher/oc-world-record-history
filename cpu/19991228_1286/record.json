@@ -1,0 +1,29 @@
+{
+  "uid": "19991228_1286",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1999-12-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 1286.3,
+  "hardware": {
+    "primary": "Intel Pentium III 750",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Mr. amt",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

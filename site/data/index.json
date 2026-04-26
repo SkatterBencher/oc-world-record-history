@@ -1,0 +1,3189 @@
+[
+  {
+    "uid": "19960801_233",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1996-08-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 233.0,
+    "hardware": {
+      "primary": "Intel Pentium Pro 200",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Masashi",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19960801_233/"
+  },
+  {
+    "uid": "19961118_266",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1996-11-18",
+    "achieved_at_approximate": false,
+    "value_mhz": 266.0,
+    "hardware": {
+      "primary": "Intel Pentium Pro 200 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kryotech",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19961118_266/"
+  },
+  {
+    "uid": "19971101_337",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1997-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 337.5,
+    "hardware": {
+      "primary": "Intel Pentium II 300 Mhz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Masashi",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19971101_337/"
+  },
+  {
+    "uid": "19971117_375",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1997-11-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 375.0,
+    "hardware": {
+      "primary": "AMD K6 266",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kryotech",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19971117_375/"
+  },
+  {
+    "uid": "19971205_400",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1997-12-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 400.0,
+    "hardware": {
+      "primary": "Intel Pentium II",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kryotech",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19971205_400/"
+  },
+  {
+    "uid": "19980111_416",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-01-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 416.5,
+    "hardware": {
+      "primary": "Intel Pentium II 333 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Masashi",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19980111_416/"
+  },
+  {
+    "uid": "19980301_530",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-03-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 530.0,
+    "hardware": {
+      "primary": "Intel Pentium II 400",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mega Pi",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19980301_530/"
+  },
+  {
+    "uid": "19980401_590",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-04-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 590.0,
+    "hardware": {
+      "primary": "Unknown",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Unknown",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19980401_590/"
+  },
+  {
+    "uid": "19980701_610",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-07-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 610.0,
+    "hardware": {
+      "primary": "Unknown",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Unknown",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19980701_610/"
+  },
+  {
+    "uid": "19980801_661",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-08-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 661.5,
+    "hardware": {
+      "primary": "Intel Pentium II 450 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "RYK",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19980801_661/"
+  },
+  {
+    "uid": "19980912_675",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-09-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 675.0,
+    "hardware": {
+      "primary": "Unknown",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Takach",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19980912_675/"
+  },
+  {
+    "uid": "19981007_698",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-10-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 698.88,
+    "hardware": {
+      "primary": "Intel Celeron 300A",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "KAZ",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19981007_698/"
+  },
+  {
+    "uid": "19981109_715",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-11-09",
+    "achieved_at_approximate": false,
+    "value_mhz": 715.95,
+    "hardware": {
+      "primary": "Intel Celeron 300A",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19981109_715/"
+  },
+  {
+    "uid": "19981121_716",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-11-21",
+    "achieved_at_approximate": false,
+    "value_mhz": 716.0,
+    "hardware": {
+      "primary": "Intel Celeron 300A",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Katsuya",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19981121_716/"
+  },
+  {
+    "uid": "19981213_724",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-12-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 724.5,
+    "hardware": {
+      "primary": "Intel Celeron 300A",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19981213_724/"
+  },
+  {
+    "uid": "19981230_743",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1998-12-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 743.4,
+    "hardware": {
+      "primary": "Intel Celeron 300A",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19981230_743/"
+  },
+  {
+    "uid": "19990110_759",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-01-10",
+    "achieved_at_approximate": false,
+    "value_mhz": 759.16,
+    "hardware": {
+      "primary": "Intel Celeron 300A",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19990110_759/"
+  },
+  {
+    "uid": "19990217_808",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-02-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 808.49,
+    "hardware": {
+      "primary": "Intel Celeron 366",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Funano",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19990217_808/"
+  },
+  {
+    "uid": "19990220_811",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-02-20",
+    "achieved_at_approximate": false,
+    "value_mhz": 811.92,
+    "hardware": {
+      "primary": "Intel Celeron 333",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19990220_811/"
+  },
+  {
+    "uid": "19990306_822",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-03-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 822.0,
+    "hardware": {
+      "primary": "Intel Celeron 333",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19990306_822/"
+  },
+  {
+    "uid": "19990321_849",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-03-21",
+    "achieved_at_approximate": false,
+    "value_mhz": 849.85,
+    "hardware": {
+      "primary": "Intel Celeron 366",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Funano",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19990321_849/"
+  },
+  {
+    "uid": "19990619_921",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-06-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 921.16,
+    "hardware": {
+      "primary": "Intel Celeron 466",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19990619_921/"
+  },
+  {
+    "uid": "19991007_1082",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-10-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 1082.11,
+    "hardware": {
+      "primary": "AMD Athlon 650 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19991007_1082/"
+  },
+  {
+    "uid": "19991101_1151",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 1151.51,
+    "hardware": {
+      "primary": "AMD Athlon 700 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19991101_1151/"
+  },
+  {
+    "uid": "19991116_1238",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-11-16",
+    "achieved_at_approximate": false,
+    "value_mhz": 1238.92,
+    "hardware": {
+      "primary": "Intel Pentium III 733ES",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19991116_1238/"
+  },
+  {
+    "uid": "19991121_1264",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-11-21",
+    "achieved_at_approximate": false,
+    "value_mhz": 1264.92,
+    "hardware": {
+      "primary": "Intel Pentium III 733ES",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19991121_1264/"
+  },
+  {
+    "uid": "19991228_1286",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "1999-12-28",
+    "achieved_at_approximate": false,
+    "value_mhz": 1286.3,
+    "hardware": {
+      "primary": "Intel Pentium III 750",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. amt",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/19991228_1286/"
+  },
+  {
+    "uid": "20000402_1370",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-04-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 1370.0,
+    "hardware": {
+      "primary": "Intel Pentium III 800 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. amt",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20000402_1370/"
+  },
+  {
+    "uid": "20000409_1500",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-04-09",
+    "achieved_at_approximate": false,
+    "value_mhz": 1500.0,
+    "hardware": {
+      "primary": "Intel Pentium III 800 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20000409_1500/"
+  },
+  {
+    "uid": "20000413_1522",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-04-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 1522.71,
+    "hardware": {
+      "primary": "Intel Pentium III 800 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20000413_1522/"
+  },
+  {
+    "uid": "20000903_1612",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-09-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 1612.66,
+    "hardware": {
+      "primary": "Intel Pentium III 850 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "HIDE",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20000903_1612/"
+  },
+  {
+    "uid": "20001105_1613",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-11-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 1613.45,
+    "hardware": {
+      "primary": "AMD Athlon 1100 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Yu",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20001105_1613/"
+  },
+  {
+    "uid": "20001201_1653",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-12-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 1653.02,
+    "hardware": {
+      "primary": "Intel Pentium III 933 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Anpanman",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20001201_1653/"
+  },
+  {
+    "uid": "20001203_2144",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-12-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 2144.52,
+    "hardware": {
+      "primary": "Intel Pentium 4 1.4 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20001203_2144/"
+  },
+  {
+    "uid": "20001213_2205",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2000-12-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 2205.56,
+    "hardware": {
+      "primary": "Intel Pentium 4 1.4 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": "近藤さん",
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20001213_2205/"
+  },
+  {
+    "uid": "20010308_2250",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2001-03-08",
+    "achieved_at_approximate": false,
+    "value_mhz": 2250.0,
+    "hardware": {
+      "primary": "Intel Pentium 4 1.7 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Anpanman",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20010308_2250/"
+  },
+  {
+    "uid": "20010315_2600",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2001-03-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 2600.37,
+    "hardware": {
+      "primary": "Intel Pentium 4 1.7 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20010315_2600/"
+  },
+  {
+    "uid": "20010329_2804",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2001-03-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 2804.99,
+    "hardware": {
+      "primary": "Intel Pentium 4 1.7 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20010329_2804/"
+  },
+  {
+    "uid": "20010402_2864",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2001-04-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 2864.48,
+    "hardware": {
+      "primary": "Intel Pentium 4 1.7 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20010402_2864/"
+  },
+  {
+    "uid": "20010905_3023",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2001-09-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 3023.98,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.0 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Anpanman",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20010905_3023/"
+  },
+  {
+    "uid": "20011009_3027",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2001-10-09",
+    "achieved_at_approximate": false,
+    "value_mhz": 3027.41,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.0 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20011009_3027/"
+  },
+  {
+    "uid": "20011107_3391",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2001-11-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 3391.12,
+    "hardware": {
+      "primary": "Intel Xeon 1.7 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Eric",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20011107_3391/"
+  },
+  {
+    "uid": "20020109_3541",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-01-09",
+    "achieved_at_approximate": false,
+    "value_mhz": 3541.87,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.2 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020109_3541/"
+  },
+  {
+    "uid": "20020117_3674",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-01-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 3674.99,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.2 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Sampsa",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020117_3674/"
+  },
+  {
+    "uid": "20020119_3702",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-01-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 3702.55,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.2 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Tatumiya",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020119_3702/"
+  },
+  {
+    "uid": "20020123_3808",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-01-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 3808.91,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.2 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020123_3808/"
+  },
+  {
+    "uid": "20020322_3890",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-03-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 3890.79,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.2 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Tatumiya",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020322_3890/"
+  },
+  {
+    "uid": "20020327_4010",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-03-27",
+    "achieved_at_approximate": false,
+    "value_mhz": 4010.88,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.4 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020327_4010/"
+  },
+  {
+    "uid": "20020414_4110",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-04-14",
+    "achieved_at_approximate": false,
+    "value_mhz": 4110.0,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.4 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020414_4110/"
+  },
+  {
+    "uid": "20020710_4244",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-07-10",
+    "achieved_at_approximate": false,
+    "value_mhz": 4244.7,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.53 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Son",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020710_4244/"
+  },
+  {
+    "uid": "20020819_4309",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-08-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 4309.62,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.4 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Unknown",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020819_4309/"
+  },
+  {
+    "uid": "20020829_4339",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-08-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 4339.0,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.8 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Muropaketti",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020829_4339/"
+  },
+  {
+    "uid": "20020901_4130",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-09-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 4130.39,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.4 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020901_4130/"
+  },
+  {
+    "uid": "20020901_4418",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-09-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 4418.38,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.5 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020901_4418/"
+  },
+  {
+    "uid": "20020915_4424",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-09-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 4424.99,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.5 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20020915_4424/"
+  },
+  {
+    "uid": "20021117_4438",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-11-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 4438.35,
+    "hardware": {
+      "primary": "Intel Pentium 4 3.06 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Ja0hxv",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20021117_4438/"
+  },
+  {
+    "uid": "20021201_4456",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-12-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 4456.58,
+    "hardware": {
+      "primary": "Intel Pentium 4 3.06 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Tamozyouri",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20021201_4456/"
+  },
+  {
+    "uid": "20021208_4588",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-12-08",
+    "achieved_at_approximate": false,
+    "value_mhz": 4588.49,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.5 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20021208_4588/"
+  },
+  {
+    "uid": "20030214_4599",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2003-02-14",
+    "achieved_at_approximate": false,
+    "value_mhz": 4599.85,
+    "hardware": {
+      "primary": "Intel Pentium 4 3.06 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20030214_4599/"
+  },
+  {
+    "uid": "20030223_4623",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2003-02-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 4623.21,
+    "hardware": {
+      "primary": "Intel Pentium 4 3.06 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20030223_4623/"
+  },
+  {
+    "uid": "20030524_4762",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2003-05-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 4762.4,
+    "hardware": {
+      "primary": "Intel Pentium 4 3.0 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OMEGA",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20030524_4762/"
+  },
+  {
+    "uid": "20030629_4872",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2003-06-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 4872.65,
+    "hardware": {
+      "primary": "Intel Pentium 4 3.2 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "TAM",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20030629_4872/"
+  },
+  {
+    "uid": "20030703_5125",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2003-07-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 5125.91,
+    "hardware": {
+      "primary": "Intel Pentium 4 3.2 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "TAM",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20030703_5125/"
+  },
+  {
+    "uid": "20031202_5154",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2003-12-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 5154.54,
+    "hardware": {
+      "primary": "Intel Pentium 4 XE 3.20G",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20031202_5154/"
+  },
+  {
+    "uid": "20031230_5255",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2003-12-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 5255.0,
+    "hardware": {
+      "primary": "Unknown",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Frank Volkel",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20031230_5255/"
+  },
+  {
+    "uid": "20040102_5326",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-01-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 5326.36,
+    "hardware": {
+      "primary": "Intel Pentium 4 XE 3.20G",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20040102_5326/"
+  },
+  {
+    "uid": "20040509_5387",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-05-09",
+    "achieved_at_approximate": false,
+    "value_mhz": 5387.2,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.8 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20040509_5387/"
+  },
+  {
+    "uid": "20040525_6009",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-05-25",
+    "achieved_at_approximate": false,
+    "value_mhz": 6009.8,
+    "hardware": {
+      "primary": "Intel Pentium 4 560",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      },
+      {
+        "handle": "The Stilt",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20040525_6009/"
+  },
+  {
+    "uid": "20040622_5574",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-06-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 5574.9,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.8 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20040622_5574/"
+  },
+  {
+    "uid": "20041016_6042",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-10-16",
+    "achieved_at_approximate": false,
+    "value_mhz": 6042.5,
+    "hardware": {
+      "primary": "Intel Pentium 4 560",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20041016_6042/"
+  },
+  {
+    "uid": "20041028_6114",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-10-28",
+    "achieved_at_approximate": false,
+    "value_mhz": 6114.0,
+    "hardware": {
+      "primary": "Intel Pentium 4 560",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20041028_6114/"
+  },
+  {
+    "uid": "20041101_6212",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 6212.1,
+    "hardware": {
+      "primary": "Intel Pentium 4 560J",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Fugger",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20041101_6212/"
+  },
+  {
+    "uid": "20041101_6302",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 6302.3,
+    "hardware": {
+      "primary": "Intel Pentium 4 560J",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Fugger",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20041101_6302/"
+  },
+  {
+    "uid": "20041129_6315",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-11-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 6315.2,
+    "hardware": {
+      "primary": "Intel Pentium 4 560J",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Fugger",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20041129_6315/"
+  },
+  {
+    "uid": "20050118_6495",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-01-18",
+    "achieved_at_approximate": false,
+    "value_mhz": 6495.2,
+    "hardware": {
+      "primary": "Intel Pentium 4 570J",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Futto-kun",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20050118_6495/"
+  },
+  {
+    "uid": "20050607_6578",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-06-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 6578.85,
+    "hardware": {
+      "primary": "Intel Pentium 4 660",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "The Stilt",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20050607_6578/"
+  },
+  {
+    "uid": "20050729_6925",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-07-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 6925.2,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "TAM",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20050729_6925/"
+  },
+  {
+    "uid": "20050809_7133",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-08-09",
+    "achieved_at_approximate": false,
+    "value_mhz": 7133.5,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20050809_7133/"
+  },
+  {
+    "uid": "20050813_7323",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-08-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 7323.7,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20050813_7323/"
+  },
+  {
+    "uid": "20050916_7418",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-09-16",
+    "achieved_at_approximate": false,
+    "value_mhz": 7418.4,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Memesama",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20050916_7418/"
+  },
+  {
+    "uid": "20051113_7473",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-11-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 7473.75,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kyosen",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20051113_7473/"
+  },
+  {
+    "uid": "20051213_7532",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-12-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 7532.8,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20051213_7532/"
+  },
+  {
+    "uid": "20051213_7608",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-12-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 7608.5,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20051213_7608/"
+  },
+  {
+    "uid": "20051228_7625",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-12-28",
+    "achieved_at_approximate": false,
+    "value_mhz": 7625.1,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20051228_7625/"
+  },
+  {
+    "uid": "20051229_7638",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-12-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 7638.6,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20051229_7638/"
+  },
+  {
+    "uid": "20060206_7657",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2006-02-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 7657.6,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20060206_7657/"
+  },
+  {
+    "uid": "20070121_7791",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2007-01-21",
+    "achieved_at_approximate": false,
+    "value_mhz": 7791.79,
+    "hardware": {
+      "primary": "Intel Pentium 4 631",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "ThuG",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20070121_7791/"
+  },
+  {
+    "uid": "20070122_8000",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2007-01-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 8000.1,
+    "hardware": {
+      "primary": "Intel Pentium 4 631",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "ThuG",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20070122_8000/"
+  },
+  {
+    "uid": "20070330_8179",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2007-03-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 8179.89,
+    "hardware": {
+      "primary": "Intel Celeron D 360",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "ThuG",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20070330_8179/"
+  },
+  {
+    "uid": "20070720_8180",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2007-07-20",
+    "achieved_at_approximate": false,
+    "value_mhz": 8180.4,
+    "hardware": {
+      "primary": "Intel Pentium 4 631",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20070720_8180/"
+  },
+  {
+    "uid": "20070720_8220",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2007-07-20",
+    "achieved_at_approximate": false,
+    "value_mhz": 8220.1,
+    "hardware": {
+      "primary": "Intel Pentium 4 631",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20070720_8220/"
+  },
+  {
+    "uid": "20100923_8242",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2010-09-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 8242.45,
+    "hardware": {
+      "primary": "Intel Celeron D 360",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20100923_8242/"
+  },
+  {
+    "uid": "20110819_8308",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2011-08-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 8308.94,
+    "hardware": {
+      "primary": "Intel Celeron D 352",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "TaPaKaH",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20110819_8308/"
+  },
+  {
+    "uid": "20110902_8429",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2011-09-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 8429.38,
+    "hardware": {
+      "primary": "AMD FX-8150",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20110902_8429/"
+  },
+  {
+    "uid": "20111027_8461",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2011-10-27",
+    "achieved_at_approximate": false,
+    "value_mhz": 8461.51,
+    "hardware": {
+      "primary": "AMD FX-8150",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "AndreYang",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20111027_8461/"
+  },
+  {
+    "uid": "20111031_8491",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2011-10-31",
+    "achieved_at_approximate": false,
+    "value_mhz": 8491.7,
+    "hardware": {
+      "primary": "AMD FX-8150",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Chew*",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20111031_8491/"
+  },
+  {
+    "uid": "20111101_8585",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2011-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 8585.05,
+    "hardware": {
+      "primary": "AMD FX-8150",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "AndreYang",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20111101_8585/"
+  },
+  {
+    "uid": "20111101_8709",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2011-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 8709.06,
+    "hardware": {
+      "primary": "AMD FX-8150",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "AndreYang",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20111101_8709/"
+  },
+  {
+    "uid": "20121119_8794",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2012-11-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 8794.33,
+    "hardware": {
+      "primary": "AMD FX-8350",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "AndreYang",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20121119_8794/"
+  },
+  {
+    "uid": "20221014_8812",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2022-10-14",
+    "achieved_at_approximate": false,
+    "value_mhz": 8812.85,
+    "hardware": {
+      "primary": "Intel Core i9-13900K",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Elmor",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20221014_8812/"
+  },
+  {
+    "uid": "20221209_9008",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2022-12-09",
+    "achieved_at_approximate": false,
+    "value_mhz": 9008.82,
+    "hardware": {
+      "primary": "Intel Core i9-13900K",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Elmor",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20221209_9008/"
+  },
+  {
+    "uid": "20231016_9043",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2023-10-16",
+    "achieved_at_approximate": false,
+    "value_mhz": 9043.92,
+    "hardware": {
+      "primary": "Intel Core i9-14900KF",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Elmor",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20231016_9043/"
+  },
+  {
+    "uid": "20240307_9117",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2024-03-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 9117.75,
+    "hardware": {
+      "primary": "Intel Core i9-14900KS",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Elmor",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20240307_9117/"
+  },
+  {
+    "uid": "20250111_9121",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2025-01-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 9121.61,
+    "hardware": {
+      "primary": "Intel Core i9-14900KF",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Wytiwx",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20250111_9121/"
+  },
+  {
+    "uid": "20250823_9130",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2025-08-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 9130.33,
+    "hardware": {
+      "primary": "Intel Core i9-14900KF",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Wytiwx",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "cpu/20250823_9130/"
+  }
+]

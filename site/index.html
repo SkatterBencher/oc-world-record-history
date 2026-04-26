@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OC World Record Museum</title>
+  <meta name="description" content="A curated history of CPU, GPU, and memory overclocking world records since 1996.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="#cpu">OC<span>/</span>MUSEUM</a>
+    <nav>
+      <a href="#cpu"    data-page="cpu">CPU</a>
+      <a href="#gpu"    data-page="gpu">GPU</a>
+      <a href="#memory" data-page="memory">Memory</a>
+      <a href="#about"  data-page="about">About</a>
+    </nav>
+    <div class="header-right">
+      <span class="record-count" id="header-record-count"></span>
+    </div>
+  </header>
+
+  <!-- TIMELINE PAGE -->
+  <div class="page" id="page-timeline">
+    <div class="timeline-layout">
+
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-label">Filter by Tag</div>
+          <div class="tag-filter" id="sidebar-tags"></div>
+        </div>
+      </aside>
+
+      <main class="timeline-main" id="timeline-main">
+        <div class="timeline-header">
+          <h1 class="timeline-title" id="timeline-title"></h1>
+          <p class="timeline-subtitle" id="timeline-subtitle"></p>
+        </div>
+        <div id="timeline-records"></div>
+      </main>
+
+    </div>
+  </div>
+
+  <!-- ABOUT PAGE -->
+  <div class="page" id="page-about">
+    <div class="about-content">
+      <h1>About This Museum</h1>
+      <p>
+        The OC World Record Museum is a curated, open archive of CPU, GPU, and memory
+        overclocking world records dating back to 1996. Every entry is sourced,
+        verified, and preserved for posterity.
+      </p>
+      <h2>Methodology</h2>
+      <p>
+        Records are verified against contemporary sources — CPU-Z validations, HWBot
+        entries, forum posts, and archived pages. Where the original source URL has
+        died, we maintain a local archive via ArchiveBox.
+      </p>
+      <h2>Contributing</h2>
+      <p>
+        Found an error or a missing record? Open an
+        <a href="https://github.com/skatterbencher/oc-world-record-history/issues" target="_blank" rel="noopener">
+          GitHub Issue
+        </a>
+        to discuss it, or submit a Pull Request following the
+        <a href="https://github.com/skatterbencher/oc-world-record-history/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
+          contributor guidelines
+        </a>.
+      </p>
+      <h2>Data License</h2>
+      <p>
+        All record data is published under
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        Please attribute <strong>museum.skatterbencher.com</strong> when using this data.
+      </p>
+      <h2>Curator</h2>
+      <p>
+        Maintained by <a href="https://skatterbencher.com" target="_blank" rel="noopener">SkatterBencher</a>.
+      </p>
+    </div>
+  </div>
+
+  <!-- DETAIL PANEL (global, outside page flow) -->
+  <div class="detail-panel" id="detail-panel">
+    <button class="panel-close" id="panel-close-btn" title="Close (Esc)">×</button>
+    <div class="panel-inner" id="panel-content"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "uid": "20070330_8179",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2007-03-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 8179.89,
+  "hardware": {
+    "primary": "Intel Celeron D 360",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "ThuG",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

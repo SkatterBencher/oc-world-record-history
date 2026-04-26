@@ -1,0 +1,29 @@
+{
+  "uid": "20020322_3890",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2002-03-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 3890.79,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.2 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Tatumiya",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

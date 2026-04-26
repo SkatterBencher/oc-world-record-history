@@ -1,0 +1,31 @@
+{
+  "uid": "19991007_1082",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1999-10-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 1082.11,
+  "hardware": {
+    "primary": "AMD Athlon 650 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Mr. Kondo",
+      "real_name": "近藤さん",
+      "aliases": [
+        "ja0hxv"
+      ],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

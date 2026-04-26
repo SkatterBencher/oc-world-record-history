@@ -1,0 +1,29 @@
+{
+  "uid": "20050607_6578",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2005-06-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 6578.85,
+  "hardware": {
+    "primary": "Intel Pentium 4 660",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "The Stilt",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

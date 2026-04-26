@@ -1,0 +1,29 @@
+{
+  "uid": "20221209_9008",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2022-12-09",
+  "achieved_at_approximate": false,
+  "value_mhz": 9008.82,
+  "hardware": {
+    "primary": "Intel Core i9-13900K",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Elmor",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20010402_2864",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2001-04-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 2864.48,
+  "hardware": {
+    "primary": "Intel Pentium 4 1.7 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

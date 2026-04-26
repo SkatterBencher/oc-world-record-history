@@ -1,0 +1,25 @@
+---
+name: Discuss or correct a record
+about: Report an error, missing record, or disputed entry
+title: "Record [UID]: [brief description]"
+labels: ["record-discussion"]
+---
+
+**Record UID**
+<!-- e.g. 20260103_9130 -->
+
+**Type of issue**
+- [ ] Incorrect data
+- [ ] Missing record
+- [ ] Disputed record
+- [ ] Missing source
+- [ ] Other
+
+**Description**
+<!-- What is wrong or missing? -->
+
+**Source(s)**
+<!-- Please provide at least one verifiable source URL -->
+
+**Suggested correction**
+<!-- If applicable, what should the record say? -->

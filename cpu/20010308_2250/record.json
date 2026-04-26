@@ -1,0 +1,29 @@
+{
+  "uid": "20010308_2250",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "2001-03-08",
+  "achieved_at_approximate": false,
+  "value_mhz": 2250.0,
+  "hardware": {
+    "primary": "Intel Pentium 4 1.7 GHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Anpanman",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

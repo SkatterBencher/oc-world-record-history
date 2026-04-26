@@ -1,0 +1,31 @@
+{
+  "uid": "19981109_715",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1998-11-09",
+  "achieved_at_approximate": false,
+  "value_mhz": 715.95,
+  "hardware": {
+    "primary": "Intel Celeron 300A",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Mr. Kondo",
+      "real_name": "近藤さん",
+      "aliases": [
+        "ja0hxv"
+      ],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

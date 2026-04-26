@@ -1,0 +1,29 @@
+{
+  "uid": "19981007_698",
+  "category": "cpu",
+  "subcategory": null,
+  "achieved_at": "1998-10-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 698.88,
+  "hardware": {
+    "primary": "Intel Celeron 300A",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "KAZ",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
