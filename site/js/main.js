@@ -88,7 +88,7 @@ function renderTimeline() {
     `${records.length} records`;
 
   renderTagSidebar(records);
-  renderChart(records);
+  try { renderChart(records); } catch(e) { console.warn('Chart render failed:', e); }
 
   const maxMhz = Math.max(...records.map(r => r.value_mhz), 1);
 
@@ -160,15 +160,14 @@ function renderChart(records) {
   }
   canvas.style.display = 'block';
 
-  // DPI-aware sizing
+  // DPI-aware sizing — fall back if canvas is hidden (display:none parent)
   const dpr = window.devicePixelRatio || 1;
   const rect = canvas.getBoundingClientRect();
-  canvas.width  = rect.width  * dpr;
-  canvas.height = rect.height * dpr;
+  const W = rect.width > 0 ? rect.width : (canvas.parentElement?.offsetWidth || 800);
+  const H = rect.height > 0 ? rect.height : 200;
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
   ctx.scale(dpr, dpr);
-
-  const W = rect.width;
-  const H = rect.height;
   const PAD = { top: 16, right: 24, bottom: 36, left: 64 };
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top  - PAD.bottom;
