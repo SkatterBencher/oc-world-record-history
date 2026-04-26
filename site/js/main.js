@@ -101,7 +101,7 @@ function renderTimeline() {
     label.textContent = decade;
     group.appendChild(label);
 
-    const decadeRecords = byDecade[decade].sort((a, b) => b.achieved_at.localeCompare(a.achieved_at));
+    const decadeRecords = byDecade[decade].sort((a, b) => b.value_mhz - a.value_mhz || b.achieved_at.localeCompare(a.achieved_at));
     decadeRecords.forEach(r => {
       const pct = ((r.value_mhz / maxMhz) * 100).toFixed(1);
       const row = document.createElement('div');
