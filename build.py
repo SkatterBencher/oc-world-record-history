@@ -117,6 +117,20 @@ with open(OUTPUT_DIR / "index.json", "w", encoding="utf-8") as f:
 with open(OUTPUT_DIR / "tags.json", "w", encoding="utf-8") as f:
     json.dump(tag_index, f, indent=2, ensure_ascii=False)
 
+
+# Generate sitemap.xml
+BASE_URL = "https://museum.skatterbencher.com"
+sitemap_urls = [
+    '  <url><loc>' + BASE_URL + '/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
+    '  <url><loc>' + BASE_URL + '/#cpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    '  <url><loc>' + BASE_URL + '/#gpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    '  <url><loc>' + BASE_URL + '/#memory</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    '  <url><loc>' + BASE_URL + '/#about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>',
+]
+sitemap_lines = '\n'.join(sitemap_urls)
+sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sitemap_lines + '\n</urlset>'
+with open(ROOT / "site" / "sitemap.xml", "w", encoding="utf-8") as f:
+    f.write(sitemap_xml)
 print(f"Built {len(records)} records across {len(CATEGORIES)} categories")
 print(f"Tags found: {sorted(tag_index.keys())}")
 print(f"Assets copied: {assets_copied}, auto-synced to records: {assets_synced}")
