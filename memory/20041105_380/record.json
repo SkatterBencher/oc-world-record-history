@@ -1,0 +1,42 @@
+{
+  "uid": "20041105_380",
+  "category": "memory",
+  "subcategory": "DDR2",
+  "achieved_at": "2004-11-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 380.4,
+  "hardware": {
+    "primary": "Crucial 0275 B",
+    "motherboard": "ABITAA8 -3rd Eye",
+    "memory": "Crucial 0275 B",
+    "cooling": null
+  },
+  "hero": null,
+  "overclockers": [
+    {
+      "handle": "ま～",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Biwa OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "38040_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

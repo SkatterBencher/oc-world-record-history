@@ -1,0 +1,47 @@
+{
+  "uid": "20041031_376",
+  "category": "memory",
+  "subcategory": null,
+  "achieved_at": "2004-10-31",
+  "achieved_at_approximate": false,
+  "value_mhz": 376.6,
+  "hardware": {
+    "primary": "Crucial DDRII/667 256MB×2",
+    "motherboard": "ASUS P5AD2 Deluxe",
+    "memory": "Crucial DDRII/667 256MB×2",
+    "cooling": null
+  },
+  "hero": "14-282pai.JPG",
+  "overclockers": [
+    {
+      "handle": "Kaz-n",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://www.kaz-n.com/3g-gp.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "14-282pai.JPG",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "37660_blog.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

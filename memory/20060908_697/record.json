@@ -4,24 +4,39 @@
   "subcategory": "DDR2",
   "achieved_at": "2006-09-08",
   "achieved_at_approximate": false,
-  "value_mhz": 697.0,
+  "value_mhz": 697,
   "hardware": {
-    "primary": "G.SKILL",
-    "motherboard": null,
-    "memory": null,
+    "primary": "G.Skill F2-6400PHU2-1GBHZ",
+    "motherboard": "P5B　Deluxe",
+    "memory": "G.Skill F2-6400PHU2-1GBHZ",
     "cooling": null
   },
+  "hero": null,
   "overclockers": [
     {
-      "handle": "光弘",
+      "handle": "Mitsuhiro",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "光弘"
+      ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "69700_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR2"
   ],

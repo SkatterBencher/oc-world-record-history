@@ -6,11 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 314.1,
   "hardware": {
-    "primary": "A-Data",
-    "motherboard": null,
-    "memory": null,
+    "primary": "A-DATA ADD8608A8A-4B",
+    "motherboard": "P4C800 Deluxe",
+    "memory": "A-DATA ADD8608A8A-4B",
     "cooling": null
   },
+  "hero": "ddr628.gif",
   "overclockers": [
     {
       "handle": "TAM",
@@ -20,8 +21,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "31410_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "ddr628.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

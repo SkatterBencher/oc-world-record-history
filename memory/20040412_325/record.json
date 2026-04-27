@@ -6,22 +6,40 @@
   "achieved_at_approximate": false,
   "value_mhz": 325.1,
   "hardware": {
-    "primary": "Twinmos",
-    "motherboard": null,
-    "memory": null,
-    "cooling": null
+    "primary": "TwinMOS TTI GB3-211B",
+    "motherboard": "Shuttle AN50R ",
+    "memory": "TwinMOS TTI GB3-211B",
+    "cooling": "Freezer"
   },
+  "hero": "5.5_325_44s.png",
   "overclockers": [
     {
       "handle": "CIMA",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp/~yok/Memory-OC.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "32510_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "5.5_325_44s.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

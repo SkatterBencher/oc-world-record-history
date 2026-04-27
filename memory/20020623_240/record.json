@@ -4,24 +4,42 @@
   "subcategory": "DDR",
   "achieved_at": "2002-06-23",
   "achieved_at_approximate": false,
-  "value_mhz": 240.0,
+  "value_mhz": 240,
   "hardware": {
-    "primary": "Samsung",
-    "motherboard": null,
-    "memory": null,
+    "primary": "Samsung TCB3",
+    "motherboard": "BD7",
+    "memory": "Samsung TCB3",
     "cooling": null
   },
+  "hero": null,
   "overclockers": [
     {
       "handle": "Aguri",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://members.jcom.home.ne.jp/aguri-no.3/index.html/oczvio_MEMsetfsb240.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "24000_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

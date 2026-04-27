@@ -4,13 +4,14 @@
   "subcategory": "DDR2",
   "achieved_at": "2006-05-18",
   "achieved_at_approximate": false,
-  "value_mhz": 645.0,
+  "value_mhz": 645,
   "hardware": {
-    "primary": "A-Data",
-    "motherboard": null,
-    "memory": null,
+    "primary": "A-Data M2OEL6F3G3160A1E0Z",
+    "motherboard": "P5WD2 Premium",
+    "memory": "A-Data M2OEL6F3G3160A1E0Z",
     "cooling": null
   },
+  "hero": null,
   "overclockers": [
     {
       "handle": "Funa",
@@ -20,8 +21,20 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "64500_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR2"
   ],

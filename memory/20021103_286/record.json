@@ -6,22 +6,40 @@
   "achieved_at_approximate": false,
   "value_mhz": 286.8,
   "hardware": {
-    "primary": "V-Data",
-    "motherboard": null,
-    "memory": null,
+    "primary": "V-Data VDD8608A8A-6B",
+    "motherboard": "EP-8K9AI",
+    "memory": "V-Data VDD8608A8A-6B",
     "cooling": null
   },
+  "hero": "Vigor-286_8.gif",
   "overclockers": [
     {
       "handle": "Vigor",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "28680_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "Vigor-286_8.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

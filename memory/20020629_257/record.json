@@ -6,11 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 257.3,
   "hardware": {
-    "primary": "Samsung",
-    "motherboard": null,
-    "memory": null,
+    "primary": "SAMSUNG TCB3",
+    "motherboard": "EP-4G4A",
+    "memory": "SAMSUNG TCB3",
     "cooling": null
   },
+  "hero": null,
   "overclockers": [
     {
       "handle": "だんな",
@@ -20,8 +21,20 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Rankings",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "25730_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

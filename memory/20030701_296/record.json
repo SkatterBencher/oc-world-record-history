@@ -6,22 +6,42 @@
   "achieved_at_approximate": false,
   "value_mhz": 296.2,
   "hardware": {
-    "primary": "Transcend",
-    "motherboard": null,
-    "memory": null,
+    "primary": "Transcend Hynix_D43",
+    "motherboard": "P4P800",
+    "memory": "Transcend Hynix_D43",
     "cooling": null
   },
+  "hero": "mitsuhiro-296-2.jpg",
   "overclockers": [
     {
-      "handle": "光弘",
+      "handle": "Mitsuhiro",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "光弘"
+      ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "29620_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "mitsuhiro-296-2.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

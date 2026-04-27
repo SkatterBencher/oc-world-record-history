@@ -6,11 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 235.5,
   "hardware": {
-    "primary": "Kingmax",
-    "motherboard": null,
-    "memory": null,
+    "primary": "KINGMAX KDL684T4AA-50 (240225A2)",
+    "motherboard": "KX7-333",
+    "memory": "KINGMAX KDL684T4AA-50 (240225A2)",
     "cooling": null
   },
+  "hero": "kingmax4001281.gif",
   "overclockers": [
     {
       "handle": "Neuro",
@@ -20,8 +21,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "23550_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kingmax4001281.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

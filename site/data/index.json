@@ -1249,6 +1249,11 @@
         "file": "21005_holicho.png",
         "type": "other",
         "caption": null
+      },
+      {
+        "file": "21005_blog.png",
+        "type": "other",
+        "caption": null
       }
     ],
     "tags": [
@@ -1489,12 +1494,13 @@
       "memory": null,
       "cooling": null
     },
+    "hero": null,
     "overclockers": [
       {
-        "handle": "OptArc",
+        "handle": "Opt",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -2236,11 +2242,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 235.5,
     "hardware": {
-      "primary": "Kingmax",
-      "motherboard": null,
-      "memory": null,
+      "primary": "KINGMAX KDL684T4AA-50 (240225A2)",
+      "motherboard": "KX7-333",
+      "memory": "KINGMAX KDL684T4AA-50 (240225A2)",
       "cooling": null
     },
+    "hero": "kingmax4001281.gif",
     "overclockers": [
       {
         "handle": "Neuro",
@@ -2250,8 +2257,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "23550_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kingmax4001281.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -2298,24 +2322,42 @@
     "subcategory": "DDR",
     "achieved_at": "2002-06-23",
     "achieved_at_approximate": false,
-    "value_mhz": 240.0,
+    "value_mhz": 240,
     "hardware": {
-      "primary": "Samsung",
-      "motherboard": null,
-      "memory": null,
+      "primary": "Samsung TCB3",
+      "motherboard": "BD7",
+      "memory": "Samsung TCB3",
       "cooling": null
     },
+    "hero": null,
     "overclockers": [
       {
         "handle": "Aguri",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://members.jcom.home.ne.jp/aguri-no.3/index.html/oczvio_MEMsetfsb240.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "24000_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -2364,11 +2406,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 257.3,
     "hardware": {
-      "primary": "Samsung",
-      "motherboard": null,
-      "memory": null,
+      "primary": "SAMSUNG TCB3",
+      "motherboard": "EP-4G4A",
+      "memory": "SAMSUNG TCB3",
       "cooling": null
     },
+    "hero": null,
     "overclockers": [
       {
         "handle": "だんな",
@@ -2378,8 +2421,20 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Rankings",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "25730_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -2429,10 +2484,11 @@
     "value_mhz": 258.7,
     "hardware": {
       "primary": "Unknown",
-      "motherboard": null,
+      "motherboard": "EP-4G4A",
       "memory": null,
       "cooling": null
     },
+    "hero": null,
     "overclockers": [
       {
         "handle": "Kaz-n",
@@ -2442,8 +2498,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://members.jcom.home.ne.jp/1736159601/index.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "25870_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -2716,22 +2789,42 @@
     "achieved_at_approximate": false,
     "value_mhz": 285.7,
     "hardware": {
-      "primary": "A-Data",
-      "motherboard": null,
-      "memory": null,
+      "primary": "A-Data W942508BH-5",
+      "motherboard": "KD7-RAID",
+      "memory": "A-Data W942508BH-5",
       "cooling": null
     },
+    "hero": "setfsb_men_285.gif",
     "overclockers": [
       {
-        "handle": "ほりっちょ",
+        "handle": "Horiccho",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "ほりっちょ"
+        ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "28570_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "setfsb_men_285.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -2748,22 +2841,40 @@
     "achieved_at_approximate": false,
     "value_mhz": 286.8,
     "hardware": {
-      "primary": "V-Data",
-      "motherboard": null,
-      "memory": null,
+      "primary": "V-Data VDD8608A8A-6B",
+      "motherboard": "EP-8K9AI",
+      "memory": "V-Data VDD8608A8A-6B",
       "cooling": null
     },
+    "hero": "Vigor-286_8.gif",
     "overclockers": [
       {
         "handle": "Vigor",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "28680_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "Vigor-286_8.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -3036,11 +3147,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 291.7,
     "hardware": {
-      "primary": "A-Data",
-      "motherboard": null,
-      "memory": null,
+      "primary": "A-Data W942508BH-5",
+      "motherboard": "P4C800",
+      "memory": "A-Data W942508BH-5",
       "cooling": null
     },
+    "hero": "s-mem291.GIF",
     "overclockers": [
       {
         "handle": "TAM",
@@ -3050,8 +3162,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "29170_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "s-mem291.GIF",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -3196,22 +3325,42 @@
     "achieved_at_approximate": false,
     "value_mhz": 296.2,
     "hardware": {
-      "primary": "Transcend",
-      "motherboard": null,
-      "memory": null,
+      "primary": "Transcend Hynix_D43",
+      "motherboard": "P4P800",
+      "memory": "Transcend Hynix_D43",
       "cooling": null
     },
+    "hero": "mitsuhiro-296-2.jpg",
     "overclockers": [
       {
-        "handle": "光弘",
+        "handle": "Mitsuhiro",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "光弘"
+        ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "29620_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "mitsuhiro-296-2.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -3292,11 +3441,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 314.1,
     "hardware": {
-      "primary": "A-Data",
-      "motherboard": null,
-      "memory": null,
+      "primary": "A-DATA ADD8608A8A-4B",
+      "motherboard": "P4C800 Deluxe",
+      "memory": "A-DATA ADD8608A8A-4B",
       "cooling": null
     },
+    "hero": "ddr628.gif",
     "overclockers": [
       {
         "handle": "TAM",
@@ -3306,8 +3456,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory Ranking",
+        "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "31410_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "ddr628.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -3484,22 +3651,40 @@
     "achieved_at_approximate": false,
     "value_mhz": 325.1,
     "hardware": {
-      "primary": "Twinmos",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
+      "primary": "TwinMOS TTI GB3-211B",
+      "motherboard": "Shuttle AN50R ",
+      "memory": "TwinMOS TTI GB3-211B",
+      "cooling": "Freezer"
     },
+    "hero": "5.5_325_44s.png",
     "overclockers": [
       {
         "handle": "CIMA",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp/~yok/Memory-OC.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "32510_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5.5_325_44s.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -3651,11 +3836,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 347.63,
     "hardware": {
-      "primary": "A-Data",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
+      "primary": "A-DATA D68001H",
+      "motherboard": "GA-K8N PRO",
+      "memory": "A-DATA D68001H",
+      "cooling": "Air"
     },
+    "hero": "CG-347-63.png",
     "overclockers": [
       {
         "handle": "Tanuki",
@@ -3665,8 +3851,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "34763_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "CG-347-63.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -3683,11 +3886,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 349.88,
     "hardware": {
-      "primary": "A-Data",
-      "motherboard": null,
-      "memory": null,
+      "primary": "A-DATA D68001H",
+      "motherboard": "GIGABYTE K8N Pro",
+      "memory": "A-DATA D68001H",
       "cooling": null
     },
+    "hero": "MemoryOC02.JPG",
     "overclockers": [
       {
         "handle": "いいさん",
@@ -3697,8 +3901,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://ww51.tiki.ne.jp/~iisan/MemoryOC.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "34988_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "34988_blog.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MemoryOC02.JPG",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR"
     ],
@@ -3713,24 +3944,42 @@
     "subcategory": "DDR2",
     "achieved_at": "2004-07-29",
     "achieved_at_approximate": false,
-    "value_mhz": 359.0,
+    "value_mhz": 359,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
+      "primary": "SAMSUNG M391T6653BGO",
+      "motherboard": "ABIT AA8",
+      "memory": "SAMSUNG M391T6653BGO",
       "cooling": null
     },
+    "hero": "moc-359.jpg",
     "overclockers": [
       {
         "handle": "VFD",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "35900_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "moc-359.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -3738,6 +3987,54 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20040729_359/"
+  },
+  {
+    "uid": "20040731_366",
+    "category": "memory",
+    "subcategory": null,
+    "achieved_at": "2004-07-31",
+    "achieved_at_approximate": false,
+    "value_mhz": 366.4,
+    "hardware": {
+      "primary": "A-DATA D68001H",
+      "motherboard": "GA-K8N PRO",
+      "memory": "A-DATA D68001H",
+      "cooling": null
+    },
+    "hero": "FSB366.PNG",
+    "overclockers": [
+      {
+        "handle": "Cal930",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "36640_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "FSB366.PNG",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20040731_366/"
   },
   {
     "uid": "20040915_807",
@@ -3777,24 +4074,42 @@
     "subcategory": "DDR2",
     "achieved_at": "2004-09-22",
     "achieved_at_approximate": false,
-    "value_mhz": 368.0,
+    "value_mhz": 368,
     "hardware": {
-      "primary": "Corsair",
-      "motherboard": null,
-      "memory": null,
+      "primary": "Corsair CM2X512-4300",
+      "motherboard": "P5AD2 Premium",
+      "memory": "Corsair CM2X512-4300",
       "cooling": null
     },
+    "hero": "1095849986.jpg",
     "overclockers": [
       {
         "handle": "Maiko",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1095849986.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "36800_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -3900,18 +4215,19 @@
     "_asset_base": "assets/cpu/20041028_6114/"
   },
   {
-    "uid": "20041031_417",
+    "uid": "20041031_376",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": null,
     "achieved_at": "2004-10-31",
     "achieved_at_approximate": false,
-    "value_mhz": 417.1,
+    "value_mhz": 376.6,
     "hardware": {
-      "primary": "Corsair",
-      "motherboard": null,
-      "memory": null,
+      "primary": "Crucial DDRII/667 256MB×2",
+      "motherboard": "ASUS P5AD2 Deluxe",
+      "memory": "Crucial DDRII/667 256MB×2",
       "cooling": null
     },
+    "hero": "14-282pai.JPG",
     "overclockers": [
       {
         "handle": "Kaz-n",
@@ -3921,15 +4237,30 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "DDR2"
+    "sources": [
+      {
+        "label": "Blog",
+        "url": "http://www.kaz-n.com/3g-gp.htm",
+        "archived_url": null
+      }
     ],
+    "assets": [
+      {
+        "file": "14-282pai.JPG",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "37660_blog.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
     "notes": null,
-    "verified": true,
+    "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041031_417/"
+    "_asset_base": "assets/memory/20041031_376/"
   },
   {
     "uid": "20041101_6212",
@@ -3996,6 +4327,157 @@
     "_asset_base": "assets/cpu/20041101_6302/"
   },
   {
+    "uid": "20041105_380",
+    "category": "memory",
+    "subcategory": "DDR2",
+    "achieved_at": "2004-11-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 380.4,
+    "hardware": {
+      "primary": "Crucial 0275 B",
+      "motherboard": "ABITAA8 -3rd Eye",
+      "memory": "Crucial 0275 B",
+      "cooling": null
+    },
+    "hero": null,
+    "overclockers": [
+      {
+        "handle": "ま～",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Biwa OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "38040_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20041105_380/"
+  },
+  {
+    "uid": "20041106_410",
+    "category": "memory",
+    "subcategory": "DDR2",
+    "achieved_at": "2004-11-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 410.4,
+    "hardware": {
+      "primary": "Infineon HYB18T512800AF37",
+      "motherboard": "P5AD2-E Premium",
+      "memory": "Infineon HYB18T512800AF37",
+      "cooling": null
+    },
+    "hero": "1099684731.jpg",
+    "overclockers": [
+      {
+        "handle": "Maiko",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1099684731.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "41040_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20041106_410/"
+  },
+  {
+    "uid": "20041031_417",
+    "category": "memory",
+    "subcategory": "DDR2",
+    "achieved_at": "2004-11-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 417.1,
+    "hardware": {
+      "primary": "Crucial DDRII/667 256MB",
+      "motherboard": "P5AD2-E Premium",
+      "memory": "Crucial DDRII/667 256MB",
+      "cooling": null
+    },
+    "hero": "14-313mem.JPG",
+    "overclockers": [
+      {
+        "handle": "Kaz-n",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.kaz-n.com/3g-gp.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "14-313mem.JPG",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "41710_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "41710_blog.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [
+      "DDR2"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20041107_417/"
+  },
+  {
     "uid": "20041117_430",
     "category": "memory",
     "subcategory": "DDR2",
@@ -4003,22 +4485,40 @@
     "achieved_at_approximate": false,
     "value_mhz": 430.1,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
+      "primary": "Micronらしい",
+      "motherboard": "P5AD2-E Premium",
+      "memory": "Micronらしい",
       "cooling": null
     },
+    "hero": "1100620860.jpg",
     "overclockers": [
       {
         "handle": "Maiko",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1100620860.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "43010_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -4099,22 +4599,40 @@
     "achieved_at_approximate": false,
     "value_mhz": 449.7,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
+      "primary": "Infineon HYB18T512800AF37",
+      "motherboard": "P5AD2-E Premium",
+      "memory": "Infineon HYB18T512800AF37",
       "cooling": null
     },
+    "hero": "1101998041.jpg",
     "overclockers": [
       {
         "handle": "Maiko",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1101998041.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "44970_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -4131,11 +4649,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 614.9,
     "hardware": {
-      "primary": "Corsair",
-      "motherboard": null,
-      "memory": null,
+      "primary": "CORSAIR 5400C4 V5.2",
+      "motherboard": "P5WD2 Premium",
+      "memory": "CORSAIR 5400C4 V5.2",
       "cooling": null
     },
+    "hero": "614.PNG",
     "overclockers": [
       {
         "handle": "Cal930",
@@ -4145,8 +4664,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "614.PNG",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "61490_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -4675,22 +5211,40 @@
     "achieved_at_approximate": false,
     "value_mhz": 628.9,
     "hardware": {
-      "primary": "Crucial",
-      "motherboard": null,
-      "memory": null,
+      "primary": "Crucial Ballistix BL6464AA1005.8FD",
+      "motherboard": "P5WD2-E Premium",
+      "memory": "Crucial Ballistix BL6464AA1005.8FD",
       "cooling": null
     },
+    "hero": "628.9_S.png",
     "overclockers": [
       {
         "handle": "Vigor",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "628.9_S.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "62890_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -4705,13 +5259,14 @@
     "subcategory": "DDR2",
     "achieved_at": "2006-05-18",
     "achieved_at_approximate": false,
-    "value_mhz": 645.0,
+    "value_mhz": 645,
     "hardware": {
-      "primary": "A-Data",
-      "motherboard": null,
-      "memory": null,
+      "primary": "A-Data M2OEL6F3G3160A1E0Z",
+      "motherboard": "P5WD2 Premium",
+      "memory": "A-Data M2OEL6F3G3160A1E0Z",
       "cooling": null
     },
+    "hero": null,
     "overclockers": [
       {
         "handle": "Funa",
@@ -4721,8 +5276,20 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "64500_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -4769,24 +5336,39 @@
     "subcategory": "DDR2",
     "achieved_at": "2006-09-08",
     "achieved_at_approximate": false,
-    "value_mhz": 697.0,
+    "value_mhz": 697,
     "hardware": {
-      "primary": "G.SKILL",
-      "motherboard": null,
-      "memory": null,
+      "primary": "G.Skill F2-6400PHU2-1GBHZ",
+      "motherboard": "P5B　Deluxe",
+      "memory": "G.Skill F2-6400PHU2-1GBHZ",
       "cooling": null
     },
+    "hero": null,
     "overclockers": [
       {
-        "handle": "光弘",
+        "handle": "Mitsuhiro",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "光弘"
+        ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "69700_biwa.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR2"
     ],
@@ -4794,6 +5376,66 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20060908_697/"
+  },
+  {
+    "uid": "20070127_716",
+    "category": "memory",
+    "subcategory": "DDR2",
+    "achieved_at": "2007-01-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 716.1,
+    "hardware": {
+      "primary": "Crucial PC6400",
+      "motherboard": "P5B-Deluxe",
+      "memory": "Crucial PC6400",
+      "cooling": null
+    },
+    "hero": "71610.png",
+    "overclockers": [
+      {
+        "handle": "Jmax_oc",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86-secret.com/show_oc.php?id=152244",
+        "archived_url": null
+      },
+      {
+        "label": "Biwa Memory OC Ranking",
+        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "71610.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "71610_biwa.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "71610_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
+    "tags": [
+      "DDR2"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070102_716/"
   },
   {
     "uid": "20070121_7791",
@@ -4858,38 +5500,6 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20070122_8000/"
-  },
-  {
-    "uid": "20070127_716",
-    "category": "memory",
-    "subcategory": "DDR2",
-    "achieved_at": "2007-01-27",
-    "achieved_at_approximate": false,
-    "value_mhz": 716.1,
-    "hardware": {
-      "primary": "Crucial",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Jmax_oc",
-        "real_name": null,
-        "aliases": [],
-        "country": "FR",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "DDR2"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070127_716/"
   },
   {
     "uid": "20070330_8179",

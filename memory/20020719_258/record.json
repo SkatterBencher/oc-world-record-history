@@ -7,10 +7,11 @@
   "value_mhz": 258.7,
   "hardware": {
     "primary": "Unknown",
-    "motherboard": null,
+    "motherboard": "EP-4G4A",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
   "overclockers": [
     {
       "handle": "Kaz-n",
@@ -20,8 +21,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://members.jcom.home.ne.jp/1736159601/index.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "25870_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

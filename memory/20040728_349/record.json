@@ -6,11 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 349.88,
   "hardware": {
-    "primary": "A-Data",
-    "motherboard": null,
-    "memory": null,
+    "primary": "A-DATA D68001H",
+    "motherboard": "GIGABYTE K8N Pro",
+    "memory": "A-DATA D68001H",
     "cooling": null
   },
+  "hero": "MemoryOC02.JPG",
   "overclockers": [
     {
       "handle": "いいさん",
@@ -20,8 +21,35 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://ww51.tiki.ne.jp/~iisan/MemoryOC.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "34988_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "34988_blog.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MemoryOC02.JPG",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

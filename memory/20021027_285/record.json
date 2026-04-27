@@ -6,22 +6,42 @@
   "achieved_at_approximate": false,
   "value_mhz": 285.7,
   "hardware": {
-    "primary": "A-Data",
-    "motherboard": null,
-    "memory": null,
+    "primary": "A-Data W942508BH-5",
+    "motherboard": "KD7-RAID",
+    "memory": "A-Data W942508BH-5",
     "cooling": null
   },
+  "hero": "setfsb_men_285.gif",
   "overclockers": [
     {
-      "handle": "ほりっちょ",
+      "handle": "Horiccho",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "ほりっちょ"
+      ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "28570_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "setfsb_men_285.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

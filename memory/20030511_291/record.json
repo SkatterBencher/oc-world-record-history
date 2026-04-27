@@ -6,11 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 291.7,
   "hardware": {
-    "primary": "A-Data",
-    "motherboard": null,
-    "memory": null,
+    "primary": "A-Data W942508BH-5",
+    "motherboard": "P4C800",
+    "memory": "A-Data W942508BH-5",
     "cooling": null
   },
+  "hero": "s-mem291.GIF",
   "overclockers": [
     {
       "handle": "TAM",
@@ -20,8 +21,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory Ranking",
+      "url": "http://www.biwa.ne.jp/~yok/Memory-Ranking/Ranking-Table.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "29170_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "s-mem291.GIF",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

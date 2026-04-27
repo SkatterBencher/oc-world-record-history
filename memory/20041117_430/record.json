@@ -6,22 +6,40 @@
   "achieved_at_approximate": false,
   "value_mhz": 430.1,
   "hardware": {
-    "primary": "Unknown",
-    "motherboard": null,
-    "memory": null,
+    "primary": "Micronらしい",
+    "motherboard": "P5AD2-E Premium",
+    "memory": "Micronらしい",
     "cooling": null
   },
+  "hero": "1100620860.jpg",
   "overclockers": [
     {
       "handle": "Maiko",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1100620860.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "43010_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR2"
   ],

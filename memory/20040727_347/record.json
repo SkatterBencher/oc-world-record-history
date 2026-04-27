@@ -6,11 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 347.63,
   "hardware": {
-    "primary": "A-Data",
-    "motherboard": null,
-    "memory": null,
-    "cooling": null
+    "primary": "A-DATA D68001H",
+    "motherboard": "GA-K8N PRO",
+    "memory": "A-DATA D68001H",
+    "cooling": "Air"
   },
+  "hero": "CG-347-63.png",
   "overclockers": [
     {
       "handle": "Tanuki",
@@ -20,8 +21,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "34763_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "CG-347-63.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR"
   ],

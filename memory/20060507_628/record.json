@@ -6,22 +6,40 @@
   "achieved_at_approximate": false,
   "value_mhz": 628.9,
   "hardware": {
-    "primary": "Crucial",
-    "motherboard": null,
-    "memory": null,
+    "primary": "Crucial Ballistix BL6464AA1005.8FD",
+    "motherboard": "P5WD2-E Premium",
+    "memory": "Crucial Ballistix BL6464AA1005.8FD",
     "cooling": null
   },
+  "hero": "628.9_S.png",
   "overclockers": [
     {
       "handle": "Vigor",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "628.9_S.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "62890_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR2"
   ],

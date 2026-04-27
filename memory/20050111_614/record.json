@@ -6,11 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 614.9,
   "hardware": {
-    "primary": "Corsair",
-    "motherboard": null,
-    "memory": null,
+    "primary": "CORSAIR 5400C4 V5.2",
+    "motherboard": "P5WD2 Premium",
+    "memory": "CORSAIR 5400C4 V5.2",
     "cooling": null
   },
+  "hero": "614.PNG",
   "overclockers": [
     {
       "handle": "Cal930",
@@ -20,8 +21,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "614.PNG",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "61490_biwa.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR2"
   ],

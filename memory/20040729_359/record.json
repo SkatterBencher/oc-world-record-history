@@ -4,24 +4,42 @@
   "subcategory": "DDR2",
   "achieved_at": "2004-07-29",
   "achieved_at_approximate": false,
-  "value_mhz": 359.0,
+  "value_mhz": 359,
   "hardware": {
-    "primary": "Unknown",
-    "motherboard": null,
-    "memory": null,
+    "primary": "SAMSUNG M391T6653BGO",
+    "motherboard": "ABIT AA8",
+    "memory": "SAMSUNG M391T6653BGO",
     "cooling": null
   },
+  "hero": "moc-359.jpg",
   "overclockers": [
     {
       "handle": "VFD",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "35900_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "moc-359.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR2"
   ],

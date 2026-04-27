@@ -1,0 +1,59 @@
+{
+  "uid": "20070102_716",
+  "category": "memory",
+  "subcategory": "DDR2",
+  "achieved_at": "2007-01-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 716.1,
+  "hardware": {
+    "primary": "Crucial PC6400",
+    "motherboard": "P5B-Deluxe",
+    "memory": "Crucial PC6400",
+    "cooling": null
+  },
+  "hero": "71610.png",
+  "overclockers": [
+    {
+      "handle": "Jmax_oc",
+      "real_name": null,
+      "aliases": [],
+      "country": "FR",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=152244",
+      "archived_url": null
+    },
+    {
+      "label": "Biwa Memory OC Ranking",
+      "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "71610.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "71610_biwa.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "71610_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "DDR2"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
