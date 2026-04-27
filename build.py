@@ -107,8 +107,8 @@ if errors:
         print(f"  {e}")
     sys.exit(1)
 
-# Sort by date ascending
-records.sort(key=lambda r: r["achieved_at"])
+# Sort by date ascending, then by value descending (highest freq first on same day)
+records.sort(key=lambda r: (r["achieved_at"], -r["value_mhz"]))
 
 # Write outputs
 with open(OUTPUT_DIR / "index.json", "w", encoding="utf-8") as f:

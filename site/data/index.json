@@ -2622,38 +2622,6 @@
     "_asset_base": "assets/cpu/20020829_4339/"
   },
   {
-    "uid": "20020901_4130",
-    "category": "cpu",
-    "subcategory": null,
-    "achieved_at": "2002-09-01",
-    "achieved_at_approximate": false,
-    "value_mhz": 4130.39,
-    "hardware": {
-      "primary": "Intel Pentium 4 2.4 GHz",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "overclockers": [
-      {
-        "handle": "Holicho",
-        "real_name": null,
-        "aliases": [],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020901_4130/"
-  },
-  {
     "uid": "20020901_4418",
     "category": "cpu",
     "subcategory": null,
@@ -2684,6 +2652,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020901_4418/"
+  },
+  {
+    "uid": "20020901_4130",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2002-09-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 4130.39,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.4 GHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "Intel"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/cpu/20020901_4130/"
   },
   {
     "uid": "20020911_479",
@@ -4263,38 +4263,6 @@
     "_asset_base": "assets/memory/20041031_376/"
   },
   {
-    "uid": "20041101_6212",
-    "category": "cpu",
-    "subcategory": null,
-    "achieved_at": "2004-11-01",
-    "achieved_at_approximate": false,
-    "value_mhz": 6212.1,
-    "hardware": {
-      "primary": "Intel Pentium 4 560J",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Fugger",
-        "real_name": null,
-        "aliases": [],
-        "country": "US",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041101_6212/"
-  },
-  {
     "uid": "20041101_6302",
     "category": "cpu",
     "subcategory": null,
@@ -4325,6 +4293,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20041101_6302/"
+  },
+  {
+    "uid": "20041101_6212",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2004-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 6212.1,
+    "hardware": {
+      "primary": "Intel Pentium 4 560J",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Fugger",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "Intel"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/cpu/20041101_6212/"
   },
   {
     "uid": "20041105_380",
@@ -5012,38 +5012,6 @@
     "_asset_base": "assets/cpu/20051113_7473/"
   },
   {
-    "uid": "20051213_7532",
-    "category": "cpu",
-    "subcategory": null,
-    "achieved_at": "2005-12-13",
-    "achieved_at_approximate": false,
-    "value_mhz": 7532.8,
-    "hardware": {
-      "primary": "Intel Pentium 4 670",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "overclockers": [
-      {
-        "handle": "Duck",
-        "real_name": null,
-        "aliases": [],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051213_7532/"
-  },
-  {
     "uid": "20051213_7608",
     "category": "cpu",
     "subcategory": null,
@@ -5074,6 +5042,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20051213_7608/"
+  },
+  {
+    "uid": "20051213_7532",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2005-12-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 7532.8,
+    "hardware": {
+      "primary": "Intel Pentium 4 670",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "overclockers": [
+      {
+        "handle": "Duck",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "Intel"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/cpu/20051213_7532/"
   },
   {
     "uid": "20051228_7625",
@@ -5790,38 +5790,6 @@
     "_asset_base": "assets/memory/20070718_1156/"
   },
   {
-    "uid": "20070720_8180",
-    "category": "cpu",
-    "subcategory": null,
-    "achieved_at": "2007-07-20",
-    "achieved_at_approximate": false,
-    "value_mhz": 8180.4,
-    "hardware": {
-      "primary": "Intel Pentium 4 631",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "overclockers": [
-      {
-        "handle": "Duck",
-        "real_name": null,
-        "aliases": [],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070720_8180/"
-  },
-  {
     "uid": "20070720_8220",
     "category": "cpu",
     "subcategory": null,
@@ -5854,36 +5822,36 @@
     "_asset_base": "assets/cpu/20070720_8220/"
   },
   {
-    "uid": "20070928_1178",
-    "category": "memory",
-    "subcategory": "DDR3",
-    "achieved_at": "2007-09-28",
+    "uid": "20070720_8180",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2007-07-20",
     "achieved_at_approximate": false,
-    "value_mhz": 1178.9,
+    "value_mhz": 8180.4,
     "hardware": {
-      "primary": "Micron",
+      "primary": "Intel Pentium 4 631",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
-        "handle": "JtChen2002",
+        "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": "TW",
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
     "tags": [
-      "DDR3"
+      "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070928_1178/"
+    "_asset_base": "assets/cpu/20070720_8180/"
   },
   {
     "uid": "20070928_1304",
@@ -5916,6 +5884,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20070928_1304/"
+  },
+  {
+    "uid": "20070928_1178",
+    "category": "memory",
+    "subcategory": "DDR3",
+    "achieved_at": "2007-09-28",
+    "achieved_at_approximate": false,
+    "value_mhz": 1178.9,
+    "hardware": {
+      "primary": "Micron",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "JtChen2002",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "DDR3"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070928_1178/"
   },
   {
     "uid": "20071208_1180",
@@ -6174,38 +6174,6 @@
     "_asset_base": "assets/gpu/20091219_1400/"
   },
   {
-    "uid": "20100112_1410",
-    "category": "gpu",
-    "subcategory": "DGPU",
-    "achieved_at": "2010-01-12",
-    "achieved_at_approximate": false,
-    "value_mhz": 1410.0,
-    "hardware": {
-      "primary": "AMD Radeon HD 5870",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "NickShih",
-        "real_name": null,
-        "aliases": [],
-        "country": "TW",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "AMD"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100112_1410/"
-  },
-  {
     "uid": "20100112_1420",
     "category": "gpu",
     "subcategory": "DGPU",
@@ -6236,6 +6204,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/gpu/20100112_1420/"
+  },
+  {
+    "uid": "20100112_1410",
+    "category": "gpu",
+    "subcategory": "DGPU",
+    "achieved_at": "2010-01-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 1410.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 5870",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "NickShih",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "AMD"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/gpu/20100112_1410/"
   },
   {
     "uid": "20100220_1450",
@@ -6693,38 +6693,6 @@
     "_asset_base": "assets/memory/20110319_1577/"
   },
   {
-    "uid": "20110321_1614",
-    "category": "memory",
-    "subcategory": "DDR3",
-    "achieved_at": "2011-03-21",
-    "achieved_at_approximate": false,
-    "value_mhz": 1614.2,
-    "hardware": {
-      "primary": "Corsair",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "splmann",
-        "real_name": null,
-        "aliases": [],
-        "country": "AT",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "DDR3"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110321_1614/"
-  },
-  {
     "uid": "20110321_1625",
     "category": "memory",
     "subcategory": "DDR3",
@@ -6755,6 +6723,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20110321_1625/"
+  },
+  {
+    "uid": "20110321_1614",
+    "category": "memory",
+    "subcategory": "DDR3",
+    "achieved_at": "2011-03-21",
+    "achieved_at_approximate": false,
+    "value_mhz": 1614.2,
+    "hardware": {
+      "primary": "Corsair",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "splmann",
+        "real_name": null,
+        "aliases": [],
+        "country": "AT",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "DDR3"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20110321_1614/"
   },
   {
     "uid": "20110719_2300",
@@ -6943,36 +6943,6 @@
     "_asset_base": "assets/cpu/20111031_8491/"
   },
   {
-    "uid": "20111101_8585",
-    "category": "cpu",
-    "subcategory": null,
-    "achieved_at": "2011-11-01",
-    "achieved_at_approximate": false,
-    "value_mhz": 8585.05,
-    "hardware": {
-      "primary": "AMD FX-8150",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "overclockers": [
-      {
-        "handle": "AndreYang",
-        "real_name": null,
-        "aliases": [],
-        "country": "TW",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111101_8585/"
-  },
-  {
     "uid": "20111101_8709",
     "category": "cpu",
     "subcategory": null,
@@ -7001,6 +6971,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20111101_8709/"
+  },
+  {
+    "uid": "20111101_8585",
+    "category": "cpu",
+    "subcategory": null,
+    "achieved_at": "2011-11-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 8585.05,
+    "hardware": {
+      "primary": "AMD FX-8150",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "overclockers": [
+      {
+        "handle": "AndreYang",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/cpu/20111101_8585/"
   },
   {
     "uid": "20111109_1655",
@@ -7035,38 +7035,6 @@
     "_asset_base": "assets/memory/20111109_1655/"
   },
   {
-    "uid": "20111122_1661",
-    "category": "memory",
-    "subcategory": "DDR3",
-    "achieved_at": "2011-11-22",
-    "achieved_at_approximate": false,
-    "value_mhz": 1661.5,
-    "hardware": {
-      "primary": "Corsair",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Planet",
-        "real_name": null,
-        "aliases": [],
-        "country": "US",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "DDR3"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111122_1661/"
-  },
-  {
     "uid": "20111122_1733",
     "category": "memory",
     "subcategory": "DDR3",
@@ -7097,6 +7065,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20111122_1733/"
+  },
+  {
+    "uid": "20111122_1661",
+    "category": "memory",
+    "subcategory": "DDR3",
+    "achieved_at": "2011-11-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 1661.5,
+    "hardware": {
+      "primary": "Corsair",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Planet",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "DDR3"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20111122_1661/"
   },
   {
     "uid": "20111203_1800",
@@ -7961,38 +7961,6 @@
     "_asset_base": "assets/gpu/20160706_2645/"
   },
   {
-    "uid": "20160724_2700",
-    "category": "gpu",
-    "subcategory": "DGPU",
-    "achieved_at": "2016-07-24",
-    "achieved_at_approximate": false,
-    "value_mhz": 2700.0,
-    "hardware": {
-      "primary": "NVIDIA GeForce GTX 1080",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Xtreme Addict",
-        "real_name": null,
-        "aliases": [],
-        "country": "PL",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "NVDIA"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160724_2700/"
-  },
-  {
     "uid": "20160724_2750",
     "category": "gpu",
     "subcategory": "DGPU",
@@ -8023,6 +7991,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/gpu/20160724_2750/"
+  },
+  {
+    "uid": "20160724_2700",
+    "category": "gpu",
+    "subcategory": "DGPU",
+    "achieved_at": "2016-07-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 2700.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Xtreme Addict",
+        "real_name": null,
+        "aliases": [],
+        "country": "PL",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "NVDIA"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/gpu/20160724_2700/"
   },
   {
     "uid": "20160805_2784",
@@ -8089,38 +8089,6 @@
     "_asset_base": "assets/gpu/20161030_2822/"
   },
   {
-    "uid": "20161104_2860",
-    "category": "gpu",
-    "subcategory": "DGPU",
-    "achieved_at": "2016-11-04",
-    "achieved_at_approximate": false,
-    "value_mhz": 2860.0,
-    "hardware": {
-      "primary": "NVIDIA GeForce GTX 1060",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "OGS",
-        "real_name": null,
-        "aliases": [],
-        "country": "GR",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "NVDIA"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161104_2860/"
-  },
-  {
     "uid": "20161104_2885",
     "category": "gpu",
     "subcategory": "DGPU",
@@ -8151,6 +8119,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/gpu/20161104_2885/"
+  },
+  {
+    "uid": "20161104_2860",
+    "category": "gpu",
+    "subcategory": "DGPU",
+    "achieved_at": "2016-11-04",
+    "achieved_at_approximate": false,
+    "value_mhz": 2860.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1060",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": "GR",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "NVDIA"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/gpu/20161104_2860/"
   },
   {
     "uid": "20161218_3012",
@@ -8345,38 +8345,6 @@
     "_asset_base": "assets/memory/20170529_2644/"
   },
   {
-    "uid": "20170530_2699",
-    "category": "memory",
-    "subcategory": "DDR4",
-    "achieved_at": "2017-05-30",
-    "achieved_at_approximate": false,
-    "value_mhz": 2699.0,
-    "hardware": {
-      "primary": "G.SKILL",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Toppc",
-        "real_name": null,
-        "aliases": [],
-        "country": "TW",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "DDR4"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170530_2699/"
-  },
-  {
     "uid": "20170530_2700",
     "category": "memory",
     "subcategory": "DDR4",
@@ -8409,12 +8377,12 @@
     "_asset_base": "assets/memory/20170530_2700/"
   },
   {
-    "uid": "20170603_2731",
+    "uid": "20170530_2699",
     "category": "memory",
     "subcategory": "DDR4",
-    "achieved_at": "2017-06-03",
+    "achieved_at": "2017-05-30",
     "achieved_at_approximate": false,
-    "value_mhz": 2731.8,
+    "value_mhz": 2699.0,
     "hardware": {
       "primary": "G.SKILL",
       "motherboard": null,
@@ -8423,7 +8391,7 @@
     },
     "overclockers": [
       {
-        "handle": "NickShih",
+        "handle": "Toppc",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -8438,7 +8406,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170603_2731/"
+    "_asset_base": "assets/memory/20170530_2699/"
   },
   {
     "uid": "20170603_2734",
@@ -8471,6 +8439,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20170603_2734/"
+  },
+  {
+    "uid": "20170603_2731",
+    "category": "memory",
+    "subcategory": "DDR4",
+    "achieved_at": "2017-06-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 2731.8,
+    "hardware": {
+      "primary": "G.SKILL",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "NickShih",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "DDR4"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20170603_2731/"
   },
   {
     "uid": "20170606_2750",
@@ -8537,21 +8537,21 @@
     "_asset_base": "assets/memory/20171005_2764/"
   },
   {
-    "uid": "20180530_2765",
+    "uid": "20180530_2771",
     "category": "memory",
     "subcategory": "DDR4",
     "achieved_at": "2018-05-30",
     "achieved_at_approximate": false,
-    "value_mhz": 2765.6,
+    "value_mhz": 2771.5,
     "hardware": {
-      "primary": "Adata",
+      "primary": "G.SKILL",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
     "overclockers": [
       {
-        "handle": "Kovan Yang",
+        "handle": "Toppc",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -8566,7 +8566,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2765/"
+    "_asset_base": "assets/memory/20180530_2771/"
   },
   {
     "uid": "20180530_2770",
@@ -8601,21 +8601,21 @@
     "_asset_base": "assets/memory/20180530_2770/"
   },
   {
-    "uid": "20180530_2771",
+    "uid": "20180530_2765",
     "category": "memory",
     "subcategory": "DDR4",
     "achieved_at": "2018-05-30",
     "achieved_at_approximate": false,
-    "value_mhz": 2771.5,
+    "value_mhz": 2765.6,
     "hardware": {
-      "primary": "G.SKILL",
+      "primary": "Adata",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
     "overclockers": [
       {
-        "handle": "Toppc",
+        "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -8630,7 +8630,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2771/"
+    "_asset_base": "assets/memory/20180530_2765/"
   },
   {
     "uid": "20181019_2782",
@@ -8985,38 +8985,6 @@
     "_asset_base": "assets/memory/20190910_3008/"
   },
   {
-    "uid": "20191024_3012",
-    "category": "memory",
-    "subcategory": "DDR4",
-    "achieved_at": "2019-10-24",
-    "achieved_at_approximate": false,
-    "value_mhz": 3012.2,
-    "hardware": {
-      "primary": "Crucial",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Bianbao",
-        "real_name": null,
-        "aliases": [],
-        "country": "TW",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "DDR4"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20191024_3012/"
-  },
-  {
     "uid": "20191024_3018",
     "category": "memory",
     "subcategory": "DDR4",
@@ -9047,6 +9015,38 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20191024_3018/"
+  },
+  {
+    "uid": "20191024_3012",
+    "category": "memory",
+    "subcategory": "DDR4",
+    "achieved_at": "2019-10-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 3012.2,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Bianbao",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [
+      "DDR4"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20191024_3012/"
   },
   {
     "uid": "20191025_3027",
@@ -9693,44 +9693,6 @@
     "_asset_base": "assets/memory/20220624_5111/"
   },
   {
-    "uid": "20220705_5254",
-    "category": "memory",
-    "subcategory": "DDR5",
-    "achieved_at": "2022-07-05",
-    "achieved_at_approximate": false,
-    "value_mhz": 5254.1,
-    "hardware": {
-      "primary": "Intel",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Kovan Yang",
-        "real_name": null,
-        "aliases": [],
-        "country": "TW",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "CPU-Z",
-        "url": "https://valid.x86.fr/2n0scd",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "DDR5"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220705_5254/"
-  },
-  {
     "uid": "20220705_5275",
     "category": "memory",
     "subcategory": "DDR5",
@@ -9767,6 +9729,44 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20220705_5275/"
+  },
+  {
+    "uid": "20220705_5254",
+    "category": "memory",
+    "subcategory": "DDR5",
+    "achieved_at": "2022-07-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 5254.1,
+    "hardware": {
+      "primary": "Intel",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kovan Yang",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/2n0scd",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "tags": [
+      "DDR5"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20220705_5254/"
   },
   {
     "uid": "20220713_5300",
@@ -10151,44 +10151,6 @@
     "_asset_base": "assets/memory/20230605_5613/"
   },
   {
-    "uid": "20230606_5616",
-    "category": "memory",
-    "subcategory": "DDR5",
-    "achieved_at": "2023-06-06",
-    "achieved_at_approximate": false,
-    "value_mhz": 5616.4,
-    "hardware": {
-      "primary": "GIGABYTE",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Hicookie",
-        "real_name": null,
-        "aliases": [],
-        "country": "TW",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "CPU-Z",
-        "url": "https://valid.x86.fr/wuh294",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "DDR5"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230606_5616/"
-  },
-  {
     "uid": "20230606_5626",
     "category": "memory",
     "subcategory": "DDR5",
@@ -10225,6 +10187,44 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20230606_5626/"
+  },
+  {
+    "uid": "20230606_5616",
+    "category": "memory",
+    "subcategory": "DDR5",
+    "achieved_at": "2023-06-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 5616.4,
+    "hardware": {
+      "primary": "GIGABYTE",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Hicookie",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/wuh294",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "tags": [
+      "DDR5"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20230606_5616/"
   },
   {
     "uid": "20230607_5627",
@@ -10361,61 +10361,6 @@
     "_asset_base": "assets/gpu/20230705_3975/"
   },
   {
-    "uid": "20230706_4005",
-    "category": "gpu",
-    "subcategory": "DGPU",
-    "achieved_at": "2023-07-06",
-    "achieved_at_approximate": false,
-    "value_mhz": 4005,
-    "hardware": {
-      "primary": "NVIDIA GeForce RTX 4090",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "hero": "4005.jpg",
-    "overclockers": [
-      {
-        "handle": "Splave",
-        "real_name": null,
-        "aliases": [],
-        "country": "US",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/5305137",
-        "archived_url": null
-      }
-    ],
-    "assets": [
-      {
-        "file": "230706_4005-png[1].webp",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "image_id_2947538[1].jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "4005.jpg",
-        "type": "other",
-        "caption": null
-      }
-    ],
-    "tags": [
-      "NVDIA"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230706_4005/"
-  },
-  {
     "uid": "20230706_4020",
     "category": "gpu",
     "subcategory": "DGPU",
@@ -10469,6 +10414,61 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/gpu/20230706_4020/"
+  },
+  {
+    "uid": "20230706_4005",
+    "category": "gpu",
+    "subcategory": "DGPU",
+    "achieved_at": "2023-07-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 4005,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "hero": "4005.jpg",
+    "overclockers": [
+      {
+        "handle": "Splave",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/5305137",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "230706_4005-png[1].webp",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2947538[1].jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4005.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [
+      "NVDIA"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/gpu/20230706_4005/"
   },
   {
     "uid": "20231002_5806",
@@ -10795,44 +10795,6 @@
     "_asset_base": "assets/memory/20240927_6032/"
   },
   {
-    "uid": "20241024_6053",
-    "category": "memory",
-    "subcategory": "DDR5",
-    "achieved_at": "2024-10-24",
-    "achieved_at_approximate": false,
-    "value_mhz": 6053.7,
-    "hardware": {
-      "primary": "Kingston",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Kovan",
-        "real_name": null,
-        "aliases": [],
-        "country": "TW",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "CPU-Z",
-        "url": "https://valid.x86.fr/eucs08",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "DDR5"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241024_6053/"
-  },
-  {
     "uid": "20241024_6097",
     "category": "memory",
     "subcategory": "DDR5",
@@ -10871,31 +10833,31 @@
     "_asset_base": "assets/memory/20241024_6097/"
   },
   {
-    "uid": "20241113_6131",
+    "uid": "20241024_6053",
     "category": "memory",
     "subcategory": "DDR5",
-    "achieved_at": "2024-11-13",
+    "achieved_at": "2024-10-24",
     "achieved_at_approximate": false,
-    "value_mhz": 6131.9,
+    "value_mhz": 6053.7,
     "hardware": {
-      "primary": "V-Color",
+      "primary": "Kingston",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
     "overclockers": [
       {
-        "handle": "AKM",
+        "handle": "Kovan",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
     "sources": [
       {
         "label": "CPU-Z",
-        "url": "https://valid.x86.fr/hq8e57",
+        "url": "https://valid.x86.fr/eucs08",
         "archived_url": null
       }
     ],
@@ -10906,7 +10868,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241113_6131/"
+    "_asset_base": "assets/memory/20241024_6053/"
   },
   {
     "uid": "20241113_6175",
@@ -10945,6 +10907,44 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20241113_6175/"
+  },
+  {
+    "uid": "20241113_6131",
+    "category": "memory",
+    "subcategory": "DDR5",
+    "achieved_at": "2024-11-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 6131.9,
+    "hardware": {
+      "primary": "V-Color",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "AKM",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/hq8e57",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "tags": [
+      "DDR5"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20241113_6131/"
   },
   {
     "uid": "20241115_6263",
@@ -11359,44 +11359,6 @@
     "_asset_base": "assets/memory/20250413_6386/"
   },
   {
-    "uid": "20250503_6386",
-    "category": "memory",
-    "subcategory": "DDR5",
-    "achieved_at": "2025-05-03",
-    "achieved_at_approximate": false,
-    "value_mhz": 6386.8,
-    "hardware": {
-      "primary": "G.SKILL",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "Bl4ckdot",
-        "real_name": null,
-        "aliases": [],
-        "country": "FR",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "CPU-Z",
-        "url": "https://valid.x86.fr/fl4te2",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "DDR5"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250503_6386/"
-  },
-  {
     "uid": "20250503_6402",
     "category": "memory",
     "subcategory": "DDR5",
@@ -11433,6 +11395,44 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20250503_6402/"
+  },
+  {
+    "uid": "20250503_6386",
+    "category": "memory",
+    "subcategory": "DDR5",
+    "achieved_at": "2025-05-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 6386.8,
+    "hardware": {
+      "primary": "G.SKILL",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Bl4ckdot",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/fl4te2",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "tags": [
+      "DDR5"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20250503_6386/"
   },
   {
     "uid": "20250504_6411",
