@@ -367,11 +367,7 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   display: block;
 }
 
-/* Hero image is clickable to open full size */
-.panel-hero a {
-  display: block;
-  cursor: zoom-in;
-}
+/* Hero image zoom cursor handled via inline style */
 
 /* ═══════════════════════════════════════════════════════
    HOME PAGE
@@ -767,3 +763,67 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   .rotd-body { padding: 20px; }
   .rotd-freq { font-size: 28px; }
 }
+
+/* ═══════════════════════════════════════════════════════
+   LIGHTBOX
+   ═══════════════════════════════════════════════════════ */
+
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  align-items: center;
+  justify-content: center;
+}
+
+#lightbox.open {
+  display: flex;
+}
+
+.lb-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  backdrop-filter: blur(4px);
+}
+
+.lb-content {
+  position: relative;
+  z-index: 1;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lb-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 48px rgba(0,0,0,0.6);
+  display: block;
+}
+
+.lb-close {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+.lb-close:hover { background: rgba(0,0,0,0.8); }

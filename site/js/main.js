@@ -588,9 +588,8 @@ function renderPanel(record) {
 
     ${heroFile ? `
       <div class="panel-hero">
-        <a href="${assetBase}${heroFile}" target="_blank" rel="noopener">
-          <img src="${assetBase}${heroFile}" alt="Hero image" loading="lazy">
-        </a>
+        <img src="${assetBase}${heroFile}" alt="Hero image" loading="lazy"
+          onclick="openLightbox('${assetBase}${heroFile}')" style="cursor:zoom-in">
       </div>
     ` : '<div class="panel-divider"></div>'}
 
@@ -665,10 +664,10 @@ function renderPanel(record) {
       <div class="panel-section-label">Images</div>
       <div class="panel-gallery">
         ${galleryAssets.map(a => `
-          <a href="${assetBase}${a.file}" target="_blank" rel="noopener" class="gallery-thumb"
-             title="${a.caption || a.type}">
+          <div class="gallery-thumb" title="${a.caption || a.type}"
+               onclick="openLightbox('${assetBase}${a.file}')" style="cursor:zoom-in">
             <img src="${assetBase}${a.file}" alt="${a.caption || a.type}" loading="lazy">
-          </a>
+          </div>
         `).join('')}
       </div>
     ` : ''}
@@ -728,12 +727,47 @@ function formatDateLong(iso, approx) {
 }
 
 // ── EVENTS ────────────────────────────────────────────
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape' && panelOpen) location.hash = currentCategory;
-});
 
 document.getElementById('panel-close-btn')?.addEventListener('click', () => {
   location.hash = currentCategory;
+});
+
+// ── LIGHTBOX ──────────────────────────────────────────
+function openLightbox(src) {
+  let box = document.getElementById('lightbox');
+  if (!box) {
+    box = document.createElement('div');
+    box.id = 'lightbox';
+    box.innerHTML = `
+      <div class="lb-backdrop"></div>
+      <div class="lb-content">
+        <img class="lb-img" src="" alt="">
+        <button class="lb-close" title="Close (Esc)">×</button>
+      </div>
+    `;
+    box.querySelector('.lb-backdrop').addEventListener('click', closeLightbox);
+    box.querySelector('.lb-close').addEventListener('click', closeLightbox);
+    document.body.appendChild(box);
+  }
+  box.querySelector('.lb-img').src = src;
+  box.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  const box = document.getElementById('lightbox');
+  if (box) box.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    if (document.getElementById('lightbox')?.classList.contains('open')) {
+      closeLightbox();
+    } else if (panelOpen) {
+      location.hash = currentCategory;
+    }
+  }
 });
 
 // ── START ─────────────────────────────────────────────
