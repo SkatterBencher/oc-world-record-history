@@ -1,0 +1,29 @@
+{
+  "uid": "20230617_3930",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2023-06-17",
+  "achieved_at_approximate": false,
+  "value_mhz": 3930.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce RTX 4090",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "CENS",
+      "real_name": null,
+      "aliases": [],
+      "country": "DE",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

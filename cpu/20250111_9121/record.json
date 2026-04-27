@@ -9,14 +9,14 @@
     "primary": "Intel Core i9-14900KF",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Helium"
   },
   "overclockers": [
     {
       "handle": "Wytiwx",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "CN",
       "profile_url": null
     }
   ],

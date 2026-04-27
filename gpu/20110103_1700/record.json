@@ -1,0 +1,29 @@
+{
+  "uid": "20110103_1700",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2011-01-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 1700.0,
+  "hardware": {
+    "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Matose",
+      "real_name": null,
+      "aliases": [],
+      "country": "RO",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

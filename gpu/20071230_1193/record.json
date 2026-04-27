@@ -1,0 +1,29 @@
+{
+  "uid": "20071230_1193",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2007-12-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 1193.0,
+  "hardware": {
+    "primary": "AMD Radeon HD 2900 XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Gautam",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

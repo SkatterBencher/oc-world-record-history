@@ -1,0 +1,29 @@
+{
+  "uid": "20020407_365",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2002-04-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 365.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 4 Ti 4600",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Gjwild",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20060611_1045",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2006-06-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 1045.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 7900 GTX",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "K|ngp|n",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

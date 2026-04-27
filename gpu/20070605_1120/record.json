@@ -1,0 +1,29 @@
+{
+  "uid": "20070605_1120",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2007-06-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 1120.0,
+  "hardware": {
+    "primary": "Ati Radeon HD 2900 XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

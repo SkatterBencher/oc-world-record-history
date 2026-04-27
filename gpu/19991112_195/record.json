@@ -1,0 +1,29 @@
+{
+  "uid": "19991112_195",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "1999-11-12",
+  "achieved_at_approximate": false,
+  "value_mhz": 195.0,
+  "hardware": {
+    "primary": "NVIDIA Riva TNT2 Ultra",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Unknown",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20100220_1450",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2010-02-20",
+  "achieved_at_approximate": false,
+  "value_mhz": 1450.0,
+  "hardware": {
+    "primary": "AMD Radeon HD 5870",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Massman",
+      "real_name": null,
+      "aliases": [],
+      "country": "BE",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

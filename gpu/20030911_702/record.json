@@ -1,0 +1,29 @@
+{
+  "uid": "20030911_702",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2003-09-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 702.0,
+  "hardware": {
+    "primary": "GeForce FX 5900 Ultra",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Donebalp",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

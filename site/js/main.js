@@ -149,26 +149,23 @@ function renderChart(records) {
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
 
-  // Sort chronologically
   const sorted = [...records].sort(
     (a, b) => new Date(a.achieved_at) - new Date(b.achieved_at)
   );
 
-  if (sorted.length < 2) {
-    canvas.style.display = 'none';
-    return;
-  }
+  if (sorted.length < 2) { canvas.style.display = 'none'; return; }
   canvas.style.display = 'block';
 
-  // DPI-aware sizing — fall back if canvas is hidden (display:none parent)
+  // DPI-aware sizing
   const dpr = window.devicePixelRatio || 1;
   const rect = canvas.getBoundingClientRect();
   const W = rect.width > 0 ? rect.width : (canvas.parentElement?.offsetWidth || 800);
-  const H = rect.height > 0 ? rect.height : 200;
+  const H = rect.height > 0 ? rect.height : 220;
   canvas.width  = W * dpr;
   canvas.height = H * dpr;
   ctx.scale(dpr, dpr);
-  const PAD = { top: 16, right: 24, bottom: 36, left: 64 };
+
+  const PAD = { top: 20, right: 20, bottom: 36, left: 64 };
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top  - PAD.bottom;
 
@@ -177,66 +174,63 @@ function renderChart(records) {
   const freqs   = sorted.map(r => r.value_mhz);
   const minDate = dates[0];
   const maxDate = dates[dates.length - 1];
-  const minFreq = 0;
-  const maxFreq = Math.max(...freqs) * 1.08;
+  const maxFreq = Math.max(...freqs) * 1.10;
 
-  const xScale = d => PAD.left + ((d - minDate) / (maxDate - minDate)) * plotW;
-  const yScale = v => PAD.top  + plotH - ((v - minFreq) / (maxFreq - minFreq)) * plotH;
+  const xScale = d => PAD.left + ((d - minDate) / (maxDate - minDate || 1)) * plotW;
+  const yScale = v => PAD.top  + plotH - (v / maxFreq) * plotH;
 
-  // Styles from CSS vars (read from body)
-  const cs      = getComputedStyle(document.documentElement);
-  const accent  = cs.getPropertyValue('--accent').trim()        || '#e8490f';
-  const border  = cs.getPropertyValue('--border').trim()        || '#e5e5df';
-  const textDim = cs.getPropertyValue('--text-dim').trim()      || '#b0b0a0';
-  const textMuted = cs.getPropertyValue('--text-muted').trim()  || '#6b6b5e';
-  const accentGlow = cs.getPropertyValue('--accent-glow').trim() || 'rgba(232,73,15,0.08)';
+  // CSS vars
+  const cs       = getComputedStyle(document.documentElement);
+  const accent   = cs.getPropertyValue('--accent').trim()   || '#e8490f';
+  const border   = cs.getPropertyValue('--border').trim()   || '#e5e5df';
+  const textDim  = cs.getPropertyValue('--text-dim').trim() || '#b0b0a0';
+  const bgOff    = cs.getPropertyValue('--bg-off').trim()   || '#f7f7f5';
 
   ctx.clearRect(0, 0, W, H);
 
-  // Grid lines (y-axis)
-  const yTicks = 5;
-  ctx.strokeStyle = border;
-  ctx.lineWidth   = 1;
-  ctx.setLineDash([3, 4]);
-  ctx.fillStyle   = textDim;
-  ctx.font        = '10px IBM Plex Mono, monospace';
-  ctx.textAlign   = 'right';
+  // Y grid + labels
+  const yTicks = 4;
+  ctx.font      = '10px IBM Plex Mono, monospace';
+  ctx.textAlign = 'right';
   for (let i = 0; i <= yTicks; i++) {
-    const v = minFreq + (maxFreq - minFreq) * (i / yTicks);
+    const v = maxFreq * (i / yTicks);
     const y = yScale(v);
+    ctx.strokeStyle = border;
+    ctx.lineWidth   = 1;
+    ctx.setLineDash([3, 5]);
     ctx.beginPath();
     ctx.moveTo(PAD.left, y);
     ctx.lineTo(PAD.left + plotW, y);
     ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = textDim;
     ctx.fillText(
-      v >= 1000 ? (v / 1000).toFixed(1) + ' GHz' : Math.round(v) + ' MHz',
-      PAD.left - 8, y + 3
+      v >= 1000 ? (v / 1000).toFixed(1) + ' GHz' : Math.round(v) + '',
+      PAD.left - 6, y + 3
     );
   }
-  ctx.setLineDash([]);
 
-  // x-axis decade ticks
-  ctx.fillStyle  = textDim;
-  ctx.textAlign  = 'center';
-  ctx.font       = '10px IBM Plex Mono, monospace';
-  const minYear  = new Date(minDate).getFullYear();
-  const maxYear  = new Date(maxDate).getFullYear();
-  for (let yr = Math.ceil(minYear / 5) * 5; yr <= maxYear; yr += 5) {
-    const x = xScale(new Date(`${yr}-01-01`).getTime());
+  // X year ticks
+  ctx.textAlign = 'center';
+  const minYear = new Date(minDate).getFullYear();
+  const maxYear = new Date(maxDate).getFullYear();
+  const yearStep = (maxYear - minYear) > 15 ? 5 : 2;
+  for (let yr = Math.ceil(minYear / yearStep) * yearStep; yr <= maxYear; yr += yearStep) {
+    const x = xScale(new Date(`${yr}-06-01`).getTime());
     if (x < PAD.left || x > PAD.left + plotW) continue;
     ctx.fillStyle = textDim;
-    ctx.fillText(yr, x, H - PAD.bottom + 16);
+    ctx.fillText(yr, x, H - PAD.bottom + 14);
     ctx.strokeStyle = border;
     ctx.lineWidth = 1;
+    ctx.setLineDash([2, 6]);
     ctx.beginPath();
     ctx.moveTo(x, PAD.top);
     ctx.lineTo(x, PAD.top + plotH);
-    ctx.setLineDash([2, 5]);
     ctx.stroke();
     ctx.setLineDash([]);
   }
 
-  // Area fill under the line
+  // Area fill
   ctx.beginPath();
   sorted.forEach((r, i) => {
     const x = xScale(dates[i]);
@@ -246,85 +240,135 @@ function renderChart(records) {
   ctx.lineTo(xScale(dates[dates.length - 1]), PAD.top + plotH);
   ctx.lineTo(xScale(dates[0]), PAD.top + plotH);
   ctx.closePath();
-  const gradient = ctx.createLinearGradient(0, PAD.top, 0, PAD.top + plotH);
-  gradient.addColorStop(0,   accentGlow.replace(')', ', 0.5)').replace('rgba(', 'rgba('));
-  gradient.addColorStop(0,   'rgba(232,73,15,0.18)');
-  gradient.addColorStop(1,   'rgba(232,73,15,0.0)');
-  ctx.fillStyle = gradient;
+  const grad = ctx.createLinearGradient(0, PAD.top, 0, PAD.top + plotH);
+  grad.addColorStop(0, 'rgba(232,73,15,0.15)');
+  grad.addColorStop(1, 'rgba(232,73,15,0.0)');
+  ctx.fillStyle = grad;
   ctx.fill();
 
-  // Line
+  // Step line (horizontal then vertical — record progression style)
   ctx.beginPath();
   sorted.forEach((r, i) => {
     const x = xScale(dates[i]);
     const y = yScale(r.value_mhz);
-    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    if (i === 0) {
+      ctx.moveTo(x, y);
+    } else {
+      // horizontal to this x, then up to this y
+      ctx.lineTo(x, yScale(sorted[i-1].value_mhz));
+      ctx.lineTo(x, y);
+    }
   });
   ctx.strokeStyle = accent;
-  ctx.lineWidth   = 2;
+  ctx.lineWidth   = 1.5;
   ctx.lineJoin    = 'round';
   ctx.stroke();
 
-  // Dots for major jumps (>5% increase)
+  // Bubbles — every record
+  const points = [];
   sorted.forEach((r, i) => {
     const x = xScale(dates[i]);
     const y = yScale(r.value_mhz);
-    const prev = sorted[i - 1];
-    const isMajor = !prev || (r.value_mhz - prev.value_mhz) / prev.value_mhz > 0.05;
     const isSelected = r.uid === selectedUid;
+    const isHovered  = canvas._hovered === r.uid;
+    const R = isSelected ? 6 : isHovered ? 5 : 3.5;
 
-    if (isMajor || isSelected) {
+    // Shadow for hover/selected
+    if (isSelected || isHovered) {
       ctx.beginPath();
-      ctx.arc(x, y, isSelected ? 5 : 3, 0, Math.PI * 2);
-      ctx.fillStyle   = isSelected ? accent : '#fff';
-      ctx.strokeStyle = accent;
-      ctx.lineWidth   = isSelected ? 0 : 2;
+      ctx.arc(x, y, R + 4, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(232,73,15,0.15)';
       ctx.fill();
-      if (!isSelected) ctx.stroke();
     }
+
+    // Bubble
+    ctx.beginPath();
+    ctx.arc(x, y, R, 0, Math.PI * 2);
+    ctx.fillStyle   = isSelected ? accent : (isHovered ? accent : '#fff');
+    ctx.strokeStyle = accent;
+    ctx.lineWidth   = isSelected ? 0 : 2;
+    ctx.fill();
+    if (!isSelected) ctx.stroke();
+
+    points.push({ x, y, uid: r.uid, record: r });
   });
 
-  // Clickable hit areas — store for mouse events
-  canvas._points = sorted.map((r, i) => ({
-    x: xScale(dates[i]),
-    y: yScale(r.value_mhz),
-    uid: r.uid,
-  }));
+  canvas._points = points;
 }
 
-// Chart mouse interaction
-document.getElementById('record-chart')?.addEventListener('mousemove', function(e) {
-  if (!this._points?.length) return;
-  const rect = this.getBoundingClientRect();
-  const mx   = e.clientX - rect.left;
-  let closest = null, minDist = Infinity;
-  this._points.forEach(p => {
-    const d = Math.abs(p.x - mx);
-    if (d < minDist) { minDist = d; closest = p; }
-  });
-  this.style.cursor = closest && minDist < 20 ? 'pointer' : 'default';
-  this.title = closest && minDist < 20
-    ? allRecords.find(r => r.uid === closest.uid)?.value_mhz.toFixed(2) + ' MHz'
-    : '';
-});
+// ── CHART TOOLTIP ─────────────────────────────────────
+(function setupChartEvents() {
+  // Create tooltip element
+  const tip = document.createElement('div');
+  tip.id = 'chart-tooltip';
+  tip.style.cssText = `
+    position: fixed; pointer-events: none; z-index: 200;
+    background: #1a1a18; color: #e8e8f0; border: 1px solid #e8490f;
+    border-radius: 5px; padding: 7px 11px; font-family: IBM Plex Mono, monospace;
+    font-size: 11px; line-height: 1.5; display: none; white-space: nowrap;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  `;
+  document.body.appendChild(tip);
 
-document.getElementById('record-chart')?.addEventListener('click', function(e) {
-  if (!this._points?.length) return;
-  const rect = this.getBoundingClientRect();
-  const mx   = e.clientX - rect.left;
-  let closest = null, minDist = Infinity;
-  this._points.forEach(p => {
-    const d = Math.abs(p.x - mx);
-    if (d < minDist) { minDist = d; closest = p; }
-  });
-  if (closest && minDist < 20) {
-    location.hash = `${currentCategory}/${closest.uid}`;
+  function findNearest(canvas, e) {
+    if (!canvas._points?.length) return null;
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+    let closest = null, minDist = Infinity;
+    canvas._points.forEach(p => {
+      const d = Math.sqrt((p.x - mx) ** 2 + (p.y - my) ** 2);
+      if (d < minDist) { minDist = d; closest = p; }
+    });
+    return minDist < 20 ? closest : null;
   }
-});
+
+  // Attach events after DOM ready
+  function attach() {
+    const canvas = document.getElementById('record-chart');
+    if (!canvas) { setTimeout(attach, 200); return; }
+
+    canvas.addEventListener('mousemove', function(e) {
+      const p = findNearest(this, e);
+      if (p) {
+        this.style.cursor = 'pointer';
+        this._hovered = p.uid;
+        const r = p.record;
+        const ocs = (r.overclockers || []).map(o => o.handle).join(' & ');
+        tip.innerHTML = `<strong>${r.value_mhz.toFixed(2)} MHz</strong><br>${r.hardware?.primary || ''}<br>${ocs} · ${r.achieved_at}`;
+        tip.style.display = 'block';
+        tip.style.left = (e.clientX + 14) + 'px';
+        tip.style.top  = (e.clientY - 10) + 'px';
+        // Redraw to show hover state
+        try { renderChart(getFilteredRecords()); } catch(e) {}
+      } else {
+        this.style.cursor = 'default';
+        if (this._hovered) {
+          this._hovered = null;
+          try { renderChart(getFilteredRecords()); } catch(e) {}
+        }
+        tip.style.display = 'none';
+      }
+    });
+
+    canvas.addEventListener('mouseleave', function() {
+      tip.style.display = 'none';
+      this._hovered = null;
+      this.style.cursor = 'default';
+      try { renderChart(getFilteredRecords()); } catch(e) {}
+    });
+
+    canvas.addEventListener('click', function(e) {
+      const p = findNearest(this, e);
+      if (p) location.hash = `${currentCategory}/${p.uid}`;
+    });
+  }
+  attach();
+})();
 
 // Redraw chart on resize
 window.addEventListener('resize', () => {
-  renderChart(getFilteredRecords());
+  try { renderChart(getFilteredRecords()); } catch(e) {}
 });
 
 // ── TAG SIDEBAR ───────────────────────────────────────
@@ -371,7 +415,9 @@ function openRecord(uid) {
   document.getElementById('detail-panel').classList.add('open');
 
   renderPanel(record);
-  renderChart(getFilteredRecords()); // redraw to show selected dot
+  // Redraw immediately for selected dot, then again after CSS transition (0.3s) for correct width
+  try { renderChart(getFilteredRecords()); } catch(e) {}
+  setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(e) {} }, 320);
 
   const row = document.querySelector(`.record-row[data-uid="${uid}"]`);
   if (row) row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -383,6 +429,8 @@ function closePanel() {
   document.getElementById('detail-panel').classList.remove('open');
   document.getElementById('timeline-main').classList.remove('panel-open');
   document.querySelectorAll('.record-row').forEach(r => r.classList.remove('selected'));
+  // Redraw chart after panel close transition
+  setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(e) {} }, 320);
 }
 
 function renderPanel(record) {

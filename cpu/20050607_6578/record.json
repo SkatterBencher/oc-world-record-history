@@ -9,14 +9,14 @@
     "primary": "Intel Pentium 4 660",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
       "handle": "The Stilt",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "FI",
       "profile_url": null
     }
   ],

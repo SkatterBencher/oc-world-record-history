@@ -1,0 +1,29 @@
+{
+  "uid": "20040915_807",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2004-09-15",
+  "achieved_at_approximate": false,
+  "value_mhz": 807.0,
+  "hardware": {
+    "primary": "Ati Radeon X800 Pro",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

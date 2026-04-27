@@ -1,0 +1,29 @@
+{
+  "uid": "20160605_2420",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2016-06-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 2420.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 1080",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Vivi",
+      "real_name": null,
+      "aliases": [],
+      "country": "ZA",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

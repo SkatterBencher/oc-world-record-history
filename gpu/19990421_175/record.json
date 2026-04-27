@@ -1,0 +1,29 @@
+{
+  "uid": "19990421_175",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "1999-04-21",
+  "achieved_at_approximate": false,
+  "value_mhz": 175.0,
+  "hardware": {
+    "primary": "3DFX Voodoo3-2000",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "iXBT Labs",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

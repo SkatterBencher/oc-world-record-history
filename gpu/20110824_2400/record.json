@@ -1,0 +1,29 @@
+{
+  "uid": "20110824_2400",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2011-08-24",
+  "achieved_at_approximate": false,
+  "value_mhz": 2400.0,
+  "hardware": {
+    "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Lucky_n00b",
+      "real_name": null,
+      "aliases": [],
+      "country": "ID",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

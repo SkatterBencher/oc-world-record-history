@@ -1,2 +1,5 @@
-/admin/*
 run_locally.txt
+admin_server.py
+generate_gpurecords.py
+generate_memoryrecords.py
+generate_records.py

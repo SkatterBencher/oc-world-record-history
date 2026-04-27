@@ -9,14 +9,14 @@
     "primary": "Intel Core i9-13900K",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
       "handle": "Elmor",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "SE",
       "profile_url": null
     }
   ],

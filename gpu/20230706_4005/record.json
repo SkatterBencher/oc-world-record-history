@@ -1,0 +1,29 @@
+{
+  "uid": "20230706_4005",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2023-07-06",
+  "achieved_at_approximate": false,
+  "value_mhz": 4005.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce RTX 4090",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Splave",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

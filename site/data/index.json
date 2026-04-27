@@ -180,6 +180,36 @@
     "_asset_base": "cpu/19980111_416/"
   },
   {
+    "uid": "19980119_118",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "1998-01-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 118.0,
+    "hardware": {
+      "primary": "Rendition Verite V2x00",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Liaor",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/19980119_118/"
+  },
+  {
     "uid": "19980301_530",
     "category": "cpu",
     "subcategory": null,
@@ -328,6 +358,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/19980912_675/"
+  },
+  {
+    "uid": "19980913_135",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "1998-09-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 135.0,
+    "hardware": {
+      "primary": "NVIDIA Riva TNT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "AnandTech",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/19980913_135/"
   },
   {
     "uid": "19981007_698",
@@ -642,6 +702,36 @@
     "_asset_base": "cpu/19990321_849/"
   },
   {
+    "uid": "19990421_175",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "1999-04-21",
+    "achieved_at_approximate": false,
+    "value_mhz": 175.0,
+    "hardware": {
+      "primary": "3DFX Voodoo3-2000",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "iXBT Labs",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/19990421_175/"
+  },
+  {
     "uid": "19990619_921",
     "category": "cpu",
     "subcategory": null,
@@ -736,6 +826,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/19991101_1151/"
+  },
+  {
+    "uid": "19991112_195",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "1999-11-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 195.0,
+    "hardware": {
+      "primary": "NVIDIA Riva TNT2 Ultra",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Unknown",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/19991112_195/"
   },
   {
     "uid": "19991116_1238",
@@ -1456,6 +1576,36 @@
     "_asset_base": "cpu/20010402_2864/"
   },
   {
+    "uid": "20010528_256",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2001-05-28",
+    "achieved_at_approximate": false,
+    "value_mhz": 256.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce3",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20010528_256/"
+  },
+  {
     "uid": "20010905_3023",
     "category": "cpu",
     "subcategory": null,
@@ -1544,6 +1694,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20011107_3391/"
+  },
+  {
+    "uid": "20011123_305",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2001-11-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 305.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce3",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20011123_305/"
   },
   {
     "uid": "20020109_3541",
@@ -1726,6 +1906,36 @@
     "_asset_base": "cpu/20020327_4010/"
   },
   {
+    "uid": "20020407_365",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2002-04-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 365.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 4 Ti 4600",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Gjwild",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20020407_365/"
+  },
+  {
     "uid": "20020414_4110",
     "category": "cpu",
     "subcategory": null,
@@ -1754,6 +1964,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20020414_4110/"
+  },
+  {
+    "uid": "20020506_378",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2002-05-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 378.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 4 Ti 4600",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Sampsa",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20020506_378/"
   },
   {
     "uid": "20020530_235",
@@ -1788,6 +2028,36 @@
     "_asset_base": "memory/20020530_235/"
   },
   {
+    "uid": "20020605_391",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2002-06-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 391.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 4 Ti 4600",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Doc",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20020605_391/"
+  },
+  {
     "uid": "20020623_240",
     "category": "memory",
     "subcategory": "DDR",
@@ -1818,6 +2088,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20020623_240/"
+  },
+  {
+    "uid": "20020629_405",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2002-06-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 405.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 4 Ti 4600",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "JCViggen",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20020629_405/"
   },
   {
     "uid": "20020629_257",
@@ -1912,6 +2212,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20020719_258/"
+  },
+  {
+    "uid": "20020720_409",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2002-07-20",
+    "achieved_at_approximate": false,
+    "value_mhz": 409.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 4 Ti 4600",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kamu",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20020720_409/"
   },
   {
     "uid": "20020819_4309",
@@ -2034,6 +2364,36 @@
     "_asset_base": "cpu/20020901_4418/"
   },
   {
+    "uid": "20020911_479",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2002-09-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 479.0,
+    "hardware": {
+      "primary": "Ati Radeon 9700 Pro",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20020911_479/"
+  },
+  {
     "uid": "20020915_4424",
     "category": "cpu",
     "subcategory": null,
@@ -2062,6 +2422,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20020915_4424/"
+  },
+  {
+    "uid": "20020927_508",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2002-09-27",
+    "achieved_at_approximate": false,
+    "value_mhz": 508.0,
+    "hardware": {
+      "primary": "Ati Radeon 9700 Pro",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OPPainter",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20020927_508/"
   },
   {
     "uid": "20021027_285",
@@ -2218,6 +2608,36 @@
     "_asset_base": "cpu/20021208_4588/"
   },
   {
+    "uid": "20030204_513",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-02-04",
+    "achieved_at_approximate": false,
+    "value_mhz": 513.0,
+    "hardware": {
+      "primary": "Ati Radeon 9700 Pro",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20030204_513/"
+  },
+  {
     "uid": "20030214_4599",
     "category": "cpu",
     "subcategory": null,
@@ -2276,6 +2696,66 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20030223_4623/"
+  },
+  {
+    "uid": "20030510_540",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-05-10",
+    "achieved_at_approximate": false,
+    "value_mhz": 540.0,
+    "hardware": {
+      "primary": "Ati Radeon 9800 Pro",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "DigitalJesus",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20030510_540/"
+  },
+  {
+    "uid": "20030511_558",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-05-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 558.0,
+    "hardware": {
+      "primary": "Ati Radeon 9800 Pro",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20030511_558/"
   },
   {
     "uid": "20030511_291",
@@ -2338,6 +2818,66 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20030524_4762/"
+  },
+  {
+    "uid": "20030530_567",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-05-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 567.0,
+    "hardware": {
+      "primary": "Ati Radeon 9800 Pro",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OPPainter",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20030530_567/"
+  },
+  {
+    "uid": "20030611_594",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-06-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 594.0,
+    "hardware": {
+      "primary": "Ati Radeon 9800 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "FUGGER",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20030611_594/"
   },
   {
     "uid": "20030629_4872",
@@ -2432,6 +2972,36 @@
     "_asset_base": "cpu/20030703_5125/"
   },
   {
+    "uid": "20030708_689",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-07-08",
+    "achieved_at_approximate": false,
+    "value_mhz": 689.0,
+    "hardware": {
+      "primary": "GeForce FX 5900 Ultra",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20030708_689/"
+  },
+  {
     "uid": "20030712_314",
     "category": "memory",
     "subcategory": "DDR",
@@ -2462,6 +3032,66 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20030712_314/"
+  },
+  {
+    "uid": "20030911_702",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-09-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 702.0,
+    "hardware": {
+      "primary": "GeForce FX 5900 Ultra",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Donebalp",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20030911_702/"
+  },
+  {
+    "uid": "20031025_711",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2003-10-25",
+    "achieved_at_approximate": false,
+    "value_mhz": 711.0,
+    "hardware": {
+      "primary": "GeForce FX 5900 Ultra",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kamu",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20031025_711/"
   },
   {
     "uid": "20031202_5154",
@@ -2584,6 +3214,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20040412_325/"
+  },
+  {
+    "uid": "20040507_715",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2004-05-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 715.0,
+    "hardware": {
+      "primary": "Ati Radeon X800 XT Platinum",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Unknown",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20040507_715/"
   },
   {
     "uid": "20040509_5387",
@@ -2779,6 +3439,36 @@
     "_asset_base": "memory/20040729_359/"
   },
   {
+    "uid": "20040915_807",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2004-09-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 807.0,
+    "hardware": {
+      "primary": "Ati Radeon X800 Pro",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20040915_807/"
+  },
+  {
     "uid": "20040922_368",
     "category": "memory",
     "subcategory": "DDR2",
@@ -2809,6 +3499,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20040922_368/"
+  },
+  {
+    "uid": "20041001_810",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2004-10-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 810.0,
+    "hardware": {
+      "primary": "Ati Radeon X800 XT Platinum",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20041001_810/"
   },
   {
     "uid": "20041016_6042",
@@ -2995,6 +3715,36 @@
     "_asset_base": "memory/20041117_430/"
   },
   {
+    "uid": "20041118_824",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2004-11-18",
+    "achieved_at_approximate": false,
+    "value_mhz": 824.0,
+    "hardware": {
+      "primary": "Ati Radeon X800 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OPPainter",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20041118_824/"
+  },
+  {
     "uid": "20041129_6315",
     "category": "cpu",
     "subcategory": null,
@@ -3117,6 +3867,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20050118_6495/"
+  },
+  {
+    "uid": "20050603_860",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2005-06-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 860.0,
+    "hardware": {
+      "primary": "Ati Radeon X850 XT PE",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20050603_860/"
   },
   {
     "uid": "20050607_6578",
@@ -3267,6 +4047,66 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20050916_7418/"
+  },
+  {
+    "uid": "20051011_878",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2005-10-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 878.0,
+    "hardware": {
+      "primary": "ATi Radeon X1800 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20051011_878/"
+  },
+  {
+    "uid": "20051017_1006",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2005-10-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 1006.0,
+    "hardware": {
+      "primary": "ATi Radeon X1800 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Sampsa",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20051017_1006/"
   },
   {
     "uid": "20051113_7473",
@@ -3545,6 +4385,36 @@
     "_asset_base": "memory/20060518_645/"
   },
   {
+    "uid": "20060611_1045",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2006-06-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 1045.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 7900 GTX",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "K|ngp|n",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20060611_1045/"
+  },
+  {
     "uid": "20060908_697",
     "category": "memory",
     "subcategory": "DDR2",
@@ -3699,6 +4569,36 @@
     "_asset_base": "cpu/20070330_8179/"
   },
   {
+    "uid": "20070506_1048",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2007-05-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 1048.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 8600 GT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Achill3us",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20070506_1048/"
+  },
+  {
     "uid": "20070531_1140",
     "category": "memory",
     "subcategory": "DDR3",
@@ -3793,6 +4693,66 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20070604_1146/"
+  },
+  {
+    "uid": "20070605_1120",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2007-06-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 1120.0,
+    "hardware": {
+      "primary": "Ati Radeon HD 2900 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20070605_1120/"
+  },
+  {
+    "uid": "20070630_1168",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2007-06-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 1168.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce 7900 GTO",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "marcin88",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20070630_1168/"
   },
   {
     "uid": "20070702_1150",
@@ -3983,6 +4943,96 @@
     "_asset_base": "memory/20070928_1304/"
   },
   {
+    "uid": "20071208_1180",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2007-12-08",
+    "achieved_at_approximate": false,
+    "value_mhz": 1180.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 2900 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "GPRHellas",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20071208_1180/"
+  },
+  {
+    "uid": "20071230_1193",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2007-12-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 1193.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 2900 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Gautam",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20071230_1193/"
+  },
+  {
+    "uid": "20080120_1360",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2008-01-20",
+    "achieved_at_approximate": false,
+    "value_mhz": 1360.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 2900 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Hipro5",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20080120_1360/"
+  },
+  {
     "uid": "20081005_1341",
     "category": "memory",
     "subcategory": "DDR3",
@@ -4077,6 +5127,223 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20090209_1352/"
+  },
+  {
+    "uid": "20091129_1380",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2009-11-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 1380.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 5870",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Deanzo",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20091129_1380/"
+  },
+  {
+    "uid": "20091219_1400",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2009-12-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 1400.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 275",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Massman",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20091219_1400/"
+  },
+  {
+    "uid": "20100112_1410",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2010-01-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 1410.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 5870",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "NickShih",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20100112_1410/"
+  },
+  {
+    "uid": "20100112_1420",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2010-01-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 1420.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 5870",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "NickShih",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20100112_1420/"
+  },
+  {
+    "uid": "20100220_1450",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2010-02-20",
+    "achieved_at_approximate": false,
+    "value_mhz": 1450.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 5870",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Massman",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20100220_1450/"
+  },
+  {
+    "uid": "20100311_1485",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2010-03-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 1485.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 5870",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "NickShih",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20100311_1485/"
+  },
+  {
+    "uid": "20100411_1525",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2010-04-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 1525.0,
+    "hardware": {
+      "primary": "AMD Radeon HD 5870",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Elmor",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      },
+      {
+        "handle": "Kinc",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20100411_1525/"
   },
   {
     "uid": "20100821_1534",
@@ -4203,6 +5470,156 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20100928_1553/"
+  },
+  {
+    "uid": "20110103_1700",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2011-01-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 1700.0,
+    "hardware": {
+      "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Matose",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20110103_1700/"
+  },
+  {
+    "uid": "20110106_1950",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2011-01-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 1950.0,
+    "hardware": {
+      "primary": "Intel HD Graphics 2000 (Sandy Bridge)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "[Wanted]",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20110106_1950/"
+  },
+  {
+    "uid": "20110113_2000",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2011-01-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 2000.0,
+    "hardware": {
+      "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Stummerwinter",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20110113_2000/"
+  },
+  {
+    "uid": "20110115_2170",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2011-01-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 2170.0,
+    "hardware": {
+      "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Matose",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20110115_2170/"
+  },
+  {
+    "uid": "20110116_2234",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2011-01-16",
+    "achieved_at_approximate": false,
+    "value_mhz": 2234.0,
+    "hardware": {
+      "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Matose",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20110116_2234/"
   },
   {
     "uid": "20110228_1575",
@@ -4333,6 +5750,36 @@
     "_asset_base": "memory/20110321_1625/"
   },
   {
+    "uid": "20110719_2300",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2011-07-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 2300.0,
+    "hardware": {
+      "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Samba",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20110719_2300/"
+  },
+  {
     "uid": "20110819_8308",
     "category": "cpu",
     "subcategory": null,
@@ -4361,6 +5808,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20110819_8308/"
+  },
+  {
+    "uid": "20110824_2400",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2011-08-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 2400.0,
+    "hardware": {
+      "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Lucky_n00b",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20110824_2400/"
   },
   {
     "uid": "20110902_8429",
@@ -5375,6 +6852,306 @@
     "_asset_base": "memory/20160604_2594/"
   },
   {
+    "uid": "20160605_2420",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-06-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 2420.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Vivi",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20160605_2420/"
+  },
+  {
+    "uid": "20160622_2450",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-06-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 2450.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Xtreme Addict",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20160622_2450/"
+  },
+  {
+    "uid": "20160706_2645",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-07-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 2645.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Dancop",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20160706_2645/"
+  },
+  {
+    "uid": "20160724_2700",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-07-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 2700.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Xtreme Addict",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20160724_2700/"
+  },
+  {
+    "uid": "20160724_2750",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-07-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 2750.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Xtreme Addict",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20160724_2750/"
+  },
+  {
+    "uid": "20160805_2784",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-08-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 2784.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Rsannino",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20160805_2784/"
+  },
+  {
+    "uid": "20161030_2822",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-10-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 2822.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1060",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Shimizu",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20161030_2822/"
+  },
+  {
+    "uid": "20161104_2860",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-11-04",
+    "achieved_at_approximate": false,
+    "value_mhz": 2860.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1060",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20161104_2860/"
+  },
+  {
+    "uid": "20161104_2885",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-11-04",
+    "achieved_at_approximate": false,
+    "value_mhz": 2885.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1060",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20161104_2885/"
+  },
+  {
+    "uid": "20161218_3012",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2016-12-18",
+    "achieved_at_approximate": false,
+    "value_mhz": 3012.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1060",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Vivi",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20161218_3012/"
+  },
+  {
     "uid": "20170113_2630",
     "category": "memory",
     "subcategory": "DDR4",
@@ -5437,6 +7214,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20170227_2631/"
+  },
+  {
+    "uid": "20170322_3025",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2017-03-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 3025.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 1080 Ti",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "K|ngp|n",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20170322_3025/"
   },
   {
     "uid": "20170330_2640",
@@ -6431,6 +8238,66 @@
     "_asset_base": "memory/20210416_3600/"
   },
   {
+    "uid": "20210421_3225",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2021-04-21",
+    "achieved_at_approximate": false,
+    "value_mhz": 3225.0,
+    "hardware": {
+      "primary": "AMD Radeon RX 6900 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Der8auer",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20210421_3225/"
+  },
+  {
+    "uid": "20210512_3319",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2021-05-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 3319.0,
+    "hardware": {
+      "primary": "AMD Radeon RX 6900 XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20210512_3319/"
+  },
+  {
     "uid": "20211001_4004",
     "category": "memory",
     "subcategory": "DDR5",
@@ -6909,6 +8776,96 @@
     "_asset_base": "memory/20221020_5564/"
   },
   {
+    "uid": "20221024_3345",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2022-10-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 3345.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20221024_3345/"
+  },
+  {
+    "uid": "20221103_3705",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2022-11-03",
+    "achieved_at_approximate": false,
+    "value_mhz": 3705.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20221103_3705/"
+  },
+  {
+    "uid": "20221119_3825",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2022-11-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 3825.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20221119_3825/"
+  },
+  {
     "uid": "20221209_9008",
     "category": "cpu",
     "subcategory": null,
@@ -7001,6 +8958,36 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20230117_5612/"
+  },
+  {
+    "uid": "20230222_3840",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2023-02-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 3840.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "OGS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20230222_3840/"
   },
   {
     "uid": "20230605_5613",
@@ -7129,6 +9116,156 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "memory/20230607_5627/"
+  },
+  {
+    "uid": "20230617_3930",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2023-06-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 3930.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "CENS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20230617_3930/"
+  },
+  {
+    "uid": "20230628_3945",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2023-06-28",
+    "achieved_at_approximate": false,
+    "value_mhz": 3945.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Splave",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20230628_3945/"
+  },
+  {
+    "uid": "20230705_3975",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2023-07-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 3975.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "CENS",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20230705_3975/"
+  },
+  {
+    "uid": "20230706_4005",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2023-07-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 4005.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Splave",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20230706_4005/"
+  },
+  {
+    "uid": "20230706_4020",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2023-07-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 4020.0,
+    "hardware": {
+      "primary": "NVIDIA GeForce RTX 4090",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Splave",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20230706_4020/"
   },
   {
     "uid": "20231002_5806",
@@ -8145,6 +10282,43 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "cpu/20250823_9130/"
+  },
+  {
+    "uid": "20250905_4250",
+    "category": "gpu",
+    "subcategory": null,
+    "achieved_at": "2025-09-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 4250.0,
+    "hardware": {
+      "primary": "Intel Graphics (Arrow Lake)",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Massman",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      },
+      {
+        "handle": "SkatterBencher",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "gpu/20250905_4250/"
   },
   {
     "uid": "20250921_6460",

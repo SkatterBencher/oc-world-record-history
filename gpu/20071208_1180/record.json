@@ -1,0 +1,29 @@
+{
+  "uid": "20071208_1180",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2007-12-08",
+  "achieved_at_approximate": false,
+  "value_mhz": 1180.0,
+  "hardware": {
+    "primary": "AMD Radeon HD 2900 XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "GPRHellas",
+      "real_name": null,
+      "aliases": [],
+      "country": "GR",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

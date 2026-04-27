@@ -1,0 +1,29 @@
+{
+  "uid": "20110106_1950",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2011-01-06",
+  "achieved_at_approximate": false,
+  "value_mhz": 1950.0,
+  "hardware": {
+    "primary": "Intel HD Graphics 2000 (Sandy Bridge)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "[Wanted]",
+      "real_name": null,
+      "aliases": [],
+      "country": "RO",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

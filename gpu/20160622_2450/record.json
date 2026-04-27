@@ -1,0 +1,29 @@
+{
+  "uid": "20160622_2450",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2016-06-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 2450.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 1080",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Xtreme Addict",
+      "real_name": null,
+      "aliases": [],
+      "country": "PL",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

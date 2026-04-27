@@ -263,7 +263,7 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 
 #record-chart {
   width: 100%;
-  height: 200px;
+  height: 220px;
   display: block;
   cursor: default;
 }

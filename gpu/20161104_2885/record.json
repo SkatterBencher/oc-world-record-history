@@ -1,0 +1,29 @@
+{
+  "uid": "20161104_2885",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2016-11-04",
+  "achieved_at_approximate": false,
+  "value_mhz": 2885.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 1060",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "OGS",
+      "real_name": null,
+      "aliases": [],
+      "country": "GR",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,29 @@
+{
+  "uid": "20020605_391",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2002-06-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 391.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 4 Ti 4600",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Doc",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

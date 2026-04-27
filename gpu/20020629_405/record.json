@@ -1,0 +1,29 @@
+{
+  "uid": "20020629_405",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2002-06-29",
+  "achieved_at_approximate": false,
+  "value_mhz": 405.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 4 Ti 4600",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "JCViggen",
+      "real_name": null,
+      "aliases": [],
+      "country": "BE",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

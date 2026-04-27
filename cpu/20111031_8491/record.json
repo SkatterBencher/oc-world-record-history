@@ -9,14 +9,14 @@
     "primary": "AMD FX-8150",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
       "handle": "Chew*",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "US",
       "profile_url": null
     }
   ],

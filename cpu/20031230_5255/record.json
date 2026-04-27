@@ -9,14 +9,14 @@
     "primary": "Unknown",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
       "handle": "Frank Volkel",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "DE",
       "profile_url": null
     }
   ],

@@ -1,0 +1,29 @@
+{
+  "uid": "20161030_2822",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2016-10-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 2822.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 1060",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Shimizu",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

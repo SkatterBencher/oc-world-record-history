@@ -1,0 +1,29 @@
+{
+  "uid": "20010528_256",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2001-05-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 256.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce3",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

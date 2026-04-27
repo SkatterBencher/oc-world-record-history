@@ -9,14 +9,14 @@
     "primary": "AMD FX-8150",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Helium"
   },
   "overclockers": [
     {
       "handle": "Macci",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "FI",
       "profile_url": null
     }
   ],

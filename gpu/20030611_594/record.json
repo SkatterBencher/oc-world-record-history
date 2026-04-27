@@ -1,0 +1,29 @@
+{
+  "uid": "20030611_594",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2003-06-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 594.0,
+  "hardware": {
+    "primary": "Ati Radeon 9800 XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "FUGGER",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

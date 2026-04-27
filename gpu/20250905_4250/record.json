@@ -1,0 +1,36 @@
+{
+  "uid": "20250905_4250",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2025-09-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 4250.0,
+  "hardware": {
+    "primary": "Intel Graphics (Arrow Lake)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Massman",
+      "real_name": null,
+      "aliases": [],
+      "country": "BE",
+      "profile_url": null
+    },
+    {
+      "handle": "SkatterBencher",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

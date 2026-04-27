@@ -9,14 +9,14 @@
     "primary": "Intel Pentium 4 631",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
       "handle": "ThuG",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "I",
       "profile_url": null
     }
   ],

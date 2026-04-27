@@ -1,0 +1,29 @@
+{
+  "uid": "20020911_479",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2002-09-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 479.0,
+  "hardware": {
+    "primary": "Ati Radeon 9700 Pro",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

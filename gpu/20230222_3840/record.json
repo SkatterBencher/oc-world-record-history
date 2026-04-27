@@ -1,0 +1,29 @@
+{
+  "uid": "20230222_3840",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2023-02-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 3840.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce RTX 4090",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "OGS",
+      "real_name": null,
+      "aliases": [],
+      "country": "GR",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

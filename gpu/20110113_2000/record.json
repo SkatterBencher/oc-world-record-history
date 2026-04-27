@@ -1,0 +1,29 @@
+{
+  "uid": "20110113_2000",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2011-01-13",
+  "achieved_at_approximate": false,
+  "value_mhz": 2000.0,
+  "hardware": {
+    "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Stummerwinter",
+      "real_name": null,
+      "aliases": [],
+      "country": "DE",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

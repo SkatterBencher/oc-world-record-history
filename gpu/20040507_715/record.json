@@ -1,0 +1,29 @@
+{
+  "uid": "20040507_715",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2004-05-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 715.0,
+  "hardware": {
+    "primary": "Ati Radeon X800 XT Platinum",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Unknown",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

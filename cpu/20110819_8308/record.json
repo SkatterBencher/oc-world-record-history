@@ -9,14 +9,14 @@
     "primary": "Intel Celeron D 352",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
       "handle": "TaPaKaH",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "LV",
       "profile_url": null
     }
   ],

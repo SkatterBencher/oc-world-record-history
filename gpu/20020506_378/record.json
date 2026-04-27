@@ -1,0 +1,29 @@
+{
+  "uid": "20020506_378",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2002-05-06",
+  "achieved_at_approximate": false,
+  "value_mhz": 378.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 4 Ti 4600",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Sampsa",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

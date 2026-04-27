@@ -1,0 +1,29 @@
+{
+  "uid": "20161218_3012",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2016-12-18",
+  "achieved_at_approximate": false,
+  "value_mhz": 3012.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 1060",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Vivi",
+      "real_name": null,
+      "aliases": [],
+      "country": "ZA",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

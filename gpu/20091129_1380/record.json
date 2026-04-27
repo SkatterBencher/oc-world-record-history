@@ -1,0 +1,29 @@
+{
+  "uid": "20091129_1380",
+  "category": "gpu",
+  "subcategory": null,
+  "achieved_at": "2009-11-29",
+  "achieved_at_approximate": false,
+  "value_mhz": 1380.0,
+  "hardware": {
+    "primary": "AMD Radeon HD 5870",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Deanzo",
+      "real_name": null,
+      "aliases": [],
+      "country": "NZ",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
