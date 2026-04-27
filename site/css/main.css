@@ -647,3 +647,123 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   .rec-cpu { display: none; }
   nav a[data-page="about"] { display: none; }
 }
+
+/* ═══════════════════════════════════════════════════════
+   RECORD OF THE DAY
+   ═══════════════════════════════════════════════════════ */
+
+.home-rotd {
+  padding: 48px 0 0;
+}
+
+.rotd-inner {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-off);
+}
+
+.rotd-img-wrap {
+  display: block;
+  background: var(--bg-hover);
+  border-right: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.rotd-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  padding: 12px;
+  max-height: 220px;
+}
+
+.rotd-body {
+  padding: 28px 32px;
+}
+
+.rotd-kicker {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.rotd-freq {
+  font-family: var(--mono);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.rotd-unit {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 6px;
+}
+
+.rotd-hardware {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+.rotd-oc {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.rotd-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-top: 12px;
+  max-width: 520px;
+}
+
+.rotd-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.rotd-link:hover { text-decoration: underline; }
+
+/* No image fallback — body takes full width */
+.rotd-inner:not(:has(.rotd-img-wrap)) {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 700px) {
+  .rotd-inner {
+    grid-template-columns: 1fr;
+  }
+  .rotd-img-wrap {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+  .rotd-img-wrap img { max-height: 160px; }
+  .rotd-body { padding: 20px; }
+  .rotd-freq { font-size: 28px; }
+}

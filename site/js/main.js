@@ -89,6 +89,111 @@ function getYearRange(records) {
   return min === max ? `${min}` : `${min}–${max}`;
 }
 
+// ── HOME PAGE ─────────────────────────────────────────
+function renderHome() {
+  if (!allRecords.length) return;
+
+  // Current records — highest value_mhz per category
+  const grid = document.getElementById('current-records-grid');
+  if (grid) {
+    grid.innerHTML = ['cpu','gpu','memory'].map(cat => {
+      const catRecords = allRecords.filter(r => r.category === cat);
+      if (!catRecords.length) return '';
+      const top = catRecords.reduce((a,b) => a.value_mhz > b.value_mhz ? a : b);
+      const oc  = top.overclockers?.[0] || {};
+      const flag = getFlagEmoji(oc.country);
+      const label = CATEGORIES[cat].label;
+      return `
+        <a class="current-record-card" href="#${cat}/${top.uid}">
+          <div class="cr-category">${label} World Record</div>
+          <div class="cr-freq">${top.value_mhz.toFixed(2)}<span class="cr-unit">MHz</span></div>
+          <div class="cr-hardware">${top.hardware?.primary || 'Unknown'}</div>
+          <div class="cr-overclocker">
+            ${flag ? `<span class="cr-flag">${flag}</span>` : ''}
+            <span>${oc.handle || 'Unknown'}</span>
+          </div>
+          <div class="cr-date">${formatDateLong(top.achieved_at, top.achieved_at_approximate)}</div>
+          <div class="cr-view-all">View full ${label} timeline →</div>
+        </a>
+      `;
+    }).join('');
+  }
+
+  // Stats strip
+  const stats = document.getElementById('home-stats');
+  if (stats) {
+    const years = allRecords.map(r => parseInt(r.achieved_at.slice(0,4)));
+    const span  = Math.max(...years) - Math.min(...years);
+    const uniqueOCs = new Set(allRecords.flatMap(r => r.overclockers.map(o => o.handle))).size;
+    stats.innerHTML = `
+      <div class="stat-item">
+        <div class="stat-value">${allRecords.length}</div>
+        <div class="stat-label">Total Records</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Categories</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">${span}+</div>
+        <div class="stat-label">Years of History</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">${uniqueOCs}</div>
+        <div class="stat-label">Overclockers</div>
+      </div>
+    `;
+  }
+
+  // Record of the Day
+  renderRecordOfTheDay();
+}
+
+function renderRecordOfTheDay() {
+  const el = document.getElementById('record-of-the-day');
+  if (!el || !allRecords.length) return;
+
+  // Pick deterministically by day-of-year so it changes daily but is consistent
+  const now   = new Date();
+  const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
+  const r = allRecords[dayOfYear % allRecords.length];
+
+  const cat   = CATEGORIES[r.category] || { label: r.category };
+  const oc    = r.overclockers?.[0] || {};
+  const flag  = getFlagEmoji(oc.country);
+  const assetBase = r._asset_base || '';
+  const heroImg = r.hero ? `${assetBase}${r.hero}` : null;
+
+  // Auto-generate description
+  const parts = [];
+  if (r.hardware?.primary) parts.push(`on a ${r.hardware.primary}`);
+  if (r.hardware?.cooling)  parts.push(`cooled with ${r.hardware.cooling}`);
+  const ocNames = (r.overclockers || []).map(o => o.handle).join(' and ');
+  const country = oc.country ? ` from ${oc.country}` : '';
+  const desc = `${ocNames}${country} set this ${cat.label} world record of ${r.value_mhz.toFixed(2)} MHz ${parts.join(', ')} on ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}.${r.notes ? ' ' + r.notes : ''}`;
+
+  el.innerHTML = `
+    <div class="rotd-inner">
+      ${heroImg ? `
+        <a href="#${r.category}/${r.uid}" class="rotd-img-wrap">
+          <img src="${heroImg}" alt="Record screenshot" loading="lazy">
+        </a>
+      ` : ''}
+      <div class="rotd-body">
+        <div class="rotd-kicker">${cat.label} · ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}</div>
+        <div class="rotd-freq">${r.value_mhz.toFixed(2)}<span class="rotd-unit">MHz</span></div>
+        <div class="rotd-hardware">${r.hardware?.primary || ''}</div>
+        <div class="rotd-oc">
+          ${flag ? `<span>${flag}</span>` : ''}
+          <span>${ocNames}</span>
+        </div>
+        <p class="rotd-desc">${desc}</p>
+        <a href="#${r.category}/${r.uid}" class="rotd-link">View full record →</a>
+      </div>
+    </div>
+  `;
+}
+
 // ── TIMELINE RENDER ───────────────────────────────────
 function renderTimeline() {
   const cat     = CATEGORIES[currentCategory];
