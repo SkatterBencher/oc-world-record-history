@@ -13,6 +13,12 @@ import os
 import shutil
 import sys
 from pathlib import Path
+try:
+    from PIL import Image as PILImage
+    PILLOW_AVAILABLE = True
+except ImportError:
+    PILLOW_AVAILABLE = False
+    print('WARNING: Pillow not installed — images will be copied as-is. Run: pip install Pillow')
 
 ROOT       = Path(__file__).parent
 CATEGORIES = ["cpu", "gpu", "memory"]
@@ -21,6 +27,64 @@ ASSET_DIR  = ROOT / "site" / "assets"
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+# ── IMAGE PROCESSING ──────────────────────────────────
+MAX_WIDTH    = 1200   # px — wider images get scaled down
+MAX_SIZE_KB  = 400    # KB — files under this skip resize (just convert)
+WEBP_QUALITY = 82     # 0-100
+
+def to_web_filename(filename):
+    """Return the web-served filename (always .webp)."""
+    return Path(filename).stem + ".webp"
+
+def process_image(src: Path, dest_dir: Path) -> Path | None:
+    """
+    Convert src image to a web-optimised WebP in dest_dir.
+    - Scales down if wider than MAX_WIDTH
+    - Always converts to WebP (handles GIF, PNG, JPEG, etc.)
+    - Skips if dest is already newer than src
+    Returns dest path if written, None if skipped.
+    """
+    dest = dest_dir / to_web_filename(src.name)
+
+    # Skip if already up to date
+    if dest.exists() and dest.stat().st_mtime >= src.stat().st_mtime:
+        return None
+
+    if not PILLOW_AVAILABLE:
+        # Fallback: straight copy with original extension
+        dest = dest_dir / src.name
+        shutil.copy2(src, dest)
+        return dest
+
+    try:
+        with PILImage.open(src) as im:
+            # Flatten transparency for formats that don't support it in WebP lossily
+            if im.mode in ("RGBA", "LA", "P"):
+                background = PILImage.new("RGB", im.size, (255, 255, 255))
+                if im.mode == "P":
+                    im = im.convert("RGBA")
+                if im.mode in ("RGBA", "LA"):
+                    background.paste(im, mask=im.split()[-1])
+                im = background
+            elif im.mode != "RGB":
+                im = im.convert("RGB")
+
+            # Scale down if too wide
+            w, h = im.size
+            if w > MAX_WIDTH:
+                new_h = int(h * MAX_WIDTH / w)
+                im = im.resize((MAX_WIDTH, new_h), PILImage.LANCZOS)
+
+            im.save(dest, "WEBP", quality=WEBP_QUALITY, method=6)
+        return dest
+    except Exception as e:
+        print(f"  WARNING: could not process {src.name}: {e}")
+        # Fallback: copy original
+        shutil.copy2(src, dest_dir / src.name)
+        return dest_dir / src.name
+
+
 
 records       = []
 errors        = []
@@ -79,14 +143,13 @@ for category in CATEGORIES:
                     json.dump(record_copy, f, indent=2, ensure_ascii=False)
                 assets_synced += len(new_assets)
 
-            # Copy all images into site/assets/category/uid/
+            # Copy/convert images into site/assets/category/uid/
             if image_files:
                 dest_dir = ASSET_DIR / category / record_dir.name
                 dest_dir.mkdir(parents=True, exist_ok=True)
                 for img in image_files:
-                    dest = dest_dir / img.name
-                    if not dest.exists() or img.stat().st_mtime > dest.stat().st_mtime:
-                        shutil.copy2(img, dest)
+                    web_copy = process_image(img, dest_dir)
+                    if web_copy:
                         assets_copied += 1
 
             # Set asset base path for frontend

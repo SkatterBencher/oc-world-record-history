@@ -14,6 +14,12 @@ const PAGE_TITLES = {
   about:  'About — OC World Record Museum',
 };
 
+// ── HELPERS (shared) ──────────────────────────────────
+function toWebFilename(filename) {
+  if (!filename) return null;
+  return filename.replace(/\.[^.]+$/, '.webp');
+}
+
 let allRecords   = [];
 let currentCategory = 'cpu';
 let activeTags   = new Set();
@@ -162,7 +168,7 @@ function renderRecordOfTheDay() {
   const oc    = r.overclockers?.[0] || {};
   const flag  = getFlagEmoji(oc.country);
   const assetBase = r._asset_base || '';
-  const heroImg = r.hero ? `${assetBase}${r.hero}` : null;
+  const heroImg = r.hero ? `${assetBase}${r._hero_web || toWebFilename(r.hero)}` : null;
 
   // Auto-generate description
   const parts = [];
@@ -572,9 +578,10 @@ function renderPanel(record) {
   const tags         = record.tags         || [];
   const assetBase    = record._asset_base  || '';
   const assets       = record.assets       || [];
-  const heroFile     = record.hero         || null;
+  const heroFile     = record._hero_web || (record.hero ? toWebFilename(record.hero) : null);
+  const heroOrig     = record.hero || null;
   // Gallery = all assets except the hero
-  const galleryAssets = assets.filter(a => a.file !== heroFile);
+  const galleryAssets = assets.filter(a => a.file !== record.hero);
 
   document.getElementById('panel-content').innerHTML = `
     <div class="panel-rank">${cat.label} All-Time Rank #${rank}</div>
@@ -663,12 +670,15 @@ function renderPanel(record) {
       <div class="panel-divider"></div>
       <div class="panel-section-label">Images</div>
       <div class="panel-gallery">
-        ${galleryAssets.map(a => `
-          <div class="gallery-thumb" title="${a.caption || a.type}"
-               onclick="openLightbox('${assetBase}${a.file}')" style="cursor:zoom-in">
-            <img src="${assetBase}${a.file}" alt="${a.caption || a.type}" loading="lazy">
-          </div>
-        `).join('')}
+        ${galleryAssets.map(a => {
+          const webFile = a._web_file || toWebFilename(a.file);
+          return `
+            <div class="gallery-thumb" title="${a.caption || a.type}"
+                 onclick="openLightbox('${assetBase}${webFile}')" style="cursor:zoom-in">
+              <img src="${assetBase}${webFile}" alt="${a.caption || a.type}" loading="lazy">
+            </div>
+          `;
+        }).join('')}
       </div>
     ` : ''}
 
