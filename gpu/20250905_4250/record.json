@@ -11,6 +11,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "4250furmark.webp",
   "overclockers": [
     {
       "handle": "SkatterBencher",
@@ -39,7 +40,13 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "4250furmark.webp",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

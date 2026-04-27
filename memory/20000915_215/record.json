@@ -11,6 +11,7 @@
     "memory": "MT-7E 128MB",
     "cooling": null
   },
+  "hero": "21585.gif",
   "overclockers": [
     {
       "handle": "Hide",
@@ -32,7 +33,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "21585.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "21585_holicho.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "SDR"
   ],

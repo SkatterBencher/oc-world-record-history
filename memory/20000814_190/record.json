@@ -32,7 +32,13 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "19043_holicho.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "SDR"
   ],

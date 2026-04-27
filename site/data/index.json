@@ -29,7 +29,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19960801_233/"
+    "_asset_base": "assets/cpu/19960801_233/"
   },
   {
     "uid": "19961118_266",
@@ -61,7 +61,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19961118_266/"
+    "_asset_base": "assets/cpu/19961118_266/"
   },
   {
     "uid": "19971101_337",
@@ -93,7 +93,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19971101_337/"
+    "_asset_base": "assets/cpu/19971101_337/"
   },
   {
     "uid": "19971117_375",
@@ -125,7 +125,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19971117_375/"
+    "_asset_base": "assets/cpu/19971117_375/"
   },
   {
     "uid": "19971205_400",
@@ -157,7 +157,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19971205_400/"
+    "_asset_base": "assets/cpu/19971205_400/"
   },
   {
     "uid": "19980111_416",
@@ -189,7 +189,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19980111_416/"
+    "_asset_base": "assets/cpu/19980111_416/"
   },
   {
     "uid": "19980119_118",
@@ -221,7 +221,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/19980119_118/"
+    "_asset_base": "assets/gpu/19980119_118/"
   },
   {
     "uid": "19980301_530",
@@ -253,7 +253,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19980301_530/"
+    "_asset_base": "assets/cpu/19980301_530/"
   },
   {
     "uid": "19980401_590",
@@ -283,7 +283,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19980401_590/"
+    "_asset_base": "assets/cpu/19980401_590/"
   },
   {
     "uid": "19980701_610",
@@ -313,7 +313,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19980701_610/"
+    "_asset_base": "assets/cpu/19980701_610/"
   },
   {
     "uid": "19980801_661",
@@ -345,7 +345,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19980801_661/"
+    "_asset_base": "assets/cpu/19980801_661/"
   },
   {
     "uid": "19980912_675",
@@ -375,7 +375,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19980912_675/"
+    "_asset_base": "assets/cpu/19980912_675/"
   },
   {
     "uid": "19980913_135",
@@ -407,7 +407,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/19980913_135/"
+    "_asset_base": "assets/gpu/19980913_135/"
   },
   {
     "uid": "19981007_698",
@@ -439,7 +439,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19981007_698/"
+    "_asset_base": "assets/cpu/19981007_698/"
   },
   {
     "uid": "19981109_715",
@@ -473,7 +473,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19981109_715/"
+    "_asset_base": "assets/cpu/19981109_715/"
   },
   {
     "uid": "19981121_716",
@@ -505,7 +505,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19981121_716/"
+    "_asset_base": "assets/cpu/19981121_716/"
   },
   {
     "uid": "19981213_724",
@@ -539,7 +539,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19981213_724/"
+    "_asset_base": "assets/cpu/19981213_724/"
   },
   {
     "uid": "19981230_743",
@@ -573,7 +573,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19981230_743/"
+    "_asset_base": "assets/cpu/19981230_743/"
   },
   {
     "uid": "19990110_759",
@@ -607,7 +607,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19990110_759/"
+    "_asset_base": "assets/cpu/19990110_759/"
   },
   {
     "uid": "19990217_808",
@@ -639,7 +639,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19990217_808/"
+    "_asset_base": "assets/cpu/19990217_808/"
   },
   {
     "uid": "19990220_811",
@@ -673,7 +673,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19990220_811/"
+    "_asset_base": "assets/cpu/19990220_811/"
   },
   {
     "uid": "19990306_822",
@@ -707,7 +707,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19990306_822/"
+    "_asset_base": "assets/cpu/19990306_822/"
   },
   {
     "uid": "19990321_849",
@@ -739,7 +739,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19990321_849/"
+    "_asset_base": "assets/cpu/19990321_849/"
   },
   {
     "uid": "19990421_175",
@@ -771,7 +771,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/19990421_175/"
+    "_asset_base": "assets/gpu/19990421_175/"
   },
   {
     "uid": "19990619_921",
@@ -805,7 +805,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19990619_921/"
+    "_asset_base": "assets/cpu/19990619_921/"
   },
   {
     "uid": "19991007_1082",
@@ -839,7 +839,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19991007_1082/"
+    "_asset_base": "assets/cpu/19991007_1082/"
   },
   {
     "uid": "19991101_1151",
@@ -873,7 +873,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19991101_1151/"
+    "_asset_base": "assets/cpu/19991101_1151/"
   },
   {
     "uid": "19991112_195",
@@ -905,7 +905,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/19991112_195/"
+    "_asset_base": "assets/gpu/19991112_195/"
   },
   {
     "uid": "19991116_1238",
@@ -939,7 +939,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19991116_1238/"
+    "_asset_base": "assets/cpu/19991116_1238/"
   },
   {
     "uid": "19991121_1264",
@@ -973,7 +973,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19991121_1264/"
+    "_asset_base": "assets/cpu/19991121_1264/"
   },
   {
     "uid": "19991228_1286",
@@ -1005,7 +1005,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/19991228_1286/"
+    "_asset_base": "assets/cpu/19991228_1286/"
   },
   {
     "uid": "20000402_1370",
@@ -1037,7 +1037,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20000402_1370/"
+    "_asset_base": "assets/cpu/20000402_1370/"
   },
   {
     "uid": "20000409_1500",
@@ -1071,7 +1071,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20000409_1500/"
+    "_asset_base": "assets/cpu/20000409_1500/"
   },
   {
     "uid": "20000413_1522",
@@ -1105,7 +1105,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20000413_1522/"
+    "_asset_base": "assets/cpu/20000413_1522/"
   },
   {
     "uid": "20000813_187",
@@ -1138,14 +1138,20 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "18703_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "SDR"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20000813_187/"
+    "_asset_base": "assets/memory/20000813_187/"
   },
   {
     "uid": "20000814_190",
@@ -1181,14 +1187,20 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "19043_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "SDR"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20000814_190/"
+    "_asset_base": "assets/memory/20000814_190/"
   },
   {
     "uid": "20000819_210",
@@ -1203,6 +1215,7 @@
       "memory": "MT-7E 128MB",
       "cooling": "Subzero"
     },
+    "hero": "21005.gif",
     "overclockers": [
       {
         "handle": "Holicho",
@@ -1226,14 +1239,25 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "21005.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "21005_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "SDR"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20000819_210/"
+    "_asset_base": "assets/memory/20000819_210/"
   },
   {
     "uid": "20000828_211",
@@ -1248,6 +1272,7 @@
       "memory": "MT-7E 128MB",
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "21198.gif",
     "overclockers": [
       {
         "handle": "Tatumiya",
@@ -1266,14 +1291,25 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "21198.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "21198_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "SDR"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20000828_211/"
+    "_asset_base": "assets/memory/20000828_211/"
   },
   {
     "uid": "20000903_1612",
@@ -1305,7 +1341,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20000903_1612/"
+    "_asset_base": "assets/cpu/20000903_1612/"
   },
   {
     "uid": "20000914_214",
@@ -1338,14 +1374,20 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "21452_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "SDR"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20000914_214/"
+    "_asset_base": "assets/memory/20000914_214/"
   },
   {
     "uid": "20000915_215",
@@ -1360,6 +1402,7 @@
       "memory": "MT-7E 128MB",
       "cooling": null
     },
+    "hero": "21585.gif",
     "overclockers": [
       {
         "handle": "Hide",
@@ -1381,14 +1424,25 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "21585.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "21585_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "SDR"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20000915_215/"
+    "_asset_base": "assets/memory/20000915_215/"
   },
   {
     "uid": "20001105_1613",
@@ -1420,7 +1474,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20001105_1613/"
+    "_asset_base": "assets/cpu/20001105_1613/"
   },
   {
     "uid": "20001114_216",
@@ -1452,7 +1506,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20001114_216/"
+    "_asset_base": "assets/memory/20001114_216/"
   },
   {
     "uid": "20001122_217",
@@ -1467,6 +1521,7 @@
       "memory": "ARC 128MB",
       "cooling": null
     },
+    "hero": "156.jpg",
     "overclockers": [
       {
         "handle": "Opt",
@@ -1477,14 +1532,25 @@
       }
     ],
     "sources": [],
-    "assets": [],
+    "assets": [
+      {
+        "file": "156.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "21732_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "SDR"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20001122_217/"
+    "_asset_base": "assets/memory/20001122_217/"
   },
   {
     "uid": "20001201_1653",
@@ -1516,7 +1582,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20001201_1653/"
+    "_asset_base": "assets/cpu/20001201_1653/"
   },
   {
     "uid": "20001203_2144",
@@ -1550,7 +1616,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20001203_2144/"
+    "_asset_base": "assets/cpu/20001203_2144/"
   },
   {
     "uid": "20001213_2205",
@@ -1584,7 +1650,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20001213_2205/"
+    "_asset_base": "assets/cpu/20001213_2205/"
   },
   {
     "uid": "20010308_2250",
@@ -1616,7 +1682,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20010308_2250/"
+    "_asset_base": "assets/cpu/20010308_2250/"
   },
   {
     "uid": "20010315_2600",
@@ -1648,7 +1714,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20010315_2600/"
+    "_asset_base": "assets/cpu/20010315_2600/"
   },
   {
     "uid": "20010329_2804",
@@ -1680,7 +1746,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20010329_2804/"
+    "_asset_base": "assets/cpu/20010329_2804/"
   },
   {
     "uid": "20010402_2864",
@@ -1712,7 +1778,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20010402_2864/"
+    "_asset_base": "assets/cpu/20010402_2864/"
   },
   {
     "uid": "20010528_256",
@@ -1744,7 +1810,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20010528_256/"
+    "_asset_base": "assets/gpu/20010528_256/"
   },
   {
     "uid": "20010905_3023",
@@ -1776,7 +1842,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20010905_3023/"
+    "_asset_base": "assets/cpu/20010905_3023/"
   },
   {
     "uid": "20011009_3027",
@@ -1808,7 +1874,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20011009_3027/"
+    "_asset_base": "assets/cpu/20011009_3027/"
   },
   {
     "uid": "20011107_3391",
@@ -1840,7 +1906,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20011107_3391/"
+    "_asset_base": "assets/cpu/20011107_3391/"
   },
   {
     "uid": "20011123_305",
@@ -1872,7 +1938,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20011123_305/"
+    "_asset_base": "assets/gpu/20011123_305/"
   },
   {
     "uid": "20020109_3541",
@@ -1904,7 +1970,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020109_3541/"
+    "_asset_base": "assets/cpu/20020109_3541/"
   },
   {
     "uid": "20020117_3674",
@@ -1936,7 +2002,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020117_3674/"
+    "_asset_base": "assets/cpu/20020117_3674/"
   },
   {
     "uid": "20020119_3702",
@@ -1968,7 +2034,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020119_3702/"
+    "_asset_base": "assets/cpu/20020119_3702/"
   },
   {
     "uid": "20020123_3808",
@@ -2000,7 +2066,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020123_3808/"
+    "_asset_base": "assets/cpu/20020123_3808/"
   },
   {
     "uid": "20020322_3890",
@@ -2032,7 +2098,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020322_3890/"
+    "_asset_base": "assets/cpu/20020322_3890/"
   },
   {
     "uid": "20020327_4010",
@@ -2064,7 +2130,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020327_4010/"
+    "_asset_base": "assets/cpu/20020327_4010/"
   },
   {
     "uid": "20020407_365",
@@ -2096,7 +2162,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20020407_365/"
+    "_asset_base": "assets/gpu/20020407_365/"
   },
   {
     "uid": "20020414_4110",
@@ -2128,7 +2194,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020414_4110/"
+    "_asset_base": "assets/cpu/20020414_4110/"
   },
   {
     "uid": "20020506_378",
@@ -2160,7 +2226,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20020506_378/"
+    "_asset_base": "assets/gpu/20020506_378/"
   },
   {
     "uid": "20020530_235",
@@ -2192,7 +2258,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20020530_235/"
+    "_asset_base": "assets/memory/20020530_235/"
   },
   {
     "uid": "20020605_391",
@@ -2224,7 +2290,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20020605_391/"
+    "_asset_base": "assets/gpu/20020605_391/"
   },
   {
     "uid": "20020623_240",
@@ -2256,7 +2322,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20020623_240/"
+    "_asset_base": "assets/memory/20020623_240/"
   },
   {
     "uid": "20020629_405",
@@ -2288,7 +2354,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20020629_405/"
+    "_asset_base": "assets/gpu/20020629_405/"
   },
   {
     "uid": "20020629_257",
@@ -2320,7 +2386,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20020629_257/"
+    "_asset_base": "assets/memory/20020629_257/"
   },
   {
     "uid": "20020710_4244",
@@ -2352,7 +2418,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020710_4244/"
+    "_asset_base": "assets/cpu/20020710_4244/"
   },
   {
     "uid": "20020719_258",
@@ -2384,7 +2450,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20020719_258/"
+    "_asset_base": "assets/memory/20020719_258/"
   },
   {
     "uid": "20020720_409",
@@ -2416,7 +2482,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20020720_409/"
+    "_asset_base": "assets/gpu/20020720_409/"
   },
   {
     "uid": "20020819_4309",
@@ -2448,7 +2514,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020819_4309/"
+    "_asset_base": "assets/cpu/20020819_4309/"
   },
   {
     "uid": "20020829_4339",
@@ -2480,7 +2546,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020829_4339/"
+    "_asset_base": "assets/cpu/20020829_4339/"
   },
   {
     "uid": "20020901_4130",
@@ -2512,7 +2578,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020901_4130/"
+    "_asset_base": "assets/cpu/20020901_4130/"
   },
   {
     "uid": "20020901_4418",
@@ -2544,7 +2610,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020901_4418/"
+    "_asset_base": "assets/cpu/20020901_4418/"
   },
   {
     "uid": "20020911_479",
@@ -2576,7 +2642,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20020911_479/"
+    "_asset_base": "assets/gpu/20020911_479/"
   },
   {
     "uid": "20020915_4424",
@@ -2608,7 +2674,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20020915_4424/"
+    "_asset_base": "assets/cpu/20020915_4424/"
   },
   {
     "uid": "20020927_508",
@@ -2640,7 +2706,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20020927_508/"
+    "_asset_base": "assets/gpu/20020927_508/"
   },
   {
     "uid": "20021027_285",
@@ -2672,7 +2738,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20021027_285/"
+    "_asset_base": "assets/memory/20021027_285/"
   },
   {
     "uid": "20021103_286",
@@ -2704,7 +2770,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20021103_286/"
+    "_asset_base": "assets/memory/20021103_286/"
   },
   {
     "uid": "20021117_4438",
@@ -2736,7 +2802,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20021117_4438/"
+    "_asset_base": "assets/cpu/20021117_4438/"
   },
   {
     "uid": "20021201_4456",
@@ -2768,7 +2834,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20021201_4456/"
+    "_asset_base": "assets/cpu/20021201_4456/"
   },
   {
     "uid": "20021208_4588",
@@ -2800,7 +2866,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20021208_4588/"
+    "_asset_base": "assets/cpu/20021208_4588/"
   },
   {
     "uid": "20030204_513",
@@ -2832,7 +2898,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20030204_513/"
+    "_asset_base": "assets/gpu/20030204_513/"
   },
   {
     "uid": "20030214_4599",
@@ -2864,7 +2930,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20030214_4599/"
+    "_asset_base": "assets/cpu/20030214_4599/"
   },
   {
     "uid": "20030223_4623",
@@ -2896,7 +2962,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20030223_4623/"
+    "_asset_base": "assets/cpu/20030223_4623/"
   },
   {
     "uid": "20030510_540",
@@ -2928,7 +2994,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20030510_540/"
+    "_asset_base": "assets/gpu/20030510_540/"
   },
   {
     "uid": "20030511_558",
@@ -2960,7 +3026,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20030511_558/"
+    "_asset_base": "assets/gpu/20030511_558/"
   },
   {
     "uid": "20030511_291",
@@ -2992,7 +3058,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20030511_291/"
+    "_asset_base": "assets/memory/20030511_291/"
   },
   {
     "uid": "20030524_4762",
@@ -3024,7 +3090,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20030524_4762/"
+    "_asset_base": "assets/cpu/20030524_4762/"
   },
   {
     "uid": "20030530_567",
@@ -3056,7 +3122,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20030530_567/"
+    "_asset_base": "assets/gpu/20030530_567/"
   },
   {
     "uid": "20030611_594",
@@ -3088,7 +3154,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20030611_594/"
+    "_asset_base": "assets/gpu/20030611_594/"
   },
   {
     "uid": "20030629_4872",
@@ -3120,7 +3186,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20030629_4872/"
+    "_asset_base": "assets/cpu/20030629_4872/"
   },
   {
     "uid": "20030701_296",
@@ -3152,7 +3218,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20030701_296/"
+    "_asset_base": "assets/memory/20030701_296/"
   },
   {
     "uid": "20030703_5125",
@@ -3184,7 +3250,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20030703_5125/"
+    "_asset_base": "assets/cpu/20030703_5125/"
   },
   {
     "uid": "20030708_689",
@@ -3216,7 +3282,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20030708_689/"
+    "_asset_base": "assets/gpu/20030708_689/"
   },
   {
     "uid": "20030712_314",
@@ -3248,7 +3314,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20030712_314/"
+    "_asset_base": "assets/memory/20030712_314/"
   },
   {
     "uid": "20030911_702",
@@ -3280,7 +3346,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20030911_702/"
+    "_asset_base": "assets/gpu/20030911_702/"
   },
   {
     "uid": "20031025_711",
@@ -3312,7 +3378,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20031025_711/"
+    "_asset_base": "assets/gpu/20031025_711/"
   },
   {
     "uid": "20031202_5154",
@@ -3344,7 +3410,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20031202_5154/"
+    "_asset_base": "assets/cpu/20031202_5154/"
   },
   {
     "uid": "20031230_5255",
@@ -3376,7 +3442,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20031230_5255/"
+    "_asset_base": "assets/cpu/20031230_5255/"
   },
   {
     "uid": "20040102_5326",
@@ -3408,7 +3474,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20040102_5326/"
+    "_asset_base": "assets/cpu/20040102_5326/"
   },
   {
     "uid": "20040412_325",
@@ -3440,7 +3506,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20040412_325/"
+    "_asset_base": "assets/memory/20040412_325/"
   },
   {
     "uid": "20040507_715",
@@ -3472,7 +3538,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20040507_715/"
+    "_asset_base": "assets/gpu/20040507_715/"
   },
   {
     "uid": "20040509_5387",
@@ -3504,7 +3570,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20040509_5387/"
+    "_asset_base": "assets/cpu/20040509_5387/"
   },
   {
     "uid": "20040525_6009",
@@ -3543,7 +3609,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20040525_6009/"
+    "_asset_base": "assets/cpu/20040525_6009/"
   },
   {
     "uid": "20040622_5574",
@@ -3575,7 +3641,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20040622_5574/"
+    "_asset_base": "assets/cpu/20040622_5574/"
   },
   {
     "uid": "20040727_347",
@@ -3607,7 +3673,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20040727_347/"
+    "_asset_base": "assets/memory/20040727_347/"
   },
   {
     "uid": "20040728_349",
@@ -3639,7 +3705,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20040728_349/"
+    "_asset_base": "assets/memory/20040728_349/"
   },
   {
     "uid": "20040729_359",
@@ -3671,7 +3737,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20040729_359/"
+    "_asset_base": "assets/memory/20040729_359/"
   },
   {
     "uid": "20040915_807",
@@ -3703,7 +3769,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20040915_807/"
+    "_asset_base": "assets/gpu/20040915_807/"
   },
   {
     "uid": "20040922_368",
@@ -3735,7 +3801,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20040922_368/"
+    "_asset_base": "assets/memory/20040922_368/"
   },
   {
     "uid": "20041001_810",
@@ -3767,7 +3833,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20041001_810/"
+    "_asset_base": "assets/gpu/20041001_810/"
   },
   {
     "uid": "20041016_6042",
@@ -3799,7 +3865,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20041016_6042/"
+    "_asset_base": "assets/cpu/20041016_6042/"
   },
   {
     "uid": "20041028_6114",
@@ -3831,7 +3897,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20041028_6114/"
+    "_asset_base": "assets/cpu/20041028_6114/"
   },
   {
     "uid": "20041031_417",
@@ -3863,7 +3929,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20041031_417/"
+    "_asset_base": "assets/memory/20041031_417/"
   },
   {
     "uid": "20041101_6212",
@@ -3895,7 +3961,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20041101_6212/"
+    "_asset_base": "assets/cpu/20041101_6212/"
   },
   {
     "uid": "20041101_6302",
@@ -3927,7 +3993,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20041101_6302/"
+    "_asset_base": "assets/cpu/20041101_6302/"
   },
   {
     "uid": "20041117_430",
@@ -3959,7 +4025,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20041117_430/"
+    "_asset_base": "assets/memory/20041117_430/"
   },
   {
     "uid": "20041118_824",
@@ -3991,7 +4057,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20041118_824/"
+    "_asset_base": "assets/gpu/20041118_824/"
   },
   {
     "uid": "20041129_6315",
@@ -4023,7 +4089,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20041129_6315/"
+    "_asset_base": "assets/cpu/20041129_6315/"
   },
   {
     "uid": "20041202_449",
@@ -4055,7 +4121,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20041202_449/"
+    "_asset_base": "assets/memory/20041202_449/"
   },
   {
     "uid": "20050111_614",
@@ -4087,7 +4153,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20050111_614/"
+    "_asset_base": "assets/memory/20050111_614/"
   },
   {
     "uid": "20050118_6495",
@@ -4119,7 +4185,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20050118_6495/"
+    "_asset_base": "assets/cpu/20050118_6495/"
   },
   {
     "uid": "20050603_860",
@@ -4151,7 +4217,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20050603_860/"
+    "_asset_base": "assets/gpu/20050603_860/"
   },
   {
     "uid": "20050607_6578",
@@ -4183,7 +4249,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20050607_6578/"
+    "_asset_base": "assets/cpu/20050607_6578/"
   },
   {
     "uid": "20050729_6925",
@@ -4215,7 +4281,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20050729_6925/"
+    "_asset_base": "assets/cpu/20050729_6925/"
   },
   {
     "uid": "20050809_7133",
@@ -4247,7 +4313,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20050809_7133/"
+    "_asset_base": "assets/cpu/20050809_7133/"
   },
   {
     "uid": "20050813_7323",
@@ -4279,7 +4345,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20050813_7323/"
+    "_asset_base": "assets/cpu/20050813_7323/"
   },
   {
     "uid": "20050916_7418",
@@ -4311,7 +4377,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20050916_7418/"
+    "_asset_base": "assets/cpu/20050916_7418/"
   },
   {
     "uid": "20051011_878",
@@ -4343,7 +4409,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20051011_878/"
+    "_asset_base": "assets/gpu/20051011_878/"
   },
   {
     "uid": "20051017_1006",
@@ -4375,7 +4441,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20051017_1006/"
+    "_asset_base": "assets/gpu/20051017_1006/"
   },
   {
     "uid": "20051113_7473",
@@ -4407,7 +4473,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20051113_7473/"
+    "_asset_base": "assets/cpu/20051113_7473/"
   },
   {
     "uid": "20051213_7532",
@@ -4439,7 +4505,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20051213_7532/"
+    "_asset_base": "assets/cpu/20051213_7532/"
   },
   {
     "uid": "20051213_7608",
@@ -4471,7 +4537,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20051213_7608/"
+    "_asset_base": "assets/cpu/20051213_7608/"
   },
   {
     "uid": "20051228_7625",
@@ -4503,7 +4569,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20051228_7625/"
+    "_asset_base": "assets/cpu/20051228_7625/"
   },
   {
     "uid": "20051229_7638",
@@ -4535,7 +4601,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20051229_7638/"
+    "_asset_base": "assets/cpu/20051229_7638/"
   },
   {
     "uid": "20060122_626",
@@ -4567,7 +4633,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20060122_626/"
+    "_asset_base": "assets/memory/20060122_626/"
   },
   {
     "uid": "20060206_7657",
@@ -4599,7 +4665,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20060206_7657/"
+    "_asset_base": "assets/cpu/20060206_7657/"
   },
   {
     "uid": "20060507_628",
@@ -4631,7 +4697,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20060507_628/"
+    "_asset_base": "assets/memory/20060507_628/"
   },
   {
     "uid": "20060518_645",
@@ -4663,7 +4729,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20060518_645/"
+    "_asset_base": "assets/memory/20060518_645/"
   },
   {
     "uid": "20060611_1045",
@@ -4695,7 +4761,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20060611_1045/"
+    "_asset_base": "assets/gpu/20060611_1045/"
   },
   {
     "uid": "20060908_697",
@@ -4727,7 +4793,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20060908_697/"
+    "_asset_base": "assets/memory/20060908_697/"
   },
   {
     "uid": "20070121_7791",
@@ -4759,7 +4825,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20070121_7791/"
+    "_asset_base": "assets/cpu/20070121_7791/"
   },
   {
     "uid": "20070122_8000",
@@ -4791,7 +4857,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20070122_8000/"
+    "_asset_base": "assets/cpu/20070122_8000/"
   },
   {
     "uid": "20070127_716",
@@ -4823,7 +4889,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070127_716/"
+    "_asset_base": "assets/memory/20070127_716/"
   },
   {
     "uid": "20070330_8179",
@@ -4855,7 +4921,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20070330_8179/"
+    "_asset_base": "assets/cpu/20070330_8179/"
   },
   {
     "uid": "20070506_1048",
@@ -4887,7 +4953,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20070506_1048/"
+    "_asset_base": "assets/gpu/20070506_1048/"
   },
   {
     "uid": "20070531_1140",
@@ -4919,7 +4985,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070531_1140/"
+    "_asset_base": "assets/memory/20070531_1140/"
   },
   {
     "uid": "20070601_1144",
@@ -4951,7 +5017,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070601_1144/"
+    "_asset_base": "assets/memory/20070601_1144/"
   },
   {
     "uid": "20070604_1146",
@@ -4983,7 +5049,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070604_1146/"
+    "_asset_base": "assets/memory/20070604_1146/"
   },
   {
     "uid": "20070605_1120",
@@ -5015,7 +5081,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20070605_1120/"
+    "_asset_base": "assets/gpu/20070605_1120/"
   },
   {
     "uid": "20070630_1168",
@@ -5047,7 +5113,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20070630_1168/"
+    "_asset_base": "assets/gpu/20070630_1168/"
   },
   {
     "uid": "20070702_1150",
@@ -5079,7 +5145,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070702_1150/"
+    "_asset_base": "assets/memory/20070702_1150/"
   },
   {
     "uid": "20070718_1156",
@@ -5111,7 +5177,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070718_1156/"
+    "_asset_base": "assets/memory/20070718_1156/"
   },
   {
     "uid": "20070720_8180",
@@ -5143,7 +5209,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20070720_8180/"
+    "_asset_base": "assets/cpu/20070720_8180/"
   },
   {
     "uid": "20070720_8220",
@@ -5175,7 +5241,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20070720_8220/"
+    "_asset_base": "assets/cpu/20070720_8220/"
   },
   {
     "uid": "20070928_1178",
@@ -5207,7 +5273,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070928_1178/"
+    "_asset_base": "assets/memory/20070928_1178/"
   },
   {
     "uid": "20070928_1304",
@@ -5239,7 +5305,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20070928_1304/"
+    "_asset_base": "assets/memory/20070928_1304/"
   },
   {
     "uid": "20071208_1180",
@@ -5271,7 +5337,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20071208_1180/"
+    "_asset_base": "assets/gpu/20071208_1180/"
   },
   {
     "uid": "20071230_1193",
@@ -5303,7 +5369,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20071230_1193/"
+    "_asset_base": "assets/gpu/20071230_1193/"
   },
   {
     "uid": "20080120_1360",
@@ -5335,7 +5401,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20080120_1360/"
+    "_asset_base": "assets/gpu/20080120_1360/"
   },
   {
     "uid": "20081005_1341",
@@ -5367,7 +5433,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20081005_1341/"
+    "_asset_base": "assets/memory/20081005_1341/"
   },
   {
     "uid": "20081219_1346",
@@ -5399,7 +5465,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20081219_1346/"
+    "_asset_base": "assets/memory/20081219_1346/"
   },
   {
     "uid": "20090209_1352",
@@ -5431,7 +5497,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20090209_1352/"
+    "_asset_base": "assets/memory/20090209_1352/"
   },
   {
     "uid": "20091129_1380",
@@ -5463,7 +5529,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20091129_1380/"
+    "_asset_base": "assets/gpu/20091129_1380/"
   },
   {
     "uid": "20091219_1400",
@@ -5495,7 +5561,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20091219_1400/"
+    "_asset_base": "assets/gpu/20091219_1400/"
   },
   {
     "uid": "20100112_1410",
@@ -5527,7 +5593,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20100112_1410/"
+    "_asset_base": "assets/gpu/20100112_1410/"
   },
   {
     "uid": "20100112_1420",
@@ -5559,7 +5625,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20100112_1420/"
+    "_asset_base": "assets/gpu/20100112_1420/"
   },
   {
     "uid": "20100220_1450",
@@ -5591,7 +5657,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20100220_1450/"
+    "_asset_base": "assets/gpu/20100220_1450/"
   },
   {
     "uid": "20100311_1485",
@@ -5623,7 +5689,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20100311_1485/"
+    "_asset_base": "assets/gpu/20100311_1485/"
   },
   {
     "uid": "20100411_1525",
@@ -5662,7 +5728,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20100411_1525/"
+    "_asset_base": "assets/gpu/20100411_1525/"
   },
   {
     "uid": "20100821_1534",
@@ -5694,7 +5760,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20100821_1534/"
+    "_asset_base": "assets/memory/20100821_1534/"
   },
   {
     "uid": "20100903_1539",
@@ -5726,7 +5792,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20100903_1539/"
+    "_asset_base": "assets/memory/20100903_1539/"
   },
   {
     "uid": "20100923_8242",
@@ -5758,7 +5824,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20100923_8242/"
+    "_asset_base": "assets/cpu/20100923_8242/"
   },
   {
     "uid": "20100928_1553",
@@ -5790,7 +5856,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20100928_1553/"
+    "_asset_base": "assets/memory/20100928_1553/"
   },
   {
     "uid": "20110103_1700",
@@ -5822,7 +5888,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20110103_1700/"
+    "_asset_base": "assets/gpu/20110103_1700/"
   },
   {
     "uid": "20110106_1950",
@@ -5854,7 +5920,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20110106_1950/"
+    "_asset_base": "assets/gpu/20110106_1950/"
   },
   {
     "uid": "20110113_2000",
@@ -5886,7 +5952,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20110113_2000/"
+    "_asset_base": "assets/gpu/20110113_2000/"
   },
   {
     "uid": "20110115_2170",
@@ -5918,7 +5984,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20110115_2170/"
+    "_asset_base": "assets/gpu/20110115_2170/"
   },
   {
     "uid": "20110116_2234",
@@ -5950,7 +6016,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20110116_2234/"
+    "_asset_base": "assets/gpu/20110116_2234/"
   },
   {
     "uid": "20110228_1575",
@@ -5982,7 +6048,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20110228_1575/"
+    "_asset_base": "assets/memory/20110228_1575/"
   },
   {
     "uid": "20110319_1577",
@@ -6014,7 +6080,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20110319_1577/"
+    "_asset_base": "assets/memory/20110319_1577/"
   },
   {
     "uid": "20110321_1614",
@@ -6046,7 +6112,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20110321_1614/"
+    "_asset_base": "assets/memory/20110321_1614/"
   },
   {
     "uid": "20110321_1625",
@@ -6078,7 +6144,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20110321_1625/"
+    "_asset_base": "assets/memory/20110321_1625/"
   },
   {
     "uid": "20110719_2300",
@@ -6110,7 +6176,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20110719_2300/"
+    "_asset_base": "assets/gpu/20110719_2300/"
   },
   {
     "uid": "20110819_8308",
@@ -6142,7 +6208,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20110819_8308/"
+    "_asset_base": "assets/cpu/20110819_8308/"
   },
   {
     "uid": "20110824_2400",
@@ -6174,7 +6240,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20110824_2400/"
+    "_asset_base": "assets/gpu/20110824_2400/"
   },
   {
     "uid": "20110902_8429",
@@ -6204,7 +6270,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20110902_8429/"
+    "_asset_base": "assets/cpu/20110902_8429/"
   },
   {
     "uid": "20111027_8461",
@@ -6234,7 +6300,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20111027_8461/"
+    "_asset_base": "assets/cpu/20111027_8461/"
   },
   {
     "uid": "20111031_8491",
@@ -6264,7 +6330,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20111031_8491/"
+    "_asset_base": "assets/cpu/20111031_8491/"
   },
   {
     "uid": "20111101_8585",
@@ -6294,7 +6360,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20111101_8585/"
+    "_asset_base": "assets/cpu/20111101_8585/"
   },
   {
     "uid": "20111101_8709",
@@ -6324,7 +6390,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20111101_8709/"
+    "_asset_base": "assets/cpu/20111101_8709/"
   },
   {
     "uid": "20111109_1655",
@@ -6356,7 +6422,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20111109_1655/"
+    "_asset_base": "assets/memory/20111109_1655/"
   },
   {
     "uid": "20111122_1661",
@@ -6388,7 +6454,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20111122_1661/"
+    "_asset_base": "assets/memory/20111122_1661/"
   },
   {
     "uid": "20111122_1733",
@@ -6420,7 +6486,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20111122_1733/"
+    "_asset_base": "assets/memory/20111122_1733/"
   },
   {
     "uid": "20111203_1800",
@@ -6452,7 +6518,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20111203_1800/"
+    "_asset_base": "assets/memory/20111203_1800/"
   },
   {
     "uid": "20120228_1868",
@@ -6484,7 +6550,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20120228_1868/"
+    "_asset_base": "assets/memory/20120228_1868/"
   },
   {
     "uid": "20120529_1918",
@@ -6516,7 +6582,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20120529_1918/"
+    "_asset_base": "assets/memory/20120529_1918/"
   },
   {
     "uid": "20120620_1919",
@@ -6548,7 +6614,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20120620_1919/"
+    "_asset_base": "assets/memory/20120620_1919/"
   },
   {
     "uid": "20120625_1921",
@@ -6580,7 +6646,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20120625_1921/"
+    "_asset_base": "assets/memory/20120625_1921/"
   },
   {
     "uid": "20120819_1922",
@@ -6612,7 +6678,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20120819_1922/"
+    "_asset_base": "assets/memory/20120819_1922/"
   },
   {
     "uid": "20120831_1937",
@@ -6644,7 +6710,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20120831_1937/"
+    "_asset_base": "assets/memory/20120831_1937/"
   },
   {
     "uid": "20121112_1950",
@@ -6676,7 +6742,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20121112_1950/"
+    "_asset_base": "assets/memory/20121112_1950/"
   },
   {
     "uid": "20121119_8794",
@@ -6706,7 +6772,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20121119_8794/"
+    "_asset_base": "assets/cpu/20121119_8794/"
   },
   {
     "uid": "20130605_2115",
@@ -6738,7 +6804,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20130605_2115/"
+    "_asset_base": "assets/memory/20130605_2115/"
   },
   {
     "uid": "20130609_2141",
@@ -6770,7 +6836,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20130609_2141/"
+    "_asset_base": "assets/memory/20130609_2141/"
   },
   {
     "uid": "20130610_2142",
@@ -6802,7 +6868,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20130610_2142/"
+    "_asset_base": "assets/memory/20130610_2142/"
   },
   {
     "uid": "20130611_2144",
@@ -6834,7 +6900,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20130611_2144/"
+    "_asset_base": "assets/memory/20130611_2144/"
   },
   {
     "uid": "20130612_2145",
@@ -6866,7 +6932,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20130612_2145/"
+    "_asset_base": "assets/memory/20130612_2145/"
   },
   {
     "uid": "20130809_2202",
@@ -6898,7 +6964,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20130809_2202/"
+    "_asset_base": "assets/memory/20130809_2202/"
   },
   {
     "uid": "20140605_2282",
@@ -6930,7 +6996,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20140605_2282/"
+    "_asset_base": "assets/memory/20140605_2282/"
   },
   {
     "uid": "20140630_2310",
@@ -6962,7 +7028,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20140630_2310/"
+    "_asset_base": "assets/memory/20140630_2310/"
   },
   {
     "uid": "20150805_2397",
@@ -6994,7 +7060,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20150805_2397/"
+    "_asset_base": "assets/memory/20150805_2397/"
   },
   {
     "uid": "20150811_2419",
@@ -7026,7 +7092,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20150811_2419/"
+    "_asset_base": "assets/memory/20150811_2419/"
   },
   {
     "uid": "20150818_2450",
@@ -7058,7 +7124,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20150818_2450/"
+    "_asset_base": "assets/memory/20150818_2450/"
   },
   {
     "uid": "20160524_2451",
@@ -7090,7 +7156,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20160524_2451/"
+    "_asset_base": "assets/memory/20160524_2451/"
   },
   {
     "uid": "20160525_2501",
@@ -7122,7 +7188,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20160525_2501/"
+    "_asset_base": "assets/memory/20160525_2501/"
   },
   {
     "uid": "20160603_2515",
@@ -7154,7 +7220,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20160603_2515/"
+    "_asset_base": "assets/memory/20160603_2515/"
   },
   {
     "uid": "20160604_2594",
@@ -7186,7 +7252,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20160604_2594/"
+    "_asset_base": "assets/memory/20160604_2594/"
   },
   {
     "uid": "20160605_2420",
@@ -7218,7 +7284,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20160605_2420/"
+    "_asset_base": "assets/gpu/20160605_2420/"
   },
   {
     "uid": "20160622_2450",
@@ -7250,7 +7316,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20160622_2450/"
+    "_asset_base": "assets/gpu/20160622_2450/"
   },
   {
     "uid": "20160706_2645",
@@ -7282,7 +7348,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20160706_2645/"
+    "_asset_base": "assets/gpu/20160706_2645/"
   },
   {
     "uid": "20160724_2700",
@@ -7314,7 +7380,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20160724_2700/"
+    "_asset_base": "assets/gpu/20160724_2700/"
   },
   {
     "uid": "20160724_2750",
@@ -7346,7 +7412,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20160724_2750/"
+    "_asset_base": "assets/gpu/20160724_2750/"
   },
   {
     "uid": "20160805_2784",
@@ -7378,7 +7444,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20160805_2784/"
+    "_asset_base": "assets/gpu/20160805_2784/"
   },
   {
     "uid": "20161030_2822",
@@ -7410,7 +7476,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20161030_2822/"
+    "_asset_base": "assets/gpu/20161030_2822/"
   },
   {
     "uid": "20161104_2860",
@@ -7442,7 +7508,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20161104_2860/"
+    "_asset_base": "assets/gpu/20161104_2860/"
   },
   {
     "uid": "20161104_2885",
@@ -7474,7 +7540,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20161104_2885/"
+    "_asset_base": "assets/gpu/20161104_2885/"
   },
   {
     "uid": "20161218_3012",
@@ -7506,7 +7572,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20161218_3012/"
+    "_asset_base": "assets/gpu/20161218_3012/"
   },
   {
     "uid": "20170113_2630",
@@ -7538,7 +7604,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170113_2630/"
+    "_asset_base": "assets/memory/20170113_2630/"
   },
   {
     "uid": "20170227_2631",
@@ -7570,7 +7636,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170227_2631/"
+    "_asset_base": "assets/memory/20170227_2631/"
   },
   {
     "uid": "20170322_3025",
@@ -7602,7 +7668,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20170322_3025/"
+    "_asset_base": "assets/gpu/20170322_3025/"
   },
   {
     "uid": "20170330_2640",
@@ -7634,7 +7700,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170330_2640/"
+    "_asset_base": "assets/memory/20170330_2640/"
   },
   {
     "uid": "20170529_2644",
@@ -7666,7 +7732,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170529_2644/"
+    "_asset_base": "assets/memory/20170529_2644/"
   },
   {
     "uid": "20170530_2699",
@@ -7698,7 +7764,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170530_2699/"
+    "_asset_base": "assets/memory/20170530_2699/"
   },
   {
     "uid": "20170530_2700",
@@ -7730,7 +7796,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170530_2700/"
+    "_asset_base": "assets/memory/20170530_2700/"
   },
   {
     "uid": "20170603_2731",
@@ -7762,7 +7828,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170603_2731/"
+    "_asset_base": "assets/memory/20170603_2731/"
   },
   {
     "uid": "20170603_2734",
@@ -7794,7 +7860,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170603_2734/"
+    "_asset_base": "assets/memory/20170603_2734/"
   },
   {
     "uid": "20170606_2750",
@@ -7826,7 +7892,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20170606_2750/"
+    "_asset_base": "assets/memory/20170606_2750/"
   },
   {
     "uid": "20171005_2764",
@@ -7858,7 +7924,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20171005_2764/"
+    "_asset_base": "assets/memory/20171005_2764/"
   },
   {
     "uid": "20180530_2765",
@@ -7890,7 +7956,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20180530_2765/"
+    "_asset_base": "assets/memory/20180530_2765/"
   },
   {
     "uid": "20180530_2770",
@@ -7922,7 +7988,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20180530_2770/"
+    "_asset_base": "assets/memory/20180530_2770/"
   },
   {
     "uid": "20180530_2771",
@@ -7954,7 +8020,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20180530_2771/"
+    "_asset_base": "assets/memory/20180530_2771/"
   },
   {
     "uid": "20181019_2782",
@@ -7986,7 +8052,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20181019_2782/"
+    "_asset_base": "assets/memory/20181019_2782/"
   },
   {
     "uid": "20190108_2791",
@@ -8018,7 +8084,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190108_2791/"
+    "_asset_base": "assets/memory/20190108_2791/"
   },
   {
     "uid": "20190114_2804",
@@ -8050,7 +8116,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190114_2804/"
+    "_asset_base": "assets/memory/20190114_2804/"
   },
   {
     "uid": "20190513_2817",
@@ -8082,7 +8148,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190513_2817/"
+    "_asset_base": "assets/memory/20190513_2817/"
   },
   {
     "uid": "20190516_2863",
@@ -8114,7 +8180,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190516_2863/"
+    "_asset_base": "assets/memory/20190516_2863/"
   },
   {
     "uid": "20190519_2868",
@@ -8146,7 +8212,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190519_2868/"
+    "_asset_base": "assets/memory/20190519_2868/"
   },
   {
     "uid": "20190527_2879",
@@ -8178,7 +8244,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190527_2879/"
+    "_asset_base": "assets/memory/20190527_2879/"
   },
   {
     "uid": "20190528_2901",
@@ -8210,7 +8276,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190528_2901/"
+    "_asset_base": "assets/memory/20190528_2901/"
   },
   {
     "uid": "20190529_2943",
@@ -8242,7 +8308,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190529_2943/"
+    "_asset_base": "assets/memory/20190529_2943/"
   },
   {
     "uid": "20190806_2950",
@@ -8274,7 +8340,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190806_2950/"
+    "_asset_base": "assets/memory/20190806_2950/"
   },
   {
     "uid": "20190910_3008",
@@ -8306,7 +8372,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20190910_3008/"
+    "_asset_base": "assets/memory/20190910_3008/"
   },
   {
     "uid": "20191024_3012",
@@ -8338,7 +8404,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20191024_3012/"
+    "_asset_base": "assets/memory/20191024_3012/"
   },
   {
     "uid": "20191024_3018",
@@ -8370,7 +8436,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20191024_3018/"
+    "_asset_base": "assets/memory/20191024_3018/"
   },
   {
     "uid": "20191025_3027",
@@ -8402,7 +8468,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20191025_3027/"
+    "_asset_base": "assets/memory/20191025_3027/"
   },
   {
     "uid": "20200514_3332",
@@ -8434,7 +8500,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20200514_3332/"
+    "_asset_base": "assets/memory/20200514_3332/"
   },
   {
     "uid": "20200817_3333",
@@ -8466,7 +8532,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20200817_3333/"
+    "_asset_base": "assets/memory/20200817_3333/"
   },
   {
     "uid": "20210206_3453",
@@ -8498,7 +8564,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20210206_3453/"
+    "_asset_base": "assets/memory/20210206_3453/"
   },
   {
     "uid": "20210329_3536",
@@ -8530,7 +8596,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20210329_3536/"
+    "_asset_base": "assets/memory/20210329_3536/"
   },
   {
     "uid": "20210330_3578",
@@ -8562,7 +8628,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20210330_3578/"
+    "_asset_base": "assets/memory/20210330_3578/"
   },
   {
     "uid": "20210416_3600",
@@ -8594,7 +8660,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20210416_3600/"
+    "_asset_base": "assets/memory/20210416_3600/"
   },
   {
     "uid": "20210421_3225",
@@ -8626,7 +8692,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20210421_3225/"
+    "_asset_base": "assets/gpu/20210421_3225/"
   },
   {
     "uid": "20210512_3319",
@@ -8658,7 +8724,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20210512_3319/"
+    "_asset_base": "assets/gpu/20210512_3319/"
   },
   {
     "uid": "20211001_4004",
@@ -8690,7 +8756,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20211001_4004/"
+    "_asset_base": "assets/memory/20211001_4004/"
   },
   {
     "uid": "20211008_4058",
@@ -8722,7 +8788,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20211008_4058/"
+    "_asset_base": "assets/memory/20211008_4058/"
   },
   {
     "uid": "20211028_4124",
@@ -8754,7 +8820,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20211028_4124/"
+    "_asset_base": "assets/memory/20211028_4124/"
   },
   {
     "uid": "20211029_4335",
@@ -8792,7 +8858,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20211029_4335/"
+    "_asset_base": "assets/memory/20211029_4335/"
   },
   {
     "uid": "20211103_4352",
@@ -8830,7 +8896,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20211103_4352/"
+    "_asset_base": "assets/memory/20211103_4352/"
   },
   {
     "uid": "20220112_4779",
@@ -8862,7 +8928,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220112_4779/"
+    "_asset_base": "assets/memory/20220112_4779/"
   },
   {
     "uid": "20220426_5001",
@@ -8900,7 +8966,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220426_5001/"
+    "_asset_base": "assets/memory/20220426_5001/"
   },
   {
     "uid": "20220427_5011",
@@ -8938,7 +9004,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220427_5011/"
+    "_asset_base": "assets/memory/20220427_5011/"
   },
   {
     "uid": "20220524_5050",
@@ -8976,7 +9042,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220524_5050/"
+    "_asset_base": "assets/memory/20220524_5050/"
   },
   {
     "uid": "20220624_5111",
@@ -9014,7 +9080,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220624_5111/"
+    "_asset_base": "assets/memory/20220624_5111/"
   },
   {
     "uid": "20220705_5254",
@@ -9052,7 +9118,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220705_5254/"
+    "_asset_base": "assets/memory/20220705_5254/"
   },
   {
     "uid": "20220705_5275",
@@ -9090,7 +9156,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220705_5275/"
+    "_asset_base": "assets/memory/20220705_5275/"
   },
   {
     "uid": "20220713_5300",
@@ -9128,7 +9194,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20220713_5300/"
+    "_asset_base": "assets/memory/20220713_5300/"
   },
   {
     "uid": "20221014_8812",
@@ -9160,7 +9226,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20221014_8812/"
+    "_asset_base": "assets/cpu/20221014_8812/"
   },
   {
     "uid": "20221020_5564",
@@ -9198,7 +9264,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20221020_5564/"
+    "_asset_base": "assets/memory/20221020_5564/"
   },
   {
     "uid": "20221024_3345",
@@ -9230,7 +9296,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20221024_3345/"
+    "_asset_base": "assets/gpu/20221024_3345/"
   },
   {
     "uid": "20221103_3705",
@@ -9262,7 +9328,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20221103_3705/"
+    "_asset_base": "assets/gpu/20221103_3705/"
   },
   {
     "uid": "20221119_3825",
@@ -9294,7 +9360,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20221119_3825/"
+    "_asset_base": "assets/gpu/20221119_3825/"
   },
   {
     "uid": "20221209_9008",
@@ -9326,7 +9392,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20221209_9008/"
+    "_asset_base": "assets/cpu/20221209_9008/"
   },
   {
     "uid": "20230110_5567",
@@ -9364,7 +9430,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20230110_5567/"
+    "_asset_base": "assets/memory/20230110_5567/"
   },
   {
     "uid": "20230117_5612",
@@ -9402,7 +9468,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20230117_5612/"
+    "_asset_base": "assets/memory/20230117_5612/"
   },
   {
     "uid": "20230222_3840",
@@ -9434,7 +9500,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20230222_3840/"
+    "_asset_base": "assets/gpu/20230222_3840/"
   },
   {
     "uid": "20230605_5613",
@@ -9472,7 +9538,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20230605_5613/"
+    "_asset_base": "assets/memory/20230605_5613/"
   },
   {
     "uid": "20230606_5616",
@@ -9510,7 +9576,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20230606_5616/"
+    "_asset_base": "assets/memory/20230606_5616/"
   },
   {
     "uid": "20230606_5626",
@@ -9548,7 +9614,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20230606_5626/"
+    "_asset_base": "assets/memory/20230606_5626/"
   },
   {
     "uid": "20230607_5627",
@@ -9586,7 +9652,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20230607_5627/"
+    "_asset_base": "assets/memory/20230607_5627/"
   },
   {
     "uid": "20230617_3930",
@@ -9618,7 +9684,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20230617_3930/"
+    "_asset_base": "assets/gpu/20230617_3930/"
   },
   {
     "uid": "20230628_3945",
@@ -9650,7 +9716,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20230628_3945/"
+    "_asset_base": "assets/gpu/20230628_3945/"
   },
   {
     "uid": "20230705_3975",
@@ -9682,7 +9748,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20230705_3975/"
+    "_asset_base": "assets/gpu/20230705_3975/"
   },
   {
     "uid": "20230706_4005",
@@ -9713,14 +9779,25 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "230706_4005-png[1].webp",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2947538[1].jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20230706_4005/"
+    "_asset_base": "assets/gpu/20230706_4005/"
   },
   {
     "uid": "20230706_4020",
@@ -9751,14 +9828,25 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "230706_4020-png.webp",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2947539.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20230706_4020/"
+    "_asset_base": "assets/gpu/20230706_4020/"
   },
   {
     "uid": "20231002_5806",
@@ -9796,7 +9884,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20231002_5806/"
+    "_asset_base": "assets/memory/20231002_5806/"
   },
   {
     "uid": "20231016_9043",
@@ -9828,7 +9916,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20231016_9043/"
+    "_asset_base": "assets/cpu/20231016_9043/"
   },
   {
     "uid": "20231020_5809",
@@ -9866,7 +9954,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20231020_5809/"
+    "_asset_base": "assets/memory/20231020_5809/"
   },
   {
     "uid": "20231031_5824",
@@ -9904,7 +9992,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20231031_5824/"
+    "_asset_base": "assets/memory/20231031_5824/"
   },
   {
     "uid": "20231113_5824",
@@ -9942,7 +10030,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20231113_5824/"
+    "_asset_base": "assets/memory/20231113_5824/"
   },
   {
     "uid": "20240205_5844",
@@ -9980,7 +10068,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20240205_5844/"
+    "_asset_base": "assets/memory/20240205_5844/"
   },
   {
     "uid": "20240307_9117",
@@ -10012,7 +10100,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20240307_9117/"
+    "_asset_base": "assets/cpu/20240307_9117/"
   },
   {
     "uid": "20240926_6020",
@@ -10044,7 +10132,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20240926_6020/"
+    "_asset_base": "assets/memory/20240926_6020/"
   },
   {
     "uid": "20240927_6032",
@@ -10082,7 +10170,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20240927_6032/"
+    "_asset_base": "assets/memory/20240927_6032/"
   },
   {
     "uid": "20241024_6053",
@@ -10120,7 +10208,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241024_6053/"
+    "_asset_base": "assets/memory/20241024_6053/"
   },
   {
     "uid": "20241024_6097",
@@ -10158,7 +10246,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241024_6097/"
+    "_asset_base": "assets/memory/20241024_6097/"
   },
   {
     "uid": "20241113_6131",
@@ -10196,7 +10284,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241113_6131/"
+    "_asset_base": "assets/memory/20241113_6131/"
   },
   {
     "uid": "20241113_6175",
@@ -10234,7 +10322,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241113_6175/"
+    "_asset_base": "assets/memory/20241113_6175/"
   },
   {
     "uid": "20241115_6263",
@@ -10272,7 +10360,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241115_6263/"
+    "_asset_base": "assets/memory/20241115_6263/"
   },
   {
     "uid": "20241125_6305",
@@ -10310,7 +10398,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241125_6305/"
+    "_asset_base": "assets/memory/20241125_6305/"
   },
   {
     "uid": "20241127_6317",
@@ -10348,7 +10436,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241127_6317/"
+    "_asset_base": "assets/memory/20241127_6317/"
   },
   {
     "uid": "20241203_6333",
@@ -10386,7 +10474,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241203_6333/"
+    "_asset_base": "assets/memory/20241203_6333/"
   },
   {
     "uid": "20241205_6348",
@@ -10424,7 +10512,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20241205_6348/"
+    "_asset_base": "assets/memory/20241205_6348/"
   },
   {
     "uid": "20250111_9121",
@@ -10456,7 +10544,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20250111_9121/"
+    "_asset_base": "assets/cpu/20250111_9121/"
   },
   {
     "uid": "20250124_6363",
@@ -10494,7 +10582,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250124_6363/"
+    "_asset_base": "assets/memory/20250124_6363/"
   },
   {
     "uid": "20250202_6367",
@@ -10532,7 +10620,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250202_6367/"
+    "_asset_base": "assets/memory/20250202_6367/"
   },
   {
     "uid": "20250220_6375",
@@ -10570,7 +10658,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250220_6375/"
+    "_asset_base": "assets/memory/20250220_6375/"
   },
   {
     "uid": "20250329_6381",
@@ -10608,7 +10696,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250329_6381/"
+    "_asset_base": "assets/memory/20250329_6381/"
   },
   {
     "uid": "20250413_6386",
@@ -10646,7 +10734,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250413_6386/"
+    "_asset_base": "assets/memory/20250413_6386/"
   },
   {
     "uid": "20250503_6386",
@@ -10684,7 +10772,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250503_6386/"
+    "_asset_base": "assets/memory/20250503_6386/"
   },
   {
     "uid": "20250503_6402",
@@ -10722,7 +10810,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250503_6402/"
+    "_asset_base": "assets/memory/20250503_6402/"
   },
   {
     "uid": "20250504_6411",
@@ -10760,7 +10848,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250504_6411/"
+    "_asset_base": "assets/memory/20250504_6411/"
   },
   {
     "uid": "20250517_6416",
@@ -10798,7 +10886,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250517_6416/"
+    "_asset_base": "assets/memory/20250517_6416/"
   },
   {
     "uid": "20250519_6421",
@@ -10830,7 +10918,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250519_6421/"
+    "_asset_base": "assets/memory/20250519_6421/"
   },
   {
     "uid": "20250710_6436",
@@ -10868,7 +10956,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250710_6436/"
+    "_asset_base": "assets/memory/20250710_6436/"
   },
   {
     "uid": "20250801_6443",
@@ -10906,7 +10994,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250801_6443/"
+    "_asset_base": "assets/memory/20250801_6443/"
   },
   {
     "uid": "20250823_9130",
@@ -10921,6 +11009,7 @@
       "memory": null,
       "cooling": "Liquid Helium"
     },
+    "hero": "qg4yna[1].png",
     "overclockers": [
       {
         "handle": "Wytiwx",
@@ -10937,14 +11026,20 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "qg4yna[1].png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "cpu/20250823_9130/"
+    "_asset_base": "assets/cpu/20250823_9130/"
   },
   {
     "uid": "20250905_4250",
@@ -10959,6 +11054,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "4250furmark.webp",
     "overclockers": [
       {
         "handle": "SkatterBencher",
@@ -10987,14 +11083,20 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "4250furmark.webp",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "gpu/20250905_4250/"
+    "_asset_base": "assets/gpu/20250905_4250/"
   },
   {
     "uid": "20250921_6460",
@@ -11032,7 +11134,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20250921_6460/"
+    "_asset_base": "assets/memory/20250921_6460/"
   },
   {
     "uid": "20251015_6504",
@@ -11070,7 +11172,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20251015_6504/"
+    "_asset_base": "assets/memory/20251015_6504/"
   },
   {
     "uid": "20251027_6517",
@@ -11108,7 +11210,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20251027_6517/"
+    "_asset_base": "assets/memory/20251027_6517/"
   },
   {
     "uid": "20251103_6605",
@@ -11146,7 +11248,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20251103_6605/"
+    "_asset_base": "assets/memory/20251103_6605/"
   },
   {
     "uid": "20251116_6703",
@@ -11177,14 +11279,25 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "6703.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6703_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20251116_6703/"
+    "_asset_base": "assets/memory/20251116_6703/"
   },
   {
     "uid": "20251117_6765",
@@ -11222,6 +11335,6 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "memory/20251117_6765/"
+    "_asset_base": "assets/memory/20251117_6765/"
   }
 ]

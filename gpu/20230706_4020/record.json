@@ -27,7 +27,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "230706_4020-png.webp",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2947539.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVDIA"
   ],

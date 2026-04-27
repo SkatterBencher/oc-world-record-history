@@ -448,18 +448,13 @@ function renderPanel(record) {
   const hardware     = record.hardware     || {};
   const sources      = record.sources      || [];
   const tags         = record.tags         || [];
-  const hero         = record.assets?.find(a =>
-    a.type === 'cpuz' || a.type === 'validation'
-  )?.file;
   const assetBase    = record._asset_base  || '';
+  const assets       = record.assets       || [];
+  const heroFile     = record.hero         || null;
+  // Gallery = all assets except the hero
+  const galleryAssets = assets.filter(a => a.file !== heroFile);
 
   document.getElementById('panel-content').innerHTML = `
-    ${hero ? `
-      <div class="panel-hero">
-        <img src="${assetBase}${hero}" alt="Validation screenshot" loading="lazy">
-      </div>
-    ` : ''}
-
     <div class="panel-rank">${cat.label} All-Time Rank #${rank}</div>
 
     <div class="panel-freq">
@@ -469,7 +464,13 @@ function renderPanel(record) {
       ${formatDateLong(record.achieved_at, record.achieved_at_approximate)}
     </div>
 
-    <div class="panel-divider"></div>
+    ${heroFile ? `
+      <div class="panel-hero">
+        <a href="${assetBase}${heroFile}" target="_blank" rel="noopener">
+          <img src="${assetBase}${heroFile}" alt="Hero image" loading="lazy">
+        </a>
+      </div>
+    ` : '<div class="panel-divider"></div>'}
 
     <div class="panel-section-label">Overclocker${overclockers.length > 1 ? 's' : ''}</div>
     <div class="panel-overclockers">
@@ -535,6 +536,19 @@ function renderPanel(record) {
       <div class="panel-divider"></div>
       <div class="panel-section-label">Notes</div>
       <div class="panel-notes">${record.notes}</div>
+    ` : ''}
+
+    ${galleryAssets.length ? `
+      <div class="panel-divider"></div>
+      <div class="panel-section-label">Images</div>
+      <div class="panel-gallery">
+        ${galleryAssets.map(a => `
+          <a href="${assetBase}${a.file}" target="_blank" rel="noopener" class="gallery-thumb"
+             title="${a.caption || a.type}">
+            <img src="${assetBase}${a.file}" alt="${a.caption || a.type}" loading="lazy">
+          </a>
+        `).join('')}
+      </div>
     ` : ''}
 
     <div class="panel-divider"></div>

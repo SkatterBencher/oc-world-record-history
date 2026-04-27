@@ -2,7 +2,17 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "OC World Record",
   "type": "object",
-  "required": ["uid", "category", "achieved_at", "value_mhz", "hardware", "overclockers", "sources", "tags", "verified"],
+  "required": [
+    "uid",
+    "category",
+    "achieved_at",
+    "value_mhz",
+    "hardware",
+    "overclockers",
+    "sources",
+    "tags",
+    "verified"
+  ],
   "properties": {
     "uid": {
       "type": "string",
@@ -11,10 +21,17 @@
     },
     "category": {
       "type": "string",
-      "enum": ["cpu", "gpu", "memory"]
+      "enum": [
+        "cpu",
+        "gpu",
+        "memory"
+      ]
     },
     "subcategory": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "e.g. ddr3, ddr4, ddr5 for memory; null for cpu/gpu"
     },
     "achieved_at": {
@@ -32,15 +49,32 @@
     },
     "hardware": {
       "type": "object",
-      "required": ["primary"],
+      "required": [
+        "primary"
+      ],
       "properties": {
         "primary": {
           "type": "string",
           "description": "The overclocked component, e.g. Intel Core i9-14900KF"
         },
-        "motherboard": { "type": ["string", "null"] },
-        "memory": { "type": ["string", "null"] },
-        "cooling": { "type": ["string", "null"] }
+        "motherboard": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "memory": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cooling": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
     "overclockers": {
@@ -48,16 +82,38 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["handle"],
+        "required": [
+          "handle"
+        ],
         "properties": {
-          "handle": { "type": "string" },
-          "real_name": { "type": ["string", "null"] },
+          "handle": {
+            "type": "string"
+          },
+          "real_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "aliases": {
             "type": "array",
-            "items": { "type": "string" }
+            "items": {
+              "type": "string"
+            }
           },
-          "country": { "type": ["string", "null"], "description": "ISO 3166-1 alpha-2" },
-          "profile_url": { "type": ["string", "null"] }
+          "country": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "ISO 3166-1 alpha-2"
+          },
+          "profile_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         }
       }
     },
@@ -65,11 +121,24 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["label", "url"],
+        "required": [
+          "label",
+          "url"
+        ],
         "properties": {
-          "label": { "type": "string" },
-          "url": { "type": "string", "minLength": 1 },
-          "archived_url": { "type": ["string", "null"] }
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "archived_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         }
       }
     },
@@ -77,24 +146,61 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["file", "type"],
+        "required": [
+          "file",
+          "type"
+        ],
         "properties": {
-          "file": { "type": "string" },
+          "file": {
+            "type": "string"
+          },
           "type": {
             "type": "string",
-            "enum": ["cpuz", "gpuz", "validation", "photo", "other"]
+            "enum": [
+              "cpuz",
+              "gpuz",
+              "validation",
+              "photo",
+              "other"
+            ]
           },
-          "caption": { "type": ["string", "null"] }
+          "caption": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         }
       }
     },
     "tags": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "notes": { "type": ["string", "null"] },
-    "verified": { "type": "boolean" },
-    "submitted_by": { "type": ["string", "null"] }
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "submitted_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hero": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Filename of the hero image shown in the detail panel"
+    }
   },
   "additionalProperties": false
 }

@@ -11,6 +11,7 @@
     "memory": null,
     "cooling": "Liquid Helium"
   },
+  "hero": "qg4yna[1].png",
   "overclockers": [
     {
       "handle": "Wytiwx",
@@ -27,7 +28,13 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "qg4yna[1].png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

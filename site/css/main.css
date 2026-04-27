@@ -270,8 +270,9 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 
 /* ── PANEL HERO ──────────────────────────────────────── */
 .panel-hero {
-  margin: -32px -28px 24px;
-  border-bottom: 1px solid var(--border);
+  margin: 20px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   background: var(--bg-off);
   overflow: hidden;
 }
@@ -279,8 +280,9 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   width: 100%;
   height: auto;
   display: block;
-  max-height: 220px;
-  object-fit: cover;
+  max-height: 260px;
+  object-fit: contain;
+  padding: 8px;
 }
 
 /* ── COUNTRY BLOCK ───────────────────────────────────── */
@@ -334,3 +336,38 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   text-decoration: none;
 }
 .panel-discuss a:hover { color: var(--accent); }
+
+/* ── PANEL GALLERY ───────────────────────────────────── */
+.panel-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.gallery-thumb {
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-off);
+  transition: border-color 0.15s, opacity 0.15s;
+  aspect-ratio: 16/9;
+}
+
+.gallery-thumb:hover {
+  border-color: var(--accent);
+  opacity: 0.9;
+}
+
+.gallery-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Hero image is clickable to open full size */
+.panel-hero a {
+  display: block;
+  cursor: zoom-in;
+}

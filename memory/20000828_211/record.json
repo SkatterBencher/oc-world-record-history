@@ -11,6 +11,7 @@
     "memory": "MT-7E 128MB",
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "21198.gif",
   "overclockers": [
     {
       "handle": "Tatumiya",
@@ -29,7 +30,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "21198.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "21198_holicho.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "SDR"
   ],
