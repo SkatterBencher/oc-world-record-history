@@ -1,7 +1,7 @@
 {
   "uid": "20100311_1485",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "DGPU",
   "achieved_at": "2010-03-11",
   "achieved_at_approximate": false,
   "value_mhz": 1485.0,
@@ -22,7 +22,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "AMD"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

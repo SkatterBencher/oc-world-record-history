@@ -1,7 +1,7 @@
 {
   "uid": "20110106_1950",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "IGPU (CPU)",
   "achieved_at": "2011-01-06",
   "achieved_at_approximate": false,
   "value_mhz": 1950.0,
@@ -22,7 +22,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "Intel"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

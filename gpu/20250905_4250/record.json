@@ -1,35 +1,48 @@
 {
   "uid": "20250905_4250",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "IGPU (CPU)",
   "achieved_at": "2025-09-05",
   "achieved_at_approximate": false,
-  "value_mhz": 4250.0,
+  "value_mhz": 4250,
   "hardware": {
     "primary": "Intel Graphics (Arrow Lake)",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
-      "handle": "Massman",
-      "real_name": null,
-      "aliases": [],
-      "country": "BE",
-      "profile_url": null
-    },
-    {
       "handle": "SkatterBencher",
-      "real_name": null,
-      "aliases": [],
-      "country": null,
+      "real_name": "Pieter Plaisier",
+      "aliases": [
+        "Massman"
+      ],
+      "country": "BE",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=IUMg3E2Oe54",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "https://skatterbencher.com/2025/06/04/i-broke-the-gpu-frequency-overclocking-world-record/",
+      "archived_url": null
+    },
+    {
+      "label": "Livestream",
+      "url": "https://youtu.be/kmWcSmronZo?t=21863",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "Intel"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

@@ -20,7 +20,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/6bn40t",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR5"

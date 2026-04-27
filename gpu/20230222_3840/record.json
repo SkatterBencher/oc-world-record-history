@@ -1,7 +1,7 @@
 {
   "uid": "20230222_3840",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "DGPU",
   "achieved_at": "2023-02-22",
   "achieved_at_approximate": false,
   "value_mhz": 3840.0,
@@ -22,7 +22,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "NVDIA"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

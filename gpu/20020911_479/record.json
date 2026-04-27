@@ -1,7 +1,7 @@
 {
   "uid": "20020911_479",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "DGPU",
   "achieved_at": "2002-09-11",
   "achieved_at_approximate": false,
   "value_mhz": 479.0,
@@ -22,7 +22,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "ATI"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

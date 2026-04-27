@@ -16,11 +16,17 @@
       "handle": "Hocayu",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "HK",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/nsis5i",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR5"

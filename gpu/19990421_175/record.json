@@ -1,7 +1,7 @@
 {
   "uid": "19990421_175",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "DGPU",
   "achieved_at": "1999-04-21",
   "achieved_at_approximate": false,
   "value_mhz": 175.0,
@@ -22,7 +22,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "3DFX"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

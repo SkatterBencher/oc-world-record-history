@@ -1,7 +1,7 @@
 {
   "uid": "20020506_378",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "DGPU",
   "achieved_at": "2002-05-06",
   "achieved_at_approximate": false,
   "value_mhz": 378.0,
@@ -22,7 +22,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "NVIDIA"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

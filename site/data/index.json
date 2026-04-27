@@ -17,13 +17,15 @@
         "handle": "Masashi",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -47,13 +49,15 @@
         "handle": "Kryotech",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -77,13 +81,15 @@
         "handle": "Masashi",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -107,13 +113,15 @@
         "handle": "Kryotech",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -137,13 +145,15 @@
         "handle": "Kryotech",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -167,13 +177,15 @@
         "handle": "Masashi",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -182,7 +194,7 @@
   {
     "uid": "19980119_118",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "1998-01-19",
     "achieved_at_approximate": false,
     "value_mhz": 118.0,
@@ -203,7 +215,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Rendition"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -227,13 +241,15 @@
         "handle": "Mega Pi",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -317,13 +333,15 @@
         "handle": "RYK",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -347,7 +365,7 @@
         "handle": "Takach",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -362,7 +380,7 @@
   {
     "uid": "19980913_135",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "1998-09-13",
     "achieved_at_approximate": false,
     "value_mhz": 135.0,
@@ -377,13 +395,15 @@
         "handle": "AnandTech",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -407,13 +427,15 @@
         "handle": "KAZ",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -439,13 +461,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -469,13 +493,15 @@
         "handle": "Katsuya",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -501,13 +527,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -533,13 +561,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -565,13 +595,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -595,13 +627,15 @@
         "handle": "Mr. Funano",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -627,13 +661,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -659,13 +695,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -689,13 +727,15 @@
         "handle": "Mr. Funano",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -704,7 +744,7 @@
   {
     "uid": "19990421_175",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "1999-04-21",
     "achieved_at_approximate": false,
     "value_mhz": 175.0,
@@ -725,7 +765,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "3DFX"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -751,13 +793,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -783,13 +827,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -815,13 +861,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -830,7 +878,7 @@
   {
     "uid": "19991112_195",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "1999-11-12",
     "achieved_at_approximate": false,
     "value_mhz": 195.0,
@@ -851,7 +899,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -877,13 +927,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -909,13 +961,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -945,7 +999,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -975,7 +1031,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1001,13 +1059,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1033,13 +1093,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1063,7 +1125,7 @@
         "handle": "ほりっちょ Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -1127,7 +1189,7 @@
         "handle": "ほりっちょ Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -1159,7 +1221,7 @@
         "handle": "アンパンマン Tatumiya",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -1191,13 +1253,15 @@
         "handle": "HIDE",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1221,7 +1285,7 @@
         "handle": "モミゴン",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -1253,7 +1317,7 @@
         "handle": "Hide",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -1291,7 +1355,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1385,7 +1451,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1411,13 +1479,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1443,13 +1513,15 @@
         "aliases": [
           "ja0hxv"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1479,7 +1551,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1503,13 +1577,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1533,13 +1609,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1563,13 +1641,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1578,7 +1658,7 @@
   {
     "uid": "20010528_256",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2001-05-28",
     "achieved_at_approximate": false,
     "value_mhz": 256.0,
@@ -1593,13 +1673,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1629,7 +1711,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1653,13 +1737,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1683,13 +1769,15 @@
         "handle": "Eric",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1698,7 +1786,7 @@
   {
     "uid": "20011123_305",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2001-11-23",
     "achieved_at_approximate": false,
     "value_mhz": 305.0,
@@ -1713,13 +1801,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1743,13 +1833,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1773,13 +1865,15 @@
         "handle": "Sampsa",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1803,13 +1897,15 @@
         "handle": "Tatumiya",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1833,13 +1929,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1863,13 +1961,15 @@
         "handle": "Tatumiya",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1893,13 +1993,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1908,7 +2010,7 @@
   {
     "uid": "20020407_365",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2002-04-07",
     "achieved_at_approximate": false,
     "value_mhz": 365.0,
@@ -1929,7 +2031,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1953,13 +2057,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -1968,7 +2074,7 @@
   {
     "uid": "20020506_378",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2002-05-06",
     "achieved_at_approximate": false,
     "value_mhz": 378.0,
@@ -1983,13 +2089,15 @@
         "handle": "Sampsa",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2030,7 +2138,7 @@
   {
     "uid": "20020605_391",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2002-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 391.0,
@@ -2051,7 +2159,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2092,7 +2202,7 @@
   {
     "uid": "20020629_405",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2002-06-29",
     "achieved_at_approximate": false,
     "value_mhz": 405.0,
@@ -2107,13 +2217,15 @@
         "handle": "JCViggen",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "BE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2137,7 +2249,7 @@
         "handle": "だんな",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -2169,13 +2281,15 @@
         "handle": "Son",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2199,7 +2313,7 @@
         "handle": "Kaz-n",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -2216,7 +2330,7 @@
   {
     "uid": "20020720_409",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2002-07-20",
     "achieved_at_approximate": false,
     "value_mhz": 409.0,
@@ -2231,13 +2345,15 @@
         "handle": "Kamu",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2267,7 +2383,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2284,20 +2402,22 @@
       "primary": "Intel Pentium 4 2.8 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Muropaketti",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2314,20 +2434,22 @@
       "primary": "Intel Pentium 4 2.4 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2344,20 +2466,22 @@
       "primary": "Intel Pentium 4 2.5 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2366,7 +2490,7 @@
   {
     "uid": "20020911_479",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2002-09-11",
     "achieved_at_approximate": false,
     "value_mhz": 479.0,
@@ -2381,13 +2505,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2404,20 +2530,22 @@
       "primary": "Intel Pentium 4 2.5 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2426,7 +2554,7 @@
   {
     "uid": "20020927_508",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2002-09-27",
     "achieved_at_approximate": false,
     "value_mhz": 508.0,
@@ -2441,13 +2569,15 @@
         "handle": "OPPainter",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2471,7 +2601,7 @@
         "handle": "ほりっちょ",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -2528,20 +2658,22 @@
       "primary": "Intel Pentium 4 3.06 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Ja0hxv",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2558,20 +2690,22 @@
       "primary": "Intel Pentium 4 3.06 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Tamozyouri",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2588,20 +2722,22 @@
       "primary": "Intel Pentium 4 2.5 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2610,7 +2746,7 @@
   {
     "uid": "20030204_513",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-02-04",
     "achieved_at_approximate": false,
     "value_mhz": 513.0,
@@ -2625,13 +2761,15 @@
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2648,20 +2786,22 @@
       "primary": "Intel Pentium 4 3.06 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2678,20 +2818,22 @@
       "primary": "Intel Pentium 4 3.06 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Holicho",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2700,7 +2842,7 @@
   {
     "uid": "20030510_540",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-05-10",
     "achieved_at_approximate": false,
     "value_mhz": 540.0,
@@ -2721,7 +2863,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2730,7 +2874,7 @@
   {
     "uid": "20030511_558",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-05-11",
     "achieved_at_approximate": false,
     "value_mhz": 558.0,
@@ -2745,13 +2889,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2775,7 +2921,7 @@
         "handle": "TAM",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -2800,20 +2946,22 @@
       "primary": "Intel Pentium 4 3.0 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "OMEGA",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2822,7 +2970,7 @@
   {
     "uid": "20030530_567",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 567.0,
@@ -2837,13 +2985,15 @@
         "handle": "OPPainter",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2852,7 +3002,7 @@
   {
     "uid": "20030611_594",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-06-11",
     "achieved_at_approximate": false,
     "value_mhz": 594.0,
@@ -2867,13 +3017,15 @@
         "handle": "FUGGER",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2890,20 +3042,22 @@
       "primary": "Intel Pentium 4 3.2 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "TAM",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2927,7 +3081,7 @@
         "handle": "光弘",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -2952,20 +3106,22 @@
       "primary": "Intel Pentium 4 3.2 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "TAM",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -2974,7 +3130,7 @@
   {
     "uid": "20030708_689",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-07-08",
     "achieved_at_approximate": false,
     "value_mhz": 689.0,
@@ -2989,13 +3145,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3019,7 +3177,7 @@
         "handle": "TAM",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -3036,7 +3194,7 @@
   {
     "uid": "20030911_702",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-09-11",
     "achieved_at_approximate": false,
     "value_mhz": 702.0,
@@ -3057,7 +3215,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3066,7 +3226,7 @@
   {
     "uid": "20031025_711",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2003-10-25",
     "achieved_at_approximate": false,
     "value_mhz": 711.0,
@@ -3081,13 +3241,15 @@
         "handle": "Kamu",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3104,20 +3266,22 @@
       "primary": "Intel Pentium 4 XE 3.20G",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3134,20 +3298,22 @@
       "primary": "Unknown",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Frank Volkel",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3164,20 +3330,22 @@
       "primary": "Intel Pentium 4 XE 3.20G",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3218,7 +3386,7 @@
   {
     "uid": "20040507_715",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2004-05-07",
     "achieved_at_approximate": false,
     "value_mhz": 715.0,
@@ -3239,7 +3407,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3256,20 +3426,22 @@
       "primary": "Intel Pentium 4 2.8 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3286,14 +3458,14 @@
       "primary": "Intel Pentium 4 560",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       },
       {
@@ -3306,7 +3478,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3323,20 +3497,22 @@
       "primary": "Intel Pentium 4 2.8 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3360,7 +3536,7 @@
         "handle": "Tanuki",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -3392,7 +3568,7 @@
         "handle": "いいさん",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -3441,7 +3617,7 @@
   {
     "uid": "20040915_807",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2004-09-15",
     "achieved_at_approximate": false,
     "value_mhz": 807.0,
@@ -3456,13 +3632,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3503,7 +3681,7 @@
   {
     "uid": "20041001_810",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2004-10-01",
     "achieved_at_approximate": false,
     "value_mhz": 810.0,
@@ -3518,13 +3696,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3541,20 +3721,22 @@
       "primary": "Intel Pentium 4 560",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3571,20 +3753,22 @@
       "primary": "Intel Pentium 4 560",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3608,7 +3792,7 @@
         "handle": "Kaz-n",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -3640,13 +3824,15 @@
         "handle": "Fugger",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3670,13 +3856,15 @@
         "handle": "Fugger",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3717,7 +3905,7 @@
   {
     "uid": "20041118_824",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2004-11-18",
     "achieved_at_approximate": false,
     "value_mhz": 824.0,
@@ -3732,13 +3920,15 @@
         "handle": "OPPainter",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3762,13 +3952,15 @@
         "handle": "Fugger",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3824,7 +4016,7 @@
         "handle": "Cal930",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -3849,20 +4041,22 @@
       "primary": "Intel Pentium 4 570J",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Futto-kun",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3871,7 +4065,7 @@
   {
     "uid": "20050603_860",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2005-06-03",
     "achieved_at_approximate": false,
     "value_mhz": 860.0,
@@ -3886,13 +4080,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3909,20 +4105,22 @@
       "primary": "Intel Pentium 4 660",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "The Stilt",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3939,20 +4137,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "TAM",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3969,20 +4169,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -3999,20 +4201,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4029,20 +4233,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Memesama",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4051,7 +4257,7 @@
   {
     "uid": "20051011_878",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2005-10-11",
     "achieved_at_approximate": false,
     "value_mhz": 878.0,
@@ -4066,13 +4272,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4081,7 +4289,7 @@
   {
     "uid": "20051017_1006",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2005-10-17",
     "achieved_at_approximate": false,
     "value_mhz": 1006.0,
@@ -4096,13 +4304,15 @@
         "handle": "Sampsa",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4119,20 +4329,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Kyosen",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4149,20 +4361,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4179,20 +4393,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4209,20 +4425,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4239,20 +4457,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4301,20 +4521,22 @@
       "primary": "Intel Pentium 4 670",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4370,7 +4592,7 @@
         "handle": "Funa",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -4387,7 +4609,7 @@
   {
     "uid": "20060611_1045",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2006-06-11",
     "achieved_at_approximate": false,
     "value_mhz": 1045.0,
@@ -4402,13 +4624,15 @@
         "handle": "K|ngp|n",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4432,7 +4656,7 @@
         "handle": "光弘",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -4457,20 +4681,22 @@
       "primary": "Intel Pentium 4 631",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "ThuG",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "I",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4487,20 +4713,22 @@
       "primary": "Intel Pentium 4 631",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "ThuG",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "I",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4524,7 +4752,7 @@
         "handle": "Jmax_oc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FR",
         "profile_url": null
       }
     ],
@@ -4549,20 +4777,22 @@
       "primary": "Intel Celeron D 360",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "ThuG",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "IT",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4571,7 +4801,7 @@
   {
     "uid": "20070506_1048",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2007-05-06",
     "achieved_at_approximate": false,
     "value_mhz": 1048.0,
@@ -4586,13 +4816,15 @@
         "handle": "Achill3us",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HU",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4697,7 +4929,7 @@
   {
     "uid": "20070605_1120",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2007-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 1120.0,
@@ -4712,13 +4944,15 @@
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4727,7 +4961,7 @@
   {
     "uid": "20070630_1168",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2007-06-30",
     "achieved_at_approximate": false,
     "value_mhz": 1168.0,
@@ -4742,13 +4976,15 @@
         "handle": "marcin88",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "PL",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4772,7 +5008,7 @@
         "handle": "JtChen2002",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -4829,20 +5065,22 @@
       "primary": "Intel Pentium 4 631",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4859,20 +5097,22 @@
       "primary": "Intel Pentium 4 631",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4896,7 +5136,7 @@
         "handle": "JtChen2002",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -4928,7 +5168,7 @@
         "handle": "JtChen2002",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -4945,7 +5185,7 @@
   {
     "uid": "20071208_1180",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2007-12-08",
     "achieved_at_approximate": false,
     "value_mhz": 1180.0,
@@ -4960,13 +5200,15 @@
         "handle": "GPRHellas",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -4975,7 +5217,7 @@
   {
     "uid": "20071230_1193",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2007-12-30",
     "achieved_at_approximate": false,
     "value_mhz": 1193.0,
@@ -4990,13 +5232,15 @@
         "handle": "Gautam",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5005,7 +5249,7 @@
   {
     "uid": "20080120_1360",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2008-01-20",
     "achieved_at_approximate": false,
     "value_mhz": 1360.0,
@@ -5020,13 +5264,15 @@
         "handle": "Hipro5",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5050,7 +5296,7 @@
         "handle": "Over@locker886",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HU",
         "profile_url": null
       }
     ],
@@ -5131,7 +5377,7 @@
   {
     "uid": "20091129_1380",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2009-11-29",
     "achieved_at_approximate": false,
     "value_mhz": 1380.0,
@@ -5146,13 +5392,15 @@
         "handle": "Deanzo",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "NZ",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5161,7 +5409,7 @@
   {
     "uid": "20091219_1400",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2009-12-19",
     "achieved_at_approximate": false,
     "value_mhz": 1400.0,
@@ -5176,13 +5424,15 @@
         "handle": "Massman",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "BE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5191,7 +5441,7 @@
   {
     "uid": "20100112_1410",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2010-01-12",
     "achieved_at_approximate": false,
     "value_mhz": 1410.0,
@@ -5206,13 +5456,15 @@
         "handle": "NickShih",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5221,7 +5473,7 @@
   {
     "uid": "20100112_1420",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2010-01-12",
     "achieved_at_approximate": false,
     "value_mhz": 1420.0,
@@ -5236,13 +5488,15 @@
         "handle": "NickShih",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5251,7 +5505,7 @@
   {
     "uid": "20100220_1450",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2010-02-20",
     "achieved_at_approximate": false,
     "value_mhz": 1450.0,
@@ -5266,13 +5520,15 @@
         "handle": "Massman",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "BE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5281,7 +5537,7 @@
   {
     "uid": "20100311_1485",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2010-03-11",
     "achieved_at_approximate": false,
     "value_mhz": 1485.0,
@@ -5296,13 +5552,15 @@
         "handle": "NickShih",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5311,7 +5569,7 @@
   {
     "uid": "20100411_1525",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2010-04-11",
     "achieved_at_approximate": false,
     "value_mhz": 1525.0,
@@ -5326,7 +5584,7 @@
         "handle": "Elmor",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       },
       {
@@ -5339,7 +5597,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5363,7 +5623,7 @@
         "handle": "Marmott",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FR",
         "profile_url": null
       }
     ],
@@ -5395,7 +5655,7 @@
         "handle": "_mat_",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AT",
         "profile_url": null
       }
     ],
@@ -5420,20 +5680,22 @@
       "primary": "Intel Celeron D 360",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Duck",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5457,7 +5719,7 @@
         "handle": "_mat_",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AT",
         "profile_url": null
       }
     ],
@@ -5474,7 +5736,7 @@
   {
     "uid": "20110103_1700",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2011-01-03",
     "achieved_at_approximate": false,
     "value_mhz": 1700.0,
@@ -5489,13 +5751,15 @@
         "handle": "Matose",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RO",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5504,7 +5768,7 @@
   {
     "uid": "20110106_1950",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2011-01-06",
     "achieved_at_approximate": false,
     "value_mhz": 1950.0,
@@ -5519,13 +5783,15 @@
         "handle": "[Wanted]",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RO",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5534,7 +5800,7 @@
   {
     "uid": "20110113_2000",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2011-01-13",
     "achieved_at_approximate": false,
     "value_mhz": 2000.0,
@@ -5549,13 +5815,15 @@
         "handle": "Stummerwinter",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5564,7 +5832,7 @@
   {
     "uid": "20110115_2170",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2011-01-15",
     "achieved_at_approximate": false,
     "value_mhz": 2170.0,
@@ -5579,13 +5847,15 @@
         "handle": "Matose",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RO",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5594,7 +5864,7 @@
   {
     "uid": "20110116_2234",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2011-01-16",
     "achieved_at_approximate": false,
     "value_mhz": 2234.0,
@@ -5609,13 +5879,15 @@
         "handle": "Matose",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RO",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5639,7 +5911,7 @@
         "handle": "SF3D",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
@@ -5671,7 +5943,7 @@
         "handle": "splmann",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AT",
         "profile_url": null
       }
     ],
@@ -5703,7 +5975,7 @@
         "handle": "splmann",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AT",
         "profile_url": null
       }
     ],
@@ -5735,7 +6007,7 @@
         "handle": "_mat_",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AT",
         "profile_url": null
       }
     ],
@@ -5752,7 +6024,7 @@
   {
     "uid": "20110719_2300",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2011-07-19",
     "achieved_at_approximate": false,
     "value_mhz": 2300.0,
@@ -5767,13 +6039,15 @@
         "handle": "Samba",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RO",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5790,20 +6064,22 @@
       "primary": "Intel Celeron D 352",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "TaPaKaH",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "LV",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5812,7 +6088,7 @@
   {
     "uid": "20110824_2400",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2011-08-24",
     "achieved_at_approximate": false,
     "value_mhz": 2400.0,
@@ -5827,13 +6103,15 @@
         "handle": "Lucky_n00b",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "ID",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -5850,14 +6128,14 @@
       "primary": "AMD FX-8150",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Helium"
     },
     "overclockers": [
       {
         "handle": "Macci",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
@@ -5880,14 +6158,14 @@
       "primary": "AMD FX-8150",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "AndreYang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -5910,14 +6188,14 @@
       "primary": "AMD FX-8150",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Chew*",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -5940,14 +6218,14 @@
       "primary": "AMD FX-8150",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "AndreYang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -5970,14 +6248,14 @@
       "primary": "AMD FX-8150",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "AndreYang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6007,7 +6285,7 @@
         "handle": "_mat_",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AT",
         "profile_url": null
       }
     ],
@@ -6039,7 +6317,7 @@
         "handle": "Planet",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -6071,7 +6349,7 @@
         "handle": "Planet",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -6103,7 +6381,7 @@
         "handle": "matose",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RO",
         "profile_url": null
       }
     ],
@@ -6135,7 +6413,7 @@
         "handle": "Christian Ney",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CN",
         "profile_url": null
       }
     ],
@@ -6167,7 +6445,7 @@
         "handle": "TK-OC",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6199,7 +6477,7 @@
         "handle": "Christian Ney",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CH",
         "profile_url": null
       }
     ],
@@ -6231,7 +6509,7 @@
         "handle": "John Lam",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -6263,7 +6541,7 @@
         "handle": "Christian Ney",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CH",
         "profile_url": null
       }
     ],
@@ -6295,7 +6573,7 @@
         "handle": "Christian Ney",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CH",
         "profile_url": null
       }
     ],
@@ -6327,7 +6605,7 @@
         "handle": "Christian Ney",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CH",
         "profile_url": null
       }
     ],
@@ -6352,14 +6630,14 @@
       "primary": "AMD FX-8350",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "AndreYang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6389,7 +6667,7 @@
         "handle": "Christian Ney",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CH",
         "profile_url": null
       }
     ],
@@ -6421,7 +6699,7 @@
         "handle": "Hiwa",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CH",
         "profile_url": null
       }
     ],
@@ -6453,7 +6731,7 @@
         "handle": "NickShih",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6485,7 +6763,7 @@
         "handle": "Hiwa",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CH",
         "profile_url": null
       }
     ],
@@ -6517,7 +6795,7 @@
         "handle": "NickShih",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6549,7 +6827,7 @@
         "handle": "TeamAU",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AU",
         "profile_url": null
       }
     ],
@@ -6581,7 +6859,7 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6613,7 +6891,7 @@
         "handle": "sofos1990",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
@@ -6677,7 +6955,7 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6741,7 +7019,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6773,7 +7051,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -6805,7 +7083,7 @@
         "handle": "racoon",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "AT",
         "profile_url": null
       }
     ],
@@ -6837,7 +7115,7 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -6854,7 +7132,7 @@
   {
     "uid": "20160605_2420",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 2420.0,
@@ -6869,13 +7147,15 @@
         "handle": "Vivi",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "ZA",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -6884,7 +7164,7 @@
   {
     "uid": "20160622_2450",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-06-22",
     "achieved_at_approximate": false,
     "value_mhz": 2450.0,
@@ -6899,13 +7179,15 @@
         "handle": "Xtreme Addict",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "PL",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -6914,7 +7196,7 @@
   {
     "uid": "20160706_2645",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-07-06",
     "achieved_at_approximate": false,
     "value_mhz": 2645.0,
@@ -6929,13 +7211,15 @@
         "handle": "Dancop",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -6944,7 +7228,7 @@
   {
     "uid": "20160724_2700",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-07-24",
     "achieved_at_approximate": false,
     "value_mhz": 2700.0,
@@ -6959,13 +7243,15 @@
         "handle": "Xtreme Addict",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "PL",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -6974,7 +7260,7 @@
   {
     "uid": "20160724_2750",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-07-24",
     "achieved_at_approximate": false,
     "value_mhz": 2750.0,
@@ -6989,13 +7275,15 @@
         "handle": "Xtreme Addict",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "PL",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -7004,7 +7292,7 @@
   {
     "uid": "20160805_2784",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-08-05",
     "achieved_at_approximate": false,
     "value_mhz": 2784.0,
@@ -7019,13 +7307,15 @@
         "handle": "Rsannino",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "IT",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -7034,7 +7324,7 @@
   {
     "uid": "20161030_2822",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-10-30",
     "achieved_at_approximate": false,
     "value_mhz": 2822.0,
@@ -7049,13 +7339,15 @@
         "handle": "Shimizu",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -7064,7 +7356,7 @@
   {
     "uid": "20161104_2860",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-11-04",
     "achieved_at_approximate": false,
     "value_mhz": 2860.0,
@@ -7079,13 +7371,15 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -7094,7 +7388,7 @@
   {
     "uid": "20161104_2885",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-11-04",
     "achieved_at_approximate": false,
     "value_mhz": 2885.0,
@@ -7109,13 +7403,15 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -7124,7 +7420,7 @@
   {
     "uid": "20161218_3012",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2016-12-18",
     "achieved_at_approximate": false,
     "value_mhz": 3012.0,
@@ -7139,13 +7435,15 @@
         "handle": "Vivi",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "ZA",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -7169,7 +7467,7 @@
         "handle": "Audigy",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TH",
         "profile_url": null
       }
     ],
@@ -7201,7 +7499,7 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -7218,7 +7516,7 @@
   {
     "uid": "20170322_3025",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2017-03-22",
     "achieved_at_approximate": false,
     "value_mhz": 3025.0,
@@ -7233,13 +7531,15 @@
         "handle": "K|ngp|n",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -7263,7 +7563,7 @@
         "handle": "Audigy",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TH",
         "profile_url": null
       }
     ],
@@ -7295,7 +7595,7 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -7327,7 +7627,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7359,7 +7659,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7391,7 +7691,7 @@
         "handle": "NickShih",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7423,7 +7723,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7455,7 +7755,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7487,7 +7787,7 @@
         "handle": "Hocayu",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7519,7 +7819,7 @@
         "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7551,7 +7851,7 @@
         "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7583,7 +7883,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7647,7 +7947,7 @@
         "handle": "Adata_XPG",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7679,7 +7979,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7711,7 +8011,7 @@
         "handle": "Adata_XPG",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7743,7 +8043,7 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
@@ -7775,7 +8075,7 @@
         "handle": "Adata_XPG",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7807,7 +8107,7 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
@@ -7839,7 +8139,7 @@
         "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7871,7 +8171,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7903,7 +8203,7 @@
         "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7935,7 +8235,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7967,7 +8267,7 @@
         "handle": "Bianbao",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -7999,7 +8299,7 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
@@ -8031,7 +8331,7 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
@@ -8159,7 +8459,7 @@
         "handle": "Toppc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -8191,7 +8491,7 @@
         "handle": "Kovan",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -8223,7 +8523,7 @@
         "handle": "Kovan",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -8240,7 +8540,7 @@
   {
     "uid": "20210421_3225",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2021-04-21",
     "achieved_at_approximate": false,
     "value_mhz": 3225.0,
@@ -8255,13 +8555,15 @@
         "handle": "Der8auer",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -8270,7 +8572,7 @@
   {
     "uid": "20210512_3319",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2021-05-12",
     "achieved_at_approximate": false,
     "value_mhz": 3319.0,
@@ -8285,13 +8587,15 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -8379,7 +8683,7 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -8411,11 +8715,17 @@
         "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/71jih0",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8443,11 +8753,17 @@
         "handle": "Hocayu",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/nsis5i",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8507,11 +8823,17 @@
         "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/u2p13v",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8527,7 +8849,7 @@
     "subcategory": "DDR5",
     "achieved_at": "2022-04-27",
     "achieved_at_approximate": false,
-    "value_mhz": 5011.0,
+    "value_mhz": 5011,
     "hardware": {
       "primary": "GIGABYTE",
       "motherboard": null,
@@ -8539,11 +8861,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/k6vcxq",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8559,7 +8887,7 @@
     "subcategory": "DDR5",
     "achieved_at": "2022-05-24",
     "achieved_at_approximate": false,
-    "value_mhz": 5050.0,
+    "value_mhz": 5050,
     "hardware": {
       "primary": "G.SKILL",
       "motherboard": null,
@@ -8575,7 +8903,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/3q2cvd",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8603,11 +8937,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/d3f22s",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8635,11 +8975,17 @@
         "handle": "Kovan Yang",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/2n0scd",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8671,7 +9017,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/ecv0pk",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8703,7 +9055,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/cnplsu",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8724,20 +9082,22 @@
       "primary": "Intel Core i9-13900K",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Elmor",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -8765,7 +9125,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/nemq3u",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8778,7 +9144,7 @@
   {
     "uid": "20221024_3345",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2022-10-24",
     "achieved_at_approximate": false,
     "value_mhz": 3345.0,
@@ -8793,13 +9159,15 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -8808,7 +9176,7 @@
   {
     "uid": "20221103_3705",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2022-11-03",
     "achieved_at_approximate": false,
     "value_mhz": 3705.0,
@@ -8823,13 +9191,15 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -8838,7 +9208,7 @@
   {
     "uid": "20221119_3825",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2022-11-19",
     "achieved_at_approximate": false,
     "value_mhz": 3825.0,
@@ -8853,13 +9223,15 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -8876,20 +9248,22 @@
       "primary": "Intel Core i9-13900K",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Helium"
     },
     "overclockers": [
       {
         "handle": "Elmor",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -8913,11 +9287,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/g7qe3q",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8945,11 +9325,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/ne5inn",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -8962,7 +9348,7 @@
   {
     "uid": "20230222_3840",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2023-02-22",
     "achieved_at_approximate": false,
     "value_mhz": 3840.0,
@@ -8977,13 +9363,15 @@
         "handle": "OGS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GR",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9007,11 +9395,17 @@
         "handle": "Seby9123",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86.fr/y2yap4",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9039,11 +9433,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/wuh294",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9071,11 +9471,17 @@
         "handle": "Seby9123",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/wzt7jl",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9103,11 +9509,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/c549rm",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9120,7 +9532,7 @@
   {
     "uid": "20230617_3930",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2023-06-17",
     "achieved_at_approximate": false,
     "value_mhz": 3930.0,
@@ -9135,13 +9547,15 @@
         "handle": "CENS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9150,7 +9564,7 @@
   {
     "uid": "20230628_3945",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2023-06-28",
     "achieved_at_approximate": false,
     "value_mhz": 3945.0,
@@ -9165,13 +9579,15 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9180,7 +9596,7 @@
   {
     "uid": "20230705_3975",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2023-07-05",
     "achieved_at_approximate": false,
     "value_mhz": 3975.0,
@@ -9195,13 +9611,15 @@
         "handle": "CENS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9210,10 +9628,10 @@
   {
     "uid": "20230706_4005",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2023-07-06",
     "achieved_at_approximate": false,
-    "value_mhz": 4005.0,
+    "value_mhz": 4005,
     "hardware": {
       "primary": "NVIDIA GeForce RTX 4090",
       "motherboard": null,
@@ -9225,13 +9643,21 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/5305137",
+        "archived_url": null
+      }
+    ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9240,28 +9666,36 @@
   {
     "uid": "20230706_4020",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "DGPU",
     "achieved_at": "2023-07-06",
     "achieved_at_approximate": false,
-    "value_mhz": 4020.0,
+    "value_mhz": 4020,
     "hardware": {
       "primary": "NVIDIA GeForce RTX 4090",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/5305138",
+        "archived_url": null
+      }
+    ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9289,7 +9723,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/6bn40t",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9310,20 +9750,22 @@
       "primary": "Intel Core i9-14900KF",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Helium"
     },
     "overclockers": [
       {
         "handle": "Elmor",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9347,11 +9789,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/r2950q",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9383,7 +9831,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/ppkmpu",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9411,11 +9865,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/ymifzb",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9443,11 +9903,17 @@
         "handle": "Chew*",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/uluhnu",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9468,20 +9934,22 @@
       "primary": "Intel Core i9-14900KS",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Helium"
     },
     "overclockers": [
       {
         "handle": "Elmor",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9505,7 +9973,7 @@
         "handle": "CENS",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
@@ -9537,11 +10005,17 @@
         "handle": "BenchMarc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/ph7km3",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9569,11 +10043,17 @@
         "handle": "Kovan",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/eucs08",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9601,11 +10081,17 @@
         "handle": "Kovan",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/6ypfhv",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9637,7 +10123,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/hq8e57",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9665,11 +10157,17 @@
         "handle": "Saltycroissant",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CA",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/s0duiw",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9701,7 +10199,13 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/1jpsje",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9729,11 +10233,17 @@
         "handle": "Snakeeyes",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/uz6766",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9761,11 +10271,17 @@
         "handle": "Snakeeyes",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/zwaluz",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9781,7 +10297,7 @@
     "subcategory": "DDR5",
     "achieved_at": "2024-12-03",
     "achieved_at_approximate": false,
-    "value_mhz": 6333.0,
+    "value_mhz": 6333,
     "hardware": {
       "primary": "G.SKILL",
       "motherboard": null,
@@ -9793,11 +10309,17 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/2yr3s1",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9825,11 +10347,17 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/1s6wa7",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9850,20 +10378,22 @@
       "primary": "Intel Core i9-14900KF",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Helium"
     },
     "overclockers": [
       {
         "handle": "Wytiwx",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CN",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9875,7 +10405,7 @@
     "subcategory": "DDR5",
     "achieved_at": "2025-01-24",
     "achieved_at_approximate": false,
-    "value_mhz": 6363.0,
+    "value_mhz": 6363,
     "hardware": {
       "primary": "V-Color",
       "motherboard": null,
@@ -9887,11 +10417,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/jmzdf3",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9919,11 +10455,17 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/yp26lh",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9951,11 +10493,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/509rn7",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -9983,11 +10531,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/vtcc01",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10015,11 +10569,17 @@
         "handle": "Seby",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/1z6hfi",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10047,11 +10607,17 @@
         "handle": "Bl4ckdot",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FR",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/fl4te2",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10079,11 +10645,17 @@
         "handle": "Saltycroissant",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CA",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/6cuwgd",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10111,11 +10683,17 @@
         "handle": "Bl4ckdot",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FR",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/c73pxk",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10143,11 +10721,17 @@
         "handle": "Saltycroissant",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CA",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/5jqbgg",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10175,7 +10759,7 @@
         "handle": "Saltycroissant",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CA",
         "profile_url": null
       }
     ],
@@ -10207,11 +10791,17 @@
         "handle": "Bl4ckdot",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FR",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/twnu67",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10239,11 +10829,17 @@
         "handle": "Saltycroissant",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CA",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/y8q947",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10275,9 +10871,17 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/qg4yna",
+        "archived_url": null
+      }
+    ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -10286,35 +10890,48 @@
   {
     "uid": "20250905_4250",
     "category": "gpu",
-    "subcategory": null,
+    "subcategory": "IGPU (CPU)",
     "achieved_at": "2025-09-05",
     "achieved_at_approximate": false,
-    "value_mhz": 4250.0,
+    "value_mhz": 4250,
     "hardware": {
       "primary": "Intel Graphics (Arrow Lake)",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
-        "handle": "Massman",
-        "real_name": null,
-        "aliases": [],
-        "country": null,
-        "profile_url": null
-      },
-      {
         "handle": "SkatterBencher",
-        "real_name": null,
-        "aliases": [],
-        "country": null,
+        "real_name": "Pieter Plaisier",
+        "aliases": [
+          "Massman"
+        ],
+        "country": "BE",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=IUMg3E2Oe54",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://skatterbencher.com/2025/06/04/i-broke-the-gpu-frequency-overclocking-world-record/",
+        "archived_url": null
+      },
+      {
+        "label": "Livestream",
+        "url": "https://youtu.be/kmWcSmronZo?t=21863",
+        "archived_url": null
+      }
+    ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -10338,11 +10955,17 @@
         "handle": "Saltycroissant",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CA",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/wiven5",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10370,11 +10993,17 @@
         "handle": "Sergmann",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/xbssv2",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10402,11 +11031,17 @@
         "handle": "Hicookie",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/zmiwvr",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10434,11 +11069,17 @@
         "handle": "AiMax",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/ywfj06",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10457,20 +11098,26 @@
     "value_mhz": 6703.9,
     "hardware": {
       "primary": "Corsair",
-      "motherboard": null,
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
         "handle": "Saltycroissant",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CA",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/9si282",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"
@@ -10498,11 +11145,17 @@
         "handle": "Sergmann",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/jn8tlb",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "DDR5"

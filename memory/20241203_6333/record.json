@@ -4,7 +4,7 @@
   "subcategory": "DDR5",
   "achieved_at": "2024-12-03",
   "achieved_at_approximate": false,
-  "value_mhz": 6333.0,
+  "value_mhz": 6333,
   "hardware": {
     "primary": "G.SKILL",
     "motherboard": null,
@@ -20,7 +20,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/2yr3s1",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR5"

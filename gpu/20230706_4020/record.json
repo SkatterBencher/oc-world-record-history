@@ -1,15 +1,15 @@
 {
   "uid": "20230706_4020",
   "category": "gpu",
-  "subcategory": null,
+  "subcategory": "DGPU",
   "achieved_at": "2023-07-06",
   "achieved_at_approximate": false,
-  "value_mhz": 4020.0,
+  "value_mhz": 4020,
   "hardware": {
     "primary": "NVIDIA GeForce RTX 4090",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
@@ -20,9 +20,17 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/5305138",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "NVDIA"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"
