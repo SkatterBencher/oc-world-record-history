@@ -6,21 +6,29 @@
   "achieved_at_approximate": false,
   "value_mhz": 214.52,
   "hardware": {
-    "primary": "Unknown",
-    "motherboard": null,
-    "memory": null,
+    "primary": "MT-7E 128MB",
+    "motherboard": "BH6 Rev1.2",
+    "memory": "MT-7E 128MB",
     "cooling": null
   },
   "overclockers": [
     {
-      "handle": "モミゴン",
+      "handle": "Momigon",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "モミゴン"
+      ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Holicho WCPUID",
+      "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "SDR"

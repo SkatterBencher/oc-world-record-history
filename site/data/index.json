@@ -1115,21 +1115,29 @@
     "achieved_at_approximate": false,
     "value_mhz": 187.03,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
+      "primary": "MT-7E 64MB",
+      "motherboard": "BX133-RAID",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
     "overclockers": [
       {
-        "handle": "ほりっちょ Holicho",
+        "handle": "Holicho",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "ほりっちょ"
+        ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "Holicho WCPUID",
+        "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "SDR"
@@ -1147,21 +1155,32 @@
     "achieved_at_approximate": false,
     "value_mhz": 190.43,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
+      "primary": "モセルVCT7 64MB",
+      "motherboard": "BH6 1.2",
+      "memory": "モセルVCT7 64MB",
+      "cooling": "Fridge"
     },
     "overclockers": [
       {
         "handle": "Juntake",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "Holicho WCPUID",
+        "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www1.ocn.ne.jp/~juntake/new/190mhz.htm",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "SDR"
@@ -1179,21 +1198,34 @@
     "achieved_at_approximate": false,
     "value_mhz": 210.05,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
+      "primary": "MT-7E 128MB",
+      "motherboard": "BH6v1.2+TurboPLL",
+      "memory": "MT-7E 128MB",
+      "cooling": "Subzero"
     },
     "overclockers": [
       {
-        "handle": "ほりっちょ Holicho",
+        "handle": "Holicho",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "ほりっちょ"
+        ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "Holicho WCPUID",
+        "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://holicho.lib.net/bench/my_wcpuid.htm",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "SDR"
@@ -1211,21 +1243,29 @@
     "achieved_at_approximate": false,
     "value_mhz": 211.98,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
+      "primary": "MT-7E 128MB",
+      "motherboard": "Abit BH-6 V1.2",
+      "memory": "MT-7E 128MB",
+      "cooling": "Liquid Nitrogen"
     },
     "overclockers": [
       {
-        "handle": "アンパンマン Tatumiya",
+        "handle": "Tatumiya",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "アンパンマン"
+        ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "Holicho WCPUID",
+        "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "SDR"
@@ -1275,21 +1315,29 @@
     "achieved_at_approximate": false,
     "value_mhz": 214.52,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
+      "primary": "MT-7E 128MB",
+      "motherboard": "BH6 Rev1.2",
+      "memory": "MT-7E 128MB",
       "cooling": null
     },
     "overclockers": [
       {
-        "handle": "モミゴン",
+        "handle": "Momigon",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "モミゴン"
+        ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "Holicho WCPUID",
+        "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "SDR"
@@ -1307,9 +1355,9 @@
     "achieved_at_approximate": false,
     "value_mhz": 215.85,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
+      "primary": "MT-7E 128MB",
+      "motherboard": "BH6 Rev1.2",
+      "memory": "MT-7E 128MB",
       "cooling": null
     },
     "overclockers": [
@@ -1321,7 +1369,18 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "Holicho WCPUID",
+        "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.ne.jp/asahi/overclock/kansai/",
+        "archived_url": null
+      }
+    ],
     "assets": [],
     "tags": [
       "SDR"
@@ -1403,17 +1462,17 @@
     "achieved_at_approximate": false,
     "value_mhz": 217.32,
     "hardware": {
-      "primary": "Unknown",
-      "motherboard": null,
-      "memory": null,
+      "primary": "ARC 128MB",
+      "motherboard": "BH6 V1.1+TurboPLL",
+      "memory": "ARC 128MB",
       "cooling": null
     },
     "overclockers": [
       {
-        "handle": "OptArc",
+        "handle": "Opt",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],

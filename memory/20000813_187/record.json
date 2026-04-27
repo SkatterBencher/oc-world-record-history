@@ -6,21 +6,29 @@
   "achieved_at_approximate": false,
   "value_mhz": 187.03,
   "hardware": {
-    "primary": "Unknown",
-    "motherboard": null,
+    "primary": "MT-7E 64MB",
+    "motherboard": "BX133-RAID",
     "memory": null,
-    "cooling": null
+    "cooling": "Air"
   },
   "overclockers": [
     {
-      "handle": "ほりっちょ Holicho",
+      "handle": "Holicho",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "ほりっちょ"
+      ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Holicho WCPUID",
+      "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "SDR"

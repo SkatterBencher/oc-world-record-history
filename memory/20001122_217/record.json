@@ -6,17 +6,17 @@
   "achieved_at_approximate": false,
   "value_mhz": 217.32,
   "hardware": {
-    "primary": "Unknown",
-    "motherboard": null,
-    "memory": null,
+    "primary": "ARC 128MB",
+    "motherboard": "BH6 V1.1+TurboPLL",
+    "memory": "ARC 128MB",
     "cooling": null
   },
   "overclockers": [
     {
-      "handle": "OptArc",
+      "handle": "Opt",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],

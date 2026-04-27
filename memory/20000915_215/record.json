@@ -6,9 +6,9 @@
   "achieved_at_approximate": false,
   "value_mhz": 215.85,
   "hardware": {
-    "primary": "Unknown",
-    "motherboard": null,
-    "memory": null,
+    "primary": "MT-7E 128MB",
+    "motherboard": "BH6 Rev1.2",
+    "memory": "MT-7E 128MB",
     "cooling": null
   },
   "overclockers": [
@@ -20,7 +20,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Holicho WCPUID",
+      "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://www.ne.jp/asahi/overclock/kansai/",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "SDR"

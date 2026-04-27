@@ -6,21 +6,29 @@
   "achieved_at_approximate": false,
   "value_mhz": 211.98,
   "hardware": {
-    "primary": "Unknown",
-    "motherboard": null,
-    "memory": null,
-    "cooling": null
+    "primary": "MT-7E 128MB",
+    "motherboard": "Abit BH-6 V1.2",
+    "memory": "MT-7E 128MB",
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {
-      "handle": "アンパンマン Tatumiya",
+      "handle": "Tatumiya",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "アンパンマン"
+      ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Holicho WCPUID",
+      "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "SDR"
