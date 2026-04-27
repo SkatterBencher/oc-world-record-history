@@ -11,6 +11,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "6703.png",
   "overclockers": [
     {
       "handle": "Saltycroissant",

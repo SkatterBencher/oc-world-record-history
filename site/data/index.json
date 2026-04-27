@@ -4813,7 +4813,7 @@
         "handle": "ThuG",
         "real_name": null,
         "aliases": [],
-        "country": "I",
+        "country": "IT",
         "profile_url": null
       }
     ],
@@ -4845,7 +4845,7 @@
         "handle": "ThuG",
         "real_name": null,
         "aliases": [],
-        "country": "I",
+        "country": "IT",
         "profile_url": null
       }
     ],
@@ -9763,6 +9763,7 @@
       "memory": null,
       "cooling": null
     },
+    "hero": "4005.jpg",
     "overclockers": [
       {
         "handle": "Splave",
@@ -9789,6 +9790,11 @@
         "file": "image_id_2947538[1].jpg",
         "type": "other",
         "caption": null
+      },
+      {
+        "file": "4005.jpg",
+        "type": "other",
+        "caption": null
       }
     ],
     "tags": [
@@ -9812,6 +9818,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "4020.jpg",
     "overclockers": [
       {
         "handle": "Splave",
@@ -9836,6 +9843,11 @@
       },
       {
         "file": "image_id_2947539.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4020.jpg",
         "type": "other",
         "caption": null
       }
@@ -11263,6 +11275,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "6703.png",
     "overclockers": [
       {
         "handle": "Saltycroissant",

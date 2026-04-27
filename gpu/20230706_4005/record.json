@@ -11,6 +11,7 @@
     "memory": null,
     "cooling": null
   },
+  "hero": "4005.jpg",
   "overclockers": [
     {
       "handle": "Splave",
@@ -35,6 +36,11 @@
     },
     {
       "file": "image_id_2947538[1].jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4005.jpg",
       "type": "other",
       "caption": null
     }

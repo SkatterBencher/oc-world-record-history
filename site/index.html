@@ -3,15 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OC World Record Museum</title>
-  <meta name="description" content="A curated history of CPU, GPU, and memory overclocking world records since 1996.">
+
+  <!-- SEO -->
+  <title id="page-title">OC World Record Museum — Overclocking History Since 1996</title>
+  <meta name="description" content="A curated archive of CPU, GPU, and memory overclocking world records since 1996. Explore the full history of frequency records with sources and validation.">
+  <meta name="author" content="SkatterBencher">
+  <link rel="canonical" href="https://museum.skatterbencher.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://museum.skatterbencher.com/">
+  <meta property="og:title"       content="OC World Record Museum">
+  <meta property="og:description" content="A curated archive of CPU, GPU, and memory overclocking world records since 1996.">
+  <meta property="og:image"       content="https://museum.skatterbencher.com/assets/og-image.png">
+  <meta property="og:site_name"   content="OC World Record Museum">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:site"        content="@SkatterBencher">
+  <meta name="twitter:title"       content="OC World Record Museum">
+  <meta name="twitter:description" content="A curated archive of CPU, GPU, and memory overclocking world records since 1996.">
+  <meta name="twitter:image"       content="https://museum.skatterbencher.com/assets/og-image.png">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "OC World Record Museum",
+    "url": "https://museum.skatterbencher.com",
+    "description": "A curated archive of CPU, GPU, and memory overclocking world records since 1996.",
+    "author": {
+      "@type": "Person",
+      "name": "SkatterBencher",
+      "url": "https://skatterbencher.com"
+    }
+  }
+  </script>
+
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
   <header>
-    <a class="logo" href="#cpu"><span class="logo-accent">Skatter</span>Bencher<span class="logo-sep">|</span>OC Museum</a>
+    <a class="logo" href="#home"><span class="logo-accent">Skatter</span>Bencher<span class="logo-sep">|</span>OC Museum</a>
     <nav>
+      <a href="#home"   data-page="home">Home</a>
       <a href="#cpu"    data-page="cpu">CPU</a>
       <a href="#gpu"    data-page="gpu">GPU</a>
       <a href="#memory" data-page="memory">Memory</a>
@@ -22,11 +59,45 @@
     </div>
   </header>
 
+  <!-- HOME PAGE -->
+  <div class="page" id="page-home">
+    <div class="home-content">
+
+      <div class="home-hero">
+        <div class="home-hero-inner">
+          <div class="home-kicker">Est. 1996 · Open Archive</div>
+          <h1 class="home-title">Overclocking<br>World Records</h1>
+          <p class="home-intro">
+            A curated, open archive of CPU, GPU, and memory frequency world records
+            dating back to 1996. Every entry is sourced, verified, and preserved for posterity.
+          </p>
+          <div class="home-ctas">
+            <a href="#cpu"    class="cta-btn cta-primary">CPU Records</a>
+            <a href="#gpu"    class="cta-btn">GPU Records</a>
+            <a href="#memory" class="cta-btn">Memory Records</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-records">
+        <h2 class="home-section-title">Current World Records</h2>
+        <div class="current-records-grid" id="current-records-grid">
+          <!-- populated by JS -->
+        </div>
+      </div>
+
+      <div class="home-stats" id="home-stats">
+        <!-- populated by JS -->
+      </div>
+
+    </div>
+  </div>
+
   <!-- TIMELINE PAGE -->
   <div class="page" id="page-timeline">
     <div class="timeline-layout">
 
-      <aside class="sidebar">
+      <aside class="sidebar" id="timeline-sidebar">
         <div class="sidebar-section">
           <div class="sidebar-label">Filter by Tag</div>
           <div class="tag-filter" id="sidebar-tags"></div>
@@ -65,11 +136,11 @@
       <h2>Contributing</h2>
       <p>
         Found an error or a missing record? Open an
-        <a href="https://github.com/skatterbencher/oc-world-record-history/issues" target="_blank" rel="noopener">
+        <a href="https://github.com/SkatterBencher/oc-world-record-history/issues" target="_blank" rel="noopener">
           GitHub Issue
         </a>
         to discuss it, or submit a Pull Request following the
-        <a href="https://github.com/skatterbencher/oc-world-record-history/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <a href="https://github.com/SkatterBencher/oc-world-record-history/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
           contributor guidelines
         </a>.
       </p>
@@ -86,7 +157,7 @@
     </div>
   </div>
 
-  <!-- DETAIL PANEL (global, outside page flow) -->
+  <!-- DETAIL PANEL -->
   <div class="detail-panel" id="detail-panel">
     <button class="panel-close" id="panel-close-btn" title="Close (Esc)">×</button>
     <div class="panel-inner" id="panel-content"></div>

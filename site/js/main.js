@@ -6,6 +6,14 @@ const CATEGORIES = {
   memory: { label: 'Memory', unit: 'MHz' },
 };
 
+const PAGE_TITLES = {
+  home:   'OC World Record Museum — Overclocking History Since 1996',
+  cpu:    'CPU Overclocking World Record History — OC Museum',
+  gpu:    'GPU Overclocking World Record History — OC Museum',
+  memory: 'Memory Overclocking World Record History — OC Museum',
+  about:  'About — OC World Record Museum',
+};
+
 let allRecords   = [];
 let currentCategory = 'cpu';
 let activeTags   = new Set();
@@ -28,7 +36,7 @@ async function init() {
 
 // ── ROUTING ───────────────────────────────────────────
 function routeFromHash() {
-  const hash  = location.hash.replace('#', '') || 'cpu';
+  const hash  = location.hash.replace('#', '') || 'home';
   const parts = hash.split('/');
   const page  = parts[0];
 
@@ -37,7 +45,13 @@ function routeFromHash() {
     a.classList.toggle('active', a.dataset.page === page)
   );
 
-  if (CATEGORIES[page]) {
+  // Update page title
+  document.title = PAGE_TITLES[page] || PAGE_TITLES.home;
+
+  if (page === 'home' || page === '') {
+    document.getElementById('page-home').classList.add('active');
+    renderHome();
+  } else if (CATEGORIES[page]) {
     currentCategory = page;
     activeTags.clear();
     closePanel();
@@ -127,11 +141,14 @@ function renderTimeline() {
           const ocs     = (r.overclockers || []).map(o => o.handle).join(' & ');
           const dateStr = formatDate(r.achieved_at, r.achieved_at_approximate);
 
+          const flags = (r.overclockers || [])
+            .map(o => getFlagEmoji(o.country)).filter(Boolean).join('');
           row.innerHTML = `
             <div class="rec-date">${dateStr}</div>
             <div class="rec-freq">${r.value_mhz.toFixed(2)}<span class="unit">MHz</span></div>
             <div class="rec-cpu">${primary}</div>
             <div class="rec-oc">${ocs}</div>
+            <div class="rec-flag">${flags}</div>
           `;
           row.addEventListener('click', () => {
             location.hash = `${currentCategory}/${r.uid}`;
