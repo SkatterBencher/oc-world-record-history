@@ -12,6 +12,7 @@ import json
 import os
 import shutil
 import sys
+from itertools import groupby
 from pathlib import Path
 try:
     from PIL import Image as PILImage
@@ -27,6 +28,53 @@ ASSET_DIR  = ROOT / "site" / "assets"
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+# ── GENUINE RECORD FILTER ─────────────────────────────
+def filter_genuine_records(records):
+    """
+    For a list of records from one category (sorted chronologically),
+    return only those that were genuine world records at the time.
+
+    Rules:
+    - A record is genuine if its value_mhz beats the peak going into that day
+    - Same-day records are all kept if any of them beat the incoming peak
+      (intra-day order is confirmed by validation timestamps we don't store)
+    - Records with not_a_record: true are always excluded (manual override)
+    """
+    genuine = []
+    excluded = []
+    peak = 0
+
+    sorted_records = sorted(records, key=lambda r: (r["achieved_at"], -r["value_mhz"]))
+
+    for date, day_iter in groupby(sorted_records, key=lambda r: r["achieved_at"]):
+        day_records = list(day_iter)
+
+        for r in day_records:
+            # Manual override always wins
+            if r.get("not_a_record"):
+                r["_excluded_reason"] = "manual: not_a_record flag set"
+                excluded.append(r)
+                continue
+
+            if r["value_mhz"] > peak:
+                r.pop("_excluded_reason", None)
+                genuine.append(r)
+            else:
+                r["_excluded_reason"] = (
+                    f"computed: {r['value_mhz']} MHz did not beat peak of {peak} MHz"
+                    f" going into {date}"
+                )
+                excluded.append(r)
+
+        # Update peak to highest genuine record set on this day
+        day_peak = max(
+            (r["value_mhz"] for r in day_records if r in genuine),
+            default=peak
+        )
+        peak = max(peak, day_peak)
+
+    return genuine, excluded
 
 # ── IMAGE PROCESSING ──────────────────────────────────
 MAX_WIDTH    = 1200   # px — wider images get scaled down
@@ -170,8 +218,34 @@ if errors:
         print(f"  {e}")
     sys.exit(1)
 
+# Apply genuine record filter per category
+all_excluded = []
+filtered_records = []
+for cat in CATEGORIES:
+    cat_records = [r for r in records if r["category"] == cat]
+    genuine, excluded = filter_genuine_records(cat_records)
+    filtered_records.extend(genuine)
+    all_excluded.extend(excluded)
+
+records = filtered_records
+
 # Sort by date ascending, then by value descending (highest freq first on same day)
 records.sort(key=lambda r: (r["achieved_at"], -r["value_mhz"]))
+
+# Write excluded report for auditing
+excluded_report = []
+for r in sorted(all_excluded, key=lambda r: (r["category"], r["achieved_at"])):
+    excluded_report.append({
+        "uid":      r["uid"],
+        "category": r["category"],
+        "date":     r["achieved_at"],
+        "mhz":      r["value_mhz"],
+        "hardware": r.get("hardware", {}).get("primary", "Unknown"),
+        "reason":   r.get("_excluded_reason", "unknown"),
+    })
+
+with open(OUTPUT_DIR / "excluded.json", "w", encoding="utf-8") as f:
+    json.dump(excluded_report, f, indent=2, ensure_ascii=False)
 
 # Write outputs
 with open(OUTPUT_DIR / "index.json", "w", encoding="utf-8") as f:
@@ -194,7 +268,8 @@ sitemap_lines = '\n'.join(sitemap_urls)
 sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sitemap_lines + '\n</urlset>'
 with open(ROOT / "site" / "sitemap.xml", "w", encoding="utf-8") as f:
     f.write(sitemap_xml)
-print(f"Built {len(records)} records across {len(CATEGORIES)} categories")
+print(f"Built {len(records)} genuine records across {len(CATEGORIES)} categories")
+print(f"Excluded {len(all_excluded)} non-records (see site/data/excluded.json)")
 print(f"Tags found: {sorted(tag_index.keys())}")
 print(f"Assets copied: {assets_copied}, auto-synced to records: {assets_synced}")
 print(f"Output: {OUTPUT_DIR}")

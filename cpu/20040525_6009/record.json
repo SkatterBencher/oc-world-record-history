@@ -7,10 +7,11 @@
   "value_mhz": 6009.8,
   "hardware": {
     "primary": "Intel Pentium 4 560",
-    "motherboard": null,
+    "motherboard": "Asus P5P800",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "36e_6009_cpuz_s.gif",
   "overclockers": [
     {
       "handle": "Macci",
@@ -23,12 +24,59 @@
       "handle": "The Stilt",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "FI",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?t=42655",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://www.akiba-pc.com/print.php?news.26",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "36e_6009_cpuz.gif",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "36e_6009_cpuz_s.gif",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "6009_blog.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6009_xtremesystems.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "775_ln2_4.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "775_ln2_5.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "775_ln2_7_s.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

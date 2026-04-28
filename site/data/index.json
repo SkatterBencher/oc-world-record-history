@@ -2654,38 +2654,6 @@
     "_asset_base": "assets/cpu/20020901_4418/"
   },
   {
-    "uid": "20020901_4130",
-    "category": "cpu",
-    "subcategory": null,
-    "achieved_at": "2002-09-01",
-    "achieved_at_approximate": false,
-    "value_mhz": 4130.39,
-    "hardware": {
-      "primary": "Intel Pentium 4 2.4 GHz",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "overclockers": [
-      {
-        "handle": "Holicho",
-        "real_name": null,
-        "aliases": [],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020901_4130/"
-  },
-  {
     "uid": "20020911_479",
     "category": "gpu",
     "subcategory": "DGPU",
@@ -3766,10 +3734,11 @@
     "value_mhz": 6009.8,
     "hardware": {
       "primary": "Intel Pentium 4 560",
-      "motherboard": null,
+      "motherboard": "Asus P5P800",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "36e_6009_cpuz_s.gif",
     "overclockers": [
       {
         "handle": "Macci",
@@ -3782,12 +3751,59 @@
         "handle": "The Stilt",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "XtremeSystems",
+        "url": "http://www.xtremesystems.org/forums/showthread.php?t=42655",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.akiba-pc.com/print.php?news.26",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "36e_6009_cpuz.gif",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "36e_6009_cpuz_s.gif",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "6009_blog.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6009_xtremesystems.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "775_ln2_4.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "775_ln2_5.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "775_ln2_7_s.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3795,38 +3811,6 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20040525_6009/"
-  },
-  {
-    "uid": "20040622_5574",
-    "category": "cpu",
-    "subcategory": null,
-    "achieved_at": "2004-06-22",
-    "achieved_at_approximate": false,
-    "value_mhz": 5574.9,
-    "hardware": {
-      "primary": "Intel Pentium 4 2.8 GHz",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "overclockers": [
-      {
-        "handle": "Memesama",
-        "real_name": null,
-        "aliases": [],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20040622_5574/"
   },
   {
     "uid": "20040727_347",
@@ -4159,10 +4143,11 @@
     "value_mhz": 6042.5,
     "hardware": {
       "primary": "Intel Pentium 4 560",
-      "motherboard": null,
+      "motherboard": "ASUS P5P800",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
     "overclockers": [
       {
         "handle": "Memesama",
@@ -4173,7 +4158,13 @@
       }
     ],
     "sources": [],
-    "assets": [],
+    "assets": [
+      {
+        "file": "clock6042.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -4188,13 +4179,14 @@
     "subcategory": null,
     "achieved_at": "2004-10-28",
     "achieved_at_approximate": false,
-    "value_mhz": 6114.0,
+    "value_mhz": 6114,
     "hardware": {
       "primary": "Intel Pentium 4 560",
-      "motherboard": null,
+      "motherboard": "ASUS P5P800",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
     "overclockers": [
       {
         "handle": "Memesama",
@@ -4204,8 +4196,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Coolaler",
+        "url": "https://www.coolaler.com/forums/threads/jp-memesama-pentium4-560-6-1ghz.67024/",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://members.jcom.home.ne.jp/3233730401/newpage4.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "6114_coolaler.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -4860,10 +4869,11 @@
     "value_mhz": 7323.7,
     "hardware": {
       "primary": "Intel Pentium 4 670",
-      "motherboard": null,
+      "motherboard": "ASUS P5WD2 Premium",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
     "overclockers": [
       {
         "handle": "Memesama",
@@ -4873,8 +4883,20 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Blog",
+        "url": "http://blue.ap.teacup.com/memesama3939/79.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "7323_blog.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],

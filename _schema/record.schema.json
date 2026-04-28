@@ -200,6 +200,13 @@
         "null"
       ],
       "description": "Filename of the hero image shown in the detail panel"
+    },
+    "not_a_record": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Set to true to manually exclude this entry from the timeline. Add explanation in notes."
     }
   },
   "additionalProperties": false

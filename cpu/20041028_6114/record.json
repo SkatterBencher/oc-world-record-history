@@ -4,13 +4,14 @@
   "subcategory": null,
   "achieved_at": "2004-10-28",
   "achieved_at_approximate": false,
-  "value_mhz": 6114.0,
+  "value_mhz": 6114,
   "hardware": {
     "primary": "Intel Pentium 4 560",
-    "motherboard": null,
+    "motherboard": "ASUS P5P800",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
   "overclockers": [
     {
       "handle": "Memesama",
@@ -20,8 +21,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Coolaler",
+      "url": "https://www.coolaler.com/forums/threads/jp-memesama-pentium4-560-6-1ghz.67024/",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://members.jcom.home.ne.jp/3233730401/newpage4.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "6114_coolaler.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

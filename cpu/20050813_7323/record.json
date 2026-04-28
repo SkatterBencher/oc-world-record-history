@@ -7,10 +7,11 @@
   "value_mhz": 7323.7,
   "hardware": {
     "primary": "Intel Pentium 4 670",
-    "motherboard": null,
+    "motherboard": "ASUS P5WD2 Premium",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
   "overclockers": [
     {
       "handle": "Memesama",
@@ -20,8 +21,20 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://blue.ap.teacup.com/memesama3939/79.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "7323_blog.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

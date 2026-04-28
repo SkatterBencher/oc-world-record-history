@@ -688,6 +688,8 @@ function renderEditor() {
         <label for="f-approximate">Date is approximate</label>
         <input type="checkbox" id="f-verified" ${r.verified?'checked':''} style="margin-left:16px">
         <label for="f-verified">Verified</label>
+        <input type="checkbox" id="f-not-a-record" ${r.not_a_record?'checked':''} style="margin-left:16px">
+        <label for="f-not-a-record" style="color:var(--red)">Not a record</label>
       </div>
     </div>
 
@@ -922,6 +924,7 @@ function buildRecord() {
       cooling: document.getElementById('f-cooling').value || null,
     },
     hero: document.getElementById('f-hero')?.value || null,
+    not_a_record: document.getElementById('f-not-a-record')?.checked || null,
     overclockers,
     sources,
     assets: r.assets || [],
