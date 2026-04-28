@@ -1,5 +1,6 @@
 {
   "uid": "20121119_8794",
+  "_old_uid": "20121119_8794",
   "category": "cpu",
   "subcategory": null,
   "achieved_at": "2012-11-19",
@@ -11,6 +12,8 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "AndreYang",
@@ -22,7 +25,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "AMD"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

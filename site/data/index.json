@@ -29,7 +29,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19960801_233/"
+    "_asset_base": "assets/cpu/19960801_233/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19961118_266",
@@ -61,7 +65,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19961118_266/"
+    "_asset_base": "assets/cpu/19961118_266/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19971101_337",
@@ -93,7 +101,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19971101_337/"
+    "_asset_base": "assets/cpu/19971101_337/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19971117_375",
@@ -125,7 +137,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19971117_375/"
+    "_asset_base": "assets/cpu/19971117_375/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "19971205_400",
@@ -157,7 +173,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19971205_400/"
+    "_asset_base": "assets/cpu/19971205_400/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19980111_416",
@@ -189,7 +209,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980111_416/"
+    "_asset_base": "assets/cpu/19980111_416/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19980119_118",
@@ -221,7 +245,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19980119_118/"
+    "_asset_base": "assets/gpu/19980119_118/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Rendition"
+    ]
   },
   {
     "uid": "19980301_530",
@@ -253,7 +281,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980301_530/"
+    "_asset_base": "assets/cpu/19980301_530/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19980401_590",
@@ -283,7 +315,9 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980401_590/"
+    "_asset_base": "assets/cpu/19980401_590/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "19980701_610",
@@ -313,7 +347,9 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980701_610/"
+    "_asset_base": "assets/cpu/19980701_610/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "19980801_661",
@@ -345,7 +381,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980801_661/"
+    "_asset_base": "assets/cpu/19980801_661/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19980912_675",
@@ -375,7 +415,9 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980912_675/"
+    "_asset_base": "assets/cpu/19980912_675/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "19980913_135",
@@ -407,7 +449,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19980913_135/"
+    "_asset_base": "assets/gpu/19980913_135/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "19981007_698",
@@ -439,7 +485,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981007_698/"
+    "_asset_base": "assets/cpu/19981007_698/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19981109_715",
@@ -473,7 +523,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981109_715/"
+    "_asset_base": "assets/cpu/19981109_715/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19981121_716",
@@ -505,7 +559,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981121_716/"
+    "_asset_base": "assets/cpu/19981121_716/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19981213_724",
@@ -539,7 +597,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981213_724/"
+    "_asset_base": "assets/cpu/19981213_724/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19981230_743",
@@ -573,7 +635,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981230_743/"
+    "_asset_base": "assets/cpu/19981230_743/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19990110_759",
@@ -607,7 +673,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990110_759/"
+    "_asset_base": "assets/cpu/19990110_759/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19990217_808",
@@ -639,7 +709,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990217_808/"
+    "_asset_base": "assets/cpu/19990217_808/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19990220_811",
@@ -673,7 +747,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990220_811/"
+    "_asset_base": "assets/cpu/19990220_811/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19990306_822",
@@ -707,7 +785,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990306_822/"
+    "_asset_base": "assets/cpu/19990306_822/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19990321_849",
@@ -739,7 +821,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990321_849/"
+    "_asset_base": "assets/cpu/19990321_849/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19990421_175",
@@ -771,7 +857,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19990421_175/"
+    "_asset_base": "assets/gpu/19990421_175/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "3DFX"
+    ]
   },
   {
     "uid": "19990619_921",
@@ -805,7 +895,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990619_921/"
+    "_asset_base": "assets/cpu/19990619_921/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19991007_1082",
@@ -839,7 +933,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991007_1082/"
+    "_asset_base": "assets/cpu/19991007_1082/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "19991101_1151",
@@ -873,7 +971,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991101_1151/"
+    "_asset_base": "assets/cpu/19991101_1151/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "19991112_195",
@@ -905,7 +1007,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19991112_195/"
+    "_asset_base": "assets/gpu/19991112_195/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "19991116_1238",
@@ -939,7 +1045,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991116_1238/"
+    "_asset_base": "assets/cpu/19991116_1238/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19991121_1264",
@@ -973,7 +1083,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991121_1264/"
+    "_asset_base": "assets/cpu/19991121_1264/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "19991228_1286",
@@ -1005,7 +1119,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991228_1286/"
+    "_asset_base": "assets/cpu/19991228_1286/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20000402_1370",
@@ -1037,7 +1155,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000402_1370/"
+    "_asset_base": "assets/cpu/20000402_1370/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20000409_1500",
@@ -1071,7 +1193,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000409_1500/"
+    "_asset_base": "assets/cpu/20000409_1500/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20000413_1522",
@@ -1105,7 +1231,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000413_1522/"
+    "_asset_base": "assets/cpu/20000413_1522/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20000813_187",
@@ -1151,7 +1281,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000813_187/"
+    "_asset_base": "assets/memory/20000813_187/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20000814_190",
@@ -1200,7 +1334,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000814_190/"
+    "_asset_base": "assets/memory/20000814_190/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20000819_210",
@@ -1262,7 +1400,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000819_210/"
+    "_asset_base": "assets/memory/20000819_210/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20000828_211",
@@ -1314,7 +1456,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000828_211/"
+    "_asset_base": "assets/memory/20000828_211/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20000903_1612",
@@ -1346,7 +1492,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000903_1612/"
+    "_asset_base": "assets/cpu/20000903_1612/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20000914_214",
@@ -1392,7 +1542,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000914_214/"
+    "_asset_base": "assets/memory/20000914_214/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20000915_215",
@@ -1447,7 +1601,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000915_215/"
+    "_asset_base": "assets/memory/20000915_215/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20001105_1613",
@@ -1479,7 +1637,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001105_1613/"
+    "_asset_base": "assets/cpu/20001105_1613/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20001114_216",
@@ -1512,7 +1674,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20001114_216/"
+    "_asset_base": "assets/memory/20001114_216/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20001122_217",
@@ -1556,7 +1722,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20001122_217/"
+    "_asset_base": "assets/memory/20001122_217/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "SDR"
+    ]
   },
   {
     "uid": "20001201_1653",
@@ -1588,7 +1758,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001201_1653/"
+    "_asset_base": "assets/cpu/20001201_1653/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20001203_2144",
@@ -1622,7 +1796,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001203_2144/"
+    "_asset_base": "assets/cpu/20001203_2144/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20001213_2205",
@@ -1656,7 +1834,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001213_2205/"
+    "_asset_base": "assets/cpu/20001213_2205/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20010308_2250",
@@ -1688,7 +1870,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010308_2250/"
+    "_asset_base": "assets/cpu/20010308_2250/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20010315_2600",
@@ -1720,7 +1906,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010315_2600/"
+    "_asset_base": "assets/cpu/20010315_2600/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20010329_2804",
@@ -1752,7 +1942,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010329_2804/"
+    "_asset_base": "assets/cpu/20010329_2804/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20010402_2864",
@@ -1784,7 +1978,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010402_2864/"
+    "_asset_base": "assets/cpu/20010402_2864/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20010528_256",
@@ -1816,7 +2014,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20010528_256/"
+    "_asset_base": "assets/gpu/20010528_256/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20010905_3023",
@@ -1848,7 +2050,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010905_3023/"
+    "_asset_base": "assets/cpu/20010905_3023/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20011009_3027",
@@ -1880,7 +2086,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20011009_3027/"
+    "_asset_base": "assets/cpu/20011009_3027/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20011107_3391",
@@ -1912,7 +2122,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20011107_3391/"
+    "_asset_base": "assets/cpu/20011107_3391/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20011123_305",
@@ -1944,7 +2158,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20011123_305/"
+    "_asset_base": "assets/gpu/20011123_305/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20020109_3541",
@@ -1976,7 +2194,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020109_3541/"
+    "_asset_base": "assets/cpu/20020109_3541/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020117_3674",
@@ -2008,7 +2230,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020117_3674/"
+    "_asset_base": "assets/cpu/20020117_3674/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020119_3702",
@@ -2040,7 +2266,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020119_3702/"
+    "_asset_base": "assets/cpu/20020119_3702/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020123_3808",
@@ -2072,7 +2302,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020123_3808/"
+    "_asset_base": "assets/cpu/20020123_3808/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020322_3890",
@@ -2104,7 +2338,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020322_3890/"
+    "_asset_base": "assets/cpu/20020322_3890/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020327_4010",
@@ -2136,7 +2374,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020327_4010/"
+    "_asset_base": "assets/cpu/20020327_4010/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020407_365",
@@ -2168,7 +2410,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020407_365/"
+    "_asset_base": "assets/gpu/20020407_365/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20020414_4110",
@@ -2200,7 +2446,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020414_4110/"
+    "_asset_base": "assets/cpu/20020414_4110/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020506_378",
@@ -2232,7 +2482,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020506_378/"
+    "_asset_base": "assets/gpu/20020506_378/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20020530_235",
@@ -2282,7 +2536,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020530_235/"
+    "_asset_base": "assets/memory/20020530_235/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20020605_391",
@@ -2314,7 +2572,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020605_391/"
+    "_asset_base": "assets/gpu/20020605_391/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20020623_240",
@@ -2364,7 +2626,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020623_240/"
+    "_asset_base": "assets/memory/20020623_240/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20020629_405",
@@ -2396,7 +2662,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020629_405/"
+    "_asset_base": "assets/gpu/20020629_405/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20020629_257",
@@ -2441,7 +2711,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020629_257/"
+    "_asset_base": "assets/memory/20020629_257/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20020710_4244",
@@ -2473,7 +2747,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020710_4244/"
+    "_asset_base": "assets/cpu/20020710_4244/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020719_258",
@@ -2523,7 +2801,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020719_258/"
+    "_asset_base": "assets/memory/20020719_258/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20020720_409",
@@ -2555,7 +2837,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020720_409/"
+    "_asset_base": "assets/gpu/20020720_409/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20020819_4309",
@@ -2587,7 +2873,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020819_4309/"
+    "_asset_base": "assets/cpu/20020819_4309/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020829_4339",
@@ -2619,7 +2909,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020829_4339/"
+    "_asset_base": "assets/cpu/20020829_4339/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020901_4418",
@@ -2651,7 +2945,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020901_4418/"
+    "_asset_base": "assets/cpu/20020901_4418/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020911_479",
@@ -2683,7 +2981,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020911_479/"
+    "_asset_base": "assets/gpu/20020911_479/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20020915_4424",
@@ -2715,7 +3017,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020915_4424/"
+    "_asset_base": "assets/cpu/20020915_4424/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20020927_508",
@@ -2747,7 +3053,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020927_508/"
+    "_asset_base": "assets/gpu/20020927_508/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20021027_285",
@@ -2799,7 +3109,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20021027_285/"
+    "_asset_base": "assets/memory/20021027_285/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20021103_286",
@@ -2849,7 +3163,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20021103_286/"
+    "_asset_base": "assets/memory/20021103_286/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20021117_4438",
@@ -2881,7 +3199,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20021117_4438/"
+    "_asset_base": "assets/cpu/20021117_4438/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20021201_4456",
@@ -2913,7 +3235,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20021201_4456/"
+    "_asset_base": "assets/cpu/20021201_4456/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20021208_4588",
@@ -2945,7 +3271,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20021208_4588/"
+    "_asset_base": "assets/cpu/20021208_4588/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20030204_513",
@@ -2977,7 +3307,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030204_513/"
+    "_asset_base": "assets/gpu/20030204_513/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20030214_4599",
@@ -3009,7 +3343,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030214_4599/"
+    "_asset_base": "assets/cpu/20030214_4599/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20030223_4623",
@@ -3041,7 +3379,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030223_4623/"
+    "_asset_base": "assets/cpu/20030223_4623/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20030510_540",
@@ -3073,7 +3415,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030510_540/"
+    "_asset_base": "assets/gpu/20030510_540/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20030511_558",
@@ -3105,7 +3451,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030511_558/"
+    "_asset_base": "assets/gpu/20030511_558/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20030511_291",
@@ -3155,7 +3505,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20030511_291/"
+    "_asset_base": "assets/memory/20030511_291/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20030524_4762",
@@ -3187,7 +3541,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030524_4762/"
+    "_asset_base": "assets/cpu/20030524_4762/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20030530_567",
@@ -3219,7 +3577,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030530_567/"
+    "_asset_base": "assets/gpu/20030530_567/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20030611_594",
@@ -3251,7 +3613,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030611_594/"
+    "_asset_base": "assets/gpu/20030611_594/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20030629_4872",
@@ -3283,7 +3649,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030629_4872/"
+    "_asset_base": "assets/cpu/20030629_4872/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20030701_296",
@@ -3335,7 +3705,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20030701_296/"
+    "_asset_base": "assets/memory/20030701_296/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20030703_5125",
@@ -3367,7 +3741,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030703_5125/"
+    "_asset_base": "assets/cpu/20030703_5125/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20030708_689",
@@ -3399,7 +3777,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030708_689/"
+    "_asset_base": "assets/gpu/20030708_689/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20030712_314",
@@ -3449,7 +3831,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20030712_314/"
+    "_asset_base": "assets/memory/20030712_314/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20030911_702",
@@ -3481,7 +3867,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030911_702/"
+    "_asset_base": "assets/gpu/20030911_702/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20031025_711",
@@ -3513,7 +3903,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20031025_711/"
+    "_asset_base": "assets/gpu/20031025_711/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20031202_5154",
@@ -3545,7 +3939,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20031202_5154/"
+    "_asset_base": "assets/cpu/20031202_5154/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20031230_5255",
@@ -3577,7 +3975,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20031230_5255/"
+    "_asset_base": "assets/cpu/20031230_5255/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20040102_5326",
@@ -3609,7 +4011,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20040102_5326/"
+    "_asset_base": "assets/cpu/20040102_5326/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20040412_325",
@@ -3659,7 +4065,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040412_325/"
+    "_asset_base": "assets/memory/20040412_325/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20040507_715",
@@ -3691,7 +4101,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20040507_715/"
+    "_asset_base": "assets/gpu/20040507_715/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20040509_5387",
@@ -3723,7 +4137,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20040509_5387/"
+    "_asset_base": "assets/cpu/20040509_5387/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20040525_6009",
@@ -3810,7 +4228,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20040525_6009/"
+    "_asset_base": "assets/cpu/20040525_6009/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20040727_347",
@@ -3860,7 +4282,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040727_347/"
+    "_asset_base": "assets/memory/20040727_347/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20040728_349",
@@ -3920,7 +4346,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040728_349/"
+    "_asset_base": "assets/memory/20040728_349/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20040729_359",
@@ -3970,7 +4400,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040729_359/"
+    "_asset_base": "assets/memory/20040729_359/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20040731_366",
@@ -4018,7 +4452,9 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040731_366/"
+    "_asset_base": "assets/memory/20040731_366/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "20040915_807",
@@ -4050,7 +4486,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20040915_807/"
+    "_asset_base": "assets/gpu/20040915_807/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20040922_368",
@@ -4100,7 +4540,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040922_368/"
+    "_asset_base": "assets/memory/20040922_368/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20041001_810",
@@ -4132,7 +4576,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20041001_810/"
+    "_asset_base": "assets/gpu/20041001_810/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20041016_6042",
@@ -4171,7 +4619,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041016_6042/"
+    "_asset_base": "assets/cpu/20041016_6042/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20041028_6114",
@@ -4221,7 +4673,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041028_6114/"
+    "_asset_base": "assets/cpu/20041028_6114/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20041031_376",
@@ -4269,7 +4725,9 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041031_376/"
+    "_asset_base": "assets/memory/20041031_376/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "20041101_6302",
@@ -4301,7 +4759,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041101_6302/"
+    "_asset_base": "assets/cpu/20041101_6302/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20041101_6212",
@@ -4333,7 +4795,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041101_6212/"
+    "_asset_base": "assets/cpu/20041101_6212/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20041105_380",
@@ -4376,7 +4842,9 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041105_380/"
+    "_asset_base": "assets/memory/20041105_380/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "20041106_410",
@@ -4424,7 +4892,9 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041106_410/"
+    "_asset_base": "assets/memory/20041106_410/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "20041107_417",
@@ -4484,7 +4954,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041107_417/"
+    "_asset_base": "assets/memory/20041107_417/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20041117_430",
@@ -4534,7 +5008,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041117_430/"
+    "_asset_base": "assets/memory/20041117_430/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20041118_824",
@@ -4566,7 +5044,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20041118_824/"
+    "_asset_base": "assets/gpu/20041118_824/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20041129_6315",
@@ -4598,7 +5080,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041129_6315/"
+    "_asset_base": "assets/cpu/20041129_6315/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20041202_449",
@@ -4648,7 +5134,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041202_449/"
+    "_asset_base": "assets/memory/20041202_449/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20050111_614",
@@ -4698,7 +5188,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20050111_614/"
+    "_asset_base": "assets/memory/20050111_614/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20050118_6495",
@@ -4730,7 +5224,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050118_6495/"
+    "_asset_base": "assets/cpu/20050118_6495/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20050603_860",
@@ -4762,7 +5260,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20050603_860/"
+    "_asset_base": "assets/gpu/20050603_860/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20050607_6578",
@@ -4794,7 +5296,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050607_6578/"
+    "_asset_base": "assets/cpu/20050607_6578/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20050729_6925",
@@ -4826,7 +5332,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050729_6925/"
+    "_asset_base": "assets/cpu/20050729_6925/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20050809_7133",
@@ -4858,7 +5368,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050809_7133/"
+    "_asset_base": "assets/cpu/20050809_7133/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20050813_7323",
@@ -4903,7 +5417,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050813_7323/"
+    "_asset_base": "assets/cpu/20050813_7323/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20050916_7418",
@@ -4935,7 +5453,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050916_7418/"
+    "_asset_base": "assets/cpu/20050916_7418/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20051011_878",
@@ -4967,7 +5489,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20051011_878/"
+    "_asset_base": "assets/gpu/20051011_878/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20051017_1006",
@@ -4999,7 +5525,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20051017_1006/"
+    "_asset_base": "assets/gpu/20051017_1006/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20051113_7473",
@@ -5031,7 +5561,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051113_7473/"
+    "_asset_base": "assets/cpu/20051113_7473/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20051213_7608",
@@ -5063,7 +5597,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051213_7608/"
+    "_asset_base": "assets/cpu/20051213_7608/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20051213_7532",
@@ -5095,7 +5633,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051213_7532/"
+    "_asset_base": "assets/cpu/20051213_7532/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20051228_7625",
@@ -5127,7 +5669,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051228_7625/"
+    "_asset_base": "assets/cpu/20051228_7625/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20051229_7638",
@@ -5159,7 +5705,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051229_7638/"
+    "_asset_base": "assets/cpu/20051229_7638/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20060122_626",
@@ -5191,7 +5741,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060122_626/"
+    "_asset_base": "assets/memory/20060122_626/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20060206_7657",
@@ -5223,7 +5777,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20060206_7657/"
+    "_asset_base": "assets/cpu/20060206_7657/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20060507_628",
@@ -5273,7 +5831,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060507_628/"
+    "_asset_base": "assets/memory/20060507_628/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20060518_645",
@@ -5318,7 +5880,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060518_645/"
+    "_asset_base": "assets/memory/20060518_645/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20060611_1045",
@@ -5350,7 +5916,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20060611_1045/"
+    "_asset_base": "assets/gpu/20060611_1045/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20060908_697",
@@ -5397,7 +5967,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060908_697/"
+    "_asset_base": "assets/memory/20060908_697/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20070102_716",
@@ -5457,7 +6031,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070102_716/"
+    "_asset_base": "assets/memory/20070102_716/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20070121_7791",
@@ -5489,7 +6067,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070121_7791/"
+    "_asset_base": "assets/cpu/20070121_7791/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20070122_8000",
@@ -5521,7 +6103,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070122_8000/"
+    "_asset_base": "assets/cpu/20070122_8000/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20070330_8179",
@@ -5553,7 +6139,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070330_8179/"
+    "_asset_base": "assets/cpu/20070330_8179/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20070506_1048",
@@ -5585,7 +6175,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070506_1048/"
+    "_asset_base": "assets/gpu/20070506_1048/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20070531_1140",
@@ -5617,7 +6211,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070531_1140/"
+    "_asset_base": "assets/memory/20070531_1140/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20070601_1144",
@@ -5649,7 +6247,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070601_1144/"
+    "_asset_base": "assets/memory/20070601_1144/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20070604_1146",
@@ -5681,7 +6283,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070604_1146/"
+    "_asset_base": "assets/memory/20070604_1146/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20070605_1120",
@@ -5713,7 +6319,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070605_1120/"
+    "_asset_base": "assets/gpu/20070605_1120/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ATI"
+    ]
   },
   {
     "uid": "20070630_1168",
@@ -5745,7 +6355,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070630_1168/"
+    "_asset_base": "assets/gpu/20070630_1168/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVIDIA"
+    ]
   },
   {
     "uid": "20070702_1150",
@@ -5777,7 +6391,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070702_1150/"
+    "_asset_base": "assets/memory/20070702_1150/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20070718_1156",
@@ -5809,7 +6427,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070718_1156/"
+    "_asset_base": "assets/memory/20070718_1156/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20070720_8220",
@@ -5841,7 +6463,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070720_8220/"
+    "_asset_base": "assets/cpu/20070720_8220/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20070720_8180",
@@ -5873,7 +6499,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070720_8180/"
+    "_asset_base": "assets/cpu/20070720_8180/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20070928_1304",
@@ -5905,7 +6535,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070928_1304/"
+    "_asset_base": "assets/memory/20070928_1304/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20070928_1178",
@@ -5937,7 +6571,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070928_1178/"
+    "_asset_base": "assets/memory/20070928_1178/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20071208_1180",
@@ -5969,7 +6607,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20071208_1180/"
+    "_asset_base": "assets/gpu/20071208_1180/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20071230_1193",
@@ -6001,7 +6643,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20071230_1193/"
+    "_asset_base": "assets/gpu/20071230_1193/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20080120_1360",
@@ -6033,7 +6679,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20080120_1360/"
+    "_asset_base": "assets/gpu/20080120_1360/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20081005_1341",
@@ -6065,7 +6715,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081005_1341/"
+    "_asset_base": "assets/memory/20081005_1341/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20081219_1346",
@@ -6097,7 +6751,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081219_1346/"
+    "_asset_base": "assets/memory/20081219_1346/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20090209_1352",
@@ -6129,7 +6787,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20090209_1352/"
+    "_asset_base": "assets/memory/20090209_1352/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20091129_1380",
@@ -6161,7 +6823,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20091129_1380/"
+    "_asset_base": "assets/gpu/20091129_1380/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20091219_1400",
@@ -6193,7 +6859,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20091219_1400/"
+    "_asset_base": "assets/gpu/20091219_1400/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20100112_1420",
@@ -6225,7 +6895,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100112_1420/"
+    "_asset_base": "assets/gpu/20100112_1420/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20100112_1410",
@@ -6257,7 +6931,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100112_1410/"
+    "_asset_base": "assets/gpu/20100112_1410/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20100220_1450",
@@ -6289,7 +6967,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100220_1450/"
+    "_asset_base": "assets/gpu/20100220_1450/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20100311_1485",
@@ -6321,7 +7003,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100311_1485/"
+    "_asset_base": "assets/gpu/20100311_1485/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20100411_1525",
@@ -6360,7 +7046,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100411_1525/"
+    "_asset_base": "assets/gpu/20100411_1525/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20100821_1534",
@@ -6392,7 +7082,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100821_1534/"
+    "_asset_base": "assets/memory/20100821_1534/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20100903_1539",
@@ -6424,7 +7118,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100903_1539/"
+    "_asset_base": "assets/memory/20100903_1539/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20100923_8242",
@@ -6456,7 +7154,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20100923_8242/"
+    "_asset_base": "assets/cpu/20100923_8242/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20100928_1553",
@@ -6488,7 +7190,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100928_1553/"
+    "_asset_base": "assets/memory/20100928_1553/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20110103_1700",
@@ -6520,7 +7226,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110103_1700/"
+    "_asset_base": "assets/gpu/20110103_1700/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110106_1950",
@@ -6552,7 +7262,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110106_1950/"
+    "_asset_base": "assets/gpu/20110106_1950/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110113_2000",
@@ -6584,7 +7298,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110113_2000/"
+    "_asset_base": "assets/gpu/20110113_2000/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110115_2170",
@@ -6616,7 +7334,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110115_2170/"
+    "_asset_base": "assets/gpu/20110115_2170/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110116_2234",
@@ -6648,7 +7370,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110116_2234/"
+    "_asset_base": "assets/gpu/20110116_2234/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110228_1575",
@@ -6680,7 +7406,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110228_1575/"
+    "_asset_base": "assets/memory/20110228_1575/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20110319_1577",
@@ -6712,7 +7442,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110319_1577/"
+    "_asset_base": "assets/memory/20110319_1577/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20110321_1625",
@@ -6744,7 +7478,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110321_1625/"
+    "_asset_base": "assets/memory/20110321_1625/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20110321_1614",
@@ -6776,7 +7514,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110321_1614/"
+    "_asset_base": "assets/memory/20110321_1614/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20110719_2300",
@@ -6808,7 +7550,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110719_2300/"
+    "_asset_base": "assets/gpu/20110719_2300/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110819_8308",
@@ -6840,7 +7586,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20110819_8308/"
+    "_asset_base": "assets/cpu/20110819_8308/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110824_2400",
@@ -6872,7 +7622,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110824_2400/"
+    "_asset_base": "assets/gpu/20110824_2400/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20110902_8429",
@@ -6898,11 +7652,17 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20110902_8429/"
+    "_asset_base": "assets/cpu/20110902_8429/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20111027_8461",
@@ -6928,11 +7688,17 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111027_8461/"
+    "_asset_base": "assets/cpu/20111027_8461/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20111031_8491",
@@ -6958,11 +7724,17 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111031_8491/"
+    "_asset_base": "assets/cpu/20111031_8491/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20111101_8709",
@@ -6988,11 +7760,17 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111101_8709/"
+    "_asset_base": "assets/cpu/20111101_8709/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20111101_8585",
@@ -7018,11 +7796,17 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111101_8585/"
+    "_asset_base": "assets/cpu/20111101_8585/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20111109_1655",
@@ -7054,7 +7838,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111109_1655/"
+    "_asset_base": "assets/memory/20111109_1655/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20111122_1733",
@@ -7086,7 +7874,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111122_1733/"
+    "_asset_base": "assets/memory/20111122_1733/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20111122_1661",
@@ -7118,7 +7910,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111122_1661/"
+    "_asset_base": "assets/memory/20111122_1661/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20111203_1800",
@@ -7150,7 +7946,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111203_1800/"
+    "_asset_base": "assets/memory/20111203_1800/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20120228_1868",
@@ -7182,7 +7982,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120228_1868/"
+    "_asset_base": "assets/memory/20120228_1868/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20120529_1918",
@@ -7214,7 +8018,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120529_1918/"
+    "_asset_base": "assets/memory/20120529_1918/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20120620_1919",
@@ -7246,7 +8054,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120620_1919/"
+    "_asset_base": "assets/memory/20120620_1919/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20120625_1921",
@@ -7278,7 +8090,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120625_1921/"
+    "_asset_base": "assets/memory/20120625_1921/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20120819_1922",
@@ -7310,7 +8126,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120819_1922/"
+    "_asset_base": "assets/memory/20120819_1922/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20120831_1937",
@@ -7342,7 +8162,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120831_1937/"
+    "_asset_base": "assets/memory/20120831_1937/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20121112_1950",
@@ -7374,10 +8198,15 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20121112_1950/"
+    "_asset_base": "assets/memory/20121112_1950/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20121119_8794",
+    "_old_uid": "20121119_8794",
     "category": "cpu",
     "subcategory": null,
     "achieved_at": "2012-11-19",
@@ -7389,6 +8218,8 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -7400,11 +8231,17 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20121119_8794/"
+    "_asset_base": "assets/cpu/20121119_8794/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20130605_2115",
@@ -7436,7 +8273,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130605_2115/"
+    "_asset_base": "assets/memory/20130605_2115/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20130609_2141",
@@ -7468,7 +8309,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130609_2141/"
+    "_asset_base": "assets/memory/20130609_2141/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20130610_2142",
@@ -7500,7 +8345,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130610_2142/"
+    "_asset_base": "assets/memory/20130610_2142/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20130611_2144",
@@ -7532,7 +8381,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130611_2144/"
+    "_asset_base": "assets/memory/20130611_2144/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20130612_2145",
@@ -7564,7 +8417,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130612_2145/"
+    "_asset_base": "assets/memory/20130612_2145/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20130809_2202",
@@ -7596,7 +8453,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130809_2202/"
+    "_asset_base": "assets/memory/20130809_2202/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20140605_2282",
@@ -7628,7 +8489,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20140605_2282/"
+    "_asset_base": "assets/memory/20140605_2282/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20140630_2310",
@@ -7660,7 +8525,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20140630_2310/"
+    "_asset_base": "assets/memory/20140630_2310/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR3"
+    ]
   },
   {
     "uid": "20150805_2397",
@@ -7692,7 +8561,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150805_2397/"
+    "_asset_base": "assets/memory/20150805_2397/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20150811_2419",
@@ -7724,7 +8597,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150811_2419/"
+    "_asset_base": "assets/memory/20150811_2419/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20150818_2450",
@@ -7756,7 +8633,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150818_2450/"
+    "_asset_base": "assets/memory/20150818_2450/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20160524_2451",
@@ -7788,7 +8669,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160524_2451/"
+    "_asset_base": "assets/memory/20160524_2451/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20160525_2501",
@@ -7820,7 +8705,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160525_2501/"
+    "_asset_base": "assets/memory/20160525_2501/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20160603_2515",
@@ -7852,7 +8741,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160603_2515/"
+    "_asset_base": "assets/memory/20160603_2515/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20160604_2594",
@@ -7884,7 +8777,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160604_2594/"
+    "_asset_base": "assets/memory/20160604_2594/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20160605_2420",
@@ -7916,7 +8813,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160605_2420/"
+    "_asset_base": "assets/gpu/20160605_2420/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20160622_2450",
@@ -7948,7 +8849,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160622_2450/"
+    "_asset_base": "assets/gpu/20160622_2450/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20160706_2645",
@@ -7980,7 +8885,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160706_2645/"
+    "_asset_base": "assets/gpu/20160706_2645/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20160724_2750",
@@ -8012,7 +8921,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160724_2750/"
+    "_asset_base": "assets/gpu/20160724_2750/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20160724_2700",
@@ -8044,7 +8957,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160724_2700/"
+    "_asset_base": "assets/gpu/20160724_2700/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20160805_2784",
@@ -8076,7 +8993,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160805_2784/"
+    "_asset_base": "assets/gpu/20160805_2784/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20161030_2822",
@@ -8108,7 +9029,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161030_2822/"
+    "_asset_base": "assets/gpu/20161030_2822/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20161104_2885",
@@ -8140,7 +9065,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161104_2885/"
+    "_asset_base": "assets/gpu/20161104_2885/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20161104_2860",
@@ -8172,7 +9101,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161104_2860/"
+    "_asset_base": "assets/gpu/20161104_2860/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20161218_3012",
@@ -8204,7 +9137,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161218_3012/"
+    "_asset_base": "assets/gpu/20161218_3012/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20170113_2630",
@@ -8236,7 +9173,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170113_2630/"
+    "_asset_base": "assets/memory/20170113_2630/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170227_2631",
@@ -8268,7 +9209,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170227_2631/"
+    "_asset_base": "assets/memory/20170227_2631/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170322_3025",
@@ -8300,7 +9245,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20170322_3025/"
+    "_asset_base": "assets/gpu/20170322_3025/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20170330_2640",
@@ -8332,7 +9281,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170330_2640/"
+    "_asset_base": "assets/memory/20170330_2640/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170529_2644",
@@ -8364,7 +9317,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170529_2644/"
+    "_asset_base": "assets/memory/20170529_2644/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170530_2700",
@@ -8396,7 +9353,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170530_2700/"
+    "_asset_base": "assets/memory/20170530_2700/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170530_2699",
@@ -8428,7 +9389,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170530_2699/"
+    "_asset_base": "assets/memory/20170530_2699/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170603_2734",
@@ -8460,7 +9425,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170603_2734/"
+    "_asset_base": "assets/memory/20170603_2734/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170603_2731",
@@ -8492,7 +9461,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170603_2731/"
+    "_asset_base": "assets/memory/20170603_2731/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20170606_2750",
@@ -8524,7 +9497,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170606_2750/"
+    "_asset_base": "assets/memory/20170606_2750/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20171005_2764",
@@ -8556,7 +9533,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20171005_2764/"
+    "_asset_base": "assets/memory/20171005_2764/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20180530_2771",
@@ -8588,7 +9569,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2771/"
+    "_asset_base": "assets/memory/20180530_2771/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20180530_2770",
@@ -8620,7 +9605,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2770/"
+    "_asset_base": "assets/memory/20180530_2770/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20180530_2765",
@@ -8652,7 +9641,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2765/"
+    "_asset_base": "assets/memory/20180530_2765/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20181019_2782",
@@ -8684,7 +9677,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20181019_2782/"
+    "_asset_base": "assets/memory/20181019_2782/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190108_2791",
@@ -8716,7 +9713,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190108_2791/"
+    "_asset_base": "assets/memory/20190108_2791/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190114_2804",
@@ -8748,7 +9749,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190114_2804/"
+    "_asset_base": "assets/memory/20190114_2804/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190513_2817",
@@ -8780,7 +9785,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190513_2817/"
+    "_asset_base": "assets/memory/20190513_2817/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190516_2863",
@@ -8812,7 +9821,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190516_2863/"
+    "_asset_base": "assets/memory/20190516_2863/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190519_2868",
@@ -8844,7 +9857,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190519_2868/"
+    "_asset_base": "assets/memory/20190519_2868/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190527_2879",
@@ -8876,7 +9893,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190527_2879/"
+    "_asset_base": "assets/memory/20190527_2879/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190528_2901",
@@ -8908,7 +9929,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190528_2901/"
+    "_asset_base": "assets/memory/20190528_2901/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190529_2943",
@@ -8940,7 +9965,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190529_2943/"
+    "_asset_base": "assets/memory/20190529_2943/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190806_2950",
@@ -8972,7 +10001,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190806_2950/"
+    "_asset_base": "assets/memory/20190806_2950/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20190910_3008",
@@ -9004,7 +10037,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190910_3008/"
+    "_asset_base": "assets/memory/20190910_3008/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20191024_3018",
@@ -9036,7 +10073,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20191024_3018/"
+    "_asset_base": "assets/memory/20191024_3018/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20191024_3012",
@@ -9068,7 +10109,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20191024_3012/"
+    "_asset_base": "assets/memory/20191024_3012/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20191025_3027",
@@ -9100,7 +10145,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20191025_3027/"
+    "_asset_base": "assets/memory/20191025_3027/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20200514_3332",
@@ -9132,7 +10181,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20200514_3332/"
+    "_asset_base": "assets/memory/20200514_3332/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20200817_3333",
@@ -9164,7 +10217,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20200817_3333/"
+    "_asset_base": "assets/memory/20200817_3333/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20210206_3453",
@@ -9196,7 +10253,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210206_3453/"
+    "_asset_base": "assets/memory/20210206_3453/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20210329_3536",
@@ -9228,7 +10289,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210329_3536/"
+    "_asset_base": "assets/memory/20210329_3536/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20210330_3578",
@@ -9260,7 +10325,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210330_3578/"
+    "_asset_base": "assets/memory/20210330_3578/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20210416_3600",
@@ -9292,7 +10361,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210416_3600/"
+    "_asset_base": "assets/memory/20210416_3600/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR4"
+    ]
   },
   {
     "uid": "20210421_3225",
@@ -9324,7 +10397,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20210421_3225/"
+    "_asset_base": "assets/gpu/20210421_3225/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20210512_3319",
@@ -9356,7 +10433,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20210512_3319/"
+    "_asset_base": "assets/gpu/20210512_3319/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "AMD"
+    ]
   },
   {
     "uid": "20211001_4004",
@@ -9388,7 +10469,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211001_4004/"
+    "_asset_base": "assets/memory/20211001_4004/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20211008_4058",
@@ -9420,7 +10505,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211008_4058/"
+    "_asset_base": "assets/memory/20211008_4058/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20211028_4124",
@@ -9452,7 +10541,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211028_4124/"
+    "_asset_base": "assets/memory/20211028_4124/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20211029_4335",
@@ -9490,7 +10583,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211029_4335/"
+    "_asset_base": "assets/memory/20211029_4335/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20211103_4352",
@@ -9528,7 +10625,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211103_4352/"
+    "_asset_base": "assets/memory/20211103_4352/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220112_4779",
@@ -9560,7 +10661,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220112_4779/"
+    "_asset_base": "assets/memory/20220112_4779/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220426_5001",
@@ -9598,7 +10703,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220426_5001/"
+    "_asset_base": "assets/memory/20220426_5001/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220427_5011",
@@ -9636,7 +10745,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220427_5011/"
+    "_asset_base": "assets/memory/20220427_5011/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220524_5050",
@@ -9674,7 +10787,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220524_5050/"
+    "_asset_base": "assets/memory/20220524_5050/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220624_5111",
@@ -9712,7 +10829,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220624_5111/"
+    "_asset_base": "assets/memory/20220624_5111/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220705_5275",
@@ -9750,7 +10871,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220705_5275/"
+    "_asset_base": "assets/memory/20220705_5275/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220705_5254",
@@ -9788,7 +10913,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220705_5254/"
+    "_asset_base": "assets/memory/20220705_5254/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20220713_5300",
@@ -9826,7 +10955,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220713_5300/"
+    "_asset_base": "assets/memory/20220713_5300/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20221014_8812",
@@ -9858,7 +10991,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20221014_8812/"
+    "_asset_base": "assets/cpu/20221014_8812/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20221020_5564",
@@ -9896,7 +11033,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20221020_5564/"
+    "_asset_base": "assets/memory/20221020_5564/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20221024_3345",
@@ -9928,7 +11069,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20221024_3345/"
+    "_asset_base": "assets/gpu/20221024_3345/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20221103_3705",
@@ -9960,7 +11105,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20221103_3705/"
+    "_asset_base": "assets/gpu/20221103_3705/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20221119_3825",
@@ -9992,7 +11141,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20221119_3825/"
+    "_asset_base": "assets/gpu/20221119_3825/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20221209_9008",
@@ -10024,7 +11177,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20221209_9008/"
+    "_asset_base": "assets/cpu/20221209_9008/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20230110_5567",
@@ -10062,7 +11219,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230110_5567/"
+    "_asset_base": "assets/memory/20230110_5567/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20230117_5612",
@@ -10100,7 +11261,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230117_5612/"
+    "_asset_base": "assets/memory/20230117_5612/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20230222_3840",
@@ -10132,7 +11297,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230222_3840/"
+    "_asset_base": "assets/gpu/20230222_3840/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20230605_5613",
@@ -10170,7 +11339,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230605_5613/"
+    "_asset_base": "assets/memory/20230605_5613/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20230606_5626",
@@ -10208,7 +11381,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230606_5626/"
+    "_asset_base": "assets/memory/20230606_5626/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20230606_5616",
@@ -10246,7 +11423,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230606_5616/"
+    "_asset_base": "assets/memory/20230606_5616/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20230607_5627",
@@ -10284,7 +11465,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230607_5627/"
+    "_asset_base": "assets/memory/20230607_5627/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20230617_3930",
@@ -10316,7 +11501,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230617_3930/"
+    "_asset_base": "assets/gpu/20230617_3930/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20230628_3945",
@@ -10348,7 +11537,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230628_3945/"
+    "_asset_base": "assets/gpu/20230628_3945/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20230705_3975",
@@ -10380,7 +11573,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230705_3975/"
+    "_asset_base": "assets/gpu/20230705_3975/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20230706_4020",
@@ -10435,7 +11632,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230706_4020/"
+    "_asset_base": "assets/gpu/20230706_4020/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20230706_4005",
@@ -10490,7 +11691,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230706_4005/"
+    "_asset_base": "assets/gpu/20230706_4005/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "NVDIA"
+    ]
   },
   {
     "uid": "20231002_5806",
@@ -10528,7 +11733,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231002_5806/"
+    "_asset_base": "assets/memory/20231002_5806/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20231016_9043",
@@ -10560,7 +11769,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20231016_9043/"
+    "_asset_base": "assets/cpu/20231016_9043/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20231020_5809",
@@ -10598,7 +11811,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231020_5809/"
+    "_asset_base": "assets/memory/20231020_5809/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20231031_5824",
@@ -10636,7 +11853,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231031_5824/"
+    "_asset_base": "assets/memory/20231031_5824/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20231113_5824",
@@ -10674,7 +11895,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231113_5824/"
+    "_asset_base": "assets/memory/20231113_5824/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20240205_5844",
@@ -10712,7 +11937,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20240205_5844/"
+    "_asset_base": "assets/memory/20240205_5844/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20240307_9117",
@@ -10744,7 +11973,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20240307_9117/"
+    "_asset_base": "assets/cpu/20240307_9117/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20240926_6020",
@@ -10776,7 +12009,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20240926_6020/"
+    "_asset_base": "assets/memory/20240926_6020/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20240927_6032",
@@ -10814,7 +12051,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20240927_6032/"
+    "_asset_base": "assets/memory/20240927_6032/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241024_6097",
@@ -10852,7 +12093,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241024_6097/"
+    "_asset_base": "assets/memory/20241024_6097/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241024_6053",
@@ -10890,7 +12135,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241024_6053/"
+    "_asset_base": "assets/memory/20241024_6053/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241113_6175",
@@ -10928,7 +12177,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241113_6175/"
+    "_asset_base": "assets/memory/20241113_6175/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241113_6131",
@@ -10966,7 +12219,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241113_6131/"
+    "_asset_base": "assets/memory/20241113_6131/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241115_6263",
@@ -11004,7 +12261,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241115_6263/"
+    "_asset_base": "assets/memory/20241115_6263/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241125_6305",
@@ -11042,7 +12303,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241125_6305/"
+    "_asset_base": "assets/memory/20241125_6305/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241127_6317",
@@ -11080,7 +12345,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241127_6317/"
+    "_asset_base": "assets/memory/20241127_6317/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241203_6333",
@@ -11118,7 +12387,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241203_6333/"
+    "_asset_base": "assets/memory/20241203_6333/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20241205_6348",
@@ -11156,7 +12429,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241205_6348/"
+    "_asset_base": "assets/memory/20241205_6348/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250111_9121",
@@ -11188,7 +12465,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20250111_9121/"
+    "_asset_base": "assets/cpu/20250111_9121/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20250124_6363",
@@ -11226,7 +12507,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250124_6363/"
+    "_asset_base": "assets/memory/20250124_6363/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250202_6367",
@@ -11264,7 +12549,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250202_6367/"
+    "_asset_base": "assets/memory/20250202_6367/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250220_6375",
@@ -11302,7 +12591,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250220_6375/"
+    "_asset_base": "assets/memory/20250220_6375/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250329_6381",
@@ -11340,7 +12633,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250329_6381/"
+    "_asset_base": "assets/memory/20250329_6381/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250413_6386",
@@ -11378,7 +12675,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250413_6386/"
+    "_asset_base": "assets/memory/20250413_6386/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250503_6402",
@@ -11416,7 +12717,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250503_6402/"
+    "_asset_base": "assets/memory/20250503_6402/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250503_6386",
@@ -11454,7 +12759,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250503_6386/"
+    "_asset_base": "assets/memory/20250503_6386/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250504_6411",
@@ -11492,7 +12801,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250504_6411/"
+    "_asset_base": "assets/memory/20250504_6411/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250517_6416",
@@ -11530,7 +12843,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250517_6416/"
+    "_asset_base": "assets/memory/20250517_6416/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250519_6421",
@@ -11562,7 +12879,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250519_6421/"
+    "_asset_base": "assets/memory/20250519_6421/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250710_6436",
@@ -11600,7 +12921,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250710_6436/"
+    "_asset_base": "assets/memory/20250710_6436/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250801_6443",
@@ -11638,7 +12963,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250801_6443/"
+    "_asset_base": "assets/memory/20250801_6443/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20250823_9130",
@@ -11683,7 +13012,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20250823_9130/"
+    "_asset_base": "assets/cpu/20250823_9130/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20250905_4250",
@@ -11740,7 +13073,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20250905_4250/"
+    "_asset_base": "assets/gpu/20250905_4250/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "Intel"
+    ]
   },
   {
     "uid": "20250921_6460",
@@ -11778,7 +13115,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250921_6460/"
+    "_asset_base": "assets/memory/20250921_6460/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20251015_6504",
@@ -11816,7 +13157,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251015_6504/"
+    "_asset_base": "assets/memory/20251015_6504/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20251027_6517",
@@ -11854,7 +13199,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251027_6517/"
+    "_asset_base": "assets/memory/20251027_6517/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20251103_6605",
@@ -11892,7 +13241,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251103_6605/"
+    "_asset_base": "assets/memory/20251103_6605/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20251116_6703",
@@ -11942,7 +13295,11 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251116_6703/"
+    "_asset_base": "assets/memory/20251116_6703/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   },
   {
     "uid": "20251117_6765",
@@ -11980,6 +13337,10 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251117_6765/"
+    "_asset_base": "assets/memory/20251117_6765/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR5"
+    ]
   }
 ]

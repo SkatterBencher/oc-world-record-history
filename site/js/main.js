@@ -55,16 +55,18 @@ function routeFromHash() {
   document.title = PAGE_TITLES[page] || PAGE_TITLES.home;
 
   if (page === 'home' || page === '') {
+    closePanelSilent();
     document.getElementById('page-home').classList.add('active');
     renderHome();
   } else if (CATEGORIES[page]) {
     currentCategory = page;
     activeTags.clear();
-    closePanel();
+    closePanelSilent();
     document.getElementById('page-timeline').classList.add('active');
     renderTimeline();
     if (parts[1]) openRecord(parts[1]);
   } else if (page === 'about') {
+    closePanelSilent();
     document.getElementById('page-about').classList.add('active');
   }
 }
@@ -82,8 +84,21 @@ function setupNav() {
 function getFilteredRecords() {
   return allRecords.filter(r => {
     if (r.category !== currentCategory) return false;
-    if (activeTags.size === 0) return true;
-    return [...activeTags].every(t => (r.tags || []).includes(t));
+
+    if (activeTags.size === 0) {
+      // No tag filter: show only overall genuine records
+      return r._genuine_overall !== false;
+    }
+
+    // Tag filter active: show records genuine within ALL active tags
+    const tags = r.tags || [];
+    const allTagsMatch = [...activeTags].every(t => tags.includes(t));
+    if (!allTagsMatch) return false;
+
+    // Must be genuine in at least one of the active tags (or overall)
+    const genuineIn = r._genuine_in || [];
+    return r._genuine_overall ||
+      [...activeTags].some(t => genuineIn.includes(t));
   });
 }
 
@@ -552,12 +567,21 @@ function openRecord(uid) {
 }
 
 function closePanel() {
+  // Only navigate back to category if we're still on a timeline page
+  const page = location.hash.replace('#','').split('/')[0];
+  if (CATEGORIES[page]) {
+    location.hash = currentCategory;
+  } else {
+    closePanelSilent();
+  }
+}
+
+function closePanelSilent() {
   panelOpen   = false;
   selectedUid = null;
   document.getElementById('detail-panel').classList.remove('open');
   document.getElementById('timeline-main').classList.remove('panel-open');
   document.querySelectorAll('.record-row').forEach(r => r.classList.remove('selected'));
-  // Redraw chart after panel close transition
   setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(e) {} }, 320);
 }
 
@@ -739,7 +763,7 @@ function formatDateLong(iso, approx) {
 // ── EVENTS ────────────────────────────────────────────
 
 document.getElementById('panel-close-btn')?.addEventListener('click', () => {
-  location.hash = currentCategory;
+  closePanel();
 });
 
 // ── LIGHTBOX ──────────────────────────────────────────
@@ -775,7 +799,7 @@ document.addEventListener('keydown', e => {
     if (document.getElementById('lightbox')?.classList.contains('open')) {
       closeLightbox();
     } else if (panelOpen) {
-      location.hash = currentCategory;
+      closePanel();
     }
   }
 });

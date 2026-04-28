@@ -30,49 +30,77 @@ IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── GENUINE RECORD FILTER ─────────────────────────────
-def filter_genuine_records(records):
+def run_filter(records):
     """
-    For a list of records from one category (sorted chronologically),
-    return only those that were genuine world records at the time.
-
-    Rules:
-    - A record is genuine if its value_mhz beats the peak going into that day
-    - Same-day records are all kept if any of them beat the incoming peak
-      (intra-day order is confirmed by validation timestamps we don't store)
-    - Records with not_a_record: true are always excluded (manual override)
+    Walk records chronologically, return set of UIDs that are genuine records.
+    Same-day multi-records are all kept (intra-day order confirmed by timestamps).
     """
-    genuine = []
-    excluded = []
+    genuine_uids = set()
     peak = 0
-
     sorted_records = sorted(records, key=lambda r: (r["achieved_at"], -r["value_mhz"]))
 
     for date, day_iter in groupby(sorted_records, key=lambda r: r["achieved_at"]):
         day_records = list(day_iter)
+        day_genuine = [r for r in day_records if r["value_mhz"] > peak]
+        if day_genuine:
+            peak = max(r["value_mhz"] for r in day_genuine)
+            genuine_uids.update(r["uid"] for r in day_genuine)
 
-        for r in day_records:
-            # Manual override always wins
-            if r.get("not_a_record"):
-                r["_excluded_reason"] = "manual: not_a_record flag set"
-                excluded.append(r)
-                continue
+    return genuine_uids
 
-            if r["value_mhz"] > peak:
-                r.pop("_excluded_reason", None)
-                genuine.append(r)
-            else:
-                r["_excluded_reason"] = (
-                    f"computed: {r['value_mhz']} MHz did not beat peak of {peak} MHz"
-                    f" going into {date}"
-                )
-                excluded.append(r)
 
-        # Update peak to highest genuine record set on this day
-        day_peak = max(
-            (r["value_mhz"] for r in day_records if r in genuine),
-            default=peak
-        )
-        peak = max(peak, day_peak)
+def filter_genuine_records(records):
+    """
+    For a list of records from one category:
+    - Exclude manual not_a_record overrides
+    - Run overall genuine filter
+    - Run per-tag genuine filter for each tag group present
+    - A record is included if genuine overall OR genuine in any of its tags
+    - Sets _genuine_overall and _genuine_in fields for frontend use
+    """
+    genuine = []
+    excluded = []
+
+    # Separate manual exclusions first
+    active = [r for r in records if not r.get("not_a_record")]
+    manual_excluded = [r for r in records if r.get("not_a_record")]
+    for r in manual_excluded:
+        r["_excluded_reason"] = "manual: not_a_record flag set"
+        r["_genuine_overall"] = False
+        r["_genuine_in"] = []
+    excluded.extend(manual_excluded)
+
+    # Overall filter
+    overall_genuine_uids = run_filter(active)
+
+    # Per-tag filters — collect all unique tags across the category
+    all_tags = set(tag for r in active for tag in r.get("tags", []))
+    tag_genuine_uids = {}  # tag -> set of uids genuine within that tag
+    for tag in all_tags:
+        tag_records = [r for r in active if tag in r.get("tags", [])]
+        tag_genuine_uids[tag] = run_filter(tag_records)
+
+    # Classify each record
+    for r in active:
+        uid = r["uid"]
+        is_overall = uid in overall_genuine_uids
+        genuine_in_tags = [
+            tag for tag in r.get("tags", [])
+            if uid in tag_genuine_uids.get(tag, set())
+        ]
+
+        r["_genuine_overall"] = is_overall
+        r["_genuine_in"] = genuine_in_tags
+
+        if is_overall or genuine_in_tags:
+            r.pop("_excluded_reason", None)
+            genuine.append(r)
+        else:
+            r["_excluded_reason"] = (
+                f"computed: {r['value_mhz']} MHz was not a record overall "
+                f"or in any tag subgroup"
+            )
+            excluded.append(r)
 
     return genuine, excluded
 
