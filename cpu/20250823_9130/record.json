@@ -7,11 +7,12 @@
   "value_mhz": 9130.33,
   "hardware": {
     "primary": "Intel Core i9-14900KF",
-    "motherboard": null,
+    "motherboard": "Asus ROG MAXIMUS Z790 APEX",
     "memory": null,
     "cooling": "Liquid Helium"
   },
   "hero": "qg4yna[1].png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Wytiwx",
@@ -25,6 +26,11 @@
     {
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/qg4yna",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5886300",
       "archived_url": null
     }
   ],

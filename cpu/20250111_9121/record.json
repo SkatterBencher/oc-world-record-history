@@ -7,10 +7,12 @@
   "value_mhz": 9121.61,
   "hardware": {
     "primary": "Intel Core i9-14900KF",
-    "motherboard": null,
+    "motherboard": "Asus ROG MAXIMUS Z790 APEX",
     "memory": null,
     "cooling": "Liquid Helium"
   },
+  "hero": "qsu3g5.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Wytiwx",
@@ -20,8 +22,50 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86.fr/qsu3g5",
+      "archived_url": null
+    },
+    {
+      "label": "Bilibili",
+      "url": "https://www.bilibili.com/video/BV1pAwVeKELR",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5751159",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "912161_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "image_id_3283958.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3283959.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3283961.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "qsu3g5.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

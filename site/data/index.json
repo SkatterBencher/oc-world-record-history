@@ -11153,10 +11153,12 @@
     "value_mhz": 8812.85,
     "hardware": {
       "primary": "Intel Core i9-13900K",
-      "motherboard": null,
+      "motherboard": "Asus ROG MAXIMUS Z790 APEX",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "k3dwcu.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -11164,10 +11166,54 @@
         "aliases": [],
         "country": "SE",
         "profile_url": null
+      },
+      {
+        "handle": "Shamino",
+        "real_name": "Peter Tan",
+        "aliases": [],
+        "country": "SG",
+        "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/k3dwcu",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://elmorlabs.com/2022-10-21/elmorlabs-breaks-cpu-frequency-world-record/",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=2wKzvC--McM",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5102721",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "k3dwcu.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "system.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "881285_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -11345,10 +11391,12 @@
     "value_mhz": 9008.82,
     "hardware": {
       "primary": "Intel Core i9-13900K",
-      "motherboard": null,
+      "motherboard": "Asus ROG MAXIMUS Z790 APEX",
       "memory": null,
       "cooling": "Liquid Helium"
     },
+    "hero": "t14i1f.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -11356,10 +11404,83 @@
         "aliases": [],
         "country": "SE",
         "profile_url": null
+      },
+      {
+        "handle": "Shamino",
+        "real_name": null,
+        "aliases": [],
+        "country": "SG",
+        "profile_url": null
+      },
+      {
+        "handle": "SoonHo",
+        "real_name": null,
+        "aliases": [],
+        "country": "KR",
+        "profile_url": null
+      },
+      {
+        "handle": "SkatterBencher",
+        "real_name": "Pieter Plaisier",
+        "aliases": [],
+        "country": "BE",
+        "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/t14i1",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://www.elmorlabs.com/2022-12-21/elmorlabs-achieves-first-ever-9ghz-cpu-with-intel-asus/",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=CzAZxx_aLdo",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://skatterbencher.com/2022/12/21/first-9-ghz-cpu-overclock/",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/RSUlvaE6N1U",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=n3lZFMSB78g",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5148862",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "900882_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "900882_system.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "t14i1f.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -11961,10 +12082,12 @@
     "value_mhz": 9043.92,
     "hardware": {
       "primary": "Intel Core i9-14900KF",
-      "motherboard": null,
+      "motherboard": "Asus ROG MAXIMUS Z790 APEX ENCORE",
       "memory": null,
       "cooling": "Liquid Helium"
     },
+    "hero": "7s8pff.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -11972,10 +12095,105 @@
         "aliases": [],
         "country": "SE",
         "profile_url": null
+      },
+      {
+        "handle": "Shamino",
+        "real_name": null,
+        "aliases": [],
+        "country": "SG",
+        "profile_url": null
+      },
+      {
+        "handle": "SoonHo",
+        "real_name": null,
+        "aliases": [],
+        "country": "KR",
+        "profile_url": null
+      },
+      {
+        "handle": "SkatterBencher",
+        "real_name": "Pieter Plaisier",
+        "aliases": [
+          "Massman"
+        ],
+        "country": "BE",
+        "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/7s8pff",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://skatterbencher.com/2023/10/25/asus-sets-oc-world-record-with-intel-core-i9-14900kf-at-9-044ghz-talking-tech-intel-technology/",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=mxi-KrKg4pE",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://skatterbencher.com/2023/10/17/first-9-1-ghz-cpu-overclock/",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=fb7pl7PZOYo",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=A2iKa3ax-uI",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5374278",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "7s8pff.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "904392_celebrate.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "904392_celebrate2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "904392_celebrate3.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "904392_celebrate4.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "904392_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "904392_system.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -12171,10 +12389,12 @@
     "value_mhz": 9117.75,
     "hardware": {
       "primary": "Intel Core i9-14900KS",
-      "motherboard": null,
+      "motherboard": "Asus ROG MAXIMUS Z790 APEX ENCORE",
       "memory": null,
       "cooling": "Liquid Helium"
     },
+    "hero": "1b4trw.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -12182,10 +12402,73 @@
         "aliases": [],
         "country": "SE",
         "profile_url": null
+      },
+      {
+        "handle": "Shamino",
+        "real_name": null,
+        "aliases": [],
+        "country": "SG",
+        "profile_url": null
+      },
+      {
+        "handle": "SoonHo",
+        "real_name": null,
+        "aliases": [],
+        "country": "KR",
+        "profile_url": null
+      },
+      {
+        "handle": "SkatterBencher",
+        "real_name": "Pieter Plaisier",
+        "aliases": [],
+        "country": "BE",
+        "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/1b4trw",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=qr26jxPIDm0",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=vyJ56npe37I",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://skatterbencher.com/2024/03/20/raptor-lakes-unbreakable-overclocking-world-record/",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5508265",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1b4trw.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "911775_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "image_id_3114811.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -12683,10 +12966,12 @@
     "value_mhz": 9121.61,
     "hardware": {
       "primary": "Intel Core i9-14900KF",
-      "motherboard": null,
+      "motherboard": "Asus ROG MAXIMUS Z790 APEX",
       "memory": null,
       "cooling": "Liquid Helium"
     },
+    "hero": "qsu3g5.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Wytiwx",
@@ -12696,8 +12981,50 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86.fr/qsu3g5",
+        "archived_url": null
+      },
+      {
+        "label": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1pAwVeKELR",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5751159",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "912161_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "image_id_3283958.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3283959.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3283961.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "qsu3g5.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],

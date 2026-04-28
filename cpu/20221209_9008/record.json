@@ -7,10 +7,12 @@
   "value_mhz": 9008.82,
   "hardware": {
     "primary": "Intel Core i9-13900K",
-    "motherboard": null,
+    "motherboard": "Asus ROG MAXIMUS Z790 APEX",
     "memory": null,
     "cooling": "Liquid Helium"
   },
+  "hero": "t14i1f.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Elmor",
@@ -18,10 +20,83 @@
       "aliases": [],
       "country": "SE",
       "profile_url": null
+    },
+    {
+      "handle": "Shamino",
+      "real_name": null,
+      "aliases": [],
+      "country": "SG",
+      "profile_url": null
+    },
+    {
+      "handle": "SoonHo",
+      "real_name": null,
+      "aliases": [],
+      "country": "KR",
+      "profile_url": null
+    },
+    {
+      "handle": "SkatterBencher",
+      "real_name": "Pieter Plaisier",
+      "aliases": [],
+      "country": "BE",
+      "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/t14i1",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "https://www.elmorlabs.com/2022-12-21/elmorlabs-achieves-first-ever-9ghz-cpu-with-intel-asus/",
+      "archived_url": null
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=CzAZxx_aLdo",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "https://skatterbencher.com/2022/12/21/first-9-ghz-cpu-overclock/",
+      "archived_url": null
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtu.be/RSUlvaE6N1U",
+      "archived_url": null
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=n3lZFMSB78g",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5148862",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "900882_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "900882_system.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "t14i1f.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

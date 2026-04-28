@@ -7,10 +7,12 @@
   "value_mhz": 8812.85,
   "hardware": {
     "primary": "Intel Core i9-13900K",
-    "motherboard": null,
+    "motherboard": "Asus ROG MAXIMUS Z790 APEX",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "k3dwcu.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Elmor",
@@ -18,10 +20,54 @@
       "aliases": [],
       "country": "SE",
       "profile_url": null
+    },
+    {
+      "handle": "Shamino",
+      "real_name": "Peter Tan",
+      "aliases": [],
+      "country": "SG",
+      "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/k3dwcu",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "https://elmorlabs.com/2022-10-21/elmorlabs-breaks-cpu-frequency-world-record/",
+      "archived_url": null
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=2wKzvC--McM",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/5102721",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "k3dwcu.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "system.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "881285_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],
