@@ -1,7 +1,9 @@
 {
   "uid": "20040412_325",
   "category": "memory",
-  "subcategory": "DDR",
+  "subcategory": [
+    "DDR"
+  ],
   "achieved_at": "2004-04-12",
   "achieved_at_approximate": false,
   "value_mhz": 325.1,

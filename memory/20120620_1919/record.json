@@ -1,7 +1,9 @@
 {
   "uid": "20120620_1919",
   "category": "memory",
-  "subcategory": "DDR3",
+  "subcategory": [
+    "DDR3"
+  ],
   "achieved_at": "2012-06-20",
   "achieved_at_approximate": false,
   "value_mhz": 1919.6,

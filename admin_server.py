@@ -34,6 +34,11 @@ def save_record(category, uid, data, old_uid=None):
     data.pop("_asset_base", None)
     data.pop("_assets", None)
     data.pop("_isNew", None)
+    data.pop("_old_uid", None)
+    data.pop("_hero_web", None)
+    data.pop("_genuine_overall", None)
+    data.pop("_genuine_in", None)
+    data.pop("_excluded_reason", None)
 
     folder = ROOT / category / uid
 
@@ -671,8 +676,8 @@ function renderEditor() {
           </select>
         </div>
         <div class="field">
-          <label>Subcategory</label>
-          <input id="f-subcategory" value="${r.subcategory||''}" placeholder="e.g. DDR5">
+          <label>Subcategory (comma-separated)</label>
+          <input id="f-subcategory" value="${(r.subcategory||[]).join(', ')}" placeholder="e.g. dgpu, amd-dgpu">
         </div>
         <div class="field">
           <label>Date</label>
@@ -913,7 +918,8 @@ function buildRecord() {
     uid: r._isNew ? '' : r.uid,
     _old_uid: r._isNew ? '' : r.uid,  // so server knows the original folder name
     category: document.getElementById('f-category').value,
-    subcategory: document.getElementById('f-subcategory').value || null,
+    subcategory: (document.getElementById('f-subcategory').value || '')
+      .split(',').map(s => s.trim()).filter(Boolean),
     achieved_at: document.getElementById('f-date').value,
     achieved_at_approximate: document.getElementById('f-approximate').checked,
     value_mhz: parseFloat(document.getElementById('f-mhz').value),
@@ -1217,7 +1223,7 @@ function getVal(r, path) {
   if (path === 'hw.memory')      return r.hardware?.memory || '';
   if (path === 'tags')           return (r.tags || []).join(', ');
   if (path === 'notes')          return r.notes || '';
-  if (path === 'subcategory')    return r.subcategory || '';
+  if (path === 'subcategory')    return (r.subcategory || []).join(', ');
   return '';
 }
 

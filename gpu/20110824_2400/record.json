@@ -1,7 +1,9 @@
 {
   "uid": "20110824_2400",
   "category": "gpu",
-  "subcategory": "IGPU (CPU)",
+  "subcategory": [
+    "IGPU (CPU)"
+  ],
   "achieved_at": "2011-08-24",
   "achieved_at_approximate": false,
   "value_mhz": 2400.0,

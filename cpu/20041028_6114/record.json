@@ -1,7 +1,7 @@
 {
   "uid": "20041028_6114",
   "category": "cpu",
-  "subcategory": null,
+  "subcategory": [],
   "achieved_at": "2004-10-28",
   "achieved_at_approximate": false,
   "value_mhz": 6114,

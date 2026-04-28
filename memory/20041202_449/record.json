@@ -1,7 +1,9 @@
 {
   "uid": "20041202_449",
   "category": "memory",
-  "subcategory": "DDR2",
+  "subcategory": [
+    "DDR2"
+  ],
   "achieved_at": "2004-12-02",
   "achieved_at_approximate": false,
   "value_mhz": 449.7,

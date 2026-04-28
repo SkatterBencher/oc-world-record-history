@@ -1,7 +1,9 @@
 {
   "uid": "20070102_716",
   "category": "memory",
-  "subcategory": "DDR2",
+  "subcategory": [
+    "DDR2"
+  ],
   "achieved_at": "2007-01-02",
   "achieved_at_approximate": false,
   "value_mhz": 716.1,

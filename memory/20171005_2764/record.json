@@ -1,7 +1,9 @@
 {
   "uid": "20171005_2764",
   "category": "memory",
-  "subcategory": "DDR4",
+  "subcategory": [
+    "DDR4"
+  ],
   "achieved_at": "2017-10-05",
   "achieved_at_approximate": false,
   "value_mhz": 2764.6,

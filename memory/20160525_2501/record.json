@@ -1,7 +1,9 @@
 {
   "uid": "20160525_2501",
   "category": "memory",
-  "subcategory": "DDR4",
+  "subcategory": [
+    "DDR4"
+  ],
   "achieved_at": "2016-05-25",
   "achieved_at_approximate": false,
   "value_mhz": 2501.2,

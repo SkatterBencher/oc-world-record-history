@@ -1,7 +1,9 @@
 {
   "uid": "20161030_2822",
   "category": "gpu",
-  "subcategory": "DGPU",
+  "subcategory": [
+    "DGPU"
+  ],
   "achieved_at": "2016-10-30",
   "achieved_at_approximate": false,
   "value_mhz": 2822.0,

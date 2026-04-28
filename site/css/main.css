@@ -827,3 +827,40 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 }
 
 .lb-close:hover { background: rgba(0,0,0,0.8); }
+
+/* ═══════════════════════════════════════════════════════
+   SUB-NAV
+   ═══════════════════════════════════════════════════════ */
+
+.subnav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 0 20px;
+  flex-wrap: wrap;
+}
+
+.subnav-item {
+  padding: 5px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-off);
+  color: var(--text-muted);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s;
+  letter-spacing: 0.03em;
+}
+
+.subnav-item:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.subnav-item.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}

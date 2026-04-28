@@ -1,7 +1,7 @@
 {
   "uid": "20070121_7791",
   "category": "cpu",
-  "subcategory": null,
+  "subcategory": [],
   "achieved_at": "2007-01-21",
   "achieved_at_approximate": false,
   "value_mhz": 7791.79,

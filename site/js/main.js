@@ -20,19 +20,25 @@ function toWebFilename(filename) {
   return filename.replace(/\.[^.]+$/, '.webp');
 }
 
-let allRecords   = [];
+let allRecords      = [];
+let subcategories   = {};  // category -> [subcategory names]
 let currentCategory = 'cpu';
-let activeTags   = new Set();
-let selectedUid  = null;
-let panelOpen    = false;
+let currentSubcat   = null;  // null = overall
+let activeTags      = new Set();
+let selectedUid     = null;
+let panelOpen       = false;
 
 // ── INIT ──────────────────────────────────────────────
 async function init() {
   try {
-    const res = await fetch('data/index.json');
-    allRecords = await res.json();
+    const [indexRes, subcatRes] = await Promise.all([
+      fetch('data/index.json'),
+      fetch('data/subcategories.json'),
+    ]);
+    allRecords    = await indexRes.json();
+    subcategories = await subcatRes.json();
   } catch (e) {
-    console.error('Failed to load index.json', e);
+    console.error('Failed to load data', e);
     allRecords = [];
   }
   setupNav();
@@ -60,11 +66,14 @@ function routeFromHash() {
     renderHome();
   } else if (CATEGORIES[page]) {
     currentCategory = page;
+    currentSubcat   = parts[1] && !allRecords.find(r => r.uid === parts[1])
+                      ? parts[1] : null;
     activeTags.clear();
     closePanelSilent();
     document.getElementById('page-timeline').classList.add('active');
     renderTimeline();
-    if (parts[1]) openRecord(parts[1]);
+    // If parts[1] looks like a record uid, open it; otherwise it's a subcat
+    if (parts[1] && allRecords.find(r => r.uid === parts[1])) openRecord(parts[1]);
   } else if (page === 'about') {
     closePanelSilent();
     document.getElementById('page-about').classList.add('active');
@@ -85,20 +94,21 @@ function getFilteredRecords() {
   return allRecords.filter(r => {
     if (r.category !== currentCategory) return false;
 
-    if (activeTags.size === 0) {
-      // No tag filter: show only overall genuine records
-      return r._genuine_overall !== false;
+    if (currentSubcat) {
+      // Subcategory view — only records in this subcategory that are genuine within it
+      const inSubcat = (r.subcategory || []).includes(currentSubcat);
+      if (!inSubcat) return false;
+      const genuineIn = r._genuine_in || [];
+      if (!genuineIn.includes(currentSubcat) && !r._genuine_overall) return false;
+    } else {
+      // Overall view — only overall genuine records
+      if (r._genuine_overall === false) return false;
     }
 
-    // Tag filter active: show records genuine within ALL active tags
+    // Tag filter (informational, within the current view)
+    if (activeTags.size === 0) return true;
     const tags = r.tags || [];
-    const allTagsMatch = [...activeTags].every(t => tags.includes(t));
-    if (!allTagsMatch) return false;
-
-    // Must be genuine in at least one of the active tags (or overall)
-    const genuineIn = r._genuine_in || [];
-    return r._genuine_overall ||
-      [...activeTags].some(t => genuineIn.includes(t));
+    return [...activeTags].every(t => tags.includes(t));
   });
 }
 
@@ -215,18 +225,52 @@ function renderRecordOfTheDay() {
   `;
 }
 
+// ── SUB-NAV ───────────────────────────────────────────
+function renderSubNav() {
+  const el = document.getElementById('subnav');
+  if (!el) return;
+  const subcats = subcategories[currentCategory] || [];
+  if (!subcats.length) { el.innerHTML = ''; el.style.display = 'none'; return; }
+
+  el.style.display = 'flex';
+  el.innerHTML = `
+    <a class="subnav-item ${!currentSubcat ? 'active' : ''}"
+       href="#${currentCategory}">All</a>
+    ${subcats.map(s => `
+      <a class="subnav-item ${currentSubcat === s ? 'active' : ''}"
+         href="#${currentCategory}/${s}">${s}</a>
+    `).join('')}
+  `;
+
+  // Wire clicks to set currentSubcat without full re-route
+  el.querySelectorAll('.subnav-item').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const href = a.getAttribute('href').replace('#','');
+      const parts = href.split('/');
+      currentSubcat = parts[1] || null;
+      activeTags.clear();
+      closePanelSilent();
+      history.pushState(null, '', '#' + href);
+      renderTimeline();
+    });
+  });
+}
+
 // ── TIMELINE RENDER ───────────────────────────────────
 function renderTimeline() {
   const cat     = CATEGORIES[currentCategory];
   const records = getFilteredRecords();
 
+  const subcatLabel = currentSubcat ? ` — ${currentSubcat}` : '';
   document.getElementById('timeline-title').innerHTML =
-    `<span class="cat-label">${cat.label}</span> Overclocking World Record History`;
+    `<span class="cat-label">${cat.label}</span> Overclocking World Record History${subcatLabel}`;
   document.getElementById('timeline-subtitle').textContent =
     `${records.length} records · ${getYearRange(records)}`;
   document.getElementById('header-record-count').textContent =
     `${records.length} records`;
 
+  renderSubNav();
   renderTagSidebar(records);
   try { renderChart(records); } catch(e) { console.warn('Chart render failed:', e); }
 

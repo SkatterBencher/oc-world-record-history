@@ -1,7 +1,9 @@
 {
   "uid": "20250905_4250",
   "category": "gpu",
-  "subcategory": "IGPU (CPU)",
+  "subcategory": [
+    "IGPU (CPU)"
+  ],
   "achieved_at": "2025-09-05",
   "achieved_at_approximate": false,
   "value_mhz": 4250,

@@ -1,7 +1,9 @@
 {
   "uid": "20041118_824",
   "category": "gpu",
-  "subcategory": "DGPU",
+  "subcategory": [
+    "DGPU"
+  ],
   "achieved_at": "2004-11-18",
   "achieved_at_approximate": false,
   "value_mhz": 824.0,

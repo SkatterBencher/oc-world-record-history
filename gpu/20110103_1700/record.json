@@ -1,7 +1,9 @@
 {
   "uid": "20110103_1700",
   "category": "gpu",
-  "subcategory": "IGPU (CPU)",
+  "subcategory": [
+    "IGPU (CPU)"
+  ],
   "achieved_at": "2011-01-03",
   "achieved_at_approximate": false,
   "value_mhz": 1700.0,

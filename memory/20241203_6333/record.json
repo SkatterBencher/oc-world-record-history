@@ -1,7 +1,9 @@
 {
   "uid": "20241203_6333",
   "category": "memory",
-  "subcategory": "DDR5",
+  "subcategory": [
+    "DDR5"
+  ],
   "achieved_at": "2024-12-03",
   "achieved_at_approximate": false,
   "value_mhz": 6333,

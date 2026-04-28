@@ -1,7 +1,9 @@
 {
   "uid": "20250519_6421",
   "category": "memory",
-  "subcategory": "DDR5",
+  "subcategory": [
+    "DDR5"
+  ],
   "achieved_at": "2025-05-19",
   "achieved_at_approximate": false,
   "value_mhz": 6421.5,

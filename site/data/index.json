@@ -2,7 +2,7 @@
   {
     "uid": "19960801_233",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1996-08-01",
     "achieved_at_approximate": false,
     "value_mhz": 233.0,
@@ -31,14 +31,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19960801_233/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19961118_266",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1996-11-18",
     "achieved_at_approximate": false,
     "value_mhz": 266.0,
@@ -67,14 +65,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19961118_266/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19971101_337",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1997-11-01",
     "achieved_at_approximate": false,
     "value_mhz": 337.5,
@@ -103,14 +99,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19971101_337/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19971117_375",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1997-11-17",
     "achieved_at_approximate": false,
     "value_mhz": 375.0,
@@ -139,14 +133,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19971117_375/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19971205_400",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1997-12-05",
     "achieved_at_approximate": false,
     "value_mhz": 400.0,
@@ -175,14 +167,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19971205_400/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19980111_416",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-01-11",
     "achieved_at_approximate": false,
     "value_mhz": 416.5,
@@ -211,14 +201,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19980111_416/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19980119_118",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "1998-01-19",
     "achieved_at_approximate": false,
     "value_mhz": 118.0,
@@ -248,13 +238,13 @@
     "_asset_base": "assets/gpu/19980119_118/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Rendition"
+      "DGPU"
     ]
   },
   {
     "uid": "19980301_530",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-03-01",
     "achieved_at_approximate": false,
     "value_mhz": 530.0,
@@ -283,14 +273,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19980301_530/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19980401_590",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-04-01",
     "achieved_at_approximate": false,
     "value_mhz": 590.0,
@@ -322,7 +310,7 @@
   {
     "uid": "19980701_610",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-07-01",
     "achieved_at_approximate": false,
     "value_mhz": 610.0,
@@ -354,7 +342,7 @@
   {
     "uid": "19980801_661",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-08-01",
     "achieved_at_approximate": false,
     "value_mhz": 661.5,
@@ -383,14 +371,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19980801_661/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19980912_675",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-09-12",
     "achieved_at_approximate": false,
     "value_mhz": 675.0,
@@ -422,7 +408,9 @@
   {
     "uid": "19980913_135",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "1998-09-13",
     "achieved_at_approximate": false,
     "value_mhz": 135.0,
@@ -452,13 +440,13 @@
     "_asset_base": "assets/gpu/19980913_135/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "19981007_698",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-10-07",
     "achieved_at_approximate": false,
     "value_mhz": 698.88,
@@ -487,14 +475,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19981007_698/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19981109_715",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-11-09",
     "achieved_at_approximate": false,
     "value_mhz": 715.95,
@@ -525,14 +511,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19981109_715/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19981121_716",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-11-21",
     "achieved_at_approximate": false,
     "value_mhz": 716.0,
@@ -561,14 +545,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19981121_716/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19981213_724",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-12-13",
     "achieved_at_approximate": false,
     "value_mhz": 724.5,
@@ -599,14 +581,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19981213_724/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19981230_743",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1998-12-30",
     "achieved_at_approximate": false,
     "value_mhz": 743.4,
@@ -637,14 +617,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19981230_743/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19990110_759",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-01-10",
     "achieved_at_approximate": false,
     "value_mhz": 759.16,
@@ -675,14 +653,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19990110_759/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19990217_808",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-02-17",
     "achieved_at_approximate": false,
     "value_mhz": 808.49,
@@ -711,14 +687,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19990217_808/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19990220_811",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-02-20",
     "achieved_at_approximate": false,
     "value_mhz": 811.92,
@@ -749,14 +723,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19990220_811/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19990306_822",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-03-06",
     "achieved_at_approximate": false,
     "value_mhz": 822.0,
@@ -787,14 +759,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19990306_822/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19990321_849",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-03-21",
     "achieved_at_approximate": false,
     "value_mhz": 849.85,
@@ -823,14 +793,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19990321_849/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19990421_175",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "1999-04-21",
     "achieved_at_approximate": false,
     "value_mhz": 175.0,
@@ -860,13 +830,13 @@
     "_asset_base": "assets/gpu/19990421_175/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "3DFX"
+      "DGPU"
     ]
   },
   {
     "uid": "19990619_921",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-06-19",
     "achieved_at_approximate": false,
     "value_mhz": 921.16,
@@ -897,14 +867,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19990619_921/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19991007_1082",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-10-07",
     "achieved_at_approximate": false,
     "value_mhz": 1082.11,
@@ -935,14 +903,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19991007_1082/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19991101_1151",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-11-01",
     "achieved_at_approximate": false,
     "value_mhz": 1151.51,
@@ -973,14 +939,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19991101_1151/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19991112_195",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "1999-11-12",
     "achieved_at_approximate": false,
     "value_mhz": 195.0,
@@ -1010,13 +976,13 @@
     "_asset_base": "assets/gpu/19991112_195/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "19991116_1238",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-11-16",
     "achieved_at_approximate": false,
     "value_mhz": 1238.92,
@@ -1047,14 +1013,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19991116_1238/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19991121_1264",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-11-21",
     "achieved_at_approximate": false,
     "value_mhz": 1264.92,
@@ -1085,14 +1049,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19991121_1264/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "19991228_1286",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "1999-12-28",
     "achieved_at_approximate": false,
     "value_mhz": 1286.3,
@@ -1121,14 +1083,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/19991228_1286/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20000402_1370",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-04-02",
     "achieved_at_approximate": false,
     "value_mhz": 1370.0,
@@ -1157,14 +1117,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20000402_1370/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20000409_1500",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-04-09",
     "achieved_at_approximate": false,
     "value_mhz": 1500.0,
@@ -1195,14 +1153,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20000409_1500/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20000413_1522",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-04-13",
     "achieved_at_approximate": false,
     "value_mhz": 1522.71,
@@ -1233,14 +1189,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20000413_1522/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20000813_187",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-08-13",
     "achieved_at_approximate": false,
     "value_mhz": 187.03,
@@ -1290,7 +1246,9 @@
   {
     "uid": "20000814_190",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-08-14",
     "achieved_at_approximate": false,
     "value_mhz": 190.43,
@@ -1343,7 +1301,9 @@
   {
     "uid": "20000819_210",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-08-19",
     "achieved_at_approximate": false,
     "value_mhz": 210.05,
@@ -1409,7 +1369,9 @@
   {
     "uid": "20000828_211",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-08-28",
     "achieved_at_approximate": false,
     "value_mhz": 211.98,
@@ -1465,7 +1427,7 @@
   {
     "uid": "20000903_1612",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-09-03",
     "achieved_at_approximate": false,
     "value_mhz": 1612.66,
@@ -1494,14 +1456,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20000903_1612/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20000914_214",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-09-14",
     "achieved_at_approximate": false,
     "value_mhz": 214.52,
@@ -1551,7 +1513,9 @@
   {
     "uid": "20000915_215",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-09-15",
     "achieved_at_approximate": false,
     "value_mhz": 215.85,
@@ -1610,7 +1574,7 @@
   {
     "uid": "20001105_1613",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-11-05",
     "achieved_at_approximate": false,
     "value_mhz": 1613.45,
@@ -1639,14 +1603,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20001105_1613/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20001114_216",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-11-14",
     "achieved_at_approximate": false,
     "value_mhz": 216.24,
@@ -1683,7 +1647,9 @@
   {
     "uid": "20001122_217",
     "category": "memory",
-    "subcategory": "SDR",
+    "subcategory": [
+      "SDR"
+    ],
     "achieved_at": "2000-11-22",
     "achieved_at_approximate": false,
     "value_mhz": 217.32,
@@ -1731,7 +1697,7 @@
   {
     "uid": "20001201_1653",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-12-01",
     "achieved_at_approximate": false,
     "value_mhz": 1653.02,
@@ -1760,14 +1726,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20001201_1653/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20001203_2144",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-12-03",
     "achieved_at_approximate": false,
     "value_mhz": 2144.52,
@@ -1798,14 +1762,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20001203_2144/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20001213_2205",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2000-12-13",
     "achieved_at_approximate": false,
     "value_mhz": 2205.56,
@@ -1836,14 +1798,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20001213_2205/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20010308_2250",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2001-03-08",
     "achieved_at_approximate": false,
     "value_mhz": 2250.0,
@@ -1872,14 +1832,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20010308_2250/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20010315_2600",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2001-03-15",
     "achieved_at_approximate": false,
     "value_mhz": 2600.37,
@@ -1908,14 +1866,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20010315_2600/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20010329_2804",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2001-03-29",
     "achieved_at_approximate": false,
     "value_mhz": 2804.99,
@@ -1944,14 +1900,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20010329_2804/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20010402_2864",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2001-04-02",
     "achieved_at_approximate": false,
     "value_mhz": 2864.48,
@@ -1980,14 +1934,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20010402_2864/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20010528_256",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2001-05-28",
     "achieved_at_approximate": false,
     "value_mhz": 256.0,
@@ -2017,13 +1971,13 @@
     "_asset_base": "assets/gpu/20010528_256/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20010905_3023",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2001-09-05",
     "achieved_at_approximate": false,
     "value_mhz": 3023.98,
@@ -2052,14 +2006,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20010905_3023/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20011009_3027",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2001-10-09",
     "achieved_at_approximate": false,
     "value_mhz": 3027.41,
@@ -2088,14 +2040,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20011009_3027/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20011107_3391",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2001-11-07",
     "achieved_at_approximate": false,
     "value_mhz": 3391.12,
@@ -2124,14 +2074,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20011107_3391/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20011123_305",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2001-11-23",
     "achieved_at_approximate": false,
     "value_mhz": 305.0,
@@ -2161,13 +2111,13 @@
     "_asset_base": "assets/gpu/20011123_305/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20020109_3541",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-01-09",
     "achieved_at_approximate": false,
     "value_mhz": 3541.87,
@@ -2196,14 +2146,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020109_3541/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020117_3674",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-01-17",
     "achieved_at_approximate": false,
     "value_mhz": 3674.99,
@@ -2232,14 +2180,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020117_3674/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020119_3702",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-01-19",
     "achieved_at_approximate": false,
     "value_mhz": 3702.55,
@@ -2268,14 +2214,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020119_3702/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020123_3808",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-01-23",
     "achieved_at_approximate": false,
     "value_mhz": 3808.91,
@@ -2304,14 +2248,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020123_3808/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020322_3890",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-03-22",
     "achieved_at_approximate": false,
     "value_mhz": 3890.79,
@@ -2340,14 +2282,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020322_3890/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020327_4010",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-03-27",
     "achieved_at_approximate": false,
     "value_mhz": 4010.88,
@@ -2376,14 +2316,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020327_4010/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020407_365",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2002-04-07",
     "achieved_at_approximate": false,
     "value_mhz": 365.0,
@@ -2413,13 +2353,13 @@
     "_asset_base": "assets/gpu/20020407_365/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20020414_4110",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-04-14",
     "achieved_at_approximate": false,
     "value_mhz": 4110.0,
@@ -2448,14 +2388,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020414_4110/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020506_378",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2002-05-06",
     "achieved_at_approximate": false,
     "value_mhz": 378.0,
@@ -2485,13 +2425,15 @@
     "_asset_base": "assets/gpu/20020506_378/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20020530_235",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2002-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 235.5,
@@ -2545,7 +2487,9 @@
   {
     "uid": "20020605_391",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2002-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 391.0,
@@ -2575,13 +2519,15 @@
     "_asset_base": "assets/gpu/20020605_391/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20020623_240",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2002-06-23",
     "achieved_at_approximate": false,
     "value_mhz": 240,
@@ -2635,7 +2581,9 @@
   {
     "uid": "20020629_405",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2002-06-29",
     "achieved_at_approximate": false,
     "value_mhz": 405.0,
@@ -2665,13 +2613,15 @@
     "_asset_base": "assets/gpu/20020629_405/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20020629_257",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2002-06-29",
     "achieved_at_approximate": false,
     "value_mhz": 257.3,
@@ -2720,7 +2670,7 @@
   {
     "uid": "20020710_4244",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-07-10",
     "achieved_at_approximate": false,
     "value_mhz": 4244.7,
@@ -2749,14 +2699,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020710_4244/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020719_258",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2002-07-19",
     "achieved_at_approximate": false,
     "value_mhz": 258.7,
@@ -2810,7 +2760,9 @@
   {
     "uid": "20020720_409",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2002-07-20",
     "achieved_at_approximate": false,
     "value_mhz": 409.0,
@@ -2840,13 +2792,13 @@
     "_asset_base": "assets/gpu/20020720_409/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20020819_4309",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-08-19",
     "achieved_at_approximate": false,
     "value_mhz": 4309.62,
@@ -2875,14 +2827,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020819_4309/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020829_4339",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-08-29",
     "achieved_at_approximate": false,
     "value_mhz": 4339.0,
@@ -2911,14 +2861,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020829_4339/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020901_4418",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-09-01",
     "achieved_at_approximate": false,
     "value_mhz": 4418.38,
@@ -2947,14 +2895,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020901_4418/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020911_479",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2002-09-11",
     "achieved_at_approximate": false,
     "value_mhz": 479.0,
@@ -2984,13 +2932,13 @@
     "_asset_base": "assets/gpu/20020911_479/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20020915_4424",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-09-15",
     "achieved_at_approximate": false,
     "value_mhz": 4424.99,
@@ -3019,14 +2967,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20020915_4424/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20020927_508",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2002-09-27",
     "achieved_at_approximate": false,
     "value_mhz": 508.0,
@@ -3056,13 +3004,15 @@
     "_asset_base": "assets/gpu/20020927_508/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20021027_285",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2002-10-27",
     "achieved_at_approximate": false,
     "value_mhz": 285.7,
@@ -3118,7 +3068,9 @@
   {
     "uid": "20021103_286",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2002-11-03",
     "achieved_at_approximate": false,
     "value_mhz": 286.8,
@@ -3172,7 +3124,7 @@
   {
     "uid": "20021117_4438",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-11-17",
     "achieved_at_approximate": false,
     "value_mhz": 4438.35,
@@ -3201,14 +3153,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20021117_4438/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20021201_4456",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-12-01",
     "achieved_at_approximate": false,
     "value_mhz": 4456.58,
@@ -3237,14 +3187,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20021201_4456/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20021208_4588",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2002-12-08",
     "achieved_at_approximate": false,
     "value_mhz": 4588.49,
@@ -3273,14 +3221,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20021208_4588/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20030204_513",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-02-04",
     "achieved_at_approximate": false,
     "value_mhz": 513.0,
@@ -3310,13 +3258,13 @@
     "_asset_base": "assets/gpu/20030204_513/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20030214_4599",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2003-02-14",
     "achieved_at_approximate": false,
     "value_mhz": 4599.85,
@@ -3345,14 +3293,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20030214_4599/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20030223_4623",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2003-02-23",
     "achieved_at_approximate": false,
     "value_mhz": 4623.21,
@@ -3381,14 +3327,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20030223_4623/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20030510_540",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-05-10",
     "achieved_at_approximate": false,
     "value_mhz": 540.0,
@@ -3418,13 +3364,15 @@
     "_asset_base": "assets/gpu/20030510_540/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20030511_558",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-05-11",
     "achieved_at_approximate": false,
     "value_mhz": 558.0,
@@ -3454,13 +3402,15 @@
     "_asset_base": "assets/gpu/20030511_558/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20030511_291",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2003-05-11",
     "achieved_at_approximate": false,
     "value_mhz": 291.7,
@@ -3514,7 +3464,7 @@
   {
     "uid": "20030524_4762",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2003-05-24",
     "achieved_at_approximate": false,
     "value_mhz": 4762.4,
@@ -3543,14 +3493,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20030524_4762/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20030530_567",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 567.0,
@@ -3580,13 +3530,15 @@
     "_asset_base": "assets/gpu/20030530_567/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20030611_594",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-06-11",
     "achieved_at_approximate": false,
     "value_mhz": 594.0,
@@ -3616,13 +3568,13 @@
     "_asset_base": "assets/gpu/20030611_594/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20030629_4872",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2003-06-29",
     "achieved_at_approximate": false,
     "value_mhz": 4872.65,
@@ -3651,14 +3603,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20030629_4872/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20030701_296",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2003-07-01",
     "achieved_at_approximate": false,
     "value_mhz": 296.2,
@@ -3714,7 +3666,7 @@
   {
     "uid": "20030703_5125",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2003-07-03",
     "achieved_at_approximate": false,
     "value_mhz": 5125.91,
@@ -3743,14 +3695,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20030703_5125/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20030708_689",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-07-08",
     "achieved_at_approximate": false,
     "value_mhz": 689.0,
@@ -3780,13 +3732,15 @@
     "_asset_base": "assets/gpu/20030708_689/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20030712_314",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2003-07-12",
     "achieved_at_approximate": false,
     "value_mhz": 314.1,
@@ -3840,7 +3794,9 @@
   {
     "uid": "20030911_702",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-09-11",
     "achieved_at_approximate": false,
     "value_mhz": 702.0,
@@ -3870,13 +3826,15 @@
     "_asset_base": "assets/gpu/20030911_702/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20031025_711",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2003-10-25",
     "achieved_at_approximate": false,
     "value_mhz": 711.0,
@@ -3906,13 +3864,13 @@
     "_asset_base": "assets/gpu/20031025_711/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20031202_5154",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2003-12-02",
     "achieved_at_approximate": false,
     "value_mhz": 5154.54,
@@ -3941,14 +3899,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20031202_5154/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20031230_5255",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2003-12-30",
     "achieved_at_approximate": false,
     "value_mhz": 5255.0,
@@ -3977,14 +3933,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20031230_5255/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20040102_5326",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-01-02",
     "achieved_at_approximate": false,
     "value_mhz": 5326.36,
@@ -4013,14 +3967,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20040102_5326/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20040412_325",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2004-04-12",
     "achieved_at_approximate": false,
     "value_mhz": 325.1,
@@ -4074,7 +4028,9 @@
   {
     "uid": "20040507_715",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2004-05-07",
     "achieved_at_approximate": false,
     "value_mhz": 715.0,
@@ -4104,13 +4060,13 @@
     "_asset_base": "assets/gpu/20040507_715/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20040509_5387",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-05-09",
     "achieved_at_approximate": false,
     "value_mhz": 5387.2,
@@ -4139,14 +4095,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20040509_5387/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20040525_6009",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-05-25",
     "achieved_at_approximate": false,
     "value_mhz": 6009.8,
@@ -4230,14 +4184,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20040525_6009/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20040727_347",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2004-07-27",
     "achieved_at_approximate": false,
     "value_mhz": 347.63,
@@ -4291,7 +4245,9 @@
   {
     "uid": "20040728_349",
     "category": "memory",
-    "subcategory": "DDR",
+    "subcategory": [
+      "DDR"
+    ],
     "achieved_at": "2004-07-28",
     "achieved_at_approximate": false,
     "value_mhz": 349.88,
@@ -4355,7 +4311,9 @@
   {
     "uid": "20040729_359",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2004-07-29",
     "achieved_at_approximate": false,
     "value_mhz": 359,
@@ -4409,7 +4367,7 @@
   {
     "uid": "20040731_366",
     "category": "memory",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-07-31",
     "achieved_at_approximate": false,
     "value_mhz": 366.4,
@@ -4459,7 +4417,9 @@
   {
     "uid": "20040915_807",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2004-09-15",
     "achieved_at_approximate": false,
     "value_mhz": 807.0,
@@ -4489,13 +4449,15 @@
     "_asset_base": "assets/gpu/20040915_807/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20040922_368",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2004-09-22",
     "achieved_at_approximate": false,
     "value_mhz": 368,
@@ -4549,7 +4511,9 @@
   {
     "uid": "20041001_810",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2004-10-01",
     "achieved_at_approximate": false,
     "value_mhz": 810.0,
@@ -4579,13 +4543,13 @@
     "_asset_base": "assets/gpu/20041001_810/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20041016_6042",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-10-16",
     "achieved_at_approximate": false,
     "value_mhz": 6042.5,
@@ -4621,14 +4585,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20041016_6042/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20041028_6114",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-10-28",
     "achieved_at_approximate": false,
     "value_mhz": 6114,
@@ -4675,14 +4637,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20041028_6114/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20041031_376",
     "category": "memory",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-10-31",
     "achieved_at_approximate": false,
     "value_mhz": 376.6,
@@ -4732,7 +4692,7 @@
   {
     "uid": "20041101_6302",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-11-01",
     "achieved_at_approximate": false,
     "value_mhz": 6302.3,
@@ -4761,14 +4721,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20041101_6302/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20041101_6212",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-11-01",
     "achieved_at_approximate": false,
     "value_mhz": 6212.1,
@@ -4797,14 +4755,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20041101_6212/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20041105_380",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2004-11-05",
     "achieved_at_approximate": false,
     "value_mhz": 380.4,
@@ -4844,12 +4802,16 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20041105_380/",
     "_genuine_overall": true,
-    "_genuine_in": []
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20041106_410",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2004-11-06",
     "achieved_at_approximate": false,
     "value_mhz": 410.4,
@@ -4894,12 +4856,16 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/memory/20041106_410/",
     "_genuine_overall": true,
-    "_genuine_in": []
+    "_genuine_in": [
+      "DDR2"
+    ]
   },
   {
     "uid": "20041107_417",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2004-11-07",
     "achieved_at_approximate": false,
     "value_mhz": 417.1,
@@ -4963,7 +4929,9 @@
   {
     "uid": "20041117_430",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2004-11-17",
     "achieved_at_approximate": false,
     "value_mhz": 430.1,
@@ -5017,7 +4985,9 @@
   {
     "uid": "20041118_824",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2004-11-18",
     "achieved_at_approximate": false,
     "value_mhz": 824.0,
@@ -5047,13 +5017,13 @@
     "_asset_base": "assets/gpu/20041118_824/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20041129_6315",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2004-11-29",
     "achieved_at_approximate": false,
     "value_mhz": 6315.2,
@@ -5082,14 +5052,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20041129_6315/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20041202_449",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2004-12-02",
     "achieved_at_approximate": false,
     "value_mhz": 449.7,
@@ -5143,7 +5113,9 @@
   {
     "uid": "20050111_614",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2005-01-11",
     "achieved_at_approximate": false,
     "value_mhz": 614.9,
@@ -5197,7 +5169,7 @@
   {
     "uid": "20050118_6495",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-01-18",
     "achieved_at_approximate": false,
     "value_mhz": 6495.2,
@@ -5226,14 +5198,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20050118_6495/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20050603_860",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2005-06-03",
     "achieved_at_approximate": false,
     "value_mhz": 860.0,
@@ -5263,13 +5235,13 @@
     "_asset_base": "assets/gpu/20050603_860/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20050607_6578",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-06-07",
     "achieved_at_approximate": false,
     "value_mhz": 6578.85,
@@ -5298,14 +5270,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20050607_6578/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20050729_6925",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-07-29",
     "achieved_at_approximate": false,
     "value_mhz": 6925.2,
@@ -5334,14 +5304,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20050729_6925/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20050809_7133",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-08-09",
     "achieved_at_approximate": false,
     "value_mhz": 7133.5,
@@ -5370,14 +5338,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20050809_7133/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20050813_7323",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-08-13",
     "achieved_at_approximate": false,
     "value_mhz": 7323.7,
@@ -5419,14 +5385,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20050813_7323/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20050916_7418",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-09-16",
     "achieved_at_approximate": false,
     "value_mhz": 7418.4,
@@ -5455,14 +5419,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20050916_7418/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20051011_878",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2005-10-11",
     "achieved_at_approximate": false,
     "value_mhz": 878.0,
@@ -5492,13 +5456,15 @@
     "_asset_base": "assets/gpu/20051011_878/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20051017_1006",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2005-10-17",
     "achieved_at_approximate": false,
     "value_mhz": 1006.0,
@@ -5528,13 +5494,13 @@
     "_asset_base": "assets/gpu/20051017_1006/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20051113_7473",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-11-13",
     "achieved_at_approximate": false,
     "value_mhz": 7473.75,
@@ -5563,14 +5529,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20051113_7473/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20051213_7608",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-12-13",
     "achieved_at_approximate": false,
     "value_mhz": 7608.5,
@@ -5599,14 +5563,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20051213_7608/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20051213_7532",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-12-13",
     "achieved_at_approximate": false,
     "value_mhz": 7532.8,
@@ -5635,14 +5597,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20051213_7532/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20051228_7625",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-12-28",
     "achieved_at_approximate": false,
     "value_mhz": 7625.1,
@@ -5671,14 +5631,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20051228_7625/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20051229_7638",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2005-12-29",
     "achieved_at_approximate": false,
     "value_mhz": 7638.6,
@@ -5707,14 +5665,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20051229_7638/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20060122_626",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2006-01-22",
     "achieved_at_approximate": false,
     "value_mhz": 626.8,
@@ -5750,7 +5708,7 @@
   {
     "uid": "20060206_7657",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2006-02-06",
     "achieved_at_approximate": false,
     "value_mhz": 7657.6,
@@ -5779,14 +5737,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20060206_7657/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20060507_628",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2006-05-07",
     "achieved_at_approximate": false,
     "value_mhz": 628.9,
@@ -5840,7 +5798,9 @@
   {
     "uid": "20060518_645",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2006-05-18",
     "achieved_at_approximate": false,
     "value_mhz": 645,
@@ -5889,7 +5849,9 @@
   {
     "uid": "20060611_1045",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2006-06-11",
     "achieved_at_approximate": false,
     "value_mhz": 1045.0,
@@ -5919,13 +5881,15 @@
     "_asset_base": "assets/gpu/20060611_1045/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20060908_697",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2006-09-08",
     "achieved_at_approximate": false,
     "value_mhz": 697,
@@ -5976,7 +5940,9 @@
   {
     "uid": "20070102_716",
     "category": "memory",
-    "subcategory": "DDR2",
+    "subcategory": [
+      "DDR2"
+    ],
     "achieved_at": "2007-01-02",
     "achieved_at_approximate": false,
     "value_mhz": 716.1,
@@ -6040,7 +6006,7 @@
   {
     "uid": "20070121_7791",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2007-01-21",
     "achieved_at_approximate": false,
     "value_mhz": 7791.79,
@@ -6069,14 +6035,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20070121_7791/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20070122_8000",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2007-01-22",
     "achieved_at_approximate": false,
     "value_mhz": 8000.1,
@@ -6105,14 +6069,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20070122_8000/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20070330_8179",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2007-03-30",
     "achieved_at_approximate": false,
     "value_mhz": 8179.89,
@@ -6141,14 +6103,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20070330_8179/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20070506_1048",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2007-05-06",
     "achieved_at_approximate": false,
     "value_mhz": 1048.0,
@@ -6178,13 +6140,15 @@
     "_asset_base": "assets/gpu/20070506_1048/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20070531_1140",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2007-05-31",
     "achieved_at_approximate": false,
     "value_mhz": 1140.0,
@@ -6220,7 +6184,9 @@
   {
     "uid": "20070601_1144",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2007-06-01",
     "achieved_at_approximate": false,
     "value_mhz": 1144.2,
@@ -6256,7 +6222,9 @@
   {
     "uid": "20070604_1146",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2007-06-04",
     "achieved_at_approximate": false,
     "value_mhz": 1146.0,
@@ -6292,7 +6260,9 @@
   {
     "uid": "20070605_1120",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2007-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 1120.0,
@@ -6322,13 +6292,15 @@
     "_asset_base": "assets/gpu/20070605_1120/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ATI"
+      "DGPU"
     ]
   },
   {
     "uid": "20070630_1168",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2007-06-30",
     "achieved_at_approximate": false,
     "value_mhz": 1168.0,
@@ -6358,13 +6330,15 @@
     "_asset_base": "assets/gpu/20070630_1168/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVIDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20070702_1150",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2007-07-02",
     "achieved_at_approximate": false,
     "value_mhz": 1150.2,
@@ -6400,7 +6374,9 @@
   {
     "uid": "20070718_1156",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2007-07-18",
     "achieved_at_approximate": false,
     "value_mhz": 1156.0,
@@ -6436,7 +6412,7 @@
   {
     "uid": "20070720_8220",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2007-07-20",
     "achieved_at_approximate": false,
     "value_mhz": 8220.1,
@@ -6465,14 +6441,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20070720_8220/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20070720_8180",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2007-07-20",
     "achieved_at_approximate": false,
     "value_mhz": 8180.4,
@@ -6501,14 +6475,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20070720_8180/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20070928_1304",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2007-09-28",
     "achieved_at_approximate": false,
     "value_mhz": 1304.1,
@@ -6544,7 +6518,9 @@
   {
     "uid": "20070928_1178",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2007-09-28",
     "achieved_at_approximate": false,
     "value_mhz": 1178.9,
@@ -6580,7 +6556,9 @@
   {
     "uid": "20071208_1180",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2007-12-08",
     "achieved_at_approximate": false,
     "value_mhz": 1180.0,
@@ -6610,13 +6588,15 @@
     "_asset_base": "assets/gpu/20071208_1180/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20071230_1193",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2007-12-30",
     "achieved_at_approximate": false,
     "value_mhz": 1193.0,
@@ -6646,13 +6626,15 @@
     "_asset_base": "assets/gpu/20071230_1193/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20080120_1360",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2008-01-20",
     "achieved_at_approximate": false,
     "value_mhz": 1360.0,
@@ -6682,13 +6664,15 @@
     "_asset_base": "assets/gpu/20080120_1360/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20081005_1341",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2008-10-05",
     "achieved_at_approximate": false,
     "value_mhz": 1341.2,
@@ -6724,7 +6708,9 @@
   {
     "uid": "20081219_1346",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2008-12-19",
     "achieved_at_approximate": false,
     "value_mhz": 1346.2,
@@ -6760,7 +6746,9 @@
   {
     "uid": "20090209_1352",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2009-02-09",
     "achieved_at_approximate": false,
     "value_mhz": 1352.2,
@@ -6796,7 +6784,9 @@
   {
     "uid": "20091129_1380",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2009-11-29",
     "achieved_at_approximate": false,
     "value_mhz": 1380.0,
@@ -6826,13 +6816,15 @@
     "_asset_base": "assets/gpu/20091129_1380/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20091219_1400",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2009-12-19",
     "achieved_at_approximate": false,
     "value_mhz": 1400.0,
@@ -6862,13 +6854,15 @@
     "_asset_base": "assets/gpu/20091219_1400/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20100112_1420",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2010-01-12",
     "achieved_at_approximate": false,
     "value_mhz": 1420.0,
@@ -6898,13 +6892,15 @@
     "_asset_base": "assets/gpu/20100112_1420/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20100112_1410",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2010-01-12",
     "achieved_at_approximate": false,
     "value_mhz": 1410.0,
@@ -6934,13 +6930,15 @@
     "_asset_base": "assets/gpu/20100112_1410/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20100220_1450",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2010-02-20",
     "achieved_at_approximate": false,
     "value_mhz": 1450.0,
@@ -6970,13 +6968,15 @@
     "_asset_base": "assets/gpu/20100220_1450/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20100311_1485",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2010-03-11",
     "achieved_at_approximate": false,
     "value_mhz": 1485.0,
@@ -7006,13 +7006,15 @@
     "_asset_base": "assets/gpu/20100311_1485/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20100411_1525",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2010-04-11",
     "achieved_at_approximate": false,
     "value_mhz": 1525.0,
@@ -7049,13 +7051,15 @@
     "_asset_base": "assets/gpu/20100411_1525/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20100821_1534",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2010-08-21",
     "achieved_at_approximate": false,
     "value_mhz": 1534.0,
@@ -7091,7 +7095,9 @@
   {
     "uid": "20100903_1539",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2010-09-03",
     "achieved_at_approximate": false,
     "value_mhz": 1539.2,
@@ -7127,7 +7133,7 @@
   {
     "uid": "20100923_8242",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2010-09-23",
     "achieved_at_approximate": false,
     "value_mhz": 8242.45,
@@ -7156,14 +7162,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20100923_8242/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20100928_1553",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2010-09-28",
     "achieved_at_approximate": false,
     "value_mhz": 1553.4,
@@ -7199,7 +7205,9 @@
   {
     "uid": "20110103_1700",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2011-01-03",
     "achieved_at_approximate": false,
     "value_mhz": 1700.0,
@@ -7229,13 +7237,15 @@
     "_asset_base": "assets/gpu/20110103_1700/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20110106_1950",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2011-01-06",
     "achieved_at_approximate": false,
     "value_mhz": 1950.0,
@@ -7265,13 +7275,15 @@
     "_asset_base": "assets/gpu/20110106_1950/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20110113_2000",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2011-01-13",
     "achieved_at_approximate": false,
     "value_mhz": 2000.0,
@@ -7301,13 +7313,15 @@
     "_asset_base": "assets/gpu/20110113_2000/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20110115_2170",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2011-01-15",
     "achieved_at_approximate": false,
     "value_mhz": 2170.0,
@@ -7337,13 +7351,15 @@
     "_asset_base": "assets/gpu/20110115_2170/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20110116_2234",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2011-01-16",
     "achieved_at_approximate": false,
     "value_mhz": 2234.0,
@@ -7373,13 +7389,15 @@
     "_asset_base": "assets/gpu/20110116_2234/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20110228_1575",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-02-28",
     "achieved_at_approximate": false,
     "value_mhz": 1575.1,
@@ -7415,7 +7433,9 @@
   {
     "uid": "20110319_1577",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-03-19",
     "achieved_at_approximate": false,
     "value_mhz": 1577.1,
@@ -7451,7 +7471,9 @@
   {
     "uid": "20110321_1625",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-03-21",
     "achieved_at_approximate": false,
     "value_mhz": 1625.6,
@@ -7487,7 +7509,9 @@
   {
     "uid": "20110321_1614",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-03-21",
     "achieved_at_approximate": false,
     "value_mhz": 1614.2,
@@ -7523,7 +7547,9 @@
   {
     "uid": "20110719_2300",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2011-07-19",
     "achieved_at_approximate": false,
     "value_mhz": 2300.0,
@@ -7553,13 +7579,13 @@
     "_asset_base": "assets/gpu/20110719_2300/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20110819_8308",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2011-08-19",
     "achieved_at_approximate": false,
     "value_mhz": 8308.94,
@@ -7588,14 +7614,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20110819_8308/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20110824_2400",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2011-08-24",
     "achieved_at_approximate": false,
     "value_mhz": 2400.0,
@@ -7625,13 +7651,13 @@
     "_asset_base": "assets/gpu/20110824_2400/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20110902_8429",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2011-09-02",
     "achieved_at_approximate": false,
     "value_mhz": 8429.38,
@@ -7660,14 +7686,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20110902_8429/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20111027_8461",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2011-10-27",
     "achieved_at_approximate": false,
     "value_mhz": 8461.51,
@@ -7696,14 +7720,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20111027_8461/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20111031_8491",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2011-10-31",
     "achieved_at_approximate": false,
     "value_mhz": 8491.7,
@@ -7732,14 +7754,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20111031_8491/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20111101_8709",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2011-11-01",
     "achieved_at_approximate": false,
     "value_mhz": 8709.06,
@@ -7768,14 +7788,12 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20111101_8709/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20111101_8585",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2011-11-01",
     "achieved_at_approximate": false,
     "value_mhz": 8585.05,
@@ -7804,14 +7822,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20111101_8585/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20111109_1655",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-11-09",
     "achieved_at_approximate": false,
     "value_mhz": 1655.6,
@@ -7847,7 +7865,9 @@
   {
     "uid": "20111122_1733",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-11-22",
     "achieved_at_approximate": false,
     "value_mhz": 1733.8,
@@ -7883,7 +7903,9 @@
   {
     "uid": "20111122_1661",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-11-22",
     "achieved_at_approximate": false,
     "value_mhz": 1661.5,
@@ -7919,7 +7941,9 @@
   {
     "uid": "20111203_1800",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2011-12-03",
     "achieved_at_approximate": false,
     "value_mhz": 1800.1,
@@ -7955,7 +7979,9 @@
   {
     "uid": "20120228_1868",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2012-02-28",
     "achieved_at_approximate": false,
     "value_mhz": 1868.3,
@@ -7991,7 +8017,9 @@
   {
     "uid": "20120529_1918",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2012-05-29",
     "achieved_at_approximate": false,
     "value_mhz": 1918.5,
@@ -8027,7 +8055,9 @@
   {
     "uid": "20120620_1919",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2012-06-20",
     "achieved_at_approximate": false,
     "value_mhz": 1919.6,
@@ -8063,7 +8093,9 @@
   {
     "uid": "20120625_1921",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2012-06-25",
     "achieved_at_approximate": false,
     "value_mhz": 1921.8,
@@ -8099,7 +8131,9 @@
   {
     "uid": "20120819_1922",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2012-08-19",
     "achieved_at_approximate": false,
     "value_mhz": 1922.9,
@@ -8135,7 +8169,9 @@
   {
     "uid": "20120831_1937",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2012-08-31",
     "achieved_at_approximate": false,
     "value_mhz": 1937.9,
@@ -8171,7 +8207,9 @@
   {
     "uid": "20121112_1950",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2012-11-12",
     "achieved_at_approximate": false,
     "value_mhz": 1950.3,
@@ -8206,9 +8244,8 @@
   },
   {
     "uid": "20121119_8794",
-    "_old_uid": "20121119_8794",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2012-11-19",
     "achieved_at_approximate": false,
     "value_mhz": 8794.33,
@@ -8239,14 +8276,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20121119_8794/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "AMD"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20130605_2115",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2013-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 2115.6,
@@ -8282,7 +8319,9 @@
   {
     "uid": "20130609_2141",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2013-06-09",
     "achieved_at_approximate": false,
     "value_mhz": 2141.6,
@@ -8318,7 +8357,9 @@
   {
     "uid": "20130610_2142",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2013-06-10",
     "achieved_at_approximate": false,
     "value_mhz": 2142.8,
@@ -8354,7 +8395,9 @@
   {
     "uid": "20130611_2144",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2013-06-11",
     "achieved_at_approximate": false,
     "value_mhz": 2144.6,
@@ -8390,7 +8433,9 @@
   {
     "uid": "20130612_2145",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2013-06-12",
     "achieved_at_approximate": false,
     "value_mhz": 2145.2,
@@ -8426,7 +8471,9 @@
   {
     "uid": "20130809_2202",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2013-08-09",
     "achieved_at_approximate": false,
     "value_mhz": 2202.0,
@@ -8462,7 +8509,9 @@
   {
     "uid": "20140605_2282",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2014-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 2282.8,
@@ -8498,7 +8547,9 @@
   {
     "uid": "20140630_2310",
     "category": "memory",
-    "subcategory": "DDR3",
+    "subcategory": [
+      "DDR3"
+    ],
     "achieved_at": "2014-06-30",
     "achieved_at_approximate": false,
     "value_mhz": 2310.1,
@@ -8534,7 +8585,9 @@
   {
     "uid": "20150805_2397",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2015-08-05",
     "achieved_at_approximate": false,
     "value_mhz": 2397.7,
@@ -8570,7 +8623,9 @@
   {
     "uid": "20150811_2419",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2015-08-11",
     "achieved_at_approximate": false,
     "value_mhz": 2419.0,
@@ -8606,7 +8661,9 @@
   {
     "uid": "20150818_2450",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2015-08-18",
     "achieved_at_approximate": false,
     "value_mhz": 2450.8,
@@ -8642,7 +8699,9 @@
   {
     "uid": "20160524_2451",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2016-05-24",
     "achieved_at_approximate": false,
     "value_mhz": 2451.8,
@@ -8678,7 +8737,9 @@
   {
     "uid": "20160525_2501",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2016-05-25",
     "achieved_at_approximate": false,
     "value_mhz": 2501.2,
@@ -8714,7 +8775,9 @@
   {
     "uid": "20160603_2515",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2016-06-03",
     "achieved_at_approximate": false,
     "value_mhz": 2515.9,
@@ -8750,7 +8813,9 @@
   {
     "uid": "20160604_2594",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2016-06-04",
     "achieved_at_approximate": false,
     "value_mhz": 2594.6,
@@ -8786,7 +8851,9 @@
   {
     "uid": "20160605_2420",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 2420.0,
@@ -8816,13 +8883,15 @@
     "_asset_base": "assets/gpu/20160605_2420/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20160622_2450",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-06-22",
     "achieved_at_approximate": false,
     "value_mhz": 2450.0,
@@ -8852,13 +8921,15 @@
     "_asset_base": "assets/gpu/20160622_2450/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20160706_2645",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-07-06",
     "achieved_at_approximate": false,
     "value_mhz": 2645.0,
@@ -8888,13 +8959,15 @@
     "_asset_base": "assets/gpu/20160706_2645/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20160724_2750",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-07-24",
     "achieved_at_approximate": false,
     "value_mhz": 2750.0,
@@ -8924,13 +8997,15 @@
     "_asset_base": "assets/gpu/20160724_2750/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20160724_2700",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-07-24",
     "achieved_at_approximate": false,
     "value_mhz": 2700.0,
@@ -8960,13 +9035,15 @@
     "_asset_base": "assets/gpu/20160724_2700/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20160805_2784",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-08-05",
     "achieved_at_approximate": false,
     "value_mhz": 2784.0,
@@ -8996,13 +9073,15 @@
     "_asset_base": "assets/gpu/20160805_2784/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20161030_2822",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-10-30",
     "achieved_at_approximate": false,
     "value_mhz": 2822.0,
@@ -9032,13 +9111,15 @@
     "_asset_base": "assets/gpu/20161030_2822/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20161104_2885",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-11-04",
     "achieved_at_approximate": false,
     "value_mhz": 2885.0,
@@ -9068,13 +9149,15 @@
     "_asset_base": "assets/gpu/20161104_2885/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20161104_2860",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-11-04",
     "achieved_at_approximate": false,
     "value_mhz": 2860.0,
@@ -9104,13 +9187,15 @@
     "_asset_base": "assets/gpu/20161104_2860/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20161218_3012",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2016-12-18",
     "achieved_at_approximate": false,
     "value_mhz": 3012.0,
@@ -9140,13 +9225,15 @@
     "_asset_base": "assets/gpu/20161218_3012/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20170113_2630",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-01-13",
     "achieved_at_approximate": false,
     "value_mhz": 2630.4,
@@ -9182,7 +9269,9 @@
   {
     "uid": "20170227_2631",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-02-27",
     "achieved_at_approximate": false,
     "value_mhz": 2631.4,
@@ -9218,7 +9307,9 @@
   {
     "uid": "20170322_3025",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2017-03-22",
     "achieved_at_approximate": false,
     "value_mhz": 3025.0,
@@ -9248,13 +9339,15 @@
     "_asset_base": "assets/gpu/20170322_3025/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20170330_2640",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-03-30",
     "achieved_at_approximate": false,
     "value_mhz": 2640.0,
@@ -9290,7 +9383,9 @@
   {
     "uid": "20170529_2644",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-05-29",
     "achieved_at_approximate": false,
     "value_mhz": 2644.0,
@@ -9326,7 +9421,9 @@
   {
     "uid": "20170530_2700",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 2700.0,
@@ -9362,7 +9459,9 @@
   {
     "uid": "20170530_2699",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 2699.0,
@@ -9398,7 +9497,9 @@
   {
     "uid": "20170603_2734",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-06-03",
     "achieved_at_approximate": false,
     "value_mhz": 2734.3,
@@ -9434,7 +9535,9 @@
   {
     "uid": "20170603_2731",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-06-03",
     "achieved_at_approximate": false,
     "value_mhz": 2731.8,
@@ -9470,7 +9573,9 @@
   {
     "uid": "20170606_2750",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-06-06",
     "achieved_at_approximate": false,
     "value_mhz": 2750.0,
@@ -9506,7 +9611,9 @@
   {
     "uid": "20171005_2764",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2017-10-05",
     "achieved_at_approximate": false,
     "value_mhz": 2764.6,
@@ -9542,7 +9649,9 @@
   {
     "uid": "20180530_2771",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2018-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 2771.5,
@@ -9578,7 +9687,9 @@
   {
     "uid": "20180530_2770",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2018-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 2770.7,
@@ -9614,7 +9725,9 @@
   {
     "uid": "20180530_2765",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2018-05-30",
     "achieved_at_approximate": false,
     "value_mhz": 2765.6,
@@ -9650,7 +9763,9 @@
   {
     "uid": "20181019_2782",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2018-10-19",
     "achieved_at_approximate": false,
     "value_mhz": 2782.9,
@@ -9686,7 +9801,9 @@
   {
     "uid": "20190108_2791",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-01-08",
     "achieved_at_approximate": false,
     "value_mhz": 2791.6,
@@ -9722,7 +9839,9 @@
   {
     "uid": "20190114_2804",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-01-14",
     "achieved_at_approximate": false,
     "value_mhz": 2804.4,
@@ -9758,7 +9877,9 @@
   {
     "uid": "20190513_2817",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-05-13",
     "achieved_at_approximate": false,
     "value_mhz": 2817.1,
@@ -9794,7 +9915,9 @@
   {
     "uid": "20190516_2863",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-05-16",
     "achieved_at_approximate": false,
     "value_mhz": 2863.0,
@@ -9830,7 +9953,9 @@
   {
     "uid": "20190519_2868",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-05-19",
     "achieved_at_approximate": false,
     "value_mhz": 2868.8,
@@ -9866,7 +9991,9 @@
   {
     "uid": "20190527_2879",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-05-27",
     "achieved_at_approximate": false,
     "value_mhz": 2879.4,
@@ -9902,7 +10029,9 @@
   {
     "uid": "20190528_2901",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-05-28",
     "achieved_at_approximate": false,
     "value_mhz": 2901.4,
@@ -9938,7 +10067,9 @@
   {
     "uid": "20190529_2943",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-05-29",
     "achieved_at_approximate": false,
     "value_mhz": 2943.2,
@@ -9974,7 +10105,9 @@
   {
     "uid": "20190806_2950",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-08-06",
     "achieved_at_approximate": false,
     "value_mhz": 2950.7,
@@ -10010,7 +10143,9 @@
   {
     "uid": "20190910_3008",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-09-10",
     "achieved_at_approximate": false,
     "value_mhz": 3008.4,
@@ -10046,7 +10181,9 @@
   {
     "uid": "20191024_3018",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-10-24",
     "achieved_at_approximate": false,
     "value_mhz": 3018.0,
@@ -10082,7 +10219,9 @@
   {
     "uid": "20191024_3012",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-10-24",
     "achieved_at_approximate": false,
     "value_mhz": 3012.2,
@@ -10118,7 +10257,9 @@
   {
     "uid": "20191025_3027",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2019-10-25",
     "achieved_at_approximate": false,
     "value_mhz": 3027.2,
@@ -10154,7 +10295,9 @@
   {
     "uid": "20200514_3332",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2020-05-14",
     "achieved_at_approximate": false,
     "value_mhz": 3332.7,
@@ -10190,7 +10333,9 @@
   {
     "uid": "20200817_3333",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2020-08-17",
     "achieved_at_approximate": false,
     "value_mhz": 3333.3,
@@ -10226,7 +10371,9 @@
   {
     "uid": "20210206_3453",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2021-02-06",
     "achieved_at_approximate": false,
     "value_mhz": 3453.1,
@@ -10262,7 +10409,9 @@
   {
     "uid": "20210329_3536",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2021-03-29",
     "achieved_at_approximate": false,
     "value_mhz": 3536.2,
@@ -10298,7 +10447,9 @@
   {
     "uid": "20210330_3578",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2021-03-30",
     "achieved_at_approximate": false,
     "value_mhz": 3578.2,
@@ -10334,7 +10485,9 @@
   {
     "uid": "20210416_3600",
     "category": "memory",
-    "subcategory": "DDR4",
+    "subcategory": [
+      "DDR4"
+    ],
     "achieved_at": "2021-04-16",
     "achieved_at_approximate": false,
     "value_mhz": 3600.2,
@@ -10370,7 +10523,9 @@
   {
     "uid": "20210421_3225",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2021-04-21",
     "achieved_at_approximate": false,
     "value_mhz": 3225.0,
@@ -10400,13 +10555,15 @@
     "_asset_base": "assets/gpu/20210421_3225/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20210512_3319",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2021-05-12",
     "achieved_at_approximate": false,
     "value_mhz": 3319.0,
@@ -10436,13 +10593,15 @@
     "_asset_base": "assets/gpu/20210512_3319/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "AMD"
+      "DGPU"
     ]
   },
   {
     "uid": "20211001_4004",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2021-10-01",
     "achieved_at_approximate": false,
     "value_mhz": 4004.1,
@@ -10478,7 +10637,9 @@
   {
     "uid": "20211008_4058",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2021-10-08",
     "achieved_at_approximate": false,
     "value_mhz": 4058.8,
@@ -10514,7 +10675,9 @@
   {
     "uid": "20211028_4124",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2021-10-28",
     "achieved_at_approximate": false,
     "value_mhz": 4124.2,
@@ -10550,7 +10713,9 @@
   {
     "uid": "20211029_4335",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2021-10-29",
     "achieved_at_approximate": false,
     "value_mhz": 4335.4,
@@ -10592,7 +10757,9 @@
   {
     "uid": "20211103_4352",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2021-11-03",
     "achieved_at_approximate": false,
     "value_mhz": 4352.3,
@@ -10634,7 +10801,9 @@
   {
     "uid": "20220112_4779",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-01-12",
     "achieved_at_approximate": false,
     "value_mhz": 4779.7,
@@ -10670,7 +10839,9 @@
   {
     "uid": "20220426_5001",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-04-26",
     "achieved_at_approximate": false,
     "value_mhz": 5001.8,
@@ -10712,7 +10883,9 @@
   {
     "uid": "20220427_5011",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-04-27",
     "achieved_at_approximate": false,
     "value_mhz": 5011,
@@ -10754,7 +10927,9 @@
   {
     "uid": "20220524_5050",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-05-24",
     "achieved_at_approximate": false,
     "value_mhz": 5050,
@@ -10796,7 +10971,9 @@
   {
     "uid": "20220624_5111",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-06-24",
     "achieved_at_approximate": false,
     "value_mhz": 5111.7,
@@ -10838,7 +11015,9 @@
   {
     "uid": "20220705_5275",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-07-05",
     "achieved_at_approximate": false,
     "value_mhz": 5275.9,
@@ -10880,7 +11059,9 @@
   {
     "uid": "20220705_5254",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-07-05",
     "achieved_at_approximate": false,
     "value_mhz": 5254.1,
@@ -10922,7 +11103,9 @@
   {
     "uid": "20220713_5300",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-07-13",
     "achieved_at_approximate": false,
     "value_mhz": 5300.3,
@@ -10964,7 +11147,7 @@
   {
     "uid": "20221014_8812",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2022-10-14",
     "achieved_at_approximate": false,
     "value_mhz": 8812.85,
@@ -10993,14 +11176,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20221014_8812/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20221020_5564",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2022-10-20",
     "achieved_at_approximate": false,
     "value_mhz": 5564.8,
@@ -11042,7 +11225,9 @@
   {
     "uid": "20221024_3345",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2022-10-24",
     "achieved_at_approximate": false,
     "value_mhz": 3345.0,
@@ -11072,13 +11257,15 @@
     "_asset_base": "assets/gpu/20221024_3345/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20221103_3705",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2022-11-03",
     "achieved_at_approximate": false,
     "value_mhz": 3705.0,
@@ -11108,13 +11295,15 @@
     "_asset_base": "assets/gpu/20221103_3705/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20221119_3825",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2022-11-19",
     "achieved_at_approximate": false,
     "value_mhz": 3825.0,
@@ -11144,13 +11333,13 @@
     "_asset_base": "assets/gpu/20221119_3825/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20221209_9008",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2022-12-09",
     "achieved_at_approximate": false,
     "value_mhz": 9008.82,
@@ -11179,14 +11368,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20221209_9008/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20230110_5567",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-01-10",
     "achieved_at_approximate": false,
     "value_mhz": 5567.5,
@@ -11228,7 +11417,9 @@
   {
     "uid": "20230117_5612",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-01-17",
     "achieved_at_approximate": false,
     "value_mhz": 5612.3,
@@ -11270,7 +11461,9 @@
   {
     "uid": "20230222_3840",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2023-02-22",
     "achieved_at_approximate": false,
     "value_mhz": 3840.0,
@@ -11300,13 +11493,15 @@
     "_asset_base": "assets/gpu/20230222_3840/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20230605_5613",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-06-05",
     "achieved_at_approximate": false,
     "value_mhz": 5613.6,
@@ -11348,7 +11543,9 @@
   {
     "uid": "20230606_5626",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-06-06",
     "achieved_at_approximate": false,
     "value_mhz": 5626.6,
@@ -11390,7 +11587,9 @@
   {
     "uid": "20230606_5616",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-06-06",
     "achieved_at_approximate": false,
     "value_mhz": 5616.4,
@@ -11432,7 +11631,9 @@
   {
     "uid": "20230607_5627",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-06-07",
     "achieved_at_approximate": false,
     "value_mhz": 5627.3,
@@ -11474,7 +11675,9 @@
   {
     "uid": "20230617_3930",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2023-06-17",
     "achieved_at_approximate": false,
     "value_mhz": 3930.0,
@@ -11504,13 +11707,15 @@
     "_asset_base": "assets/gpu/20230617_3930/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20230628_3945",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2023-06-28",
     "achieved_at_approximate": false,
     "value_mhz": 3945.0,
@@ -11540,13 +11745,15 @@
     "_asset_base": "assets/gpu/20230628_3945/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20230705_3975",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2023-07-05",
     "achieved_at_approximate": false,
     "value_mhz": 3975.0,
@@ -11576,13 +11783,15 @@
     "_asset_base": "assets/gpu/20230705_3975/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20230706_4020",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2023-07-06",
     "achieved_at_approximate": false,
     "value_mhz": 4020,
@@ -11635,13 +11844,15 @@
     "_asset_base": "assets/gpu/20230706_4020/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20230706_4005",
     "category": "gpu",
-    "subcategory": "DGPU",
+    "subcategory": [
+      "DGPU"
+    ],
     "achieved_at": "2023-07-06",
     "achieved_at_approximate": false,
     "value_mhz": 4005,
@@ -11694,13 +11905,15 @@
     "_asset_base": "assets/gpu/20230706_4005/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "NVDIA"
+      "DGPU"
     ]
   },
   {
     "uid": "20231002_5806",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-10-02",
     "achieved_at_approximate": false,
     "value_mhz": 5806.5,
@@ -11742,7 +11955,7 @@
   {
     "uid": "20231016_9043",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2023-10-16",
     "achieved_at_approximate": false,
     "value_mhz": 9043.92,
@@ -11771,14 +11984,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20231016_9043/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20231020_5809",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-10-20",
     "achieved_at_approximate": false,
     "value_mhz": 5809.2,
@@ -11820,7 +12033,9 @@
   {
     "uid": "20231031_5824",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-10-31",
     "achieved_at_approximate": false,
     "value_mhz": 5824.1,
@@ -11862,7 +12077,9 @@
   {
     "uid": "20231113_5824",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2023-11-13",
     "achieved_at_approximate": false,
     "value_mhz": 5824.2,
@@ -11904,7 +12121,9 @@
   {
     "uid": "20240205_5844",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-02-05",
     "achieved_at_approximate": false,
     "value_mhz": 5844.3,
@@ -11946,7 +12165,7 @@
   {
     "uid": "20240307_9117",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2024-03-07",
     "achieved_at_approximate": false,
     "value_mhz": 9117.75,
@@ -11975,14 +12194,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20240307_9117/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20240926_6020",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-09-26",
     "achieved_at_approximate": false,
     "value_mhz": 6020.6,
@@ -12018,7 +12237,9 @@
   {
     "uid": "20240927_6032",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-09-27",
     "achieved_at_approximate": false,
     "value_mhz": 6032.7,
@@ -12060,7 +12281,9 @@
   {
     "uid": "20241024_6097",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-10-24",
     "achieved_at_approximate": false,
     "value_mhz": 6097.6,
@@ -12102,7 +12325,9 @@
   {
     "uid": "20241024_6053",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-10-24",
     "achieved_at_approximate": false,
     "value_mhz": 6053.7,
@@ -12144,7 +12369,9 @@
   {
     "uid": "20241113_6175",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-11-13",
     "achieved_at_approximate": false,
     "value_mhz": 6175.4,
@@ -12186,7 +12413,9 @@
   {
     "uid": "20241113_6131",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-11-13",
     "achieved_at_approximate": false,
     "value_mhz": 6131.9,
@@ -12228,7 +12457,9 @@
   {
     "uid": "20241115_6263",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-11-15",
     "achieved_at_approximate": false,
     "value_mhz": 6263.9,
@@ -12270,7 +12501,9 @@
   {
     "uid": "20241125_6305",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-11-25",
     "achieved_at_approximate": false,
     "value_mhz": 6305.8,
@@ -12312,7 +12545,9 @@
   {
     "uid": "20241127_6317",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-11-27",
     "achieved_at_approximate": false,
     "value_mhz": 6317.5,
@@ -12354,7 +12589,9 @@
   {
     "uid": "20241203_6333",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-12-03",
     "achieved_at_approximate": false,
     "value_mhz": 6333,
@@ -12396,7 +12633,9 @@
   {
     "uid": "20241205_6348",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2024-12-05",
     "achieved_at_approximate": false,
     "value_mhz": 6348.9,
@@ -12438,7 +12677,7 @@
   {
     "uid": "20250111_9121",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2025-01-11",
     "achieved_at_approximate": false,
     "value_mhz": 9121.61,
@@ -12467,14 +12706,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20250111_9121/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20250124_6363",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-01-24",
     "achieved_at_approximate": false,
     "value_mhz": 6363,
@@ -12516,7 +12755,9 @@
   {
     "uid": "20250202_6367",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-02-02",
     "achieved_at_approximate": false,
     "value_mhz": 6367.5,
@@ -12558,7 +12799,9 @@
   {
     "uid": "20250220_6375",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-02-20",
     "achieved_at_approximate": false,
     "value_mhz": 6375.8,
@@ -12600,7 +12843,9 @@
   {
     "uid": "20250329_6381",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-03-29",
     "achieved_at_approximate": false,
     "value_mhz": 6381.2,
@@ -12642,7 +12887,9 @@
   {
     "uid": "20250413_6386",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-04-13",
     "achieved_at_approximate": false,
     "value_mhz": 6386.2,
@@ -12684,7 +12931,9 @@
   {
     "uid": "20250503_6402",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-05-03",
     "achieved_at_approximate": false,
     "value_mhz": 6402.7,
@@ -12726,7 +12975,9 @@
   {
     "uid": "20250503_6386",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-05-03",
     "achieved_at_approximate": false,
     "value_mhz": 6386.8,
@@ -12768,7 +13019,9 @@
   {
     "uid": "20250504_6411",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-05-04",
     "achieved_at_approximate": false,
     "value_mhz": 6411.2,
@@ -12810,7 +13063,9 @@
   {
     "uid": "20250517_6416",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-05-17",
     "achieved_at_approximate": false,
     "value_mhz": 6416.3,
@@ -12852,7 +13107,9 @@
   {
     "uid": "20250519_6421",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-05-19",
     "achieved_at_approximate": false,
     "value_mhz": 6421.5,
@@ -12888,7 +13145,9 @@
   {
     "uid": "20250710_6436",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-07-10",
     "achieved_at_approximate": false,
     "value_mhz": 6436.1,
@@ -12930,7 +13189,9 @@
   {
     "uid": "20250801_6443",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-08-01",
     "achieved_at_approximate": false,
     "value_mhz": 6443.1,
@@ -12972,7 +13233,7 @@
   {
     "uid": "20250823_9130",
     "category": "cpu",
-    "subcategory": null,
+    "subcategory": [],
     "achieved_at": "2025-08-23",
     "achieved_at_approximate": false,
     "value_mhz": 9130.33,
@@ -13014,14 +13275,14 @@
     "submitted_by": "skatterbencher",
     "_asset_base": "assets/cpu/20250823_9130/",
     "_genuine_overall": true,
-    "_genuine_in": [
-      "Intel"
-    ]
+    "_genuine_in": []
   },
   {
     "uid": "20250905_4250",
     "category": "gpu",
-    "subcategory": "IGPU (CPU)",
+    "subcategory": [
+      "IGPU (CPU)"
+    ],
     "achieved_at": "2025-09-05",
     "achieved_at_approximate": false,
     "value_mhz": 4250,
@@ -13076,13 +13337,15 @@
     "_asset_base": "assets/gpu/20250905_4250/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "Intel"
+      "IGPU (CPU)"
     ]
   },
   {
     "uid": "20250921_6460",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-09-21",
     "achieved_at_approximate": false,
     "value_mhz": 6460.1,
@@ -13124,7 +13387,9 @@
   {
     "uid": "20251015_6504",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-10-15",
     "achieved_at_approximate": false,
     "value_mhz": 6504.9,
@@ -13166,7 +13431,9 @@
   {
     "uid": "20251027_6517",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-10-27",
     "achieved_at_approximate": false,
     "value_mhz": 6517.4,
@@ -13208,7 +13475,9 @@
   {
     "uid": "20251103_6605",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-11-03",
     "achieved_at_approximate": false,
     "value_mhz": 6605.7,
@@ -13250,7 +13519,9 @@
   {
     "uid": "20251116_6703",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-11-16",
     "achieved_at_approximate": false,
     "value_mhz": 6703.9,
@@ -13304,7 +13575,9 @@
   {
     "uid": "20251117_6765",
     "category": "memory",
-    "subcategory": "DDR5",
+    "subcategory": [
+      "DDR5"
+    ],
     "achieved_at": "2025-11-17",
     "achieved_at_approximate": false,
     "value_mhz": 6765.2,

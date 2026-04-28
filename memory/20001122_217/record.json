@@ -1,7 +1,9 @@
 {
   "uid": "20001122_217",
   "category": "memory",
-  "subcategory": "SDR",
+  "subcategory": [
+    "SDR"
+  ],
   "achieved_at": "2000-11-22",
   "achieved_at_approximate": false,
   "value_mhz": 217.32,

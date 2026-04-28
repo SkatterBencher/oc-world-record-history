@@ -30,6 +30,12 @@ IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── GENUINE RECORD FILTER ─────────────────────────────
+def get_subcategory(record):
+    """Always return subcategory as a list, regardless of stored type."""
+    sub = record.get("subcategory")
+    if isinstance(sub, list): return sub
+    if isinstance(sub, str):  return [sub] if sub else []
+    return []
 def run_filter(records):
     """
     Walk records chronologically, return set of UIDs that are genuine records.
@@ -73,32 +79,32 @@ def filter_genuine_records(records):
     # Overall filter
     overall_genuine_uids = run_filter(active)
 
-    # Per-tag filters — collect all unique tags across the category
-    all_tags = set(tag for r in active for tag in r.get("tags", []))
-    tag_genuine_uids = {}  # tag -> set of uids genuine within that tag
-    for tag in all_tags:
-        tag_records = [r for r in active if tag in r.get("tags", [])]
-        tag_genuine_uids[tag] = run_filter(tag_records)
+    # Per-subcategory filters (guard against legacy null values)
+    all_subcats = set(s for r in active for s in get_subcategory(r))
+    subcat_genuine_uids = {}
+    for subcat in all_subcats:
+        subcat_records = [r for r in active if subcat in get_subcategory(r)]
+        subcat_genuine_uids[subcat] = run_filter(subcat_records)
 
     # Classify each record
     for r in active:
         uid = r["uid"]
         is_overall = uid in overall_genuine_uids
-        genuine_in_tags = [
-            tag for tag in r.get("tags", [])
-            if uid in tag_genuine_uids.get(tag, set())
+        genuine_in_subcats = [
+            s for s in get_subcategory(r)
+            if uid in subcat_genuine_uids.get(s, set())
         ]
 
         r["_genuine_overall"] = is_overall
-        r["_genuine_in"] = genuine_in_tags
+        r["_genuine_in"] = genuine_in_subcats
 
-        if is_overall or genuine_in_tags:
+        if is_overall or genuine_in_subcats:
             r.pop("_excluded_reason", None)
             genuine.append(r)
         else:
             r["_excluded_reason"] = (
                 f"computed: {r['value_mhz']} MHz was not a record overall "
-                f"or in any tag subgroup"
+                f"or in any subcategory"
             )
             excluded.append(r)
 
@@ -246,16 +252,29 @@ if errors:
         print(f"  {e}")
     sys.exit(1)
 
-# Apply genuine record filter per category
+# Apply genuine record filter per category (overall + per subcategory)
 all_excluded = []
 filtered_records = []
+subcat_index = {}  # category -> sorted list of subcategory names
+
 for cat in CATEGORIES:
     cat_records = [r for r in records if r["category"] == cat]
     genuine, excluded = filter_genuine_records(cat_records)
     filtered_records.extend(genuine)
     all_excluded.extend(excluded)
 
+    # Collect all subcategories declared in this category
+    subcats = set()
+    for r in cat_records:
+        for s in get_subcategory(r):
+            subcats.add(s)
+    subcat_index[cat] = sorted(subcats)
+
 records = filtered_records
+
+# Write subcategory index for frontend nav
+with open(OUTPUT_DIR / "subcategories.json", "w", encoding="utf-8") as f:
+    json.dump(subcat_index, f, indent=2, ensure_ascii=False)
 
 # Sort by date ascending, then by value descending (highest freq first on same day)
 records.sort(key=lambda r: (r["achieved_at"], -r["value_mhz"]))

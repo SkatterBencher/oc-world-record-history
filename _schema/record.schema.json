@@ -28,11 +28,11 @@
       ]
     },
     "subcategory": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "description": "e.g. ddr3, ddr4, ddr5 for memory; null for cpu/gpu"
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Curated sub-timelines this record belongs to (e.g. ['dgpu', 'amd-dgpu'])"
     },
     "achieved_at": {
       "type": "string",

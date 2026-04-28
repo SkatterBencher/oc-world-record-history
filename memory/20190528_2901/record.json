@@ -1,7 +1,9 @@
 {
   "uid": "20190528_2901",
   "category": "memory",
-  "subcategory": "DDR4",
+  "subcategory": [
+    "DDR4"
+  ],
   "achieved_at": "2019-05-28",
   "achieved_at_approximate": false,
   "value_mhz": 2901.4,
