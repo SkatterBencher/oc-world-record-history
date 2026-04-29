@@ -10,5 +10,5 @@ site/data/
 __pycache__/
 *.pyc
 
-cleanup.py
-generate_edo.py
+# Documentation
+documentation/claude.MD
