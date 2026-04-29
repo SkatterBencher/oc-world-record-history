@@ -1,0 +1,39 @@
+{
+  "uid": "20040730_360",
+  "category": "memory",
+  "subcategory": [
+    "DDR"
+  ],
+  "achieved_at": "2004-07-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 360.4,
+  "hardware": {
+    "primary": "A-Data",
+    "motherboard": "GIGABYTE GA-K8N Pro",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Cal930",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "http://cal930.hp.infoseek.co.jp:80/memoryocranking.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -4365,6 +4365,94 @@
     ]
   },
   {
+    "uid": "20040730_360",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2004-07-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 360.4,
+    "hardware": {
+      "primary": "A-Data",
+      "motherboard": "GIGABYTE GA-K8N Pro",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Cal930",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "http://cal930.hp.infoseek.co.jp:80/memoryocranking.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20040730_360/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR"
+    ]
+  },
+  {
+    "uid": "20040730_350",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2004-07-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 350.0,
+    "hardware": {
+      "primary": "A-Data",
+      "motherboard": "GIGABYTE GA-K8N Pro",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Cal930",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "http://cal930.hp.infoseek.co.jp:80/memoryocranking.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20040730_350/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
+    ]
+  },
+  {
     "uid": "20040731_366",
     "category": "memory",
     "subcategory": [],
@@ -4413,6 +4501,50 @@
     "_asset_base": "assets/memory/20040731_366/",
     "_genuine_overall": true,
     "_genuine_in": []
+  },
+  {
+    "uid": "20040801_366",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2004-08-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 366.4,
+    "hardware": {
+      "primary": "A-Data",
+      "motherboard": "GIGABYTE GA-K8N Pro",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Cal930",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "http://cal930.hp.infoseek.co.jp:80/memoryocranking.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20040801_366/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20040915_807",
@@ -5199,6 +5331,50 @@
     "_asset_base": "assets/cpu/20050118_6495/",
     "_genuine_overall": true,
     "_genuine_in": []
+  },
+  {
+    "uid": "20050322_405",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2005-03-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 405.7,
+    "hardware": {
+      "primary": null,
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Tanuki",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=7928",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20050322_405/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
+    ]
   },
   {
     "uid": "20050603_860",
@@ -8138,6 +8314,50 @@
     ]
   },
   {
+    "uid": "20100906_406",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2010-09-06",
+    "achieved_at_approximate": false,
+    "value_mhz": 406.4,
+    "hardware": {
+      "primary": null,
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "TaPaKaH",
+        "real_name": null,
+        "aliases": [],
+        "country": "LV",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=1378852",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20100906_406/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
+    ]
+  },
+  {
     "uid": "20100923_8242",
     "category": "cpu",
     "subcategory": [],
@@ -8435,6 +8655,50 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
+    ]
+  },
+  {
+    "uid": "20110116_416",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2011-01-16",
+    "achieved_at_approximate": false,
+    "value_mhz": 416.9,
+    "hardware": {
+      "primary": "G.SKILL",
+      "motherboard": "DFI LANParty UT nF4 SLI-DR Venus",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "MaSell",
+        "real_name": null,
+        "aliases": [],
+        "country": "PL",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "http://valid.canardpc.com/show_oc.php?id=1599098",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20110116_416/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
     ]
   },
   {
@@ -9402,6 +9666,50 @@
     ]
   },
   {
+    "uid": "20120415_417",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2012-04-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 417.0,
+    "hardware": {
+      "primary": null,
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "cold_redcobra",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=2332673",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20120415_417/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
+    ]
+  },
+  {
     "uid": "20120529_1918",
     "category": "memory",
     "subcategory": [
@@ -9589,6 +9897,94 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
+    ]
+  },
+  {
+    "uid": "20120819_440",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2012-08-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 440.5,
+    "hardware": {
+      "primary": "Team Group",
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "I.nfraR.ed",
+        "real_name": null,
+        "aliases": [],
+        "country": "BG",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=2482084",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20120819_440/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
+    ]
+  },
+  {
+    "uid": "20120824_441",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2012-08-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 441.6,
+    "hardware": {
+      "primary": null,
+      "motherboard": null,
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Christian Ney",
+        "real_name": null,
+        "aliases": [],
+        "country": "CH",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=2488442",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20120824_441/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
     ]
   },
   {
@@ -10269,6 +10665,50 @@
     ]
   },
   {
+    "uid": "20140927_445",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2014-09-27",
+    "achieved_at_approximate": false,
+    "value_mhz": 445.1,
+    "hardware": {
+      "primary": "Team Group",
+      "motherboard": "DFI LANParty UT nF4 SLI-DR Venus",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kotori",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/bpph2x",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20140927_445/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
+    ]
+  },
+  {
     "uid": "20140928_2157",
     "category": "gpu",
     "subcategory": [
@@ -10342,6 +10782,50 @@
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
+    ]
+  },
+  {
+    "uid": "20141005_447",
+    "category": "memory",
+    "subcategory": [
+      "DDR"
+    ],
+    "achieved_at": "2014-10-05",
+    "achieved_at_approximate": false,
+    "value_mhz": 447.8,
+    "hardware": {
+      "primary": "Team Group",
+      "motherboard": "DFI LANParty UT nF4 SLI-DR Venus",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Kotori",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/2646636_kotori_memory_frequency_ddr_sd_ram_447.8_mhz",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20141005_447/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR"
     ]
   },
   {

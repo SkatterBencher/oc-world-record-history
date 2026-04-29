@@ -1,0 +1,39 @@
+{
+  "uid": "20140927_445",
+  "category": "memory",
+  "subcategory": [
+    "DDR"
+  ],
+  "achieved_at": "2014-09-27",
+  "achieved_at_approximate": false,
+  "value_mhz": 445.1,
+  "hardware": {
+    "primary": "Team Group",
+    "motherboard": "DFI LANParty UT nF4 SLI-DR Venus",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Kotori",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/bpph2x",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

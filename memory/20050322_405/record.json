@@ -1,0 +1,39 @@
+{
+  "uid": "20050322_405",
+  "category": "memory",
+  "subcategory": [
+    "DDR"
+  ],
+  "achieved_at": "2005-03-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 405.7,
+  "hardware": {
+    "primary": null,
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Tanuki",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/show_oc.php?id=7928",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
