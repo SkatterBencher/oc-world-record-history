@@ -1,0 +1,39 @@
+{
+  "uid": "20190717_910",
+  "category": "memory",
+  "subcategory": [
+    "DDR2"
+  ],
+  "achieved_at": "2019-07-17",
+  "achieved_at_approximate": false,
+  "value_mhz": 910.1,
+  "hardware": {
+    "primary": "Crucial",
+    "motherboard": "ASUS P5Q-E",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": null,
+  "overclockers": [
+    {
+      "handle": "Noxinite",
+      "real_name": null,
+      "aliases": [],
+      "country": "GB",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/3589779_noxinite_memory_frequency_ddr2_sdram_910.1_mhz",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

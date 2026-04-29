@@ -1,0 +1,44 @@
+{
+  "uid": "20100723_100",
+  "category": "memory",
+  "subcategory": [
+    "EDO"
+  ],
+  "achieved_at": "2010-07-23",
+  "achieved_at_approximate": false,
+  "value_mhz": 100.23,
+  "hardware": {
+    "primary": null,
+    "motherboard": "VA-503+",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Frag",
+      "real_name": null,
+      "aliases": [],
+      "country": "RU",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/show_oc.php?id=1309879",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/1030951/",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

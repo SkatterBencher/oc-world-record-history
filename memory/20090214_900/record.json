@@ -1,0 +1,39 @@
+{
+  "uid": "20090214_900",
+  "category": "memory",
+  "subcategory": [
+    "DDR2"
+  ],
+  "achieved_at": "2009-02-14",
+  "achieved_at_approximate": false,
+  "value_mhz": 900.4,
+  "hardware": {
+    "primary": "Crucial",
+    "motherboard": "GIGABYTE GA-EP45-UD3R",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Shahryar_Neo",
+      "real_name": null,
+      "aliases": [],
+      "country": "IR",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/1025909_shahryar_neo___baran_memory_frequency_ddr2_sdram_900.4_mhz",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

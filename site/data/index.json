@@ -6152,6 +6152,50 @@
     ]
   },
   {
+    "uid": "20061212_717",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2006-12-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 717.1,
+    "hardware": {
+      "primary": "GEIL",
+      "motherboard": "ASUS P5B-Deluxe",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Jmax_oc",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=146047",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20061212_717/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
     "uid": "20061223_550",
     "category": "gpu",
     "subcategory": [
@@ -6187,72 +6231,6 @@
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
-    ]
-  },
-  {
-    "uid": "20070102_716",
-    "category": "memory",
-    "subcategory": [
-      "DDR2"
-    ],
-    "achieved_at": "2007-01-02",
-    "achieved_at_approximate": false,
-    "value_mhz": 716.1,
-    "hardware": {
-      "primary": "Crucial PC6400",
-      "motherboard": "P5B-Deluxe",
-      "memory": "Crucial PC6400",
-      "cooling": null
-    },
-    "hero": "71610.png",
-    "overclockers": [
-      {
-        "handle": "Jmax_oc",
-        "real_name": null,
-        "aliases": [],
-        "country": "FR",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "CPU-Z",
-        "url": "http://valid.x86-secret.com/show_oc.php?id=152244",
-        "archived_url": null
-      },
-      {
-        "label": "Biwa Memory OC Ranking",
-        "url": "http://www.biwa.ne.jp:80/~yok/Memory-OC-DDR2.htm",
-        "archived_url": null
-      }
-    ],
-    "assets": [
-      {
-        "file": "71610.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "71610_biwa.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "71610_cpuz.png",
-        "type": "cpuz",
-        "caption": null
-      }
-    ],
-    "tags": [
-      "DDR2"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070102_716/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "DDR2"
     ]
   },
   {
@@ -6362,6 +6340,50 @@
     ]
   },
   {
+    "uid": "20070308_730",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2007-03-08",
+    "achieved_at_approximate": false,
+    "value_mhz": 730.0,
+    "hardware": {
+      "primary": "Melco",
+      "motherboard": "ASUS P5B-E Plus",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Nikolas61",
+        "real_name": null,
+        "aliases": [],
+        "country": "SR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=175468",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070308_730/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
     "uid": "20070330_8179",
     "category": "cpu",
     "subcategory": [],
@@ -6431,6 +6453,94 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
+    ]
+  },
+  {
+    "uid": "20070517_742",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2007-05-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 742.2,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "ASUS P5K Deluxe",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Jmax_oc",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=198379",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070517_742/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
+    "uid": "20070524_757",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2007-05-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 757.9,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "DFI Infinity P965",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Florent",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=201110",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070524_757/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "DDR2"
     ]
   },
   {
@@ -6510,6 +6620,94 @@
     ]
   },
   {
+    "uid": "20070602_762",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2007-06-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 762.8,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "GIGABYTE P35C-DS3R",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Jmax_oc",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=204238",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070602_762/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
+    "uid": "20070602_759",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2007-06-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 759.4,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "GIGABYTE P35C-DS3R",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Jmax_oc",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=204141",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070602_759/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
     "uid": "20070604_1146",
     "category": "memory",
     "subcategory": [
@@ -6548,6 +6746,50 @@
     ]
   },
   {
+    "uid": "20070604_782",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2007-06-04",
+    "achieved_at_approximate": false,
+    "value_mhz": 782.0,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "GIGABYTE P35C-DS3R",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Jmax_oc",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=204741",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070604_782/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
     "uid": "20070605_1120",
     "category": "gpu",
     "subcategory": [
@@ -6583,6 +6825,50 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
+    ]
+  },
+  {
+    "uid": "20070624_799",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2007-06-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 799.2,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "GIGABYTE P35C-DS3R",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Jmax_oc",
+        "real_name": null,
+        "aliases": [],
+        "country": "FR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=210953",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20070624_799/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
     ]
   },
   {
@@ -7262,6 +7548,94 @@
     ]
   },
   {
+    "uid": "20081122_829",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2008-11-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 829.7,
+    "hardware": {
+      "primary": "OCZ",
+      "motherboard": "GIGABYTE GA-EP45-UD3R",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Vivi",
+        "real_name": null,
+        "aliases": [],
+        "country": "ZA",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=449952",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20081122_829/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
+    "uid": "20081124_848",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2008-11-24",
+    "achieved_at_approximate": false,
+    "value_mhz": 848.0,
+    "hardware": {
+      "primary": "Team Group",
+      "motherboard": "GIGABYTE EP45-UD3P",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "HiCookie",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "http://valid.x86.fr/show_oc.php?id=450744",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20081124_848/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
     "uid": "20081219_1346",
     "category": "memory",
     "subcategory": [
@@ -7300,6 +7674,138 @@
     ]
   },
   {
+    "uid": "20081219_876",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2008-12-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 876.6,
+    "hardware": {
+      "primary": "Team Group",
+      "motherboard": "GIGABYTE EP45-UD3P",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "HiCookie",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=465825",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20081219_876/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
+    "uid": "20081222_882",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2008-12-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 882.2,
+    "hardware": {
+      "primary": "Team Group",
+      "motherboard": "GIGABYTE EP45-UD3P",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "HiCookie",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "http://valid.x86.fr/show_oc.php?id=467803",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20081222_882/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
+    "uid": "20081223_889",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2008-12-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 889.3,
+    "hardware": {
+      "primary": "Team Group",
+      "motherboard": "GIGABYTE EP45-UD3P",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "HiCookie",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=468260",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20081223_889/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
     "uid": "20090209_1352",
     "category": "memory",
     "subcategory": [
@@ -7335,6 +7841,94 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
+    ]
+  },
+  {
+    "uid": "20090213_890",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2009-02-13",
+    "achieved_at_approximate": false,
+    "value_mhz": 890.1,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "GIGABYTE GA-EP45-UD3R",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "YoungPro",
+        "real_name": null,
+        "aliases": [],
+        "country": "AU",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://web.archive.org/web/20081216023734/http://ddr2-1508.gigabyte.com.tw/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20090213_890/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
+    "uid": "20090214_900",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2009-02-14",
+    "achieved_at_approximate": false,
+    "value_mhz": 900.4,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "GIGABYTE GA-EP45-UD3R",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Shahryar_Neo",
+        "real_name": null,
+        "aliases": [],
+        "country": "IR",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/1025909_shahryar_neo___baran_memory_frequency_ddr2_sdram_900.4_mhz",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20090214_900/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
     ]
   },
   {
@@ -8191,6 +8785,104 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
+    ]
+  },
+  {
+    "uid": "20100719_83",
+    "category": "memory",
+    "subcategory": [
+      "EDO"
+    ],
+    "achieved_at": "2010-07-19",
+    "achieved_at_approximate": false,
+    "value_mhz": 83.31,
+    "hardware": {
+      "primary": null,
+      "motherboard": "i430TX-NS309",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "DrSwizz",
+        "real_name": null,
+        "aliases": [],
+        "country": "SE",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=1303986",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/1029673/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20100719_83/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "EDO"
+    ]
+  },
+  {
+    "uid": "20100723_100",
+    "category": "memory",
+    "subcategory": [
+      "EDO"
+    ],
+    "achieved_at": "2010-07-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 100.23,
+    "hardware": {
+      "primary": null,
+      "motherboard": "VA-503+",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Frag",
+        "real_name": null,
+        "aliases": [],
+        "country": "RU",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=1309879",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/1030951/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20100723_100/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "EDO"
     ]
   },
   {
@@ -9862,6 +10554,104 @@
     ]
   },
   {
+    "uid": "20120715_125",
+    "category": "memory",
+    "subcategory": [
+      "EDO"
+    ],
+    "achieved_at": "2012-07-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 125.09,
+    "hardware": {
+      "primary": null,
+      "motherboard": "AX59 Pro",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Havli",
+        "real_name": null,
+        "aliases": [],
+        "country": "CZ",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "http://valid.canardpc.com/show_oc.php?id=2439453",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/2310425/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20120715_125/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "EDO"
+    ]
+  },
+  {
+    "uid": "20120715_112",
+    "category": "memory",
+    "subcategory": [
+      "EDO"
+    ],
+    "achieved_at": "2012-07-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 112.93,
+    "hardware": {
+      "primary": null,
+      "motherboard": "AX59 Pro",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Havli",
+        "real_name": null,
+        "aliases": [],
+        "country": "CZ",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=2439377",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/2300216/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20120715_112/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "EDO"
+    ]
+  },
+  {
     "uid": "20120819_1922",
     "category": "memory",
     "subcategory": [
@@ -10023,6 +10813,55 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
+    ]
+  },
+  {
+    "uid": "20120831_133",
+    "category": "memory",
+    "subcategory": [
+      "EDO"
+    ],
+    "achieved_at": "2012-08-31",
+    "achieved_at_approximate": false,
+    "value_mhz": 133.61,
+    "hardware": {
+      "primary": null,
+      "motherboard": "P2B",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "Christian Ney",
+        "real_name": null,
+        "aliases": [],
+        "country": "CH",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/show_oc.php?id=2496063",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/2310488/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20120831_133/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "EDO"
     ]
   },
   {
@@ -12784,6 +13623,50 @@
     ]
   },
   {
+    "uid": "20190717_910",
+    "category": "memory",
+    "subcategory": [
+      "DDR2"
+    ],
+    "achieved_at": "2019-07-17",
+    "achieved_at_approximate": false,
+    "value_mhz": 910.1,
+    "hardware": {
+      "primary": "Crucial",
+      "motherboard": "ASUS P5Q-E",
+      "memory": null,
+      "cooling": null
+    },
+    "hero": null,
+    "not_a_record": null,
+    "overclockers": [
+      {
+        "handle": "Noxinite",
+        "real_name": null,
+        "aliases": [],
+        "country": "GB",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/3589779_noxinite_memory_frequency_ddr2_sdram_910.1_mhz",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20190717_910/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "DDR2"
+    ]
+  },
+  {
     "uid": "20190806_2950",
     "category": "memory",
     "subcategory": [
@@ -13796,6 +14679,104 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
+    ]
+  },
+  {
+    "uid": "20211129_140",
+    "category": "memory",
+    "subcategory": [
+      "EDO"
+    ],
+    "achieved_at": "2021-11-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 140.0,
+    "hardware": {
+      "primary": null,
+      "motherboard": "P3B-F",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "DDC",
+        "real_name": null,
+        "aliases": [],
+        "country": "NL",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/r9hq5i",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/4865500/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20211129_140/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "EDO"
+    ]
+  },
+  {
+    "uid": "20211130_150",
+    "category": "memory",
+    "subcategory": [
+      "EDO"
+    ],
+    "achieved_at": "2021-11-30",
+    "achieved_at_approximate": false,
+    "value_mhz": 150.0,
+    "hardware": {
+      "primary": null,
+      "motherboard": "P3B-F",
+      "memory": null,
+      "cooling": null
+    },
+    "overclockers": [
+      {
+        "handle": "DDC",
+        "real_name": null,
+        "aliases": [],
+        "country": "NL",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z Validation",
+        "url": "https://valid.x86.fr/xy4jdg",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/4866007/",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "hero": null,
+    "tags": [],
+    "notes": null,
+    "not_a_record": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "assets/memory/20211130_150/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "EDO"
     ]
   },
   {

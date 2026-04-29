@@ -11,3 +11,5 @@ __pycache__/
 *.pyc
 generate_sdr.py
 generate_ddr.py
+generate_ddr2.py
+generate_edo.py

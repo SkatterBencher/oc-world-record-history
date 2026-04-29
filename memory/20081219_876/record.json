@@ -1,0 +1,39 @@
+{
+  "uid": "20081219_876",
+  "category": "memory",
+  "subcategory": [
+    "DDR2"
+  ],
+  "achieved_at": "2008-12-19",
+  "achieved_at_approximate": false,
+  "value_mhz": 876.6,
+  "hardware": {
+    "primary": "Team Group",
+    "motherboard": "GIGABYTE EP45-UD3P",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "HiCookie",
+      "real_name": null,
+      "aliases": [],
+      "country": "TW",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/show_oc.php?id=465825",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

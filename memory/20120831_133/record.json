@@ -1,0 +1,44 @@
+{
+  "uid": "20120831_133",
+  "category": "memory",
+  "subcategory": [
+    "EDO"
+  ],
+  "achieved_at": "2012-08-31",
+  "achieved_at_approximate": false,
+  "value_mhz": 133.61,
+  "hardware": {
+    "primary": null,
+    "motherboard": "P2B",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Christian Ney",
+      "real_name": null,
+      "aliases": [],
+      "country": "CH",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/show_oc.php?id=2496063",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/2310488/",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
