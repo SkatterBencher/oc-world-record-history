@@ -30,7 +30,10 @@
     "subcategory": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": [
+          "string",
+          "null"
+        ]
       },
       "description": "Curated sub-timelines this record belongs to (e.g. ['dgpu', 'amd-dgpu'])"
     },
