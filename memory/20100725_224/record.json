@@ -1,0 +1,39 @@
+{
+  "uid": "20100725_224",
+  "category": "memory",
+  "subcategory": [
+    "SDR"
+  ],
+  "achieved_at": "2010-07-25",
+  "achieved_at_approximate": false,
+  "value_mhz": 224.9,
+  "hardware": {
+    "primary": null,
+    "motherboard": "Gigabyte i815-ITE8712",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Gradus",
+      "real_name": null,
+      "aliases": [],
+      "country": "RU",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/show_oc.php?id=1313550",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

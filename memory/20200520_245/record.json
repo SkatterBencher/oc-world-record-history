@@ -1,0 +1,44 @@
+{
+  "uid": "20200520_245",
+  "category": "memory",
+  "subcategory": [
+    "SDR"
+  ],
+  "achieved_at": "2020-05-20",
+  "achieved_at_approximate": false,
+  "value_mhz": 245.4,
+  "hardware": {
+    "primary": "Qimonda",
+    "motherboard": "AW i845",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "DDC",
+      "real_name": null,
+      "aliases": [],
+      "country": "NL",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/cglmy1",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/4445380/",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

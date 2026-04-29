@@ -1,0 +1,44 @@
+{
+  "uid": "20150921_241",
+  "category": "memory",
+  "subcategory": [
+    "SDR"
+  ],
+  "achieved_at": "2015-09-21",
+  "achieved_at_approximate": false,
+  "value_mhz": 241.7,
+  "hardware": {
+    "primary": null,
+    "motherboard": "Asus TUSL2-C",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Terraraptor",
+      "real_name": null,
+      "aliases": [],
+      "country": "KZ",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "http://valid.x86.fr/5e7i5e",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/2982696/",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

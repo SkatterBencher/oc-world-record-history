@@ -1,0 +1,44 @@
+{
+  "uid": "20130608_230",
+  "category": "memory",
+  "subcategory": [
+    "SDR"
+  ],
+  "achieved_at": "2013-06-08",
+  "achieved_at_approximate": false,
+  "value_mhz": 230.9,
+  "hardware": {
+    "primary": "Hyundai",
+    "motherboard": "Asus TUSL2-C",
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Griff",
+      "real_name": null,
+      "aliases": [],
+      "country": "IT",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z Validation",
+      "url": "https://valid.x86.fr/show_oc.php?id=2826842",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/2395458/",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

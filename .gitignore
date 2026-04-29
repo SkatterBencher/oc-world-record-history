@@ -9,3 +9,4 @@ site/data/
 # Python
 __pycache__/
 *.pyc
+generate_sdr.py
