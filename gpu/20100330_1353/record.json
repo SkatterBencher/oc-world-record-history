@@ -6,28 +6,52 @@
   ],
   "achieved_at": "2010-03-30",
   "achieved_at_approximate": false,
-  "value_mhz": 1353.0,
+  "value_mhz": 1353,
   "hardware": {
     "primary": "ATI Radeon HD 4290",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": "1353.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "MSIMAX",
       "real_name": null,
-      "aliases": [],
-      "country": null,
+      "aliases": [
+        "AiMax"
+      ],
+      "country": "US",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
-  "hero": null,
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark03/submissions/980829",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1353.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1353_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_354020.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [],
   "notes": null,
-  "not_a_record": null,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

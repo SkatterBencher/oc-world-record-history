@@ -19,6 +19,7 @@ const SUBCAT_LABELS = {
   'ddr4':          'DDR4',
   'ddr5':          'DDR5',
   'sdr':           'SDR',
+  'edo':           'EDO',
 };
 
 function subcatLabel(slug) {
@@ -46,6 +47,7 @@ function toWebFilename(filename) {
 }
 
 let allRecords      = [];
+let allStats        = null;  // Pre-computed statistics
 let subcategories   = {};  // category -> [subcategory names]
 let currentCategory = 'cpu';
 let currentSubcat   = null;  // null = overall
@@ -56,12 +58,14 @@ let panelOpen       = false;
 // ── INIT ──────────────────────────────────────────────
 async function init() {
   try {
-    const [indexRes, subcatRes] = await Promise.all([
+    const [indexRes, subcatRes, statsRes] = await Promise.all([
       fetch('data/index.json'),
       fetch('data/subcategories.json'),
+      fetch('data/statistics.json'),
     ]);
     allRecords    = await indexRes.json();
     subcategories = await subcatRes.json();
+    allStats      = await statsRes.json();
   } catch (e) {
     console.error('Failed to load data', e);
     allRecords = [];
@@ -92,6 +96,9 @@ function routeFromHash() {
   } else if (page === 'statistics') {
     closePanelSilent();
     document.getElementById('page-statistics').classList.add('active');
+    // Scroll to top when navigating to statistics page
+    const mainEl = document.getElementById('statistics-main');
+    if (mainEl) mainEl.scrollTop = 0;
     renderStatisticsPage();
   } else if (CATEGORIES[page]) {
     currentCategory = page;
@@ -890,11 +897,74 @@ function renderStatistics(limitTo) {
   const sortedYears = Object.entries(yearCounts).sort((a, b) => b[1] - a[1]);
   const topYear = sortedYears[0];
 
+  // ── Compute: Record Longevity (use pre-computed stats if available) ──
+  let longestCurrentRecord = { days: 0 };
+  let allTimeLongest = [];
+  let allTimeShortest = [];
+
+  if (allStats?.longevity?.current_longest) {
+    // Use pre-computed stats (includes subcategory longevity)
+    const currentLongest = allStats.longevity.current_longest;
+    const record = allRecords.find(r => r.uid === currentLongest.uid);
+    if (record) {
+      longestCurrentRecord = { ...currentLongest, ...record };
+    }
+    if (allStats.longevity.all_time_longest) {
+      allTimeLongest = allStats.longevity.all_time_longest.slice(0, 5).map(entry => {
+        const rec = allRecords.find(r => r.uid === entry.uid);
+        return rec ? { ...entry, ...rec } : entry;
+      });
+    }
+    if (allStats.longevity.all_time_shortest) {
+      allTimeShortest = allStats.longevity.all_time_shortest.slice(0, 5).map(entry => {
+        const rec = allRecords.find(r => r.uid === entry.uid);
+        return rec ? { ...entry, ...rec } : entry;
+      });
+    }
+  } else {
+    // Fallback: compute on the fly (category only, no subcategory)
+    const sortedByCatAndDate = {};
+    allRecords.forEach(r => {
+      if (!sortedByCatAndDate[r.category]) sortedByCatAndDate[r.category] = [];
+      sortedByCatAndDate[r.category].push(r);
+    });    Object.keys(sortedByCatAndDate).forEach(cat => {
+      sortedByCatAndDate[cat].sort((a, b) => new Date(a.achieved_at) - new Date(b.achieved_at));
+    });
+
+    const recordLongevity = [];
+    Object.keys(sortedByCatAndDate).forEach(cat => {
+      const catRecords = sortedByCatAndDate[cat];
+      catRecords.forEach((r, i) => {
+        let endDate;
+        if (i < catRecords.length - 1) {
+          endDate = new Date(catRecords[i + 1].achieved_at);
+        } else {
+          endDate = new Date();
+        }
+        const startDate = new Date(r.achieved_at + 'T12:00:00Z');
+        const days = Math.floor((endDate - startDate) / (1000 * 60 * 60 * 24));
+        recordLongevity.push({ ...r, days, isCurrent: i === catRecords.length - 1 });
+      });
+    });
+
+    const currentRecords = recordLongevity.filter(r => r.isCurrent);
+    longestCurrentRecord = currentRecords.reduce((a, b) => a.days > b.days ? a : b, { days: 0 });
+    allTimeLongest = [...recordLongevity].sort((a, b) => b.days - a.days).slice(0, 5);
+    allTimeShortest = [...recordLongevity].filter(r => r.days >= 1 && !r.isCurrent).sort((a, b) => a.days - b.days).slice(0, 5);
+  }
+
   // ── Compute: Records per Category ──
   const catCounts = {};
   allRecords.forEach(r => {
     catCounts[r.category] = (catCounts[r.category] || 0) + 1;
   });
+
+  // Format days into human-readable string
+  function formatDays(days) {
+    if (days < 30) return `${days} days`;
+    if (days < 365) return `${Math.floor(days / 30)} months`;
+    return `${(days / 365).toFixed(1)} years`;
+  }
 
   // ── Render ──
   container.innerHTML = `
@@ -988,6 +1058,34 @@ function renderStatistics(limitTo) {
         </div>
       </div>
 
+      <!-- Current Longest-Standing Record -->
+      <a class="current-record-card" href="#${longestCurrentRecord.category}/${longestCurrentRecord.uid}">
+        <div class="cr-category">Current Longest-Standing</div>
+        <div class="cr-freq">${longestCurrentRecord.value_mhz.toFixed(2)}<span class="cr-unit">MHz</span></div>
+        <div class="cr-hardware">${longestCurrentRecord.hardware?.primary || 'Unknown'}</div>
+        <div class="cr-overclocker">
+          ${(longestCurrentRecord.overclockers?.[0]?.country) ? `<span class="cr-flag">${getFlagEmoji(longestCurrentRecord.overclockers[0].country)}</span>` : ''}
+          <span>${longestCurrentRecord.overclockers?.[0]?.handle || 'Unknown'}</span>
+        </div>
+        <div class="cr-date">
+          Set ${formatDateLong(longestCurrentRecord.achieved_at, longestCurrentRecord.achieved_at_approximate)} · Standing for ${formatDays(longestCurrentRecord.days)}
+        </div>
+      </a>
+
+      <!-- All-Time Longest-Standing Record -->
+      <a class="current-record-card" href="#${allTimeLongest[0]?.category}/${allTimeLongest[0]?.uid}">
+        <div class="cr-category">All-Time Longest-Standing</div>
+        <div class="cr-freq">${allTimeLongest[0]?.value_mhz.toFixed(2)}<span class="cr-unit">MHz</span></div>
+        <div class="cr-hardware">${allTimeLongest[0]?.hardware?.primary || 'Unknown'}</div>
+        <div class="cr-overclocker">
+          ${(allTimeLongest[0]?.overclockers?.[0]?.country) ? `<span class="cr-flag">${getFlagEmoji(allTimeLongest[0].overclockers[0].country)}</span>` : ''}
+          <span>${allTimeLongest[0]?.overclockers?.[0]?.handle || 'Unknown'}</span>
+        </div>
+        <div class="cr-date">
+          Set ${formatDateLong(allTimeLongest[0]?.achieved_at, allTimeLongest[0]?.achieved_at_approximate)} · Stood for ${formatDays(allTimeLongest[0]?.days)}
+        </div>
+      </a>
+
     </div>
     ${limitTo ? `
       <div style="text-align: center; margin-top: 24px;">
@@ -998,7 +1096,7 @@ function renderStatistics(limitTo) {
 }
 
 // ── STATISTICS PAGE ───────────────────────────────────
-const STATS_PAGE_SIZE = 20; // Items per page for paginated lists
+const STATS_PAGE_SIZE = 10; // Items per page for paginated lists
 
 function renderStatisticsPage() {
   const container = document.getElementById('statistics-full-content');
@@ -1043,7 +1141,8 @@ function renderStatisticsPage() {
 
   // Populate sidebar
   sidebar.innerHTML = `
-    <div class="stat-nav-item active" data-target="stat-countries">Countries</div>
+    <div class="stat-nav-item active" data-target="stat-longevity">Longevity</div>
+    <div class="stat-nav-item" data-target="stat-countries">Countries</div>
     <div class="stat-nav-item" data-target="stat-overclockers">Overclockers</div>
     <div class="stat-nav-item" data-target="stat-years">Years</div>
     <div class="stat-nav-item" data-target="stat-decades">Decades</div>
@@ -1061,7 +1160,7 @@ function renderStatisticsPage() {
   });
 
   // Scroll-based highlighting for sidebar
-  const statSections = ['stat-countries', 'stat-overclockers', 'stat-years', 'stat-decades', 'stat-categories'];
+  const statSections = ['stat-countries', 'stat-overclockers', 'stat-years', 'stat-decades', 'stat-categories', 'stat-longevity'];
   const mainEl = document.getElementById('statistics-main');
   if (mainEl) {
     mainEl.addEventListener('scroll', () => {
@@ -1108,8 +1207,30 @@ function renderStatisticsPage() {
   }
 
   container.innerHTML = `
+    <div class="stat-section" id="stat-longevity">
+      <div class="stat-section-title" style="color:var(--accent);">All-Time Longest-Standing Records</div>
+      <div class="stat-list" style="max-height:none;overflow-y:visible;">
+        ${computeAllTimeLongest().map((r, i) => {
+          const oc = r.overclockers?.[0] || {};
+          const flag = getFlagEmoji(oc.country);
+          return `
+            <div class="stat-list-item" style="cursor:pointer;" onclick="openRecordFromStats('${r.uid}')">
+              <span class="stat-list-rank">${i + 1}</span>
+              ${flag ? `<span class="stat-list-flag">${flag}</span>` : ''}
+              <span class="stat-list-name" style="font-size:12px;">
+                ${r.value_mhz.toFixed(2)} MHz · ${r.hardware?.primary || 'Unknown'} · ${oc.handle || 'Unknown'}
+              </span>
+              <span class="stat-list-count" style="color:var(--accent);font-size:11px;">
+                ${formatDays(r.days)}
+              </span>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+
     <div class="stat-section" id="stat-countries">
-      <div class="stat-section-title">Records per Country (${sortedCountries.length})</div>
+      <div class="stat-section-title" style="color:var(--accent);">Records per Country (${sortedCountries.length})</div>
       ${renderPaginatedSection(sortedCountries, STATS_PAGE_SIZE, ([country, count], i) => {
         const globalIndex = i;
         const uids = countryRecords[country] || [];
@@ -1132,7 +1253,7 @@ function renderStatisticsPage() {
     </div>
 
     <div class="stat-section" id="stat-overclockers">
-      <div class="stat-section-title">Records per Overclocker (${sortedOCs.length})</div>
+      <div class="stat-section-title" style="color:var(--accent);">Records per Overclocker (${sortedOCs.length})</div>
       ${renderPaginatedSection(sortedOCs, STATS_PAGE_SIZE, ([handle, count], i) => {
         const globalIndex = i;
         const uids = ocRecords[handle] || [];
@@ -1171,7 +1292,7 @@ function renderStatisticsPage() {
     </div>
 
     <div class="stat-section" id="stat-years">
-      <div class="stat-section-title">Records per Year</div>
+      <div class="stat-section-title" style="color:var(--accent);">Records per Year</div>
       <div class="decade-breakdown">
         ${sortedYears.map(([year, count]) => {
           const uids = yearRecords[year] || [];
@@ -1193,7 +1314,7 @@ function renderStatisticsPage() {
     </div>
 
     <div class="stat-section" id="stat-decades">
-      <div class="stat-section-title">Records per Decade</div>
+      <div class="stat-section-title" style="color:var(--accent);">Records per Decade</div>
       <div class="decade-breakdown">
         ${decades.map(([decade, count]) => `
           <div class="decade-item">
@@ -1206,7 +1327,7 @@ function renderStatisticsPage() {
     </div>
 
     <div class="stat-section" id="stat-categories">
-      <div class="stat-section-title">Records by Category</div>
+      <div class="stat-section-title" style="color:var(--accent);">Records by Category</div>
       <div class="decade-breakdown">
         ${['cpu','gpu','memory'].map(cat => {
           const count = catCounts[cat] || 0;
@@ -1285,6 +1406,34 @@ function openRecordFromStats(uid) {
 
   document.getElementById('detail-panel').classList.add('open');
   renderPanel(record);
+}
+
+// Get all-time longest-standing records from pre-computed stats
+function computeAllTimeLongest() {
+  if (allStats?.longevity?.all_time_longest) {
+    // Map the pre-computed data to include overclockers info from allRecords
+    return allStats.longevity.all_time_longest.map(entry => {
+      const record = allRecords.find(r => r.uid === entry.uid);
+      if (record) {
+        return {
+          ...entry,
+          overclockers: record.overclockers || [],
+          hardware: record.hardware || entry.hardware,
+          achieved_at: record.achieved_at || entry.achieved_at
+        };
+      }
+      return entry;
+    });
+  }
+  // Fallback: compute on the fly if stats not available
+  return [];
+}
+
+// Format days into human-readable string
+function formatDays(days) {
+  if (days < 30) return `${days} days`;
+  if (days < 365) return `${Math.floor(days / 30)} months`;
+  return `${(days / 365).toFixed(1)} years`;
 }
 
 // ── HELPERS ───────────────────────────────────────────

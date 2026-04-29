@@ -301,6 +301,192 @@ with open(OUTPUT_DIR / "index.json", "w", encoding="utf-8") as f:
 with open(OUTPUT_DIR / "tags.json", "w", encoding="utf-8") as f:
     json.dump(tag_index, f, indent=2, ensure_ascii=False)
 
+# ── STATISTICS ──────────────────────────────────────────
+from datetime import datetime, date
+
+def compute_statistics(records):
+    """Compute all statistics from records for pre-generated statistics.json"""
+    stats = {}
+
+    # Records per country
+    country_counts = {}
+    for r in records:
+        for oc in r.get("overclockers", []):
+            if oc.get("country"):
+                country_counts[oc["country"]] = country_counts.get(oc["country"], 0) + 1
+    stats["countries"] = sorted(
+        [{"code": k, "count": v} for k, v in country_counts.items()],
+        key=lambda x: x["count"], reverse=True
+    )
+
+    # Records per overclocker
+    oc_counts = {}
+    oc_countries = {}
+    for r in records:
+        for oc in r.get("overclockers", []):
+            handle = oc.get("handle", "Unknown")
+            oc_counts[handle] = oc_counts.get(handle, 0) + 1
+            if oc.get("country"):
+                if handle not in oc_countries:
+                    oc_countries[handle] = {}
+                c = oc["country"]
+                oc_countries[handle][c] = oc_countries[handle].get(c, 0) + 1
+
+    oc_stats = []
+    for handle, count in oc_counts.items():
+        country = ""
+        if handle in oc_countries:
+            country = max(oc_countries[handle].items(), key=lambda x: x[1])[0]
+        oc_stats.append({"handle": handle, "count": count, "country": country})
+    stats["overclockers"] = sorted(oc_stats, key=lambda x: x["count"], reverse=True)
+
+    # Records per decade
+    decade_counts = {}
+    for r in records:
+        year = int(r["achieved_at"][:4])
+        decade = (year // 10) * 10
+        decade_counts[decade] = decade_counts.get(decade, 0) + 1
+    stats["decades"] = sorted(
+        [{"decade": k, "count": v} for k, v in decade_counts.items()],
+        key=lambda x: x["decade"]
+    )
+
+    # Records per year
+    year_counts = {}
+    for r in records:
+        year = int(r["achieved_at"][:4])
+        year_counts[year] = year_counts.get(year, 0) + 1
+    stats["years"] = sorted(
+        [{"year": k, "count": v} for k, v in year_counts.items()],
+        key=lambda x: x["year"]
+    )
+
+    # Records per category
+    cat_counts = {}
+    for r in records:
+        cat = r.get("category", "unknown")
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+    stats["categories"] = sorted(
+        [{"category": k, "count": v} for k, v in cat_counts.items()],
+        key=lambda x: x["count"], reverse=True
+    )
+
+    # Record longevity (how long each record stood)
+    # We compute longevity both at category level AND subcategory level
+    today = date.today()
+
+    def compute_longevity_for_group(group_records):
+        """Compute longevity for a sorted list of records."""
+        results = []
+        sorted_recs = sorted(group_records, key=lambda x: x["achieved_at"])
+        for i, r in enumerate(sorted_recs):
+            start_date = datetime.strptime(r["achieved_at"], "%Y-%m-%d").date()
+            if i < len(sorted_recs) - 1:
+                end_date = datetime.strptime(sorted_recs[i + 1]["achieved_at"], "%Y-%m-%d").date()
+            else:
+                end_date = today
+            days = (end_date - start_date).days
+            results.append({
+                "uid": r["uid"],
+                "value_mhz": r["value_mhz"],
+                "hardware": r.get("hardware", {}).get("primary", "Unknown"),
+                "achieved_at": r["achieved_at"],
+                "days": days,
+                "is_current": i == len(sorted_recs) - 1
+            })
+        return results
+
+    # Compute longevity at category level
+    categories = {}
+    for r in records:
+        cat = r.get("category", "unknown")
+        if cat not in categories:
+            categories[cat] = []
+        categories[cat].append(r)
+
+    # Compute longevity at subcategory level
+    subcategories = {}
+    for r in records:
+        subcats = r.get("subcategory", [])
+        if isinstance(subcats, str):
+            subcats = [subcats]
+        for subcat in subcats:
+            key = f"{r['category']}_{subcat}"
+            if key not in subcategories:
+                subcategories[key] = []
+            subcategories[key].append(r)
+
+    # Collect all longevity records
+    all_longevity = []
+
+    # Category-level longevity
+    for cat, cat_records in categories.items():
+        cat_longevity = compute_longevity_for_group(cat_records)
+        for entry in cat_longevity:
+            entry["category"] = cat
+            entry["subcategory"] = None
+        all_longevity.extend(cat_longevity)
+
+    # Subcategory-level longevity
+    for key, subcat_records in subcategories.items():
+        subcat_longevity = compute_longevity_for_group(subcat_records)
+        parts = key.split("_", 1)
+        cat = parts[0]
+        subcat = parts[1] if len(parts) > 1 else ""
+        for entry in subcat_longevity:
+            # Check if this record already exists with this subcategory longevity
+            existing = next((e for e in all_longevity if e["uid"] == entry["uid"] and e.get("subcategory") == subcat), None)
+            if existing:
+                # Update with subcategory longevity if longer
+                if entry["days"] > existing["days"]:
+                    existing["days"] = entry["days"]
+                    existing["is_current"] = entry["is_current"]
+                    existing["subcategory"] = subcat
+            else:
+                entry["category"] = cat
+                entry["subcategory"] = subcat
+                all_longevity.append(entry)
+
+    # For display, use the maximum longevity per record (either category or subcategory)
+    record_max_longevity = {}
+    for entry in all_longevity:
+        uid = entry["uid"]
+        if uid not in record_max_longevity or entry["days"] > record_max_longevity[uid]["days"]:
+            record_max_longevity[uid] = entry.copy()
+
+    longevity_list = list(record_max_longevity.values())
+
+    # Current longest-standing record
+    current_records = [r for r in longevity_list if r["is_current"]]
+    if current_records:
+        longest_current = max(current_records, key=lambda x: x["days"])
+        stats["longevity"] = {
+            "current_longest": longest_current
+        }
+    else:
+        stats["longevity"] = {"current_longest": None}
+
+    # All-time longest-standing records (top 10)
+    all_time_longest = sorted(longevity_list, key=lambda x: x["days"], reverse=True)[:10]
+    stats["longevity"]["all_time_longest"] = all_time_longest
+
+    # All-time shortest-standing records (top 10, min 1 day, excluding current)
+    all_time_shortest = sorted(
+        [r for r in longevity_list if r["days"] >= 1 and not r["is_current"]],
+        key=lambda x: x["days"]
+    )[:10]
+    stats["longevity"]["all_time_shortest"] = all_time_shortest
+
+    return stats
+
+print("Computing statistics...")
+statistics = compute_statistics(records)
+
+with open(OUTPUT_DIR / "statistics.json", "w", encoding="utf-8") as f:
+    json.dump(statistics, f, indent=2, ensure_ascii=False)
+
+print(f"Statistics written to {OUTPUT_DIR / 'statistics.json'}")
+
 
 # Generate sitemap.xml
 BASE_URL = "https://museum.skatterbencher.com"
