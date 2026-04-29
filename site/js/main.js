@@ -46,6 +46,17 @@ function toWebFilename(filename) {
   return filename.replace(/\.[^.]+$/, '.webp');
 }
 
+// FIX #7: Safe HTML escape to prevent XSS when injecting record data into innerHTML
+function escapeHtml(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 let allRecords      = [];
 let allStats        = null;  // Pre-computed statistics
 let subcategories   = {};  // category -> [subcategory names]
@@ -73,6 +84,8 @@ async function init() {
   setupNav();
   routeFromHash();
   window.addEventListener('hashchange', routeFromHash);
+  // FIX #8: attach chart events once after data is loaded, not via polling IIFE
+  setupChartEvents();
 }
 
 // ── ROUTING ───────────────────────────────────────────
@@ -138,6 +151,23 @@ function setupNav() {
       location.hash = a.dataset.page;
     });
   });
+
+  // FIX #10: hamburger menu toggle for mobile
+  const burger = document.getElementById('nav-burger');
+  const navEl  = document.querySelector('nav');
+  if (burger && navEl) {
+    burger.addEventListener('click', () => {
+      navEl.classList.toggle('nav-open');
+      burger.setAttribute('aria-expanded', navEl.classList.contains('nav-open'));
+    });
+    // Close menu when a link is tapped
+    navEl.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navEl.classList.remove('nav-open');
+        burger.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
 }
 
 // ── FILTER ────────────────────────────────────────────
@@ -186,16 +216,16 @@ function renderHome() {
       const flag = getFlagEmoji(oc.country);
       const label = CATEGORIES[cat].label;
       return `
-        <a class="current-record-card" href="#${cat}/${top.uid}">
-          <div class="cr-category">${label} World Record</div>
+        <a class="current-record-card" href="#${cat}/${escapeHtml(top.uid)}">
+          <div class="cr-category">${escapeHtml(label)} World Record</div>
           <div class="cr-freq">${top.value_mhz.toFixed(2)}<span class="cr-unit">MHz</span></div>
-          <div class="cr-hardware">${top.hardware?.primary || 'Unknown'}</div>
+          <div class="cr-hardware">${escapeHtml(top.hardware?.primary || 'Unknown')}</div>
           <div class="cr-overclocker">
             ${flag ? `<span class="cr-flag">${flag}</span>` : ''}
-            <span>${oc.handle || 'Unknown'}</span>
+            <span>${escapeHtml(oc.handle || 'Unknown')}</span>
           </div>
           <div class="cr-date">${formatDateLong(top.achieved_at, top.achieved_at_approximate)}</div>
-          <div class="cr-view-all">View full ${label} timeline →</div>
+          <div class="cr-view-all">View full ${escapeHtml(label)} timeline →</div>
         </a>
       `;
     }).join('');
@@ -238,9 +268,10 @@ function renderRecordOfTheDay() {
   const el = document.getElementById('record-of-the-day');
   if (!el || !allRecords.length) return;
 
-  // Pick deterministically by day-of-year so it changes daily but is consistent
-  const now   = new Date();
-  const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
+  // FIX #4: use Jan 1 as base so index is 0-based (0–365) and all records can be picked
+  const now = new Date();
+  const startOfYear = new Date(now.getFullYear(), 0, 1);
+  const dayOfYear = Math.floor((now - startOfYear) / 86400000);
   const r = allRecords[dayOfYear % allRecords.length];
 
   const cat   = CATEGORIES[r.category] || { label: r.category };
@@ -251,29 +282,29 @@ function renderRecordOfTheDay() {
 
   // Auto-generate description
   const parts = [];
-  if (r.hardware?.primary) parts.push(`on a ${r.hardware.primary}`);
-  if (r.hardware?.cooling)  parts.push(`cooled with ${r.hardware.cooling}`);
-  const ocNames = (r.overclockers || []).map(o => o.handle).join(' and ');
-  const country = oc.country ? ` from ${oc.country}` : '';
-  const desc = `${ocNames}${country} set this ${cat.label} world record of ${r.value_mhz.toFixed(2)} MHz ${parts.join(', ')} on ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}.${r.notes ? ' ' + r.notes : ''}`;
+  if (r.hardware?.primary) parts.push(`on a ${escapeHtml(r.hardware.primary)}`);
+  if (r.hardware?.cooling)  parts.push(`cooled with ${escapeHtml(r.hardware.cooling)}`);
+  const ocNames = (r.overclockers || []).map(o => escapeHtml(o.handle)).join(' and ');
+  const country = oc.country ? ` from ${escapeHtml(oc.country)}` : '';
+  const desc = `${ocNames}${country} set this ${escapeHtml(cat.label)} world record of ${r.value_mhz.toFixed(2)} MHz ${parts.join(', ')} on ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}.${r.notes ? ' ' + escapeHtml(r.notes) : ''}`;
 
   el.innerHTML = `
     <div class="rotd-inner">
       ${heroImg ? `
-        <a href="#${r.category}/${r.uid}" class="rotd-img-wrap">
-          <img src="${heroImg}" alt="Record screenshot" loading="lazy">
+        <a href="#${r.category}/${escapeHtml(r.uid)}" class="rotd-img-wrap">
+          <img src="${escapeHtml(heroImg)}" alt="Record screenshot" loading="lazy">
         </a>
       ` : ''}
       <div class="rotd-body">
-        <div class="rotd-kicker">${cat.label} · ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}</div>
+        <div class="rotd-kicker">${escapeHtml(cat.label)} · ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}</div>
         <div class="rotd-freq">${r.value_mhz.toFixed(2)}<span class="rotd-unit">MHz</span></div>
-        <div class="rotd-hardware">${r.hardware?.primary || ''}</div>
+        <div class="rotd-hardware">${escapeHtml(r.hardware?.primary || '')}</div>
         <div class="rotd-oc">
           ${flag ? `<span>${flag}</span>` : ''}
           <span>${ocNames}</span>
         </div>
         <p class="rotd-desc">${desc}</p>
-        <a href="#${r.category}/${r.uid}" class="rotd-link">View full record →</a>
+        <a href="#${r.category}/${escapeHtml(r.uid)}" class="rotd-link">View full record →</a>
       </div>
     </div>
   `;
@@ -292,7 +323,7 @@ function renderSubNav() {
        href="#${currentCategory}">All</a>
     ${subcats.map(s => `
       <a class="subnav-item ${currentSubcat === s ? 'active' : ''}"
-         href="#${currentCategory}/${encodeURIComponent(s)}">${subcatLabel(s)}</a>
+         href="#${currentCategory}/${encodeURIComponent(s)}">${escapeHtml(subcatLabel(s))}</a>
     `).join('')}
   `;
 
@@ -318,7 +349,7 @@ function renderTimeline() {
 
   const subcatSuffix = currentSubcat ? ` — ${subcatLabel(currentSubcat)}` : '';
   document.getElementById('timeline-title').innerHTML =
-    `<span class="cat-label">${cat.label}</span> Overclocking World Record History${subcatSuffix}`;
+    `<span class="cat-label">${escapeHtml(cat.label)}</span> Overclocking World Record History${escapeHtml(subcatSuffix)}`;
   document.getElementById('timeline-subtitle').textContent =
     `${records.length} records · ${getYearRange(records)}`;
   document.getElementById('header-record-count').textContent =
@@ -367,13 +398,38 @@ function renderTimeline() {
 
           const flags = (r.overclockers || [])
             .map(o => getFlagEmoji(o.country)).filter(Boolean).join('');
-          row.innerHTML = `
-            <div class="rec-date">${dateStr}</div>
-            <div class="rec-freq">${r.value_mhz.toFixed(2)}<span class="unit">MHz</span></div>
-            <div class="rec-cpu">${primary}</div>
-            <div class="rec-oc">${ocs}</div>
-            <div class="rec-flag">${flags}</div>
-          `;
+
+          // Use textContent for user-data fields to avoid XSS
+          const dateDiv = document.createElement('div');
+          dateDiv.className = 'rec-date';
+          dateDiv.textContent = dateStr;
+
+          const freqDiv = document.createElement('div');
+          freqDiv.className = 'rec-freq';
+          freqDiv.textContent = r.value_mhz.toFixed(2);
+          const unitSpan = document.createElement('span');
+          unitSpan.className = 'unit';
+          unitSpan.textContent = 'MHz';
+          freqDiv.appendChild(unitSpan);
+
+          const cpuDiv = document.createElement('div');
+          cpuDiv.className = 'rec-cpu';
+          cpuDiv.textContent = primary;
+
+          const ocDiv = document.createElement('div');
+          ocDiv.className = 'rec-oc';
+          ocDiv.textContent = ocs;
+
+          const flagDiv = document.createElement('div');
+          flagDiv.className = 'rec-flag';
+          flagDiv.textContent = flags;
+
+          row.appendChild(dateDiv);
+          row.appendChild(freqDiv);
+          row.appendChild(cpuDiv);
+          row.appendChild(ocDiv);
+          row.appendChild(flagDiv);
+
           row.addEventListener('click', () => {
             const base = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
             location.hash = `${base}/${r.uid}`;
@@ -538,8 +594,10 @@ function renderChart(records) {
   canvas._points = points;
 }
 
-// ── CHART TOOLTIP ─────────────────────────────────────
-(function setupChartEvents() {
+// ── CHART EVENTS ──────────────────────────────────────
+// FIX #5: moved out of polling IIFE; called once from init() after data loads.
+// FIX #5: chart is only redrawn when the hovered point actually changes.
+function setupChartEvents() {
   // Create tooltip element
   const tip = document.createElement('div');
   tip.id = 'chart-tooltip';
@@ -565,52 +623,62 @@ function renderChart(records) {
     return minDist < 20 ? closest : null;
   }
 
-  // Attach events after DOM ready
-  function attach() {
-    const canvas = document.getElementById('record-chart');
-    if (!canvas) { setTimeout(attach, 200); return; }
+  // The canvas element is always present in the DOM (never removed/re-added),
+  // so we can attach events directly once init() has run.
+  const canvas = document.getElementById('record-chart');
+  if (!canvas) return;
 
-    canvas.addEventListener('mousemove', function(e) {
-      const p = findNearest(this, e);
-      if (p) {
-        this.style.cursor = 'pointer';
+  canvas.addEventListener('mousemove', function(e) {
+    const p = findNearest(this, e);
+    if (p) {
+      this.style.cursor = 'pointer';
+      // FIX #5: only redraw when the hovered record actually changes
+      if (this._hovered !== p.uid) {
         this._hovered = p.uid;
-        const r = p.record;
-        const ocs = (r.overclockers || []).map(o => o.handle).join(' & ');
-        tip.innerHTML = `<strong>${r.value_mhz.toFixed(2)} MHz</strong><br>${r.hardware?.primary || ''}<br>${ocs} · ${r.achieved_at}`;
-        tip.style.display = 'block';
-        tip.style.left = (e.clientX + 14) + 'px';
-        tip.style.top  = (e.clientY - 10) + 'px';
-        // Redraw to show hover state
-        try { renderChart(getFilteredRecords()); } catch(e) {}
-      } else {
-        this.style.cursor = 'default';
-        if (this._hovered) {
-          this._hovered = null;
-          try { renderChart(getFilteredRecords()); } catch(e) {}
-        }
-        tip.style.display = 'none';
+        try { renderChart(getFilteredRecords()); } catch(_) {}
       }
-    });
-
-    canvas.addEventListener('mouseleave', function() {
-      tip.style.display = 'none';
-      this._hovered = null;
+      const r = p.record;
+      const ocs = (r.overclockers || []).map(o => o.handle).join(' & ');
+      tip.textContent = '';
+      // Build tooltip safely without innerHTML
+      const strong = document.createElement('strong');
+      strong.textContent = `${r.value_mhz.toFixed(2)} MHz`;
+      tip.appendChild(strong);
+      tip.appendChild(document.createTextNode(`\n${r.hardware?.primary || ''}\n${ocs} · ${r.achieved_at}`));
+      tip.style.display = 'block';
+      tip.style.left = (e.clientX + 14) + 'px';
+      tip.style.top  = (e.clientY - 10) + 'px';
+    } else {
       this.style.cursor = 'default';
-      try { renderChart(getFilteredRecords()); } catch(e) {}
-    });
+      if (this._hovered) {
+        this._hovered = null;
+        try { renderChart(getFilteredRecords()); } catch(_) {}
+      }
+      tip.style.display = 'none';
+    }
+  });
 
-    canvas.addEventListener('click', function(e) {
-      const p = findNearest(this, e);
-      if (p) { const base = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory; location.hash = `${base}/${p.uid}`; }
-    });
-  }
-  attach();
-})();
+  canvas.addEventListener('mouseleave', function() {
+    tip.style.display = 'none';
+    if (this._hovered) {
+      this._hovered = null;
+      try { renderChart(getFilteredRecords()); } catch(_) {}
+    }
+    this.style.cursor = 'default';
+  });
+
+  canvas.addEventListener('click', function(e) {
+    const p = findNearest(this, e);
+    if (p) {
+      const base = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
+      location.hash = `${base}/${p.uid}`;
+    }
+  });
+}
 
 // Redraw chart on resize
 window.addEventListener('resize', () => {
-  try { renderChart(getFilteredRecords()); } catch(e) {}
+  try { renderChart(getFilteredRecords()); } catch(_) {}
 });
 
 // ── TAG SIDEBAR ───────────────────────────────────────
@@ -658,8 +726,8 @@ function openRecord(uid) {
 
   renderPanel(record);
   // Redraw immediately for selected dot, then again after CSS transition (0.3s) for correct width
-  try { renderChart(getFilteredRecords()); } catch(e) {}
-  setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(e) {} }, 320);
+  try { renderChart(getFilteredRecords()); } catch(_) {}
+  setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(_) {} }, 320);
 
   const row = document.querySelector(`.record-row[data-uid="${uid}"]`);
   if (row) row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -682,9 +750,9 @@ function closePanelSilent() {
   panelOpen   = false;
   selectedUid = null;
   document.getElementById('detail-panel').classList.remove('open');
-  document.getElementById('timeline-main').classList.remove('panel-open');
+  document.getElementById('timeline-main')?.classList.remove('panel-open');
   document.querySelectorAll('.record-row').forEach(r => r.classList.remove('selected'));
-  setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(e) {} }, 320);
+  setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(_) {} }, 320);
 }
 
 function renderPanel(record) {
@@ -701,7 +769,6 @@ function renderPanel(record) {
   if (record._genuine_overall) {
     recordContext = `${cat.label} World Record on ${recordDate}`;
   } else if (record._genuine_in && record._genuine_in.length > 0) {
-    // Just show subcategory, not "category subcategory"
     const subcatLabels = record._genuine_in.map(s => subcatLabel(s)).join(', ');
     recordContext = `${subcatLabels} Record on ${recordDate}`;
   } else {
@@ -715,12 +782,13 @@ function renderPanel(record) {
   const assetBase    = record._asset_base  || '';
   const assets       = record.assets       || [];
   const heroFile     = record._hero_web || (record.hero ? toWebFilename(record.hero) : null);
-  const heroOrig     = record.hero || null;
   // Gallery = all assets except the hero
   const galleryAssets = assets.filter(a => a.file !== record.hero);
 
+  // FIX #7: all record data injected via escapeHtml; image URLs via escapeHtml too.
+  // openLightbox calls use data attributes rather than inline JS with raw URLs.
   document.getElementById('panel-content').innerHTML = `
-    <div class="panel-rank">${recordContext}</div>
+    <div class="panel-rank">${escapeHtml(recordContext)}</div>
 
     <div class="panel-freq">
       ${record.value_mhz.toFixed(2)}<span class="unit">MHz</span>
@@ -731,8 +799,8 @@ function renderPanel(record) {
 
     ${heroFile ? `
       <div class="panel-hero">
-        <img src="${assetBase}${heroFile}" alt="Hero image" loading="lazy"
-          onclick="openLightbox('${assetBase}${heroFile}')" style="cursor:zoom-in">
+        <img src="${escapeHtml(assetBase + heroFile)}" alt="Hero image" loading="lazy"
+          class="js-lightbox" data-src="${escapeHtml(assetBase + heroFile)}" style="cursor:zoom-in">
       </div>
     ` : '<div class="panel-divider"></div>'}
 
@@ -745,14 +813,14 @@ function renderPanel(record) {
             ${oc.country ? `
               <div class="oc-country">
                 <span class="oc-flag">${flag}</span>
-                <span class="oc-country-code">${oc.country}</span>
+                <span class="oc-country-code">${escapeHtml(oc.country)}</span>
               </div>
             ` : ''}
-            <div class="oc-handle">${oc.handle}</div>
-            ${oc.real_name ? `<div class="oc-real-name">${oc.real_name}</div>` : ''}
-            ${oc.aliases?.length ? `<div class="oc-aliases">aka ${oc.aliases.join(', ')}</div>` : ''}
+            <div class="oc-handle">${escapeHtml(oc.handle)}</div>
+            ${oc.real_name ? `<div class="oc-real-name">${escapeHtml(oc.real_name)}</div>` : ''}
+            ${oc.aliases?.length ? `<div class="oc-aliases">aka ${oc.aliases.map(escapeHtml).join(', ')}</div>` : ''}
             ${oc.profile_url ? `
-              <a href="${oc.profile_url}" target="_blank" rel="noopener" class="oc-profile-link">
+              <a href="${escapeHtml(oc.profile_url)}" target="_blank" rel="noopener" class="oc-profile-link">
                 View profile ↗
               </a>
             ` : ''}
@@ -776,12 +844,12 @@ function renderPanel(record) {
       <div class="panel-section-label">Sources</div>
       <div class="panel-sources">
         ${sources.map(s => `
-          <a href="${s.url}" target="_blank" rel="noopener" class="source-link">
-            <span class="source-icon">↗</span>${s.label}
+          <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener" class="source-link">
+            <span class="source-icon">↗</span>${escapeHtml(s.label)}
           </a>
           ${s.archived_url ? `
-            <a href="${s.archived_url}" target="_blank" rel="noopener" class="source-link source-archived">
-              <span class="source-icon">◉</span>${s.label} (archived)
+            <a href="${escapeHtml(s.archived_url)}" target="_blank" rel="noopener" class="source-link source-archived">
+              <span class="source-icon">◉</span>${escapeHtml(s.label)} (archived)
             </a>
           ` : ''}
         `).join('')}
@@ -792,14 +860,14 @@ function renderPanel(record) {
       <div class="panel-divider"></div>
       <div class="panel-section-label">Tags</div>
       <div class="panel-tags-list">
-        ${tags.map(t => `<span class="panel-tag">${t}</span>`).join('')}
+        ${tags.map(t => `<span class="panel-tag">${escapeHtml(t)}</span>`).join('')}
       </div>
     ` : ''}
 
     ${record.notes ? `
       <div class="panel-divider"></div>
       <div class="panel-section-label">Notes</div>
-      <div class="panel-notes">${record.notes}</div>
+      <div class="panel-notes">${escapeHtml(record.notes)}</div>
     ` : ''}
 
     ${galleryAssets.length ? `
@@ -808,10 +876,11 @@ function renderPanel(record) {
       <div class="panel-gallery">
         ${galleryAssets.map(a => {
           const webFile = a._web_file || toWebFilename(a.file);
+          const fullSrc = escapeHtml(assetBase + webFile);
           return `
-            <div class="gallery-thumb" title="${a.caption || a.type}"
-                 onclick="openLightbox('${assetBase}${webFile}')" style="cursor:zoom-in">
-              <img src="${assetBase}${webFile}" alt="${a.caption || a.type}" loading="lazy">
+            <div class="gallery-thumb js-lightbox" title="${escapeHtml(a.caption || a.type)}"
+                 data-src="${fullSrc}" style="cursor:zoom-in">
+              <img src="${fullSrc}" alt="${escapeHtml(a.caption || a.type)}" loading="lazy">
             </div>
           `;
         }).join('')}
@@ -825,20 +894,32 @@ function renderPanel(record) {
     </div>
 
     <div class="panel-discuss">
-      <a href="https://github.com/SkatterBencher/oc-world-record-history/issues/new?title=Record+${record.uid}&body=Record+UID:+${record.uid}%0A%0AYour+comment:"
+      <a href="https://github.com/SkatterBencher/oc-world-record-history/issues/new?title=Record+${encodeURIComponent(record.uid)}&body=Record+UID:+${encodeURIComponent(record.uid)}%0A%0AYour+comment:"
          target="_blank" rel="noopener">
         💬 Discuss this record on GitHub
       </a>
     </div>
   `;
 
-  document.getElementById('btn-prev')?.addEventListener('click', () => {
-    const basePrev = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
-    location.hash = `${basePrev}/${records[idx - 1].uid}`;
+  // FIX #7: wire lightbox via delegated data-src click, not inline onclick with raw URLs
+  document.getElementById('panel-content').querySelectorAll('.js-lightbox').forEach(el => {
+    el.addEventListener('click', () => openLightbox(el.dataset.src));
   });
-  document.getElementById('btn-next')?.addEventListener('click', () => {
-    const baseNext = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
-    location.hash = `${baseNext}/${records[idx + 1].uid}`;
+
+  // FIX #6: guard against idx === -1 (record not in current filtered set)
+  const prevBtn = document.getElementById('btn-prev');
+  const nextBtn = document.getElementById('btn-next');
+  prevBtn?.addEventListener('click', () => {
+    if (idx > 0) {
+      const basePrev = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
+      location.hash = `${basePrev}/${records[idx - 1].uid}`;
+    }
+  });
+  nextBtn?.addEventListener('click', () => {
+    if (idx >= 0 && idx < records.length - 1) {
+      const baseNext = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
+      location.hash = `${baseNext}/${records[idx + 1].uid}`;
+    }
   });
 }
 
@@ -903,7 +984,6 @@ function renderStatistics(limitTo) {
   let allTimeShortest = [];
 
   if (allStats?.longevity?.current_longest) {
-    // Use pre-computed stats (includes subcategory longevity)
     const currentLongest = allStats.longevity.current_longest;
     const record = allRecords.find(r => r.uid === currentLongest.uid);
     if (record) {
@@ -927,7 +1007,8 @@ function renderStatistics(limitTo) {
     allRecords.forEach(r => {
       if (!sortedByCatAndDate[r.category]) sortedByCatAndDate[r.category] = [];
       sortedByCatAndDate[r.category].push(r);
-    });    Object.keys(sortedByCatAndDate).forEach(cat => {
+    });
+    Object.keys(sortedByCatAndDate).forEach(cat => {
       sortedByCatAndDate[cat].sort((a, b) => new Date(a.achieved_at) - new Date(b.achieved_at));
     });
 
@@ -959,13 +1040,6 @@ function renderStatistics(limitTo) {
     catCounts[r.category] = (catCounts[r.category] || 0) + 1;
   });
 
-  // Format days into human-readable string
-  function formatDays(days) {
-    if (days < 30) return `${days} days`;
-    if (days < 365) return `${Math.floor(days / 30)} months`;
-    return `${(days / 365).toFixed(1)} years`;
-  }
-
   // ── Render ──
   container.innerHTML = `
     <h2 class="statistics-section-title">Statistics & Insights</h2>
@@ -979,7 +1053,7 @@ function renderStatistics(limitTo) {
             <div class="stat-list-item">
               <span class="stat-list-rank">${i + 1}</span>
               <span class="stat-list-flag">${getFlagEmoji(country)}</span>
-              <span class="stat-list-name">${country}</span>
+              <span class="stat-list-name">${escapeHtml(country)}</span>
               <div class="stat-list-bar">
                 <div class="stat-list-bar-fill" style="width:${(count / maxCountryCount * 100).toFixed(1)}%"></div>
               </div>
@@ -994,7 +1068,6 @@ function renderStatistics(limitTo) {
         <div class="stat-card-title">Records per Overclocker</div>
         <div class="stat-list">
           ${topOCs.map(([handle, count], i) => {
-            // Find most common country for this overclocker
             let topCountry = '';
             if (ocCountries[handle]) {
               topCountry = Object.entries(ocCountries[handle])
@@ -1004,7 +1077,7 @@ function renderStatistics(limitTo) {
               <div class="stat-list-item">
                 <span class="stat-list-rank">${i + 1}</span>
                 ${topCountry ? `<span class="stat-list-flag">${getFlagEmoji(topCountry)}</span>` : ''}
-                <span class="stat-list-name">${handle}</span>
+                <span class="stat-list-name">${escapeHtml(handle)}</span>
                 <div class="stat-list-bar">
                   <div class="stat-list-bar-fill" style="width:${(count / maxOCCount * 100).toFixed(1)}%"></div>
                 </div>
@@ -1021,7 +1094,7 @@ function renderStatistics(limitTo) {
         <div class="decade-breakdown">
           ${decades.map(([decade, count]) => `
             <div class="decade-item">
-              <span class="decade-label">${decade}s</span>
+              <span class="decade-label">${escapeHtml(decade)}s</span>
               <div class="decade-bar-wrap">
                 <div class="decade-bar" style="width:${(count / maxDecadeCount * 100).toFixed(1)}%"></div>
               </div>
@@ -1035,7 +1108,7 @@ function renderStatistics(limitTo) {
       <div class="stat-card">
         <div class="stat-card-title">Highlights</div>
         <div class="highlight-stat">
-          <div class="highlight-value">${topYear ? topYear[0] : '—'}</div>
+          <div class="highlight-value">${topYear ? escapeHtml(topYear[0]) : '—'}</div>
           <div class="highlight-label">Most Recordful Year</div>
           <div class="highlight-sub">${topYear ? topYear[1] : 0} world records set</div>
         </div>
@@ -1047,7 +1120,7 @@ function renderStatistics(limitTo) {
             const label = CATEGORIES[cat].label;
             return `
               <div class="decade-item" style="margin-bottom: 8px;">
-                <span class="decade-label" style="width: 52px;">${label}</span>
+                <span class="decade-label" style="width: 52px;">${escapeHtml(label)}</span>
                 <div class="decade-bar-wrap">
                   <div class="decade-bar" style="width:${(count / maxCat * 100).toFixed(1)}%"></div>
                 </div>
@@ -1059,13 +1132,13 @@ function renderStatistics(limitTo) {
       </div>
 
       <!-- Current Longest-Standing Record -->
-      <a class="current-record-card" href="#${longestCurrentRecord.category}/${longestCurrentRecord.uid}">
+      <a class="current-record-card" href="#${escapeHtml(longestCurrentRecord.category || '')}/${escapeHtml(longestCurrentRecord.uid || '')}">
         <div class="cr-category">Current Longest-Standing</div>
-        <div class="cr-freq">${longestCurrentRecord.value_mhz.toFixed(2)}<span class="cr-unit">MHz</span></div>
-        <div class="cr-hardware">${longestCurrentRecord.hardware?.primary || 'Unknown'}</div>
+        <div class="cr-freq">${longestCurrentRecord.value_mhz?.toFixed(2) ?? '—'}<span class="cr-unit">MHz</span></div>
+        <div class="cr-hardware">${escapeHtml(longestCurrentRecord.hardware?.primary || 'Unknown')}</div>
         <div class="cr-overclocker">
           ${(longestCurrentRecord.overclockers?.[0]?.country) ? `<span class="cr-flag">${getFlagEmoji(longestCurrentRecord.overclockers[0].country)}</span>` : ''}
-          <span>${longestCurrentRecord.overclockers?.[0]?.handle || 'Unknown'}</span>
+          <span>${escapeHtml(longestCurrentRecord.overclockers?.[0]?.handle || 'Unknown')}</span>
         </div>
         <div class="cr-date">
           Set ${formatDateLong(longestCurrentRecord.achieved_at, longestCurrentRecord.achieved_at_approximate)} · Standing for ${formatDays(longestCurrentRecord.days)}
@@ -1073,13 +1146,13 @@ function renderStatistics(limitTo) {
       </a>
 
       <!-- All-Time Longest-Standing Record -->
-      <a class="current-record-card" href="#${allTimeLongest[0]?.category}/${allTimeLongest[0]?.uid}">
+      <a class="current-record-card" href="#${escapeHtml(allTimeLongest[0]?.category || '')}/${escapeHtml(allTimeLongest[0]?.uid || '')}">
         <div class="cr-category">All-Time Longest-Standing</div>
-        <div class="cr-freq">${allTimeLongest[0]?.value_mhz.toFixed(2)}<span class="cr-unit">MHz</span></div>
-        <div class="cr-hardware">${allTimeLongest[0]?.hardware?.primary || 'Unknown'}</div>
+        <div class="cr-freq">${allTimeLongest[0]?.value_mhz?.toFixed(2) ?? '—'}<span class="cr-unit">MHz</span></div>
+        <div class="cr-hardware">${escapeHtml(allTimeLongest[0]?.hardware?.primary || 'Unknown')}</div>
         <div class="cr-overclocker">
           ${(allTimeLongest[0]?.overclockers?.[0]?.country) ? `<span class="cr-flag">${getFlagEmoji(allTimeLongest[0].overclockers[0].country)}</span>` : ''}
-          <span>${allTimeLongest[0]?.overclockers?.[0]?.handle || 'Unknown'}</span>
+          <span>${escapeHtml(allTimeLongest[0]?.overclockers?.[0]?.handle || 'Unknown')}</span>
         </div>
         <div class="cr-date">
           Set ${formatDateLong(allTimeLongest[0]?.achieved_at, allTimeLongest[0]?.achieved_at_approximate)} · Stood for ${formatDays(allTimeLongest[0]?.days)}
@@ -1096,7 +1169,7 @@ function renderStatistics(limitTo) {
 }
 
 // ── STATISTICS PAGE ───────────────────────────────────
-const STATS_PAGE_SIZE = 10; // Items per page for paginated lists
+const STATS_PAGE_SIZE = 10;
 
 function renderStatisticsPage() {
   const container = document.getElementById('statistics-full-content');
@@ -1149,7 +1222,6 @@ function renderStatisticsPage() {
     <div class="stat-nav-item" data-target="stat-categories">Categories</div>
   `;
 
-  // Click handlers for sidebar navigation
   sidebar.querySelectorAll('.stat-nav-item').forEach(item => {
     item.addEventListener('click', () => {
       sidebar.querySelectorAll('.stat-nav-item').forEach(i => i.classList.remove('active'));
@@ -1159,36 +1231,28 @@ function renderStatisticsPage() {
     });
   });
 
-  // Scroll-based highlighting for sidebar
   const statSections = ['stat-countries', 'stat-overclockers', 'stat-years', 'stat-decades', 'stat-categories', 'stat-longevity'];
   const mainEl = document.getElementById('statistics-main');
   if (mainEl) {
     mainEl.addEventListener('scroll', () => {
       const scrollTop = mainEl.scrollTop;
       let currentSection = 'stat-countries';
-
       for (const sectionId of statSections) {
         const section = document.getElementById(sectionId);
         if (section) {
           const sectionTop = section.offsetTop - 120;
-          if (scrollTop >= sectionTop) {
-            currentSection = sectionId;
-          }
+          if (scrollTop >= sectionTop) currentSection = sectionId;
         }
       }
-
       sidebar.querySelectorAll('.stat-nav-item').forEach(item => {
         item.classList.toggle('active', item.dataset.target === currentSection);
       });
     });
   }
 
-  // Render paginated sections
   function renderPaginatedSection(data, pageSize, renderFn, sectionId) {
     const total = Math.ceil(data.length / pageSize);
-    if (total <= 1) {
-      return data.map(renderFn).join('');
-    }
+    if (total <= 1) return data.map(renderFn).join('');
     let html = '';
     for (let page = 0; page < total; page++) {
       const pageData = data.slice(page * pageSize, (page + 1) * pageSize);
@@ -1197,7 +1261,6 @@ function renderStatisticsPage() {
       html += pageData.map(renderFn).join('');
       html += '</div>';
     }
-    // Add pagination controls
     html += `<div class="stat-pagination" data-section="${sectionId}">`;
     for (let p = 0; p < total; p++) {
       html += `<button class="stat-page-btn ${p === 0 ? 'active' : ''}" data-page="${p}" data-section="${sectionId}">${p + 1}</button>`;
@@ -1214,11 +1277,11 @@ function renderStatisticsPage() {
           const oc = r.overclockers?.[0] || {};
           const flag = getFlagEmoji(oc.country);
           return `
-            <div class="stat-list-item" style="cursor:pointer;" onclick="openRecordFromStats('${r.uid}')">
+            <div class="stat-list-item" style="cursor:pointer;" data-uid="${escapeHtml(r.uid)}">
               <span class="stat-list-rank">${i + 1}</span>
               ${flag ? `<span class="stat-list-flag">${flag}</span>` : ''}
               <span class="stat-list-name" style="font-size:12px;">
-                ${r.value_mhz.toFixed(2)} MHz · ${r.hardware?.primary || 'Unknown'} · ${oc.handle || 'Unknown'}
+                ${r.value_mhz.toFixed(2)} MHz · ${escapeHtml(r.hardware?.primary || 'Unknown')} · ${escapeHtml(oc.handle || 'Unknown')}
               </span>
               <span class="stat-list-count" style="color:var(--accent);font-size:11px;">
                 ${formatDays(r.days)}
@@ -1232,22 +1295,21 @@ function renderStatisticsPage() {
     <div class="stat-section" id="stat-countries">
       <div class="stat-section-title" style="color:var(--accent);">Records per Country (${sortedCountries.length})</div>
       ${renderPaginatedSection(sortedCountries, STATS_PAGE_SIZE, ([country, count], i) => {
-        const globalIndex = i;
         const uids = countryRecords[country] || [];
         const links = uids.slice(0, 5).map(uid => {
           const rec = allRecords.find(r => r.uid === uid);
-          return rec ? `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
+          return rec ? `<a href="#${rec.category}/${escapeHtml(uid)}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
         }).join('');
         const extra = uids.length - 5;
         return `
           <div class="stat-list-item">
-            <span class="stat-list-rank">${globalIndex + 1}</span>
+            <span class="stat-list-rank">${i + 1}</span>
             <span class="stat-list-flag">${getFlagEmoji(country)}</span>
-            <span class="stat-list-name">${country}</span>
+            <span class="stat-list-name">${escapeHtml(country)}</span>
             <div class="stat-list-bar"><div class="stat-list-bar-fill" style="width:${(count/maxCountryCount*100).toFixed(1)}%"></div></div>
             <span class="stat-list-count">${count}</span>
           </div>
-          <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(5).join(',')}">+${extra} more</span>` : ''}</div>
+          <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(5).map(escapeHtml).join(',')}">+${extra} more</span>` : ''}</div>
         `;
       }, 'countries')}
     </div>
@@ -1255,14 +1317,12 @@ function renderStatisticsPage() {
     <div class="stat-section" id="stat-overclockers">
       <div class="stat-section-title" style="color:var(--accent);">Records per Overclocker (${sortedOCs.length})</div>
       ${renderPaginatedSection(sortedOCs, STATS_PAGE_SIZE, ([handle, count], i) => {
-        const globalIndex = i;
         const uids = ocRecords[handle] || [];
-        // Find most common country for this overclocker
         let topCountry = '';
         const countryMap = {};
         uids.forEach(uid => {
           const rec = allRecords.find(r => r.uid === uid);
-          if (rec && rec.overclockers) {
+          if (rec?.overclockers) {
             rec.overclockers.forEach(oc => {
               if (oc.handle === handle && oc.country) {
                 countryMap[oc.country] = (countryMap[oc.country] || 0) + 1;
@@ -1275,18 +1335,18 @@ function renderStatisticsPage() {
         }
         const links = uids.slice(0, 5).map(uid => {
           const rec = allRecords.find(r => r.uid === uid);
-          return rec ? `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
+          return rec ? `<a href="#${rec.category}/${escapeHtml(uid)}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
         }).join('');
         const extra = uids.length - 5;
         return `
           <div class="stat-list-item">
-            <span class="stat-list-rank">${globalIndex + 1}</span>
+            <span class="stat-list-rank">${i + 1}</span>
             ${topCountry ? `<span class="stat-list-flag">${getFlagEmoji(topCountry)}</span>` : ''}
-            <span class="stat-list-name">${handle}</span>
+            <span class="stat-list-name">${escapeHtml(handle)}</span>
             <div class="stat-list-bar"><div class="stat-list-bar-fill" style="width:${(count/maxOCCount*100).toFixed(1)}%"></div></div>
             <span class="stat-list-count">${count}</span>
           </div>
-          <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(5).join(',')}">+${extra} more</span>` : ''}</div>
+          <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(5).map(escapeHtml).join(',')}">+${extra} more</span>` : ''}</div>
         `;
       }, 'overclockers')}
     </div>
@@ -1298,16 +1358,16 @@ function renderStatisticsPage() {
           const uids = yearRecords[year] || [];
           const links = uids.slice(0, 3).map(uid => {
             const rec = allRecords.find(r => r.uid === uid);
-            return rec ? `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
+            return rec ? `<a href="#${rec.category}/${escapeHtml(uid)}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
           }).join('');
           const extra = uids.length - 3;
           return `
             <div class="decade-item">
-              <span class="decade-label" style="width:52px;">${year}</span>
+              <span class="decade-label" style="width:52px;">${escapeHtml(year)}</span>
               <div class="decade-bar-wrap"><div class="decade-bar" style="width:${(count/maxYearCount*100).toFixed(1)}%"></div></div>
               <span class="decade-count">${count}</span>
             </div>
-            <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(3).join(',')}">+${extra} more</span>` : ''}</div>
+            <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(3).map(escapeHtml).join(',')}">+${extra} more</span>` : ''}</div>
           `;
         }).join('')}
       </div>
@@ -1318,7 +1378,7 @@ function renderStatisticsPage() {
       <div class="decade-breakdown">
         ${decades.map(([decade, count]) => `
           <div class="decade-item">
-            <span class="decade-label">${decade}s</span>
+            <span class="decade-label">${escapeHtml(decade)}s</span>
             <div class="decade-bar-wrap"><div class="decade-bar" style="width:${(count/maxDecadeCount*100).toFixed(1)}%"></div></div>
             <span class="decade-count">${count}</span>
           </div>
@@ -1334,7 +1394,7 @@ function renderStatisticsPage() {
           const maxCat = Math.max(...Object.values(catCounts), 1);
           return `
             <div class="decade-item">
-              <span class="decade-label" style="width:52px;">${CATEGORIES[cat].label}</span>
+              <span class="decade-label" style="width:52px;">${escapeHtml(CATEGORIES[cat].label)}</span>
               <div class="decade-bar-wrap"><div class="decade-bar" style="width:${(count/maxCat*100).toFixed(1)}%"></div></div>
               <span class="decade-count">${count}</span>
             </div>
@@ -1344,54 +1404,53 @@ function renderStatisticsPage() {
     </div>
   `;
 
-  // Add pagination click handlers
+  // Pagination click handlers
   container.querySelectorAll('.stat-page-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const section = btn.dataset.section;
       const page = parseInt(btn.dataset.page);
-      // Hide all pages in this section
-      container.querySelectorAll(`#${section}-page-1, [id^="${section}-page-"]`).forEach(p => p.style.display = 'none');
-      // Show selected page
+      container.querySelectorAll(`[id^="${section}-page-"]`).forEach(p => p.style.display = 'none');
       const targetPage = document.getElementById(`${section}-page-${page + 1}`);
       if (targetPage) targetPage.style.display = 'block';
-      // Update active button
       container.querySelectorAll(`.stat-pagination[data-section="${section}"] .stat-page-btn`).forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     });
   });
 
-  // Add click handlers for record links to open panel
+  // Longevity row click handlers (using data-uid instead of inline onclick)
+  container.querySelectorAll('.stat-list-item[data-uid]').forEach(row => {
+    row.addEventListener('click', () => openRecordFromStats(row.dataset.uid));
+  });
+
+  // Record link click handlers
   container.querySelectorAll('.stat-record-link[data-stat-page="true"]').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
-      const href = link.getAttribute('href').replace('#', '');
-      const uid = href.split('/').pop();
+      const uid = link.getAttribute('href').replace('#', '').split('/').pop();
       openRecordFromStats(uid);
     });
   });
 
-  // Add click handlers for "+more" expand
+  // "+more" expand handlers
   container.querySelectorAll('.stat-record-more').forEach(more => {
     more.addEventListener('click', () => {
       const uids = more.dataset.uids.split(',');
       const parent = more.closest('.stat-record-links');
-      const extraLinks = uids.map(uid => {
+      uids.forEach(uid => {
         const rec = allRecords.find(r => r.uid === uid);
-        if (!rec) return '';
-        return `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>`;
-      }).join('');
-      parent.innerHTML += extraLinks;
-      more.remove();
-
-      // Re-attach click handlers to new links
-      parent.querySelectorAll('.stat-record-link[data-stat-page="true"]').forEach(link => {
-        link.addEventListener('click', e => {
+        if (!rec) return;
+        const a = document.createElement('a');
+        a.href = `#${rec.category}/${uid}`;
+        a.className = 'stat-record-link';
+        a.dataset.statPage = 'true';
+        a.textContent = `${rec.value_mhz.toFixed(0)} MHz`;
+        a.addEventListener('click', e => {
           e.preventDefault();
-          const href = link.getAttribute('href').replace('#', '');
-          const uid = href.split('/').pop();
           openRecordFromStats(uid);
         });
+        parent.insertBefore(a, more);
       });
+      more.remove();
     });
   });
 }
@@ -1411,7 +1470,6 @@ function openRecordFromStats(uid) {
 // Get all-time longest-standing records from pre-computed stats
 function computeAllTimeLongest() {
   if (allStats?.longevity?.all_time_longest) {
-    // Map the pre-computed data to include overclockers info from allRecords
     return allStats.longevity.all_time_longest.map(entry => {
       const record = allRecords.find(r => r.uid === entry.uid);
       if (record) {
@@ -1425,12 +1483,12 @@ function computeAllTimeLongest() {
       return entry;
     });
   }
-  // Fallback: compute on the fly if stats not available
   return [];
 }
 
 // Format days into human-readable string
 function formatDays(days) {
+  if (!days && days !== 0) return '—';
   if (days < 30) return `${days} days`;
   if (days < 365) return `${Math.floor(days / 30)} months`;
   return `${(days / 365).toFixed(1)} years`;
@@ -1441,8 +1499,8 @@ function hwRow(label, value) {
   const missing = !value || value === 'Unknown';
   return `
     <div class="hw-row">
-      <span class="hw-label">${label}</span>
-      <span class="hw-value ${missing ? 'unknown' : ''}">${missing ? 'Unknown' : value}</span>
+      <span class="hw-label">${escapeHtml(label)}</span>
+      <span class="hw-value ${missing ? 'unknown' : ''}">${missing ? 'Unknown' : escapeHtml(value)}</span>
     </div>
   `;
 }
@@ -1462,6 +1520,7 @@ function formatDate(iso, approx) {
 }
 
 function formatDateLong(iso, approx) {
+  if (!iso) return '—';
   const d = new Date(iso + 'T12:00:00Z');
   return approx
     ? d.toLocaleDateString('en-US', { year: 'numeric', month: 'long' }) + ' (approx.)'
@@ -1469,7 +1528,6 @@ function formatDateLong(iso, approx) {
 }
 
 // ── EVENTS ────────────────────────────────────────────
-
 document.getElementById('panel-close-btn')?.addEventListener('click', () => {
   closePanel();
 });

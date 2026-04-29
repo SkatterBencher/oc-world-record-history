@@ -29,7 +29,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19960801_233/",
+    "_asset_base": "/assets/cpu/19960801_233/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -63,7 +63,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19961118_266/",
+    "_asset_base": "/assets/cpu/19961118_266/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -97,7 +97,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19971101_337/",
+    "_asset_base": "/assets/cpu/19971101_337/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -131,7 +131,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19971117_375/",
+    "_asset_base": "/assets/cpu/19971117_375/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -165,7 +165,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19971205_400/",
+    "_asset_base": "/assets/cpu/19971205_400/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -199,7 +199,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980111_416/",
+    "_asset_base": "/assets/cpu/19980111_416/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -235,7 +235,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19980119_118/",
+    "_asset_base": "/assets/gpu/19980119_118/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -271,7 +271,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980301_530/",
+    "_asset_base": "/assets/cpu/19980301_530/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -303,7 +303,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980401_590/",
+    "_asset_base": "/assets/cpu/19980401_590/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -335,7 +335,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980701_610/",
+    "_asset_base": "/assets/cpu/19980701_610/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -369,7 +369,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980801_661/",
+    "_asset_base": "/assets/cpu/19980801_661/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -401,7 +401,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19980912_675/",
+    "_asset_base": "/assets/cpu/19980912_675/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -437,7 +437,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19980913_135/",
+    "_asset_base": "/assets/gpu/19980913_135/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -473,7 +473,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981007_698/",
+    "_asset_base": "/assets/cpu/19981007_698/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -509,7 +509,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981109_715/",
+    "_asset_base": "/assets/cpu/19981109_715/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -543,7 +543,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981121_716/",
+    "_asset_base": "/assets/cpu/19981121_716/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -579,7 +579,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981213_724/",
+    "_asset_base": "/assets/cpu/19981213_724/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -615,7 +615,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19981230_743/",
+    "_asset_base": "/assets/cpu/19981230_743/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -651,7 +651,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990110_759/",
+    "_asset_base": "/assets/cpu/19990110_759/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -685,7 +685,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990217_808/",
+    "_asset_base": "/assets/cpu/19990217_808/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -721,7 +721,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990220_811/",
+    "_asset_base": "/assets/cpu/19990220_811/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -757,7 +757,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990306_822/",
+    "_asset_base": "/assets/cpu/19990306_822/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -791,7 +791,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990321_849/",
+    "_asset_base": "/assets/cpu/19990321_849/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -827,7 +827,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19990421_175/",
+    "_asset_base": "/assets/gpu/19990421_175/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -865,7 +865,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19990619_921/",
+    "_asset_base": "/assets/cpu/19990619_921/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -901,7 +901,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991007_1082/",
+    "_asset_base": "/assets/cpu/19991007_1082/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -937,7 +937,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991101_1151/",
+    "_asset_base": "/assets/cpu/19991101_1151/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -973,7 +973,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/19991112_195/",
+    "_asset_base": "/assets/gpu/19991112_195/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -1011,7 +1011,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991116_1238/",
+    "_asset_base": "/assets/cpu/19991116_1238/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1047,7 +1047,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991121_1264/",
+    "_asset_base": "/assets/cpu/19991121_1264/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1081,7 +1081,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/19991228_1286/",
+    "_asset_base": "/assets/cpu/19991228_1286/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1115,7 +1115,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000402_1370/",
+    "_asset_base": "/assets/cpu/20000402_1370/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1151,7 +1151,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000409_1500/",
+    "_asset_base": "/assets/cpu/20000409_1500/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1187,7 +1187,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000413_1522/",
+    "_asset_base": "/assets/cpu/20000413_1522/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1237,7 +1237,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000813_187/",
+    "_asset_base": "/assets/memory/20000813_187/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1292,7 +1292,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000814_190/",
+    "_asset_base": "/assets/memory/20000814_190/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1360,7 +1360,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000819_210/",
+    "_asset_base": "/assets/memory/20000819_210/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1418,7 +1418,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000828_211/",
+    "_asset_base": "/assets/memory/20000828_211/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1454,7 +1454,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20000903_1612/",
+    "_asset_base": "/assets/cpu/20000903_1612/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1504,7 +1504,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000914_214/",
+    "_asset_base": "/assets/memory/20000914_214/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1565,7 +1565,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20000915_215/",
+    "_asset_base": "/assets/memory/20000915_215/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1601,7 +1601,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001105_1613/",
+    "_asset_base": "/assets/cpu/20001105_1613/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1638,7 +1638,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20001114_216/",
+    "_asset_base": "/assets/memory/20001114_216/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1688,7 +1688,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20001122_217/",
+    "_asset_base": "/assets/memory/20001122_217/",
     "_genuine_overall": true,
     "_genuine_in": [
       "SDR"
@@ -1724,7 +1724,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001201_1653/",
+    "_asset_base": "/assets/cpu/20001201_1653/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1760,7 +1760,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001203_2144/",
+    "_asset_base": "/assets/cpu/20001203_2144/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1796,7 +1796,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20001213_2205/",
+    "_asset_base": "/assets/cpu/20001213_2205/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1830,7 +1830,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010308_2250/",
+    "_asset_base": "/assets/cpu/20010308_2250/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1864,7 +1864,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010315_2600/",
+    "_asset_base": "/assets/cpu/20010315_2600/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1898,7 +1898,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010329_2804/",
+    "_asset_base": "/assets/cpu/20010329_2804/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1932,7 +1932,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010402_2864/",
+    "_asset_base": "/assets/cpu/20010402_2864/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1968,7 +1968,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20010528_256/",
+    "_asset_base": "/assets/gpu/20010528_256/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2004,7 +2004,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20010905_3023/",
+    "_asset_base": "/assets/cpu/20010905_3023/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2038,7 +2038,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20011009_3027/",
+    "_asset_base": "/assets/cpu/20011009_3027/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2072,7 +2072,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20011107_3391/",
+    "_asset_base": "/assets/cpu/20011107_3391/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2108,7 +2108,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20011123_305/",
+    "_asset_base": "/assets/gpu/20011123_305/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2144,7 +2144,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020109_3541/",
+    "_asset_base": "/assets/cpu/20020109_3541/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2178,7 +2178,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020117_3674/",
+    "_asset_base": "/assets/cpu/20020117_3674/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2212,7 +2212,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020119_3702/",
+    "_asset_base": "/assets/cpu/20020119_3702/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2246,7 +2246,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020123_3808/",
+    "_asset_base": "/assets/cpu/20020123_3808/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2280,7 +2280,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020322_3890/",
+    "_asset_base": "/assets/cpu/20020322_3890/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2314,7 +2314,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020327_4010/",
+    "_asset_base": "/assets/cpu/20020327_4010/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2350,7 +2350,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020407_365/",
+    "_asset_base": "/assets/gpu/20020407_365/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2386,7 +2386,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020414_4110/",
+    "_asset_base": "/assets/cpu/20020414_4110/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2422,7 +2422,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020506_378/",
+    "_asset_base": "/assets/gpu/20020506_378/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2478,7 +2478,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020530_235/",
+    "_asset_base": "/assets/memory/20020530_235/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -2516,7 +2516,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020605_391/",
+    "_asset_base": "/assets/gpu/20020605_391/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2572,7 +2572,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020623_240/",
+    "_asset_base": "/assets/memory/20020623_240/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -2610,7 +2610,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020629_405/",
+    "_asset_base": "/assets/gpu/20020629_405/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2661,7 +2661,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020629_257/",
+    "_asset_base": "/assets/memory/20020629_257/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -2697,7 +2697,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020710_4244/",
+    "_asset_base": "/assets/cpu/20020710_4244/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2751,7 +2751,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20020719_258/",
+    "_asset_base": "/assets/memory/20020719_258/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -2789,7 +2789,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020720_409/",
+    "_asset_base": "/assets/gpu/20020720_409/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2825,7 +2825,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020819_4309/",
+    "_asset_base": "/assets/cpu/20020819_4309/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2859,7 +2859,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020829_4339/",
+    "_asset_base": "/assets/cpu/20020829_4339/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2893,7 +2893,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020901_4418/",
+    "_asset_base": "/assets/cpu/20020901_4418/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2929,7 +2929,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020911_479/",
+    "_asset_base": "/assets/gpu/20020911_479/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -2965,7 +2965,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20020915_4424/",
+    "_asset_base": "/assets/cpu/20020915_4424/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3001,7 +3001,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20020927_508/",
+    "_asset_base": "/assets/gpu/20020927_508/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3059,7 +3059,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20021027_285/",
+    "_asset_base": "/assets/memory/20021027_285/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -3115,7 +3115,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20021103_286/",
+    "_asset_base": "/assets/memory/20021103_286/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -3151,7 +3151,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20021117_4438/",
+    "_asset_base": "/assets/cpu/20021117_4438/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3185,7 +3185,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20021201_4456/",
+    "_asset_base": "/assets/cpu/20021201_4456/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3219,7 +3219,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20021208_4588/",
+    "_asset_base": "/assets/cpu/20021208_4588/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3255,7 +3255,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030204_513/",
+    "_asset_base": "/assets/gpu/20030204_513/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3291,7 +3291,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030214_4599/",
+    "_asset_base": "/assets/cpu/20030214_4599/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3325,7 +3325,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030223_4623/",
+    "_asset_base": "/assets/cpu/20030223_4623/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3361,7 +3361,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030510_540/",
+    "_asset_base": "/assets/gpu/20030510_540/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3399,7 +3399,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030511_558/",
+    "_asset_base": "/assets/gpu/20030511_558/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3455,7 +3455,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20030511_291/",
+    "_asset_base": "/assets/memory/20030511_291/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -3491,7 +3491,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030524_4762/",
+    "_asset_base": "/assets/cpu/20030524_4762/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3527,7 +3527,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030530_567/",
+    "_asset_base": "/assets/gpu/20030530_567/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3565,7 +3565,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030611_594/",
+    "_asset_base": "/assets/gpu/20030611_594/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3601,7 +3601,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030629_4872/",
+    "_asset_base": "/assets/cpu/20030629_4872/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3657,7 +3657,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20030701_296/",
+    "_asset_base": "/assets/memory/20030701_296/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -3693,7 +3693,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20030703_5125/",
+    "_asset_base": "/assets/cpu/20030703_5125/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3729,7 +3729,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030708_689/",
+    "_asset_base": "/assets/gpu/20030708_689/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3785,7 +3785,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20030712_314/",
+    "_asset_base": "/assets/memory/20030712_314/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -3823,7 +3823,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20030911_702/",
+    "_asset_base": "/assets/gpu/20030911_702/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3861,7 +3861,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20031025_711/",
+    "_asset_base": "/assets/gpu/20031025_711/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3897,7 +3897,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20031202_5154/",
+    "_asset_base": "/assets/cpu/20031202_5154/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3931,7 +3931,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20031230_5255/",
+    "_asset_base": "/assets/cpu/20031230_5255/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3965,7 +3965,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20040102_5326/",
+    "_asset_base": "/assets/cpu/20040102_5326/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4019,7 +4019,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040412_325/",
+    "_asset_base": "/assets/memory/20040412_325/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -4057,7 +4057,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20040507_715/",
+    "_asset_base": "/assets/gpu/20040507_715/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -4093,7 +4093,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20040509_5387/",
+    "_asset_base": "/assets/cpu/20040509_5387/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4182,7 +4182,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20040525_6009/",
+    "_asset_base": "/assets/cpu/20040525_6009/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4236,7 +4236,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040727_347/",
+    "_asset_base": "/assets/memory/20040727_347/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -4302,7 +4302,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040728_349/",
+    "_asset_base": "/assets/memory/20040728_349/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -4358,7 +4358,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040729_359/",
+    "_asset_base": "/assets/memory/20040729_359/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -4402,7 +4402,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040730_360/",
+    "_asset_base": "/assets/memory/20040730_360/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR"
@@ -4446,7 +4446,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040730_350/",
+    "_asset_base": "/assets/memory/20040730_350/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -4498,7 +4498,7 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040731_366/",
+    "_asset_base": "/assets/memory/20040731_366/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4540,7 +4540,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040801_366/",
+    "_asset_base": "/assets/memory/20040801_366/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -4578,7 +4578,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20040915_807/",
+    "_asset_base": "/assets/gpu/20040915_807/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -4634,7 +4634,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20040922_368/",
+    "_asset_base": "/assets/memory/20040922_368/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -4672,7 +4672,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20041001_810/",
+    "_asset_base": "/assets/gpu/20041001_810/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -4715,7 +4715,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041016_6042/",
+    "_asset_base": "/assets/cpu/20041016_6042/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4767,7 +4767,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041028_6114/",
+    "_asset_base": "/assets/cpu/20041028_6114/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4817,7 +4817,7 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041031_376/",
+    "_asset_base": "/assets/memory/20041031_376/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4851,7 +4851,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041101_6302/",
+    "_asset_base": "/assets/cpu/20041101_6302/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4885,7 +4885,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041101_6212/",
+    "_asset_base": "/assets/cpu/20041101_6212/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -4932,7 +4932,7 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041105_380/",
+    "_asset_base": "/assets/memory/20041105_380/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -4986,7 +4986,7 @@
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041106_410/",
+    "_asset_base": "/assets/memory/20041106_410/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -5052,7 +5052,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041107_417/",
+    "_asset_base": "/assets/memory/20041107_417/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -5108,7 +5108,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041117_430/",
+    "_asset_base": "/assets/memory/20041117_430/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -5146,7 +5146,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20041118_824/",
+    "_asset_base": "/assets/gpu/20041118_824/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -5182,7 +5182,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20041129_6315/",
+    "_asset_base": "/assets/cpu/20041129_6315/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5236,7 +5236,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20041202_449/",
+    "_asset_base": "/assets/memory/20041202_449/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -5292,7 +5292,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20050111_614/",
+    "_asset_base": "/assets/memory/20050111_614/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -5328,7 +5328,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050118_6495/",
+    "_asset_base": "/assets/cpu/20050118_6495/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5370,7 +5370,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20050322_405/",
+    "_asset_base": "/assets/memory/20050322_405/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -5408,7 +5408,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20050603_860/",
+    "_asset_base": "/assets/gpu/20050603_860/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -5444,7 +5444,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050607_6578/",
+    "_asset_base": "/assets/cpu/20050607_6578/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5478,7 +5478,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050729_6925/",
+    "_asset_base": "/assets/cpu/20050729_6925/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5512,7 +5512,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050809_7133/",
+    "_asset_base": "/assets/cpu/20050809_7133/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5559,7 +5559,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050813_7323/",
+    "_asset_base": "/assets/cpu/20050813_7323/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5593,7 +5593,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20050916_7418/",
+    "_asset_base": "/assets/cpu/20050916_7418/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5629,7 +5629,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20051011_878/",
+    "_asset_base": "/assets/gpu/20051011_878/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -5667,7 +5667,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20051017_1006/",
+    "_asset_base": "/assets/gpu/20051017_1006/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -5703,7 +5703,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051113_7473/",
+    "_asset_base": "/assets/cpu/20051113_7473/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5737,7 +5737,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051213_7608/",
+    "_asset_base": "/assets/cpu/20051213_7608/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5771,7 +5771,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051213_7532/",
+    "_asset_base": "/assets/cpu/20051213_7532/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5805,7 +5805,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051228_7625/",
+    "_asset_base": "/assets/cpu/20051228_7625/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5839,7 +5839,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20051229_7638/",
+    "_asset_base": "/assets/cpu/20051229_7638/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5875,7 +5875,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060122_626/",
+    "_asset_base": "/assets/memory/20060122_626/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -5911,7 +5911,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20060206_7657/",
+    "_asset_base": "/assets/cpu/20060206_7657/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -5965,7 +5965,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060507_628/",
+    "_asset_base": "/assets/memory/20060507_628/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -6016,7 +6016,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060518_645/",
+    "_asset_base": "/assets/memory/20060518_645/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -6054,7 +6054,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20060611_1045/",
+    "_asset_base": "/assets/gpu/20060611_1045/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -6107,7 +6107,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20060908_697/",
+    "_asset_base": "/assets/memory/20060908_697/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -6145,7 +6145,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20061106_475/",
+    "_asset_base": "/assets/gpu/20061106_475/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -6189,7 +6189,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20061212_717/",
+    "_asset_base": "/assets/memory/20061212_717/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -6227,7 +6227,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20061223_550/",
+    "_asset_base": "/assets/gpu/20061223_550/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -6263,7 +6263,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070121_7791/",
+    "_asset_base": "/assets/cpu/20070121_7791/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -6297,7 +6297,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070122_8000/",
+    "_asset_base": "/assets/cpu/20070122_8000/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -6333,7 +6333,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070204_570/",
+    "_asset_base": "/assets/gpu/20070204_570/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -6377,7 +6377,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070308_730/",
+    "_asset_base": "/assets/memory/20070308_730/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -6413,7 +6413,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070330_8179/",
+    "_asset_base": "/assets/cpu/20070330_8179/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -6449,7 +6449,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070506_1048/",
+    "_asset_base": "/assets/gpu/20070506_1048/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -6493,7 +6493,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070517_742/",
+    "_asset_base": "/assets/memory/20070517_742/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -6537,7 +6537,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070524_757/",
+    "_asset_base": "/assets/memory/20070524_757/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR2"
@@ -6575,7 +6575,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070531_1140/",
+    "_asset_base": "/assets/memory/20070531_1140/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -6613,7 +6613,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070601_1144/",
+    "_asset_base": "/assets/memory/20070601_1144/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -6657,7 +6657,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070602_762/",
+    "_asset_base": "/assets/memory/20070602_762/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -6701,7 +6701,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070602_759/",
+    "_asset_base": "/assets/memory/20070602_759/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -6739,7 +6739,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070604_1146/",
+    "_asset_base": "/assets/memory/20070604_1146/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -6783,7 +6783,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070604_782/",
+    "_asset_base": "/assets/memory/20070604_782/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -6821,7 +6821,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070605_1120/",
+    "_asset_base": "/assets/gpu/20070605_1120/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -6865,7 +6865,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070624_799/",
+    "_asset_base": "/assets/memory/20070624_799/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -6903,7 +6903,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070630_1168/",
+    "_asset_base": "/assets/gpu/20070630_1168/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -6941,7 +6941,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070702_1150/",
+    "_asset_base": "/assets/memory/20070702_1150/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -6979,7 +6979,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070718_1156/",
+    "_asset_base": "/assets/memory/20070718_1156/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -7015,7 +7015,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070720_8220/",
+    "_asset_base": "/assets/cpu/20070720_8220/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -7049,7 +7049,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20070720_8180/",
+    "_asset_base": "/assets/cpu/20070720_8180/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -7085,7 +7085,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20070829_667/",
+    "_asset_base": "/assets/gpu/20070829_667/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -7123,7 +7123,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070928_1304/",
+    "_asset_base": "/assets/memory/20070928_1304/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -7161,7 +7161,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20070928_1178/",
+    "_asset_base": "/assets/memory/20070928_1178/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -7199,7 +7199,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20071208_1180/",
+    "_asset_base": "/assets/gpu/20071208_1180/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -7237,7 +7237,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20071214_710/",
+    "_asset_base": "/assets/gpu/20071214_710/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -7275,7 +7275,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20071230_1193/",
+    "_asset_base": "/assets/gpu/20071230_1193/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -7313,7 +7313,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20080120_1360/",
+    "_asset_base": "/assets/gpu/20080120_1360/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -7351,7 +7351,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20080609_725/",
+    "_asset_base": "/assets/gpu/20080609_725/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -7389,7 +7389,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20080705_750/",
+    "_asset_base": "/assets/gpu/20080705_750/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -7427,7 +7427,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20080902_880/",
+    "_asset_base": "/assets/gpu/20080902_880/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -7465,7 +7465,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20080928_950/",
+    "_asset_base": "/assets/gpu/20080928_950/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -7503,7 +7503,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081005_1341/",
+    "_asset_base": "/assets/memory/20081005_1341/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -7541,7 +7541,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20081028_973/",
+    "_asset_base": "/assets/gpu/20081028_973/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -7585,7 +7585,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081122_829/",
+    "_asset_base": "/assets/memory/20081122_829/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -7629,7 +7629,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081124_848/",
+    "_asset_base": "/assets/memory/20081124_848/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -7667,7 +7667,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081219_1346/",
+    "_asset_base": "/assets/memory/20081219_1346/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -7711,7 +7711,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081219_876/",
+    "_asset_base": "/assets/memory/20081219_876/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -7755,7 +7755,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081222_882/",
+    "_asset_base": "/assets/memory/20081222_882/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -7799,7 +7799,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20081223_889/",
+    "_asset_base": "/assets/memory/20081223_889/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -7837,7 +7837,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20090209_1352/",
+    "_asset_base": "/assets/memory/20090209_1352/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -7881,7 +7881,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20090213_890/",
+    "_asset_base": "/assets/memory/20090213_890/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -7925,7 +7925,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20090214_900/",
+    "_asset_base": "/assets/memory/20090214_900/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -7963,7 +7963,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20090302_1000/",
+    "_asset_base": "/assets/gpu/20090302_1000/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -8001,7 +8001,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20090408_1020/",
+    "_asset_base": "/assets/gpu/20090408_1020/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -8039,7 +8039,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20090424_1100/",
+    "_asset_base": "/assets/gpu/20090424_1100/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -8077,7 +8077,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20090425_1111/",
+    "_asset_base": "/assets/gpu/20090425_1111/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -8115,7 +8115,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20091129_1380/",
+    "_asset_base": "/assets/gpu/20091129_1380/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8153,7 +8153,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20091205_1250/",
+    "_asset_base": "/assets/gpu/20091205_1250/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -8191,7 +8191,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20091219_1400/",
+    "_asset_base": "/assets/gpu/20091219_1400/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8229,7 +8229,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100105_1352/",
+    "_asset_base": "/assets/gpu/20100105_1352/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -8267,7 +8267,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100110_1114/",
+    "_asset_base": "/assets/gpu/20100110_1114/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -8329,7 +8329,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100112_1420/",
+    "_asset_base": "/assets/gpu/20100112_1420/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8396,7 +8396,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100112_1410/",
+    "_asset_base": "/assets/gpu/20100112_1410/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8434,7 +8434,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100128_1300/",
+    "_asset_base": "/assets/gpu/20100128_1300/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -8508,7 +8508,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100220_1450/",
+    "_asset_base": "/assets/gpu/20100220_1450/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8546,7 +8546,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100311_1485/",
+    "_asset_base": "/assets/gpu/20100311_1485/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8584,7 +8584,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100318_1318/",
+    "_asset_base": "/assets/gpu/20100318_1318/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -8622,7 +8622,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100319_1324/",
+    "_asset_base": "/assets/gpu/20100319_1324/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -8684,7 +8684,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100330_1353/",
+    "_asset_base": "/assets/gpu/20100330_1353/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-chipset"
@@ -8722,7 +8722,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100331_1364/",
+    "_asset_base": "/assets/gpu/20100331_1364/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -8760,7 +8760,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100405_1387/",
+    "_asset_base": "/assets/gpu/20100405_1387/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -8805,7 +8805,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20100411_1525/",
+    "_asset_base": "/assets/gpu/20100411_1525/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8854,7 +8854,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100719_83/",
+    "_asset_base": "/assets/memory/20100719_83/",
     "_genuine_overall": false,
     "_genuine_in": [
       "EDO"
@@ -8903,7 +8903,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100723_100/",
+    "_asset_base": "/assets/memory/20100723_100/",
     "_genuine_overall": false,
     "_genuine_in": [
       "EDO"
@@ -8947,7 +8947,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100725_224/",
+    "_asset_base": "/assets/memory/20100725_224/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -8985,7 +8985,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100821_1534/",
+    "_asset_base": "/assets/memory/20100821_1534/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -9023,7 +9023,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100903_1539/",
+    "_asset_base": "/assets/memory/20100903_1539/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -9067,7 +9067,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100906_406/",
+    "_asset_base": "/assets/memory/20100906_406/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -9103,7 +9103,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20100923_8242/",
+    "_asset_base": "/assets/cpu/20100923_8242/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -9139,7 +9139,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20100928_1553/",
+    "_asset_base": "/assets/memory/20100928_1553/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -9177,7 +9177,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20101121_1440/",
+    "_asset_base": "/assets/gpu/20101121_1440/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -9215,7 +9215,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110103_1700/",
+    "_asset_base": "/assets/gpu/20110103_1700/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -9253,7 +9253,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110106_1950/",
+    "_asset_base": "/assets/gpu/20110106_1950/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -9291,7 +9291,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110113_2000/",
+    "_asset_base": "/assets/gpu/20110113_2000/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -9329,7 +9329,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110115_2170/",
+    "_asset_base": "/assets/gpu/20110115_2170/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -9367,7 +9367,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110116_2234/",
+    "_asset_base": "/assets/gpu/20110116_2234/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -9411,7 +9411,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110116_416/",
+    "_asset_base": "/assets/memory/20110116_416/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -9449,7 +9449,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110222_1564/",
+    "_asset_base": "/assets/gpu/20110222_1564/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -9487,7 +9487,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110225_1603/",
+    "_asset_base": "/assets/gpu/20110225_1603/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -9525,7 +9525,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110226_1625/",
+    "_asset_base": "/assets/gpu/20110226_1625/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -9563,7 +9563,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110228_1575/",
+    "_asset_base": "/assets/memory/20110228_1575/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -9601,7 +9601,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110306_1627/",
+    "_asset_base": "/assets/gpu/20110306_1627/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -9639,7 +9639,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110319_1577/",
+    "_asset_base": "/assets/memory/20110319_1577/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -9677,7 +9677,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110321_1625/",
+    "_asset_base": "/assets/memory/20110321_1625/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -9715,7 +9715,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20110321_1614/",
+    "_asset_base": "/assets/memory/20110321_1614/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -9753,7 +9753,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110506_1681/",
+    "_asset_base": "/assets/gpu/20110506_1681/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -9791,7 +9791,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110717_1690/",
+    "_asset_base": "/assets/gpu/20110717_1690/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -9829,7 +9829,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110719_2300/",
+    "_asset_base": "/assets/gpu/20110719_2300/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -9865,7 +9865,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20110819_8308/",
+    "_asset_base": "/assets/cpu/20110819_8308/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -9901,7 +9901,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20110824_2400/",
+    "_asset_base": "/assets/gpu/20110824_2400/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -9937,7 +9937,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20110902_8429/",
+    "_asset_base": "/assets/cpu/20110902_8429/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -9971,7 +9971,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111027_8461/",
+    "_asset_base": "/assets/cpu/20111027_8461/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -10005,7 +10005,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111031_8491/",
+    "_asset_base": "/assets/cpu/20111031_8491/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -10039,7 +10039,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111101_8709/",
+    "_asset_base": "/assets/cpu/20111101_8709/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -10073,7 +10073,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20111101_8585/",
+    "_asset_base": "/assets/cpu/20111101_8585/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -10109,7 +10109,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111109_1655/",
+    "_asset_base": "/assets/memory/20111109_1655/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10147,7 +10147,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111122_1733/",
+    "_asset_base": "/assets/memory/20111122_1733/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10185,7 +10185,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111122_1661/",
+    "_asset_base": "/assets/memory/20111122_1661/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10223,7 +10223,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20111203_1800/",
+    "_asset_base": "/assets/memory/20111203_1800/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10261,7 +10261,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20120104_1700/",
+    "_asset_base": "/assets/gpu/20120104_1700/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -10299,7 +10299,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120228_1868/",
+    "_asset_base": "/assets/memory/20120228_1868/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10337,7 +10337,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20120322_1900/",
+    "_asset_base": "/assets/gpu/20120322_1900/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -10375,7 +10375,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20120406_1957/",
+    "_asset_base": "/assets/gpu/20120406_1957/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -10419,7 +10419,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120415_417/",
+    "_asset_base": "/assets/memory/20120415_417/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -10457,7 +10457,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120529_1918/",
+    "_asset_base": "/assets/memory/20120529_1918/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10495,7 +10495,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20120620_2002/",
+    "_asset_base": "/assets/gpu/20120620_2002/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -10533,7 +10533,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120620_1919/",
+    "_asset_base": "/assets/memory/20120620_1919/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10571,7 +10571,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120625_1921/",
+    "_asset_base": "/assets/memory/20120625_1921/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10620,7 +10620,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120715_125/",
+    "_asset_base": "/assets/memory/20120715_125/",
     "_genuine_overall": false,
     "_genuine_in": [
       "EDO"
@@ -10669,7 +10669,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120715_112/",
+    "_asset_base": "/assets/memory/20120715_112/",
     "_genuine_overall": false,
     "_genuine_in": [
       "EDO"
@@ -10707,7 +10707,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120819_1922/",
+    "_asset_base": "/assets/memory/20120819_1922/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10751,7 +10751,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120819_440/",
+    "_asset_base": "/assets/memory/20120819_440/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -10795,7 +10795,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120824_441/",
+    "_asset_base": "/assets/memory/20120824_441/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -10833,7 +10833,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120831_1937/",
+    "_asset_base": "/assets/memory/20120831_1937/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -10882,7 +10882,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20120831_133/",
+    "_asset_base": "/assets/memory/20120831_133/",
     "_genuine_overall": false,
     "_genuine_in": [
       "EDO"
@@ -10920,7 +10920,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20121012_2080/",
+    "_asset_base": "/assets/gpu/20121012_2080/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -10958,7 +10958,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20121012_2040/",
+    "_asset_base": "/assets/gpu/20121012_2040/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11007,7 +11007,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20121015_228/",
+    "_asset_base": "/assets/memory/20121015_228/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -11045,7 +11045,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20121112_1950/",
+    "_asset_base": "/assets/memory/20121112_1950/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11083,7 +11083,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20121119_8794/",
+    "_asset_base": "/assets/cpu/20121119_8794/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -11130,7 +11130,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130601_229/",
+    "_asset_base": "/assets/memory/20130601_229/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -11168,7 +11168,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130605_2115/",
+    "_asset_base": "/assets/memory/20130605_2115/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11217,7 +11217,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130608_230/",
+    "_asset_base": "/assets/memory/20130608_230/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -11255,7 +11255,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130609_2141/",
+    "_asset_base": "/assets/memory/20130609_2141/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11293,7 +11293,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130610_2142/",
+    "_asset_base": "/assets/memory/20130610_2142/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11331,7 +11331,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130611_2144/",
+    "_asset_base": "/assets/memory/20130611_2144/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11369,7 +11369,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130612_2145/",
+    "_asset_base": "/assets/memory/20130612_2145/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11407,7 +11407,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20130809_2202/",
+    "_asset_base": "/assets/memory/20130809_2202/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11445,7 +11445,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20140605_2282/",
+    "_asset_base": "/assets/memory/20140605_2282/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11483,7 +11483,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20140630_2310/",
+    "_asset_base": "/assets/memory/20140630_2310/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR3"
@@ -11521,7 +11521,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20140925_2135/",
+    "_asset_base": "/assets/gpu/20140925_2135/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11565,7 +11565,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20140927_445/",
+    "_asset_base": "/assets/memory/20140927_445/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -11603,7 +11603,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20140928_2157/",
+    "_asset_base": "/assets/gpu/20140928_2157/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11641,7 +11641,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20141001_2208/",
+    "_asset_base": "/assets/gpu/20141001_2208/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11685,7 +11685,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20141005_447/",
+    "_asset_base": "/assets/memory/20141005_447/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR"
@@ -11723,7 +11723,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20141126_2221/",
+    "_asset_base": "/assets/gpu/20141126_2221/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11761,7 +11761,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20141201_2245/",
+    "_asset_base": "/assets/gpu/20141201_2245/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11799,7 +11799,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20150206_2250/",
+    "_asset_base": "/assets/gpu/20150206_2250/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11837,7 +11837,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20150216_2278/",
+    "_asset_base": "/assets/gpu/20150216_2278/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11875,7 +11875,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20150218_2300/",
+    "_asset_base": "/assets/gpu/20150218_2300/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -11913,7 +11913,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150805_2397/",
+    "_asset_base": "/assets/memory/20150805_2397/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -11951,7 +11951,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150811_2419/",
+    "_asset_base": "/assets/memory/20150811_2419/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -11989,7 +11989,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150818_2450/",
+    "_asset_base": "/assets/memory/20150818_2450/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12038,7 +12038,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150904_235/",
+    "_asset_base": "/assets/memory/20150904_235/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -12087,7 +12087,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150905_238/",
+    "_asset_base": "/assets/memory/20150905_238/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -12136,7 +12136,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20150921_241/",
+    "_asset_base": "/assets/memory/20150921_241/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -12185,7 +12185,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20151014_242/",
+    "_asset_base": "/assets/memory/20151014_242/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -12234,7 +12234,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20151025_243/",
+    "_asset_base": "/assets/memory/20151025_243/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -12272,7 +12272,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160524_2451/",
+    "_asset_base": "/assets/memory/20160524_2451/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12310,7 +12310,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160525_2501/",
+    "_asset_base": "/assets/memory/20160525_2501/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12348,7 +12348,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160603_2515/",
+    "_asset_base": "/assets/memory/20160603_2515/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12386,7 +12386,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20160604_2594/",
+    "_asset_base": "/assets/memory/20160604_2594/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12424,7 +12424,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160605_2420/",
+    "_asset_base": "/assets/gpu/20160605_2420/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12462,7 +12462,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160622_2450/",
+    "_asset_base": "/assets/gpu/20160622_2450/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12500,7 +12500,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160706_2645/",
+    "_asset_base": "/assets/gpu/20160706_2645/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12538,7 +12538,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160724_2750/",
+    "_asset_base": "/assets/gpu/20160724_2750/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12576,7 +12576,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160724_2700/",
+    "_asset_base": "/assets/gpu/20160724_2700/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12614,7 +12614,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20160805_2784/",
+    "_asset_base": "/assets/gpu/20160805_2784/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12652,7 +12652,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161030_2822/",
+    "_asset_base": "/assets/gpu/20161030_2822/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12690,7 +12690,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161104_2885/",
+    "_asset_base": "/assets/gpu/20161104_2885/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12728,7 +12728,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161104_2860/",
+    "_asset_base": "/assets/gpu/20161104_2860/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12766,7 +12766,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20161218_3012/",
+    "_asset_base": "/assets/gpu/20161218_3012/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12804,7 +12804,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170113_2630/",
+    "_asset_base": "/assets/memory/20170113_2630/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12842,7 +12842,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170227_2631/",
+    "_asset_base": "/assets/memory/20170227_2631/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12880,7 +12880,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20170322_3025/",
+    "_asset_base": "/assets/gpu/20170322_3025/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -12918,7 +12918,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170330_2640/",
+    "_asset_base": "/assets/memory/20170330_2640/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12956,7 +12956,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170529_2644/",
+    "_asset_base": "/assets/memory/20170529_2644/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -12994,7 +12994,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170530_2700/",
+    "_asset_base": "/assets/memory/20170530_2700/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13032,7 +13032,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170530_2699/",
+    "_asset_base": "/assets/memory/20170530_2699/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13070,7 +13070,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170603_2734/",
+    "_asset_base": "/assets/memory/20170603_2734/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13108,7 +13108,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170603_2731/",
+    "_asset_base": "/assets/memory/20170603_2731/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13146,7 +13146,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20170606_2750/",
+    "_asset_base": "/assets/memory/20170606_2750/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13184,7 +13184,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20171005_2764/",
+    "_asset_base": "/assets/memory/20171005_2764/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13222,7 +13222,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2771/",
+    "_asset_base": "/assets/memory/20180530_2771/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13260,7 +13260,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2770/",
+    "_asset_base": "/assets/memory/20180530_2770/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13298,7 +13298,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20180530_2765/",
+    "_asset_base": "/assets/memory/20180530_2765/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13336,7 +13336,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20181019_2782/",
+    "_asset_base": "/assets/memory/20181019_2782/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13374,7 +13374,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190108_2791/",
+    "_asset_base": "/assets/memory/20190108_2791/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13412,7 +13412,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190114_2804/",
+    "_asset_base": "/assets/memory/20190114_2804/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13450,7 +13450,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190513_2817/",
+    "_asset_base": "/assets/memory/20190513_2817/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13488,7 +13488,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190516_2863/",
+    "_asset_base": "/assets/memory/20190516_2863/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13526,7 +13526,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190519_2868/",
+    "_asset_base": "/assets/memory/20190519_2868/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13564,7 +13564,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190527_2879/",
+    "_asset_base": "/assets/memory/20190527_2879/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13602,7 +13602,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190528_2901/",
+    "_asset_base": "/assets/memory/20190528_2901/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13640,7 +13640,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190529_2943/",
+    "_asset_base": "/assets/memory/20190529_2943/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13684,7 +13684,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190717_910/",
+    "_asset_base": "/assets/memory/20190717_910/",
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
@@ -13722,7 +13722,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190806_2950/",
+    "_asset_base": "/assets/memory/20190806_2950/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13760,7 +13760,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20190910_3008/",
+    "_asset_base": "/assets/memory/20190910_3008/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13798,7 +13798,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20191024_3018/",
+    "_asset_base": "/assets/memory/20191024_3018/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13836,7 +13836,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20191024_3012/",
+    "_asset_base": "/assets/memory/20191024_3012/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13874,7 +13874,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20191025_3027/",
+    "_asset_base": "/assets/memory/20191025_3027/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13912,7 +13912,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20200514_3332/",
+    "_asset_base": "/assets/memory/20200514_3332/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -13961,7 +13961,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20200520_245/",
+    "_asset_base": "/assets/memory/20200520_245/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -13999,7 +13999,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20200803_2500/",
+    "_asset_base": "/assets/gpu/20200803_2500/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -14037,7 +14037,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20200817_3333/",
+    "_asset_base": "/assets/memory/20200817_3333/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -14075,7 +14075,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20210101_2800/",
+    "_asset_base": "/assets/gpu/20210101_2800/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -14113,7 +14113,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210206_3453/",
+    "_asset_base": "/assets/memory/20210206_3453/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -14151,7 +14151,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210329_3536/",
+    "_asset_base": "/assets/memory/20210329_3536/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -14189,7 +14189,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210330_3578/",
+    "_asset_base": "/assets/memory/20210330_3578/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -14227,7 +14227,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210416_3600/",
+    "_asset_base": "/assets/memory/20210416_3600/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR4"
@@ -14289,7 +14289,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20210421_3225/",
+    "_asset_base": "/assets/gpu/20210421_3225/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -14361,7 +14361,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20210512_3319/",
+    "_asset_base": "/assets/gpu/20210512_3319/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -14410,7 +14410,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210522_250/",
+    "_asset_base": "/assets/memory/20210522_250/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -14459,7 +14459,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20210629_257/",
+    "_asset_base": "/assets/memory/20210629_257/",
     "_genuine_overall": false,
     "_genuine_in": [
       "SDR"
@@ -14497,7 +14497,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20210727_2900/",
+    "_asset_base": "/assets/gpu/20210727_2900/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -14535,7 +14535,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211001_4004/",
+    "_asset_base": "/assets/memory/20211001_4004/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14573,7 +14573,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211008_4058/",
+    "_asset_base": "/assets/memory/20211008_4058/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14611,7 +14611,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211028_4124/",
+    "_asset_base": "/assets/memory/20211028_4124/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14655,7 +14655,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211029_4335/",
+    "_asset_base": "/assets/memory/20211029_4335/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14699,7 +14699,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211103_4352/",
+    "_asset_base": "/assets/memory/20211103_4352/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14748,7 +14748,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211129_140/",
+    "_asset_base": "/assets/memory/20211129_140/",
     "_genuine_overall": false,
     "_genuine_in": [
       "EDO"
@@ -14797,7 +14797,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20211130_150/",
+    "_asset_base": "/assets/memory/20211130_150/",
     "_genuine_overall": false,
     "_genuine_in": [
       "EDO"
@@ -14835,7 +14835,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220112_4779/",
+    "_asset_base": "/assets/memory/20220112_4779/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14879,7 +14879,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220426_5001/",
+    "_asset_base": "/assets/memory/20220426_5001/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14923,7 +14923,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220427_5011/",
+    "_asset_base": "/assets/memory/20220427_5011/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -14967,7 +14967,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220524_5050/",
+    "_asset_base": "/assets/memory/20220524_5050/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15011,7 +15011,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220624_5111/",
+    "_asset_base": "/assets/memory/20220624_5111/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15055,7 +15055,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220705_5275/",
+    "_asset_base": "/assets/memory/20220705_5275/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15099,7 +15099,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220705_5254/",
+    "_asset_base": "/assets/memory/20220705_5254/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15143,7 +15143,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20220713_5300/",
+    "_asset_base": "/assets/memory/20220713_5300/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15181,7 +15181,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20221001_2937/",
+    "_asset_base": "/assets/gpu/20221001_2937/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -15263,7 +15263,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20221014_8812/",
+    "_asset_base": "/assets/cpu/20221014_8812/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -15305,7 +15305,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20221020_5564/",
+    "_asset_base": "/assets/memory/20221020_5564/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15367,7 +15367,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20221024_3345/",
+    "_asset_base": "/assets/gpu/20221024_3345/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -15434,7 +15434,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20221103_3705/",
+    "_asset_base": "/assets/gpu/20221103_3705/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -15501,7 +15501,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20221119_3825/",
+    "_asset_base": "/assets/gpu/20221119_3825/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -15612,7 +15612,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20221209_9008/",
+    "_asset_base": "/assets/cpu/20221209_9008/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -15654,7 +15654,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230110_5567/",
+    "_asset_base": "/assets/memory/20230110_5567/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15698,7 +15698,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230117_5612/",
+    "_asset_base": "/assets/memory/20230117_5612/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -15736,7 +15736,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230121_3050/",
+    "_asset_base": "/assets/gpu/20230121_3050/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -15774,7 +15774,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230210_3100/",
+    "_asset_base": "/assets/gpu/20230210_3100/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -15836,7 +15836,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230222_3840/",
+    "_asset_base": "/assets/gpu/20230222_3840/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -15874,7 +15874,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230408_3150/",
+    "_asset_base": "/assets/gpu/20230408_3150/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -15912,7 +15912,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230409_3180/",
+    "_asset_base": "/assets/gpu/20230409_3180/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -15956,7 +15956,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230605_5613/",
+    "_asset_base": "/assets/memory/20230605_5613/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16000,7 +16000,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230606_5626/",
+    "_asset_base": "/assets/memory/20230606_5626/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16044,7 +16044,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230606_5616/",
+    "_asset_base": "/assets/memory/20230606_5616/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16088,7 +16088,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20230607_5627/",
+    "_asset_base": "/assets/memory/20230607_5627/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16150,7 +16150,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230617_3930/",
+    "_asset_base": "/assets/gpu/20230617_3930/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -16217,7 +16217,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230628_3945/",
+    "_asset_base": "/assets/gpu/20230628_3945/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -16279,7 +16279,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230705_3975/",
+    "_asset_base": "/assets/gpu/20230705_3975/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -16340,7 +16340,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230706_4020/",
+    "_asset_base": "/assets/gpu/20230706_4020/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -16401,7 +16401,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20230706_4005/",
+    "_asset_base": "/assets/gpu/20230706_4005/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -16445,7 +16445,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231002_5806/",
+    "_asset_base": "/assets/memory/20231002_5806/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16578,7 +16578,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20231016_9043/",
+    "_asset_base": "/assets/cpu/20231016_9043/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -16620,7 +16620,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231020_5809/",
+    "_asset_base": "/assets/memory/20231020_5809/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16664,7 +16664,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231031_5824/",
+    "_asset_base": "/assets/memory/20231031_5824/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16708,7 +16708,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20231113_5824/",
+    "_asset_base": "/assets/memory/20231113_5824/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16746,7 +16746,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20240129_3560/",
+    "_asset_base": "/assets/gpu/20240129_3560/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -16790,7 +16790,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20240205_5844/",
+    "_asset_base": "/assets/memory/20240205_5844/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16891,7 +16891,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20240307_9117/",
+    "_asset_base": "/assets/cpu/20240307_9117/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -16927,7 +16927,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20240926_6020/",
+    "_asset_base": "/assets/memory/20240926_6020/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -16971,7 +16971,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20240927_6032/",
+    "_asset_base": "/assets/memory/20240927_6032/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17016,7 +17016,7 @@
     "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20241022_3900/",
+    "_asset_base": "/assets/gpu/20241022_3900/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -17060,7 +17060,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241024_6097/",
+    "_asset_base": "/assets/memory/20241024_6097/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17104,7 +17104,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241024_6053/",
+    "_asset_base": "/assets/memory/20241024_6053/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17148,7 +17148,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241113_6175/",
+    "_asset_base": "/assets/memory/20241113_6175/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17192,7 +17192,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241113_6131/",
+    "_asset_base": "/assets/memory/20241113_6131/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17236,7 +17236,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241115_6263/",
+    "_asset_base": "/assets/memory/20241115_6263/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17280,7 +17280,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241125_6305/",
+    "_asset_base": "/assets/memory/20241125_6305/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17324,7 +17324,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241127_6317/",
+    "_asset_base": "/assets/memory/20241127_6317/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17368,7 +17368,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241203_6333/",
+    "_asset_base": "/assets/memory/20241203_6333/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17412,7 +17412,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20241205_6348/",
+    "_asset_base": "/assets/memory/20241205_6348/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17492,7 +17492,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20250111_9121/",
+    "_asset_base": "/assets/cpu/20250111_9121/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -17534,7 +17534,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250124_6363/",
+    "_asset_base": "/assets/memory/20250124_6363/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17578,7 +17578,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250202_6367/",
+    "_asset_base": "/assets/memory/20250202_6367/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17622,7 +17622,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250220_6375/",
+    "_asset_base": "/assets/memory/20250220_6375/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17666,7 +17666,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250329_6381/",
+    "_asset_base": "/assets/memory/20250329_6381/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17710,7 +17710,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250413_6386/",
+    "_asset_base": "/assets/memory/20250413_6386/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17754,7 +17754,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250503_6402/",
+    "_asset_base": "/assets/memory/20250503_6402/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17798,7 +17798,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250503_6386/",
+    "_asset_base": "/assets/memory/20250503_6386/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17842,7 +17842,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250504_6411/",
+    "_asset_base": "/assets/memory/20250504_6411/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17901,7 +17901,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/gpu/20250509_4250/",
+    "_asset_base": "/assets/gpu/20250509_4250/",
     "_genuine_overall": true,
     "_genuine_in": [
       "igp-cpu"
@@ -17945,7 +17945,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250517_6416/",
+    "_asset_base": "/assets/memory/20250517_6416/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -17983,7 +17983,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250519_6421/",
+    "_asset_base": "/assets/memory/20250519_6421/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18027,7 +18027,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250710_6436/",
+    "_asset_base": "/assets/memory/20250710_6436/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18071,7 +18071,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250801_6443/",
+    "_asset_base": "/assets/memory/20250801_6443/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18146,7 +18146,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/cpu/20250823_9130/",
+    "_asset_base": "/assets/cpu/20250823_9130/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -18188,7 +18188,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20250921_6460/",
+    "_asset_base": "/assets/memory/20250921_6460/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18232,7 +18232,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251015_6504/",
+    "_asset_base": "/assets/memory/20251015_6504/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18276,7 +18276,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251027_6517/",
+    "_asset_base": "/assets/memory/20251027_6517/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18320,7 +18320,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251103_6605/",
+    "_asset_base": "/assets/memory/20251103_6605/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18376,7 +18376,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251116_6703/",
+    "_asset_base": "/assets/memory/20251116_6703/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"
@@ -18420,7 +18420,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "assets/memory/20251117_6765/",
+    "_asset_base": "/assets/memory/20251117_6765/",
     "_genuine_overall": true,
     "_genuine_in": [
       "DDR5"

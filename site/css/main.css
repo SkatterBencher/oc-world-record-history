@@ -63,6 +63,34 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .record-count { font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
 
+/* ── HAMBURGER (hidden on desktop) ─────────────────── */
+/* FIX #10: collapsible nav for mobile */
+.nav-burger {
+  display: none;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-off);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.nav-burger span {
+  display: block;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.nav-burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
 /* PAGES */
 .page { display: none; }
 .page.active { display: flex; flex-direction: column; min-height: calc(100vh - 56px); }
@@ -98,10 +126,17 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 /* MAIN TIMELINE */
 .timeline-main {
   flex: 1; padding: 32px 40px; min-width: 0;
-  max-width: 860px;
+  /* FIX #9: drop the hard max-width so the panel opening has room;
+     cap width only when the panel is closed via a wider value */
+  max-width: 900px;
   transition: margin-right 0.3s ease;
 }
-.timeline-main.panel-open { margin-right: var(--panel-w); }
+/* FIX #9: when the panel is open, remove max-width so the layout
+   can compress naturally rather than overflowing */
+.timeline-main.panel-open {
+  margin-right: var(--panel-w);
+  max-width: none;
+}
 .timeline-header { margin-bottom: 32px; }
 .timeline-title {
   font-family: var(--serif); font-size: 26px; font-weight: 600;
@@ -367,8 +402,6 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   display: block;
 }
 
-/* Hero image zoom cursor handled via inline style */
-
 /* ═══════════════════════════════════════════════════════
    HOME PAGE
    ═══════════════════════════════════════════════════════ */
@@ -582,14 +615,9 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 }
 
 /* ═══════════════════════════════════════════════════════
-   TIMELINE — constrained width + flag column
+   TIMELINE — flag column
    ═══════════════════════════════════════════════════════ */
 
-.timeline-main {
-  max-width: 860px;
-}
-
-/* Add flag to record rows */
 .record-row {
   grid-template-columns: 100px 130px 1fr 120px 36px;
 }
@@ -604,13 +632,39 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
    MOBILE
    ═══════════════════════════════════════════════════════ */
 
+/* FIX #10: On small screens, show hamburger and hide nav links by default */
 @media (max-width: 700px) {
 
   /* Header */
-  header { padding: 0 16px; gap: 12px; }
+  header { padding: 0 16px; gap: 12px; height: 56px; }
   .logo { font-size: 13px; }
-  nav a { padding: 6px 10px; font-size: 12px; }
   .header-right { display: none; }
+
+  /* Show burger button */
+  .nav-burger { display: flex; }
+
+  /* Nav links collapse into a dropdown below the header */
+  nav {
+    position: fixed;
+    top: 56px;
+    left: 0; right: 0;
+    background: rgba(255,255,255,0.98);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 16px 16px;
+    z-index: 99;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    /* hidden by default */
+    display: none;
+  }
+  nav.nav-open { display: flex; }
+  nav a {
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: var(--radius);
+  }
 
   /* Home */
   .home-content { padding: 0 16px 60px; }
@@ -622,14 +676,13 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   .stat-item:last-child { border-bottom: none; }
 
   /* Timeline */
-  .timeline-main { padding: 20px 16px; }
+  .timeline-main { padding: 20px 16px; max-width: none; }
   .record-row { grid-template-columns: 82px 110px 1fr 28px; }
   .rec-oc { display: none; }
-  .record-row.panel-open { margin-right: 0; }
 
   /* Detail panel — full screen on mobile */
   .detail-panel { width: 100%; top: 56px; }
-  .timeline-main.panel-open { margin-right: 0; }
+  .timeline-main.panel-open { margin-right: 0; max-width: none; }
 
   /* Chart shorter on mobile */
   #record-chart { height: 160px; }
@@ -641,7 +694,7 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 @media (max-width: 480px) {
   .record-row { grid-template-columns: 76px 1fr 28px; }
   .rec-cpu { display: none; }
-  nav a[data-page="about"] { display: none; }
+  /* Don't hide the About link on very small screens — the hamburger menu handles it */
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -1217,6 +1270,7 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   font-family: var(--mono);
   font-size: 10px;
   color: var(--text-dim);
+  cursor: pointer;
 }
 
 /* Pagination */

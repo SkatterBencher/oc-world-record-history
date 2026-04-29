@@ -12,6 +12,7 @@ import json
 import os
 import shutil
 import sys
+from datetime import datetime, date          # FIX #3: moved to top
 from itertools import groupby
 from pathlib import Path
 try:
@@ -36,6 +37,7 @@ def get_subcategory(record):
     if isinstance(sub, list): return sub
     if isinstance(sub, str):  return [sub] if sub else []
     return []
+
 def run_filter(records):
     """
     Walk records chronologically, return set of UIDs that are genuine records.
@@ -45,7 +47,7 @@ def run_filter(records):
     peak = 0
     sorted_records = sorted(records, key=lambda r: (r["achieved_at"], -r["value_mhz"]))
 
-    for date, day_iter in groupby(sorted_records, key=lambda r: r["achieved_at"]):
+    for date_key, day_iter in groupby(sorted_records, key=lambda r: r["achieved_at"]):
         day_records = list(day_iter)
         day_genuine = [r for r in day_records if r["value_mhz"] > peak]
         if day_genuine:
@@ -167,7 +169,6 @@ def process_image(src: Path, dest_dir: Path) -> Path | None:
         return dest_dir / src.name
 
 
-
 records       = []
 errors        = []
 tag_index     = {}
@@ -234,8 +235,8 @@ for category in CATEGORIES:
                     if web_copy:
                         assets_copied += 1
 
-            # Set asset base path for frontend
-            record["_asset_base"] = f"assets/{category}/{record_dir.name}/"
+            # FIX #2: use root-relative path so it works regardless of deploy subdirectory
+            record["_asset_base"] = f"/assets/{category}/{record_dir.name}/"
 
             records.append(record)
 
@@ -302,10 +303,11 @@ with open(OUTPUT_DIR / "tags.json", "w", encoding="utf-8") as f:
     json.dump(tag_index, f, indent=2, ensure_ascii=False)
 
 # ── STATISTICS ──────────────────────────────────────────
-from datetime import datetime, date
+# FIX #1: compute_statistics now receives only genuine (filtered) records,
+#          so all counts reflect only records that actually appear in the timeline.
 
 def compute_statistics(records):
-    """Compute all statistics from records for pre-generated statistics.json"""
+    """Compute all statistics from genuine records for pre-generated statistics.json"""
     stats = {}
 
     # Records per country
@@ -371,8 +373,10 @@ def compute_statistics(records):
         key=lambda x: x["count"], reverse=True
     )
 
-    # Record longevity (how long each record stood)
-    # We compute longevity both at category level AND subcategory level
+    # Record longevity — computed per category using only _genuine_overall records,
+    # and per subcategory using only records genuine in that subcategory.
+    # FIX #1 (continued): gate each group on the appropriate genuine flag so that
+    # subcategory-only records don't skew the category-level longevity intervals.
     today = date.today()
 
     def compute_longevity_for_group(group_records):
@@ -396,21 +400,26 @@ def compute_statistics(records):
             })
         return results
 
-    # Compute longevity at category level
+    # Category-level longevity: only records that are genuine overall
     categories = {}
     for r in records:
+        if not r.get("_genuine_overall"):
+            continue
         cat = r.get("category", "unknown")
         if cat not in categories:
             categories[cat] = []
         categories[cat].append(r)
 
-    # Compute longevity at subcategory level
+    # Subcategory-level longevity: only records genuine in that specific subcategory
     subcategories = {}
     for r in records:
+        genuine_in = r.get("_genuine_in", [])
         subcats = r.get("subcategory", [])
         if isinstance(subcats, str):
             subcats = [subcats]
         for subcat in subcats:
+            if subcat not in genuine_in:
+                continue
             key = f"{r['category']}_{subcat}"
             if key not in subcategories:
                 subcategories[key] = []
@@ -434,10 +443,8 @@ def compute_statistics(records):
         cat = parts[0]
         subcat = parts[1] if len(parts) > 1 else ""
         for entry in subcat_longevity:
-            # Check if this record already exists with this subcategory longevity
             existing = next((e for e in all_longevity if e["uid"] == entry["uid"] and e.get("subcategory") == subcat), None)
             if existing:
-                # Update with subcategory longevity if longer
                 if entry["days"] > existing["days"]:
                     existing["days"] = entry["days"]
                     existing["is_current"] = entry["is_current"]
@@ -489,14 +496,16 @@ print(f"Statistics written to {OUTPUT_DIR / 'statistics.json'}")
 
 
 # Generate sitemap.xml
+# FIX #12: Use real URL paths (not hash fragments) so search engines index them.
+# This requires the server to serve index.html for all these paths (SPA routing).
 BASE_URL = "https://museum.skatterbencher.com"
 sitemap_urls = [
     '  <url><loc>' + BASE_URL + '/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
-    '  <url><loc>' + BASE_URL + '/#cpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
-    '  <url><loc>' + BASE_URL + '/#gpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
-    '  <url><loc>' + BASE_URL + '/#memory</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
-    '  <url><loc>' + BASE_URL + '/#statistics</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
-    '  <url><loc>' + BASE_URL + '/#about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>',
+    '  <url><loc>' + BASE_URL + '/cpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    '  <url><loc>' + BASE_URL + '/gpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    '  <url><loc>' + BASE_URL + '/memory</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    '  <url><loc>' + BASE_URL + '/statistics</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+    '  <url><loc>' + BASE_URL + '/about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>',
 ]
 sitemap_lines = '\n'.join(sitemap_urls)
 sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sitemap_lines + '\n</urlset>'
