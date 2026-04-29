@@ -309,6 +309,7 @@ sitemap_urls = [
     '  <url><loc>' + BASE_URL + '/#cpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
     '  <url><loc>' + BASE_URL + '/#gpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
     '  <url><loc>' + BASE_URL + '/#memory</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    '  <url><loc>' + BASE_URL + '/#statistics</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
     '  <url><loc>' + BASE_URL + '/#about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>',
 ]
 sitemap_lines = '\n'.join(sitemap_urls)

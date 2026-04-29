@@ -35,6 +35,7 @@ const PAGE_TITLES = {
   cpu:    'CPU Overclocking World Record History — OC Museum',
   gpu:    'GPU Overclocking World Record History — OC Museum',
   memory: 'Memory Overclocking World Record History — OC Museum',
+  statistics: 'Statistics & Insights — OC World Record Museum',
   about:  'About — OC World Record Museum',
 };
 
@@ -88,6 +89,10 @@ function routeFromHash() {
     closePanelSilent();
     document.getElementById('page-home').classList.add('active');
     renderHome();
+  } else if (page === 'statistics') {
+    closePanelSilent();
+    document.getElementById('page-statistics').classList.add('active');
+    renderStatisticsPage();
   } else if (CATEGORIES[page]) {
     currentCategory = page;
     // Hash can be: #cat  /  #cat/uid  /  #cat/subcat  /  #cat/subcat/uid
@@ -214,6 +219,9 @@ function renderHome() {
       </div>
     `;
   }
+
+  // Statistics section (top 5 for home page preview)
+  renderStatistics(5);
 
   // Record of the Day
   renderRecordOfTheDay();
@@ -677,12 +685,22 @@ function renderPanel(record) {
     (a, b) => new Date(a.achieved_at) - new Date(b.achieved_at)
   );
   const idx  = records.findIndex(r => r.uid === record.uid);
-  const rank = allRecords
-    .filter(r => r.category === record.category)
-    .sort((a, b) => b.value_mhz - a.value_mhz)
-    .findIndex(r => r.uid === record.uid) + 1;
 
   const cat          = CATEGORIES[record.category];
+  const recordDate   = formatDateLong(record.achieved_at, record.achieved_at_approximate);
+
+  // Determine if this was a category record or subcategory record
+  let recordContext = '';
+  if (record._genuine_overall) {
+    recordContext = `${cat.label} World Record on ${recordDate}`;
+  } else if (record._genuine_in && record._genuine_in.length > 0) {
+    // Just show subcategory, not "category subcategory"
+    const subcatLabels = record._genuine_in.map(s => subcatLabel(s)).join(', ');
+    recordContext = `${subcatLabels} Record on ${recordDate}`;
+  } else {
+    recordContext = `${cat.label} Record on ${recordDate}`;
+  }
+
   const overclockers = record.overclockers || [];
   const hardware     = record.hardware     || {};
   const sources      = record.sources      || [];
@@ -695,7 +713,7 @@ function renderPanel(record) {
   const galleryAssets = assets.filter(a => a.file !== record.hero);
 
   document.getElementById('panel-content').innerHTML = `
-    <div class="panel-rank">${cat.label} All-Time Rank #${rank}</div>
+    <div class="panel-rank">${recordContext}</div>
 
     <div class="panel-freq">
       ${record.value_mhz.toFixed(2)}<span class="unit">MHz</span>
@@ -815,6 +833,458 @@ function renderPanel(record) {
     const baseNext = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
     location.hash = `${baseNext}/${records[idx + 1].uid}`;
   });
+}
+
+// ── STATISTICS ────────────────────────────────────────
+function renderStatistics(limitTo) {
+  // limitTo: optional number to limit list items (for home page preview)
+  const container = document.getElementById('home-statistics');
+  if (!container || !allRecords.length) return;
+
+  // ── Compute: Records per Country ──
+  const countryCounts = {};
+  allRecords.forEach(r => {
+    (r.overclockers || []).forEach(oc => {
+      if (oc.country) {
+        countryCounts[oc.country] = (countryCounts[oc.country] || 0) + 1;
+      }
+    });
+  });
+  const sortedCountries = Object.entries(countryCounts).sort((a, b) => b[1] - a[1]);
+  const topCountries = limitTo ? sortedCountries.slice(0, limitTo) : sortedCountries;
+  const maxCountryCount = sortedCountries.length ? sortedCountries[0][1] : 1;
+
+  // ── Compute: Records per Overclocker ──
+  const ocCounts = {};
+  const ocCountries = {};
+  allRecords.forEach(r => {
+    (r.overclockers || []).forEach(oc => {
+      ocCounts[oc.handle] = (ocCounts[oc.handle] || 0) + 1;
+      if (oc.country) {
+        if (!ocCountries[oc.handle]) ocCountries[oc.handle] = {};
+        ocCountries[oc.handle][oc.country] = (ocCountries[oc.handle][oc.country] || 0) + 1;
+      }
+    });
+  });
+  const sortedOCs = Object.entries(ocCounts).sort((a, b) => b[1] - a[1]);
+  const topOCs = limitTo ? sortedOCs.slice(0, limitTo) : sortedOCs;
+  const maxOCCount = sortedOCs.length ? sortedOCs[0][1] : 1;
+
+  // ── Compute: Records per Decade ──
+  const decadeCounts = {};
+  allRecords.forEach(r => {
+    const year = parseInt(r.achieved_at.slice(0, 4));
+    const decade = Math.floor(year / 10) * 10;
+    decadeCounts[decade] = (decadeCounts[decade] || 0) + 1;
+  });
+  const decades = Object.entries(decadeCounts)
+    .sort((a, b) => parseInt(a[0]) - parseInt(b[0]));
+  const maxDecadeCount = Math.max(...Object.values(decadeCounts), 1);
+
+  // ── Compute: Most Recordful Year ──
+  const yearCounts = {};
+  allRecords.forEach(r => {
+    const year = parseInt(r.achieved_at.slice(0, 4));
+    yearCounts[year] = (yearCounts[year] || 0) + 1;
+  });
+  const sortedYears = Object.entries(yearCounts).sort((a, b) => b[1] - a[1]);
+  const topYear = sortedYears[0];
+
+  // ── Compute: Records per Category ──
+  const catCounts = {};
+  allRecords.forEach(r => {
+    catCounts[r.category] = (catCounts[r.category] || 0) + 1;
+  });
+
+  // ── Render ──
+  container.innerHTML = `
+    <h2 class="statistics-section-title">Statistics & Insights</h2>
+    <div class="statistics-grid">
+
+      <!-- Records per Country -->
+      <div class="stat-card">
+        <div class="stat-card-title">Records per Country</div>
+        <div class="stat-list">
+          ${topCountries.map(([country, count], i) => `
+            <div class="stat-list-item">
+              <span class="stat-list-rank">${i + 1}</span>
+              <span class="stat-list-flag">${getFlagEmoji(country)}</span>
+              <span class="stat-list-name">${country}</span>
+              <div class="stat-list-bar">
+                <div class="stat-list-bar-fill" style="width:${(count / maxCountryCount * 100).toFixed(1)}%"></div>
+              </div>
+              <span class="stat-list-count">${count}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- Records per Overclocker -->
+      <div class="stat-card">
+        <div class="stat-card-title">Records per Overclocker</div>
+        <div class="stat-list">
+          ${topOCs.map(([handle, count], i) => {
+            // Find most common country for this overclocker
+            let topCountry = '';
+            if (ocCountries[handle]) {
+              topCountry = Object.entries(ocCountries[handle])
+                .sort((a, b) => b[1] - a[1])[0]?.[0] || '';
+            }
+            return `
+              <div class="stat-list-item">
+                <span class="stat-list-rank">${i + 1}</span>
+                ${topCountry ? `<span class="stat-list-flag">${getFlagEmoji(topCountry)}</span>` : ''}
+                <span class="stat-list-name">${handle}</span>
+                <div class="stat-list-bar">
+                  <div class="stat-list-bar-fill" style="width:${(count / maxOCCount * 100).toFixed(1)}%"></div>
+                </div>
+                <span class="stat-list-count">${count}</span>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+
+      <!-- Records per Decade -->
+      <div class="stat-card">
+        <div class="stat-card-title">Records per Decade</div>
+        <div class="decade-breakdown">
+          ${decades.map(([decade, count]) => `
+            <div class="decade-item">
+              <span class="decade-label">${decade}s</span>
+              <div class="decade-bar-wrap">
+                <div class="decade-bar" style="width:${(count / maxDecadeCount * 100).toFixed(1)}%"></div>
+              </div>
+              <span class="decade-count">${count}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- Most Recordful Year + Category Breakdown -->
+      <div class="stat-card">
+        <div class="stat-card-title">Highlights</div>
+        <div class="highlight-stat">
+          <div class="highlight-value">${topYear ? topYear[0] : '—'}</div>
+          <div class="highlight-label">Most Recordful Year</div>
+          <div class="highlight-sub">${topYear ? topYear[1] : 0} world records set</div>
+        </div>
+        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border);">
+          <div class="stat-card-title" style="margin-bottom: 12px; padding-bottom: 6px;">Records by Category</div>
+          ${['cpu', 'gpu', 'memory'].map(cat => {
+            const count = catCounts[cat] || 0;
+            const maxCat = Math.max(...Object.values(catCounts), 1);
+            const label = CATEGORIES[cat].label;
+            return `
+              <div class="decade-item" style="margin-bottom: 8px;">
+                <span class="decade-label" style="width: 52px;">${label}</span>
+                <div class="decade-bar-wrap">
+                  <div class="decade-bar" style="width:${(count / maxCat * 100).toFixed(1)}%"></div>
+                </div>
+                <span class="decade-count">${count}</span>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+
+    </div>
+    ${limitTo ? `
+      <div style="text-align: center; margin-top: 24px;">
+        <a href="#statistics" class="cta-btn">View Full Statistics →</a>
+      </div>
+    ` : ''}
+  `;
+}
+
+// ── STATISTICS PAGE ───────────────────────────────────
+const STATS_PAGE_SIZE = 20; // Items per page for paginated lists
+
+function renderStatisticsPage() {
+  const container = document.getElementById('statistics-full-content');
+  const sidebar = document.getElementById('stat-nav-items');
+  if (!container || !allRecords.length) return;
+
+  // ── Compute all stats ──
+  const countryCounts = {}, countryRecords = {};
+  const ocCounts = {}, ocRecords = {};
+  const yearCounts = {}, yearRecords = {};
+  const decadeCounts = {};
+  const catCounts = {};
+
+  allRecords.forEach(r => {
+    (r.overclockers || []).forEach(oc => {
+      if (oc.country) {
+        countryCounts[oc.country] = (countryCounts[oc.country] || 0) + 1;
+        if (!countryRecords[oc.country]) countryRecords[oc.country] = [];
+        countryRecords[oc.country].push(r.uid);
+      }
+      ocCounts[oc.handle] = (ocCounts[oc.handle] || 0) + 1;
+      if (!ocRecords[oc.handle]) ocRecords[oc.handle] = [];
+      ocRecords[oc.handle].push(r.uid);
+    });
+    const year = parseInt(r.achieved_at.slice(0, 4));
+    yearCounts[year] = (yearCounts[year] || 0) + 1;
+    if (!yearRecords[year]) yearRecords[year] = [];
+    yearRecords[year].push(r.uid);
+    const decade = Math.floor(year / 10) * 10;
+    decadeCounts[decade] = (decadeCounts[decade] || 0) + 1;
+    catCounts[r.category] = (catCounts[r.category] || 0) + 1;
+  });
+
+  const sortedCountries = Object.entries(countryCounts).sort((a, b) => b[1] - a[1]);
+  const sortedOCs = Object.entries(ocCounts).sort((a, b) => b[1] - a[1]);
+  const sortedYears = Object.entries(yearCounts).sort((a, b) => parseInt(a[0]) - parseInt(b[0]));
+  const decades = Object.entries(decadeCounts).sort((a, b) => parseInt(a[0]) - parseInt(b[0]));
+  const maxCountryCount = sortedCountries[0]?.[1] || 1;
+  const maxOCCount = sortedOCs[0]?.[1] || 1;
+  const maxYearCount = Math.max(...Object.values(yearCounts), 1);
+  const maxDecadeCount = Math.max(...Object.values(decadeCounts), 1);
+
+  // Populate sidebar
+  sidebar.innerHTML = `
+    <div class="stat-nav-item active" data-target="stat-countries">Countries</div>
+    <div class="stat-nav-item" data-target="stat-overclockers">Overclockers</div>
+    <div class="stat-nav-item" data-target="stat-years">Years</div>
+    <div class="stat-nav-item" data-target="stat-decades">Decades</div>
+    <div class="stat-nav-item" data-target="stat-categories">Categories</div>
+  `;
+
+  // Click handlers for sidebar navigation
+  sidebar.querySelectorAll('.stat-nav-item').forEach(item => {
+    item.addEventListener('click', () => {
+      sidebar.querySelectorAll('.stat-nav-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      const target = document.getElementById(item.dataset.target);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Scroll-based highlighting for sidebar
+  const statSections = ['stat-countries', 'stat-overclockers', 'stat-years', 'stat-decades', 'stat-categories'];
+  const mainEl = document.getElementById('statistics-main');
+  if (mainEl) {
+    mainEl.addEventListener('scroll', () => {
+      const scrollTop = mainEl.scrollTop;
+      let currentSection = 'stat-countries';
+
+      for (const sectionId of statSections) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          const sectionTop = section.offsetTop - 120;
+          if (scrollTop >= sectionTop) {
+            currentSection = sectionId;
+          }
+        }
+      }
+
+      sidebar.querySelectorAll('.stat-nav-item').forEach(item => {
+        item.classList.toggle('active', item.dataset.target === currentSection);
+      });
+    });
+  }
+
+  // Render paginated sections
+  function renderPaginatedSection(data, pageSize, renderFn, sectionId) {
+    const total = Math.ceil(data.length / pageSize);
+    if (total <= 1) {
+      return data.map(renderFn).join('');
+    }
+    let html = '';
+    for (let page = 0; page < total; page++) {
+      const pageData = data.slice(page * pageSize, (page + 1) * pageSize);
+      const pageId = `${sectionId}-page-${page + 1}`;
+      html += `<div class="stat-page" id="${pageId}" style="display:${page === 0 ? 'block' : 'none'}">`;
+      html += pageData.map(renderFn).join('');
+      html += '</div>';
+    }
+    // Add pagination controls
+    html += `<div class="stat-pagination" data-section="${sectionId}">`;
+    for (let p = 0; p < total; p++) {
+      html += `<button class="stat-page-btn ${p === 0 ? 'active' : ''}" data-page="${p}" data-section="${sectionId}">${p + 1}</button>`;
+    }
+    html += '</div>';
+    return html;
+  }
+
+  container.innerHTML = `
+    <div class="stat-section" id="stat-countries">
+      <div class="stat-section-title">Records per Country (${sortedCountries.length})</div>
+      ${renderPaginatedSection(sortedCountries, STATS_PAGE_SIZE, ([country, count], i) => {
+        const globalIndex = i;
+        const uids = countryRecords[country] || [];
+        const links = uids.slice(0, 5).map(uid => {
+          const rec = allRecords.find(r => r.uid === uid);
+          return rec ? `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
+        }).join('');
+        const extra = uids.length - 5;
+        return `
+          <div class="stat-list-item">
+            <span class="stat-list-rank">${globalIndex + 1}</span>
+            <span class="stat-list-flag">${getFlagEmoji(country)}</span>
+            <span class="stat-list-name">${country}</span>
+            <div class="stat-list-bar"><div class="stat-list-bar-fill" style="width:${(count/maxCountryCount*100).toFixed(1)}%"></div></div>
+            <span class="stat-list-count">${count}</span>
+          </div>
+          <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(5).join(',')}">+${extra} more</span>` : ''}</div>
+        `;
+      }, 'countries')}
+    </div>
+
+    <div class="stat-section" id="stat-overclockers">
+      <div class="stat-section-title">Records per Overclocker (${sortedOCs.length})</div>
+      ${renderPaginatedSection(sortedOCs, STATS_PAGE_SIZE, ([handle, count], i) => {
+        const globalIndex = i;
+        const uids = ocRecords[handle] || [];
+        // Find most common country for this overclocker
+        let topCountry = '';
+        const countryMap = {};
+        uids.forEach(uid => {
+          const rec = allRecords.find(r => r.uid === uid);
+          if (rec && rec.overclockers) {
+            rec.overclockers.forEach(oc => {
+              if (oc.handle === handle && oc.country) {
+                countryMap[oc.country] = (countryMap[oc.country] || 0) + 1;
+              }
+            });
+          }
+        });
+        if (Object.keys(countryMap).length) {
+          topCountry = Object.entries(countryMap).sort((a, b) => b[1] - a[1])[0]?.[0] || '';
+        }
+        const links = uids.slice(0, 5).map(uid => {
+          const rec = allRecords.find(r => r.uid === uid);
+          return rec ? `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
+        }).join('');
+        const extra = uids.length - 5;
+        return `
+          <div class="stat-list-item">
+            <span class="stat-list-rank">${globalIndex + 1}</span>
+            ${topCountry ? `<span class="stat-list-flag">${getFlagEmoji(topCountry)}</span>` : ''}
+            <span class="stat-list-name">${handle}</span>
+            <div class="stat-list-bar"><div class="stat-list-bar-fill" style="width:${(count/maxOCCount*100).toFixed(1)}%"></div></div>
+            <span class="stat-list-count">${count}</span>
+          </div>
+          <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(5).join(',')}">+${extra} more</span>` : ''}</div>
+        `;
+      }, 'overclockers')}
+    </div>
+
+    <div class="stat-section" id="stat-years">
+      <div class="stat-section-title">Records per Year</div>
+      <div class="decade-breakdown">
+        ${sortedYears.map(([year, count]) => {
+          const uids = yearRecords[year] || [];
+          const links = uids.slice(0, 3).map(uid => {
+            const rec = allRecords.find(r => r.uid === uid);
+            return rec ? `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>` : '';
+          }).join('');
+          const extra = uids.length - 3;
+          return `
+            <div class="decade-item">
+              <span class="decade-label" style="width:52px;">${year}</span>
+              <div class="decade-bar-wrap"><div class="decade-bar" style="width:${(count/maxYearCount*100).toFixed(1)}%"></div></div>
+              <span class="decade-count">${count}</span>
+            </div>
+            <div class="stat-record-links">${links}${extra > 0 ? `<span class="stat-record-more" data-uids="${uids.slice(3).join(',')}">+${extra} more</span>` : ''}</div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+
+    <div class="stat-section" id="stat-decades">
+      <div class="stat-section-title">Records per Decade</div>
+      <div class="decade-breakdown">
+        ${decades.map(([decade, count]) => `
+          <div class="decade-item">
+            <span class="decade-label">${decade}s</span>
+            <div class="decade-bar-wrap"><div class="decade-bar" style="width:${(count/maxDecadeCount*100).toFixed(1)}%"></div></div>
+            <span class="decade-count">${count}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+
+    <div class="stat-section" id="stat-categories">
+      <div class="stat-section-title">Records by Category</div>
+      <div class="decade-breakdown">
+        ${['cpu','gpu','memory'].map(cat => {
+          const count = catCounts[cat] || 0;
+          const maxCat = Math.max(...Object.values(catCounts), 1);
+          return `
+            <div class="decade-item">
+              <span class="decade-label" style="width:52px;">${CATEGORIES[cat].label}</span>
+              <div class="decade-bar-wrap"><div class="decade-bar" style="width:${(count/maxCat*100).toFixed(1)}%"></div></div>
+              <span class="decade-count">${count}</span>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+
+  // Add pagination click handlers
+  container.querySelectorAll('.stat-page-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const section = btn.dataset.section;
+      const page = parseInt(btn.dataset.page);
+      // Hide all pages in this section
+      container.querySelectorAll(`#${section}-page-1, [id^="${section}-page-"]`).forEach(p => p.style.display = 'none');
+      // Show selected page
+      const targetPage = document.getElementById(`${section}-page-${page + 1}`);
+      if (targetPage) targetPage.style.display = 'block';
+      // Update active button
+      container.querySelectorAll(`.stat-pagination[data-section="${section}"] .stat-page-btn`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // Add click handlers for record links to open panel
+  container.querySelectorAll('.stat-record-link[data-stat-page="true"]').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const href = link.getAttribute('href').replace('#', '');
+      const uid = href.split('/').pop();
+      openRecordFromStats(uid);
+    });
+  });
+
+  // Add click handlers for "+more" expand
+  container.querySelectorAll('.stat-record-more').forEach(more => {
+    more.addEventListener('click', () => {
+      const uids = more.dataset.uids.split(',');
+      const parent = more.closest('.stat-record-links');
+      const extraLinks = uids.map(uid => {
+        const rec = allRecords.find(r => r.uid === uid);
+        if (!rec) return '';
+        return `<a href="#${rec.category}/${uid}" class="stat-record-link" data-stat-page="true">${rec.value_mhz.toFixed(0)} MHz</a>`;
+      }).join('');
+      parent.innerHTML += extraLinks;
+      more.remove();
+
+      // Re-attach click handlers to new links
+      parent.querySelectorAll('.stat-record-link[data-stat-page="true"]').forEach(link => {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          const href = link.getAttribute('href').replace('#', '');
+          const uid = href.split('/').pop();
+          openRecordFromStats(uid);
+        });
+      });
+    });
+  });
+}
+
+// Open record from statistics page (stays on statistics page)
+function openRecordFromStats(uid) {
+  const record = allRecords.find(r => r.uid === uid);
+  if (!record) return;
+
+  selectedUid = uid;
+  panelOpen   = true;
+
+  document.getElementById('detail-panel').classList.add('open');
+  renderPanel(record);
 }
 
 // ── HELPERS ───────────────────────────────────────────
