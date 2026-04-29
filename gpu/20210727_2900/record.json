@@ -1,0 +1,33 @@
+{
+  "uid": "20210727_2900",
+  "category": "gpu",
+  "subcategory": [
+    "igp-cpu"
+  ],
+  "achieved_at": "2021-07-27",
+  "achieved_at_approximate": false,
+  "value_mhz": 2900.0,
+  "hardware": {
+    "primary": "AMD Radeon Graphics (Cezanne)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Splave",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

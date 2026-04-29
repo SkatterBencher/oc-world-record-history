@@ -1,0 +1,33 @@
+{
+  "uid": "20100330_1353",
+  "category": "gpu",
+  "subcategory": [
+    "igp-chipset"
+  ],
+  "achieved_at": "2010-03-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 1353.0,
+  "hardware": {
+    "primary": "ATI Radeon HD 4290",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "MSIMAX",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

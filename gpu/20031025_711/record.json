@@ -2,7 +2,7 @@
   "uid": "20031025_711",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2003-10-25",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "GeForce FX 5900 Ultra",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

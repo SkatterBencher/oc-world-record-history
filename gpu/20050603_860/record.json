@@ -2,7 +2,7 @@
   "uid": "20050603_860",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2005-06-03",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "Ati Radeon X850 XT PE",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

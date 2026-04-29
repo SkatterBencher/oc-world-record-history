@@ -2,7 +2,7 @@
   "uid": "20110103_1700",
   "category": "gpu",
   "subcategory": [
-    "IGPU (CPU)"
+    "igp-cpu"
   ],
   "achieved_at": "2011-01-03",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

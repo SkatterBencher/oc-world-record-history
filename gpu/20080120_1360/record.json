@@ -2,7 +2,7 @@
   "uid": "20080120_1360",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2008-01-20",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "AMD Radeon HD 2900 XT",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

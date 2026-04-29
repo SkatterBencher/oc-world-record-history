@@ -2,7 +2,7 @@
   "uid": "20030530_567",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2003-05-30",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "Ati Radeon 9800 Pro",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

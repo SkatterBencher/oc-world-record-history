@@ -1,0 +1,33 @@
+{
+  "uid": "20071214_710",
+  "category": "gpu",
+  "subcategory": [
+    "igp-chipset"
+  ],
+  "achieved_at": "2007-12-14",
+  "achieved_at_approximate": false,
+  "value_mhz": 710.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 7150",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Fr3ak",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

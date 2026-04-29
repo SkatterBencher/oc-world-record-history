@@ -1,0 +1,33 @@
+{
+  "uid": "20120406_1957",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2012-04-06",
+  "achieved_at_approximate": false,
+  "value_mhz": 1957.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 680",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "K|ngp|n",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

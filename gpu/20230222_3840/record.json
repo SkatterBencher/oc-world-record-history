@@ -2,17 +2,19 @@
   "uid": "20230222_3840",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2023-02-22",
   "achieved_at_approximate": false,
-  "value_mhz": 3840.0,
+  "value_mhz": 3840,
   "hardware": {
     "primary": "NVIDIA GeForce RTX 4090",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "3840.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "OGS",
@@ -22,8 +24,30 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/gpupi_v3.3_-_32b/submissions/5209576",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "3840.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3840_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2869983.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVDIA"
   ],

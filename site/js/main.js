@@ -6,6 +6,30 @@ const CATEGORIES = {
   memory: { label: 'Memory', unit: 'MHz' },
 };
 
+// Human-readable labels for subcategory slugs
+// Add entries here as you create new subcategories
+const SUBCAT_LABELS = {
+  'dgpu':          'Discrete GPU',
+  'igp':           'Integrated GPU',
+  'igp-cpu':       'IGP (CPU)',
+  'igp-chipset':   'IGP (Chipset)',
+  'ddr':           'DDR',
+  'ddr2':          'DDR2',
+  'ddr3':          'DDR3',
+  'ddr4':          'DDR4',
+  'ddr5':          'DDR5',
+  'sdr':           'SDR',
+};
+
+function subcatLabel(slug) {
+  return SUBCAT_LABELS[slug] || slug;
+}
+
+// Normalize a subcategory string to a URL-safe slug
+function subcatSlug(s) {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
+
 const PAGE_TITLES = {
   home:   'OC World Record Museum — Overclocking History Since 1996',
   cpu:    'CPU Overclocking World Record History — OC Museum',
@@ -66,14 +90,29 @@ function routeFromHash() {
     renderHome();
   } else if (CATEGORIES[page]) {
     currentCategory = page;
-    currentSubcat   = parts[1] && !allRecords.find(r => r.uid === parts[1])
-                      ? parts[1] : null;
+    // Hash can be: #cat  /  #cat/uid  /  #cat/subcat  /  #cat/subcat/uid
+    const p1 = parts[1] ? decodeURIComponent(parts[1]) : null;
+    const p2 = parts[2] ? decodeURIComponent(parts[2]) : null;
+    const isUid = uid => !!allRecords.find(r => r.uid === uid);
+
+    if (p2) {
+      // #cat/subcat/uid
+      currentSubcat = p1;
+    } else if (p1 && !isUid(p1)) {
+      // #cat/subcat
+      currentSubcat = p1;
+    } else {
+      // #cat or #cat/uid
+      currentSubcat = null;
+    }
+
+    const recordUid = p2 || (p1 && isUid(p1) ? p1 : null);
+
     activeTags.clear();
     closePanelSilent();
     document.getElementById('page-timeline').classList.add('active');
     renderTimeline();
-    // If parts[1] looks like a record uid, open it; otherwise it's a subcat
-    if (parts[1] && allRecords.find(r => r.uid === parts[1])) openRecord(parts[1]);
+    if (recordUid) openRecord(recordUid);
   } else if (page === 'about') {
     closePanelSilent();
     document.getElementById('page-about').classList.add('active');
@@ -238,7 +277,7 @@ function renderSubNav() {
        href="#${currentCategory}">All</a>
     ${subcats.map(s => `
       <a class="subnav-item ${currentSubcat === s ? 'active' : ''}"
-         href="#${currentCategory}/${s}">${s}</a>
+         href="#${currentCategory}/${encodeURIComponent(s)}">${subcatLabel(s)}</a>
     `).join('')}
   `;
 
@@ -248,7 +287,7 @@ function renderSubNav() {
       e.preventDefault();
       const href = a.getAttribute('href').replace('#','');
       const parts = href.split('/');
-      currentSubcat = parts[1] || null;
+      currentSubcat = parts[1] ? decodeURIComponent(parts[1]) : null;
       activeTags.clear();
       closePanelSilent();
       history.pushState(null, '', '#' + href);
@@ -262,9 +301,9 @@ function renderTimeline() {
   const cat     = CATEGORIES[currentCategory];
   const records = getFilteredRecords();
 
-  const subcatLabel = currentSubcat ? ` — ${currentSubcat}` : '';
+  const subcatSuffix = currentSubcat ? ` — ${subcatLabel(currentSubcat)}` : '';
   document.getElementById('timeline-title').innerHTML =
-    `<span class="cat-label">${cat.label}</span> Overclocking World Record History${subcatLabel}`;
+    `<span class="cat-label">${cat.label}</span> Overclocking World Record History${subcatSuffix}`;
   document.getElementById('timeline-subtitle').textContent =
     `${records.length} records · ${getYearRange(records)}`;
   document.getElementById('header-record-count').textContent =
@@ -321,7 +360,8 @@ function renderTimeline() {
             <div class="rec-flag">${flags}</div>
           `;
           row.addEventListener('click', () => {
-            location.hash = `${currentCategory}/${r.uid}`;
+            const base = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
+            location.hash = `${base}/${r.uid}`;
           });
           group.appendChild(row);
         });
@@ -547,7 +587,7 @@ function renderChart(records) {
 
     canvas.addEventListener('click', function(e) {
       const p = findNearest(this, e);
-      if (p) location.hash = `${currentCategory}/${p.uid}`;
+      if (p) { const base = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory; location.hash = `${base}/${p.uid}`; }
     });
   }
   attach();
@@ -611,10 +651,13 @@ function openRecord(uid) {
 }
 
 function closePanel() {
-  // Only navigate back to category if we're still on a timeline page
+  // Stay on current page (preserving subcategory if active)
   const page = location.hash.replace('#','').split('/')[0];
   if (CATEGORIES[page]) {
-    location.hash = currentCategory;
+    const target = currentSubcat
+      ? `${currentCategory}/${encodeURIComponent(currentSubcat)}`
+      : currentCategory;
+    location.hash = target;
   } else {
     closePanelSilent();
   }
@@ -765,10 +808,12 @@ function renderPanel(record) {
   `;
 
   document.getElementById('btn-prev')?.addEventListener('click', () => {
-    location.hash = `${currentCategory}/${records[idx - 1].uid}`;
+    const basePrev = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
+    location.hash = `${basePrev}/${records[idx - 1].uid}`;
   });
   document.getElementById('btn-next')?.addEventListener('click', () => {
-    location.hash = `${currentCategory}/${records[idx + 1].uid}`;
+    const baseNext = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
+    location.hash = `${baseNext}/${records[idx + 1].uid}`;
   });
 }
 

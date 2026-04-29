@@ -1,0 +1,33 @@
+{
+  "uid": "20100405_1387",
+  "category": "gpu",
+  "subcategory": [
+    "igp-cpu"
+  ],
+  "achieved_at": "2010-04-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 1387.0,
+  "hardware": {
+    "primary": "Intel HD Graphics (Clarkdale)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Moonman",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

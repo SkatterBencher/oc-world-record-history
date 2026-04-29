@@ -2,7 +2,7 @@
   "uid": "20170322_3025",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2017-03-22",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "NVIDIA GeForce GTX 1080 Ti",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

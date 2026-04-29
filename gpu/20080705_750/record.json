@@ -1,0 +1,33 @@
+{
+  "uid": "20080705_750",
+  "category": "gpu",
+  "subcategory": [
+    "igp-chipset"
+  ],
+  "achieved_at": "2008-07-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 750.0,
+  "hardware": {
+    "primary": "ATI Radeon HD 3200 (RS780)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Okorn",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

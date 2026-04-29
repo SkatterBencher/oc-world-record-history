@@ -2,28 +2,52 @@
   "uid": "20210421_3225",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2021-04-21",
   "achieved_at_approximate": false,
-  "value_mhz": 3225.0,
+  "value_mhz": 3225,
   "hardware": {
     "primary": "AMD Radeon RX 6900 XT",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "322500.webp",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Der8auer",
-      "real_name": null,
+      "real_name": "Roman Hartun",
       "aliases": [],
       "country": "DE",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=fhP46XWMkdY",
+      "archived_url": null
+    },
+    {
+      "label": "VideoCardz",
+      "url": "https://videocardz.com/newz/der8auer-breaks-gpu-clock-speed-world-record-with-3-225-ghz-on-powercolor-rx-6900-xt-liquid-devil-ultimate",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "322500.webp",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "PowerColor-RX6900LQ-ULT-3.2GHz-1.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

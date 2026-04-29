@@ -1,10 +1,10 @@
 {
-  "uid": "20250905_4250",
+  "uid": "20250509_4250",
   "category": "gpu",
   "subcategory": [
-    "IGPU (CPU)"
+    "igp-cpu"
   ],
-  "achieved_at": "2025-09-05",
+  "achieved_at": "2025-05-09",
   "achieved_at_approximate": false,
   "value_mhz": 4250,
   "hardware": {
@@ -13,7 +13,8 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": "4250furmark.webp",
+  "hero": "4250.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "SkatterBencher",
@@ -28,23 +29,18 @@
   "sources": [
     {
       "label": "YouTube",
-      "url": "https://www.youtube.com/watch?v=IUMg3E2Oe54",
-      "archived_url": null
-    },
-    {
-      "label": "Blog",
-      "url": "https://skatterbencher.com/2025/06/04/i-broke-the-gpu-frequency-overclocking-world-record/",
-      "archived_url": null
-    },
-    {
-      "label": "Livestream",
-      "url": "https://youtu.be/kmWcSmronZo?t=21863",
+      "url": "https://www.youtube.com/watch?v=IwM-r2z3COQ",
       "archived_url": null
     }
   ],
   "assets": [
     {
-      "file": "4250furmark.webp",
+      "file": "4250.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "Screenshot (144).png",
       "type": "other",
       "caption": null
     }

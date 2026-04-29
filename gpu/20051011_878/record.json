@@ -2,7 +2,7 @@
   "uid": "20051011_878",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2005-10-11",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "ATi Radeon X1800 XT",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

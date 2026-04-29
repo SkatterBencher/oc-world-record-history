@@ -1,0 +1,33 @@
+{
+  "uid": "20140928_2157",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2014-09-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 2157.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 750 Ti",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "DFORDOG",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

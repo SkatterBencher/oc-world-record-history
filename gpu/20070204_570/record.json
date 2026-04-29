@@ -1,0 +1,33 @@
+{
+  "uid": "20070204_570",
+  "category": "gpu",
+  "subcategory": [
+    "igp-chipset"
+  ],
+  "achieved_at": "2007-02-04",
+  "achieved_at_approximate": false,
+  "value_mhz": 570.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 6100",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Tiborrr",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

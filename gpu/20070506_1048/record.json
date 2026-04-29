@@ -2,7 +2,7 @@
   "uid": "20070506_1048",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2007-05-06",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "NVIDIA GeForce 8600 GT",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

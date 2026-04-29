@@ -2,28 +2,57 @@
   "uid": "20100112_1410",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2010-01-12",
   "achieved_at_approximate": false,
-  "value_mhz": 1410.0,
+  "value_mhz": 1410,
   "hardware": {
     "primary": "AMD Radeon HD 5870",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "1410.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "NickShih",
-      "real_name": null,
+      "real_name": "Nick Shih",
       "aliases": [],
       "country": "TW",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark03/submissions/943857",
+      "archived_url": null
+    },
+    {
+      "label": "3DMark",
+      "url": "http://service.futuremark.com/compare?2k3=6249973",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1410.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1410_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_310986.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

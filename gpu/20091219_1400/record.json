@@ -2,7 +2,7 @@
   "uid": "20091219_1400",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2009-12-19",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "NVIDIA GeForce GTX 275",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

@@ -2,7 +2,7 @@
   "uid": "20060611_1045",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2006-06-11",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "NVIDIA GeForce 7900 GTX",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

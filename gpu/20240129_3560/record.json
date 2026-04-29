@@ -1,0 +1,33 @@
+{
+  "uid": "20240129_3560",
+  "category": "gpu",
+  "subcategory": [
+    "igp-cpu"
+  ],
+  "achieved_at": "2024-01-29",
+  "achieved_at_approximate": false,
+  "value_mhz": 3560.0,
+  "hardware": {
+    "primary": "AMD Radeon 780M (Phoenix 1)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "普普通通Tony大叔",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

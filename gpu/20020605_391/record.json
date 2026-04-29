@@ -2,7 +2,7 @@
   "uid": "20020605_391",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2002-06-05",
   "achieved_at_approximate": false,

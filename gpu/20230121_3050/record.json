@@ -1,0 +1,33 @@
+{
+  "uid": "20230121_3050",
+  "category": "gpu",
+  "subcategory": [
+    "igp-cpu"
+  ],
+  "achieved_at": "2023-01-21",
+  "achieved_at_approximate": false,
+  "value_mhz": 3050.0,
+  "hardware": {
+    "primary": "AMD Radeon Graphics (Raphael)",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Noms",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

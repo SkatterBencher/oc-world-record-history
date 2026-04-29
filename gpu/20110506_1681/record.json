@@ -1,0 +1,33 @@
+{
+  "uid": "20110506_1681",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2011-05-06",
+  "achieved_at_approximate": false,
+  "value_mhz": 1681.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 580",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "NickShih",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

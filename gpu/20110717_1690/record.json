@@ -1,0 +1,33 @@
+{
+  "uid": "20110717_1690",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2011-07-17",
+  "achieved_at_approximate": false,
+  "value_mhz": 1690.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 580",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Kurbel",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

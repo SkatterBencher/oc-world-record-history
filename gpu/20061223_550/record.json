@@ -1,0 +1,33 @@
+{
+  "uid": "20061223_550",
+  "category": "gpu",
+  "subcategory": [
+    "igp-chipset"
+  ],
+  "achieved_at": "2006-12-23",
+  "achieved_at_approximate": false,
+  "value_mhz": 550.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce 6100",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "Kolian",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

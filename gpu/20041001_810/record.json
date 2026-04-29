@@ -2,7 +2,7 @@
   "uid": "20041001_810",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2004-10-01",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "Ati Radeon X800 XT Platinum",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

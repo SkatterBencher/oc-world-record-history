@@ -2,7 +2,7 @@
   "uid": "20040915_807",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2004-09-15",
   "achieved_at_approximate": false,
@@ -11,7 +11,7 @@
     "primary": "Ati Radeon X800 Pro",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "overclockers": [
     {

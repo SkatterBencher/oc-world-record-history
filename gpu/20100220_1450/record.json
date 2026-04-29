@@ -2,28 +2,64 @@
   "uid": "20100220_1450",
   "category": "gpu",
   "subcategory": [
-    "DGPU"
+    "dgpu"
   ],
   "achieved_at": "2010-02-20",
   "achieved_at_approximate": false,
-  "value_mhz": 1450.0,
+  "value_mhz": 1450,
   "hardware": {
     "primary": "AMD Radeon HD 5870",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "1450.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Massman",
-      "real_name": null,
-      "aliases": [],
+      "real_name": "Pieter Plaisier",
+      "aliases": [
+        "SkatterBencher"
+      ],
       "country": "BE",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/964014_",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark",
+      "url": "http://service.futuremark.com/compare?3dmv=1916450",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1450.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1450_3dmark.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1450_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_333947.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

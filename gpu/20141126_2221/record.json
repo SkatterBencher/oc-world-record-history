@@ -1,0 +1,33 @@
+{
+  "uid": "20141126_2221",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2014-11-26",
+  "achieved_at_approximate": false,
+  "value_mhz": 2221.0,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 980",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "overclockers": [
+    {
+      "handle": "K|ngp|n",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "hero": null,
+  "tags": [],
+  "notes": null,
+  "not_a_record": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
