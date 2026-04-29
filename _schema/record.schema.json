@@ -57,7 +57,10 @@
       ],
       "properties": {
         "primary": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "The overclocked component, e.g. Intel Core i9-14900KF"
         },
         "motherboard": {
@@ -90,7 +93,10 @@
         ],
         "properties": {
           "handle": {
-            "type": "string"
+            "type": [
+              "string",
+              "null"
+            ]
           },
           "real_name": {
             "type": [
@@ -101,7 +107,10 @@
           "aliases": {
             "type": "array",
             "items": {
-              "type": "string"
+              "type": [
+                "string",
+                "null"
+              ]
             }
           },
           "country": {
@@ -130,10 +139,16 @@
         ],
         "properties": {
           "label": {
-            "type": "string"
+            "type": [
+              "string",
+              "null"
+            ]
           },
           "url": {
-            "type": "string",
+            "type": [
+              "string",
+              "null"
+            ],
             "minLength": 1
           },
           "archived_url": {
@@ -155,10 +170,16 @@
         ],
         "properties": {
           "file": {
-            "type": "string"
+            "type": [
+              "string",
+              "null"
+            ]
           },
           "type": {
-            "type": "string",
+            "type": [
+              "string",
+              "null"
+            ],
             "enum": [
               "cpuz",
               "gpuz",
@@ -179,7 +200,10 @@
     "tags": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": [
+          "string",
+          "null"
+        ]
       }
     },
     "notes": {
