@@ -361,8 +361,18 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 }
 
 /* ── DISCUSS LINK ────────────────────────────────────── */
+.panel-share-copy-status {
+  display: block;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--accent);
+  font-weight: 500;
+  margin-top: 4px;
+}
+
 .panel-discuss {
-  margin-top: 16px;
+  margin-top: 4px;
   text-align: center;
 }
 .panel-discuss a {

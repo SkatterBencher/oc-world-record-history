@@ -901,15 +901,10 @@ function renderPanel(record) {
     <div class="panel-divider"></div>
     <div class="panel-nav">
       <button class="panel-nav-btn" id="btn-prev" ${idx <= 0 ? 'disabled' : ''}>← Older</button>
+      <button class="panel-nav-btn" id="btn-copy-link" title="Copy link to this record">⊕ Copy</button>
       <button class="panel-nav-btn" id="btn-next" ${idx >= records.length - 1 ? 'disabled' : ''}>Newer →</button>
     </div>
-
-    <div class="panel-share">
-      <button class="panel-share-btn" id="btn-copy-link" title="Copy link to this record">
-        🔗 Copy link
-      </button>
-      <span class="panel-share-copy-status" id="copy-status" style="display:none">Copied!</span>
-    </div>
+    <span class="panel-share-copy-status" id="copy-status" style="display:none">Copied!</span>
 
     <div class="panel-discuss">
       <a href="https://github.com/SkatterBencher/oc-world-record-history/issues/new?title=Record+${encodeURIComponent(record.uid)}&body=Record+UID:+${encodeURIComponent(record.uid)}%0A%0AYour+comment:"
