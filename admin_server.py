@@ -96,6 +96,71 @@ def rebuild_index():
     os.system(f"python3 {ROOT / 'build.py'}")
 
 
+def collect_all_overclockers():
+    """Scan all records and collect unique overclockers by handle."""
+    overclockers = {}  # handle -> {real_name, aliases, country, profile_url, records: [{category, uid}]}
+    for cat in CATEGORIES:
+        cat_dir = ROOT / cat
+        if not cat_dir.exists():
+            continue
+        for uid_dir in cat_dir.iterdir():
+            rfile = uid_dir / "record.json"
+            if rfile.exists():
+                with open(rfile, encoding="utf-8") as f:
+                    r = json.load(f)
+                for oc in r.get("overclockers", []):
+                    handle = oc.get("handle", "")
+                    if not handle:
+                        continue
+                    if handle not in overclockers:
+                        overclockers[handle] = {
+                            "handle": handle,
+                            "real_name": oc.get("real_name"),
+                            "aliases": oc.get("aliases", []),
+                            "country": oc.get("country"),
+                            "profile_url": oc.get("profile_url"),
+                            "records": []
+                        }
+                    overclockers[handle]["records"].append({
+                        "category": cat,
+                        "uid": uid_dir.name
+                    })
+    return overclockers
+
+
+def update_overclocker_in_records(old_handle, new_data):
+    """Update all records that reference the old handle with new data."""
+    updated_count = 0
+    for cat in CATEGORIES:
+        cat_dir = ROOT / cat
+        if not cat_dir.exists():
+            continue
+        for uid_dir in cat_dir.iterdir():
+            rfile = uid_dir / "record.json"
+            if rfile.exists():
+                with open(rfile, encoding="utf-8") as f:
+                    r = json.load(f)
+                modified = False
+                for oc in r.get("overclockers", []):
+                    if oc.get("handle") == old_handle:
+                        # Update fields
+                        if "real_name" in new_data:
+                            oc["real_name"] = new_data["real_name"]
+                        if "aliases" in new_data:
+                            oc["aliases"] = new_data["aliases"]
+                        if "country" in new_data:
+                            oc["country"] = new_data["country"]
+                        if "profile_url" in new_data:
+                            oc["profile_url"] = new_data["profile_url"]
+                        if "handle" in new_data and new_data["handle"] != old_handle:
+                            oc["handle"] = new_data["handle"]
+                        modified = True
+                if modified:
+                    save_record(cat, uid_dir.name, r)
+                    updated_count += 1
+    return updated_count
+
+
 class AdminHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         print(f"  {args[0]} {args[1]}")
@@ -190,6 +255,19 @@ class AdminHandler(BaseHTTPRequestHandler):
                 file_path = ROOT / cat / uid / filename
                 self.serve_file(file_path)
                 return
+
+        # Overclocker manager page
+        if path in ("/overclockers", "/overclockers/"):
+            self.send_html(OVERCLOCKERS_HTML)
+            return
+
+        # API: List all overclockers
+        if path == "/api/overclockers":
+            oc_map = collect_all_overclockers()
+            # Sort by number of records (descending), then by handle
+            oc_list = sorted(oc_map.values(), key=lambda x: (-len(x["records"]), x["handle"].lower()))
+            self.send_json(oc_list)
+            return
 
         self.send_response(404)
         self.end_headers()
@@ -332,6 +410,32 @@ class AdminHandler(BaseHTTPRequestHandler):
                 saved += 1
             rebuild_index()
             self.send_json({"ok": True, "saved": saved, "errors": errors})
+            return
+
+        # Update overclocker across all records
+        if path == "/api/overclockers":
+            body = self.rfile.read(length)
+            data = json.loads(body)
+            old_handle = data.get("old_handle", "")
+            new_data = {}
+            if "real_name" in data:
+                new_data["real_name"] = data["real_name"] or None
+            if "aliases" in data:
+                new_data["aliases"] = data["aliases"]
+            if "country" in data:
+                new_data["country"] = data["country"] or None
+            if "profile_url" in data:
+                new_data["profile_url"] = data["profile_url"] or None
+            if "handle" in data and data["handle"] != old_handle:
+                new_data["handle"] = data["handle"]
+
+            if not old_handle:
+                self.send_json({"error": "missing old_handle"}, 400)
+                return
+
+            count = update_overclocker_in_records(old_handle, new_data)
+            rebuild_index()
+            self.send_json({"ok": True, "updated_records": count})
             return
 
         # Rebuild index
@@ -541,6 +645,10 @@ body { background: var(--bg); color: var(--text); font-family: var(--sans);
   <div class="sidebar-header">
     <div class="sidebar-title">OC / ADMIN</div>
     <button class="btn-new" onclick="newRecord()">+ New</button>
+  </div>
+  <div style="padding:8px 16px;border-bottom:1px solid var(--border);display:flex;gap:4px;">
+    <a class="btn" href="/overclockers" style="flex:1;text-align:center;text-decoration:none;font-size:10px;padding:4px 8px;">Overclockers</a>
+    <a class="btn" href="/bulk" style="flex:1;text-align:center;text-decoration:none;font-size:10px;padding:4px 8px;">Bulk Edit</a>
   </div>
   <div class="cat-tabs">
     <button class="cat-tab active" data-cat="cpu" onclick="setCat('cpu',this)">CPU</button>
@@ -1395,6 +1503,382 @@ function toast(msg, type='ok') {
 // Warn on unload if dirty
 window.addEventListener('beforeunload', e => {
   if (Object.keys(dirty).length) e.preventDefault();
+});
+
+init();
+</script>
+</body>
+</html>"""
+
+
+OVERCLOCKERS_HTML = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OC Museum — Overclocker Manager</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap');
+:root {
+  --bg: #0f0f13; --bg2: #16161f; --bg3: #1c1c28;
+  --border: #2a2a3d; --border-hi: #3a3a5a;
+  --accent: #e8490f; --accent-glow: rgba(232,73,15,0.12);
+  --green: #00c875; --red: #ff4466; --blue: #4488ff;
+  --text: #e8e8f0; --muted: #7070a0; --dim: #3a3a5a;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'Inter', sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: var(--sans);
+  font-size: 13px; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+
+/* TOOLBAR */
+.toolbar { display: flex; align-items: center; gap: 12px; padding: 10px 20px;
+  background: var(--bg2); border-bottom: 1px solid var(--border); flex-shrink: 0; }
+.toolbar-title { font-family: var(--mono); font-size: 12px; color: var(--accent);
+  font-weight: 600; letter-spacing: 0.05em; margin-right: 8px; }
+.spacer { flex: 1; }
+.status { font-family: var(--mono); font-size: 11px; color: var(--muted); min-width: 120px; text-align: right; }
+.btn { padding: 6px 16px; border-radius: 4px; border: 1px solid var(--border);
+  background: var(--bg3); color: var(--text); font-family: var(--mono); font-size: 11px;
+  cursor: pointer; font-weight: 600; transition: all 0.15s; }
+.btn:hover { border-color: var(--border-hi); }
+.btn-save { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn-save:hover { opacity: 0.85; }
+.btn-save:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-link { color: var(--muted); text-decoration: none; font-family: var(--mono);
+  font-size: 11px; padding: 6px 10px; border-radius: 4px; transition: color 0.15s; }
+.btn-link:hover { color: var(--accent); }
+.search-wrap { padding: 0 12px; }
+.search-input { padding: 5px 10px; border-radius: 4px; border: 1px solid var(--border);
+  background: var(--bg3); color: var(--text); font-family: var(--mono); font-size: 11px;
+  outline: none; width: 200px; }
+.search-input:focus { border-color: var(--accent); }
+
+/* MAIN LAYOUT */
+.main { flex: 1; display: flex; overflow: hidden; }
+
+/* LIST */
+.oc-list { width: 320px; flex-shrink: 0; border-right: 1px solid var(--border);
+  background: var(--bg2); overflow-y: auto; }
+.oc-item { padding: 12px 16px; border-bottom: 1px solid var(--border);
+  cursor: pointer; transition: background 0.1s; }
+.oc-item:hover { background: var(--bg3); }
+.oc-item.active { background: var(--accent-glow); border-left: 2px solid var(--accent); }
+.oc-item .oc-name { font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--text); }
+.oc-item .oc-meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.oc-item .oc-count { font-family: var(--mono); font-size: 10px; color: var(--dim); margin-top: 2px; }
+
+/* EDITOR */
+.editor { flex: 1; overflow-y: auto; padding: 32px; }
+.editor-empty { display: flex; align-items: center; justify-content: center;
+  height: 100%; color: var(--dim); font-family: var(--mono); font-size: 13px; }
+
+.editor-header { display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 28px; }
+.editor-title { font-family: var(--mono); font-size: 18px; color: var(--text); font-weight: 600; }
+.editor-subtitle { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-top: 4px; }
+.editor-actions { display: flex; gap: 8px; }
+
+.section { margin-bottom: 28px; }
+.section-title { font-family: var(--mono); font-size: 10px; font-weight: 600;
+  color: var(--dim); letter-spacing: 0.1em; text-transform: uppercase;
+  margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+
+.field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field.span2 { grid-column: span 2; }
+.field label { font-family: var(--mono); font-size: 10px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.08em; }
+.field input, .field textarea {
+  padding: 7px 10px; border-radius: 4px; border: 1px solid var(--border);
+  background: var(--bg3); color: var(--text); font-family: var(--mono); font-size: 12px;
+  outline: none; transition: border-color 0.15s; }
+.field input:focus, .field textarea:focus { border-color: var(--accent); }
+.field textarea { resize: vertical; min-height: 40px; }
+
+/* RECORDS TABLE */
+.records-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.records-table th { text-align: left; padding: 6px 10px;
+  font-family: var(--mono); font-size: 10px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--border); }
+.records-table td { padding: 6px 10px; font-size: 12px;
+  border-bottom: 1px solid var(--border); }
+.records-table tr:last-child td { border-bottom: none; }
+.records-table a { color: var(--accent); text-decoration: none; font-family: var(--mono); font-size: 11px; }
+.records-table a:hover { text-decoration: underline; }
+
+/* TOAST */
+.toast { position: fixed; bottom: 24px; right: 24px; padding: 10px 18px;
+  border-radius: 4px; font-family: var(--mono); font-size: 12px; font-weight: 600;
+  z-index: 999; transform: translateY(80px); opacity: 0;
+  transition: all 0.25s; pointer-events: none; }
+.toast.show { transform: translateY(0); opacity: 1; }
+.toast.ok { background: var(--green); color: #000; }
+.toast.err { background: var(--red); color: #fff; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-hi); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="btn-link" href="/">← Record Editor</a>
+  <a class="btn-link" href="/bulk">Bulk Editor</a>
+  <div class="toolbar-title">OVERCLOCKER MANAGER</div>
+  <div class="search-wrap">
+    <input class="search-input" type="text" placeholder="Search overclockers…" oninput="filterList(this.value)">
+  </div>
+  <div class="spacer"></div>
+  <div class="status" id="status">Loading…</div>
+  <button class="btn btn-save" id="btn-save" onclick="saveOC()" disabled>Save Changes</button>
+</div>
+
+<div class="main">
+  <div class="oc-list" id="oc-list"></div>
+  <div class="editor" id="editor">
+    <div class="editor-empty">← Select an overclocker to edit</div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let allOCs = [];
+let filteredOCs = [];
+let selectedOC = null;
+let originalHandle = null;
+let dirty = false;
+let searchQuery = '';
+
+async function init() {
+  await loadOCs();
+}
+
+async function loadOCs() {
+  document.getElementById('status').textContent = 'Loading…';
+  const res = await fetch('/api/overclockers');
+  allOCs = await res.json();
+  filterList(searchQuery);
+  document.getElementById('status').textContent = `${allOCs.length} overclockers`;
+}
+
+function filterList(q) {
+  searchQuery = q.toLowerCase();
+  filteredOCs = allOCs.filter(oc => {
+    if (!searchQuery) return true;
+    const hay = [oc.handle, oc.real_name || '', (oc.aliases || []).join(' '), oc.country || ''].join(' ').toLowerCase();
+    return hay.includes(searchQuery);
+  });
+  renderList();
+}
+
+function renderList() {
+  const el = document.getElementById('oc-list');
+  el.innerHTML = filteredOCs.map(oc => {
+    const active = selectedOC?.handle === oc.handle ? ' active' : '';
+  const recCount = oc.records?.length || 0;
+    const cats = [...new Set((oc.records || []).map(r => r.category))].join('/').toUpperCase();
+    const aliasBadge = (oc.aliases && oc.aliases.length > 0) ? `<span style="font-size:9px;color:var(--blue);margin-left:6px">[${oc.aliases.length} alias${oc.aliases.length>1?'es':''}]</span>` : '';
+    return `<div class="oc-item${active}" onclick="selectOC('${escJs(oc.handle)}')">
+      <div class="oc-name">${escHtml(oc.handle)}${aliasBadge}</div>
+      <div class="oc-meta">${oc.real_name || '—'} ${oc.country ? '· ' + oc.country : ''}</div>
+      ${oc.aliases && oc.aliases.length > 0 ? `<div style="font-size:10px;color:var(--dim);margin-top:2px">${oc.aliases.map(a=>escHtml(a)).join(', ')}</div>` : ''}
+      <div class="oc-count">${recCount} record${recCount !== 1 ? 's' : ''} · ${cats}</div>
+    </div>`;
+  }).join('');
+}
+
+function escHtml(s) { return String(s).replace(/&/g,'&').replace(/"/g,'"').replace(/</g,'<').replace(/>/g,'>'); }
+function escJs(s) { return String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+
+function selectOC(handle) {
+  if (dirty) {
+    if (!confirm('You have unsaved changes. Discard?')) return;
+    dirty = false;
+    updateSaveBtn();
+  }
+  selectedOC = allOCs.find(o => o.handle === handle);
+  originalHandle = handle;
+  renderEditor();
+  renderList();
+}
+
+function renderEditor() {
+  const oc = selectedOC;
+  if (!oc) {
+    document.getElementById('editor').innerHTML = '<div class="editor-empty">← Select an overclocker to edit</div>';
+    return;
+  }
+
+  const recCount = oc.records?.length || 0;
+
+  document.getElementById('editor').innerHTML = `
+    <div class="editor-header">
+      <div>
+        <div class="editor-title">${escHtml(oc.handle)}</div>
+        <div class="editor-subtitle">${recCount} record${recCount !== 1 ? 's' : ''} across all categories</div>
+      </div>
+      <div class="editor-actions">
+        <button class="btn" onclick="loadOCs()">↺ Refresh</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Profile</div>
+      <div class="field-grid">
+        <div class="field">
+          <label>Current Handle</label>
+          <input id="f-handle" value="${escHtml(oc.handle)}" onchange="onFieldChange()">
+        </div>
+        <div class="field">
+          <label>Real Name</label>
+          <input id="f-realname" value="${escHtml(oc.real_name || '')}" placeholder="e.g. John Doe" onchange="onFieldChange()">
+        </div>
+        <div class="field">
+          <label>Country (ISO)</label>
+          <input id="f-country" value="${escHtml(oc.country || '')}" placeholder="e.g. US, TW, DE" onchange="onFieldChange()">
+        </div>
+        <div class="field">
+          <label>Profile URL</label>
+          <input id="f-profile" value="${escHtml(oc.profile_url || '')}" placeholder="https://…" onchange="onFieldChange()">
+        </div>
+        <div class="field span2">
+          <label>Aliases (comma-separated)</label>
+          <textarea id="f-aliases" placeholder="Previous handles, alternate spellings…" onchange="onFieldChange()" style="min-height:60px">${escHtml((oc.aliases || []).join(', '))}</textarea>
+          <div style="font-size:10px;color:var(--dim);margin-top:4px">Add previous handles here so records keep their historical name but can be found via search.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Records (${recCount})</div>
+      ${recCount > 0 ? `
+        <table class="records-table">
+          <thead><tr><th>Date</th><th>Category</th><th>Frequency</th><th>Hardware</th></tr></thead>
+          <tbody>
+            ${(oc.records || []).map(r => `
+              <tr>
+                <td><a href="/?cat=${r.category}&uid=${r.uid}" target="_blank">${r.uid}</a></td>
+                <td>${r.category.toUpperCase()}</td>
+                <td>${getFreq(r.category, r.uid)}</td>
+                <td>${getHW(r.category, r.uid)}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      ` : '<div style="color:var(--dim);font-family:var(--mono);font-size:12px;padding:12px 0">No records found</div>'}
+    </div>
+  `;
+}
+
+// Cache for record data
+let recordCache = {};
+
+function getFreq(cat, uid) {
+  const key = cat + '/' + uid;
+  if (recordCache[key]) return recordCache[key].freq;
+  return '…';
+}
+
+function getHW(cat, uid) {
+  const key = cat + '/' + uid;
+  if (recordCache[key]) return recordCache[key].hw;
+  return '…';
+}
+
+// Load record details for the table
+async function loadRecordDetails() {
+  if (!selectedOC) return;
+  for (const r of (selectedOC.records || [])) {
+    const key = r.category + '/' + r.uid;
+    if (!recordCache[key]) {
+      try {
+        const res = await fetch(`/api/record?category=${r.category}&uid=${r.uid}`);
+        const data = await res.json();
+        recordCache[key] = {
+          freq: data.value_mhz ? data.value_mhz.toFixed(2) + ' MHz' : '—',
+          hw: data.hardware?.primary || '—'
+        };
+      } catch(e) {
+        recordCache[key] = { freq: '—', hw: '—' };
+      }
+    }
+  }
+  // Re-render to show loaded data
+  if (selectedOC) renderEditor();
+}
+
+function onFieldChange() {
+  dirty = true;
+  updateSaveBtn();
+}
+
+function updateSaveBtn() {
+  const btn = document.getElementById('btn-save');
+  btn.disabled = !dirty;
+  if (dirty) {
+    btn.textContent = 'Save Changes';
+  } else {
+    btn.textContent = 'Save Changes';
+  }
+}
+
+async function saveOC() {
+  if (!selectedOC) return;
+  const data = {
+    old_handle: originalHandle,
+    handle: document.getElementById('f-handle').value.trim(),
+    real_name: document.getElementById('f-realname').value.trim() || null,
+    country: document.getElementById('f-country').value.trim() || null,
+    profile_url: document.getElementById('f-profile').value.trim() || null,
+    aliases: document.getElementById('f-aliases').value.split(',').map(s => s.trim()).filter(Boolean)
+  };
+
+  if (!data.handle) {
+    toast('Handle is required', 'err');
+    return;
+  }
+
+  try {
+    const res = await fetch('/api/overclockers', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    const json = await res.json();
+    if (json.ok) {
+      toast(`Updated ${json.updated_records} records ✓`, 'ok');
+      dirty = false;
+      updateSaveBtn();
+      recordCache = {};
+      await loadOCs();
+      // Re-select the OC (handle might have changed)
+      selectedOC = allOCs.find(o => o.handle === data.handle);
+      originalHandle = data.handle;
+      renderEditor();
+      renderList();
+    } else {
+      toast('Error: ' + (json.error || 'unknown'), 'err');
+    }
+  } catch(e) {
+    toast('Save failed: ' + e.message, 'err');
+  }
+}
+
+function toast(msg, type='ok') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = `toast ${type} show`;
+  clearTimeout(el._t);
+  el._t = setTimeout(() => el.classList.remove('show'), 2500);
+}
+
+window.addEventListener('beforeunload', e => {
+  if (dirty) e.preventDefault();
 });
 
 init();

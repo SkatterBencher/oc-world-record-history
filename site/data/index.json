@@ -4836,7 +4836,7 @@
     },
     "overclockers": [
       {
-        "handle": "Fugger",
+        "handle": "FUGGER",
         "real_name": null,
         "aliases": [],
         "country": "US",
@@ -4870,7 +4870,7 @@
     },
     "overclockers": [
       {
-        "handle": "Fugger",
+        "handle": "FUGGER",
         "real_name": null,
         "aliases": [],
         "country": "US",
@@ -5167,7 +5167,7 @@
     },
     "overclockers": [
       {
-        "handle": "Fugger",
+        "handle": "FUGGER",
         "real_name": null,
         "aliases": [],
         "country": "US",
@@ -6133,7 +6133,7 @@
         "handle": "Demiurg",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RU",
         "profile_url": null
       }
     ],
@@ -6321,7 +6321,7 @@
         "handle": "Tiborrr",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SI",
         "profile_url": null
       }
     ],
@@ -7339,7 +7339,7 @@
         "handle": "Demiurg",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RU",
         "profile_url": null
       }
     ],
@@ -8177,8 +8177,10 @@
     "overclockers": [
       {
         "handle": "Massman",
-        "real_name": null,
-        "aliases": [],
+        "real_name": "Pieter Plaisier",
+        "aliases": [
+          "SkatterBencher"
+        ],
         "country": "BE",
         "profile_url": null
       }
@@ -8217,7 +8219,7 @@
         "handle": "The Overclocking Knights",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
@@ -8253,9 +8255,11 @@
     "overclockers": [
       {
         "handle": "Massman",
-        "real_name": null,
-        "aliases": [],
-        "country": null,
+        "real_name": "Pieter Plaisier",
+        "aliases": [
+          "SkatterBencher"
+        ],
+        "country": "BE",
         "profile_url": null
       }
     ],
@@ -8610,7 +8614,7 @@
         "handle": "Bennylodewijk",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "ID",
         "profile_url": null
       }
     ],
@@ -8793,7 +8797,7 @@
         "handle": "Kinc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       }
     ],
@@ -9437,7 +9441,7 @@
         "handle": "SF3D",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "FI",
         "profile_url": null
       }
     ],
@@ -9957,7 +9961,7 @@
     "overclockers": [
       {
         "handle": "AndreYang",
-        "real_name": null,
+        "real_name": "Andre Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -10025,7 +10029,7 @@
     "overclockers": [
       {
         "handle": "AndreYang",
-        "real_name": null,
+        "real_name": "Andre Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -10059,7 +10063,7 @@
     "overclockers": [
       {
         "handle": "AndreYang",
-        "real_name": null,
+        "real_name": "Andre Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -11069,7 +11073,7 @@
     "overclockers": [
       {
         "handle": "AndreYang",
-        "real_name": null,
+        "real_name": "Andre Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -11430,7 +11434,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -11509,7 +11513,7 @@
         "handle": "Smoke",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RU",
         "profile_url": null
       }
     ],
@@ -11749,7 +11753,7 @@
         "handle": "8 Pack",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "GB",
         "profile_url": null
       }
     ],
@@ -11787,7 +11791,7 @@
         "handle": "Steponz",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -11825,7 +11829,7 @@
         "handle": "Steponz",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -11863,7 +11867,7 @@
         "handle": "Steponz",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -11901,7 +11905,7 @@
         "handle": "Chi-Kui Lam",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -11936,7 +11940,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -11977,7 +11981,7 @@
         "handle": "Chi-Kui Lam",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -13246,7 +13250,7 @@
     "overclockers": [
       {
         "handle": "Kovan Yang",
-        "real_name": null,
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -13284,7 +13288,7 @@
     "overclockers": [
       {
         "handle": "Kovan Yang",
-        "real_name": null,
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -13588,7 +13592,7 @@
     "overclockers": [
       {
         "handle": "Kovan Yang",
-        "real_name": null,
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -13708,7 +13712,7 @@
     "overclockers": [
       {
         "handle": "Kovan Yang",
-        "real_name": null,
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -13987,7 +13991,7 @@
         "handle": "Bennylodewijk",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "ID",
         "profile_url": null
       }
     ],
@@ -14063,7 +14067,7 @@
         "handle": "Yosarianilives",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -14174,8 +14178,8 @@
     },
     "overclockers": [
       {
-        "handle": "Kovan",
-        "real_name": null,
+        "handle": "Kovan Yang",
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -14212,8 +14216,8 @@
     },
     "overclockers": [
       {
-        "handle": "Kovan",
-        "real_name": null,
+        "handle": "Kovan Yang",
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -14635,7 +14639,7 @@
     "overclockers": [
       {
         "handle": "Kovan Yang",
-        "real_name": null,
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -14859,7 +14863,7 @@
     "overclockers": [
       {
         "handle": "Kovan Yang",
-        "real_name": null,
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -14902,7 +14906,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -14949,7 +14953,7 @@
         "handle": "lupin_no_musume",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -14990,7 +14994,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -15037,7 +15041,7 @@
         "handle": "lupin_no_musume",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -15079,7 +15083,7 @@
     "overclockers": [
       {
         "handle": "Kovan Yang",
-        "real_name": null,
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -15125,7 +15129,7 @@
         "handle": "lupin_no_musume",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -15287,7 +15291,7 @@
         "handle": "lupin_no_musume",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -15547,7 +15551,9 @@
       {
         "handle": "SkatterBencher",
         "real_name": "Pieter Plaisier",
-        "aliases": [],
+        "aliases": [
+          "Massman"
+        ],
         "country": "BE",
         "profile_url": null
       }
@@ -15633,7 +15639,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -15677,7 +15683,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -15935,9 +15941,11 @@
     },
     "overclockers": [
       {
-        "handle": "Seby9123",
+        "handle": "Seby",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Seby9123"
+        ],
         "country": "US",
         "profile_url": null
       }
@@ -15979,9 +15987,11 @@
     },
     "overclockers": [
       {
-        "handle": "Seby9123",
+        "handle": "Seby",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Seby9123"
+        ],
         "country": "US",
         "profile_url": null
       }
@@ -16023,7 +16033,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -16067,7 +16077,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -16427,7 +16437,7 @@
         "handle": "lupin_no_musume",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -16599,7 +16609,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -16646,7 +16656,7 @@
         "handle": "lupin_no_musume",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "HK",
         "profile_url": null
       }
     ],
@@ -16687,7 +16697,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -16734,7 +16744,7 @@
         "handle": "普普通通Tony大叔",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CN",
         "profile_url": null
       }
     ],
@@ -16836,7 +16846,9 @@
       {
         "handle": "SkatterBencher",
         "real_name": "Pieter Plaisier",
-        "aliases": [],
+        "aliases": [
+          "Massman"
+        ],
         "country": "BE",
         "profile_url": null
       }
@@ -16995,16 +17007,20 @@
     "overclockers": [
       {
         "handle": "Massman",
-        "real_name": null,
-        "aliases": [],
-        "country": null,
+        "real_name": "Pieter Plaisier",
+        "aliases": [
+          "SkatterBencher"
+        ],
+        "country": "BE",
         "profile_url": null
       },
       {
         "handle": "SkatterBencher",
-        "real_name": null,
-        "aliases": [],
-        "country": null,
+        "real_name": "Pieter Plaisier",
+        "aliases": [
+          "Massman"
+        ],
+        "country": "BE",
         "profile_url": null
       }
     ],
@@ -17039,8 +17055,8 @@
     },
     "overclockers": [
       {
-        "handle": "Kovan",
-        "real_name": null,
+        "handle": "Kovan Yang",
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -17083,8 +17099,8 @@
     },
     "overclockers": [
       {
-        "handle": "Kovan",
-        "real_name": null,
+        "handle": "Kovan Yang",
+        "real_name": "Kovan Yang",
         "aliases": [],
         "country": "TW",
         "profile_url": null
@@ -17513,7 +17529,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -17601,7 +17617,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -17645,7 +17661,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -18255,7 +18271,7 @@
     },
     "overclockers": [
       {
-        "handle": "Hicookie",
+        "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
@@ -18301,7 +18317,9 @@
       {
         "handle": "AiMax",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "MSIMAX"
+        ],
         "country": "US",
         "profile_url": null
       }

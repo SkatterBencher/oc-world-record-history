@@ -721,10 +721,21 @@ function openRecord(uid) {
     row.classList.toggle('selected', row.dataset.uid === uid)
   );
 
+  // Update URL hash for direct linking (before rendering for proper shareability)
+  const base = currentSubcat ? `${currentCategory}/${encodeURIComponent(currentSubcat)}` : currentCategory;
+  history.pushState(null, '', `#${base}/${record.uid}`);
+
+  // Update page title and meta description for SEO
+  updateRecordMeta(record);
+
+  // Send GA4 event for record view
+  trackRecordView(record);
+
+  // Render panel content BEFORE making it visible to avoid layout flash
+  renderPanel(record);
+
   document.getElementById('timeline-main').classList.add('panel-open');
   document.getElementById('detail-panel').classList.add('open');
-
-  renderPanel(record);
   // Redraw immediately for selected dot, then again after CSS transition (0.3s) for correct width
   try { renderChart(getFilteredRecords()); } catch(_) {}
   setTimeout(() => { try { renderChart(getFilteredRecords()); } catch(_) {} }, 320);
@@ -893,6 +904,13 @@ function renderPanel(record) {
       <button class="panel-nav-btn" id="btn-next" ${idx >= records.length - 1 ? 'disabled' : ''}>Newer →</button>
     </div>
 
+    <div class="panel-share">
+      <button class="panel-share-btn" id="btn-copy-link" title="Copy link to this record">
+        🔗 Copy link
+      </button>
+      <span class="panel-share-copy-status" id="copy-status" style="display:none">Copied!</span>
+    </div>
+
     <div class="panel-discuss">
       <a href="https://github.com/SkatterBencher/oc-world-record-history/issues/new?title=Record+${encodeURIComponent(record.uid)}&body=Record+UID:+${encodeURIComponent(record.uid)}%0A%0AYour+comment:"
          target="_blank" rel="noopener">
@@ -921,6 +939,31 @@ function renderPanel(record) {
       location.hash = `${baseNext}/${records[idx + 1].uid}`;
     }
   });
+
+  // Copy link button
+  const copyBtn = document.getElementById('btn-copy-link');
+  const copyStatus = document.getElementById('copy-status');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      const url = window.location.href;
+      navigator.clipboard.writeText(url).then(() => {
+        copyStatus.style.display = 'inline';
+        setTimeout(() => { copyStatus.style.display = 'none'; }, 2000);
+      }).catch(() => {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = url;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-9999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        copyStatus.style.display = 'inline';
+        setTimeout(() => { copyStatus.style.display = 'none'; }, 2000);
+      });
+    });
+  }
 }
 
 // ── STATISTICS ────────────────────────────────────────
@@ -1492,6 +1535,133 @@ function formatDays(days) {
   if (days < 30) return `${days} days`;
   if (days < 365) return `${Math.floor(days / 30)} months`;
   return `${(days / 365).toFixed(1)} years`;
+}
+
+// ── SEO & ANALYTICS ───────────────────────────────────
+
+/**
+ * Update page title and meta description when viewing a specific record.
+ * This helps with SEO when Google crawls the page with a record hash.
+ */
+function updateRecordMeta(record) {
+  const cat = CATEGORIES[record.category] || { label: record.category };
+  const oc = record.overclockers?.[0] || {};
+  const dateStr = formatDateLong(record.achieved_at, record.achieved_at_approximate);
+
+  // Update page title
+  const title = `${record.value_mhz.toFixed(2)} MHz — ${cat.label} World Record by ${escapeHtml(oc.handle || 'Unknown')} (${dateStr}) — OC Museum`;
+  document.title = title;
+
+  // Update meta description
+  let desc = `${cat.label} world record of ${record.value_mhz.toFixed(2)} MHz set by ${oc.handle || 'Unknown'}`;
+  if (record.hardware?.primary) desc += ` on a ${record.hardware.primary}`;
+  if (oc.country) desc += ` from ${oc.country}`;
+  desc += ` on ${dateStr}.`;
+  if (record.notes) desc += ` ${record.notes}`;
+
+  let metaDesc = document.querySelector('meta[name="description"]');
+  if (!metaDesc) {
+    metaDesc = document.createElement('meta');
+    metaDesc.name = 'description';
+    document.head.appendChild(metaDesc);
+  }
+  metaDesc.content = desc;
+
+  // Update canonical URL to include the record hash
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) {
+    const baseUrl = canonical.href.replace(/#.*$/, '');
+    canonical.href = baseUrl + location.hash;
+  }
+
+  // Add structured data for the record
+  updateRecordStructuredData(record);
+}
+
+/**
+ * Add/update structured data (schema.org) for the current record.
+ * This helps Google understand the record content for better indexing.
+ */
+function updateRecordStructuredData(record) {
+  const cat = CATEGORIES[record.category] || { label: record.category };
+  const oc = record.overclockers?.[0] || {};
+  const dateStr = record.achieved_at_approximate ? record.achieved_at.slice(0, 4) : record.achieved_at;
+
+  // Remove existing record structured data
+  const existing = document.getElementById('record-structured-data');
+  if (existing) existing.remove();
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.id = 'record-structured-data';
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Achievement",
+    "name": `${cat.label} Frequency World Record — ${record.value_mhz.toFixed(2)} MHz`,
+    "description": `${cat.label} world record of ${record.value_mhz.toFixed(2)} MHz achieved on ${dateStr}`,
+    "achievementCategory": {
+      "@type": "Thing",
+      "name": `${cat.label} Overclocking`,
+      "description": `World record for ${cat.label} frequency`
+    },
+    "result": {
+      "@type": "PropertyValue",
+      "name": "Frequency",
+      "value": record.value_mhz.toFixed(2),
+      "unitCode": "MHZ"
+    },
+    "instrument": record.hardware?.primary ? {
+      "@type": "Computer",
+      "name": record.hardware.primary,
+      "additionalProperty": record.hardware.cooling ? {
+        "@type": "PropertyValue",
+        "name": "Cooling",
+        "value": record.hardware.cooling
+      } : undefined
+    } : undefined,
+    "performer": oc.handle ? {
+      "@type": "Person",
+      "name": oc.handle,
+      "nationality": oc.country || undefined,
+      "url": oc.profile_url || undefined
+    } : undefined,
+    "dateAchieved": dateStr,
+    "url": `https://museum.skatterbencher.com/${location.hash}`,
+    "subjectOf": {
+      "@type": "WebPage",
+      "name": "OC World Record Museum",
+      "url": "https://museum.skatterbencher.com"
+    }
+  };
+
+  script.textContent = JSON.stringify(structuredData);
+  document.head.appendChild(script);
+}
+
+/**
+ * Send GA4 event when a record is viewed in the detail panel.
+ * This allows tracking which records users are interested in.
+ */
+function trackRecordView(record) {
+  if (typeof gtag !== 'function') return;
+
+  const cat = CATEGORIES[record.category] || { label: record.category };
+  const oc = record.overclockers?.[0] || {};
+
+  gtag('event', 'view_record', {
+    'event_category': 'Records',
+    'event_label': record.uid,
+    'record_uid': record.uid,
+    'record_category': record.category,
+    'record_category_label': cat.label,
+    'record_frequency_mhz': record.value_mhz,
+    'record_hardware': record.hardware?.primary || 'Unknown',
+    'record_overclocker': oc.handle || 'Unknown',
+    'record_country': oc.country || 'Unknown',
+    'record_date': record.achieved_at,
+    'record_subcategory': (record.subcategory || []).join(', ')
+  });
 }
 
 // ── HELPERS ───────────────────────────────────────────

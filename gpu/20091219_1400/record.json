@@ -16,8 +16,10 @@
   "overclockers": [
     {
       "handle": "Massman",
-      "real_name": null,
-      "aliases": [],
+      "real_name": "Pieter Plaisier",
+      "aliases": [
+        "SkatterBencher"
+      ],
       "country": "BE",
       "profile_url": null
     }

@@ -15,9 +15,11 @@
   },
   "overclockers": [
     {
-      "handle": "Seby9123",
+      "handle": "Seby",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "Seby9123"
+      ],
       "country": "US",
       "profile_url": null
     }

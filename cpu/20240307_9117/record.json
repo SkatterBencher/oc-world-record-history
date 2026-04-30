@@ -38,7 +38,9 @@
     {
       "handle": "SkatterBencher",
       "real_name": "Pieter Plaisier",
-      "aliases": [],
+      "aliases": [
+        "Massman"
+      ],
       "country": "BE",
       "profile_url": null
     }

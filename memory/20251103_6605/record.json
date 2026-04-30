@@ -17,7 +17,9 @@
     {
       "handle": "AiMax",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "MSIMAX"
+      ],
       "country": "US",
       "profile_url": null
     }
