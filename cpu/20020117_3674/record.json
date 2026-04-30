@@ -15,7 +15,9 @@
     {
       "handle": "Sampsa",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "Muropaketti"
+      ],
       "country": "FI",
       "profile_url": null
     }

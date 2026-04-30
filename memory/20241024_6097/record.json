@@ -17,7 +17,9 @@
     {
       "handle": "Kovan Yang",
       "real_name": "Kovan Yang",
-      "aliases": [],
+      "aliases": [
+        "KovanYang"
+      ],
       "country": "TW",
       "profile_url": null
     }
