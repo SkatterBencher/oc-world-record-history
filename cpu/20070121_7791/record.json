@@ -7,10 +7,12 @@
   "value_mhz": 7791.79,
   "hardware": {
     "primary": "Intel Pentium 4 631",
-    "motherboard": null,
+    "motherboard": "ASUS P5B-Deluxe",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "779179.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "ThuG",
@@ -20,7 +22,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=159281",
+      "archived_url": null
+    },
+    {
+      "label": "CPU-Z HOF",
+      "url": "http://valid.x86-secret.com/records.php",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

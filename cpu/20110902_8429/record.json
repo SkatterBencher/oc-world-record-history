@@ -7,10 +7,12 @@
   "value_mhz": 8429.38,
   "hardware": {
     "primary": "AMD FX-8150",
-    "motherboard": null,
+    "motherboard": "ASUS Crosshair V Formula",
     "memory": null,
     "cooling": "Liquid Helium"
   },
+  "hero": "842938.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Macci",
@@ -18,10 +20,75 @@
       "aliases": [],
       "country": "FI",
       "profile_url": null
+    },
+    {
+      "handle": "Chew*",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    },
+    {
+      "handle": "hardman",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    },
+    {
+      "handle": "64NOMIS",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    },
+    {
+      "handle": "AJS",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/show_oc.php?id=1980971",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/2206528",
+      "archived_url": null
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=UKN4VMOenNM",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "842938.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "842938_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "842938_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_653998.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

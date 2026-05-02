@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2024-10-22",
   "achieved_at_approximate": false,
-  "value_mhz": 3900.0,
+  "value_mhz": 3900,
   "hardware": {
     "primary": "Intel Graphics (Arrow Lake)",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Massman",
@@ -22,23 +24,12 @@
       ],
       "country": "BE",
       "profile_url": null
-    },
-    {
-      "handle": "SkatterBencher",
-      "real_name": "Pieter Plaisier",
-      "aliases": [
-        "Massman"
-      ],
-      "country": "BE",
-      "profile_url": null
     }
   ],
   "sources": [],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": null,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

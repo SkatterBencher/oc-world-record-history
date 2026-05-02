@@ -7,10 +7,12 @@
   "value_mhz": 8242.45,
   "hardware": {
     "primary": "Intel Celeron D 360",
-    "motherboard": null,
+    "motherboard": "ASUS Commando",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "824545.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Duck",
@@ -20,8 +22,45 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?t=260300",
+      "archived_url": null
+    },
+    {
+      "label": "Livedoor",
+      "url": "https://news.livedoor.com/article/detail/5055928/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "824545.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "824545_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "824545_cpuzHof.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "824545_livedoor.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "824545_xtremesystems.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

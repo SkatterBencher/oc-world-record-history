@@ -7,11 +7,11 @@
   "value_mhz": 8794.33,
   "hardware": {
     "primary": "AMD FX-8350",
-    "motherboard": null,
+    "motherboard": "ASUS CROSSHAIR V FORMULA-Z",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "879433.png",
   "not_a_record": null,
   "overclockers": [
     {
@@ -22,8 +22,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86.fr/lpza4n",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "879433.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "879433_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

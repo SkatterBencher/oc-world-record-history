@@ -11,6 +11,8 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "cpu-8491.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Chew*",
@@ -20,8 +22,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?276393-Andre-Yang-beats-Macci-FX-WR-on-CPU-Z-8461MHz-with-LN%B2-HWBot.org",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "8491_xtremesystems.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "cpu-8491.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

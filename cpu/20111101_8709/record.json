@@ -7,10 +7,12 @@
   "value_mhz": 8709.06,
   "hardware": {
     "primary": "AMD FX-8150",
-    "motherboard": null,
+    "motherboard": "ASUS Crosshair V Formula",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "87091.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "AndreYang",
@@ -20,8 +22,35 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.canardpc.com/show_oc.php?id=2075306",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/2294034",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "870906_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "87091.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "8709_hwbot.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

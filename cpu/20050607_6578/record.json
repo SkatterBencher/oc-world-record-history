@@ -7,10 +7,12 @@
   "value_mhz": 6578.85,
   "hardware": {
     "primary": "Intel Pentium 4 660",
-    "motherboard": null,
+    "motherboard": "ASUS P5WD2-Premium",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "657885.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "The Stilt",
@@ -20,7 +22,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=21876",
+      "archived_url": null
+    },
+    {
+      "label": "CPU-Z HOF",
+      "url": "http://valid.x86-secret.com/records.php",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

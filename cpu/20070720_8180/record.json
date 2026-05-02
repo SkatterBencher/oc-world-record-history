@@ -7,10 +7,12 @@
   "value_mhz": 8180.4,
   "hardware": {
     "primary": "Intel Pentium 4 631",
-    "motherboard": null,
+    "motherboard": "ASUS Commando",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Duck",
@@ -20,7 +22,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=218928",
+      "archived_url": null
+    },
+    {
+      "label": "CPU-Z HOF",
+      "url": "http://valid.x86-secret.com/records.php",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

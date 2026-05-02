@@ -7,10 +7,12 @@
   "value_mhz": 8461.51,
   "hardware": {
     "primary": "AMD FX-8150",
-    "motherboard": null,
+    "motherboard": "ASUS Crosshair V Formula",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "836151.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "AndreYang",
@@ -20,8 +22,45 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/show_oc.php?id=2067001",
+      "archived_url": null
+    },
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?276393-Andre-Yang-beats-Macci-FX-WR-on-CPU-Z-8461MHz-with-LN%B2-HWBot.org",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "836151.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "836151_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "836151_hwbotforum.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "836151_rogforums.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "836151_xtremesystems.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

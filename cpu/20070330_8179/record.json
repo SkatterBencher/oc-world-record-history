@@ -7,10 +7,12 @@
   "value_mhz": 8179.89,
   "hardware": {
     "primary": "Intel Celeron D 360",
-    "motherboard": null,
+    "motherboard": "ASUS Commando",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "817989.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "ThuG",

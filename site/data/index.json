@@ -1439,7 +1439,7 @@
     },
     "overclockers": [
       {
-        "handle": "HIDE",
+        "handle": "Hide",
         "real_name": null,
         "aliases": [],
         "country": "JP",
@@ -2165,7 +2165,9 @@
       {
         "handle": "Sampsa",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Muropaketti"
+        ],
         "country": "FI",
         "profile_url": null
       }
@@ -2409,7 +2411,9 @@
       {
         "handle": "Sampsa",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Muropaketti"
+        ],
         "country": "FI",
         "profile_url": null
       }
@@ -2844,9 +2848,11 @@
     },
     "overclockers": [
       {
-        "handle": "Muropaketti",
+        "handle": "Sampsa",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Muropaketti"
+        ],
         "country": "FI",
         "profile_url": null
       }
@@ -3025,7 +3031,7 @@
     "hero": "setfsb_men_285.gif",
     "overclockers": [
       {
-        "handle": "Horiccho",
+        "handle": "Holicho",
         "real_name": null,
         "aliases": [
           "ほりっちょ"
@@ -3349,7 +3355,7 @@
         "handle": "DigitalJesus",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -5654,7 +5660,9 @@
       {
         "handle": "Sampsa",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Muropaketti"
+        ],
         "country": "FI",
         "profile_url": null
       }
@@ -6359,7 +6367,7 @@
         "handle": "Nikolas61",
         "real_name": null,
         "aliases": [],
-        "country": "SR",
+        "country": "RS",
         "profile_url": null
       }
     ],
@@ -7225,7 +7233,7 @@
         "handle": "Fr3ak",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
@@ -8141,7 +8149,7 @@
         "handle": "Giorgioprimo",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "IT",
         "profile_url": null
       }
     ],
@@ -8576,7 +8584,7 @@
         "handle": "Ekky Jengkol",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "ID",
         "profile_url": null
       }
     ],
@@ -8714,7 +8722,7 @@
         "handle": "Topalof",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "RU",
         "profile_url": null
       }
     ],
@@ -8752,7 +8760,7 @@
         "handle": "Moonman",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "SI",
         "profile_url": null
       }
     ],
@@ -9086,10 +9094,12 @@
     "value_mhz": 8242.45,
     "hardware": {
       "primary": "Intel Celeron D 360",
-      "motherboard": null,
+      "motherboard": "ASUS Commando",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "824545.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Duck",
@@ -9099,8 +9109,45 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "XtremeSystems",
+        "url": "http://www.xtremesystems.org/forums/showthread.php?t=260300",
+        "archived_url": null
+      },
+      {
+        "label": "Livedoor",
+        "url": "https://news.livedoor.com/article/detail/5055928/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "824545.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "824545_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "824545_cpuzHof.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "824545_livedoor.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "824545_xtremesystems.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -9593,7 +9640,7 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -9783,7 +9830,7 @@
         "handle": "Kurbel",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
@@ -9848,10 +9895,12 @@
     "value_mhz": 8308.94,
     "hardware": {
       "primary": "Intel Celeron D 352",
-      "motherboard": null,
+      "motherboard": "ASUS P5E3 Premium",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "830994.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "TaPaKaH",
@@ -9861,8 +9910,55 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPUZ",
+        "url": "https://valid.x86.fr/show_oc.php?id=1959793",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/2200362",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=oixpGDs2CZc",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "830994.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "830994_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "830994_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_643345.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_643347.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_643753.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -9920,10 +10016,12 @@
     "value_mhz": 8429.38,
     "hardware": {
       "primary": "AMD FX-8150",
-      "motherboard": null,
+      "motherboard": "ASUS Crosshair V Formula",
       "memory": null,
       "cooling": "Liquid Helium"
     },
+    "hero": "842938.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Macci",
@@ -9931,10 +10029,75 @@
         "aliases": [],
         "country": "FI",
         "profile_url": null
+      },
+      {
+        "handle": "Chew*",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      },
+      {
+        "handle": "hardman",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      },
+      {
+        "handle": "64NOMIS",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      },
+      {
+        "handle": "AJS",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/show_oc.php?id=1980971",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/2206528",
+        "archived_url": null
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=UKN4VMOenNM",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "842938.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "842938_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "842938_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_653998.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -9954,10 +10117,12 @@
     "value_mhz": 8461.51,
     "hardware": {
       "primary": "AMD FX-8150",
-      "motherboard": null,
+      "motherboard": "ASUS Crosshair V Formula",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "836151.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -9967,8 +10132,45 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/show_oc.php?id=2067001",
+        "archived_url": null
+      },
+      {
+        "label": "XtremeSystems",
+        "url": "http://www.xtremesystems.org/forums/showthread.php?276393-Andre-Yang-beats-Macci-FX-WR-on-CPU-Z-8461MHz-with-LN%B2-HWBot.org",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "836151.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "836151_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "836151_hwbotforum.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "836151_rogforums.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "836151_xtremesystems.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -9992,6 +10194,8 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "cpu-8491.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Chew*",
@@ -10001,8 +10205,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "XtremeSystems",
+        "url": "http://www.xtremesystems.org/forums/showthread.php?276393-Andre-Yang-beats-Macci-FX-WR-on-CPU-Z-8461MHz-with-LN%B2-HWBot.org",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "8491_xtremesystems.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "cpu-8491.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -10022,10 +10243,12 @@
     "value_mhz": 8709.06,
     "hardware": {
       "primary": "AMD FX-8150",
-      "motherboard": null,
+      "motherboard": "ASUS Crosshair V Formula",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "87091.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -10035,8 +10258,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.canardpc.com/show_oc.php?id=2075306",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/2294034",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "870906_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "87091.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "8709_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -10060,6 +10310,8 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "85848_2.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -10069,8 +10321,30 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "XtremeSystems",
+        "url": "http://www.xtremesystems.org/forums/showthread.php?276393-Andre-Yang-beats-Macci-FX-WR-on-CPU-Z-8461MHz-with-LN%B2-HWBot.org",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "836151_xtremesystems.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "85848.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "85848_2.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -10212,7 +10486,7 @@
     },
     "overclockers": [
       {
-        "handle": "matose",
+        "handle": "Matose",
         "real_name": null,
         "aliases": [],
         "country": "RO",
@@ -10561,7 +10835,7 @@
     "overclockers": [
       {
         "handle": "John Lam",
-        "real_name": null,
+        "real_name": "Chi-Kui Lam",
         "aliases": [],
         "country": "HK",
         "profile_url": null
@@ -11064,7 +11338,7 @@
     "value_mhz": 8794.33,
     "hardware": {
       "primary": "AMD FX-8350",
-      "motherboard": null,
+      "motherboard": "ASUS CROSSHAIR V FORMULA-Z",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
@@ -11079,8 +11353,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86.fr/lpza4n",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "879433.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "879433_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -11595,7 +11886,7 @@
         "handle": "DFORDOG",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "CN",
         "profile_url": null
       }
     ],
@@ -11902,8 +12193,8 @@
     },
     "overclockers": [
       {
-        "handle": "Chi-Kui Lam",
-        "real_name": null,
+        "handle": "John Lam",
+        "real_name": "Chi-Kui Lam",
         "aliases": [],
         "country": "HK",
         "profile_url": null
@@ -11978,8 +12269,8 @@
     },
     "overclockers": [
       {
-        "handle": "Chi-Kui Lam",
-        "real_name": null,
+        "handle": "John Lam",
+        "real_name": "Chi-Kui Lam",
         "aliases": [],
         "country": "HK",
         "profile_url": null
@@ -13251,7 +13542,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -13289,7 +13582,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -13593,7 +13888,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -13713,7 +14010,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -14026,7 +14325,7 @@
     },
     "overclockers": [
       {
-        "handle": "Bianbao XE",
+        "handle": "Bianbao",
         "real_name": null,
         "aliases": [],
         "country": null,
@@ -14180,7 +14479,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -14218,7 +14519,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -14257,7 +14560,7 @@
     "overclockers": [
       {
         "handle": "Der8auer",
-        "real_name": "Roman Hartun",
+        "real_name": "Roman Hartung",
         "aliases": [],
         "country": "DE",
         "profile_url": null
@@ -14489,7 +14792,7 @@
         "handle": "Splave",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -14640,7 +14943,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -14824,7 +15129,7 @@
     },
     "overclockers": [
       {
-        "handle": "Lupin_no_musume",
+        "handle": "lupin_no_musume",
         "real_name": null,
         "aliases": [],
         "country": null,
@@ -14864,7 +15169,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -15084,7 +15391,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -15173,7 +15482,7 @@
         "handle": "Benchmarc",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -15730,7 +16039,7 @@
         "handle": "Noms",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "BR",
         "profile_url": null
       }
     ],
@@ -17057,7 +17366,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -17101,7 +17412,9 @@
       {
         "handle": "Kovan Yang",
         "real_name": "Kovan Yang",
-        "aliases": [],
+        "aliases": [
+          "KovanYang"
+        ],
         "country": "TW",
         "profile_url": null
       }
@@ -17190,7 +17503,7 @@
         "handle": "AKM",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -17234,7 +17547,7 @@
         "handle": "AKM",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],

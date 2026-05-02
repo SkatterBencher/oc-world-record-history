@@ -7,10 +7,12 @@
   "value_mhz": 8308.94,
   "hardware": {
     "primary": "Intel Celeron D 352",
-    "motherboard": null,
+    "motherboard": "ASUS P5E3 Premium",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "830994.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "TaPaKaH",
@@ -20,8 +22,55 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "CPUZ",
+      "url": "https://valid.x86.fr/show_oc.php?id=1959793",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/2200362",
+      "archived_url": null
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=oixpGDs2CZc",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "830994.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "830994_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "830994_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_643345.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_643347.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_643753.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],
