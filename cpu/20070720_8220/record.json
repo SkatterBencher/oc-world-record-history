@@ -11,6 +11,8 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "818040.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Duck",

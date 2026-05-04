@@ -1086,36 +1086,67 @@
     "_genuine_in": []
   },
   {
-    "uid": "20000402_1370",
+    "uid": "20000402_1372",
     "category": "cpu",
     "subcategory": [],
     "achieved_at": "2000-04-02",
     "achieved_at_approximate": false,
-    "value_mhz": 1370.0,
+    "value_mhz": 1372,
     "hardware": {
       "primary": "Intel Pentium III 800 MHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Mr. amt",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "kfuno"
+        ],
         "country": null,
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Blog",
+        "url": "http://www.aaz.mtci.ne.jp/~kfuno/my record/Apr,2,2000.htm",
+        "archived_url": null
+      },
+      {
+        "label": "H.Oda!",
+        "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1372.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1372_hoda.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1372_system.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
-    "notes": null,
+    "notes": "Link in blog goes to 1372.GIF",
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/20000402_1370/",
+    "_asset_base": "/assets/cpu/20000402_1372/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -1125,26 +1156,41 @@
     "subcategory": [],
     "achieved_at": "2000-04-09",
     "achieved_at_approximate": false,
-    "value_mhz": 1500.0,
+    "value_mhz": 1500,
     "hardware": {
       "primary": "Intel Pentium III 800 MHz",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
         "real_name": "近藤さん",
         "aliases": [
-          "ja0hxv"
+          "ja0hxv",
+          "Mr. ja0hxv"
         ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "H.Oda!",
+        "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1500_hoda.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1164,23 +1210,43 @@
     "value_mhz": 1522.71,
     "hardware": {
       "primary": "Intel Pentium III 800 MHz",
-      "motherboard": null,
+      "motherboard": "Abit BH6",
       "memory": null,
       "cooling": null
     },
+    "hero": "152271.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
         "real_name": "近藤さん",
         "aliases": [
-          "ja0hxv"
+          "ja0hxv",
+          "Mr. ja0hxv"
         ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "H.Oda!",
+        "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1500_hoda.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "152271.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1433,10 +1499,12 @@
     "value_mhz": 1612.66,
     "hardware": {
       "primary": "Intel Pentium III 850 MHz",
-      "motherboard": null,
+      "motherboard": "BH6:Rev1.2",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "161266.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Hide",
@@ -1446,8 +1514,30 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.ne.jp/asahi/overclock/kansai/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "161266.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "161266_wcpuid.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1580,21 +1670,42 @@
     "value_mhz": 1613.45,
     "hardware": {
       "primary": "AMD Athlon 1100 MHz",
-      "motherboard": null,
+      "motherboard": "KT7",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "161345.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Mr. Yu",
         "real_name": null,
-        "aliases": [],
-        "country": null,
+        "aliases": [
+          "ゆうさん"
+        ],
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com:80/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "161345.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "161345_son.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -1703,21 +1814,58 @@
     "value_mhz": 1653.02,
     "hardware": {
       "primary": "Intel Pentium III 933 MHz",
-      "motherboard": null,
+      "motherboard": "ASUS CUSL2",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "165302.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Anpanman",
         "real_name": null,
-        "aliases": [],
-        "country": null,
+        "aliases": [
+          "アンパンマン",
+          "tatumiya"
+        ],
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com:80/wcpuid/wcpuid.html",
+        "archived_url": null
+      },
+      {
+        "label": "H.Oda! WCPUID",
+        "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "https://web.archive.org/web/20011101191528/http://www.clio.ne.jp/home/tatumiya",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "165302.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1653_hoda.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1653_son.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1737,23 +1885,48 @@
     "value_mhz": 2144.52,
     "hardware": {
       "primary": "Intel Pentium 4 1.4 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T",
       "memory": null,
       "cooling": null
     },
+    "hero": "214452.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
         "real_name": "近藤さん",
         "aliases": [
-          "ja0hxv"
+          "ja0hxv",
+          "Mr. ja0hxv"
         ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "H.Oda! WCPUID",
+        "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.mdb.gr.jp/ja0hxv/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1653_hoda.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "214452.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1773,23 +1946,43 @@
     "value_mhz": 2205.56,
     "hardware": {
       "primary": "Intel Pentium 4 1.4 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T",
       "memory": null,
       "cooling": null
     },
+    "hero": "220556.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
         "real_name": "近藤さん",
         "aliases": [
-          "ja0hxv"
+          "ja0hxv",
+          "Mr. ja0hxv"
         ],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "H.Oda!",
+        "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1653_hoda.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "220556.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1806,24 +1999,46 @@
     "subcategory": [],
     "achieved_at": "2001-03-08",
     "achieved_at_approximate": false,
-    "value_mhz": 2250.0,
+    "value_mhz": 2250,
     "hardware": {
       "primary": "Intel Pentium 4 1.7 GHz",
-      "motherboard": null,
+      "motherboard": "P4T",
       "memory": null,
-      "cooling": null
+      "cooling": "Chilled water"
     },
+    "hero": "225000.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Anpanman",
         "real_name": null,
-        "aliases": [],
-        "country": null,
+        "aliases": [
+          "アンパンマン",
+          "Tatumiya"
+        ],
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "225000.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2250_son.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1877,21 +2092,65 @@
     "value_mhz": 2804.99,
     "hardware": {
       "primary": "Intel Pentium 4 1.7 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "280499.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID BBS",
+        "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
+        "archived_url": null
+      },
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://holicho.lib.net/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2250_son.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "280499.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "280499_sonWcpuidbbs.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "28099_system1.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "28099_system2.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1911,21 +2170,40 @@
     "value_mhz": 2864.48,
     "hardware": {
       "primary": "Intel Pentium 4 1.7 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "286448.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Blog",
+        "url": "http://holicho.lib.net/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "280499_blog.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "286448.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1983,21 +2261,52 @@
     "value_mhz": 3023.98,
     "hardware": {
       "primary": "Intel Pentium 4 2.0 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "302398.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Anpanman",
         "real_name": null,
-        "aliases": [],
-        "country": null,
+        "aliases": [
+          "アンパンマン"
+        ],
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "H.Oda! WCPUID",
+        "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
+        "archived_url": null
+      },
+      {
+        "label": "Son WCPUID",
+        "url": "https://web.archive.org/web/20011031182019/http://son.t-next.com:80/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "302398.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "302398_hoda.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "302398_son.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -2017,21 +2326,40 @@
     "value_mhz": 3027.41,
     "hardware": {
       "primary": "Intel Pentium 4 2.0 GHz",
-      "motherboard": null,
+      "motherboard": "EPoX EP-4T2A",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "302741.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com:80/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "302398_son.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "302741.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -5429,10 +5757,12 @@
     "value_mhz": 6578.85,
     "hardware": {
       "primary": "Intel Pentium 4 660",
-      "motherboard": null,
+      "motherboard": "ASUS P5WD2-Premium",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "657885.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "The Stilt",
@@ -5442,8 +5772,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86-secret.com/show_oc.php?id=21876",
+        "archived_url": null
+      },
+      {
+        "label": "CPU-Z HOF",
+        "url": "http://valid.x86-secret.com/records.php",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "657885.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "657885_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "657885_cpuzhof.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -5690,10 +6047,12 @@
     "value_mhz": 7473.75,
     "hardware": {
       "primary": "Intel Pentium 4 670",
-      "motherboard": null,
+      "motherboard": "ASUS P5WD2-Premium",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "747375.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Kyosen",
@@ -5703,8 +6062,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86-secret.com/show_oc.php?id=21876",
+        "archived_url": null
+      },
+      {
+        "label": "CPU-Z HOF",
+        "url": "http://valid.x86-secret.com/records.php",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "747375.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "747375_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "747375_cpuzhof.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -6250,10 +6636,12 @@
     "value_mhz": 7791.79,
     "hardware": {
       "primary": "Intel Pentium 4 631",
-      "motherboard": null,
+      "motherboard": "ASUS P5B-Deluxe",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "779179.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "ThuG",
@@ -6263,8 +6651,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86-secret.com/show_oc.php?id=159281",
+        "archived_url": null
+      },
+      {
+        "label": "CPU-Z HOF",
+        "url": "http://valid.x86-secret.com/records.php",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "779179.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "779179_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "779179_cpuzhof.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -6284,10 +6699,12 @@
     "value_mhz": 8000.1,
     "hardware": {
       "primary": "Intel Pentium 4 631",
-      "motherboard": null,
+      "motherboard": "ASUS P5B-Deluxe",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "80001.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "ThuG",
@@ -6297,8 +6714,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86-secret.com/show_oc.php?id=159553",
+        "archived_url": null
+      },
+      {
+        "label": "CPU-Z HOF",
+        "url": "http://valid.x86-secret.com/records.php",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "80001.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "8001_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "8001_cpuzhof.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -6400,10 +6844,12 @@
     "value_mhz": 8179.89,
     "hardware": {
       "primary": "Intel Celeron D 360",
-      "motherboard": null,
+      "motherboard": "ASUS Commando",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "817989.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "ThuG",
@@ -6414,7 +6860,23 @@
       }
     ],
     "sources": [],
-    "assets": [],
+    "assets": [
+      {
+        "file": "817989.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "817989_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "817989_cpuzhof.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -7036,10 +7498,12 @@
     "value_mhz": 8180.4,
     "hardware": {
       "primary": "Intel Pentium 4 631",
-      "motherboard": null,
+      "motherboard": "ASUS Commando",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Duck",
@@ -7049,8 +7513,30 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86-secret.com/show_oc.php?id=218928",
+        "archived_url": null
+      },
+      {
+        "label": "CPU-Z HOF",
+        "url": "http://valid.x86-secret.com/records.php",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "81804_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "81804_cpuzhof.png",
+        "type": "cpuz",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -11342,7 +11828,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "879433.png",
     "not_a_record": null,
     "overclockers": [
       {
@@ -16165,28 +16651,30 @@
     ],
     "achieved_at": "2023-04-08",
     "achieved_at_approximate": false,
-    "value_mhz": 3150.0,
+    "value_mhz": 3150,
     "hardware": {
       "primary": "AMD Radeon Graphics (Raphael)",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "MSIMAX",
         "real_name": null,
-        "aliases": [],
-        "country": null,
+        "aliases": [
+          "AiMax"
+        ],
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20230408_3150/",
@@ -16203,28 +16691,30 @@
     ],
     "achieved_at": "2023-04-09",
     "achieved_at_approximate": false,
-    "value_mhz": 3180.0,
+    "value_mhz": 3180,
     "hardware": {
       "primary": "AMD Radeon Graphics (Raphael)",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "MSIMAX",
         "real_name": null,
-        "aliases": [],
-        "country": null,
+        "aliases": [
+          "AiMax"
+        ],
+        "country": "US",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20230409_3180/",
@@ -17306,13 +17796,15 @@
     ],
     "achieved_at": "2024-10-22",
     "achieved_at_approximate": false,
-    "value_mhz": 3900.0,
+    "value_mhz": 3900,
     "hardware": {
       "primary": "Intel Graphics (Arrow Lake)",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Massman",
@@ -17322,23 +17814,12 @@
         ],
         "country": "BE",
         "profile_url": null
-      },
-      {
-        "handle": "SkatterBencher",
-        "real_name": "Pieter Plaisier",
-        "aliases": [
-          "Massman"
-        ],
-        "country": "BE",
-        "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
-    "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20241022_3900/",

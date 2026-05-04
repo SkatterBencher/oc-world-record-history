@@ -4,26 +4,41 @@
   "subcategory": [],
   "achieved_at": "2000-04-09",
   "achieved_at_approximate": false,
-  "value_mhz": 1500.0,
+  "value_mhz": 1500,
   "hardware": {
     "primary": "Intel Pentium III 800 MHz",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Mr. Kondo",
       "real_name": "近藤さん",
       "aliases": [
-        "ja0hxv"
+        "ja0hxv",
+        "Mr. ja0hxv"
       ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "H.Oda!",
+      "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1500_hoda.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

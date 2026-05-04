@@ -4,24 +4,46 @@
   "subcategory": [],
   "achieved_at": "2001-03-08",
   "achieved_at_approximate": false,
-  "value_mhz": 2250.0,
+  "value_mhz": 2250,
   "hardware": {
     "primary": "Intel Pentium 4 1.7 GHz",
-    "motherboard": null,
+    "motherboard": "P4T",
     "memory": null,
-    "cooling": null
+    "cooling": "Chilled water"
   },
+  "hero": "225000.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Anpanman",
       "real_name": null,
-      "aliases": [],
-      "country": null,
+      "aliases": [
+        "アンパンマン",
+        "Tatumiya"
+      ],
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "225000.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2250_son.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

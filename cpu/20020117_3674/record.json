@@ -7,14 +7,16 @@
   "value_mhz": 3674.99,
   "hardware": {
     "primary": "Intel Pentium 4 2.2 GHz",
-    "motherboard": null,
+    "motherboard": "Asus P4B266",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "3675.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Sampsa",
-      "real_name": null,
+      "real_name": "Sampsa Kurri",
       "aliases": [
         "Muropaketti"
       ],
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://www.muropaketti.com/artikkelit/cpu/northwood2200/ln2/",
+      "archived_url": null
+    },
+    {
+      "label": "Son WCPUID BBS",
+      "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

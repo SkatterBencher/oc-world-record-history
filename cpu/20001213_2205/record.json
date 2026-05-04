@@ -7,23 +7,43 @@
   "value_mhz": 2205.56,
   "hardware": {
     "primary": "Intel Pentium 4 1.4 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4T",
     "memory": null,
     "cooling": null
   },
+  "hero": "220556.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Mr. Kondo",
       "real_name": "近藤さん",
       "aliases": [
-        "ja0hxv"
+        "ja0hxv",
+        "Mr. ja0hxv"
       ],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "H.Oda!",
+      "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1653_hoda.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "220556.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

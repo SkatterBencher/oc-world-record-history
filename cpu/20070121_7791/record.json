@@ -34,7 +34,23 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "779179.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "779179_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "779179_cpuzhof.png",
+      "type": "cpuz",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

@@ -16,10 +16,8 @@
   "overclockers": [
     {
       "handle": "Holicho",
-      "real_name": null,
-      "aliases": [
-        "ほりっちょ"
-      ],
+      "real_name": "ほりっちょ",
+      "aliases": [],
       "country": "JP",
       "profile_url": null
     }

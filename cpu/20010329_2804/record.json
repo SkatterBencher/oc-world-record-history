@@ -7,21 +7,65 @@
   "value_mhz": 2804.99,
   "hardware": {
     "primary": "Intel Pentium 4 1.7 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4T",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "280499.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
-      "real_name": null,
+      "real_name": "ほりっちょ",
       "aliases": [],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Son WCPUID BBS",
+      "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
+      "archived_url": null
+    },
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://holicho.lib.net/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "2250_son.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "280499.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "280499_sonWcpuidbbs.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "28099_system1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "28099_system2.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

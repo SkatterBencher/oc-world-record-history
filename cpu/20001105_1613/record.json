@@ -7,21 +7,42 @@
   "value_mhz": 1613.45,
   "hardware": {
     "primary": "AMD Athlon 1100 MHz",
-    "motherboard": null,
+    "motherboard": "KT7",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "161345.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Mr. Yu",
       "real_name": null,
-      "aliases": [],
-      "country": null,
+      "aliases": [
+        "ゆうさん"
+      ],
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com:80/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "161345.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "161345_son.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

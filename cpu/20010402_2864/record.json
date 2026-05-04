@@ -7,21 +7,40 @@
   "value_mhz": 2864.48,
   "hardware": {
     "primary": "Intel Pentium 4 1.7 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4T",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "286448.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
-      "real_name": null,
+      "real_name": "ほりっちょ",
       "aliases": [],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://holicho.lib.net/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "280499_blog.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "286448.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

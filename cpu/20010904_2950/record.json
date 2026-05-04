@@ -1,0 +1,39 @@
+{
+  "uid": "20010904_2950",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2001-09-04",
+  "achieved_at_approximate": false,
+  "value_mhz": 2950.01,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.0 GHz",
+    "motherboard": "ASUS P4T",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": "295001.jpg",
+  "not_a_record": null,
+  "overclockers": [
+    {
+      "handle": "Anpanman",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Son WCPUID BBS",
+      "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "intel"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

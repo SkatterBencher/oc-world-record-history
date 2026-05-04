@@ -1,0 +1,62 @@
+{
+  "uid": "20000402_1372",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2000-04-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 1372,
+  "hardware": {
+    "primary": "Intel Pentium III 800 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": null,
+  "not_a_record": null,
+  "overclockers": [
+    {
+      "handle": "Mr. amt",
+      "real_name": null,
+      "aliases": [
+        "kfuno"
+      ],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://www.aaz.mtci.ne.jp/~kfuno/my record/Apr,2,2000.htm",
+      "archived_url": null
+    },
+    {
+      "label": "H.Oda!",
+      "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1372.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1372_hoda.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1372_system.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "Intel"
+  ],
+  "notes": "Link in blog goes to 1372.GIF",
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

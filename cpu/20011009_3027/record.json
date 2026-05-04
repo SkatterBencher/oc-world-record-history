@@ -7,21 +7,40 @@
   "value_mhz": 3027.41,
   "hardware": {
     "primary": "Intel Pentium 4 2.0 GHz",
-    "motherboard": null,
+    "motherboard": "EPoX EP-4T2A",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "302741.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
-      "real_name": null,
+      "real_name": "ほりっちょ",
       "aliases": [],
       "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com:80/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "302398_son.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "302741.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

@@ -7,21 +7,52 @@
   "value_mhz": 3023.98,
   "hardware": {
     "primary": "Intel Pentium 4 2.0 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4T",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "302398.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Anpanman",
       "real_name": null,
-      "aliases": [],
-      "country": null,
+      "aliases": [
+        "アンパンマン"
+      ],
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "H.Oda! WCPUID",
+      "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
+      "archived_url": null
+    },
+    {
+      "label": "Son WCPUID",
+      "url": "https://web.archive.org/web/20011031182019/http://son.t-next.com:80/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "302398.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "302398_hoda.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "302398_son.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

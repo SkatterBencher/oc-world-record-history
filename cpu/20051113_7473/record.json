@@ -25,7 +25,7 @@
   "sources": [
     {
       "label": "CPU-Z",
-      "url": "http://valid.x86-secret.com/show_oc.php?id=21876",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=50149",
       "archived_url": null
     },
     {
@@ -34,7 +34,23 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "747375.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "747375_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "747375_cpuzhof.png",
+      "type": "cpuz",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

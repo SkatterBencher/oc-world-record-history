@@ -13,9 +13,11 @@
   },
   "overclockers": [
     {
-      "handle": "Tatumiya",
+      "handle": "Anpanman",
       "real_name": null,
-      "aliases": [],
+      "aliases": [
+        "Anpanman"
+      ],
       "country": "JP",
       "profile_url": null
     }

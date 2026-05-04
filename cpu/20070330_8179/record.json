@@ -22,8 +22,35 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?t=131071",
+      "archived_url": null
+    },
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc?id=182607",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "817989.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "817989_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "817989_cpuzhof.png",
+      "type": "cpuz",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],
