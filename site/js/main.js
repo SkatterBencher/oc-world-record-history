@@ -345,13 +345,66 @@ function renderRecordOfTheDay() {
   const assetBase = r._asset_base || '';
   const heroImg = r.hero ? `${assetBase}${r._hero_web || toWebFilename(r.hero)}` : null;
 
-  // Auto-generate description
+  // Find previous record in same category and next record (if any)
+  const catRecords = allRecords
+    .filter(rec => rec.category === r.category)
+    .sort((a, b) => new Date(a.achieved_at) - new Date(b.achieved_at));
+  
+  const currentIndex = catRecords.findIndex(rec => rec.uid === r.uid);
+  const prevRecord = currentIndex > 0 ? catRecords[currentIndex - 1] : null;
+  const nextRecord = currentIndex < catRecords.length - 1 ? catRecords[currentIndex + 1] : null;
+
+  // Calculate how long this record stood
+  const recordDate = new Date(r.achieved_at + 'T12:00:00Z');
+  const endDate = nextRecord 
+    ? new Date(nextRecord.achieved_at + 'T12:00:00Z')
+    : now;
+  const daysStanding = Math.floor((endDate - recordDate) / (1000 * 60 * 60 * 24));
+
+  // Format standing duration
+  let standingText = '';
+  if (nextRecord) {
+    if (daysStanding < 7) {
+      standingText = `The record stood for ${daysStanding} day${daysStanding !== 1 ? 's' : ''}`;
+    } else if (daysStanding < 30) {
+      const weeks = Math.round(daysStanding / 7);
+      standingText = `The record stood for ${weeks} week${weeks !== 1 ? 's' : ''}`;
+    } else if (daysStanding < 365) {
+      const months = Math.round(daysStanding / 30);
+      standingText = `The record stood for ${months} month${months !== 1 ? 's' : ''}`;
+    } else {
+      const years = (daysStanding / 365).toFixed(1);
+      standingText = `The record stood for ${years} year${parseFloat(years) !== 1 ? 's' : ''}`;
+    }
+  } else {
+    standingText = 'This is the current record';
+  }
+
+  // Build extended description
   const parts = [];
   if (r.hardware?.primary) parts.push(`on a ${escapeHtml(r.hardware.primary)}`);
   if (r.hardware?.cooling)  parts.push(`cooled with ${escapeHtml(r.hardware.cooling)}`);
   const ocNames = (r.overclockers || []).map(o => escapeHtml(o.handle)).join(' and ');
   const country = oc.country ? ` from ${escapeHtml(oc.country)}` : '';
-  const desc = `${ocNames}${country} set this ${escapeHtml(cat.label)} world record of ${r.value_mhz.toFixed(2)} MHz ${parts.join(', ')} on ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}.${r.notes ? ' ' + escapeHtml(r.notes) : ''}`;
+  
+  let desc = `${ocNames}${country} set this ${escapeHtml(cat.label)} world record of ${r.value_mhz.toFixed(2)} MHz ${parts.join(', ')} on ${formatDateLong(r.achieved_at, r.achieved_at_approximate)}`;
+  
+  // Add previous record info
+  if (prevRecord) {
+    const prevOc = prevRecord.overclockers?.[0] || {};
+    const prevOcName = prevOc.handle || 'Unknown';
+    const diff = (r.value_mhz - prevRecord.value_mhz).toFixed(2);
+    desc += `, beating the previous record of ${prevRecord.value_mhz.toFixed(2)} MHz held by ${escapeHtml(prevOcName)}`;
+    if (diff > 0) {
+      desc += ` by ${diff} MHz`;
+    }
+    desc += '. ' + standingText;
+  } else {
+    desc += '. ' + standingText;
+  }
+  
+  if (r.notes) desc += '. ' + escapeHtml(r.notes);
+  desc += '.';
 
   el.innerHTML = `
     <div class="rotd-inner">
@@ -1617,7 +1670,7 @@ function updateRecordMeta(record) {
 
   // Update meta description
   let desc = `${cat.label} world record of ${record.value_mhz.toFixed(2)} MHz set by ${oc.handle || 'Unknown'}`;
-  if (record.hardware?.primary) desc += ` on a ${record.hardware.primary}`;
+  if (record.hardware?.primary) desc += ` with a ${record.hardware.primary}`;
   if (oc.country) desc += ` from ${oc.country}`;
   desc += ` on ${dateStr}.`;
   if (record.notes) desc += ` ${record.notes}`;

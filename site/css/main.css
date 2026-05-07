@@ -729,18 +729,19 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 }
 
 .rotd-img-wrap {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: var(--bg-hover);
   border-right: 1px solid var(--border);
   overflow: hidden;
+  padding: 12px;
 }
 
 .rotd-img-wrap img {
   width: 100%;
-  height: 100%;
   object-fit: contain;
   display: block;
-  padding: 12px;
   max-height: 220px;
 }
 
