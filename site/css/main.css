@@ -1103,6 +1103,11 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 .stat-list-flag {
   font-size: 18px;
   line-height: 1;
+  font-family:
+    "Noto Color Emoji",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    sans-serif;
 }
 
 .stat-list-name {

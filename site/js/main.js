@@ -1387,22 +1387,30 @@ function renderStatisticsPage() {
     });
   });
 
-  const statSections = ['stat-countries', 'stat-overclockers', 'stat-years', 'stat-decades', 'stat-categories', 'stat-longevity'];
+  const statSections = ['stat-longevity', 'stat-countries', 'stat-overclockers', 'stat-years', 'stat-decades', 'stat-categories'];
   const mainEl = document.getElementById('statistics-main');
   if (mainEl) {
+    // Use requestAnimationFrame for better performance
+    let ticking = false;
     mainEl.addEventListener('scroll', () => {
-      const scrollTop = mainEl.scrollTop;
-      let currentSection = 'stat-countries';
-      for (const sectionId of statSections) {
-        const section = document.getElementById(sectionId);
-        if (section) {
-          const sectionTop = section.offsetTop - 120;
-          if (scrollTop >= sectionTop) currentSection = sectionId;
-        }
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const scrollTop = mainEl.scrollTop;
+          let currentSection = 'stat-longevity';
+          for (const sectionId of statSections) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+              const sectionTop = section.offsetTop - 80;
+              if (scrollTop >= sectionTop) currentSection = sectionId;
+            }
+          }
+          sidebar.querySelectorAll('.stat-nav-item').forEach(item => {
+            item.classList.toggle('active', item.dataset.target === currentSection);
+          });
+          ticking = false;
+        });
+        ticking = true;
       }
-      sidebar.querySelectorAll('.stat-nav-item').forEach(item => {
-        item.classList.toggle('active', item.dataset.target === currentSection);
-      });
     });
   }
 
