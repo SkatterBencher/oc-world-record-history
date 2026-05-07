@@ -1296,7 +1296,10 @@ function renderStatisticsPage() {
       const pageData = data.slice(page * pageSize, (page + 1) * pageSize);
       const pageId = `${sectionId}-page-${page + 1}`;
       html += `<div class="stat-page" id="${pageId}" style="display:${page === 0 ? 'block' : 'none'}">`;
-      html += pageData.map(renderFn).join('');
+      html += pageData.map((item, localIndex) => {
+        const globalIndex = page * pageSize + localIndex;
+        return renderFn(item, globalIndex);
+      }).join('');
       html += '</div>';
     }
     html += `<div class="stat-pagination" data-section="${sectionId}">`;

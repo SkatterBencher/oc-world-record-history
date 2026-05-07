@@ -36,7 +36,63 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "10.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "367499_muro.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "367499_sonbbs.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3675.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "5.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "9.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

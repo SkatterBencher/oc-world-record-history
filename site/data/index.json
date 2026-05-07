@@ -1275,10 +1275,8 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
-        "aliases": [
-          "ほりっちょ"
-        ],
+        "real_name": "ほりっちょ",
+        "aliases": [],
         "country": "JP",
         "profile_url": null
       }
@@ -1383,10 +1381,8 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
-        "aliases": [
-          "ほりっちょ"
-        ],
+        "real_name": "ほりっちょ",
+        "aliases": [],
         "country": "JP",
         "profile_url": null
       }
@@ -1450,10 +1446,10 @@
     "hero": "21198.gif",
     "overclockers": [
       {
-        "handle": "Tatumiya",
+        "handle": "Anpanman",
         "real_name": null,
         "aliases": [
-          "アンパンマン"
+          "Anpanman"
         ],
         "country": "JP",
         "profile_url": null
@@ -2065,7 +2061,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -2251,6 +2247,59 @@
     "_genuine_in": [
       "dgpu"
     ]
+  },
+  {
+    "uid": "20010904_2950",
+    "category": "cpu",
+    "subcategory": [],
+    "achieved_at": "2001-09-04",
+    "achieved_at_approximate": false,
+    "value_mhz": 2950.01,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.0 GHz",
+      "motherboard": "ASUS P4T",
+      "memory": null,
+      "cooling": null
+    },
+    "hero": "295001.jpg",
+    "not_a_record": null,
+    "overclockers": [
+      {
+        "handle": "Anpanman",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Son WCPUID BBS",
+        "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "295001.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "295001.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [
+      "intel"
+    ],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/cpu/20010904_2950/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "20010905_3023",
@@ -2458,7 +2507,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -2485,14 +2534,16 @@
     "value_mhz": 3674.99,
     "hardware": {
       "primary": "Intel Pentium 4 2.2 GHz",
-      "motherboard": null,
+      "motherboard": "Asus P4B266",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "3675.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Sampsa",
-        "real_name": null,
+        "real_name": "Sampsa Kurri",
         "aliases": [
           "Muropaketti"
         ],
@@ -2500,8 +2551,75 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Blog",
+        "url": "http://www.muropaketti.com/artikkelit/cpu/northwood2200/ln2/",
+        "archived_url": null
+      },
+      {
+        "label": "Son WCPUID BBS",
+        "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "10.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "367499_muro.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "367499_sonbbs.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3675.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "9.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -2527,9 +2645,11 @@
     },
     "overclockers": [
       {
-        "handle": "Tatumiya",
+        "handle": "Anpanman",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Anpanman"
+        ],
         "country": "JP",
         "profile_url": null
       }
@@ -2562,7 +2682,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -2595,9 +2715,11 @@
     },
     "overclockers": [
       {
-        "handle": "Tatumiya",
+        "handle": "Anpanman",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Anpanman"
+        ],
         "country": "JP",
         "profile_url": null
       }
@@ -2630,7 +2752,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -2702,7 +2824,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -3213,7 +3335,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -3249,7 +3371,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -3285,7 +3407,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -3360,10 +3482,8 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
-        "aliases": [
-          "ほりっちょ"
-        ],
+        "real_name": "ほりっちょ",
+        "aliases": [],
         "country": "JP",
         "profile_url": null
       }
@@ -3539,7 +3659,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -3575,7 +3695,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -3611,7 +3731,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -3645,7 +3765,7 @@
     "overclockers": [
       {
         "handle": "Holicho",
-        "real_name": null,
+        "real_name": "ほりっちょ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -6065,7 +6185,7 @@
     "sources": [
       {
         "label": "CPU-Z",
-        "url": "http://valid.x86-secret.com/show_oc.php?id=21876",
+        "url": "http://valid.x86-secret.com/show_oc.php?id=50149",
         "archived_url": null
       },
       {
@@ -6859,7 +6979,18 @@
         "profile_url": null
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "label": "XtremeSystems",
+        "url": "http://www.xtremesystems.org/forums/showthread.php?t=131071",
+        "archived_url": null
+      },
+      {
+        "label": "CPU-Z",
+        "url": "http://valid.x86-secret.com/show_oc?id=182607",
+        "archived_url": null
+      }
+    ],
     "assets": [
       {
         "file": "817989.png",
@@ -7468,6 +7599,8 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "818040.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Duck",

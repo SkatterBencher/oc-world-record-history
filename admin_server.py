@@ -13,7 +13,6 @@ from datetime import datetime
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
-import cgi
 import io
 
 ROOT = Path(__file__).parent
