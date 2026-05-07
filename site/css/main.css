@@ -493,6 +493,9 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
 /* Current Records */
 .home-records { padding: 56px 0 0; }
 
+/* On This Day */
+.home-on-this-day { padding: 56px 0 0; }
+
 .home-section-title {
   font-family: var(--serif);
   font-size: 22px;
@@ -825,6 +828,102 @@ nav a.active { color: var(--accent); background: var(--accent-glow); font-weight
   .rotd-img-wrap img { max-height: 160px; }
   .rotd-body { padding: 20px; }
   .rotd-freq { font-size: 28px; }
+}
+
+/* ═══════════════════════════════════════════════════════
+   ON THIS DAY
+   ═══════════════════════════════════════════════════════ */
+
+.on-this-day-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.on-this-day-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-off);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.on-this-day-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 12px rgba(232,73,15,0.08);
+}
+
+.on-this-day-card .otd-category {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.on-this-day-card .otd-freq {
+  font-family: var(--mono);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.on-this-day-card .otd-freq .unit {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 4px;
+}
+
+.on-this-day-card .otd-hardware {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.on-this-day-card .otd-overclocker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.on-this-day-card .otd-date {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.on-this-day-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-dim);
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .on-this-day-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ═══════════════════════════════════════════════════════

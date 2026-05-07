@@ -262,6 +262,71 @@ function renderHome() {
 
   // Record of the Day
   renderRecordOfTheDay();
+
+  // On This Day in OC History
+  renderOnThisDay();
+}
+
+function renderOnThisDay() {
+  const el = document.getElementById('on-this-day');
+  if (!el || !allRecords.length) return;
+
+  const now = new Date();
+  const todayMonth = now.getMonth() + 1; // 1-12
+  const todayDay = now.getDate(); // 1-31
+
+  // Filter records achieved on this month/day (any year)
+  const matchingRecords = allRecords.filter(r => {
+    const [year, month, day] = r.achieved_at.split('-').map(Number);
+    return month === todayMonth && day === todayDay;
+  });
+
+  // Sort by year descending (most recent first)
+  matchingRecords.sort((a, b) => {
+    const yearA = parseInt(a.achieved_at.slice(0, 4));
+    const yearB = parseInt(b.achieved_at.slice(0, 4));
+    return yearB - yearA;
+  });
+
+  if (matchingRecords.length === 0) {
+    el.innerHTML = `
+      <div class="on-this-day-empty">
+        No records achieved on this day yet. ${formatDateLong(now.toISOString().slice(0, 10))}
+      </div>
+    `;
+    return;
+  }
+
+  // Show up to 6 records
+  const displayRecords = matchingRecords.slice(0, 6);
+  const moreCount = matchingRecords.length - 6;
+
+  el.innerHTML = displayRecords.map(r => {
+    const cat = CATEGORIES[r.category] || { label: r.category };
+    const oc = r.overclockers?.[0] || {};
+    const flag = getFlagEmoji(oc.country);
+
+    return `
+      <a class="on-this-day-card" href="#${r.category}/${escapeHtml(r.uid)}">
+        <div class="otd-category">${escapeHtml(cat.label)}</div>
+        <div class="otd-freq">${r.value_mhz.toFixed(2)}<span class="unit">MHz</span></div>
+        <div class="otd-hardware">${escapeHtml(r.hardware?.primary || 'Unknown')}</div>
+        <div class="otd-overclocker">
+          ${flag ? `<span>${flag}</span>` : ''}
+          <span>${escapeHtml(oc.handle || 'Unknown')}</span>
+        </div>
+        <div class="otd-date">${formatDateLong(r.achieved_at, r.achieved_at_approximate)}</div>
+      </a>
+    `;
+  }).join('');
+
+  if (moreCount > 0) {
+    el.innerHTML += `
+      <a class="on-this-day-card" href="#statistics" style="justify-content:center;align-items:center;text-align:center;">
+        <div style="font-family:var(--mono);font-size:12px;color:var(--accent);">+${moreCount} more records</div>
+      </a>
+    `;
+  }
 }
 
 function renderRecordOfTheDay() {
