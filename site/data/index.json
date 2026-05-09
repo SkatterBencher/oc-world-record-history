@@ -2056,8 +2056,10 @@
       "primary": "Intel Pentium 4 1.7 GHz",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Dry Ice"
     },
+    "hero": "260037.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2067,8 +2069,30 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/bn_01.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "010315_01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "260037.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2600_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -2198,6 +2222,16 @@
         "file": "286448.gif",
         "type": "other",
         "caption": null
+      },
+      {
+        "file": "010402_01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2864_holicho2.png",
+        "type": "other",
+        "caption": null
       }
     ],
     "tags": [
@@ -2249,128 +2283,10 @@
     ]
   },
   {
-    "uid": "20010904_2950",
+    "uid": "20010609_3027",
     "category": "cpu",
     "subcategory": [],
-    "achieved_at": "2001-09-04",
-    "achieved_at_approximate": false,
-    "value_mhz": 2950.01,
-    "hardware": {
-      "primary": "Intel Pentium 4 2.0 GHz",
-      "motherboard": "ASUS P4T",
-      "memory": null,
-      "cooling": null
-    },
-    "hero": "295001.jpg",
-    "not_a_record": null,
-    "overclockers": [
-      {
-        "handle": "Anpanman",
-        "real_name": null,
-        "aliases": [],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "Son WCPUID BBS",
-        "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
-        "archived_url": null
-      }
-    ],
-    "assets": [
-      {
-        "file": "295001.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "295001.png",
-        "type": "other",
-        "caption": null
-      }
-    ],
-    "tags": [
-      "intel"
-    ],
-    "notes": null,
-    "verified": false,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/20010904_2950/",
-    "_genuine_overall": true,
-    "_genuine_in": []
-  },
-  {
-    "uid": "20010905_3023",
-    "category": "cpu",
-    "subcategory": [],
-    "achieved_at": "2001-09-05",
-    "achieved_at_approximate": false,
-    "value_mhz": 3023.98,
-    "hardware": {
-      "primary": "Intel Pentium 4 2.0 GHz",
-      "motherboard": "ASUS P4T",
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "hero": "302398.jpg",
-    "not_a_record": null,
-    "overclockers": [
-      {
-        "handle": "Anpanman",
-        "real_name": null,
-        "aliases": [
-          "アンパンマン"
-        ],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "H.Oda! WCPUID",
-        "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
-        "archived_url": null
-      },
-      {
-        "label": "Son WCPUID",
-        "url": "https://web.archive.org/web/20011031182019/http://son.t-next.com:80/wcpuid/wcpuid.html",
-        "archived_url": null
-      }
-    ],
-    "assets": [
-      {
-        "file": "302398.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "302398_hoda.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "302398_son.png",
-        "type": "other",
-        "caption": null
-      }
-    ],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/20010905_3023/",
-    "_genuine_overall": true,
-    "_genuine_in": []
-  },
-  {
-    "uid": "20011009_3027",
-    "category": "cpu",
-    "subcategory": [],
-    "achieved_at": "2001-10-09",
+    "achieved_at": "2001-06-09",
     "achieved_at_approximate": false,
     "value_mhz": 3027.41,
     "hardware": {
@@ -2395,6 +2311,11 @@
         "label": "Son WCPUID",
         "url": "http://son.t-next.com:80/wcpuid/wcpuid.html",
         "archived_url": null
+      },
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/bn_02.htm",
+        "archived_url": null
       }
     ],
     "assets": [
@@ -2407,6 +2328,26 @@
         "file": "302741.png",
         "type": "other",
         "caption": null
+      },
+      {
+        "file": "010907_02.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "010907_04.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "010907_06.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3027_holicho.png",
+        "type": "other",
+        "caption": null
       }
     ],
     "tags": [
@@ -2415,7 +2356,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/20011009_3027/",
+    "_asset_base": "/assets/cpu/20010609_3027/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2428,26 +2369,45 @@
     "value_mhz": 3391.12,
     "hardware": {
       "primary": "Intel Xeon 1.7 GHz",
-      "motherboard": null,
+      "motherboard": "Tyan Thunder i860 evaluation",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "339112.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Eric",
         "real_name": null,
         "aliases": [],
-        "country": "US",
+        "country": "CA",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "339112.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "339112_son.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
-    "verified": true,
+    "verified": false,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/cpu/20011107_3391/",
     "_genuine_overall": true,
@@ -2500,10 +2460,12 @@
     "value_mhz": 3541.87,
     "hardware": {
       "primary": "Intel Pentium 4 2.2 GHz",
-      "motherboard": null,
+      "motherboard": "ABIT TH7II ",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "354187.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2513,8 +2475,30 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/bn_03.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "020108_02.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "354187.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3541_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -2560,6 +2544,11 @@
       {
         "label": "Son WCPUID BBS",
         "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
         "archived_url": null
       }
     ],
@@ -2618,6 +2607,11 @@
         "file": "9.jpg",
         "type": "other",
         "caption": null
+      },
+      {
+        "file": "3808_vrzone.png",
+        "type": "other",
+        "caption": null
       }
     ],
     "tags": [
@@ -2639,10 +2633,12 @@
     "value_mhz": 3702.55,
     "hardware": {
       "primary": "Intel Pentium 4 2.2 GHz",
-      "motherboard": null,
+      "motherboard": "ABIT TH7II",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "P42200@3703.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Anpanman",
@@ -2654,8 +2650,40 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Overclockers RU",
+        "url": "https://overclockers.ru/hardnews/show/10020/Yaponcy_nanosyat_otvetnyj_udar_Ili_net_...",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "370255_ocru.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3808_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "P42200@3703.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "th72-3700.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -2667,18 +2695,20 @@
     "_genuine_in": []
   },
   {
-    "uid": "20020123_3808",
+    "uid": "20020122_3808",
     "category": "cpu",
     "subcategory": [],
-    "achieved_at": "2002-01-23",
+    "achieved_at": "2002-01-22",
     "achieved_at_approximate": false,
     "value_mhz": 3808.91,
     "hardware": {
       "primary": "Intel Pentium 4 2.2 GHz",
-      "motherboard": null,
+      "motherboard": "ABIT TH7II",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "380891.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2688,15 +2718,62 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/bn_03.htm",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "020122_01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020122_02.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020122_04.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020122_05.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "380891.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3808_holicho.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3808_vrzone.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/20020123_3808/",
+    "_asset_base": "/assets/cpu/20020122_3808/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2709,10 +2786,12 @@
     "value_mhz": 3890.79,
     "hardware": {
       "primary": "Intel Pentium 4 2.2 GHz",
-      "motherboard": null,
+      "motherboard": "ABIT TH7II",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "SL65R38G.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Anpanman",
@@ -2724,8 +2803,60 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Overclocker RU",
+        "url": "https://overclockers.ru/hardnews/show/10253/Rekordnyj_razgon_Pentium_4...",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "422447_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3890_ocru.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3890_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "LN2R184.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "LN2R2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "LN2R3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "SL65R2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "SL65R38G.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -2745,10 +2876,12 @@
     "value_mhz": 4010.88,
     "hardware": {
       "primary": "Intel Pentium 4 2.4 GHz",
-      "motherboard": null,
+      "motherboard": "ABIT TH7II",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "020327_01.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2758,8 +2891,90 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/bn_03.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "020327_01.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_02.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_03.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_04.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_04.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_05.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_06.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_07.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_08.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_09.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_10.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020327_11.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4010.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4010_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -2809,18 +3024,20 @@
     ]
   },
   {
-    "uid": "20020414_4110",
+    "uid": "20020413_4110",
     "category": "cpu",
     "subcategory": [],
-    "achieved_at": "2002-04-14",
+    "achieved_at": "2002-04-13",
     "achieved_at_approximate": false,
-    "value_mhz": 4110.0,
+    "value_mhz": 4110,
     "hardware": {
       "primary": "Intel Pentium 4 2.4 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T-E",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "pi104_043.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2830,15 +3047,32 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4010_holicho.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "pi104_043.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/20020414_4110/",
+    "_asset_base": "/assets/cpu/20020413_4110/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2881,6 +3115,62 @@
     "_genuine_in": [
       "dgpu"
     ]
+  },
+  {
+    "uid": "20020515_4130",
+    "category": "cpu",
+    "subcategory": [],
+    "achieved_at": "2002-05-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 4130.39,
+    "hardware": {
+      "primary": "Intel Pentium 4 2.4G",
+      "motherboard": "ASUS P4T533-C",
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "413039.png",
+    "not_a_record": null,
+    "overclockers": [
+      {
+        "handle": "Holicho",
+        "real_name": "ほりっちょ",
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Son WCPUD",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "020517_01.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "413039.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "422447_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/cpu/20020515_4130/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   },
   {
     "uid": "20020530_235",
@@ -3130,10 +3420,12 @@
     "value_mhz": 4244.7,
     "hardware": {
       "primary": "Intel Pentium 4 2.53 GHz",
-      "motherboard": null,
+      "motherboard": "ABIT TH7II",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "P42533@4244.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Son",
@@ -3143,8 +3435,55 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      },
+      {
+        "label": "Son Blog",
+        "url": "http://son.t-next.com/bench/wcpuid/wcpuid_clock.html",
+        "archived_url": null
+      },
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "3890_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "422447_sonblog.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "422447_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "P42533@4244.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "p4t-e_01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "p4t-e_02.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3258,21 +3597,42 @@
     "value_mhz": 4309.62,
     "hardware": {
       "primary": "Intel Pentium 4 2.4 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T533-C",
       "memory": null,
-      "cooling": null
+      "cooling": "LN2"
     },
+    "hero": "P42400@4310.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
-        "handle": "Unknown",
+        "handle": "Tamo",
         "real_name": null,
-        "aliases": [],
-        "country": null,
+        "aliases": [
+          "tamozyouri"
+        ],
+        "country": "JP",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/intel/northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4309_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "P42400@4310.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3328,10 +3688,12 @@
     "value_mhz": 4418.38,
     "hardware": {
       "primary": "Intel Pentium 4 2.5 GHz",
-      "motherboard": null,
+      "motherboard": "P4T533-C",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "wcpuid_max_4418.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3341,8 +3703,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/top/020901/020901.htm",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/intel/northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4418_holicho.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4418_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "wcpuid_max_4418.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3361,13 +3750,15 @@
     ],
     "achieved_at": "2002-09-11",
     "achieved_at_approximate": false,
-    "value_mhz": 479.0,
+    "value_mhz": 479,
     "hardware": {
       "primary": "Ati Radeon 9700 Pro",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Dry Ice"
     },
+    "hero": "479.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3377,8 +3768,95 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/top/020912/020912.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Madonion HOF",
+        "url": "http://gamershq.madonion.com/hardware/halloffame/",
+        "archived_url": null
+      },
+      {
+        "label": "Madonion ORB",
+        "url": "http://service.madonion.com/compare?2k1=4449807",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "020912_01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_03.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_03.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_05.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_05.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_07.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_07.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_09.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_09.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "020912_11.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "479.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "479_holicho.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "479_madonionhof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "479_madonionorb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -3584,10 +4062,12 @@
     "value_mhz": 4438.35,
     "hardware": {
       "primary": "Intel Pentium 4 3.06 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T533-C",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "P43060@4438.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Ja0hxv",
@@ -3597,8 +4077,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/intel/northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4438_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4762_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "P43060@4438.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3618,10 +4125,12 @@
     "value_mhz": 4456.58,
     "hardware": {
       "primary": "Intel Pentium 4 3.06 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T533-C",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "p4_306g_dora_wcpuidmax.JPG",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Tamozyouri",
@@ -3631,8 +4140,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/intel/northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4438_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4762_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "p4_306g_dora_wcpuidmax.JPG",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3656,6 +4192,8 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3665,12 +4203,24 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4438_vrzone.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
-    "notes": null,
+    "notes": "URL of screenshot links to http://www.vr-zone.com/guides/Intel/Northwood/P43060@4588.gif",
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/cpu/20021208_4588/",
@@ -3685,13 +4235,15 @@
     ],
     "achieved_at": "2003-02-04",
     "achieved_at_approximate": false,
-    "value_mhz": 513.0,
+    "value_mhz": 513,
     "hardware": {
       "primary": "Ati Radeon 9700 Pro",
-      "motherboard": null,
+      "motherboard": "GIGABYTE 8INXP",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3701,8 +4253,60 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Blog",
+        "url": "http://holicho.lib.net/news/030204/030204.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark",
+        "url": "http://service.futuremark.com/compare?2k1=5830413",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "01.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "02.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "03.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "03.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "05.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "07.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "513_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -3724,10 +4328,12 @@
     "value_mhz": 4599.85,
     "hardware": {
       "primary": "Intel Pentium 4 3.06 GHz",
-      "motherboard": null,
-      "memory": null,
+      "motherboard": "GIGABYTE 8INXP",
+      "memory": "PC2700 DDR 256MBx2 JetRam",
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "459985.png",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3737,8 +4343,45 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Holicho",
+        "url": "http://holicho.lib.net/news/030214/030214.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "03.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "05.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "07.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "459985.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "459985_holicho.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3758,10 +4401,12 @@
     "value_mhz": 4623.21,
     "hardware": {
       "primary": "Intel Pentium 4 3.06 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4G8X Deluxe",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "wcpuid_4623.gif",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3771,8 +4416,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4623_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4762_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "wcpuid_4623.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -3924,10 +4596,12 @@
     "value_mhz": 4762.4,
     "hardware": {
       "primary": "Intel Pentium 4 3.0 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4C800",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "4762.jpg",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "OMEGA",
@@ -3937,8 +4611,35 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      },
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4762.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4762_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4762_vrzone.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -4126,10 +4827,12 @@
     "value_mhz": 5125.91,
     "hardware": {
       "primary": "Intel Pentium 4 3.2 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4C800 Deluxe",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "TAM",
@@ -4139,8 +4842,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "5125_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "id-5125.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -4398,10 +5118,12 @@
     "value_mhz": 5326.36,
     "hardware": {
       "primary": "Intel Pentium 4 XE 3.20G",
-      "motherboard": null,
+      "motherboard": "ASUS P4C800",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "5326.JPG",
+    "not_a_record": null,
     "overclockers": [
       {
         "handle": "Memesama",
@@ -4411,8 +5133,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "5326.JPG",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5326_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],

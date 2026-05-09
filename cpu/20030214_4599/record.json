@@ -29,7 +29,38 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "01.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "03.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "05.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "07.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "459985.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "459985_holicho.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

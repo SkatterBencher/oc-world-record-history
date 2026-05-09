@@ -34,7 +34,23 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "4438_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4762_sonwcpuid.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "p4_306g_dora_wcpuidmax.JPG",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

@@ -29,7 +29,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "5125_sonwcpuid.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "id-5125.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],
