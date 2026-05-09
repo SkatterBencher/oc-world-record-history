@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2003-02-04",
   "achieved_at_approximate": false,
-  "value_mhz": 513.0,
+  "value_mhz": 513,
   "hardware": {
     "primary": "Ati Radeon 9700 Pro",
-    "motherboard": null,
+    "motherboard": "GIGABYTE 8INXP",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://holicho.lib.net/news/030204/030204.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark",
+      "url": "http://service.futuremark.com/compare?2k1=5830413",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "ATI"

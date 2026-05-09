@@ -9,8 +9,10 @@
     "primary": "Intel Pentium 4 1.7 GHz",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Dry Ice"
   },
+  "hero": "260037.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,8 +22,30 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/bn_01.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "010315_01.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "260037.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2600_holicho.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

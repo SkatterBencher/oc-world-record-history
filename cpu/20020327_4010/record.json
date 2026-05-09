@@ -7,10 +7,12 @@
   "value_mhz": 4010.88,
   "hardware": {
     "primary": "Intel Pentium 4 2.4 GHz",
-    "motherboard": null,
+    "motherboard": "ABIT TH7II",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "020327_01.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,8 +22,90 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/bn_03.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "020327_01.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_01.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_02.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_03.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_04.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_04.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_05.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_06.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_07.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_08.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_09.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_10.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020327_11.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4010.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4010_holicho.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

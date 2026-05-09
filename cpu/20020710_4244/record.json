@@ -7,10 +7,12 @@
   "value_mhz": 4244.7,
   "hardware": {
     "primary": "Intel Pentium 4 2.53 GHz",
-    "motherboard": null,
+    "motherboard": "ABIT TH7II",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "P42533@4244.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Son",
@@ -20,8 +22,55 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
+    },
+    {
+      "label": "Son Blog",
+      "url": "http://son.t-next.com/bench/wcpuid/wcpuid_clock.html",
+      "archived_url": null
+    },
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "3890_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "422447_sonblog.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "422447_sonwcpuid.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "P42533@4244.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "p4t-e_01.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "p4t-e_02.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

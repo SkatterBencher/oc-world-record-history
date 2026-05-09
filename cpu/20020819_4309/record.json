@@ -7,21 +7,42 @@
   "value_mhz": 4309.62,
   "hardware": {
     "primary": "Intel Pentium 4 2.4 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4T533-C",
     "memory": null,
-    "cooling": null
+    "cooling": "LN2"
   },
+  "hero": "P42400@4310.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
-      "handle": "Unknown",
+      "handle": "Tamo",
       "real_name": null,
-      "aliases": [],
-      "country": null,
+      "aliases": [
+        "tamozyouri"
+      ],
+      "country": "JP",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/intel/northwood/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4309_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "P42400@4310.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

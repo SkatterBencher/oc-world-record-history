@@ -1,0 +1,53 @@
+{
+  "uid": "20020515_4130",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-05-15",
+  "achieved_at_approximate": false,
+  "value_mhz": 4130.39,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.4G",
+    "motherboard": "ASUS P4T533-C",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "413039.png",
+  "not_a_record": null,
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": "ほりっちょ",
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Son WCPUD",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "020517_01.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "413039.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "422447_sonwcpuid.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

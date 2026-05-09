@@ -7,10 +7,12 @@
   "value_mhz": 5326.36,
   "hardware": {
     "primary": "Intel Pentium 4 XE 3.20G",
-    "motherboard": null,
+    "motherboard": "ASUS P4C800",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "5326.JPG",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Memesama",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

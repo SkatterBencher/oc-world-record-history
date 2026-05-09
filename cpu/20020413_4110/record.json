@@ -1,0 +1,50 @@
+{
+  "uid": "20020413_4110",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-04-13",
+  "achieved_at_approximate": false,
+  "value_mhz": 4110,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.4 GHz",
+    "motherboard": "ASUS P4T-E",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "pi104_043.gif",
+  "not_a_record": null,
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": "ほりっちょ",
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4010_holicho.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "pi104_043.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "Intel"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

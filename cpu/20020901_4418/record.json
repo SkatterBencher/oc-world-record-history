@@ -7,10 +7,12 @@
   "value_mhz": 4418.38,
   "hardware": {
     "primary": "Intel Pentium 4 2.5 GHz",
-    "motherboard": null,
+    "motherboard": "P4T533-C",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "wcpuid_max_4418.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,8 +22,35 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/top/020901/020901.htm",
+      "archived_url": null
+    },
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/intel/northwood/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4418_holicho.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4418_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "wcpuid_max_4418.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

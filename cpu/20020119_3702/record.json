@@ -7,10 +7,12 @@
   "value_mhz": 3702.55,
   "hardware": {
     "primary": "Intel Pentium 4 2.2 GHz",
-    "motherboard": null,
+    "motherboard": "ABIT TH7II",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "P42200@3703.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Anpanman",
@@ -22,8 +24,40 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Overclockers RU",
+      "url": "https://overclockers.ru/hardnews/show/10020/Yaponcy_nanosyat_otvetnyj_udar_Ili_net_...",
+      "archived_url": null
+    },
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "370255_ocru.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3808_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "P42200@3703.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "th72-3700.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

@@ -7,25 +7,44 @@
   "value_mhz": 3391.12,
   "hardware": {
     "primary": "Intel Xeon 1.7 GHz",
-    "motherboard": null,
+    "motherboard": "Tyan Thunder i860 evaluation",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "339112.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Eric",
       "real_name": null,
       "aliases": [],
-      "country": "US",
+      "country": "CA",
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "339112.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "339112_son.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],
   "notes": null,
-  "verified": true,
+  "verified": false,
   "submitted_by": "skatterbencher"
 }

@@ -34,6 +34,11 @@
       "label": "Son WCPUID BBS",
       "url": "http://son.lib.net/wcpuid_bbs/minibbs_w.cgi?log=log1",
       "archived_url": null
+    },
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -89,6 +94,11 @@
     },
     {
       "file": "9.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3808_vrzone.png",
       "type": "other",
       "caption": null
     }

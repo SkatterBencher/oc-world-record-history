@@ -7,10 +7,12 @@
   "value_mhz": 4599.85,
   "hardware": {
     "primary": "Intel Pentium 4 3.06 GHz",
-    "motherboard": null,
-    "memory": null,
+    "motherboard": "GIGABYTE 8INXP",
+    "memory": "PC2700 DDR 256MBx2 JetRam",
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "459985.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/news/030214/030214.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

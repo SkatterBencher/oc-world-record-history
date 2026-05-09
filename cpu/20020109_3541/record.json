@@ -7,10 +7,12 @@
   "value_mhz": 3541.87,
   "hardware": {
     "primary": "Intel Pentium 4 2.2 GHz",
-    "motherboard": null,
+    "motherboard": "ABIT TH7II ",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "354187.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,8 +22,30 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/bn_03.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "020108_02.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "354187.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3541_holicho.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

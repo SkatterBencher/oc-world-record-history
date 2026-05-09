@@ -1,0 +1,80 @@
+{
+  "uid": "20020122_3808",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-01-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 3808.91,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.2 GHz",
+    "motherboard": "ABIT TH7II",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "380891.gif",
+  "not_a_record": null,
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": "ほりっちょ",
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/bn_03.htm",
+      "archived_url": null
+    },
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "020122_01.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020122_02.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020122_04.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020122_05.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "380891.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3808_holicho.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3808_vrzone.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "Intel"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

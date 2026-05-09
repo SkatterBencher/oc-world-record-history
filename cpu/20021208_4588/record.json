@@ -11,6 +11,8 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,12 +22,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"
   ],
-  "notes": null,
+  "notes": "URL of screenshot links to http://www.vr-zone.com/guides/Intel/Northwood/P43060@4588.gif",
   "verified": true,
   "submitted_by": "skatterbencher"
 }

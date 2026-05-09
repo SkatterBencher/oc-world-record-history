@@ -7,10 +7,12 @@
   "value_mhz": 4623.21,
   "hardware": {
     "primary": "Intel Pentium 4 3.06 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4G8X Deluxe",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "wcpuid_4623.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,7 +22,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    },
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

@@ -7,10 +7,12 @@
   "value_mhz": 4438.35,
   "hardware": {
     "primary": "Intel Pentium 4 3.06 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4T533-C",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "P43060@4438.gif",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Ja0hxv",
@@ -20,7 +22,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    },
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/intel/northwood/",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

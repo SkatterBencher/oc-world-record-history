@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2002-09-11",
   "achieved_at_approximate": false,
-  "value_mhz": 479.0,
+  "value_mhz": 479,
   "hardware": {
     "primary": "Ati Radeon 9700 Pro",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Dry Ice"
   },
+  "hero": "479.png",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -22,7 +24,23 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/top/020912/020912.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Madonion HOF",
+      "url": "http://gamershq.madonion.com/hardware/halloffame/",
+      "archived_url": null
+    },
+    {
+      "label": "Madonion ORB",
+      "url": "http://service.madonion.com/compare?2k1=4449807",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "ATI"

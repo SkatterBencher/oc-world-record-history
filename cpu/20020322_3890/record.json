@@ -7,10 +7,12 @@
   "value_mhz": 3890.79,
   "hardware": {
     "primary": "Intel Pentium 4 2.2 GHz",
-    "motherboard": null,
+    "motherboard": "ABIT TH7II",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "SL65R38G.jpg",
+  "not_a_record": null,
   "overclockers": [
     {
       "handle": "Anpanman",
@@ -22,8 +24,60 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Overclocker RU",
+      "url": "https://overclockers.ru/hardnews/show/10253/Rekordnyj_razgon_Pentium_4...",
+      "archived_url": null
+    },
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "422447_sonwcpuid.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3890_ocru.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3890_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "LN2R184.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "LN2R2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "LN2R3.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "SL65R2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "SL65R38G.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],
