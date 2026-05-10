@@ -99,8 +99,7 @@
     },
     "sources": {
       "type": "array",
-      "minItems": 1,
-      "description": "At least one source is required per record",
+      "description": "List of sources for this record (can be empty while data is being added)",
       "items": {
         "type": "object",
         "required": ["label", "url"],
