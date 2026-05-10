@@ -8,17 +8,26 @@
   "achieved_at_approximate": false,
   "value_mhz": 6765.2,
   "hardware": {
-    "primary": "Corsair",
-    "motherboard": null,
+    "primary": "Corsair 24576 MB CMK48GX5M2X8000C38",
+    "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "67652.png",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Sergmann",
       "real_name": null,
       "aliases": [],
       "country": "DE",
+      "profile_url": null
+    },
+    {
+      "handle": "HiCookie",
+      "real_name": null,
+      "aliases": [],
+      "country": "TW",
       "profile_url": null
     }
   ],
@@ -27,9 +36,50 @@
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/jn8tlb",
       "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5929126",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "67652.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "67652_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "67652_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3457406.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3457407.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3457408.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3457409.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR5"
   ],

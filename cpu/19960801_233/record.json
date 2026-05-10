@@ -3,14 +3,16 @@
   "category": "cpu",
   "subcategory": [],
   "achieved_at": "1996-08-01",
-  "achieved_at_approximate": false,
-  "value_mhz": 233.0,
+  "achieved_at_approximate": true,
+  "value_mhz": 233,
   "hardware": {
     "primary": "Intel Pentium Pro 200",
-    "motherboard": null,
+    "motherboard": "ASUS XP6NP5",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Masashi",
@@ -20,8 +22,20 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Masahi Maniacs",
+      "url": "http://www.geocities.co.jp/SiliconValley-PaloAlto/2406/History.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "233_masashi.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

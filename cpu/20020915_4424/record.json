@@ -7,10 +7,12 @@
   "value_mhz": 4424.99,
   "hardware": {
     "primary": "Intel Pentium 4 2.5 GHz",
-    "motherboard": null,
+    "motherboard": "ASUS P4T533-C",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "wcpuid_max_4425.gif",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Holicho",
@@ -20,8 +22,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "Son WCPUID",
+      "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "442499_sonwcpuid.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "wcpuid_max_4425.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

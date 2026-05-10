@@ -12,7 +12,7 @@
     "cooling": "Liquid Nitrogen"
   },
   "hero": "020327_01.gif",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Holicho",

@@ -12,7 +12,7 @@
     "cooling": "Liquid Helium"
   },
   "hero": "842938.png",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Macci",

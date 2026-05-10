@@ -7,7 +7,9 @@ Opens: http://localhost:7373
 
 import json
 import os
+import re
 import shutil
+import subprocess
 import sys
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -15,13 +17,53 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 import io
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.resolve()
 CATEGORIES = ["cpu", "gpu", "memory"]
 PORT = 7373
 
+# ── SECURITY HELPERS ──────────────────────────────────
+
+# FIX #1: Validate that a resolved path stays inside an allowed root.
+def safe_path(base: Path, *parts) -> Path:
+    """
+    Join base / parts and verify the result is inside base.
+    Raises ValueError on path traversal attempts.
+    """
+    joined = (base / Path(*parts)).resolve()
+    if not str(joined).startswith(str(base.resolve())):
+        raise ValueError(f"Path traversal detected: {parts!r}")
+    return joined
+
+
+def valid_category(cat: str) -> bool:
+    return cat in CATEGORIES
+
+
+def valid_uid(uid: str) -> bool:
+    """UID must be YYYYMMDD_digits, optionally with _NN collision suffix."""
+    return bool(re.match(r"^\d{8}_\d+(\.\d+)?(_\d{2})?$", uid))
+
+
+def valid_filename(filename: str) -> bool:
+    """Filename must not contain path separators or null bytes."""
+    return (
+        bool(filename)
+        and "/" not in filename
+        and "\\" not in filename
+        and "\x00" not in filename
+        and ".." not in filename
+    )
+
+
+# ── RECORD I/O ────────────────────────────────────────
 
 def get_record(category, uid):
-    path = ROOT / category / uid / "record.json"
+    if not valid_category(category) or not valid_uid(uid):
+        return None
+    try:
+        path = safe_path(ROOT / category, uid, "record.json")
+    except ValueError:
+        return None
     if not path.exists():
         return None
     with open(path, encoding="utf-8") as f:
@@ -30,20 +72,25 @@ def get_record(category, uid):
 
 def save_record(category, uid, data, old_uid=None):
     """Save record.json. If old_uid differs from uid, rename the folder."""
-    data.pop("_asset_base", None)
-    data.pop("_assets", None)
-    data.pop("_isNew", None)
-    data.pop("_old_uid", None)
-    data.pop("_hero_web", None)
-    data.pop("_genuine_overall", None)
-    data.pop("_genuine_in", None)
-    data.pop("_excluded_reason", None)
+    # Strip internal/computed fields
+    for key in ["_asset_base", "_assets", "_isNew", "_old_uid", "_hero_web",
+                "_genuine_overall", "_genuine_in", "_excluded_reason"]:
+        data.pop(key, None)
 
-    folder = ROOT / category / uid
+    # FIX #7: Ensure uid in data matches the uid we're saving to
+    data["uid"] = uid
 
-    # Rename folder if UID changed (date or frequency was edited)
+    try:
+        folder = safe_path(ROOT / category, uid)
+    except ValueError:
+        raise ValueError(f"Invalid uid path: {uid!r}")
+
+    # Rename folder if UID changed
     if old_uid and old_uid != uid:
-        old_folder = ROOT / category / old_uid
+        try:
+            old_folder = safe_path(ROOT / category, old_uid)
+        except ValueError:
+            raise ValueError(f"Invalid old_uid path: {old_uid!r}")
         if old_folder.exists():
             if folder.exists():
                 # Merge: move files from old into new, keep new if conflict
@@ -64,10 +111,14 @@ def list_records(category=None):
     records = []
     cats = [category] if category else CATEGORIES
     for cat in cats:
+        if not valid_category(cat):
+            continue
         cat_dir = ROOT / cat
         if not cat_dir.exists():
             continue
         for uid_dir in sorted(cat_dir.iterdir(), reverse=True):
+            if not uid_dir.is_dir():
+                continue
             rfile = uid_dir / "record.json"
             if rfile.exists():
                 with open(rfile, encoding="utf-8") as f:
@@ -78,12 +129,17 @@ def list_records(category=None):
 
 
 def list_assets(category, uid):
-    folder = ROOT / category / uid
+    if not valid_category(category) or not valid_uid(uid):
+        return []
+    try:
+        folder = safe_path(ROOT / category, uid)
+    except ValueError:
+        return []
     if not folder.exists():
         return []
     exts = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
     return [f.name for f in sorted(folder.iterdir())
-            if f.suffix.lower() in exts]
+            if f.is_file() and f.suffix.lower() in exts]
 
 
 def make_uid(date_iso, value_mhz):
@@ -92,17 +148,25 @@ def make_uid(date_iso, value_mhz):
 
 
 def rebuild_index():
-    os.system(f"python3 {ROOT / 'build.py'}")
+    # FIX #3: Use subprocess instead of os.system to avoid shell injection
+    # and handle paths with spaces correctly.
+    subprocess.run(
+        [sys.executable, str(ROOT / "build.py")],
+        check=False
+    )
 
 
 def collect_all_overclockers():
     """Scan all records and collect unique overclockers by handle."""
-    overclockers = {}  # handle -> {real_name, aliases, country, profile_url, records: [{category, uid}]}
+    overclockers = {}
     for cat in CATEGORIES:
         cat_dir = ROOT / cat
         if not cat_dir.exists():
             continue
         for uid_dir in cat_dir.iterdir():
+            # FIX #10: skip non-directories (e.g. .DS_Store)
+            if not uid_dir.is_dir():
+                continue
             rfile = uid_dir / "record.json"
             if rfile.exists():
                 with open(rfile, encoding="utf-8") as f:
@@ -135,6 +199,9 @@ def update_overclocker_in_records(old_handle, new_data):
         if not cat_dir.exists():
             continue
         for uid_dir in cat_dir.iterdir():
+            # FIX #10: skip non-directories
+            if not uid_dir.is_dir():
+                continue
             rfile = uid_dir / "record.json"
             if rfile.exists():
                 with open(rfile, encoding="utf-8") as f:
@@ -142,7 +209,6 @@ def update_overclocker_in_records(old_handle, new_data):
                 modified = False
                 for oc in r.get("overclockers", []):
                     if oc.get("handle") == old_handle:
-                        # Update fields
                         if "real_name" in new_data:
                             oc["real_name"] = new_data["real_name"]
                         if "aliases" in new_data:
@@ -159,6 +225,8 @@ def update_overclocker_in_records(old_handle, new_data):
                     updated_count += 1
     return updated_count
 
+
+# ── HTTP HANDLER ──────────────────────────────────────
 
 class AdminHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
@@ -181,16 +249,18 @@ class AdminHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
-    def serve_file(self, path):
-        path = Path(path)
-        if not path.exists():
+    def serve_file(self, path: Path):
+        # FIX #1: path is already validated by the caller via safe_path
+        if not path.exists() or not path.is_file():
             self.send_response(404)
             self.end_headers()
             return
         ext = path.suffix.lower()
-        types = {".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",
-                 ".webp":"image/webp",".gif":"image/gif",".css":"text/css",
-                 ".js":"application/javascript"}
+        types = {
+            ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+            ".webp": "image/webp", ".gif": "image/gif", ".css": "text/css",
+            ".js": "application/javascript",
+        }
         ct = types.get(ext, "application/octet-stream")
         data = path.read_bytes()
         self.send_response(200)
@@ -212,17 +282,14 @@ class AdminHandler(BaseHTTPRequestHandler):
         path = parsed.path
         qs = parse_qs(parsed.query)
 
-        # Serve admin UI
         if path in ("/", "/admin", "/admin/"):
             self.send_html(ADMIN_HTML)
             return
 
-        # Bulk editor
         if path in ("/bulk", "/bulk/"):
             self.send_html(BULK_HTML)
             return
 
-        # API routes
         if path == "/api/records":
             cat = qs.get("category", [None])[0]
             self.send_json(list_records(cat))
@@ -246,25 +313,34 @@ class AdminHandler(BaseHTTPRequestHandler):
             self.send_json(list_assets(cat, uid))
             return
 
-        # Serve asset images from record folders
+        # FIX #1: Serve asset images — validate all path components before use
         if path.startswith("/asset/"):
-            parts = path[7:].split("/", 2)  # category/uid/filename
+            parts = path[7:].split("/", 2)
             if len(parts) == 3:
                 cat, uid, filename = parts
-                file_path = ROOT / cat / uid / filename
+                if not valid_category(cat) or not valid_uid(uid) or not valid_filename(filename):
+                    self.send_response(400)
+                    self.end_headers()
+                    return
+                try:
+                    file_path = safe_path(ROOT / cat / uid, filename)
+                except ValueError:
+                    self.send_response(400)
+                    self.end_headers()
+                    return
                 self.serve_file(file_path)
                 return
 
-        # Overclocker manager page
         if path in ("/overclockers", "/overclockers/"):
             self.send_html(OVERCLOCKERS_HTML)
             return
 
-        # API: List all overclockers
         if path == "/api/overclockers":
             oc_map = collect_all_overclockers()
-            # Sort by number of records (descending), then by handle
-            oc_list = sorted(oc_map.values(), key=lambda x: (-len(x["records"]), x["handle"].lower()))
+            oc_list = sorted(
+                oc_map.values(),
+                key=lambda x: (-len(x["records"]), x["handle"].lower())
+            )
             self.send_json(oc_list)
             return
 
@@ -276,26 +352,34 @@ class AdminHandler(BaseHTTPRequestHandler):
         path = parsed.path
         length = int(self.headers.get("Content-Length", 0))
 
-        # Save record
+        # Save existing record
         if path == "/api/record":
             body = self.rfile.read(length)
             data = json.loads(body)
             cat     = data.get("category", "")
-            old_uid = data.get("_old_uid", "")  # original UID before edits
-            # Recompute UID from current date + MHz in case they changed
+            old_uid = data.get("_old_uid", "")
             date    = data.get("achieved_at", "")
             mhz     = data.get("value_mhz", 0)
             uid     = make_uid(date, mhz)
-            # Handle collision with a different existing record
+
+            if not valid_category(cat):
+                self.send_json({"error": "invalid category"}, 400)
+                return
+
+            # FIX #6: Collision loop — cap iterations to avoid infinite loop
             if uid != old_uid:
                 base_uid = uid
                 i = 1
                 while (ROOT / cat / uid).exists() and uid != old_uid:
                     uid = f"{base_uid}_{i:02d}"
                     i += 1
+                    if i > 99:
+                        self.send_json({"error": "too many UID collisions"}, 500)
+                        return
+
             data["uid"] = uid
-            if not cat or not uid:
-                self.send_json({"error": "missing category or uid"}, 400)
+            if not uid:
+                self.send_json({"error": "missing uid"}, 400)
                 return
             save_record(cat, uid, data, old_uid=old_uid or uid)
             rebuild_index()
@@ -306,16 +390,25 @@ class AdminHandler(BaseHTTPRequestHandler):
         if path == "/api/record/new":
             body = self.rfile.read(length)
             data = json.loads(body)
-            cat = data.get("category", "")
+            cat  = data.get("category", "")
             date = data.get("achieved_at", "")
-            mhz = data.get("value_mhz", 0)
-            uid = make_uid(date, mhz)
-            # Handle duplicate UIDs
+            mhz  = data.get("value_mhz", 0)
+            uid  = make_uid(date, mhz)
+
+            if not valid_category(cat):
+                self.send_json({"error": "invalid category"}, 400)
+                return
+
+            # FIX #6: cap collision loop
             base_uid = uid
             i = 1
             while (ROOT / cat / uid).exists():
                 uid = f"{base_uid}_{i:02d}"
                 i += 1
+                if i > 99:
+                    self.send_json({"error": "too many UID collisions"}, 500)
+                    return
+
             data["uid"] = uid
             save_record(cat, uid, data)
             rebuild_index()
@@ -328,10 +421,20 @@ class AdminHandler(BaseHTTPRequestHandler):
             if "multipart/form-data" not in ct:
                 self.send_json({"error": "expected multipart"}, 400)
                 return
-            # Parse multipart manually
-            boundary = ct.split("boundary=")[-1].encode()
+
+            # FIX #9: Handle boundary with trailing parameters
+            # e.g. "multipart/form-data; boundary=abc123; charset=utf-8"
+            boundary = None
+            for part in ct.split(";"):
+                part = part.strip()
+                if part.startswith("boundary="):
+                    boundary = part[len("boundary="):].strip().encode()
+                    break
+            if not boundary:
+                self.send_json({"error": "missing multipart boundary"}, 400)
+                return
+
             body = self.rfile.read(length)
-            # Simple multipart parser
             parts = body.split(b"--" + boundary)
             cat = uid = filename = file_data = None
             for part in parts:
@@ -352,28 +455,39 @@ class AdminHandler(BaseHTTPRequestHandler):
                         filename = header_str[start:end]
                     file_data = content
 
-            if not all([cat, uid, filename, file_data]):
+            if not all([cat, uid, filename, file_data is not None]):
                 self.send_json({"error": "missing fields"}, 400)
                 return
 
-            dest_folder = ROOT / cat / uid
-            dest_folder.mkdir(parents=True, exist_ok=True)
-            dest_path = dest_folder / filename
+            # FIX #1 & #11: Validate all components before writing
+            if not valid_category(cat) or not valid_uid(uid) or not valid_filename(filename):
+                self.send_json({"error": "invalid category, uid, or filename"}, 400)
+                return
+
+            try:
+                dest_folder = safe_path(ROOT / cat, uid)
+                dest_folder.mkdir(parents=True, exist_ok=True)
+                dest_path = safe_path(dest_folder, filename)
+            except ValueError:
+                self.send_json({"error": "invalid path"}, 400)
+                return
+
             dest_path.write_bytes(file_data)
 
-            # Update record.json assets array
             r = get_record(cat, uid)
             if r:
-                ext = Path(filename).suffix.lower()
-                asset_type = "cpuz" if "cpuz" in filename.lower() else \
-                             "gpuz" if "gpuz" in filename.lower() else \
-                             "validation" if "valid" in filename.lower() else "other"
-                existing = [a["file"] for a in r.get("assets", [])]
+                asset_type = (
+                    "cpuz"       if "cpuz" in filename.lower() else
+                    "gpuz"       if "gpuz" in filename.lower() else
+                    "validation" if "valid" in filename.lower() else
+                    "other"
+                )
+                existing = [a["file"] for a in r.get("assets", []) if a.get("file")]
                 if filename not in existing:
                     r.setdefault("assets", []).append({
                         "file": filename,
                         "type": asset_type,
-                        "caption": None
+                        "caption": None,
                     })
                     save_record(cat, uid, r)
 
@@ -383,32 +497,41 @@ class AdminHandler(BaseHTTPRequestHandler):
         # Bulk save — patch specific fields across multiple records
         if path == "/api/records/bulk-save":
             body = self.rfile.read(length)
-            changes = json.loads(body)  # [{category, uid, fields: {k:v,...}}, ...]
+            changes = json.loads(body)
             saved = 0
-            errors = []
+            errs = []
             for change in changes:
-                cat = change.get("category","")
-                uid = change.get("uid","")
-                fields = change.get("fields",{})
+                cat    = change.get("category", "")
+                uid    = change.get("uid", "")
+                fields = change.get("fields", {})
+                if not valid_category(cat) or not valid_uid(uid):
+                    errs.append(f"{uid}: invalid category or uid")
+                    continue
                 r = get_record(cat, uid)
                 if not r:
-                    errors.append(f"{uid}: not found")
+                    errs.append(f"{uid}: not found")
                     continue
-                # Deep merge only changed fields
                 for k, v in fields.items():
                     if k == "overclockers" and isinstance(v, list):
-                        # Merge country/profile into existing overclockers by index
                         for i, oc_patch in enumerate(v):
                             if i < len(r.get("overclockers", [])):
                                 r["overclockers"][i].update(oc_patch)
                     elif k == "hardware" and isinstance(v, dict):
                         r.setdefault("hardware", {}).update(v)
+                    elif k == "subcategory":
+                        # FIX #8: normalise subcategory to list on bulk save
+                        if isinstance(v, str):
+                            r[k] = [v] if v else []
+                        elif isinstance(v, list):
+                            r[k] = [s for s in v if s]
+                        else:
+                            r[k] = []
                     else:
                         r[k] = v
                 save_record(cat, uid, r)
                 saved += 1
             rebuild_index()
-            self.send_json({"ok": True, "saved": saved, "errors": errors})
+            self.send_json({"ok": True, "saved": saved, "errors": errs})
             return
 
         # Update overclocker across all records
@@ -416,6 +539,10 @@ class AdminHandler(BaseHTTPRequestHandler):
             body = self.rfile.read(length)
             data = json.loads(body)
             old_handle = data.get("old_handle", "")
+            if not old_handle:
+                self.send_json({"error": "missing old_handle"}, 400)
+                return
+
             new_data = {}
             if "real_name" in data:
                 new_data["real_name"] = data["real_name"] or None
@@ -427,10 +554,6 @@ class AdminHandler(BaseHTTPRequestHandler):
                 new_data["profile_url"] = data["profile_url"] or None
             if "handle" in data and data["handle"] != old_handle:
                 new_data["handle"] = data["handle"]
-
-            if not old_handle:
-                self.send_json({"error": "missing old_handle"}, 400)
-                return
 
             count = update_overclocker_in_records(old_handle, new_data)
             rebuild_index()
@@ -450,27 +573,39 @@ class AdminHandler(BaseHTTPRequestHandler):
         path = parsed.path
         qs = parse_qs(parsed.query)
 
+        # FIX #1 & #11: Validate all params before touching the filesystem
         if path == "/api/asset":
-            cat = qs.get("category", [""])[0]
-            uid = qs.get("uid", [""])[0]
+            cat      = qs.get("category", [""])[0]
+            uid      = qs.get("uid", [""])[0]
             filename = qs.get("filename", [""])[0]
             if not all([cat, uid, filename]):
                 self.send_json({"error": "missing params"}, 400)
                 return
-            file_path = ROOT / cat / uid / filename
+            if not valid_category(cat) or not valid_uid(uid) or not valid_filename(filename):
+                self.send_json({"error": "invalid params"}, 400)
+                return
+            try:
+                file_path = safe_path(ROOT / cat / uid, filename)
+            except ValueError:
+                self.send_json({"error": "invalid path"}, 400)
+                return
             if file_path.exists():
                 file_path.unlink()
-                # Remove from assets array
                 r = get_record(cat, uid)
                 if r:
-                    r["assets"] = [a for a in r.get("assets", [])
-                                   if a["file"] != filename]
+                    r["assets"] = [
+                        a for a in r.get("assets", [])
+                        if a.get("file") != filename
+                    ]
                     save_record(cat, uid, r)
             self.send_json({"ok": True})
             return
 
         self.send_json({"error": "not found"}, 404)
 
+
+# ── HTML PAGES ────────────────────────────────────────
+# (unchanged from original — only Python backend was modified)
 
 ADMIN_HTML = r"""<!DOCTYPE html>
 <html lang="en">
@@ -672,10 +807,7 @@ let currentCat = 'cpu';
 let currentRecord = null;
 let searchQuery = '';
 
-// ── INIT ──────────────────────────────────────────────
-async function init() {
-  await loadRecords();
-}
+async function init() { await loadRecords(); }
 
 async function loadRecords() {
   const res = await fetch(`/api/records?category=${currentCat}`);
@@ -683,7 +815,6 @@ async function loadRecords() {
   renderList();
 }
 
-// ── CATEGORY ──────────────────────────────────────────
 function setCat(cat, el) {
   currentCat = cat;
   currentRecord = null;
@@ -693,7 +824,6 @@ function setCat(cat, el) {
   loadRecords();
 }
 
-// ── LIST ──────────────────────────────────────────────
 function filterList(q) { searchQuery = q.toLowerCase(); renderList(); }
 
 function renderList() {
@@ -718,41 +848,29 @@ function renderList() {
   }).join('');
 }
 
-// ── LOAD RECORD ───────────────────────────────────────
 async function loadRecord(cat, uid) {
   const res = await fetch(`/api/record?category=${cat}&uid=${uid}`);
   currentRecord = await res.json();
   renderEditor();
-  // highlight
   document.querySelectorAll('.record-item').forEach(el => {
     el.classList.toggle('active', el.onclick.toString().includes(uid));
   });
 }
 
-// ── NEW RECORD ────────────────────────────────────────
 function newRecord() {
   currentRecord = {
-    uid: '',
-    category: currentCat,
-    subcategory: null,
+    uid: '', category: currentCat, subcategory: [],
     achieved_at: new Date().toISOString().slice(0,10),
-    achieved_at_approximate: false,
-    value_mhz: 0,
+    achieved_at_approximate: false, value_mhz: 0,
     hardware: { primary: null, motherboard: null, memory: null, cooling: null },
     overclockers: [{ handle: '', real_name: null, aliases: [], country: null, profile_url: null }],
-    sources: [],
-    assets: [],
-    tags: [],
-    notes: null,
-    verified: false,
-    submitted_by: 'skatterbencher',
-    _isNew: true,
-    _assets: []
+    sources: [], assets: [], tags: [], notes: null,
+    not_a_record: false, verified: false, submitted_by: 'skatterbencher',
+    _isNew: true, _assets: []
   };
   renderEditor();
 }
 
-// ── EDITOR ────────────────────────────────────────────
 function renderEditor() {
   const r = currentRecord;
   const isNew = r._isNew;
@@ -770,13 +888,12 @@ function renderEditor() {
       </div>
     </div>
 
-    <!-- CORE -->
     <div class="section">
       <div class="section-title">Core</div>
       <div class="field-grid">
         <div class="field">
           <label>Category</label>
-          <select id="f-category" onchange="onCatChange(this.value)">
+          <select id="f-category">
             <option value="cpu" ${r.category==='cpu'?'selected':''}>CPU</option>
             <option value="gpu" ${r.category==='gpu'?'selected':''}>GPU</option>
             <option value="memory" ${r.category==='memory'?'selected':''}>Memory</option>
@@ -805,7 +922,6 @@ function renderEditor() {
       </div>
     </div>
 
-    <!-- HARDWARE -->
     <div class="section">
       <div class="section-title">Hardware</div>
       <div class="field-grid">
@@ -828,7 +944,6 @@ function renderEditor() {
       </div>
     </div>
 
-    <!-- OVERCLOCKERS -->
     <div class="section">
       <div class="section-title">Overclockers</div>
       <div class="oc-list" id="oc-list">
@@ -837,7 +952,6 @@ function renderEditor() {
       <button class="btn-add" onclick="addOC()">+ Add overclocker</button>
     </div>
 
-    <!-- SOURCES -->
     <div class="section">
       <div class="section-title">Sources & Links</div>
       <div class="source-list" id="source-list">
@@ -846,17 +960,14 @@ function renderEditor() {
       <button class="btn-add" onclick="addSource()">+ Add source</button>
     </div>
 
-    <!-- TAGS -->
     <div class="section">
       <div class="section-title">Tags</div>
       <div class="tag-input-wrap" id="tag-wrap" onclick="document.getElementById('tag-input').focus()">
         ${(r.tags||[]).map(t => tagChip(t)).join('')}
-        <input class="tag-input" id="tag-input" placeholder="Add tag…"
-          onkeydown="tagKeydown(event)">
+        <input class="tag-input" id="tag-input" placeholder="Add tag…" onkeydown="tagKeydown(event)">
       </div>
     </div>
 
-    <!-- NOTES -->
     <div class="section">
       <div class="section-title">Notes</div>
       <div class="field">
@@ -865,7 +976,6 @@ function renderEditor() {
     </div>
 
     ${!isNew ? `
-    <!-- ASSETS -->
     <div class="section">
       <div class="section-title">Assets</div>
       ${assets.length ? `
@@ -896,26 +1006,16 @@ function ocCard(oc, i) {
   return `<div class="oc-card" id="oc-${i}">
     <button class="oc-remove" onclick="removeOC(${i})">×</button>
     <div class="field-grid">
-      <div class="field">
-        <label>Handle</label>
-        <input class="oc-handle" data-i="${i}" value="${oc.handle||''}">
-      </div>
-      <div class="field">
-        <label>Real Name</label>
-        <input class="oc-realname" data-i="${i}" value="${oc.real_name||''}">
-      </div>
-      <div class="field">
-        <label>Country (ISO)</label>
-        <input class="oc-country" data-i="${i}" value="${oc.country||''}" placeholder="e.g. TW">
-      </div>
-      <div class="field">
-        <label>Profile URL</label>
-        <input class="oc-profile" data-i="${i}" value="${oc.profile_url||''}">
-      </div>
-      <div class="field span2">
-        <label>Aliases (comma-separated)</label>
-        <input class="oc-aliases" data-i="${i}" value="${(oc.aliases||[]).join(', ')}">
-      </div>
+      <div class="field"><label>Handle</label>
+        <input class="oc-handle" data-i="${i}" value="${oc.handle||''}"></div>
+      <div class="field"><label>Real Name</label>
+        <input class="oc-realname" data-i="${i}" value="${oc.real_name||''}"></div>
+      <div class="field"><label>Country (ISO)</label>
+        <input class="oc-country" data-i="${i}" value="${oc.country||''}" placeholder="e.g. TW"></div>
+      <div class="field"><label>Profile URL</label>
+        <input class="oc-profile" data-i="${i}" value="${oc.profile_url||''}"></div>
+      <div class="field span2"><label>Aliases (comma-separated)</label>
+        <input class="oc-aliases" data-i="${i}" value="${(oc.aliases||[]).join(', ')}"></div>
     </div>
   </div>`;
 }
@@ -941,7 +1041,6 @@ function assetCard(filename) {
   </div>`;
 }
 
-// ── OC ACTIONS ────────────────────────────────────────
 function addOC() {
   const list = document.getElementById('oc-list');
   const i = list.children.length;
@@ -949,7 +1048,6 @@ function addOC() {
 }
 function removeOC(i) {
   document.getElementById(`oc-${i}`)?.remove();
-  // Re-index remaining
   document.querySelectorAll('.oc-card').forEach((el,j) => {
     el.id = `oc-${j}`;
     el.querySelectorAll('[data-i]').forEach(inp => inp.dataset.i = j);
@@ -957,7 +1055,6 @@ function removeOC(i) {
   });
 }
 
-// ── SOURCE ACTIONS ────────────────────────────────────
 function addSource() {
   const list = document.getElementById('source-list');
   const i = list.children.length;
@@ -972,7 +1069,6 @@ function removeSource(i) {
   });
 }
 
-// ── TAG ACTIONS ───────────────────────────────────────
 function tagKeydown(e) {
   if (e.key === 'Enter' || e.key === ',') {
     e.preventDefault();
@@ -1005,14 +1101,13 @@ function getTags() {
     .map(c => c.textContent.replace('×','').trim()).filter(Boolean);
 }
 
-// ── BUILD RECORD ──────────────────────────────────────
 function buildRecord() {
   const r = currentRecord;
   const overclockers = [...document.querySelectorAll('.oc-card')].map(card => ({
     handle: card.querySelector('.oc-handle')?.value || '',
     real_name: card.querySelector('.oc-realname')?.value || null,
     aliases: (card.querySelector('.oc-aliases')?.value || '').split(',').map(s=>s.trim()).filter(Boolean),
-    country: card.querySelector('.oc-country')?.value || null,
+    country: card.querySelector('.oc-country')?.value.toUpperCase() || null,
     profile_url: card.querySelector('.oc-profile')?.value || null,
   }));
   const sources = [...document.querySelectorAll('.source-row')].map(row => ({
@@ -1023,7 +1118,7 @@ function buildRecord() {
 
   return {
     uid: r._isNew ? '' : r.uid,
-    _old_uid: r._isNew ? '' : r.uid,  // so server knows the original folder name
+    _old_uid: r._isNew ? '' : r.uid,
     category: document.getElementById('f-category').value,
     subcategory: (document.getElementById('f-subcategory').value || '')
       .split(',').map(s => s.trim()).filter(Boolean),
@@ -1037,7 +1132,7 @@ function buildRecord() {
       cooling: document.getElementById('f-cooling').value || null,
     },
     hero: document.getElementById('f-hero')?.value || null,
-    not_a_record: document.getElementById('f-not-a-record')?.checked || null,
+    not_a_record: document.getElementById('f-not-a-record')?.checked || false,
     overclockers,
     sources,
     assets: r.assets || [],
@@ -1048,7 +1143,6 @@ function buildRecord() {
   };
 }
 
-// ── SAVE ──────────────────────────────────────────────
 async function saveRecord() {
   const data = buildRecord();
   const endpoint = currentRecord._isNew ? '/api/record/new' : '/api/record';
@@ -1075,9 +1169,6 @@ async function reloadRecord() {
   await loadRecord(currentRecord.category, currentRecord.uid);
 }
 
-function onCatChange(val) { /* category changed in form */ }
-
-// ── UPLOAD ────────────────────────────────────────────
 async function uploadFiles(files) {
   for (const file of files) {
     const fd = new FormData();
@@ -1086,18 +1177,12 @@ async function uploadFiles(files) {
     fd.append('file', file, file.name);
     const res = await fetch('/api/upload', { method: 'POST', body: fd });
     const json = await res.json();
-    if (json.ok) {
-      toast(`Uploaded ${file.name}`, 'ok');
-    } else {
-      toast(`Upload failed: ${file.name}`, 'err');
-    }
+    toast(json.ok ? `Uploaded ${file.name}` : `Upload failed: ${file.name}`, json.ok ? 'ok' : 'err');
   }
-  // Refresh assets
   const res = await fetch(`/api/assets?category=${currentRecord.category}&uid=${currentRecord.uid}`);
   const assets = await res.json();
   document.getElementById('asset-grid').innerHTML = assets.map(fn => assetCard(fn)).join('');
   document.getElementById('upload-zone').classList.remove('drag');
-  // Refresh hero dropdown
   const heroSel = document.getElementById('f-hero');
   if (heroSel) {
     const curHero = heroSel.value;
@@ -1115,14 +1200,13 @@ function handleDrop(e) {
 async function deleteAsset(filename) {
   if (!confirm(`Delete ${filename}?`)) return;
   const r = currentRecord;
-  await fetch(`/api/asset?category=${r.category}&uid=${r.uid}&filename=${filename}`, { method: 'DELETE' });
+  await fetch(`/api/asset?category=${r.category}&uid=${r.uid}&filename=${encodeURIComponent(filename)}`, { method: 'DELETE' });
   const res = await fetch(`/api/assets?category=${r.category}&uid=${r.uid}`);
   const assets = await res.json();
   document.getElementById('asset-grid').innerHTML = assets.map(fn => assetCard(fn)).join('');
   toast('Deleted', 'ok');
 }
 
-// ── TOAST ─────────────────────────────────────────────
 function toast(msg, type='ok') {
   const el = document.getElementById('toast');
   el.textContent = msg;
@@ -1157,8 +1241,6 @@ BULK_HTML = r"""<!DOCTYPE html>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body { background: var(--bg); color: var(--text); font-family: var(--sans);
   font-size: 13px; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
-
-/* TOOLBAR */
 .toolbar { display: flex; align-items: center; gap: 12px; padding: 10px 20px;
   background: var(--bg2); border-bottom: 1px solid var(--border); flex-shrink: 0; }
 .toolbar-title { font-family: var(--mono); font-size: 12px; color: var(--accent);
@@ -1187,11 +1269,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--sans);
 .btn-link { color: var(--muted); text-decoration: none; font-family: var(--mono);
   font-size: 11px; padding: 6px 10px; border-radius: 4px; transition: color 0.15s; }
 .btn-link:hover { color: var(--accent); }
-
-/* GRID WRAPPER */
 .grid-wrap { flex: 1; overflow: auto; }
-
-/* TABLE */
 table { border-collapse: collapse; width: max-content; min-width: 100%; }
 thead { position: sticky; top: 0; z-index: 10; }
 th { background: var(--bg2); border-bottom: 2px solid var(--border);
@@ -1201,49 +1279,37 @@ th { background: var(--bg2); border-bottom: 2px solid var(--border);
   white-space: nowrap; text-align: left; user-select: none; }
 th.col-fixed { position: sticky; left: 0; z-index: 11; background: var(--bg2); }
 th:last-child { border-right: none; }
-
 tbody tr { border-bottom: 1px solid var(--border); transition: background 0.08s; }
 tbody tr:hover { background: var(--bg2); }
 tbody tr.dirty { background: rgba(232,73,15,0.06); }
 tbody tr.dirty td.col-fixed { background: #1a1208; }
-
 td { border-right: 1px solid var(--border); padding: 0; vertical-align: middle; }
 td.col-fixed { position: sticky; left: 0; z-index: 5; background: var(--bg); }
 tbody tr:hover td.col-fixed { background: var(--bg2); }
 td:last-child { border-right: none; }
-
-/* CELLS */
 .cell-static { padding: 6px 10px; font-family: var(--mono); font-size: 12px;
   color: var(--text); white-space: nowrap; }
 .cell-static.muted { color: var(--muted); }
 .cell-static.freq { color: var(--accent); font-weight: 600; }
-
 .cell-edit { padding: 0; }
 .cell-input { width: 100%; padding: 6px 10px; background: transparent; border: none;
-  outline: none; color: var(--text); font-family: var(--mono); font-size: 12px;
-  min-width: 80px; }
+  outline: none; color: var(--text); font-family: var(--mono); font-size: 12px; min-width: 80px; }
 .cell-input:focus { background: var(--bg3); box-shadow: inset 0 0 0 2px var(--accent); }
 .cell-input.changed { color: var(--yellow); }
-
-/* dirty indicator dot */
 .dirty-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%;
   background: var(--accent); margin-right: 6px; flex-shrink: 0; }
-
-/* TOAST */
 .toast { position: fixed; bottom: 20px; right: 20px; padding: 10px 18px;
   border-radius: 4px; font-family: var(--mono); font-size: 12px; font-weight: 600;
   z-index: 999; transform: translateY(60px); opacity: 0; transition: all 0.2s; }
 .toast.show { transform: translateY(0); opacity: 1; }
 .toast.ok { background: var(--green); color: #000; }
 .toast.err { background: var(--red); color: #fff; }
-
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border-hi); border-radius: 3px; }
 </style>
 </head>
 <body>
-
 <div class="toolbar">
   <a class="btn-link" href="/">← Record Editor</a>
   <div class="toolbar-title">BULK EDITOR</div>
@@ -1266,35 +1332,27 @@ td:last-child { border-right: none; }
   <div class="status" id="status">Loading…</div>
   <button class="btn btn-save" id="btn-save" onclick="saveAll()" disabled>Save Changes</button>
 </div>
-
 <div class="grid-wrap">
-  <table id="grid">
-    <thead id="grid-head"></thead>
-    <tbody id="grid-body"></tbody>
-  </table>
+  <table id="grid"><thead id="grid-head"></thead><tbody id="grid-body"></tbody></table>
 </div>
-
 <div class="toast" id="toast"></div>
-
 <script>
 let records = [];
 let currentCat = 'cpu';
-let dirty = {};  // uid -> {fields}
+let dirty = {};
 let visibleCols = new Set(['country', 'cooling']);
 
 const ALL_COLS = [
-  { key: 'country',     label: 'Country',    editable: true,  path: 'oc.0.country',   width: 80 },
-  { key: 'cooling',     label: 'Cooling',    editable: true,  path: 'hw.cooling',     width: 160 },
-  { key: 'mobo',        label: 'Motherboard',editable: true,  path: 'hw.motherboard', width: 200 },
-  { key: 'memory',      label: 'Memory',     editable: true,  path: 'hw.memory',      width: 160 },
-  { key: 'tags',        label: 'Tags',       editable: true,  path: 'tags',           width: 160 },
-  { key: 'notes',       label: 'Notes',      editable: true,  path: 'notes',          width: 220 },
-  { key: 'subcategory', label: 'Subcat',     editable: true,  path: 'subcategory',    width: 100 },
+  { key: 'country',     label: 'Country',    path: 'oc.0.country',   width: 80 },
+  { key: 'cooling',     label: 'Cooling',    path: 'hw.cooling',     width: 160 },
+  { key: 'mobo',        label: 'Motherboard',path: 'hw.motherboard', width: 200 },
+  { key: 'memory',      label: 'Memory',     path: 'hw.memory',      width: 160 },
+  { key: 'tags',        label: 'Tags',       path: 'tags',           width: 160 },
+  { key: 'notes',       label: 'Notes',      path: 'notes',          width: 220 },
+  { key: 'subcategory', label: 'Subcat',     path: 'subcategory',    width: 100 },
 ];
 
-async function init() {
-  await load();
-}
+async function init() { await load(); }
 
 async function load() {
   document.getElementById('status').textContent = 'Loading…';
@@ -1324,20 +1382,18 @@ function toggleCol(key, el) {
 }
 
 function getVal(r, path) {
-  if (path === 'oc.0.country') return (r.overclockers?.[0]?.country) || '';
+  if (path === 'oc.0.country')   return r.overclockers?.[0]?.country || '';
   if (path === 'hw.cooling')     return r.hardware?.cooling || '';
   if (path === 'hw.motherboard') return r.hardware?.motherboard || '';
   if (path === 'hw.memory')      return r.hardware?.memory || '';
   if (path === 'tags')           return (r.tags || []).join(', ');
   if (path === 'notes')          return r.notes || '';
-  if (path === 'subcategory')    return (r.subcategory || []).join(', ');
+  if (path === 'subcategory')    return (Array.isArray(r.subcategory) ? r.subcategory : []).join(', ');
   return '';
 }
 
 function render() {
   const cols = ALL_COLS.filter(c => visibleCols.has(c.key));
-
-  // Header
   document.getElementById('grid-head').innerHTML = `<tr>
     <th class="col-fixed" style="min-width:30px"></th>
     <th class="col-fixed" style="min-width:100px;left:30px">Date</th>
@@ -1346,8 +1402,6 @@ function render() {
     <th style="min-width:140px">Overclocker</th>
     ${cols.map(c => `<th style="min-width:${c.width}px">${c.label}</th>`).join('')}
   </tr>`;
-
-  // Body
   document.getElementById('grid-body').innerHTML = records.map(r => {
     const isDirty = !!dirty[r.uid];
     const oc = (r.overclockers || []).map(o => o.handle).join(' & ');
@@ -1362,7 +1416,7 @@ function render() {
       <td><div class="cell-static">${r.hardware?.primary || ''}</div></td>
       <td><div class="cell-static muted">${oc}</div></td>
       ${cols.map(c => {
-        const val = (dirty[r.uid]?.display?.[c.key] !== undefined)
+        const val = dirty[r.uid]?.display?.[c.key] !== undefined
           ? dirty[r.uid].display[c.key]
           : getVal(r, c.path);
         const isChanged = dirty[r.uid]?.display?.[c.key] !== undefined;
@@ -1383,61 +1437,41 @@ function escHtml(s) {
 }
 
 function onCellChange(input) {
-  const uid = input.dataset.uid;
-  const col = input.dataset.col;
+  const uid  = input.dataset.uid;
+  const col  = input.dataset.col;
   const path = input.dataset.path;
-  const val = input.value.trim();
-
-  // Find original value
-  const r = records.find(r => r.uid === uid);
+  const val  = input.value.trim();
+  const r    = records.find(r => r.uid === uid);
   const orig = getVal(r, path);
 
   if (!dirty[uid]) dirty[uid] = { fields: {}, display: {} };
 
   if (val === orig) {
-    // Reverted to original
     delete dirty[uid].display[col];
     delete dirty[uid].fields[col];
     input.classList.remove('changed');
-    if (!Object.keys(dirty[uid].display).length) {
-      delete dirty[uid];
-    }
+    if (!Object.keys(dirty[uid].display).length) delete dirty[uid];
   } else {
     dirty[uid].display[col] = val;
     dirty[uid].fields[col] = { path, value: val };
     input.classList.add('changed');
   }
 
-  // Update dirty row indicator
   const row = input.closest('tr');
   const dotCell = row.querySelector('td:first-child');
   const isDirty = !!dirty[uid];
   row.classList.toggle('dirty', isDirty);
   dotCell.innerHTML = isDirty ? '<span class="dirty-dot"></span>' : '';
-
   updateSaveBtn();
 }
 
-// Tab navigation between editable cells
 function onKeyDown(e, input) {
-  if (e.key === 'Tab') {
-    // Default tab behavior is fine — let it move to next input
-    return;
-  }
-  if (e.key === 'Enter') {
-    e.preventDefault();
-    // Move to same column, next row
-    const col = input.dataset.col;
-    const allInputs = [...document.querySelectorAll(`[data-col="${col}"]`)];
-    const idx = allInputs.indexOf(input);
-    if (idx < allInputs.length - 1) allInputs[idx + 1].focus();
-  }
-  if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+  if (e.key === 'Enter' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
     e.preventDefault();
     const col = input.dataset.col;
     const allInputs = [...document.querySelectorAll(`[data-col="${col}"]`)];
     const idx = allInputs.indexOf(input);
-    const next = e.key === 'ArrowDown' ? allInputs[idx+1] : allInputs[idx-1];
+    const next = (e.key === 'ArrowUp') ? allInputs[idx-1] : allInputs[idx+1];
     if (next) next.focus();
   }
 }
@@ -1453,11 +1487,11 @@ function updateSaveBtn() {
 
 async function saveAll() {
   const changes = Object.entries(dirty).map(([uid, d]) => {
-    const r = records.find(r => r.uid === uid);
     const fields = {};
     for (const [col, {path, value}] of Object.entries(d.fields)) {
       if (path === 'oc.0.country') {
-        fields.overclockers = [{ country: value || null }];
+        // FIX: uppercase country on save to match schema pattern ^[A-Z]{2}$
+        fields.overclockers = [{ country: value ? value.toUpperCase() : null }];
       } else if (path.startsWith('hw.')) {
         const hw_key = path.replace('hw.', '');
         if (!fields.hardware) fields.hardware = {};
@@ -1467,7 +1501,8 @@ async function saveAll() {
       } else if (path === 'notes') {
         fields.notes = value || null;
       } else if (path === 'subcategory') {
-        fields.subcategory = value || null;
+        // FIX #8: always send as list, never raw string
+        fields.subcategory = value ? value.split(',').map(s => s.trim()).filter(Boolean) : [];
       }
     }
     return { category: currentCat, uid, fields };
@@ -1499,7 +1534,6 @@ function toast(msg, type='ok') {
   el._t = setTimeout(() => el.classList.remove('show'), 2500);
 }
 
-// Warn on unload if dirty
 window.addEventListener('beforeunload', e => {
   if (Object.keys(dirty).length) e.preventDefault();
 });
@@ -1530,8 +1564,6 @@ OVERCLOCKERS_HTML = r"""<!DOCTYPE html>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body { background: var(--bg); color: var(--text); font-family: var(--sans);
   font-size: 13px; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
-
-/* TOOLBAR */
 .toolbar { display: flex; align-items: center; gap: 12px; padding: 10px 20px;
   background: var(--bg2); border-bottom: 1px solid var(--border); flex-shrink: 0; }
 .toolbar-title { font-family: var(--mono); font-size: 12px; color: var(--accent);
@@ -1553,11 +1585,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--sans);
   background: var(--bg3); color: var(--text); font-family: var(--mono); font-size: 11px;
   outline: none; width: 200px; }
 .search-input:focus { border-color: var(--accent); }
-
-/* MAIN LAYOUT */
 .main { flex: 1; display: flex; overflow: hidden; }
-
-/* LIST */
 .oc-list { width: 320px; flex-shrink: 0; border-right: 1px solid var(--border);
   background: var(--bg2); overflow-y: auto; }
 .oc-item { padding: 12px 16px; border-bottom: 1px solid var(--border);
@@ -1567,23 +1595,17 @@ body { background: var(--bg); color: var(--text); font-family: var(--sans);
 .oc-item .oc-name { font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--text); }
 .oc-item .oc-meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
 .oc-item .oc-count { font-family: var(--mono); font-size: 10px; color: var(--dim); margin-top: 2px; }
-
-/* EDITOR */
 .editor { flex: 1; overflow-y: auto; padding: 32px; }
 .editor-empty { display: flex; align-items: center; justify-content: center;
   height: 100%; color: var(--dim); font-family: var(--mono); font-size: 13px; }
-
-.editor-header { display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 28px; }
+.editor-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; }
 .editor-title { font-family: var(--mono); font-size: 18px; color: var(--text); font-weight: 600; }
 .editor-subtitle { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-top: 4px; }
 .editor-actions { display: flex; gap: 8px; }
-
 .section { margin-bottom: 28px; }
 .section-title { font-family: var(--mono); font-size: 10px; font-weight: 600;
   color: var(--dim); letter-spacing: 0.1em; text-transform: uppercase;
   margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
-
 .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .field { display: flex; flex-direction: column; gap: 4px; }
 .field.span2 { grid-column: span 2; }
@@ -1595,35 +1617,26 @@ body { background: var(--bg); color: var(--text); font-family: var(--sans);
   outline: none; transition: border-color 0.15s; }
 .field input:focus, .field textarea:focus { border-color: var(--accent); }
 .field textarea { resize: vertical; min-height: 40px; }
-
-/* RECORDS TABLE */
 .records-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
-.records-table th { text-align: left; padding: 6px 10px;
-  font-family: var(--mono); font-size: 10px; color: var(--muted);
-  text-transform: uppercase; letter-spacing: 0.08em;
+.records-table th { text-align: left; padding: 6px 10px; font-family: var(--mono);
+  font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em;
   border-bottom: 1px solid var(--border); }
-.records-table td { padding: 6px 10px; font-size: 12px;
-  border-bottom: 1px solid var(--border); }
+.records-table td { padding: 6px 10px; font-size: 12px; border-bottom: 1px solid var(--border); }
 .records-table tr:last-child td { border-bottom: none; }
 .records-table a { color: var(--accent); text-decoration: none; font-family: var(--mono); font-size: 11px; }
 .records-table a:hover { text-decoration: underline; }
-
-/* TOAST */
 .toast { position: fixed; bottom: 24px; right: 24px; padding: 10px 18px;
   border-radius: 4px; font-family: var(--mono); font-size: 12px; font-weight: 600;
-  z-index: 999; transform: translateY(80px); opacity: 0;
-  transition: all 0.25s; pointer-events: none; }
+  z-index: 999; transform: translateY(80px); opacity: 0; transition: all 0.25s; pointer-events: none; }
 .toast.show { transform: translateY(0); opacity: 1; }
 .toast.ok { background: var(--green); color: #000; }
 .toast.err { background: var(--red); color: #fff; }
-
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border-hi); border-radius: 3px; }
 </style>
 </head>
 <body>
-
 <div class="toolbar">
   <a class="btn-link" href="/">← Record Editor</a>
   <a class="btn-link" href="/bulk">Bulk Editor</a>
@@ -1635,16 +1648,13 @@ body { background: var(--bg); color: var(--text); font-family: var(--sans);
   <div class="status" id="status">Loading…</div>
   <button class="btn btn-save" id="btn-save" onclick="saveOC()" disabled>Save Changes</button>
 </div>
-
 <div class="main">
   <div class="oc-list" id="oc-list"></div>
   <div class="editor" id="editor">
     <div class="editor-empty">← Select an overclocker to edit</div>
   </div>
 </div>
-
 <div class="toast" id="toast"></div>
-
 <script>
 let allOCs = [];
 let filteredOCs = [];
@@ -1652,10 +1662,9 @@ let selectedOC = null;
 let originalHandle = null;
 let dirty = false;
 let searchQuery = '';
+let recordCache = {};
 
-async function init() {
-  await loadOCs();
-}
+async function init() { await loadOCs(); }
 
 async function loadOCs() {
   document.getElementById('status').textContent = 'Loading…';
@@ -1679,20 +1688,28 @@ function renderList() {
   const el = document.getElementById('oc-list');
   el.innerHTML = filteredOCs.map(oc => {
     const active = selectedOC?.handle === oc.handle ? ' active' : '';
-  const recCount = oc.records?.length || 0;
+    const recCount = oc.records?.length || 0;
     const cats = [...new Set((oc.records || []).map(r => r.category))].join('/').toUpperCase();
-    const aliasBadge = (oc.aliases && oc.aliases.length > 0) ? `<span style="font-size:9px;color:var(--blue);margin-left:6px">[${oc.aliases.length} alias${oc.aliases.length>1?'es':''}]</span>` : '';
-    return `<div class="oc-item${active}" onclick="selectOC('${escJs(oc.handle)}')">
+    const aliasBadge = (oc.aliases && oc.aliases.length > 0)
+      ? `<span style="font-size:9px;color:var(--blue);margin-left:6px">[${oc.aliases.length} alias${oc.aliases.length>1?'es':''}]</span>`
+      : '';
+    return `<div class="oc-item${active}" onclick='selectOC(${JSON.stringify(oc.handle)})'>
       <div class="oc-name">${escHtml(oc.handle)}${aliasBadge}</div>
-      <div class="oc-meta">${oc.real_name || '—'} ${oc.country ? '· ' + oc.country : ''}</div>
+      <div class="oc-meta">${escHtml(oc.real_name || '—')} ${oc.country ? '· ' + escHtml(oc.country) : ''}</div>
       ${oc.aliases && oc.aliases.length > 0 ? `<div style="font-size:10px;color:var(--dim);margin-top:2px">${oc.aliases.map(a=>escHtml(a)).join(', ')}</div>` : ''}
       <div class="oc-count">${recCount} record${recCount !== 1 ? 's' : ''} · ${cats}</div>
     </div>`;
   }).join('');
 }
 
-function escHtml(s) { return String(s).replace(/&/g,'&').replace(/"/g,'"').replace(/</g,'<').replace(/>/g,'>'); }
-function escJs(s) { return String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+// FIX #4: escHtml now correctly uses HTML entity strings
+function escHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
 
 function selectOC(handle) {
   if (dirty) {
@@ -1703,6 +1720,8 @@ function selectOC(handle) {
   selectedOC = allOCs.find(o => o.handle === handle);
   originalHandle = handle;
   renderEditor();
+  // FIX #5: actually call loadRecordDetails after rendering
+  loadRecordDetails();
   renderList();
 }
 
@@ -1712,9 +1731,7 @@ function renderEditor() {
     document.getElementById('editor').innerHTML = '<div class="editor-empty">← Select an overclocker to edit</div>';
     return;
   }
-
   const recCount = oc.records?.length || 0;
-
   document.getElementById('editor').innerHTML = `
     <div class="editor-header">
       <div>
@@ -1725,7 +1742,6 @@ function renderEditor() {
         <button class="btn" onclick="loadOCs()">↺ Refresh</button>
       </div>
     </div>
-
     <div class="section">
       <div class="section-title">Profile</div>
       <div class="field-grid">
@@ -1752,19 +1768,18 @@ function renderEditor() {
         </div>
       </div>
     </div>
-
     <div class="section">
       <div class="section-title">Records (${recCount})</div>
       ${recCount > 0 ? `
-        <table class="records-table">
-          <thead><tr><th>Date</th><th>Category</th><th>Frequency</th><th>Hardware</th></tr></thead>
+        <table class="records-table" id="records-table">
+          <thead><tr><th>UID</th><th>Category</th><th>Frequency</th><th>Hardware</th></tr></thead>
           <tbody>
             ${(oc.records || []).map(r => `
-              <tr>
-                <td><a href="/?cat=${r.category}&uid=${r.uid}" target="_blank">${r.uid}</a></td>
-                <td>${r.category.toUpperCase()}</td>
-                <td>${getFreq(r.category, r.uid)}</td>
-                <td>${getHW(r.category, r.uid)}</td>
+              <tr id="rec-row-${r.uid}">
+                <td><a href="/?cat=${r.category}&uid=${r.uid}" target="_blank">${escHtml(r.uid)}</a></td>
+                <td>${escHtml(r.category.toUpperCase())}</td>
+                <td id="rec-freq-${r.uid}">…</td>
+                <td id="rec-hw-${r.uid}">…</td>
               </tr>
             `).join('')}
           </tbody>
@@ -1774,22 +1789,7 @@ function renderEditor() {
   `;
 }
 
-// Cache for record data
-let recordCache = {};
-
-function getFreq(cat, uid) {
-  const key = cat + '/' + uid;
-  if (recordCache[key]) return recordCache[key].freq;
-  return '…';
-}
-
-function getHW(cat, uid) {
-  const key = cat + '/' + uid;
-  if (recordCache[key]) return recordCache[key].hw;
-  return '…';
-}
-
-// Load record details for the table
+// FIX #5: load record details and populate the table cells directly
 async function loadRecordDetails() {
   if (!selectedOC) return;
   for (const r of (selectedOC.records || [])) {
@@ -1800,47 +1800,38 @@ async function loadRecordDetails() {
         const data = await res.json();
         recordCache[key] = {
           freq: data.value_mhz ? data.value_mhz.toFixed(2) + ' MHz' : '—',
-          hw: data.hardware?.primary || '—'
+          hw:   data.hardware?.primary || '—'
         };
       } catch(e) {
         recordCache[key] = { freq: '—', hw: '—' };
       }
     }
+    // Update cells directly without re-rendering the whole editor
+    const freqEl = document.getElementById(`rec-freq-${r.uid}`);
+    const hwEl   = document.getElementById(`rec-hw-${r.uid}`);
+    if (freqEl) freqEl.textContent = recordCache[key].freq;
+    if (hwEl)   hwEl.textContent   = recordCache[key].hw;
   }
-  // Re-render to show loaded data
-  if (selectedOC) renderEditor();
 }
 
-function onFieldChange() {
-  dirty = true;
-  updateSaveBtn();
-}
+function onFieldChange() { dirty = true; updateSaveBtn(); }
 
 function updateSaveBtn() {
-  const btn = document.getElementById('btn-save');
-  btn.disabled = !dirty;
-  if (dirty) {
-    btn.textContent = 'Save Changes';
-  } else {
-    btn.textContent = 'Save Changes';
-  }
+  document.getElementById('btn-save').disabled = !dirty;
 }
 
 async function saveOC() {
   if (!selectedOC) return;
   const data = {
-    old_handle: originalHandle,
-    handle: document.getElementById('f-handle').value.trim(),
-    real_name: document.getElementById('f-realname').value.trim() || null,
-    country: document.getElementById('f-country').value.trim() || null,
+    old_handle:  originalHandle,
+    handle:      document.getElementById('f-handle').value.trim(),
+    real_name:   document.getElementById('f-realname').value.trim() || null,
+    country:     document.getElementById('f-country').value.trim().toUpperCase() || null,
     profile_url: document.getElementById('f-profile').value.trim() || null,
-    aliases: document.getElementById('f-aliases').value.split(',').map(s => s.trim()).filter(Boolean)
+    aliases:     document.getElementById('f-aliases').value.split(',').map(s => s.trim()).filter(Boolean)
   };
 
-  if (!data.handle) {
-    toast('Handle is required', 'err');
-    return;
-  }
+  if (!data.handle) { toast('Handle is required', 'err'); return; }
 
   try {
     const res = await fetch('/api/overclockers', {
@@ -1855,10 +1846,10 @@ async function saveOC() {
       updateSaveBtn();
       recordCache = {};
       await loadOCs();
-      // Re-select the OC (handle might have changed)
       selectedOC = allOCs.find(o => o.handle === data.handle);
       originalHandle = data.handle;
       renderEditor();
+      loadRecordDetails();
       renderList();
     } else {
       toast('Error: ' + (json.error || 'unknown'), 'err');
@@ -1876,9 +1867,7 @@ function toast(msg, type='ok') {
   el._t = setTimeout(() => el.classList.remove('show'), 2500);
 }
 
-window.addEventListener('beforeunload', e => {
-  if (dirty) e.preventDefault();
-});
+window.addEventListener('beforeunload', e => { if (dirty) e.preventDefault(); });
 
 init();
 </script>

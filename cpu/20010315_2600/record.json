@@ -12,7 +12,7 @@
     "cooling": "Dry Ice"
   },
   "hero": "260037.gif",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Holicho",

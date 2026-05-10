@@ -4,14 +4,16 @@
     "category": "cpu",
     "subcategory": [],
     "achieved_at": "1996-08-01",
-    "achieved_at_approximate": false,
-    "value_mhz": 233.0,
+    "achieved_at_approximate": true,
+    "value_mhz": 233,
     "hardware": {
       "primary": "Intel Pentium Pro 200",
-      "motherboard": null,
+      "motherboard": "ASUS XP6NP5",
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Masashi",
@@ -21,8 +23,20 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Masahi Maniacs",
+        "url": "http://www.geocities.co.jp/SiliconValley-PaloAlto/2406/History.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "233_masashi.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -141,13 +155,15 @@
     "subcategory": [],
     "achieved_at": "1997-12-05",
     "achieved_at_approximate": false,
-    "value_mhz": 400.0,
+    "value_mhz": 400,
     "hardware": {
       "primary": "Intel Pentium II",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Kryotech",
@@ -1099,7 +1115,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. amt",
@@ -1164,7 +1180,7 @@
       "cooling": null
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
@@ -1215,7 +1231,7 @@
       "cooling": null
     },
     "hero": "152271.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
@@ -1500,7 +1516,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "161266.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Hide",
@@ -1671,7 +1687,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "161345.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. Yu",
@@ -1815,7 +1831,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "165302.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Anpanman",
@@ -1886,7 +1902,7 @@
       "cooling": null
     },
     "hero": "214452.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
@@ -1947,7 +1963,7 @@
       "cooling": null
     },
     "hero": "220556.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
@@ -2003,7 +2019,7 @@
       "cooling": "Chilled water"
     },
     "hero": "225000.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Anpanman",
@@ -2059,7 +2075,7 @@
       "cooling": "Dry Ice"
     },
     "hero": "260037.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2117,7 +2133,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "280499.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2195,7 +2211,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "286448.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2296,7 +2312,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "302741.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2374,7 +2390,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "339112.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Eric",
@@ -2465,7 +2481,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "354187.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2523,7 +2539,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3675.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Sampsa",
@@ -2638,7 +2654,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "P42200@3703.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Anpanman",
@@ -2708,7 +2724,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "380891.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -2791,7 +2807,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "SL65R38G.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Anpanman",
@@ -2881,7 +2897,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "020327_01.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3037,7 +3053,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "pi104_043.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3124,13 +3140,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 4130.39,
     "hardware": {
-      "primary": "Intel Pentium 4 2.4G",
+      "primary": "Intel Pentium 4 2.4 GHz",
       "motherboard": "ASUS P4T533-C",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
     "hero": "413039.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3425,7 +3441,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "P42533@4244.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Son",
@@ -3602,7 +3618,7 @@
       "cooling": "LN2"
     },
     "hero": "P42400@4310.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Tamo",
@@ -3693,7 +3709,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "wcpuid_max_4418.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3758,7 +3774,7 @@
       "cooling": "Dry Ice"
     },
     "hero": "479.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3878,10 +3894,12 @@
     "value_mhz": 4424.99,
     "hardware": {
       "primary": "Intel Pentium 4 2.5 GHz",
-      "motherboard": null,
+      "motherboard": "ASUS P4T533-C",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "wcpuid_max_4425.gif",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -3891,8 +3909,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Son WCPUID",
+        "url": "http://son.t-next.com/wcpuid/wcpuid.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "442499_sonwcpuid.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "wcpuid_max_4425.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -4067,7 +4102,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "P43060@4438.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Ja0hxv",
@@ -4130,7 +4165,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "p4_306g_dora_wcpuidmax.JPG",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Tamozyouri",
@@ -4193,7 +4228,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -4243,7 +4278,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -4333,7 +4368,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "459985.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -4406,7 +4441,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "wcpuid_4623.gif",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Holicho",
@@ -4463,13 +4498,15 @@
     ],
     "achieved_at": "2003-05-10",
     "achieved_at_approximate": false,
-    "value_mhz": 540.0,
+    "value_mhz": 540,
     "hardware": {
       "primary": "Ati Radeon 9800 Pro",
-      "motherboard": null,
+      "motherboard": "Abit IC7",
       "memory": null,
       "cooling": null
     },
+    "hero": "540.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "DigitalJesus",
@@ -4479,8 +4516,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "Futuremark",
+        "url": "http://service.futuremark.com/compare?2k1=6459005",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "540.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "540_futuremark.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -4601,7 +4655,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "4762.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "OMEGA",
@@ -4739,6 +4793,8 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": "P43000@4873.gif",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "TAM",
@@ -4748,8 +4804,25 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4872_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "P43000@4873.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -4832,7 +4905,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "TAM",
@@ -5123,7 +5196,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "5326.JPG",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Memesama",
@@ -5592,7 +5665,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20040730_360/",
@@ -5636,7 +5709,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20040730_350/",
@@ -5730,7 +5803,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20040801_366/",
@@ -6560,7 +6633,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20050322_405/",
@@ -6621,7 +6694,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "657885.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "The Stilt",
@@ -6911,7 +6984,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "747375.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Kyosen",
@@ -7395,7 +7468,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20061106_475/",
@@ -7439,7 +7512,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20061212_717/",
@@ -7477,7 +7550,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20061223_550/",
@@ -7500,7 +7573,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "779179.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "ThuG",
@@ -7563,7 +7636,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "80001.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "ThuG",
@@ -7641,7 +7714,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20070204_570/",
@@ -7685,7 +7758,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20070308_730/",
@@ -7708,7 +7781,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "817989.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "ThuG",
@@ -7830,7 +7903,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20070517_742/",
@@ -7874,7 +7947,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20070524_757/",
@@ -7994,7 +8067,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20070602_762/",
@@ -8038,7 +8111,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20070602_759/",
@@ -8120,7 +8193,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20070604_782/",
@@ -8202,7 +8275,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20070624_799/",
@@ -8339,7 +8412,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "818040.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Duck",
@@ -8375,7 +8448,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Duck",
@@ -8448,7 +8521,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20070829_667/",
@@ -8600,7 +8673,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20071214_710/",
@@ -8714,7 +8787,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20080609_725/",
@@ -8752,7 +8825,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20080705_750/",
@@ -8790,7 +8863,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20080902_880/",
@@ -8828,7 +8901,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20080928_950/",
@@ -8904,7 +8977,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20081028_973/",
@@ -8948,7 +9021,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20081122_829/",
@@ -8992,7 +9065,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20081124_848/",
@@ -9074,7 +9147,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20081219_876/",
@@ -9118,7 +9191,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20081222_882/",
@@ -9162,7 +9235,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20081223_889/",
@@ -9244,7 +9317,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20090213_890/",
@@ -9288,7 +9361,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20090214_900/",
@@ -9326,7 +9399,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20090302_1000/",
@@ -9364,7 +9437,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20090408_1020/",
@@ -9402,7 +9475,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20090424_1100/",
@@ -9440,7 +9513,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20090425_1111/",
@@ -9516,7 +9589,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20091205_1250/",
@@ -9594,7 +9667,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20100105_1352/",
@@ -9634,7 +9707,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20100110_1114/",
@@ -9659,7 +9732,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "1420.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "NickShih",
@@ -9721,7 +9794,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "1410.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "NickShih",
@@ -9801,7 +9874,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20100128_1300/",
@@ -9826,7 +9899,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "1450.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Massman",
@@ -9951,7 +10024,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20100318_1318/",
@@ -9989,7 +10062,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20100319_1324/",
@@ -10014,7 +10087,7 @@
       "cooling": null
     },
     "hero": "1353.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "MSIMAX",
@@ -10089,7 +10162,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20100331_1364/",
@@ -10127,7 +10200,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20100405_1387/",
@@ -10221,7 +10294,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20100719_83/",
@@ -10270,7 +10343,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20100723_100/",
@@ -10314,7 +10387,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20100725_224/",
@@ -10434,7 +10507,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20100906_406/",
@@ -10457,7 +10530,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "824545.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Duck",
@@ -10583,7 +10656,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20101121_1440/",
@@ -10817,7 +10890,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20110116_416/",
@@ -10855,7 +10928,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110222_1564/",
@@ -10893,7 +10966,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110225_1603/",
@@ -10931,7 +11004,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110226_1625/",
@@ -11007,7 +11080,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110306_1627/",
@@ -11159,7 +11232,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110506_1681/",
@@ -11197,7 +11270,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110717_1690/",
@@ -11258,7 +11331,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "830994.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "TaPaKaH",
@@ -11379,7 +11452,7 @@
       "cooling": "Liquid Helium"
     },
     "hero": "842938.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Macci",
@@ -11480,7 +11553,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "836151.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -11553,7 +11626,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "cpu-8491.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Chew*",
@@ -11606,7 +11679,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "87091.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -11669,7 +11742,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "85848_2.jpg",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -11894,7 +11967,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20120104_1700/",
@@ -11970,7 +12043,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20120322_1900/",
@@ -12008,7 +12081,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20120406_1957/",
@@ -12052,7 +12125,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20120415_417/",
@@ -12128,7 +12201,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20120620_2002/",
@@ -12253,7 +12326,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20120715_125/",
@@ -12302,7 +12375,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20120715_112/",
@@ -12384,7 +12457,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20120819_440/",
@@ -12428,7 +12501,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20120824_441/",
@@ -12515,7 +12588,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20120831_133/",
@@ -12553,7 +12626,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20121012_2080/",
@@ -12591,7 +12664,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20121012_2040/",
@@ -12640,7 +12713,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20121015_228/",
@@ -12701,7 +12774,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "879433.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "AndreYang",
@@ -12780,7 +12853,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20130601_229/",
@@ -12867,7 +12940,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20130608_230/",
@@ -13171,7 +13244,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20140925_2135/",
@@ -13215,7 +13288,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20140927_445/",
@@ -13253,7 +13326,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20140928_2157/",
@@ -13291,7 +13364,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20141001_2208/",
@@ -13335,7 +13408,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20141005_447/",
@@ -13373,7 +13446,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20141126_2221/",
@@ -13411,7 +13484,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20141201_2245/",
@@ -13449,7 +13522,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20150206_2250/",
@@ -13487,7 +13560,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20150216_2278/",
@@ -13525,7 +13598,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20150218_2300/",
@@ -13688,7 +13761,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20150904_235/",
@@ -13737,7 +13810,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20150905_238/",
@@ -13786,7 +13859,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20150921_241/",
@@ -13835,7 +13908,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20151014_242/",
@@ -13884,7 +13957,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20151025_243/",
@@ -15321,7 +15394,7 @@
       "cooling": null
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Noxinite",
@@ -15619,7 +15692,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20200520_245/",
@@ -15657,7 +15730,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20200803_2500/",
@@ -15733,7 +15806,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20210101_2800/",
@@ -15914,7 +15987,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "322500.webp",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Der8auer",
@@ -15976,7 +16049,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3319.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "OGS",
@@ -16072,7 +16145,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20210522_250/",
@@ -16121,7 +16194,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20210629_257/",
@@ -16159,7 +16232,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20210727_2900/",
@@ -16412,7 +16485,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20211129_140/",
@@ -16461,7 +16534,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/memory/20211130_150/",
@@ -16849,7 +16922,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20221001_2937/",
@@ -16872,7 +16945,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "k3dwcu.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -16998,7 +17071,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "334500.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "OGS",
@@ -17060,7 +17133,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3705.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "OGS",
@@ -17127,7 +17200,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3825.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "OGS",
@@ -17192,7 +17265,7 @@
       "cooling": "Liquid Helium"
     },
     "hero": "t14i1f.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -17406,7 +17479,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20230121_3050/",
@@ -17444,7 +17517,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20230210_3100/",
@@ -17469,7 +17542,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3840.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "OGS",
@@ -17531,7 +17604,7 @@
       "cooling": null
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "MSIMAX",
@@ -17571,7 +17644,7 @@
       "cooling": null
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "MSIMAX",
@@ -17697,17 +17770,26 @@
     "achieved_at_approximate": false,
     "value_mhz": 5616.4,
     "hardware": {
-      "primary": "GIGABYTE",
-      "motherboard": null,
+      "primary": "GIGABYTE 16384 MB (DDR5-5600) - XMP 3.0 - P/N: ARS32G83D5",
+      "motherboard": "Gigabyte Z790 AORUS TACHYON",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "56164.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
+        "profile_url": null
+      },
+      {
+        "handle": "Sergmann",
+        "real_name": null,
+        "aliases": [],
+        "country": "DE",
         "profile_url": null
       }
     ],
@@ -17716,9 +17798,40 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/wuh294",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5289719",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "56164.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "56164_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "56164_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2934266.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2934267.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -17741,17 +17854,26 @@
     "achieved_at_approximate": false,
     "value_mhz": 5627.3,
     "hardware": {
-      "primary": "GIGABYTE",
-      "motherboard": null,
+      "primary": "GIGABYTE 16384 MB (DDR5-5600) - XMP 3.0 - P/N: ARS32G83D5",
+      "motherboard": "Gigabyte Z790 AORUS TACHYON",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "56273.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
+        "profile_url": null
+      },
+      {
+        "handle": "Sergmann",
+        "real_name": null,
+        "aliases": [],
+        "country": "DE",
         "profile_url": null
       }
     ],
@@ -17760,9 +17882,45 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/c549rm",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5290423",
+        "archived_url": null
+      },
+      {
+        "label": "YouTUbe",
+        "url": "https://www.youtube.com/shorts/Hwy_ovuNzKc",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "56273.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "56273_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "56273_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2934266.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2934267.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -17791,7 +17949,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3930.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "CENS",
@@ -17853,7 +18011,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3945.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Splave",
@@ -17920,7 +18078,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "3975.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "CENS",
@@ -18146,7 +18304,7 @@
       "cooling": "Liquid Helium"
     },
     "hero": "7s8pff.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -18273,17 +18431,26 @@
     "achieved_at_approximate": false,
     "value_mhz": 5809.2,
     "hardware": {
-      "primary": "GIGABYTE",
-      "motherboard": null,
+      "primary": "GIGABYTE 16384 MB (DDR5-5600) - XMP 3.0 - P/N: ARS32G83D5",
+      "motherboard": "Gigabyte Z790 AORUS TACHYON X",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "5809.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
         "real_name": null,
         "aliases": [],
         "country": "TW",
+        "profile_url": null
+      },
+      {
+        "handle": "TeamAU",
+        "real_name": null,
+        "aliases": [],
+        "country": "AU",
         "profile_url": null
       }
     ],
@@ -18292,9 +18459,30 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/r2950q",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5376447",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "5809.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5809_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "5809_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -18361,11 +18549,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 5824.2,
     "hardware": {
-      "primary": "GIGABYTE",
-      "motherboard": null,
+      "primary": "GIGABYTE 16384 MB (DDR5-5600)",
+      "motherboard": "Gigabyte Z790 AORUS TACHYON X",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "58242.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
@@ -18380,9 +18570,30 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/ymifzb",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5398462",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "58242.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5824_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "5824_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -18424,7 +18635,7 @@
     "hero": null,
     "tags": [],
     "notes": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20240129_3560/",
@@ -18491,7 +18702,7 @@
       "cooling": "Liquid Helium"
     },
     "hero": "1b4trw.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -18676,7 +18887,7 @@
       "cooling": null
     },
     "hero": null,
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Massman",
@@ -19114,7 +19325,7 @@
       "cooling": "Liquid Helium"
     },
     "hero": "qsu3g5.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Wytiwx",
@@ -19188,11 +19399,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 6363,
     "hardware": {
-      "primary": "V-Color",
-      "motherboard": null,
+      "primary": "V-Color Technology 24576 MB (DDR5-4800) P/N: TMXFL2496846KWK",
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "6363.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
@@ -19207,9 +19420,30 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/jmzdf3",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5764251",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "6363.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6363_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "6363_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -19276,11 +19510,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 6375.8,
     "hardware": {
-      "primary": "V-Color",
-      "motherboard": null,
+      "primary": "V-Color Technology 24576 MB (DDR5-4800) TMXFL2496846KWK",
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "63758.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
@@ -19295,9 +19531,30 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/509rn7",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5807921",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "63758.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "63758_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "63758_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -19325,6 +19582,8 @@
       "memory": null,
       "cooling": null
     },
+    "hero": "6381_cpuz.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
@@ -19339,9 +19598,30 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/vtcc01",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5814012",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "6381.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6381_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "6381_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -19546,7 +19826,7 @@
       "cooling": "Liquid Nitrogen"
     },
     "hero": "4250.png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "SkatterBencher",
@@ -19773,7 +20053,7 @@
       "cooling": "Liquid Helium"
     },
     "hero": "qg4yna[1].png",
-    "not_a_record": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Wytiwx",
@@ -19886,11 +20166,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 6504.9,
     "hardware": {
-      "primary": "Corsair",
-      "motherboard": null,
+      "primary": "Corsair 24576 MB CMK48GX5M2X8000C38",
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Sergmann",
@@ -19930,11 +20212,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 6517.4,
     "hardware": {
-      "primary": "A-Data",
-      "motherboard": null,
+      "primary": "A-Data Technology 24576 MB",
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "65174.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "HiCookie",
@@ -19949,9 +20233,35 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/zmiwvr",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5918843",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "65174.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "65174_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "65174_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3445927.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -19974,11 +20284,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 6605.7,
     "hardware": {
-      "primary": "Patriot",
-      "motherboard": null,
+      "primary": "Patriot Memory 24576 MB 8200 C38 Series",
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
       "cooling": null
     },
+    "hero": "66057.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "AiMax",
@@ -19995,9 +20307,45 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/ywfj06",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5921001",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "66057.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "66057_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "66057_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3448360.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3448361.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3448362.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],
@@ -20020,12 +20368,13 @@
     "achieved_at_approximate": false,
     "value_mhz": 6703.9,
     "hardware": {
-      "primary": "Corsair",
+      "primary": "Corsair 24576 MB CMK48GX5M2B7200C36",
       "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
     "hero": "6703.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Saltycroissant",
@@ -20040,6 +20389,11 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/9si282",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5929103",
+        "archived_url": null
       }
     ],
     "assets": [
@@ -20051,6 +20405,16 @@
       {
         "file": "6703_cpuz.png",
         "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "6703_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3457382.jpeg",
+        "type": "other",
         "caption": null
       }
     ],
@@ -20076,17 +20440,26 @@
     "achieved_at_approximate": false,
     "value_mhz": 6765.2,
     "hardware": {
-      "primary": "Corsair",
-      "motherboard": null,
+      "primary": "Corsair 24576 MB CMK48GX5M2X8000C38",
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "67652.png",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Sergmann",
         "real_name": null,
         "aliases": [],
         "country": "DE",
+        "profile_url": null
+      },
+      {
+        "handle": "HiCookie",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
         "profile_url": null
       }
     ],
@@ -20095,9 +20468,50 @@
         "label": "CPU-Z",
         "url": "https://valid.x86.fr/jn8tlb",
         "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5929126",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "67652.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "67652_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "67652_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3457406.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3457407.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3457408.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3457409.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "DDR5"
     ],

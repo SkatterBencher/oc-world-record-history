@@ -12,7 +12,7 @@
     "cooling": "LN2"
   },
   "hero": "P42400@4310.jpg",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Tamo",

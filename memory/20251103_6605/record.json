@@ -8,11 +8,13 @@
   "achieved_at_approximate": false,
   "value_mhz": 6605.7,
   "hardware": {
-    "primary": "Patriot",
-    "motherboard": null,
+    "primary": "Patriot Memory 24576 MB 8200 C38 Series",
+    "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
     "memory": null,
     "cooling": null
   },
+  "hero": "66057.png",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "AiMax",
@@ -29,9 +31,45 @@
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/ywfj06",
       "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5921001",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "66057.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "66057_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "66057_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3448360.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3448361.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3448362.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR5"
   ],

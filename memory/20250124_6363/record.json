@@ -8,11 +8,13 @@
   "achieved_at_approximate": false,
   "value_mhz": 6363,
   "hardware": {
-    "primary": "V-Color",
-    "motherboard": null,
+    "primary": "V-Color Technology 24576 MB (DDR5-4800) P/N: TMXFL2496846KWK",
+    "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "6363.png",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "HiCookie",
@@ -27,9 +29,30 @@
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/jmzdf3",
       "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5764251",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "6363.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6363_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "6363_hwbot.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR5"
   ],

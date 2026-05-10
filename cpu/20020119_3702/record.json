@@ -12,7 +12,7 @@
     "cooling": "Liquid Nitrogen"
   },
   "hero": "P42200@3703.jpg",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Anpanman",

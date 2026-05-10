@@ -8,12 +8,13 @@
   "achieved_at_approximate": false,
   "value_mhz": 6703.9,
   "hardware": {
-    "primary": "Corsair",
+    "primary": "Corsair 24576 MB CMK48GX5M2B7200C36",
     "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
   "hero": "6703.png",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Saltycroissant",
@@ -28,6 +29,11 @@
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/9si282",
       "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5929103",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -39,6 +45,16 @@
     {
       "file": "6703_cpuz.png",
       "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "6703_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3457382.jpeg",
+      "type": "other",
       "caption": null
     }
   ],

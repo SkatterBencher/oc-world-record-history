@@ -8,17 +8,26 @@
   "achieved_at_approximate": false,
   "value_mhz": 5809.2,
   "hardware": {
-    "primary": "GIGABYTE",
-    "motherboard": null,
+    "primary": "GIGABYTE 16384 MB (DDR5-5600) - XMP 3.0 - P/N: ARS32G83D5",
+    "motherboard": "Gigabyte Z790 AORUS TACHYON X",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "5809.png",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "HiCookie",
       "real_name": null,
       "aliases": [],
       "country": "TW",
+      "profile_url": null
+    },
+    {
+      "handle": "TeamAU",
+      "real_name": null,
+      "aliases": [],
+      "country": "AU",
       "profile_url": null
     }
   ],
@@ -27,9 +36,30 @@
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/r2950q",
       "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/5376447",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "5809.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "5809_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "5809_hwbot.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "DDR5"
   ],

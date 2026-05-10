@@ -12,7 +12,7 @@
     "cooling": "Liquid Nitrogen"
   },
   "hero": null,
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "TAM",

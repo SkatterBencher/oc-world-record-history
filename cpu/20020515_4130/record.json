@@ -6,13 +6,13 @@
   "achieved_at_approximate": false,
   "value_mhz": 4130.39,
   "hardware": {
-    "primary": "Intel Pentium 4 2.4G",
+    "primary": "Intel Pentium 4 2.4 GHz",
     "motherboard": "ASUS P4T533-C",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
   "hero": "413039.png",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Holicho",

@@ -11,6 +11,8 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": "P43000@4873.gif",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "TAM",
@@ -20,8 +22,25 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4872_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "P43000@4873.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

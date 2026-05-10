@@ -16,30 +16,24 @@
   "properties": {
     "uid": {
       "type": "string",
-      "pattern": "^[0-9]{8}_[0-9]+$",
-      "description": "Unique identifier: YYYYMMDD_valueMHz (no decimals, floor)"
+      "pattern": "^[0-9]{8}_[0-9]+(\\.[0-9]+)?(_[0-9]{2})?$",
+      "description": "Unique identifier: YYYYMMDD_valueMHz (integer part only). Collision suffix _01, _02 etc. appended by tooling when needed."
     },
     "category": {
       "type": "string",
-      "enum": [
-        "cpu",
-        "gpu",
-        "memory"
-      ]
+      "enum": ["cpu", "gpu", "memory"]
     },
     "subcategory": {
       "type": "array",
       "items": {
-        "type": [
-          "string",
-          "null"
-        ]
+        "type": "string"
       },
       "description": "Curated sub-timelines this record belongs to (e.g. ['dgpu', 'amd-dgpu'])"
     },
     "achieved_at": {
       "type": "string",
       "format": "date",
+      "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$",
       "description": "ISO 8601 date: YYYY-MM-DD"
     },
     "achieved_at_approximate": {
@@ -52,187 +46,121 @@
     },
     "hardware": {
       "type": "object",
-      "required": [
-        "primary"
-      ],
+      "required": ["primary"],
       "properties": {
         "primary": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "The overclocked component, e.g. Intel Core i9-14900KF"
         },
         "motherboard": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         },
         "memory": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         },
         "cooling": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         }
-      }
+      },
+      "additionalProperties": false
     },
     "overclockers": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": [
-          "handle"
-        ],
+        "required": ["handle"],
         "properties": {
           "handle": {
-            "type": [
-              "string",
-              "null"
-            ]
+            "type": "string",
+            "minLength": 1,
+            "description": "Required non-null, non-empty username/handle"
           },
           "real_name": {
-            "type": [
-              "string",
-              "null"
-            ]
+            "type": ["string", "null"]
           },
           "aliases": {
             "type": "array",
             "items": {
-              "type": [
-                "string",
-                "null"
-              ]
+              "type": "string"
             }
           },
           "country": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "description": "ISO 3166-1 alpha-2"
+            "type": ["string", "null"],
+            "pattern": "^[A-Z]{2}$",
+            "description": "ISO 3166-1 alpha-2 uppercase, e.g. 'US', 'TW', 'DE'"
           },
           "profile_url": {
-            "type": [
-              "string",
-              "null"
-            ]
+            "type": ["string", "null"]
           }
-        }
+        },
+        "additionalProperties": false
       }
     },
     "sources": {
       "type": "array",
+      "minItems": 1,
+      "description": "At least one source is required per record",
       "items": {
         "type": "object",
-        "required": [
-          "label",
-          "url"
-        ],
+        "required": ["label", "url"],
         "properties": {
           "label": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "url": {
-            "type": [
-              "string",
-              "null"
-            ],
+            "type": "string",
             "minLength": 1
           },
+          "url": {
+            "type": ["string", "null"]
+          },
           "archived_url": {
-            "type": [
-              "string",
-              "null"
-            ]
+            "type": ["string", "null"]
           }
-        }
+        },
+        "additionalProperties": false
       }
     },
     "assets": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "file",
-          "type"
-        ],
+        "required": ["file", "type"],
         "properties": {
           "file": {
-            "type": [
-              "string",
-              "null"
-            ]
+            "type": "string",
+            "minLength": 1
           },
           "type": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "enum": [
-              "cpuz",
-              "gpuz",
-              "validation",
-              "photo",
-              "other"
-            ]
+            "type": "string",
+            "enum": ["cpuz", "gpuz", "validation", "photo", "other"]
           },
           "caption": {
-            "type": [
-              "string",
-              "null"
-            ]
+            "type": ["string", "null"]
           }
-        }
+        },
+        "additionalProperties": false
       }
     },
     "tags": {
       "type": "array",
       "items": {
-        "type": [
-          "string",
-          "null"
-        ]
+        "type": "string"
       }
     },
     "notes": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": ["string", "null"]
     },
     "verified": {
       "type": "boolean"
     },
     "submitted_by": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": ["string", "null"]
     },
     "hero": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "description": "Filename of the hero image shown in the detail panel"
     },
     "not_a_record": {
-      "type": [
-        "boolean",
-        "null"
-      ],
+      "type": "boolean",
       "description": "Set to true to manually exclude this entry from the timeline. Add explanation in notes."
     }
   },

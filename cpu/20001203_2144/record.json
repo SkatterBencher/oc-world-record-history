@@ -12,7 +12,7 @@
     "cooling": null
   },
   "hero": "214452.jpg",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Mr. Kondo",

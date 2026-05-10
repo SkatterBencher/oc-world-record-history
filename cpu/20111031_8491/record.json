@@ -12,7 +12,7 @@
     "cooling": "Liquid Nitrogen"
   },
   "hero": "cpu-8491.jpg",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Chew*",

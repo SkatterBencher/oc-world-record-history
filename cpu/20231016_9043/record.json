@@ -12,7 +12,7 @@
     "cooling": "Liquid Helium"
   },
   "hero": "7s8pff.png",
-  "not_a_record": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Elmor",

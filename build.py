@@ -11,10 +11,12 @@ from the assets[] array, they are added automatically.
 import json
 import os
 import shutil
+import subprocess
 import sys
-from datetime import datetime, date          # FIX #3: moved to top
+from datetime import datetime, date
 from itertools import groupby
 from pathlib import Path
+
 try:
     from PIL import Image as PILImage
     PILLOW_AVAILABLE = True
@@ -32,16 +34,21 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── GENUINE RECORD FILTER ─────────────────────────────
 def get_subcategory(record):
-    """Always return subcategory as a list, regardless of stored type."""
+    """Always return subcategory as a list of non-null strings."""
     sub = record.get("subcategory")
-    if isinstance(sub, list): return sub
-    if isinstance(sub, str):  return [sub] if sub else []
+    if isinstance(sub, list):
+        return [s for s in sub if isinstance(s, str) and s]
+    if isinstance(sub, str):
+        return [sub] if sub else []
     return []
+
 
 def run_filter(records):
     """
     Walk records chronologically, return set of UIDs that are genuine records.
     Same-day multi-records are all kept (intra-day order confirmed by timestamps).
+    Two records with identical MHz on different days: only the first counts
+    (strict greater-than comparison).
     """
     genuine_uids = set()
     peak = 0
@@ -81,7 +88,7 @@ def filter_genuine_records(records):
     # Overall filter
     overall_genuine_uids = run_filter(active)
 
-    # Per-subcategory filters (guard against legacy null values)
+    # Per-subcategory filters (guard against legacy null/empty values)
     all_subcats = set(s for r in active for s in get_subcategory(r))
     subcat_genuine_uids = {}
     for subcat in all_subcats:
@@ -112,16 +119,19 @@ def filter_genuine_records(records):
 
     return genuine, excluded
 
+
 # ── IMAGE PROCESSING ──────────────────────────────────
 MAX_WIDTH    = 1200   # px — wider images get scaled down
 MAX_SIZE_KB  = 400    # KB — files under this skip resize (just convert)
 WEBP_QUALITY = 82     # 0-100
 
+
 def to_web_filename(filename):
     """Return the web-served filename (always .webp)."""
     return Path(filename).stem + ".webp"
 
-def process_image(src: Path, dest_dir: Path) -> Path | None:
+
+def process_image(src: Path, dest_dir: Path) -> "Path | None":
     """
     Convert src image to a web-optimised WebP in dest_dir.
     - Scales down if wider than MAX_WIDTH
@@ -169,25 +179,35 @@ def process_image(src: Path, dest_dir: Path) -> Path | None:
         return dest_dir / src.name
 
 
-records       = []
-errors        = []
-tag_index     = {}
-assets_copied = 0
-assets_synced = 0
+records        = []
+errors         = []
+tag_index      = {}
+assets_copied  = 0
+assets_skipped = 0
+assets_synced  = 0
+seen_uids      = {}  # uid -> path, for duplicate detection
+
 
 def guess_type(filename):
+    """
+    Guess asset type from filename. Priority order is explicit and documented:
+    cpuz > gpuz > validation > photo > other.
+    """
     name = filename.lower()
-    if "cpuz" in name or "cpu-z" in name:   return "cpuz"
-    if "gpuz" in name or "gpu-z" in name:   return "gpuz"
-    if "valid" in name:                      return "validation"
-    if "photo" in name or "event" in name:  return "photo"
+    if "cpuz" in name or "cpu-z" in name:  return "cpuz"
+    if "gpuz" in name or "gpu-z" in name:  return "gpuz"
+    if "valid" in name:                     return "validation"
+    if "photo" in name or "event" in name: return "photo"
     return "other"
+
 
 for category in CATEGORIES:
     cat_dir = ROOT / category
     if not cat_dir.exists():
         continue
     for record_dir in sorted(cat_dir.iterdir()):
+        if not record_dir.is_dir():
+            continue
         record_file = record_dir / "record.json"
         if not record_file.exists():
             continue
@@ -201,6 +221,14 @@ for category in CATEGORIES:
                 if field not in record:
                     raise ValueError(f"Missing required field: {field}")
 
+            # FIX #9: Duplicate UID detection
+            uid = record["uid"]
+            if uid in seen_uids:
+                raise ValueError(
+                    f"Duplicate UID '{uid}' — also found in {seen_uids[uid]}"
+                )
+            seen_uids[uid] = record_file
+
             # Discover all image files in the record folder
             image_files = sorted([
                 f for f in record_dir.iterdir()
@@ -208,7 +236,11 @@ for category in CATEGORIES:
             ])
 
             # Auto-sync: add any image files missing from assets[]
-            existing_filenames = {a["file"] for a in record.get("assets", [])}
+            # FIX: guard against malformed asset entries missing 'file' key
+            existing_filenames = {
+                a["file"] for a in record.get("assets", [])
+                if isinstance(a, dict) and a.get("file")
+            }
             new_assets = []
             for img in image_files:
                 if img.name not in existing_filenames:
@@ -220,7 +252,7 @@ for category in CATEGORIES:
 
             if new_assets:
                 record.setdefault("assets", []).extend(new_assets)
-                # Write back to record.json
+                # Write back to record.json (strip internal _ keys)
                 record_copy = {k: v for k, v in record.items() if not k.startswith("_")}
                 with open(record_file, "w", encoding="utf-8") as f:
                     json.dump(record_copy, f, indent=2, ensure_ascii=False)
@@ -231,18 +263,21 @@ for category in CATEGORIES:
                 dest_dir = ASSET_DIR / category / record_dir.name
                 dest_dir.mkdir(parents=True, exist_ok=True)
                 for img in image_files:
-                    web_copy = process_image(img, dest_dir)
-                    if web_copy:
+                    result = process_image(img, dest_dir)
+                    if result:
                         assets_copied += 1
+                    else:
+                        assets_skipped += 1
 
-            # FIX #2: use root-relative path so it works regardless of deploy subdirectory
+            # Use root-relative path so it works regardless of deploy subdirectory
             record["_asset_base"] = f"/assets/{category}/{record_dir.name}/"
 
             records.append(record)
 
-            # Build tag index
+            # Build tag index — skip null/empty tags
             for tag in record.get("tags", []):
-                tag_index.setdefault(tag, []).append(record["uid"])
+                if tag:
+                    tag_index.setdefault(tag, []).append(record["uid"])
 
         except Exception as e:
             errors.append(f"{record_file}: {e}")
@@ -256,6 +291,7 @@ if errors:
 # Apply genuine record filter per category (overall + per subcategory)
 all_excluded = []
 filtered_records = []
+# FIX #2: use a separator that can't appear in category names to avoid key collision
 subcat_index = {}  # category -> sorted list of subcategory names
 
 for cat in CATEGORIES:
@@ -302,10 +338,8 @@ with open(OUTPUT_DIR / "index.json", "w", encoding="utf-8") as f:
 with open(OUTPUT_DIR / "tags.json", "w", encoding="utf-8") as f:
     json.dump(tag_index, f, indent=2, ensure_ascii=False)
 
-# ── STATISTICS ──────────────────────────────────────────
-# FIX #1: compute_statistics now receives only genuine (filtered) records,
-#          so all counts reflect only records that actually appear in the timeline.
 
+# ── STATISTICS ────────────────────────────────────────
 def compute_statistics(records):
     """Compute all statistics from genuine records for pre-generated statistics.json"""
     stats = {}
@@ -373,14 +407,12 @@ def compute_statistics(records):
         key=lambda x: x["count"], reverse=True
     )
 
-    # Record longevity — computed per category using only _genuine_overall records,
-    # and per subcategory using only records genuine in that subcategory.
-    # FIX #1 (continued): gate each group on the appropriate genuine flag so that
-    # subcategory-only records don't skew the category-level longevity intervals.
+    # ── LONGEVITY ────────────────────────────────────────
+    # Category-level: only _genuine_overall records.
+    # Subcategory-level: only records genuine in that specific subcategory.
     today = date.today()
 
     def compute_longevity_for_group(group_records):
-        """Compute longevity for a sorted list of records."""
         results = []
         sorted_recs = sorted(group_records, key=lambda x: x["achieved_at"])
         for i, r in enumerate(sorted_recs):
@@ -391,100 +423,74 @@ def compute_statistics(records):
                 end_date = today
             days = (end_date - start_date).days
             results.append({
-                "uid": r["uid"],
-                "value_mhz": r["value_mhz"],
-                "hardware": r.get("hardware", {}).get("primary", "Unknown"),
+                "uid":         r["uid"],
+                "value_mhz":  r["value_mhz"],
+                "hardware":   r.get("hardware", {}).get("primary", "Unknown"),
                 "achieved_at": r["achieved_at"],
-                "days": days,
-                "is_current": i == len(sorted_recs) - 1
+                "days":        days,
+                "is_current":  i == len(sorted_recs) - 1,
             })
         return results
 
-    # Category-level longevity: only records that are genuine overall
-    categories = {}
+    # Category-level longevity
+    cat_groups = {}
     for r in records:
         if not r.get("_genuine_overall"):
             continue
         cat = r.get("category", "unknown")
-        if cat not in categories:
-            categories[cat] = []
-        categories[cat].append(r)
+        cat_groups.setdefault(cat, []).append(r)
 
-    # Subcategory-level longevity: only records genuine in that specific subcategory
-    subcategories = {}
+    # FIX #1: Subcategory longevity — keyed by (category, subcat) tuple to avoid
+    # collisions when category or subcategory names contain underscores.
+    subcat_groups = {}
     for r in records:
         genuine_in = r.get("_genuine_in", [])
-        subcats = r.get("subcategory", [])
-        if isinstance(subcats, str):
-            subcats = [subcats]
+        subcats = get_subcategory(r)
         for subcat in subcats:
             if subcat not in genuine_in:
                 continue
-            key = f"{r['category']}_{subcat}"
-            if key not in subcategories:
-                subcategories[key] = []
-            subcategories[key].append(r)
+            key = (r["category"], subcat)
+            subcat_groups.setdefault(key, []).append(r)
 
-    # Collect all longevity records
-    all_longevity = []
+    # Build a uid → best longevity entry map
+    # FIX #1 (continued): merge by uid across all groups; track category/subcat
+    # separately so there's no ambiguity.
+    record_max_longevity = {}  # uid -> entry dict
 
-    # Category-level longevity
-    for cat, cat_records in categories.items():
-        cat_longevity = compute_longevity_for_group(cat_records)
-        for entry in cat_longevity:
-            entry["category"] = cat
-            entry["subcategory"] = None
-        all_longevity.extend(cat_longevity)
+    def apply_longevity(entries, category, subcategory):
+        for entry in entries:
+            uid = entry["uid"]
+            candidate = {**entry, "category": category, "subcategory": subcategory}
+            existing = record_max_longevity.get(uid)
+            if existing is None or candidate["days"] > existing["days"]:
+                record_max_longevity[uid] = candidate
 
-    # Subcategory-level longevity
-    for key, subcat_records in subcategories.items():
-        subcat_longevity = compute_longevity_for_group(subcat_records)
-        parts = key.split("_", 1)
-        cat = parts[0]
-        subcat = parts[1] if len(parts) > 1 else ""
-        for entry in subcat_longevity:
-            existing = next((e for e in all_longevity if e["uid"] == entry["uid"] and e.get("subcategory") == subcat), None)
-            if existing:
-                if entry["days"] > existing["days"]:
-                    existing["days"] = entry["days"]
-                    existing["is_current"] = entry["is_current"]
-                    existing["subcategory"] = subcat
-            else:
-                entry["category"] = cat
-                entry["subcategory"] = subcat
-                all_longevity.append(entry)
+    for cat, group in cat_groups.items():
+        apply_longevity(compute_longevity_for_group(group), cat, None)
 
-    # For display, use the maximum longevity per record (either category or subcategory)
-    record_max_longevity = {}
-    for entry in all_longevity:
-        uid = entry["uid"]
-        if uid not in record_max_longevity or entry["days"] > record_max_longevity[uid]["days"]:
-            record_max_longevity[uid] = entry.copy()
+    for (cat, subcat), group in subcat_groups.items():
+        apply_longevity(compute_longevity_for_group(group), cat, subcat)
 
     longevity_list = list(record_max_longevity.values())
 
     # Current longest-standing record
     current_records = [r for r in longevity_list if r["is_current"]]
-    if current_records:
-        longest_current = max(current_records, key=lambda x: x["days"])
-        stats["longevity"] = {
-            "current_longest": longest_current
-        }
-    else:
-        stats["longevity"] = {"current_longest": None}
+    longest_current = max(current_records, key=lambda x: x["days"]) if current_records else None
+    stats["longevity"] = {"current_longest": longest_current}
 
-    # All-time longest-standing records (top 10)
-    all_time_longest = sorted(longevity_list, key=lambda x: x["days"], reverse=True)[:10]
-    stats["longevity"]["all_time_longest"] = all_time_longest
+    # All-time longest-standing (top 10)
+    stats["longevity"]["all_time_longest"] = sorted(
+        longevity_list, key=lambda x: x["days"], reverse=True
+    )[:10]
 
-    # All-time shortest-standing records (top 10, min 1 day, excluding current)
-    all_time_shortest = sorted(
+    # All-time shortest-standing (top 10, min 1 day, excluding current holders)
+    stats["longevity"]["all_time_shortest"] = sorted(
         [r for r in longevity_list if r["days"] >= 1 and not r["is_current"]],
         key=lambda x: x["days"]
     )[:10]
-    stats["longevity"]["all_time_shortest"] = all_time_shortest
 
     return stats
+
 
 print("Computing statistics...")
 statistics = compute_statistics(records)
@@ -494,25 +500,34 @@ with open(OUTPUT_DIR / "statistics.json", "w", encoding="utf-8") as f:
 
 print(f"Statistics written to {OUTPUT_DIR / 'statistics.json'}")
 
-
-# Generate sitemap.xml
-# FIX #12: Use real URL paths (not hash fragments) so search engines index them.
-# This requires the server to serve index.html for all these paths (SPA routing).
+# ── SITEMAP ───────────────────────────────────────────
 BASE_URL = "https://museum.skatterbencher.com"
 sitemap_urls = [
-    '  <url><loc>' + BASE_URL + '/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
-    '  <url><loc>' + BASE_URL + '/cpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
-    '  <url><loc>' + BASE_URL + '/gpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
-    '  <url><loc>' + BASE_URL + '/memory</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
-    '  <url><loc>' + BASE_URL + '/statistics</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
-    '  <url><loc>' + BASE_URL + '/about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>',
+    f'  <url><loc>{BASE_URL}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
+    f'  <url><loc>{BASE_URL}/cpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    f'  <url><loc>{BASE_URL}/gpu</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    f'  <url><loc>{BASE_URL}/memory</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>',
+    f'  <url><loc>{BASE_URL}/statistics</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+    f'  <url><loc>{BASE_URL}/about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>',
 ]
-sitemap_lines = '\n'.join(sitemap_urls)
-sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sitemap_lines + '\n</urlset>'
+# Include individual record pages
+for r in records:
+    sitemap_urls.append(
+        f'  <url><loc>{BASE_URL}/record/{r["uid"]}</loc>'
+        f'<changefreq>yearly</changefreq><priority>0.6</priority></url>'
+    )
+
+sitemap_xml = (
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + "\n".join(sitemap_urls)
+    + "\n</urlset>"
+)
 with open(ROOT / "site" / "sitemap.xml", "w", encoding="utf-8") as f:
     f.write(sitemap_xml)
+
 print(f"Built {len(records)} genuine records across {len(CATEGORIES)} categories")
 print(f"Excluded {len(all_excluded)} non-records (see site/data/excluded.json)")
 print(f"Tags found: {sorted(tag_index.keys())}")
-print(f"Assets copied: {assets_copied}, auto-synced to records: {assets_synced}")
+print(f"Assets: {assets_copied} converted, {assets_skipped} up-to-date, {assets_synced} auto-synced to records")
 print(f"Output: {OUTPUT_DIR}")

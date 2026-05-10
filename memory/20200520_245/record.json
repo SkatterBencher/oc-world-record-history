@@ -38,7 +38,7 @@
   "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": null,
+  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }
