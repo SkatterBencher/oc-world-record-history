@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2004-10-01",
   "achieved_at_approximate": false,
-  "value_mhz": 810.0,
+  "value_mhz": 810,
   "hardware": {
     "primary": "Ati Radeon X800 XT Platinum",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Macci",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "VR-Zone Forums",
+      "url": "http://www.vrforums.com/showthread.php?t=17063",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "ATI"

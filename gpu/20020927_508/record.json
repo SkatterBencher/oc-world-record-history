@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2002-09-27",
   "achieved_at_approximate": false,
-  "value_mhz": 508.0,
+  "value_mhz": 508,
   "hardware": {
     "primary": "Ati Radeon 9700 Pro",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "OPPainter",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "MadOnion",
+      "url": "http://service.madonion.com/compare?2k1=4602160",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "ATI"

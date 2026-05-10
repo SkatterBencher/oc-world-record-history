@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2004-05-07",
   "achieved_at_approximate": false,
-  "value_mhz": 715.0,
+  "value_mhz": 715,
   "hardware": {
     "primary": "Ati Radeon X800 XT Platinum",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Unknown",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Tweakers",
+      "url": "https://tweakers.net/nieuws/32310/ati-claimt-wereldrecordscore-van-15738-in-3dmark2003.html",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "ATI"

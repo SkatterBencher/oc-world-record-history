@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2007-02-04",
   "achieved_at_approximate": false,
-  "value_mhz": 570.0,
+  "value_mhz": 570,
   "hardware": {
     "primary": "NVIDIA GeForce 6100",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Tiborrr",
@@ -22,12 +24,16 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/575450_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2007-06-30",
   "achieved_at_approximate": false,
-  "value_mhz": 1168.0,
+  "value_mhz": 1168,
   "hardware": {
     "primary": "NVIDIA GeForce 7900 GTO",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "marcin88",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/619146_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVIDIA"

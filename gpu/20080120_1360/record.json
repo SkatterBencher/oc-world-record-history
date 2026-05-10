@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2008-01-20",
   "achieved_at_approximate": false,
-  "value_mhz": 1360.0,
+  "value_mhz": 1360,
   "hardware": {
     "primary": "AMD Radeon HD 2900 XT",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Hipro5",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/689701_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "AMD"

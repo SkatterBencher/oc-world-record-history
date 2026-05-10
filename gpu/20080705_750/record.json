@@ -6,28 +6,34 @@
   ],
   "achieved_at": "2008-07-05",
   "achieved_at_approximate": false,
-  "value_mhz": 750.0,
+  "value_mhz": 750,
   "hardware": {
     "primary": "ATI Radeon HD 3200 (RS780)",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Okorn",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "AR",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/750851_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

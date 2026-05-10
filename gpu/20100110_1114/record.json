@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2010-01-10",
   "achieved_at_approximate": false,
-  "value_mhz": 1114.0,
+  "value_mhz": 1114,
   "hardware": {
     "primary": "Intel HD Graphics (Clarkdale)",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Massman",
@@ -24,12 +26,16 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/942920_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2001-11-23",
   "achieved_at_approximate": false,
-  "value_mhz": 305.0,
+  "value_mhz": 305,
   "hardware": {
     "primary": "NVIDIA GeForce3",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Macci",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/guides/3DMark2001/page2.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVIDIA"

@@ -6,28 +6,34 @@
   ],
   "achieved_at": "2023-02-10",
   "achieved_at_approximate": false,
-  "value_mhz": 3100.0,
+  "value_mhz": 3100,
   "hardware": {
     "primary": "AMD Radeon Graphics (Raphael)",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Tobaganner",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "US",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/5197427_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

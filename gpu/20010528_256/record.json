@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2001-05-28",
   "achieved_at_approximate": false,
-  "value_mhz": 256.0,
+  "value_mhz": 256,
   "hardware": {
     "primary": "NVIDIA GeForce3",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Macci",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "GamersHQ",
+      "url": "http://gamershq.madonion.com/news/?newsarticle=200105/2001052800#200105/2001052800",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVIDIA"

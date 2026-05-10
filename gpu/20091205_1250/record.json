@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2009-12-05",
   "achieved_at_approximate": false,
-  "value_mhz": 1250.0,
+  "value_mhz": 1250,
   "hardware": {
     "primary": "ATI Radeon HD 4200",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Giorgioprimo",
@@ -22,12 +24,16 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/928307_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

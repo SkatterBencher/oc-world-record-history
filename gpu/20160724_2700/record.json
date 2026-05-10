@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2016-07-24",
   "achieved_at_approximate": false,
-  "value_mhz": 2700.0,
+  "value_mhz": 2700,
   "hardware": {
     "primary": "NVIDIA GeForce GTX 1080",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Xtreme Addict",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/3272037_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVDIA"

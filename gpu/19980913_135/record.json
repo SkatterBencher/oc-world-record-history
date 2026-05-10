@@ -6,13 +6,15 @@
   ],
   "achieved_at": "1998-09-13",
   "achieved_at_approximate": false,
-  "value_mhz": 135.0,
+  "value_mhz": 135,
   "hardware": {
     "primary": "NVIDIA Riva TNT",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "AnandTech",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "AnandTech",
+      "url": "https://www.anandtech.com/show/198",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVIDIA"

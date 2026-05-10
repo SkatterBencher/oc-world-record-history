@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2003-07-08",
   "achieved_at_approximate": false,
-  "value_mhz": 689.0,
+  "value_mhz": 689,
   "hardware": {
     "primary": "GeForce FX 5900 Ultra",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Macci",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Futuremark",
+      "url": "http://service.futuremark.com/compare?2k3=1013946",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVIDIA"

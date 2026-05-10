@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2008-06-09",
   "achieved_at_approximate": false,
-  "value_mhz": 725.0,
+  "value_mhz": 725,
   "hardware": {
     "primary": "NVIDIA GeForce 7150",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Demiurg",
@@ -22,12 +24,16 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/743677_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

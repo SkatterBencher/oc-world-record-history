@@ -6,28 +6,34 @@
   ],
   "achieved_at": "2008-09-02",
   "achieved_at_approximate": false,
-  "value_mhz": 880.0,
+  "value_mhz": 880,
   "hardware": {
     "primary": "ATI Radeon HD 3300",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Justapost",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "DE",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/768416_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

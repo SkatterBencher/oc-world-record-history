@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2003-05-30",
   "achieved_at_approximate": false,
-  "value_mhz": 567.0,
+  "value_mhz": 567,
   "hardware": {
     "primary": "Ati Radeon 9800 Pro",
     "motherboard": null,
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "OPPainter",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Futuremark",
+      "url": "http://service.futuremark.com/compare?2k1=6560991",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "ATI"

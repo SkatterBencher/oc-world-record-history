@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2006-06-11",
   "achieved_at_approximate": false,
-  "value_mhz": 1045.0,
+  "value_mhz": 1045,
   "hardware": {
     "primary": "NVIDIA GeForce 7900 GTX",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "K|ngp|n",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/3048776_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVIDIA"

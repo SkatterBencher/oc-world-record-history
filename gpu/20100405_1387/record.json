@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2010-04-05",
   "achieved_at_approximate": false,
-  "value_mhz": 1387.0,
+  "value_mhz": 1387,
   "hardware": {
     "primary": "Intel HD Graphics (Clarkdale)",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Moonman",
@@ -22,12 +24,16 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/984024_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
-  "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

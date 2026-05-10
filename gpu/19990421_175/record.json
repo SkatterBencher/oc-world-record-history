@@ -6,13 +6,15 @@
   ],
   "achieved_at": "1999-04-21",
   "achieved_at_approximate": false,
-  "value_mhz": 175.0,
+  "value_mhz": 175,
   "hardware": {
     "primary": "3DFX Voodoo3-2000",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "iXBT Labs",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Tweakers",
+      "url": "https://tweakers.net/nieuws/2027/nog-een-3dfx-voodoo3-2000-review.html",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "3DFX"

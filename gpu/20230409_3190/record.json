@@ -1,42 +1,40 @@
 {
-  "uid": "20051017_1006",
+  "uid": "20230409_3190",
   "category": "gpu",
   "subcategory": [
-    "dgpu"
+    "igp-cpu"
   ],
-  "achieved_at": "2005-10-17",
+  "achieved_at": "2023-04-09",
   "achieved_at_approximate": false,
-  "value_mhz": 1006,
+  "value_mhz": 3190,
   "hardware": {
-    "primary": "ATi Radeon X1800 XT",
+    "primary": "AMD Radeon Graphics (Raphael)",
     "motherboard": null,
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": null
   },
   "hero": null,
   "not_a_record": false,
   "overclockers": [
     {
-      "handle": "Sampsa",
+      "handle": "MSIMAX",
       "real_name": null,
       "aliases": [
-        "Muropaketti"
+        "AiMax"
       ],
-      "country": "FI",
+      "country": "US",
       "profile_url": null
     }
   ],
   "sources": [
     {
-      "label": "XtremeSystems",
-      "url": "http://www.xtremesystems.org/forums/showthread.php?77157-Radeon-X1800-XT-(GPU-1-GHz-Memory-1-GHz)",
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/5247079_",
       "archived_url": null
     }
   ],
   "assets": [],
-  "tags": [
-    "ATI"
-  ],
+  "tags": [],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

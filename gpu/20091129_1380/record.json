@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2009-11-29",
   "achieved_at_approximate": false,
-  "value_mhz": 1380.0,
+  "value_mhz": 1380,
   "hardware": {
     "primary": "AMD Radeon HD 5870",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Deanzo",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/926281_",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "AMD"

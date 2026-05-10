@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2002-07-20",
   "achieved_at_approximate": false,
-  "value_mhz": 409.0,
+  "value_mhz": 409,
   "hardware": {
     "primary": "NVIDIA GeForce 4 Ti 4600",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Kamu",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "MadOnion",
+      "url": "http://service.madonion.com/compare?2k1=3990219",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "NVIDIA"

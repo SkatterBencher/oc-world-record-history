@@ -1,18 +1,20 @@
 {
-  "uid": "20240129_3560",
+  "uid": "20240129_3860",
   "category": "gpu",
   "subcategory": [
     "igp-cpu"
   ],
   "achieved_at": "2024-01-29",
   "achieved_at_approximate": false,
-  "value_mhz": 3560.0,
+  "value_mhz": 3860,
   "hardware": {
     "primary": "AMD Radeon 780M (Phoenix 1)",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": "3860.png",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "普普通通Tony大叔",
@@ -22,12 +24,27 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
-  "hero": null,
+  "sources": [
+    {
+      "label": "Bilibili",
+      "url": "https://www.bilibili.com/video/BV1GN4y1n78w/?vd_source=571c1d3358be08fc62c4d4de9464094d",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "Screenshot (146).png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3860.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }
