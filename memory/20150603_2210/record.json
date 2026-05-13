@@ -1,0 +1,46 @@
+{
+  "uid": "20150603_2210",
+  "category": "memory",
+  "subcategory": [
+    "DDR4"
+  ],
+  "achieved_at": "2015-06-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 2210.8,
+  "hardware": {
+    "primary": "G.Skill",
+    "motherboard": "MSI X99A Xpower AC",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Hero",
+      "real_name": null,
+      "aliases": [],
+      "country": "CN",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/saqukv",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2882406",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

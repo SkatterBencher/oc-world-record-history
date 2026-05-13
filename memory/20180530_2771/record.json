@@ -9,10 +9,12 @@
   "value_mhz": 2771.5,
   "hardware": {
     "primary": "G.SKILL",
-    "motherboard": null,
+    "motherboard": "MSI Z370I Gaming Pro Carbon AC",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Toppc",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/xvw9gt",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/3869270",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

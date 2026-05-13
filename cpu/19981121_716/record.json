@@ -4,13 +4,15 @@
   "subcategory": [],
   "achieved_at": "1998-11-21",
   "achieved_at_approximate": false,
-  "value_mhz": 716.0,
+  "value_mhz": 716,
   "hardware": {
     "primary": "Intel Celeron 300A",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Katsuya",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Katsuya",
+      "url": "http://member.nifty.ne.jp:80/katsuya/199811report.htm#KONDOU_LN2",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

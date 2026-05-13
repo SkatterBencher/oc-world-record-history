@@ -32,7 +32,9 @@
     }
   ],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "DDR2"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

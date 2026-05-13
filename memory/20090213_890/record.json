@@ -13,6 +13,8 @@
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "YoungPro",
@@ -25,15 +27,15 @@
   "sources": [
     {
       "label": "CPU-Z Validation",
-      "url": "https://web.archive.org/web/20081216023734/http://ddr2-1508.gigabyte.com.tw/",
+      "url": "http://ddr2-1508.gigabyte.com.tw/",
       "archived_url": null
     }
   ],
   "assets": [],
-  "hero": null,
-  "tags": [],
+  "tags": [
+    "DDR2"
+  ],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

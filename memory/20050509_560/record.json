@@ -1,0 +1,41 @@
+{
+  "uid": "20050509_560",
+  "category": "memory",
+  "subcategory": [
+    "DDR2"
+  ],
+  "achieved_at": "2005-05-09",
+  "achieved_at_approximate": false,
+  "value_mhz": 560.7,
+  "hardware": {
+    "primary": "Centon",
+    "motherboard": "ASUS P5WD2-Premium",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Amin Soltani",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=16918",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR2"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

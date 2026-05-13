@@ -9,10 +9,12 @@
   "value_mhz": 4352.3,
   "hardware": {
     "primary": "G.SKILL",
-    "motherboard": null,
+    "motherboard": "ASUS ROG Maximus Z690 APEX",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Hocayu",
@@ -26,6 +28,11 @@
     {
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/nsis5i",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4846628",
       "archived_url": null
     }
   ],

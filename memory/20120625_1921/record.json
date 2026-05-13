@@ -13,6 +13,8 @@
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "John Lam",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "http://hwbot.org/news/7626_five_overclocking_records_achieved_with_g_skill_ddr3_memory_during_the_week_of_computex_2012",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR3"

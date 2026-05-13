@@ -9,10 +9,12 @@
   "value_mhz": 4335.4,
   "hardware": {
     "primary": "Kingston Fury",
-    "motherboard": null,
+    "motherboard": "MSI MEG Z690 Unify-X",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Kovan Yang",
@@ -28,6 +30,11 @@
     {
       "label": "CPU-Z",
       "url": "https://valid.x86.fr/71jih0",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4846771",
       "archived_url": null
     }
   ],

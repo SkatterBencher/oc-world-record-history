@@ -11,6 +11,8 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Duck",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?82284-New-WR-P4-670-7-533G",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

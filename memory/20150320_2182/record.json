@@ -1,0 +1,46 @@
+{
+  "uid": "20150320_2182",
+  "category": "memory",
+  "subcategory": [
+    "DDR4"
+  ],
+  "achieved_at": "2015-03-20",
+  "achieved_at_approximate": false,
+  "value_mhz": 2182.8,
+  "hardware": {
+    "primary": null,
+    "motherboard": "GIGABYTE X99-SOC Champion",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "HiCookie",
+      "real_name": null,
+      "aliases": [],
+      "country": "TW",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/84hjrg",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2799019",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

@@ -22,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Tomshardware",
+      "url": "https://www.tomshardware.com/reviews/overclocker,47.html",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2010-08-21",
   "achieved_at_approximate": false,
-  "value_mhz": 1534.0,
+  "value_mhz": 1534,
   "hardware": {
     "primary": "Corsair",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Marmott",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Hexus",
+      "url": "http://hexus.net/tech/news/ram/26080-kingston-breaks-memory-speed-record/",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR3"

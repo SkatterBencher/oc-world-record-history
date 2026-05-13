@@ -1,0 +1,46 @@
+{
+  "uid": "20150108_2126",
+  "category": "memory",
+  "subcategory": [
+    "DDR4"
+  ],
+  "achieved_at": "2015-01-08",
+  "achieved_at_approximate": false,
+  "value_mhz": 2126.6,
+  "hardware": {
+    "primary": "Kingston",
+    "motherboard": "MSI X99S Xpower AC",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Toppc",
+      "real_name": null,
+      "aliases": [],
+      "country": "TW",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/vuwc7x",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2725596",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

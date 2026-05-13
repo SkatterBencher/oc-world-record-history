@@ -13,6 +13,8 @@
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "_mat_",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Corsair",
+      "url": "http://www.corsair.com/zh-tw/company/press-release/corsair%20dominator%20gt%20gtx6%20breaks%20two%20ddr3%20memory%20speed%20world%20records",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR3"

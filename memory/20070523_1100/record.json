@@ -1,0 +1,41 @@
+{
+  "uid": "20070523_1100",
+  "category": "memory",
+  "subcategory": [
+    "DDR3"
+  ],
+  "achieved_at": "2007-05-23",
+  "achieved_at_approximate": false,
+  "value_mhz": 1100,
+  "hardware": {
+    "primary": "Micron",
+    "motherboard": "GIGABYTE P35T-DQ6",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "david",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/show_oc.php?id=200518",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

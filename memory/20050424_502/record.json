@@ -1,0 +1,41 @@
+{
+  "uid": "20050424_502",
+  "category": "memory",
+  "subcategory": [
+    "DDR2"
+  ],
+  "achieved_at": "2005-04-24",
+  "achieved_at_approximate": false,
+  "value_mhz": 502,
+  "hardware": {
+    "primary": "Corsair",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Nathan Kirsch",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=13881",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR2"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

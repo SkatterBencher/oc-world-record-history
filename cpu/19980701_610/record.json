@@ -4,13 +4,15 @@
   "subcategory": [],
   "achieved_at": "1998-07-01",
   "achieved_at_approximate": false,
-  "value_mhz": 610.0,
+  "value_mhz": 610,
   "hardware": {
     "primary": "Unknown",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Unknown",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Nifty",
+      "url": "http://www.nifty.ne.jp:80/forum/fextpup/fextpup1/mes_topics.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [],
   "notes": null,

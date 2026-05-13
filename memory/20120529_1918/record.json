@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2012-05-29",
   "achieved_at_approximate": false,
-  "value_mhz": 1918.5,
+  "value_mhz": 1918.4,
   "hardware": {
     "primary": "G.SKILL",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "TK-OC",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.canardpc.com/show_oc.php?id=2364839",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2287562",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR3"

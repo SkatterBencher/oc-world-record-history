@@ -1,7 +1,9 @@
 {
   "uid": "20041031_376",
   "category": "memory",
-  "subcategory": [],
+  "subcategory": [
+    "DDR2"
+  ],
   "achieved_at": "2004-10-31",
   "achieved_at_approximate": false,
   "value_mhz": 376.6,
@@ -40,7 +42,9 @@
       "caption": null
     }
   ],
-  "tags": [],
+  "tags": [
+    "DDR2"
+  ],
   "notes": null,
   "verified": false,
   "submitted_by": "skatterbencher"

@@ -9,10 +9,12 @@
   "value_mhz": 2397.7,
   "hardware": {
     "primary": "G.SKILL",
-    "motherboard": null,
+    "motherboard": "ASRock Z170 OC Formula",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "John Lam",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.canardpc.com/8qrr3p",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2940097",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

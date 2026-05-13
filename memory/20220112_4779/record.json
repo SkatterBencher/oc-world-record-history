@@ -13,16 +13,24 @@
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "lupin_no_musume",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "HK",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/59x029",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR5"

@@ -9,10 +9,12 @@
   "value_mhz": 4004.1,
   "hardware": {
     "primary": "GIGABYTE",
-    "motherboard": null,
+    "motherboard": "GIGABYTE Z690 Aorus Tachyon",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Unknown",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hw_reveal/status/1443936502883311620",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR5"

@@ -11,6 +11,8 @@
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "RYK",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Nifty",
+      "url": "http://www.nifty.ne.jp:80/forum/fextpup/fextpup1/spgp_02.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

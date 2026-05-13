@@ -4,13 +4,15 @@
   "subcategory": [],
   "achieved_at": "1996-11-18",
   "achieved_at_approximate": false,
-  "value_mhz": 266.0,
+  "value_mhz": 266,
   "hardware": {
     "primary": "Intel Pentium Pro 200 MHz",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Kryotech",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Computerwoche",
+      "url": "https://www.computerwoche.de/a/intel-ncr-ausgruendung-mit-schnellstem-pc,1110796",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

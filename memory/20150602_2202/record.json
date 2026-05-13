@@ -1,0 +1,46 @@
+{
+  "uid": "20150602_2202",
+  "category": "memory",
+  "subcategory": [
+    "DDR4"
+  ],
+  "achieved_at": "2015-06-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 2202.8,
+  "hardware": {
+    "primary": "G.Skill",
+    "motherboard": "ASRock X99M Killer/3.1",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "NickShih",
+      "real_name": null,
+      "aliases": [],
+      "country": "TW",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/tkslb7",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2881230",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

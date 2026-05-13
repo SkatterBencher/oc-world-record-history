@@ -31,7 +31,9 @@
   ],
   "assets": [],
   "hero": null,
-  "tags": [],
+  "tags": [
+    "DDR2"
+  ],
   "notes": null,
   "not_a_record": false,
   "verified": true,

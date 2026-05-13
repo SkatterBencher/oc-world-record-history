@@ -1,0 +1,41 @@
+{
+  "uid": "20020511_210",
+  "category": "memory",
+  "subcategory": [
+    "DDR"
+  ],
+  "achieved_at": "2002-05-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 210.4,
+  "hardware": {
+    "primary": null,
+    "motherboard": "EPoX EP-8K3A",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Kubokubo",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Kubokubo",
+      "url": "http://kubokubo.jp/memory/vm_pc2100_128mb/vm_pc2100_128mb.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

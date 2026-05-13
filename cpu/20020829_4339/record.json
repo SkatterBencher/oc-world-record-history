@@ -4,13 +4,15 @@
   "subcategory": [],
   "achieved_at": "2002-08-29",
   "achieved_at_approximate": false,
-  "value_mhz": 4339.0,
+  "value_mhz": 4339,
   "hardware": {
     "primary": "Intel Pentium 4 2.8 GHz",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Sampsa",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "OCRU",
+      "url": "https://www.overclockers.ru/hardnews/10476/Ekstremalnyj_razgon_po-finski..html",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "Intel"

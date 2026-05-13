@@ -14,6 +14,7 @@
     "cooling": null
   },
   "hero": "156.jpg",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Opt",
@@ -23,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Holicho WCPUID",
+      "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [
     {
       "file": "156.jpg",

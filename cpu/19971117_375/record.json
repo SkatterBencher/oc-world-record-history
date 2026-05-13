@@ -4,13 +4,15 @@
   "subcategory": [],
   "achieved_at": "1997-11-17",
   "achieved_at_approximate": false,
-  "value_mhz": 375.0,
+  "value_mhz": 375,
   "hardware": {
     "primary": "AMD K6 266",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Kryotech",
@@ -20,7 +22,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "Asahi-net",
+      "url": "http://www.asahi-net.or.jp/~kc2m-hrn/link8.htm",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "AMD"

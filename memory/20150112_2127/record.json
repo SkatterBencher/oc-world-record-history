@@ -1,0 +1,53 @@
+{
+  "uid": "20150112_2127",
+  "category": "memory",
+  "subcategory": [
+    "DDR4"
+  ],
+  "achieved_at": "2015-01-12",
+  "achieved_at_approximate": false,
+  "value_mhz": 2127.8,
+  "hardware": {
+    "primary": "G.Skill",
+    "motherboard": "ASUS ROG Rampage V Extreme",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Coolice",
+      "real_name": null,
+      "aliases": [],
+      "country": "MY",
+      "profile_url": null
+    },
+    {
+      "handle": "Shamino",
+      "real_name": null,
+      "aliases": [],
+      "country": "SG",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/zqe93e",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2730093",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

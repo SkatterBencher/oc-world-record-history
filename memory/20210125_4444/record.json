@@ -1,0 +1,46 @@
+{
+  "uid": "20210125_4444",
+  "category": "memory",
+  "subcategory": [
+    "DDR5"
+  ],
+  "achieved_at": "2021-01-25",
+  "achieved_at_approximate": false,
+  "value_mhz": 4444,
+  "hardware": {
+    "primary": "G.SKILL",
+    "motherboard": "ASUS ROG Maximus Z690 APEX",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "lupin_no_musume",
+      "real_name": null,
+      "aliases": [],
+      "country": "HK",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/qgvylc",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4913376",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR5"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

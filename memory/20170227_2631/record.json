@@ -9,10 +9,12 @@
   "value_mhz": 2631.4,
   "hardware": {
     "primary": "Teamgroup",
-    "motherboard": null,
+    "motherboard": "ASRock Z170M OC Formula",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Splave",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86.fr/3l9pv3",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/3471520",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

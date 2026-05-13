@@ -9,10 +9,12 @@
   "value_mhz": 3333.3,
   "hardware": {
     "primary": "Crucial",
-    "motherboard": null,
+    "motherboard": "vASUS ROG Strix B550-I Gaming",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Bianbao",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4526616",
+      "archived_url": null
+    },
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/k78wim",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

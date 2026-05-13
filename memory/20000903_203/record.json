@@ -1,0 +1,41 @@
+{
+  "uid": "20000903_203",
+  "category": "memory",
+  "subcategory": [
+    "SDR"
+  ],
+  "achieved_at": "2000-09-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 203.25,
+  "hardware": {
+    "primary": null,
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "哲",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Holicho WCPUID",
+      "url": "http://holicho.lib.net/wcpuid/wcpuid.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "SDR"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

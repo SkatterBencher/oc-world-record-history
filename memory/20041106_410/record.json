@@ -42,7 +42,9 @@
       "caption": null
     }
   ],
-  "tags": [],
+  "tags": [
+    "DDR2"
+  ],
   "notes": null,
   "verified": false,
   "submitted_by": "skatterbencher"

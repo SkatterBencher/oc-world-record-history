@@ -1,0 +1,41 @@
+{
+  "uid": "20020429_196",
+  "category": "memory",
+  "subcategory": [
+    "DDR"
+  ],
+  "achieved_at": "2002-04-29",
+  "achieved_at_approximate": false,
+  "value_mhz": 196.36,
+  "hardware": {
+    "primary": "Corsair",
+    "motherboard": "EPoX EP-8K3A",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Kubokubo",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Kubokubo",
+      "url": "http://kubokubo.jp/memory/corsair_cmx256a-3000c2/corsair_cmx256a-3000c2.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

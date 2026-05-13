@@ -9,10 +9,12 @@
   "value_mhz": 2765.6,
   "hardware": {
     "primary": "Adata",
-    "motherboard": null,
+    "motherboard": "MSI X299 Gaming Pro Carbon AC",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Kovan Yang",
@@ -24,7 +26,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/uyy7t0",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/3864950",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

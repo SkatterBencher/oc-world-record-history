@@ -9,10 +9,12 @@
   "value_mhz": 2630.4,
   "hardware": {
     "primary": "Teamgroup",
-    "motherboard": null,
+    "motherboard": "ASRock Z170M OC Formula",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Audigy",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86.fr/i72y3i",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/3422990",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

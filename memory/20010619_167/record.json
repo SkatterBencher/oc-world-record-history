@@ -1,0 +1,41 @@
+{
+  "uid": "20010619_167",
+  "category": "memory",
+  "subcategory": [
+    "DDR"
+  ],
+  "achieved_at": "2001-06-19",
+  "achieved_at_approximate": false,
+  "value_mhz": 167,
+  "hardware": {
+    "primary": "Crucial",
+    "motherboard": "MSI K7T266 Pro",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Kubokubo",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Kubokubo",
+      "url": "http://kubokubo.jp/memory/micron_pc2100_128mb/micron.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

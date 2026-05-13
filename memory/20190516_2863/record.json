@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2019-05-16",
   "achieved_at_approximate": false,
-  "value_mhz": 2863.0,
+  "value_mhz": 2863,
   "hardware": {
     "primary": "Crucial",
-    "motherboard": null,
+    "motherboard": "ASUS ROG Maximus XI Apex",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "OGS",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86.fr/cc42lc",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4156022",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

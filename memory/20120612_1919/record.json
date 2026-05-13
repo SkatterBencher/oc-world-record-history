@@ -1,0 +1,41 @@
+{
+  "uid": "20120612_1919",
+  "category": "memory",
+  "subcategory": [
+    "DDR3"
+  ],
+  "achieved_at": "2012-06-12",
+  "achieved_at_approximate": false,
+  "value_mhz": 1919.9,
+  "hardware": {
+    "primary": null,
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "John Lam",
+      "real_name": null,
+      "aliases": [],
+      "country": "HK",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/show_oc.php?id=2403402",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

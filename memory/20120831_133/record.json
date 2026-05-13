@@ -36,7 +36,9 @@
   ],
   "assets": [],
   "hero": null,
-  "tags": [],
+  "tags": [
+    "EDO"
+  ],
   "notes": null,
   "not_a_record": false,
   "verified": true,

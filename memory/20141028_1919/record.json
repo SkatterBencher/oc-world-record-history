@@ -1,0 +1,46 @@
+{
+  "uid": "20141028_1919",
+  "category": "memory",
+  "subcategory": [
+    "DDR4"
+  ],
+  "achieved_at": "2014-10-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 1919.5,
+  "hardware": {
+    "primary": "Corsair",
+    "motherboard": "GIGABYTE X99-SOC Champion",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Sofos1990",
+      "real_name": null,
+      "aliases": [],
+      "country": "GR",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.canardpc.com/b13edz",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/2661097",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR4"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

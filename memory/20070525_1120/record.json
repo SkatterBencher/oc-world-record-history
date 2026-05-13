@@ -1,0 +1,41 @@
+{
+  "uid": "20070525_1120",
+  "category": "memory",
+  "subcategory": [
+    "DDR3"
+  ],
+  "achieved_at": "2007-05-25",
+  "achieved_at_approximate": false,
+  "value_mhz": 1120.5,
+  "hardware": {
+    "primary": "Micron",
+    "motherboard": "ASUS P5K3 Deluxe",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "JtChen2002",
+      "real_name": null,
+      "aliases": [],
+      "country": "TW",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/show_oc.php?id=201221",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

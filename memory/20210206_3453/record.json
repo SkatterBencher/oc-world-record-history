@@ -9,10 +9,12 @@
   "value_mhz": 3453.1,
   "hardware": {
     "primary": "V-Color",
-    "motherboard": null,
+    "motherboard": "ASUS ROG Maximus XIII APEX",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Hocayu",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/2cm6ht",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4715110",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

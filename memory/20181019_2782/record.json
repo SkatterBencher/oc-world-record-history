@@ -9,20 +9,33 @@
   "value_mhz": 2782.9,
   "hardware": {
     "primary": "G.SKILL",
-    "motherboard": null,
+    "motherboard": "ASUS ROG Maximus XI Gene",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Hocayu",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "HK",
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/xqzmbk",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/3961384",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

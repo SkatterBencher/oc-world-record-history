@@ -9,10 +9,12 @@
   "value_mhz": 2879.4,
   "hardware": {
     "primary": "Crucial",
-    "motherboard": null,
+    "motherboard": "ASUS ROG Maximus XI Apex",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "OGS",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/6ah3c2",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4163872",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

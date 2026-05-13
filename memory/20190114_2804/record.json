@@ -9,10 +9,12 @@
   "value_mhz": 2804.4,
   "hardware": {
     "primary": "Kingston",
-    "motherboard": null,
+    "motherboard": "MSI MPG Z390I Gaming Edge AC",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Toppc",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/sbz1uy",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4039905",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

@@ -1,0 +1,41 @@
+{
+  "uid": "20070928_1226",
+  "category": "memory",
+  "subcategory": [
+    "DDR3"
+  ],
+  "achieved_at": "2007-09-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 1226,
+  "hardware": {
+    "primary": "Micron",
+    "motherboard": "ASUS P5E3 Deluxe",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "JtChen2002",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/show_oc.php?id=247862",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR3"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2017-06-06",
   "achieved_at_approximate": false,
-  "value_mhz": 2750.0,
+  "value_mhz": 2750,
   "hardware": {
     "primary": "G.SKILL",
-    "motherboard": null,
+    "motherboard": "MSI X299 Gaming Pro Carbon AC",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Toppc",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86.fr/2cbukj",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/3569827",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

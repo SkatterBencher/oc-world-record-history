@@ -1,0 +1,41 @@
+{
+  "uid": "20050802_600",
+  "category": "memory",
+  "subcategory": [
+    "DDR2"
+  ],
+  "achieved_at": "2005-08-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 600,
+  "hardware": {
+    "primary": "Corsair",
+    "motherboard": "ASUS P5WD2-Premium",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "TAM",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com/show_oc.php?id=30157",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [
+    "DDR2"
+  ],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

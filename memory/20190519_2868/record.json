@@ -9,10 +9,12 @@
   "value_mhz": 2868.8,
   "hardware": {
     "primary": "ADATA",
-    "motherboard": null,
+    "motherboard": "MSI MPG Z390I Gaming Edge AC",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Adata_XPG",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/tup30u",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4158384",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

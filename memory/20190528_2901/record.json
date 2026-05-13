@@ -9,10 +9,12 @@
   "value_mhz": 2901.4,
   "hardware": {
     "primary": "G.SKILL",
-    "motherboard": null,
+    "motherboard": "MSI MPG Z390I Gaming Edge AC",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Kovan Yang",
@@ -24,7 +26,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/dw0vzx",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4164168",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR4"

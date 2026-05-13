@@ -13,6 +13,8 @@
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "JtChen2002",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com:80/show_oc.php?id=247851",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR3"

@@ -9,10 +9,12 @@
   "value_mhz": 4124.2,
   "hardware": {
     "primary": "Kingston Fury",
-    "motherboard": null,
+    "motherboard": "ASRock Z690 AQUA OC",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Splave",
@@ -22,7 +24,18 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/b0u7q9",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/4846840",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR5"

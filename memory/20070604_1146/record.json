@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2007-06-04",
   "achieved_at_approximate": false,
-  "value_mhz": 1146.0,
+  "value_mhz": 1146,
   "hardware": {
     "primary": "Micron",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "P35TDQ6",
@@ -22,7 +24,13 @@
       "profile_url": null
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "http://valid.x86-secret.com:80/show_oc.php?id=204800",
+      "archived_url": null
+    }
+  ],
   "assets": [],
   "tags": [
     "DDR3"
