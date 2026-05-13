@@ -7,11 +7,11 @@
   "value_mhz": 1151.51,
   "hardware": {
     "primary": "AMD Athlon 700 MHz",
-    "motherboard": null,
+    "motherboard": "MS-6167",
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "115151.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,30 @@
       "label": "Eltrain",
       "url": "http://eltrain.web.fc2.com/pc/watasi1999_11.htm",
       "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "115151.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1151_eltrain.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1151_eltrain2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

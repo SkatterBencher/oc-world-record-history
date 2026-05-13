@@ -6,12 +6,12 @@
   "achieved_at_approximate": false,
   "value_mhz": 675,
   "hardware": {
-    "primary": "Unknown",
+    "primary": "Intel Pentium II 450 MHz",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "675.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,7 +29,23 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "675.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "675_eltrain.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "675_eltrain2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [],
   "notes": null,
   "verified": true,

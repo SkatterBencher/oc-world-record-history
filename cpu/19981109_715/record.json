@@ -12,11 +12,11 @@
     "cooling": null
   },
   "hero": null,
-  "not_a_record": false,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "Mr. Kondo",
-      "real_name": "近藤さん",
+      "real_name": "近藤茂さん",
       "aliases": [
         "ja0hxv"
       ],
@@ -28,6 +28,11 @@
     {
       "label": "Eltrain",
       "url": "http://eltrain.web.fc2.com/pc/watasi1998_11.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
       "archived_url": null
     }
   ],

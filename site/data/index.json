@@ -94,11 +94,11 @@
     "category": "cpu",
     "subcategory": [],
     "achieved_at": "1997-11-01",
-    "achieved_at_approximate": false,
+    "achieved_at_approximate": true,
     "value_mhz": 337.5,
     "hardware": {
-      "primary": "Intel Pentium II 300 Mhz",
-      "motherboard": null,
+      "primary": "Intel Pentium II 300 MHz",
+      "motherboard": "ABIT LX6",
       "memory": null,
       "cooling": null
     },
@@ -120,7 +120,13 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "233_siliconValley.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -224,10 +230,12 @@
     "value_mhz": 416.5,
     "hardware": {
       "primary": "Intel Pentium II 333 MHz",
-      "motherboard": null,
+      "motherboard": "ABIT LX6",
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Masashi",
@@ -237,8 +245,20 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "SiliconValley",
+        "url": "http://www.geocities.co.jp/SiliconValley-PaloAlto/2406/History.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "233_siliconValley.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -303,17 +323,17 @@
     "achieved_at_approximate": false,
     "value_mhz": 530,
     "hardware": {
-      "primary": "Intel Pentium II 400",
+      "primary": "Intel Pentium II 400 MHz",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "530.png",
     "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mega Pi",
-        "real_name": null,
+        "real_name": "でメガパイ",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -324,9 +344,30 @@
         "label": "Nifty",
         "url": "http://www.nifty.ne.jp:80/forum/fextpup/fextpup1/mes_topics.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "530.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "530_fextpup.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "610_fextpup.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -350,7 +391,7 @@
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "590.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -366,9 +407,30 @@
         "label": "Nifty",
         "url": "http://www.nifty.ne.jp:80/forum/fextpup/fextpup1/mes_topics.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "590.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "590_fextpup.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "610_fextpup.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [],
     "notes": null,
     "verified": true,
@@ -385,7 +447,7 @@
     "achieved_at_approximate": false,
     "value_mhz": 610,
     "hardware": {
-      "primary": "Unknown",
+      "primary": "Intel Pentium II 400 MHz",
       "motherboard": null,
       "memory": null,
       "cooling": null
@@ -406,9 +468,30 @@
         "label": "Nifty",
         "url": "http://www.nifty.ne.jp:80/forum/fextpup/fextpup1/mes_topics.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "610.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "610_fextpup.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "610_fextpup2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [],
     "notes": null,
     "verified": true,
@@ -426,11 +509,11 @@
     "value_mhz": 661.5,
     "hardware": {
       "primary": "Intel Pentium II 450 MHz",
-      "motherboard": null,
+      "motherboard": "AX6B",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "661_fextpup2.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -448,7 +531,18 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "661_fextpup.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "661_fextpup2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -467,12 +561,12 @@
     "achieved_at_approximate": false,
     "value_mhz": 675,
     "hardware": {
-      "primary": "Unknown",
+      "primary": "Intel Pentium II 450 MHz",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "675.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -490,7 +584,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "675.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "675_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "675_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [],
     "notes": null,
     "verified": true,
@@ -546,12 +656,12 @@
     ]
   },
   {
-    "uid": "19981007_698",
+    "uid": "19981007_689",
     "category": "cpu",
     "subcategory": [],
     "achieved_at": "1998-10-07",
     "achieved_at_approximate": false,
-    "value_mhz": 698.88,
+    "value_mhz": 689.88,
     "hardware": {
       "primary": "Intel Celeron 300A",
       "motherboard": null,
@@ -574,81 +684,58 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1998_10.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "689.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "689_eltrain2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "698_eltrain.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/19981007_698/",
+    "_asset_base": "/assets/cpu/19981007_689/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
   {
-    "uid": "19981109_715",
+    "uid": "19981109_716",
     "category": "cpu",
     "subcategory": [],
     "achieved_at": "1998-11-09",
     "achieved_at_approximate": false,
-    "value_mhz": 715.95,
+    "value_mhz": 716,
     "hardware": {
       "primary": "Intel Celeron 300A",
-      "motherboard": null,
+      "motherboard": "ASUS P2B-F",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "716_2.png",
     "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. Kondo",
-        "real_name": "近藤さん",
-        "aliases": [
-          "ja0hxv"
-        ],
-        "country": "JP",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "Eltrain",
-        "url": "http://eltrain.web.fc2.com/pc/watasi1998_11.htm",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/19981109_715/",
-    "_genuine_overall": true,
-    "_genuine_in": []
-  },
-  {
-    "uid": "19981121_716",
-    "category": "cpu",
-    "subcategory": [],
-    "achieved_at": "1998-11-21",
-    "achieved_at_approximate": false,
-    "value_mhz": 716,
-    "hardware": {
-      "primary": "Intel Celeron 300A",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Katsuya",
         "real_name": null,
         "aliases": [],
         "country": "JP",
@@ -660,16 +747,92 @@
         "label": "Katsuya",
         "url": "http://member.nifty.ne.jp:80/katsuya/199811report.htm#KONDOU_LN2",
         "archived_url": null
+      },
+      {
+        "label": "Katsuya",
+        "url": "http://member.nifty.ne.jp/katsuya/cpu_cool_p2.htm#LN2",
+        "archived_url": null
+      },
+      {
+        "label": "Eltrain",
+        "url": "http://eltrain.web.fc2.com/pc/watasi1998_11.htm",
+        "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "716.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "716_katsuya.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "716_katsuya2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "716_katsuya_b.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kondou_ln01.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kondou_ln02.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kondou_ln03.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kondou_ln04.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kondou_ln05.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "716_2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "716_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "716_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/19981121_716/",
+    "_asset_base": "/assets/cpu/19981109_716/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -682,11 +845,11 @@
     "value_mhz": 724.5,
     "hardware": {
       "primary": "Intel Celeron 300A",
-      "motherboard": null,
+      "motherboard": "P2B",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "7245.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -704,9 +867,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1998_12.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "7245.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "7245_eltrain2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "743_eltrain.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -726,11 +910,11 @@
     "value_mhz": 743.4,
     "hardware": {
       "primary": "Intel Celeron 300A",
-      "motherboard": null,
+      "motherboard": "P2B",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "743.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -748,9 +932,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1998_12.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "743.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "743_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "743_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -770,11 +975,11 @@
     "value_mhz": 759.16,
     "hardware": {
       "primary": "Intel Celeron 300A",
-      "motherboard": null,
+      "motherboard": "P2B-B",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "75916.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -792,9 +997,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_1.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "75916.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "759_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "759_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -814,11 +1040,11 @@
     "value_mhz": 808.49,
     "hardware": {
       "primary": "Intel Celeron 366",
-      "motherboard": null,
-      "memory": null,
+      "motherboard": "P2B",
+      "memory": "SDRAM128MB(TC-10P)",
       "cooling": null
     },
-    "hero": null,
+    "hero": "80849.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -834,9 +1060,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_2.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "80849.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "808_eltrain2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "811_eltrain.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -856,11 +1103,11 @@
     "value_mhz": 811.92,
     "hardware": {
       "primary": "Intel Celeron 333",
-      "motherboard": null,
-      "memory": null,
+      "motherboard": "P2B-B",
+      "memory": "SDRAM128MB(TC-10P)",
       "cooling": null
     },
-    "hero": null,
+    "hero": "811.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -878,9 +1125,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_2.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "811.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "811_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "811_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -900,11 +1168,11 @@
     "value_mhz": 822,
     "hardware": {
       "primary": "Intel Celeron 333",
-      "motherboard": null,
-      "memory": null,
+      "motherboard": "P2B-B",
+      "memory": "SDRAM32MB(LTC-10P)",
       "cooling": null
     },
-    "hero": null,
+    "hero": "822.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -922,9 +1190,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_3.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "822.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "822_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "822_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -944,16 +1233,16 @@
     "value_mhz": 849.85,
     "hardware": {
       "primary": "Intel Celeron 366",
-      "motherboard": null,
-      "memory": null,
+      "motherboard": "P2B",
+      "memory": "SDRAM128MB(TC-10P)",
       "cooling": null
     },
-    "hero": null,
+    "hero": "849.png",
     "not_a_record": false,
     "overclockers": [
       {
         "handle": "Mr. Funano",
-        "real_name": null,
+        "real_name": "府野さん",
         "aliases": [],
         "country": "JP",
         "profile_url": null
@@ -964,9 +1253,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_3.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "849.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "849_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "849_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1032,11 +1342,11 @@
     "value_mhz": 921.16,
     "hardware": {
       "primary": "Intel Celeron 466",
-      "motherboard": null,
-      "memory": null,
+      "motherboard": "P2B-B",
+      "memory": "SDRAM32MB(LTC-10P)",
       "cooling": null
     },
-    "hero": null,
+    "hero": "92116.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -1054,9 +1364,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_6.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "92116.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "921_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "921_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1076,11 +1407,11 @@
     "value_mhz": 1082.11,
     "hardware": {
       "primary": "AMD Athlon 650 MHz",
-      "motherboard": null,
-      "memory": null,
+      "motherboard": "MS-6167",
+      "memory": "SDRAM128MB(HY,TC-10P)",
       "cooling": null
     },
-    "hero": null,
+    "hero": "1082.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -1098,9 +1429,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_10.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1082.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1082_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1082_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -1120,11 +1472,11 @@
     "value_mhz": 1151.51,
     "hardware": {
       "primary": "AMD Athlon 700 MHz",
-      "motherboard": null,
+      "motherboard": "MS-6167",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "115151.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -1142,9 +1494,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_11.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "115151.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1151_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1151_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -1214,7 +1587,7 @@
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "1238.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -1232,9 +1605,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_11.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1238.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1238_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1238_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1255,10 +1649,10 @@
     "hardware": {
       "primary": "Intel Pentium III 733ES",
       "motherboard": null,
-      "memory": null,
+      "memory": "LTC-10P 32MB",
       "cooling": null
     },
-    "hero": null,
+    "hero": "1264.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -1269,6 +1663,13 @@
         ],
         "country": "JP",
         "profile_url": null
+      },
+      {
+        "handle": "Anpanman",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
       }
     ],
     "sources": [
@@ -1276,9 +1677,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_11.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1264.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1264_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1264_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -1299,10 +1721,10 @@
     "hardware": {
       "primary": "Intel Pentium III 750",
       "motherboard": null,
-      "memory": null,
+      "memory": "LTC-10P 32MB",
       "cooling": null
     },
-    "hero": null,
+    "hero": "1286.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -1318,9 +1740,30 @@
         "label": "Eltrain",
         "url": "http://eltrain.web.fc2.com/pc/watasi1999_12.htm",
         "archived_url": null
+      },
+      {
+        "label": "Nifty Fextpup",
+        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1286.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1286_eltrain.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1286_eltrain2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],

@@ -6,7 +6,7 @@
   "achieved_at_approximate": false,
   "value_mhz": 610,
   "hardware": {
-    "primary": "Unknown",
+    "primary": "Intel Pentium II 400 MHz",
     "motherboard": null,
     "memory": null,
     "cooling": null
@@ -27,9 +27,30 @@
       "label": "Nifty",
       "url": "http://www.nifty.ne.jp:80/forum/fextpup/fextpup1/mes_topics.htm",
       "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "610.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "610_fextpup.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "610_fextpup2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [],
   "notes": null,
   "verified": true,

@@ -7,11 +7,11 @@
   "value_mhz": 661.5,
   "hardware": {
     "primary": "Intel Pentium II 450 MHz",
-    "motherboard": null,
+    "motherboard": "AX6B",
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "661_fextpup2.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,7 +29,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "661_fextpup.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "661_fextpup2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

@@ -7,11 +7,11 @@
   "value_mhz": 759.16,
   "hardware": {
     "primary": "Intel Celeron 300A",
-    "motherboard": null,
+    "motherboard": "P2B-B",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "75916.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,30 @@
       "label": "Eltrain",
       "url": "http://eltrain.web.fc2.com/pc/watasi1999_1.htm",
       "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "75916.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "759_eltrain.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "759_eltrain2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

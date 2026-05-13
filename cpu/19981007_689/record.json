@@ -1,0 +1,60 @@
+{
+  "uid": "19981007_689",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "1998-10-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 689.88,
+  "hardware": {
+    "primary": "Intel Celeron 300A",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "KAZ",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Eltrain",
+      "url": "http://eltrain.web.fc2.com/pc/watasi1998_10.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Nifty",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "689.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "689_eltrain2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "698_eltrain.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "Intel"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

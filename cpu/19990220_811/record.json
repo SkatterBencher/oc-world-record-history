@@ -7,11 +7,11 @@
   "value_mhz": 811.92,
   "hardware": {
     "primary": "Intel Celeron 333",
-    "motherboard": null,
-    "memory": null,
+    "motherboard": "P2B-B",
+    "memory": "SDRAM128MB(TC-10P)",
     "cooling": null
   },
-  "hero": null,
+  "hero": "811.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,30 @@
       "label": "Eltrain",
       "url": "http://eltrain.web.fc2.com/pc/watasi1999_2.htm",
       "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "811.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "811_eltrain.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "811_eltrain2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

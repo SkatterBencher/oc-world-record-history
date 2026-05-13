@@ -7,10 +7,12 @@
   "value_mhz": 416.5,
   "hardware": {
     "primary": "Intel Pentium II 333 MHz",
-    "motherboard": null,
+    "motherboard": "ABIT LX6",
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Masashi",
@@ -20,8 +22,20 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "SiliconValley",
+      "url": "http://www.geocities.co.jp/SiliconValley-PaloAlto/2406/History.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "233_siliconValley.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

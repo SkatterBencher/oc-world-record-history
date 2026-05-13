@@ -7,11 +7,11 @@
   "value_mhz": 808.49,
   "hardware": {
     "primary": "Intel Celeron 366",
-    "motherboard": null,
-    "memory": null,
+    "motherboard": "P2B",
+    "memory": "SDRAM128MB(TC-10P)",
     "cooling": null
   },
-  "hero": null,
+  "hero": "80849.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -27,9 +27,30 @@
       "label": "Eltrain",
       "url": "http://eltrain.web.fc2.com/pc/watasi1999_2.htm",
       "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "80849.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "808_eltrain2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "811_eltrain.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

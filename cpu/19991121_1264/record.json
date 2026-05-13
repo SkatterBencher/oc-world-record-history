@@ -8,10 +8,10 @@
   "hardware": {
     "primary": "Intel Pentium III 733ES",
     "motherboard": null,
-    "memory": null,
+    "memory": "LTC-10P 32MB",
     "cooling": null
   },
-  "hero": null,
+  "hero": "1264.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -22,6 +22,13 @@
       ],
       "country": "JP",
       "profile_url": null
+    },
+    {
+      "handle": "Anpanman",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
     }
   ],
   "sources": [
@@ -29,9 +36,30 @@
       "label": "Eltrain",
       "url": "http://eltrain.web.fc2.com/pc/watasi1999_11.htm",
       "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1264.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1264_eltrain.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1264_eltrain2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

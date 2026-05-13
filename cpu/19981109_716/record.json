@@ -1,0 +1,115 @@
+{
+  "uid": "19981109_716",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "1998-11-09",
+  "achieved_at_approximate": false,
+  "value_mhz": 716,
+  "hardware": {
+    "primary": "Intel Celeron 300A",
+    "motherboard": "ASUS P2B-F",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "716_2.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Mr. Kondo",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Katsuya",
+      "url": "http://member.nifty.ne.jp:80/katsuya/199811report.htm#KONDOU_LN2",
+      "archived_url": null
+    },
+    {
+      "label": "Katsuya",
+      "url": "http://member.nifty.ne.jp/katsuya/cpu_cool_p2.htm#LN2",
+      "archived_url": null
+    },
+    {
+      "label": "Eltrain",
+      "url": "http://eltrain.web.fc2.com/pc/watasi1998_11.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Nifty Fextpup",
+      "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "716.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "716_katsuya.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "716_katsuya2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "716_katsuya_b.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kondou_ln01.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kondou_ln02.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kondou_ln03.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kondou_ln04.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kondou_ln05.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "716_2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "716_eltrain.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "716_eltrain2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "Intel"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}
