@@ -1,0 +1,48 @@
+{
+  "uid": "19960825_225",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "1996-08-25",
+  "achieved_at_approximate": false,
+  "value_mhz": 225.5,
+  "hardware": {
+    "primary": "Intel Pentium 166 MHz",
+    "motherboard": "PINE PT7502",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": "225.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Richard Miles",
+      "real_name": "Richard Miles",
+      "aliases": [],
+      "country": "GB",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Sysdoc",
+      "url": "http://www.sysdoc.pair.com/p225.txt",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "225.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "225_sysdoc.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

@@ -1,9 +1,60 @@
 [
   {
-    "uid": "19960801_233",
+    "uid": "19960825_225",
     "category": "cpu",
     "subcategory": [],
-    "achieved_at": "1996-08-01",
+    "achieved_at": "1996-08-25",
+    "achieved_at_approximate": false,
+    "value_mhz": 225.5,
+    "hardware": {
+      "primary": "Intel Pentium 166 MHz",
+      "motherboard": "PINE PT7502",
+      "memory": null,
+      "cooling": null
+    },
+    "hero": "225.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Richard Miles",
+        "real_name": "Richard Miles",
+        "aliases": [],
+        "country": "GB",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Sysdoc",
+        "url": "http://www.sysdoc.pair.com/p225.txt",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "225.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "225_sysdoc.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/cpu/19960825_225/",
+    "_genuine_overall": true,
+    "_genuine_in": []
+  },
+  {
+    "uid": "19960830_233",
+    "category": "cpu",
+    "subcategory": [],
+    "achieved_at": "1996-08-30",
     "achieved_at_approximate": true,
     "value_mhz": 233,
     "hardware": {
@@ -43,7 +94,7 @@
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/19960801_233/",
+    "_asset_base": "/assets/cpu/19960830_233/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -166,9 +217,40 @@
         "label": "Asahi-net",
         "url": "http://www.asahi-net.or.jp/~kc2m-hrn/link8.htm",
         "archived_url": null
+      },
+      {
+        "label": "Tom's Hardware",
+        "url": "http://www.tomshardware.com/kryotech.html",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "375_thg.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kryo1.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kryo2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kryo3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kryo4.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],

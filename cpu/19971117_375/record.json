@@ -27,9 +27,40 @@
       "label": "Asahi-net",
       "url": "http://www.asahi-net.or.jp/~kc2m-hrn/link8.htm",
       "archived_url": null
+    },
+    {
+      "label": "Tom's Hardware",
+      "url": "http://www.tomshardware.com/kryotech.html",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "375_thg.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kryo1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kryo2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kryo3.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kryo4.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],
