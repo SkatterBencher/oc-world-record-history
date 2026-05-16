@@ -522,38 +522,33 @@
     "_genuine_in": []
   },
   {
-    "uid": "19980701_610",
+    "uid": "19980524_610",
     "category": "cpu",
     "subcategory": [],
-    "achieved_at": "1998-07-01",
+    "achieved_at": "1998-05-24",
     "achieved_at_approximate": false,
-    "value_mhz": 610,
+    "value_mhz": 610.6,
     "hardware": {
       "primary": "Intel Pentium II 400 MHz",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
+      "motherboard": "UMAX UDBX-A Rev.X3 ",
+      "memory": "PC100 simple SD-RAM 32MBx1 (Chip: FUJITSU)",
+      "cooling": "Dry Ice"
     },
-    "hero": null,
+    "hero": "610.png",
     "not_a_record": false,
     "overclockers": [
       {
-        "handle": "Unknown",
+        "handle": "Katsuya",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
     "sources": [
       {
-        "label": "Nifty",
-        "url": "http://www.nifty.ne.jp:80/forum/fextpup/fextpup1/mes_topics.htm",
-        "archived_url": null
-      },
-      {
-        "label": "Nifty Fextpup",
-        "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
+        "label": "Blog",
+        "url": "http://member.nifty.ne.jp/katsuya/199805report.htm",
         "archived_url": null
       }
     ],
@@ -564,21 +559,36 @@
         "caption": null
       },
       {
-        "file": "610_fextpup.png",
+        "file": "610_katsuya.png",
         "type": "other",
         "caption": null
       },
       {
-        "file": "610_fextpup2.png",
+        "file": "610_katsuya2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "610_katsuya3.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "udbx400cool.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "udbx400temp.jpg",
         "type": "other",
         "caption": null
       }
     ],
     "tags": [],
     "notes": null,
-    "verified": true,
+    "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/cpu/19980701_610/",
+    "_asset_base": "/assets/cpu/19980524_610/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -692,14 +702,14 @@
     "_genuine_in": []
   },
   {
-    "uid": "19980913_135",
+    "uid": "19980913_125",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
     "achieved_at": "1998-09-13",
     "achieved_at_approximate": false,
-    "value_mhz": 135,
+    "value_mhz": 125,
     "hardware": {
       "primary": "NVIDIA Riva TNT",
       "motherboard": null,
@@ -724,14 +734,25 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "125_anandtech.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "125_anandtech2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/19980913_135/",
+    "_asset_base": "/assets/gpu/19980913_125/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -24420,5 +24441,83 @@
     "_genuine_in": [
       "DDR5"
     ]
+  },
+  {
+    "uid": "20260422_9206",
+    "category": "cpu",
+    "subcategory": [],
+    "achieved_at": "2026-04-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 9206.34,
+    "hardware": {
+      "primary": "Intel Core i9-14900KF",
+      "motherboard": "Asus ROG MAXIMUS Z790 APEX",
+      "memory": null,
+      "cooling": "Liquid Helium"
+    },
+    "hero": "9206.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Wytiwx",
+        "real_name": null,
+        "aliases": [
+          "wytiwx"
+        ],
+        "country": "CN",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/y46y9m",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/cpu_frequency/submissions/6020275",
+        "archived_url": null
+      },
+      {
+        "label": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV17x5Q67EqE?buvid=YE4A1AEE11A2AC354F82BE4C1CAFEFCCA41B",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "9206.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "9206_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "9206_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3561468.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_3561469.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/cpu/20260422_9206/",
+    "_genuine_overall": true,
+    "_genuine_in": []
   }
 ]

@@ -1,0 +1,45 @@
+{
+  "uid": "19981215_125",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "1998-12-15",
+  "achieved_at_approximate": false,
+  "value_mhz": 125,
+  "hardware": {
+    "primary": "3Dfx Banshee",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": true,
+  "overclockers": [
+    {
+      "handle": "Eric van Ballegoie",
+      "real_name": "Eric van Ballegoie",
+      "aliases": [],
+      "country": "NL",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Fastgraphics",
+      "url": "http://www.fastgraphics.com/reviews/98/11/rev-cards-1.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "125_fastgraphics.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

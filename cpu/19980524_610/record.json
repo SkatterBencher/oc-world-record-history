@@ -1,0 +1,68 @@
+{
+  "uid": "19980524_610",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "1998-05-24",
+  "achieved_at_approximate": false,
+  "value_mhz": 610.6,
+  "hardware": {
+    "primary": "Intel Pentium II 400 MHz",
+    "motherboard": "UMAX UDBX-A Rev.X3 ",
+    "memory": "PC100 simple SD-RAM 32MBx1 (Chip: FUJITSU)",
+    "cooling": "Dry Ice"
+  },
+  "hero": "610.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Katsuya",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://member.nifty.ne.jp/katsuya/199805report.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "610.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "610_katsuya.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "610_katsuya2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "610_katsuya3.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "udbx400cool.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "udbx400temp.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}
