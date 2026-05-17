@@ -1,26 +1,26 @@
 {
-  "uid": "19991112_195",
+  "uid": "19991112_205",
   "category": "gpu",
   "subcategory": [
     "dgpu"
   ],
   "achieved_at": "1999-11-12",
   "achieved_at_approximate": false,
-  "value_mhz": 195,
+  "value_mhz": 205,
   "hardware": {
     "primary": "NVIDIA Riva TNT2 Ultra",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "205.png",
   "not_a_record": false,
   "overclockers": [
     {
-      "handle": "Unknown",
+      "handle": "Vince Freeman",
       "real_name": null,
       "aliases": [],
-      "country": null,
+      "country": "US",
       "profile_url": null
     }
   ],
@@ -31,7 +31,23 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "195_sharky.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "205.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "205_sharky.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

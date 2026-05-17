@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "256.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,53 @@
   ],
   "sources": [
     {
-      "label": "GamersHQ",
+      "label": "GamersHQ News",
       "url": "http://gamershq.madonion.com/news/?newsarticle=200105/2001052800#200105/2001052800",
+      "archived_url": null
+    },
+    {
+      "label": "GamersHQ ORB",
+      "url": "http://gamershq.madonion.com/compare2k1.shtml?966303",
+      "archived_url": null
+    },
+    {
+      "label": "Tweakers",
+      "url": "https://tweakers.net/nieuws/17076/extreme-geforce3-overclocking.html",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "256.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "256_gamershq.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "7793marks.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "991069323.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "gf3_02.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "nocase.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

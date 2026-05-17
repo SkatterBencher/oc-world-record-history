@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "125.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -39,6 +39,11 @@
     },
     {
       "file": "125_anandtech2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "125.png",
       "type": "other",
       "caption": null
     }

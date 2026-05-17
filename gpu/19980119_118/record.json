@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "118.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,7 +31,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "118.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "118_liaor.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Rendition"
   ],

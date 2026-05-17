@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "175.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,25 @@
       "label": "Tweakers",
       "url": "https://tweakers.net/nieuws/2027/nog-een-3dfx-voodoo3-2000-review.html",
       "archived_url": null
+    },
+    {
+      "label": "IXBT Labs",
+      "url": "http://www.ixbt-labs.com/video/voodoo3-2000.shtml",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "175.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "175_tweakers.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "3DFX"
   ],
