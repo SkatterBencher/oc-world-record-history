@@ -18,7 +18,7 @@
   "overclockers": [
     {
       "handle": "Kinc",
-      "real_name": null,
+      "real_name": "Marcus Hultin",
       "aliases": [],
       "country": "SE",
       "profile_url": null
@@ -48,7 +48,9 @@
       "caption": null
     }
   ],
-  "tags": [],
+  "tags": [
+    "ATI"
+  ],
   "notes": null,
   "verified": false,
   "submitted_by": "skatterbencher"

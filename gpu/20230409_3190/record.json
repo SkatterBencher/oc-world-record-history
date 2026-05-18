@@ -11,7 +11,7 @@
     "primary": "AMD Radeon Graphics (Raphael)",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "hero": null,
   "not_a_record": false,
@@ -34,7 +34,9 @@
     }
   ],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "AMD"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

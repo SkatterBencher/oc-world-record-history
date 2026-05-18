@@ -123,7 +123,9 @@
       "caption": null
     }
   ],
-  "tags": [],
+  "tags": [
+    "NVIDIA"
+  ],
   "notes": null,
   "verified": false,
   "submitted_by": "skatterbencher"

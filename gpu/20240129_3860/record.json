@@ -11,7 +11,7 @@
     "primary": "AMD Radeon 780M (Phoenix 1)",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "hero": "3860.png",
   "not_a_record": false,
@@ -43,7 +43,9 @@
       "caption": null
     }
   ],
-  "tags": [],
+  "tags": [
+    "AMD"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

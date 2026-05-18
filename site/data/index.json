@@ -4509,7 +4509,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -5203,7 +5205,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -7122,7 +7126,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -7201,7 +7207,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -7355,7 +7363,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -7753,7 +7763,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -9522,7 +9534,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -9592,7 +9606,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -9735,7 +9751,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9825,7 +9843,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -9995,7 +10015,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -10134,9 +10156,9 @@
     "overclockers": [
       {
         "handle": "Kinc",
-        "real_name": null,
+        "real_name": "Marcus Hultin",
         "aliases": [],
-        "country": "FI",
+        "country": "SE",
         "profile_url": null
       }
     ],
@@ -11102,7 +11124,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -11162,7 +11186,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -11330,7 +11356,7 @@
     "overclockers": [
       {
         "handle": "Kinc",
-        "real_name": null,
+        "real_name": "Marcus Hultin",
         "aliases": [],
         "country": "SE",
         "profile_url": null
@@ -11360,7 +11386,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": false,
     "submitted_by": "skatterbencher",
@@ -11404,7 +11432,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -11505,7 +11535,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -11549,7 +11581,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -11593,7 +11627,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -11637,7 +11673,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -11727,7 +11765,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -12185,7 +12225,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -12229,7 +12271,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -12273,7 +12317,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -12317,7 +12363,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -12750,7 +12798,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -12913,7 +12963,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -12959,7 +13011,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -13132,7 +13186,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -13288,7 +13344,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -13332,7 +13390,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -13394,7 +13454,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "ATI"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -13438,7 +13500,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -13482,7 +13546,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -13512,14 +13578,14 @@
     "overclockers": [
       {
         "handle": "Elmor",
-        "real_name": null,
+        "real_name": "Jon Sandström",
         "aliases": [],
         "country": "SE",
         "profile_url": null
       },
       {
         "handle": "Kinc",
-        "real_name": null,
+        "real_name": "Marcus Hultin",
         "aliases": [],
         "country": "SE",
         "profile_url": null
@@ -13846,7 +13912,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -14159,7 +14227,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -14188,16 +14258,18 @@
     "overclockers": [
       {
         "handle": "Elmor",
-        "real_name": null,
+        "real_name": "Jon Sandström",
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -14235,7 +14307,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -14273,7 +14347,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -14311,7 +14387,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -14349,7 +14427,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -15012,7 +15092,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -15101,7 +15183,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -15139,7 +15223,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -15320,7 +15406,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -15751,7 +15839,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -15789,7 +15879,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -16911,7 +17003,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -16995,7 +17089,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -17024,16 +17120,18 @@
     "overclockers": [
       {
         "handle": "Elmor",
-        "real_name": null,
+        "real_name": "Jon Sandström",
         "aliases": [],
-        "country": null,
+        "country": "SE",
         "profile_url": null
       }
     ],
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -17168,7 +17266,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -17206,7 +17306,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -17761,7 +17863,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -17799,7 +17903,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -17837,7 +17943,9 @@
     "sources": [],
     "assets": [],
     "hero": null,
-    "tags": [],
+    "tags": [
+      "NVIDIA"
+    ],
     "notes": null,
     "not_a_record": false,
     "verified": true,
@@ -20824,7 +20932,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -20919,7 +21029,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -21458,7 +21570,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -21962,7 +22076,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -21990,7 +22106,7 @@
     "overclockers": [
       {
         "handle": "Elmor",
-        "real_name": null,
+        "real_name": "Jon Sandström",
         "aliases": [],
         "country": "SE",
         "profile_url": null
@@ -22310,7 +22426,7 @@
     "overclockers": [
       {
         "handle": "Elmor",
-        "real_name": null,
+        "real_name": "Jon Sandström",
         "aliases": [],
         "country": "SE",
         "profile_url": null
@@ -22525,7 +22641,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -22569,7 +22687,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -22654,7 +22774,7 @@
       "primary": "AMD Radeon Graphics (Raphael)",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": null,
     "not_a_record": false,
@@ -22677,7 +22797,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -22700,7 +22822,7 @@
       "primary": "AMD Radeon Graphics (Raphael)",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": null,
     "not_a_record": false,
@@ -22723,7 +22845,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -22746,7 +22870,7 @@
       "primary": "AMD Radeon Graphics (Raphael)",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": null,
     "not_a_record": false,
@@ -22769,7 +22893,9 @@
       }
     ],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -23309,7 +23435,7 @@
       "primary": "NVIDIA GeForce RTX 4090",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": "4005.jpg",
     "overclockers": [
@@ -23419,7 +23545,7 @@
     "overclockers": [
       {
         "handle": "Elmor",
-        "real_name": null,
+        "real_name": "Jon Sandström",
         "aliases": [],
         "country": "SE",
         "profile_url": null
@@ -23730,7 +23856,7 @@
       "primary": "AMD Radeon 780M (Phoenix 1)",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": "3860.png",
     "not_a_record": false,
@@ -23762,7 +23888,9 @@
         "caption": null
       }
     ],
-    "tags": [],
+    "tags": [
+      "AMD"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
@@ -23834,7 +23962,7 @@
     "overclockers": [
       {
         "handle": "Elmor",
-        "real_name": null,
+        "real_name": "Jon Sandström",
         "aliases": [],
         "country": "SE",
         "profile_url": null
@@ -24012,7 +24140,7 @@
       "primary": "Intel Graphics (Arrow Lake)",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": null,
     "not_a_record": false,
@@ -24029,7 +24157,9 @@
     ],
     "sources": [],
     "assets": [],
-    "tags": [],
+    "tags": [
+      "Intel"
+    ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",

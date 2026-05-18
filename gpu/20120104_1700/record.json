@@ -25,7 +25,9 @@
   "sources": [],
   "assets": [],
   "hero": null,
-  "tags": [],
+  "tags": [
+    "AMD"
+  ],
   "notes": null,
   "not_a_record": false,
   "verified": true,

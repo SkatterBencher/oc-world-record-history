@@ -11,7 +11,7 @@
     "primary": "Intel Graphics (Arrow Lake)",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "hero": null,
   "not_a_record": false,
@@ -28,7 +28,9 @@
   ],
   "sources": [],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "Intel"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"

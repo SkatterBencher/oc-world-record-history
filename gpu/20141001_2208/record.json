@@ -16,16 +16,18 @@
   "overclockers": [
     {
       "handle": "Elmor",
-      "real_name": null,
+      "real_name": "Jon Sandström",
       "aliases": [],
-      "country": null,
+      "country": "SE",
       "profile_url": null
     }
   ],
   "sources": [],
   "assets": [],
   "hero": null,
-  "tags": [],
+  "tags": [
+    "NVIDIA"
+  ],
   "notes": null,
   "not_a_record": false,
   "verified": true,

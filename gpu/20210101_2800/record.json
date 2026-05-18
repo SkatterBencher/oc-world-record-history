@@ -32,7 +32,9 @@
     }
   ],
   "assets": [],
-  "tags": [],
+  "tags": [
+    "AMD"
+  ],
   "notes": null,
   "verified": true,
   "submitted_by": "skatterbencher"
