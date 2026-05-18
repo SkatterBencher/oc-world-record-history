@@ -2,7 +2,7 @@
   "uid": "20060526_1013",
   "category": "gpu",
   "subcategory": [
-    "dGPU"
+    "dgpu"
   ],
   "achieved_at": "2006-05-26",
   "achieved_at_approximate": false,

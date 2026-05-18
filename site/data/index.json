@@ -9483,7 +9483,7 @@
     "uid": "20060526_1013",
     "category": "gpu",
     "subcategory": [
-      "dGPU"
+      "dgpu"
     ],
     "achieved_at": "2006-05-26",
     "achieved_at_approximate": false,
@@ -9543,7 +9543,7 @@
     "_asset_base": "/assets/gpu/20060526_1013/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "dGPU"
+      "dgpu"
     ]
   },
   {
@@ -15083,9 +15083,9 @@
     "overclockers": [
       {
         "handle": "Shamino",
-        "real_name": null,
+        "real_name": "Peter Tan",
         "aliases": [],
-        "country": null,
+        "country": "SG",
         "profile_url": null
       }
     ],
@@ -15174,9 +15174,9 @@
     "overclockers": [
       {
         "handle": "K|ngp|n",
-        "real_name": null,
+        "real_name": "Vince Lucido",
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -15214,9 +15214,9 @@
     "overclockers": [
       {
         "handle": "K|ngp|n",
-        "real_name": null,
+        "real_name": "Vince Lucido",
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -15397,9 +15397,9 @@
     "overclockers": [
       {
         "handle": "K|ngp|n",
-        "real_name": null,
+        "real_name": "Vince Lucido",
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -15830,9 +15830,9 @@
     "overclockers": [
       {
         "handle": "K|ngp|n",
-        "real_name": null,
+        "real_name": "Vince Lucido",
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -15870,9 +15870,9 @@
     "overclockers": [
       {
         "handle": "K|ngp|n",
-        "real_name": null,
+        "real_name": "Vince Lucido",
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -17257,9 +17257,9 @@
     "overclockers": [
       {
         "handle": "K|ngp|n",
-        "real_name": null,
+        "real_name": "Vince Lucido",
         "aliases": [],
-        "country": null,
+        "country": "US",
         "profile_url": null
       }
     ],
@@ -17550,7 +17550,7 @@
       },
       {
         "handle": "Shamino",
-        "real_name": null,
+        "real_name": "Peter Tan",
         "aliases": [],
         "country": "SG",
         "profile_url": null
@@ -19456,7 +19456,7 @@
     "overclockers": [
       {
         "handle": "K|ngp|n",
-        "real_name": null,
+        "real_name": "Vince Lucido",
         "aliases": [],
         "country": "US",
         "profile_url": null
@@ -22433,7 +22433,7 @@
       },
       {
         "handle": "Shamino",
-        "real_name": null,
+        "real_name": "Peter Tan",
         "aliases": [],
         "country": "SG",
         "profile_url": null
@@ -23552,7 +23552,7 @@
       },
       {
         "handle": "Shamino",
-        "real_name": null,
+        "real_name": "Peter Tan",
         "aliases": [],
         "country": "SG",
         "profile_url": null
@@ -23969,7 +23969,7 @@
       },
       {
         "handle": "Shamino",
-        "real_name": null,
+        "real_name": "Peter Tan",
         "aliases": [],
         "country": "SG",
         "profile_url": null
