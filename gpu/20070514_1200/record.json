@@ -1,0 +1,117 @@
+{
+  "uid": "20070514_1200",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2007-05-14",
+  "achieved_at_approximate": false,
+  "value_mhz": 1200,
+  "hardware": {
+    "primary": "Ati Radeon HD 2900 XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Cascade"
+  },
+  "hero": "1200.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Kinc",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "NordicHardware",
+      "url": "http://www.nordichardware.com/Reviews/?skrivelse=510",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1200.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1200_nh1.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1200_nh2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "30ks.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "55ks.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "5s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "7s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "8s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "9s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "cascade_s.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "kaskadnitro.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "ATI"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,74 @@
+{
+  "uid": "20040522_760",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2004-05-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 760,
+  "hardware": {
+    "primary": "Ati Radeon X800 XT",
+    "motherboard": "Abit IC7-MAX3",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "760.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    },
+    {
+      "handle": "Kamu",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    },
+    {
+      "handle": "Sampsa",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=2555855",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "760.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "760_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "773_hof.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

@@ -9,11 +9,11 @@
   "value_mhz": 508,
   "hardware": {
     "primary": "Ati Radeon 9700 Pro",
-    "motherboard": null,
+    "motherboard": "ABIT IT7",
     "memory": null,
-    "cooling": null
+    "cooling": "Peliter"
   },
-  "hero": null,
+  "hero": "508.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,33 @@
   ],
   "sources": [
     {
-      "label": "MadOnion",
+      "label": "MadOnion ORB",
       "url": "http://service.madonion.com/compare?2k1=4602160",
+      "archived_url": null
+    },
+    {
+      "label": "MadOnion HOF",
+      "url": "http://gamershq.madonion.com/hardware/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "508.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "508_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "508_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "ATI"
   ],

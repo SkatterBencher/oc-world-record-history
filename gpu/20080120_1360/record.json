@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "1360.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,7 +31,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1360.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1360_hwbot.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

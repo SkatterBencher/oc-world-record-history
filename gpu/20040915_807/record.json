@@ -9,11 +9,11 @@
   "value_mhz": 807,
   "hardware": {
     "primary": "Ati Radeon X800 Pro",
-    "motherboard": null,
+    "motherboard": "Abit IC7",
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Cascade"
   },
-  "hero": null,
+  "hero": "807.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -22,16 +22,44 @@
       "aliases": [],
       "country": "FI",
       "profile_url": null
+    },
+    {
+      "handle": "The Stilt",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
     }
   ],
   "sources": [
     {
-      "label": "HWBOT",
-      "url": "https://hwbot.org/submission/3048721_",
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=3111760",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "807.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "807_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "807_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "ATI"
   ],

@@ -76,6 +76,7 @@
   <url><loc>https://museum.skatterbencher.com/record/20020515_4130</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020530_235</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020605_391</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20020611_392</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020623_240</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020629_405</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020629_257</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -84,6 +85,7 @@
   <url><loc>https://museum.skatterbencher.com/record/20020720_409</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020819_4309</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020829_4339</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20020831_411</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020901_4418</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020911_479</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20020915_4424</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -101,7 +103,6 @@
   <url><loc>https://museum.skatterbencher.com/record/20030511_291</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20030524_4762</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20030530_567</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20030611_594</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20030629_4872</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20030701_296</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20030703_5125</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -113,15 +114,18 @@
   <url><loc>https://museum.skatterbencher.com/record/20031230_5255</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040102_5326</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040412_325</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20040507_715</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040509_5387</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20040511_717</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20040522_760</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040525_6009</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20040527_773</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040727_347</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040728_349</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040729_359</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040730_360</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040730_350</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040731_366</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20040831_798</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040915_807</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20040922_368</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20041001_810</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -140,14 +144,13 @@
   <url><loc>https://museum.skatterbencher.com/record/20050111_614</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20050118_6495</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20050322_405</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20050603_860</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20050602_904</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20050607_6578</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20050729_6925</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20050809_7133</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20050813_7323</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20050916_7418</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20051011_878</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20051017_1006</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20051017_1005</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20051113_7473</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20051213_7608</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20051213_7532</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -157,7 +160,8 @@
   <url><loc>https://museum.skatterbencher.com/record/20060206_7657</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20060507_628</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20060518_645</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20060611_1045</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20060526_1013</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20060601_1066</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20060908_697</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20060925_710</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20061106_475</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -168,7 +172,7 @@
   <url><loc>https://museum.skatterbencher.com/record/20070204_570</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070308_730</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070330_8179</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20070506_1048</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20070514_1200</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070517_742</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070522_1093</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070522_1040</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -181,21 +185,19 @@
   <url><loc>https://museum.skatterbencher.com/record/20070602_759</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070604_1146</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070604_782</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20070605_1120</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070624_799</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20070630_1168</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070702_1150</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070718_1156</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070718_1151</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070720_8220</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070720_8180</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070829_667</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20070912_1204</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070928_1304</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070928_1226</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20070928_1178</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20071208_1180</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20071022_1221</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20071214_710</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20071230_1193</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20080120_1360</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20080609_725</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20080705_750</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
@@ -223,7 +225,7 @@
   <url><loc>https://museum.skatterbencher.com/record/20090925_1660</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20090929_1729</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20090929_1685</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://museum.skatterbencher.com/record/20091129_1380</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://museum.skatterbencher.com/record/20091128_1380</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20091205_1250</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20091219_1400</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://museum.skatterbencher.com/record/20100105_1352</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>

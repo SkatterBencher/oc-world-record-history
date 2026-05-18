@@ -9,11 +9,11 @@
   "value_mhz": 409,
   "hardware": {
     "primary": "NVIDIA GeForce 4 Ti 4600",
-    "motherboard": null,
+    "motherboard": "ASUS P4T533-C",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "409.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,110 @@
       "label": "MadOnion",
       "url": "http://service.madonion.com/compare?2k1=3990219",
       "archived_url": null
+    },
+    {
+      "label": "Kamu2",
+      "url": "http://www.kamu2.net/gf4.html",
+      "archived_url": null
+    },
+    {
+      "label": "MadOnion HOF",
+      "url": "http://gamershq.madonion.com/hardware/halloffame/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "10.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "11.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "12.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "13.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "14.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "409.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "409_kamu2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "409_madonion.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "409_madonionhof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "5.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "7.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "8.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "9.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

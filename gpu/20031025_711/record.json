@@ -9,11 +9,11 @@
   "value_mhz": 711,
   "hardware": {
     "primary": "GeForce FX 5900 Ultra",
-    "motherboard": null,
+    "motherboard": "Abit IC7-G",
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Single Stage"
   },
-  "hero": null,
+  "hero": "711.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,73 @@
   ],
   "sources": [
     {
-      "label": "Futuremark",
+      "label": "Futuremark ORB",
       "url": "http://service.futuremark.com/compare?2k3=1474988",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
+      "archived_url": null
+    },
+    {
+      "label": "Kamu",
+      "url": "http://www.kamu2.net/fx2.html",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "5.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "711.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "711_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "711_kamu.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "711_kamu2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "711_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

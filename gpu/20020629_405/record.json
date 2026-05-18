@@ -11,9 +11,9 @@
     "primary": "NVIDIA GeForce 4 Ti 4600",
     "motherboard": null,
     "memory": null,
-    "cooling": null
+    "cooling": "Single Stage"
   },
-  "hero": null,
+  "hero": "405.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,33 @@
   ],
   "sources": [
     {
-      "label": "MadOnion",
+      "label": "MadOnion ORB",
       "url": "http://service.madonion.com/compare?2k1=3817534",
+      "archived_url": null
+    },
+    {
+      "label": "MadOnion HOF",
+      "url": "http://gamershq.madonion.com/hardware/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "405.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "405_madonionhof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "405_madonionorb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

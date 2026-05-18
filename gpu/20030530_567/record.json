@@ -9,11 +9,11 @@
   "value_mhz": 567,
   "hardware": {
     "primary": "Ati Radeon 9800 Pro",
-    "motherboard": null,
+    "motherboard": "ASUS P4C800",
     "memory": null,
-    "cooling": null
+    "cooling": "Single Stage"
   },
-  "hero": null,
+  "hero": "567.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,33 @@
   ],
   "sources": [
     {
-      "label": "Futuremark",
+      "label": "Futuremark ORB",
       "url": "http://service.futuremark.com/compare?2k1=6560991",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://futuremark.com/community/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "567.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "567_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "567_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "ATI"
   ],

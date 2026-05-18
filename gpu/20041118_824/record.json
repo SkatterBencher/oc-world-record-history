@@ -9,11 +9,11 @@
   "value_mhz": 824,
   "hardware": {
     "primary": "Ati Radeon X800 XT",
-    "motherboard": null,
+    "motherboard": "MSI K8N Neo2 Platinum",
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Cascade"
   },
-  "hero": null,
+  "hero": "824.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,33 @@
   ],
   "sources": [
     {
-      "label": "HWBOT",
-      "url": "https://hwbot.org/submission/3048726_",
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=3363348",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "824.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "824_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "824_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "ATI"
   ],

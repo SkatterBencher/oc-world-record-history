@@ -9,11 +9,11 @@
   "value_mhz": 305,
   "hardware": {
     "primary": "NVIDIA GeForce3",
-    "motherboard": null,
+    "motherboard": "EPoX 8KHA+",
     "memory": null,
-    "cooling": null
+    "cooling": "Chilled Water"
   },
-  "hero": null,
+  "hero": "305.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -27,11 +27,77 @@
   "sources": [
     {
       "label": "VR-Zone",
-      "url": "http://www.vr-zone.com/guides/3DMark2001/page2.htm",
+      "url": "http://www.vr-zone.com/guides/3DMark2001/",
+      "archived_url": null
+    },
+    {
+      "label": "GamersHQ ORB",
+      "url": "http://gamershq.madonion.com/compare2k1.shtml?2054394",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "302_vrzone2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "305.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "305_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3DMark2001.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "epox_mobo.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "epox_ramsink.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "epox_sinks.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "epox_sinks2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "epox_vmem.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "epox_vmem2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "gf3_water_pelt_plate.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "waterchiller.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

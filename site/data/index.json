@@ -3364,11 +3364,11 @@
     "value_mhz": 305,
     "hardware": {
       "primary": "NVIDIA GeForce3",
-      "motherboard": null,
+      "motherboard": "EPoX 8KHA+",
       "memory": null,
-      "cooling": null
+      "cooling": "Chilled Water"
     },
-    "hero": null,
+    "hero": "305.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -3382,11 +3382,77 @@
     "sources": [
       {
         "label": "VR-Zone",
-        "url": "http://www.vr-zone.com/guides/3DMark2001/page2.htm",
+        "url": "http://www.vr-zone.com/guides/3DMark2001/",
+        "archived_url": null
+      },
+      {
+        "label": "GamersHQ ORB",
+        "url": "http://gamershq.madonion.com/compare2k1.shtml?2054394",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "302_vrzone2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "305.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "305_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3DMark2001.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "epox_mobo.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "epox_ramsink.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "epox_sinks.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "epox_sinks2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "epox_vmem.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "epox_vmem2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "gf3_water_pelt_plate.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "waterchiller.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -3944,11 +4010,11 @@
     "value_mhz": 365,
     "hardware": {
       "primary": "NVIDIA GeForce 4 Ti 4600",
-      "motherboard": null,
+      "motherboard": "ABit i850-W83627HF",
       "memory": null,
-      "cooling": null
+      "cooling": "Peltier"
     },
-    "hero": null,
+    "hero": "365.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -3964,9 +4030,30 @@
         "label": "MadOnion",
         "url": "http://service.madonion.com/compare?2k1=3195940",
         "archived_url": null
+      },
+      {
+        "label": "Superior PC",
+        "url": "http://www.superior-pc.com/woody.htm",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "365.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "365_madonion.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "365_superior.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -4089,16 +4176,16 @@
     "value_mhz": 378,
     "hardware": {
       "primary": "NVIDIA GeForce 4 Ti 4600",
-      "motherboard": null,
+      "motherboard": "Abit TH7-II",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "378.png",
     "not_a_record": false,
     "overclockers": [
       {
         "handle": "Sampsa",
-        "real_name": null,
+        "real_name": "Sampsa Kurri",
         "aliases": [
           "Muropaketti"
         ],
@@ -4108,12 +4195,38 @@
     ],
     "sources": [
       {
-        "label": "MadOnion",
+        "label": "MadOnion ORB",
         "url": "http://service.madonion.com/compare?2k1=3427169",
+        "archived_url": null
+      },
+      {
+        "label": "MadOnion HOF",
+        "url": "http://gamershq.madonion.com/hardware/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "378.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "378_madonion.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "ln2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "392_hof.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -4295,11 +4408,11 @@
     "value_mhz": 391,
     "hardware": {
       "primary": "NVIDIA GeForce 4 Ti 4600",
-      "motherboard": null,
+      "motherboard": "Abit TH7II-R",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "391.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -4317,7 +4430,18 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "391.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "391_madonion.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -4325,6 +4449,71 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20020605_391/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
+  },
+  {
+    "uid": "20020611_392",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2002-06-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 392,
+    "hardware": {
+      "primary": "NVIDIA GeForce 4 Ti 4600",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Single Stage"
+    },
+    "hero": "392.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "wnielson ",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "MadOnion ORB",
+        "url": "http://service.madonion.com/compare?2k1=3665408",
+        "archived_url": null
+      },
+      {
+        "label": "MadOnion HOF",
+        "url": "http://gamershq.madonion.com/hardware/halloffame/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "392.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "392_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "392_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20020611_392/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -4399,9 +4588,9 @@
       "primary": "NVIDIA GeForce 4 Ti 4600",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Single Stage"
     },
-    "hero": null,
+    "hero": "405.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -4414,12 +4603,33 @@
     ],
     "sources": [
       {
-        "label": "MadOnion",
+        "label": "MadOnion ORB",
         "url": "http://service.madonion.com/compare?2k1=3817534",
+        "archived_url": null
+      },
+      {
+        "label": "MadOnion HOF",
+        "url": "http://gamershq.madonion.com/hardware/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "405.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "405_madonionhof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "405_madonionorb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -4633,11 +4843,11 @@
     "value_mhz": 409,
     "hardware": {
       "primary": "NVIDIA GeForce 4 Ti 4600",
-      "motherboard": null,
+      "motherboard": "ASUS P4T533-C",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "409.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -4653,9 +4863,110 @@
         "label": "MadOnion",
         "url": "http://service.madonion.com/compare?2k1=3990219",
         "archived_url": null
+      },
+      {
+        "label": "Kamu2",
+        "url": "http://www.kamu2.net/gf4.html",
+        "archived_url": null
+      },
+      {
+        "label": "MadOnion HOF",
+        "url": "http://gamershq.madonion.com/hardware/halloffame/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "10.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "11.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "12.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "13.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "14.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "409.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "409_kamu2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "409_madonion.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "409_madonionhof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "7.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "8.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "9.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -4766,6 +5077,141 @@
     "_asset_base": "/assets/cpu/20020829_4339/",
     "_genuine_overall": true,
     "_genuine_in": []
+  },
+  {
+    "uid": "20020831_411",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2002-08-31",
+    "achieved_at_approximate": false,
+    "value_mhz": 411,
+    "hardware": {
+      "primary": "NVIDIA GeForce 4 Ti 4600",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "411.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Kamu",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Kamu2",
+        "url": "http://www.kamu2.net/gf4.html",
+        "archived_url": null
+      },
+      {
+        "label": "Madonion",
+        "url": "http://service.madonion.com/compare?2k1=4351024",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "10.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "11.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "12.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "13.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "14.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "409_kamu2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "7.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "8.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "9.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "411.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "411_madonion.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20020831_411/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
   },
   {
     "uid": "20020901_4418",
@@ -5021,11 +5467,11 @@
     "value_mhz": 508,
     "hardware": {
       "primary": "Ati Radeon 9700 Pro",
-      "motherboard": null,
+      "motherboard": "ABIT IT7",
       "memory": null,
-      "cooling": null
+      "cooling": "Peliter"
     },
-    "hero": null,
+    "hero": "508.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -5038,12 +5484,33 @@
     ],
     "sources": [
       {
-        "label": "MadOnion",
+        "label": "MadOnion ORB",
         "url": "http://service.madonion.com/compare?2k1=4602160",
+        "archived_url": null
+      },
+      {
+        "label": "MadOnion HOF",
+        "url": "http://gamershq.madonion.com/hardware/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "508.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "508_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "508_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -5375,8 +5842,13 @@
         "archived_url": null
       },
       {
-        "label": "Futuremark",
+        "label": "Futuremark ORB",
         "url": "http://service.futuremark.com/compare?2k1=5830413",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
@@ -5418,6 +5890,11 @@
       },
       {
         "file": "513_holicho.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "513_hof.png",
         "type": "other",
         "caption": null
       }
@@ -5598,8 +6075,13 @@
     ],
     "sources": [
       {
-        "label": "Futuremark",
+        "label": "Futuremark ORB",
         "url": "http://service.futuremark.com/compare?2k1=6459005",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
@@ -5611,6 +6093,11 @@
       },
       {
         "file": "540_futuremark.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "567_hof.png",
         "type": "other",
         "caption": null
       }
@@ -5640,9 +6127,9 @@
       "primary": "Ati Radeon 9800 Pro",
       "motherboard": null,
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Dry Ice"
     },
-    "hero": null,
+    "hero": "558.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -5655,12 +6142,33 @@
     ],
     "sources": [
       {
-        "label": "Futuremark",
+        "label": "Futuremark ORB",
         "url": "http://service.futuremark.com/compare?2k1=6463040",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "558.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "558_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "567_hof.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -5803,11 +6311,11 @@
     "value_mhz": 567,
     "hardware": {
       "primary": "Ati Radeon 9800 Pro",
-      "motherboard": null,
+      "motherboard": "ASUS P4C800",
       "memory": null,
-      "cooling": null
+      "cooling": "Single Stage"
     },
-    "hero": null,
+    "hero": "567.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -5820,12 +6328,33 @@
     ],
     "sources": [
       {
-        "label": "Futuremark",
+        "label": "Futuremark ORB",
         "url": "http://service.futuremark.com/compare?2k1=6560991",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "567.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "567_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "567_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -5833,52 +6362,6 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20030530_567/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
-    ]
-  },
-  {
-    "uid": "20030611_594",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2003-06-11",
-    "achieved_at_approximate": false,
-    "value_mhz": 594,
-    "hardware": {
-      "primary": "Ati Radeon 9800 XT",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "FUGGER",
-        "real_name": null,
-        "aliases": [],
-        "country": "US",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "Futuremark",
-        "url": "http://service.futuremark.com/compare?2k3=1532116",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "ATI"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20030611_594/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -6063,7 +6546,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "689.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -6076,12 +6559,63 @@
     ],
     "sources": [
       {
-        "label": "Futuremark",
+        "label": "Futuremark ORB",
         "url": "http://service.futuremark.com/compare?2k3=1013946",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.solidhardware.com/macci/5900ultra/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "10fx_backside.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "12fullsystem.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "14fullsystem2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "16closeup_1.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "689.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "689_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "689_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "ramsinks_1.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -6161,11 +6695,11 @@
     "value_mhz": 702,
     "hardware": {
       "primary": "GeForce FX 5900 Ultra",
-      "motherboard": null,
+      "motherboard": "ASUS P4C800",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Single Stage"
     },
-    "hero": null,
+    "hero": "702.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -6178,12 +6712,33 @@
     ],
     "sources": [
       {
-        "label": "Futuremark",
+        "label": "Futuremark ORB",
         "url": "http://service.futuremark.com/compare?2k3=1282806",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "702.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "702_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "702_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -6207,11 +6762,11 @@
     "value_mhz": 711,
     "hardware": {
       "primary": "GeForce FX 5900 Ultra",
-      "motherboard": null,
+      "motherboard": "Abit IC7-G",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Single Stage"
     },
-    "hero": null,
+    "hero": "711.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -6224,12 +6779,73 @@
     ],
     "sources": [
       {
-        "label": "Futuremark",
+        "label": "Futuremark ORB",
         "url": "http://service.futuremark.com/compare?2k3=1474988",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
+        "archived_url": null
+      },
+      {
+        "label": "Kamu",
+        "url": "http://www.kamu2.net/fx2.html",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5.gif",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "711.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "711_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "711_kamu.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "711_kamu2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "711_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -6428,52 +7044,6 @@
     ]
   },
   {
-    "uid": "20040507_715",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2004-05-07",
-    "achieved_at_approximate": false,
-    "value_mhz": 715,
-    "hardware": {
-      "primary": "Ati Radeon X800 XT Platinum",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Unknown",
-        "real_name": null,
-        "aliases": [],
-        "country": null,
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "Tweakers",
-        "url": "https://tweakers.net/nieuws/32310/ati-claimt-wereldrecordscore-van-15738-in-3dmark2003.html",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "ATI"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20040507_715/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
-    ]
-  },
-  {
     "uid": "20040509_5387",
     "category": "cpu",
     "subcategory": [],
@@ -6506,6 +7076,140 @@
     "_asset_base": "/assets/cpu/20040509_5387/",
     "_genuine_overall": true,
     "_genuine_in": []
+  },
+  {
+    "uid": "20040511_717",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2004-05-11",
+    "achieved_at_approximate": false,
+    "value_mhz": 717,
+    "hardware": {
+      "primary": "Ati Radeon X800 XT PE",
+      "motherboard": "Abit IC7",
+      "memory": null,
+      "cooling": "Dry Ice"
+    },
+    "hero": "717.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=2504296",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "717.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "717_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20040511_717/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
+  },
+  {
+    "uid": "20040522_760",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2004-05-22",
+    "achieved_at_approximate": false,
+    "value_mhz": 760,
+    "hardware": {
+      "primary": "Ati Radeon X800 XT",
+      "motherboard": "Abit IC7-MAX3",
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "760.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      },
+      {
+        "handle": "Kamu",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      },
+      {
+        "handle": "Sampsa",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=2555855",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "760.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "760_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "773_hof.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20040522_760/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
   },
   {
     "uid": "20040525_6009",
@@ -6595,6 +7299,71 @@
     "_asset_base": "/assets/cpu/20040525_6009/",
     "_genuine_overall": true,
     "_genuine_in": []
+  },
+  {
+    "uid": "20040527_773",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2004-05-27",
+    "achieved_at_approximate": false,
+    "value_mhz": 773,
+    "hardware": {
+      "primary": "Ati Radeon X800 XT",
+      "motherboard": "ABIT IC7",
+      "memory": null,
+      "cooling": "Cascade"
+    },
+    "hero": "773.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=2576845",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "773.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "773_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "773_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20040527_773/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
   },
   {
     "uid": "20040727_347",
@@ -6923,6 +7692,78 @@
     ]
   },
   {
+    "uid": "20040831_798",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2004-08-31",
+    "achieved_at_approximate": false,
+    "value_mhz": 798,
+    "hardware": {
+      "primary": "Ati Radeon X800 XT PE",
+      "motherboard": "ABIT IC7",
+      "memory": null,
+      "cooling": "Cascade"
+    },
+    "hero": "798.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Macci",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      },
+      {
+        "handle": "The Stilt",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=3039689",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "798.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "798_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "798_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20040831_798/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
+  },
+  {
     "uid": "20040915_807",
     "category": "gpu",
     "subcategory": [
@@ -6933,11 +7774,11 @@
     "value_mhz": 807,
     "hardware": {
       "primary": "Ati Radeon X800 Pro",
-      "motherboard": null,
+      "motherboard": "Abit IC7",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Cascade"
     },
-    "hero": null,
+    "hero": "807.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -6946,16 +7787,44 @@
         "aliases": [],
         "country": "FI",
         "profile_url": null
+      },
+      {
+        "handle": "The Stilt",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
       }
     ],
     "sources": [
       {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/3048721_",
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=3111760",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "807.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "807_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "807_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -7057,7 +7926,13 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "810.JPG",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -7535,11 +8410,11 @@
     "value_mhz": 824,
     "hardware": {
       "primary": "Ati Radeon X800 XT",
-      "motherboard": null,
+      "motherboard": "MSI K8N Neo2 Platinum",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Cascade"
     },
-    "hero": null,
+    "hero": "824.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -7552,12 +8427,33 @@
     ],
     "sources": [
       {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/3048726_",
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=3363348",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "824.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "824_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "824_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -7797,21 +8693,21 @@
     ]
   },
   {
-    "uid": "20050603_860",
+    "uid": "20050602_904",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2005-06-03",
+    "achieved_at": "2005-06-02",
     "achieved_at_approximate": false,
-    "value_mhz": 860,
+    "value_mhz": 904,
     "hardware": {
       "primary": "Ati Radeon X850 XT PE",
       "motherboard": null,
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "904.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -7824,19 +8720,40 @@
     ],
     "sources": [
       {
-        "label": "Tweakers",
-        "url": "https://tweakers.net/nieuws/37550/wereldrecord-3dmark-05-voor-atis-crossfire.html",
+        "label": "VR-Zone",
+        "url": "http://www.vr-zone.com/?i=2273&s=1",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "902_vrzone.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "904.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "IMG_0060-m.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "IMG_0061-m.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20050603_860/",
+    "_asset_base": "/assets/gpu/20050602_904/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8063,67 +8980,21 @@
     "_genuine_in": []
   },
   {
-    "uid": "20051011_878",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2005-10-11",
-    "achieved_at_approximate": false,
-    "value_mhz": 878,
-    "hardware": {
-      "primary": "ATi Radeon X1800 XT",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Macci",
-        "real_name": null,
-        "aliases": [],
-        "country": "FI",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "Tweakers",
-        "url": "https://tweakers.net/nieuws/39330/overgeklokte-radeon-x1800-xt-scoort-12278-in-3dmark05.html",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "ATI"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20051011_878/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
-    ]
-  },
-  {
-    "uid": "20051017_1006",
+    "uid": "20051017_1005",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
     "achieved_at": "2005-10-17",
     "achieved_at_approximate": false,
-    "value_mhz": 1006,
+    "value_mhz": 1005.75,
     "hardware": {
       "primary": "ATi Radeon X1800 XT",
-      "motherboard": null,
+      "motherboard": "DFI LanParty nF4 SLI-DR",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "ghz.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -8141,16 +9012,62 @@
         "label": "XtremeSystems",
         "url": "http://www.xtremesystems.org/forums/showthread.php?77157-Radeon-X1800-XT-(GPU-1-GHz-Memory-1-GHz)",
         "archived_url": null
+      },
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/3dmark/r520/ghz/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "02.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "03.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "04.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "05.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "100575_muro.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "ghz.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "ghz1_thumb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "z3_ln2.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20051017_1006/",
+    "_asset_base": "/assets/gpu/20051017_1005/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -8551,25 +9468,25 @@
     ]
   },
   {
-    "uid": "20060611_1045",
+    "uid": "20060526_1013",
     "category": "gpu",
     "subcategory": [
-      "dgpu"
+      "dGPU"
     ],
-    "achieved_at": "2006-06-11",
+    "achieved_at": "2006-05-26",
     "achieved_at_approximate": false,
-    "value_mhz": 1045,
+    "value_mhz": 1013,
     "hardware": {
       "primary": "NVIDIA GeForce 7900 GTX",
-      "motherboard": null,
+      "motherboard": "Foxconn C51XEM2AA",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Cascade"
     },
-    "hero": null,
+    "hero": "1013.png",
     "not_a_record": false,
     "overclockers": [
       {
-        "handle": "K|ngp|n",
+        "handle": "OPPainter",
         "real_name": null,
         "aliases": [],
         "country": "US",
@@ -8578,19 +9495,108 @@
     ],
     "sources": [
       {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/3048776_",
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dm05=2035988",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
-    "tags": [
-      "NVIDIA"
+    "assets": [
+      {
+        "file": "1013.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1013_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1013_orb.png",
+        "type": "other",
+        "caption": null
+      }
     ],
+    "tags": [],
     "notes": null,
-    "verified": true,
+    "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20060611_1045/",
+    "_asset_base": "/assets/gpu/20060526_1013/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dGPU"
+    ]
+  },
+  {
+    "uid": "20060601_1066",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2006-06-01",
+    "achieved_at_approximate": false,
+    "value_mhz": 1066,
+    "hardware": {
+      "primary": "NVIDIA GeForce 7900 GTX",
+      "motherboard": "FOXCONN CE51XE",
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "1066.jpg",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "K|ngp|n",
+        "real_name": "Vince Lucido",
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Overclockingpin",
+        "url": "http://overclockingpin.com/projects.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1066.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1066_ockp.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "am2 rig 2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "am2 rig 3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "am2 rig web.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20060601_1066/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -9109,46 +10115,122 @@
     "_genuine_in": []
   },
   {
-    "uid": "20070506_1048",
+    "uid": "20070514_1200",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2007-05-06",
+    "achieved_at": "2007-05-14",
     "achieved_at_approximate": false,
-    "value_mhz": 1048,
+    "value_mhz": 1200,
     "hardware": {
-      "primary": "NVIDIA GeForce 8600 GT",
+      "primary": "Ati Radeon HD 2900 XT",
       "motherboard": null,
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Cascade"
     },
-    "hero": null,
+    "hero": "1200.png",
     "not_a_record": false,
     "overclockers": [
       {
-        "handle": "Achill3us",
+        "handle": "Kinc",
         "real_name": null,
         "aliases": [],
-        "country": "HU",
+        "country": "FI",
         "profile_url": null
       }
     ],
     "sources": [
       {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/602974_",
+        "label": "NordicHardware",
+        "url": "http://www.nordichardware.com/Reviews/?skrivelse=510",
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1200.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1200_nh1.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1200_nh2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "30ks.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "4s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "55ks.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "5s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "7s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "8s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "9s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "cascade_s.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "kaskadnitro.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
-      "NVIDIA"
+      "ATI"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20070506_1048/",
+    "_asset_base": "/assets/gpu/20070514_1200/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -9707,52 +10789,6 @@
     ]
   },
   {
-    "uid": "20070605_1120",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2007-06-05",
-    "achieved_at_approximate": false,
-    "value_mhz": 1120,
-    "hardware": {
-      "primary": "Ati Radeon HD 2900 XT",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Macci",
-        "real_name": null,
-        "aliases": [],
-        "country": "FI",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/611108_",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "ATI"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20070605_1120/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
-    ]
-  },
-  {
     "uid": "20070624_799",
     "category": "memory",
     "subcategory": [
@@ -9796,52 +10832,6 @@
     "_genuine_overall": false,
     "_genuine_in": [
       "DDR2"
-    ]
-  },
-  {
-    "uid": "20070630_1168",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2007-06-30",
-    "achieved_at_approximate": false,
-    "value_mhz": 1168,
-    "hardware": {
-      "primary": "NVIDIA GeForce 7900 GTO",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "marcin88",
-        "real_name": null,
-        "aliases": [],
-        "country": "PL",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/619146_",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "NVIDIA"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20070630_1168/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
     ]
   },
   {
@@ -10123,6 +11113,66 @@
     ]
   },
   {
+    "uid": "20070912_1204",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2007-09-12",
+    "achieved_at_approximate": false,
+    "value_mhz": 1204,
+    "hardware": {
+      "primary": "ATI Radeon HD 2900 XT",
+      "motherboard": "ASUS Blitz Extreme",
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "1204.png",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "mICKEYmOUSE",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dm05=3444663",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1204.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1204_hof.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1204_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20070912_1204/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
+  },
+  {
     "uid": "20070928_1304",
     "category": "memory",
     "subcategory": [
@@ -10261,46 +11311,60 @@
     ]
   },
   {
-    "uid": "20071208_1180",
+    "uid": "20071022_1221",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2007-12-08",
+    "achieved_at": "2007-10-22",
     "achieved_at_approximate": false,
-    "value_mhz": 1180,
+    "value_mhz": 1221,
     "hardware": {
-      "primary": "AMD Radeon HD 2900 XT",
-      "motherboard": null,
+      "primary": "ATI Radeon HD 2900 XT",
+      "motherboard": "ASUS Maximus Formula",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": null
     },
-    "hero": null,
+    "hero": "1221.png",
     "not_a_record": false,
     "overclockers": [
       {
-        "handle": "GPRHellas",
+        "handle": "Kinc",
         "real_name": null,
         "aliases": [],
-        "country": "GR",
+        "country": "SE",
         "profile_url": null
       }
     ],
     "sources": [
       {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/673791_",
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dm06=3482373",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark HOF",
+        "url": "http://www.futuremark.com/community/halloffame/",
         "archived_url": null
       }
     ],
-    "assets": [],
-    "tags": [
-      "AMD"
+    "assets": [
+      {
+        "file": "1221.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1221_orb.png",
+        "type": "other",
+        "caption": null
+      }
     ],
+    "tags": [],
     "notes": null,
-    "verified": true,
+    "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20071208_1180/",
+    "_asset_base": "/assets/gpu/20071022_1221/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -10351,52 +11415,6 @@
     ]
   },
   {
-    "uid": "20071230_1193",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2007-12-30",
-    "achieved_at_approximate": false,
-    "value_mhz": 1193,
-    "hardware": {
-      "primary": "AMD Radeon HD 2900 XT",
-      "motherboard": null,
-      "memory": null,
-      "cooling": "Liquid Nitrogen"
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Gautam",
-        "real_name": null,
-        "aliases": [],
-        "country": "US",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/682204_",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "AMD"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20071230_1193/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
-    ]
-  },
-  {
     "uid": "20080120_1360",
     "category": "gpu",
     "subcategory": [
@@ -10411,7 +11429,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "1360.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -10429,7 +11447,18 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1360.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1360_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -11621,12 +12650,12 @@
     ]
   },
   {
-    "uid": "20091129_1380",
+    "uid": "20091128_1380",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2009-11-29",
+    "achieved_at": "2009-11-28",
     "achieved_at_approximate": false,
     "value_mhz": 1380,
     "hardware": {
@@ -11651,16 +12680,37 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/926281_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dmv=1640144",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1380_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_290580.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1380_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20091129_1380/",
+    "_asset_base": "/assets/gpu/20091128_1380/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -11721,7 +12771,7 @@
     "value_mhz": 1400,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 275",
-      "motherboard": null,
+      "motherboard": "Asus Rampage II Extreme",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
@@ -11743,13 +12793,84 @@
         "label": "YouTube",
         "url": "https://www.youtube.com/watch?v=D5PUEUgNWCA",
         "archived_url": null
+      },
+      {
+        "label": "Madshrimps",
+        "url": "https://www.madshrimps.be/2009/12/msi-gtx-275-lightning-shatters-world-records-on-ln2/",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1400_madshrimps1.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1400_madshrimps2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1400_madshrimps3.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1400_madshrimps4.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1400_madshrimps5.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28814.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28815.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28816.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28817.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28818.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28819.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28820.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28821.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
-    "notes": null,
+    "notes": "This is pretty much the complete Vantage attempt at 1400/2800/1435; it fails just a few seconds before the result comes up ... which you'll notice as I sound pretty disappointed. The result would've been 20700-ish",
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20091219_1400/",

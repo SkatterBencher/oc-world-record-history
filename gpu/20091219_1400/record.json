@@ -9,7 +9,7 @@
   "value_mhz": 1400,
   "hardware": {
     "primary": "NVIDIA GeForce GTX 275",
-    "motherboard": null,
+    "motherboard": "Asus Rampage II Extreme",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
@@ -31,13 +31,84 @@
       "label": "YouTube",
       "url": "https://www.youtube.com/watch?v=D5PUEUgNWCA",
       "archived_url": null
+    },
+    {
+      "label": "Madshrimps",
+      "url": "https://www.madshrimps.be/2009/12/msi-gtx-275-lightning-shatters-world-records-on-ln2/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1400_madshrimps1.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1400_madshrimps2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1400_madshrimps3.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1400_madshrimps4.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1400_madshrimps5.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28814.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28815.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28816.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28817.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28818.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28819.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28820.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "MSI-GTX275-Lightning-on-LN2-Smashing-World-Records-massman-28821.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVDIA"
   ],
-  "notes": null,
+  "notes": "This is pretty much the complete Vantage attempt at 1400/2800/1435; it fails just a few seconds before the result comes up ... which you'll notice as I sound pretty disappointed. The result would've been 20700-ish",
   "verified": true,
   "submitted_by": "skatterbencher"
 }

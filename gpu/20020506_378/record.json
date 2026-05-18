@@ -9,16 +9,16 @@
   "value_mhz": 378,
   "hardware": {
     "primary": "NVIDIA GeForce 4 Ti 4600",
-    "motherboard": null,
+    "motherboard": "Abit TH7-II",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "378.png",
   "not_a_record": false,
   "overclockers": [
     {
       "handle": "Sampsa",
-      "real_name": null,
+      "real_name": "Sampsa Kurri",
       "aliases": [
         "Muropaketti"
       ],
@@ -28,12 +28,38 @@
   ],
   "sources": [
     {
-      "label": "MadOnion",
+      "label": "MadOnion ORB",
       "url": "http://service.madonion.com/compare?2k1=3427169",
+      "archived_url": null
+    },
+    {
+      "label": "MadOnion HOF",
+      "url": "http://gamershq.madonion.com/hardware/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "378.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "378_madonion.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "ln2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "392_hof.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

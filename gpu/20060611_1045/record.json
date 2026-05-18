@@ -9,12 +9,12 @@
   "value_mhz": 1045,
   "hardware": {
     "primary": "NVIDIA GeForce 7900 GTX",
-    "motherboard": null,
+    "motherboard": "Foxconn C51XEM2AA",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
-  "not_a_record": false,
+  "hero": "1045_2.png",
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "K|ngp|n",
@@ -29,9 +29,45 @@
       "label": "HWBOT",
       "url": "https://hwbot.org/submission/3048776_",
       "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=4826982",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://futuremark.com/community/halloffame/",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1045.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1045_2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1045_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1045_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1045_orb2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

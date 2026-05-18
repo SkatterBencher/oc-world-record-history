@@ -1,0 +1,55 @@
+{
+  "uid": "20070912_1204",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2007-09-12",
+  "achieved_at_approximate": false,
+  "value_mhz": 1204,
+  "hardware": {
+    "primary": "ATI Radeon HD 2900 XT",
+    "motherboard": "ASUS Blitz Extreme",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "1204.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "mICKEYmOUSE",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?3dm05=3444663",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1204.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1204_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1204_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

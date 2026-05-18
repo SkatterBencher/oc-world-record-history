@@ -14,7 +14,7 @@
     "cooling": "Liquid Nitrogen"
   },
   "hero": null,
-  "not_a_record": false,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "Achill3us",

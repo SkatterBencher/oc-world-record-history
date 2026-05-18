@@ -11,9 +11,9 @@
     "primary": "Ati Radeon 9800 Pro",
     "motherboard": null,
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Dry Ice"
   },
-  "hero": null,
+  "hero": "558.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,33 @@
   ],
   "sources": [
     {
-      "label": "Futuremark",
+      "label": "Futuremark ORB",
       "url": "http://service.futuremark.com/compare?2k1=6463040",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://futuremark.com/community/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "558.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "558_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "567_hof.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "ATI"
   ],

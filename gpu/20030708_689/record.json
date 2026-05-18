@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "689.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,63 @@
   ],
   "sources": [
     {
-      "label": "Futuremark",
+      "label": "Futuremark ORB",
       "url": "http://service.futuremark.com/compare?2k3=1013946",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://www.solidhardware.com/macci/5900ultra/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "10fx_backside.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "12fullsystem.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "14fullsystem2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "16closeup_1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "689.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "689_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "689_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "ramsinks_1.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

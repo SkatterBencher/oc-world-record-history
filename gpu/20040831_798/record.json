@@ -1,0 +1,67 @@
+{
+  "uid": "20040831_798",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2004-08-31",
+  "achieved_at_approximate": false,
+  "value_mhz": 798,
+  "hardware": {
+    "primary": "Ati Radeon X800 XT PE",
+    "motherboard": "ABIT IC7",
+    "memory": null,
+    "cooling": "Cascade"
+  },
+  "hero": "798.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    },
+    {
+      "handle": "The Stilt",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=3039689",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "798.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "798_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "798_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

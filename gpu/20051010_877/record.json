@@ -1,0 +1,52 @@
+{
+  "uid": "20051010_877",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2005-10-10",
+  "achieved_at_approximate": false,
+  "value_mhz": 877.5,
+  "hardware": {
+    "primary": "ATi Radeon X1800 XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": null,
+  "not_a_record": true,
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Inquirer",
+      "url": "http://www.theinquirer.net/default.aspx?article=26818",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "990.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "990_inquirer.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "ATI"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,60 @@
+{
+  "uid": "20060526_1013",
+  "category": "gpu",
+  "subcategory": [
+    "dGPU"
+  ],
+  "achieved_at": "2006-05-26",
+  "achieved_at_approximate": false,
+  "value_mhz": 1013,
+  "hardware": {
+    "primary": "NVIDIA GeForce 7900 GTX",
+    "motherboard": "Foxconn C51XEM2AA",
+    "memory": null,
+    "cooling": "Cascade"
+  },
+  "hero": "1013.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "OPPainter",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?3dm05=2035988",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://futuremark.com/community/halloffame/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1013.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1013_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1013_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

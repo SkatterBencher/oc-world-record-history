@@ -1,0 +1,62 @@
+{
+  "uid": "20050602_904",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2005-06-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 904,
+  "hardware": {
+    "primary": "Ati Radeon X850 XT PE",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "904.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "VR-Zone",
+      "url": "http://www.vr-zone.com/?i=2273&s=1",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "902_vrzone.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "904.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "IMG_0060-m.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "IMG_0061-m.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "ATI"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

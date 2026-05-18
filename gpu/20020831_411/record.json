@@ -1,0 +1,130 @@
+{
+  "uid": "20020831_411",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2002-08-31",
+  "achieved_at_approximate": false,
+  "value_mhz": 411,
+  "hardware": {
+    "primary": "NVIDIA GeForce 4 Ti 4600",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "411.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Kamu",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Kamu2",
+      "url": "http://www.kamu2.net/gf4.html",
+      "archived_url": null
+    },
+    {
+      "label": "Madonion",
+      "url": "http://service.madonion.com/compare?2k1=4351024",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "10.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "11.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "12.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "13.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "14.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "409_kamu2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "5.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "7.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "8.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "9.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "411.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "411_madonion.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

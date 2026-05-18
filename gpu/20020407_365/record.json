@@ -9,11 +9,11 @@
   "value_mhz": 365,
   "hardware": {
     "primary": "NVIDIA GeForce 4 Ti 4600",
-    "motherboard": null,
+    "motherboard": "ABit i850-W83627HF",
     "memory": null,
-    "cooling": null
+    "cooling": "Peltier"
   },
-  "hero": null,
+  "hero": "365.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,30 @@
       "label": "MadOnion",
       "url": "http://service.madonion.com/compare?2k1=3195940",
       "archived_url": null
+    },
+    {
+      "label": "Superior PC",
+      "url": "http://www.superior-pc.com/woody.htm",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "365.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "365_madonion.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "365_superior.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

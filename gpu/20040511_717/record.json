@@ -1,0 +1,50 @@
+{
+  "uid": "20040511_717",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2004-05-11",
+  "achieved_at_approximate": false,
+  "value_mhz": 717,
+  "hardware": {
+    "primary": "Ati Radeon X800 XT PE",
+    "motherboard": "Abit IC7",
+    "memory": null,
+    "cooling": "Dry Ice"
+  },
+  "hero": "717.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=2504296",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "717.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "717_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,55 @@
+{
+  "uid": "20071022_1221",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2007-10-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 1221,
+  "hardware": {
+    "primary": "ATI Radeon HD 2900 XT",
+    "motherboard": "ASUS Maximus Formula",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": "1221.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Kinc",
+      "real_name": null,
+      "aliases": [],
+      "country": "SE",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?3dm06=3482373",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1221.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1221_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

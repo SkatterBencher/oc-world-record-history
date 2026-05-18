@@ -9,11 +9,11 @@
   "value_mhz": 391,
   "hardware": {
     "primary": "NVIDIA GeForce 4 Ti 4600",
-    "motherboard": null,
+    "motherboard": "Abit TH7II-R",
     "memory": null,
     "cooling": null
   },
-  "hero": null,
+  "hero": "391.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,7 +31,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "391.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "391_madonion.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

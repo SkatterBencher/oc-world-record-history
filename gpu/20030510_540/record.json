@@ -26,8 +26,13 @@
   ],
   "sources": [
     {
-      "label": "Futuremark",
+      "label": "Futuremark ORB",
       "url": "http://service.futuremark.com/compare?2k1=6459005",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://futuremark.com/community/halloffame/",
       "archived_url": null
     }
   ],
@@ -39,6 +44,11 @@
     },
     {
       "file": "540_futuremark.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "567_hof.png",
       "type": "other",
       "caption": null
     }

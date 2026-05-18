@@ -5,7 +5,7 @@
     "dgpu"
   ],
   "achieved_at": "2004-05-07",
-  "achieved_at_approximate": false,
+  "achieved_at_approximate": true,
   "value_mhz": 715,
   "hardware": {
     "primary": "Ati Radeon X800 XT Platinum",
@@ -14,7 +14,7 @@
     "cooling": "Liquid Nitrogen"
   },
   "hero": null,
-  "not_a_record": false,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "Unknown",

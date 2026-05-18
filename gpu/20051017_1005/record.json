@@ -1,0 +1,89 @@
+{
+  "uid": "20051017_1005",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2005-10-17",
+  "achieved_at_approximate": false,
+  "value_mhz": 1005.75,
+  "hardware": {
+    "primary": "ATi Radeon X1800 XT",
+    "motherboard": "DFI LanParty nF4 SLI-DR",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "ghz.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Sampsa",
+      "real_name": null,
+      "aliases": [
+        "Muropaketti"
+      ],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?77157-Radeon-X1800-XT-(GPU-1-GHz-Memory-1-GHz)",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/3dmark/r520/ghz/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "02.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "03.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "04.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "05.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "100575_muro.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "ghz.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "ghz1_thumb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "z3_ln2.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "ATI"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

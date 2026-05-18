@@ -9,11 +9,11 @@
   "value_mhz": 702,
   "hardware": {
     "primary": "GeForce FX 5900 Ultra",
-    "motherboard": null,
+    "motherboard": "ASUS P4C800",
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Single Stage"
   },
-  "hero": null,
+  "hero": "702.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,12 +26,33 @@
   ],
   "sources": [
     {
-      "label": "Futuremark",
+      "label": "Futuremark ORB",
       "url": "http://service.futuremark.com/compare?2k3=1282806",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark HOF",
+      "url": "http://www.futuremark.com/community/halloffame/",
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "702.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "702_hof.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "702_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],
