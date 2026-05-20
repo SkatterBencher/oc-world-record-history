@@ -1,19 +1,19 @@
 {
-  "uid": "20170322_3025",
+  "uid": "20170322_3024",
   "category": "gpu",
   "subcategory": [
     "dgpu"
   ],
   "achieved_at": "2017-03-22",
   "achieved_at_approximate": false,
-  "value_mhz": 3025,
+  "value_mhz": 3024.5,
   "hardware": {
     "primary": "NVIDIA GeForce GTX 1080 Ti",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "30245_2.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,7 +31,23 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "30245.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "30245_2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3025_insta2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVDIA"
   ],

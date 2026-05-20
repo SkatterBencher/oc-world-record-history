@@ -9,11 +9,11 @@
   "value_mhz": 2170,
   "hardware": {
     "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-    "motherboard": null,
+    "motherboard": "ASUS P8H67-M Evo",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "2170.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,7 +31,28 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "2170.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2170_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_513531.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_513533.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

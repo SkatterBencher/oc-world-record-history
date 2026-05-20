@@ -9,11 +9,11 @@
   "value_mhz": 1950,
   "hardware": {
     "primary": "Intel HD Graphics 2000 (Sandy Bridge)",
-    "motherboard": null,
+    "motherboard": "Gigabyte GA-H67MA-UD2H",
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Air"
   },
-  "hero": null,
+  "hero": "1900.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,7 +31,28 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1900.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1900_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_505483.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_505484.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

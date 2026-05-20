@@ -1,0 +1,88 @@
+{
+  "uid": "20160605_2430",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2016-06-05",
+  "achieved_at_approximate": false,
+  "value_mhz": 2430,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 1080",
+    "motherboard": "Gigabyte GA-Z170X-SOC Force LN2",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "2430.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Vivi",
+      "real_name": null,
+      "aliases": [],
+      "country": "ZA",
+      "profile_url": null
+    },
+    {
+      "handle": "HiCookie",
+      "real_name": null,
+      "aliases": [],
+      "country": "TW",
+      "profile_url": null
+    },
+    {
+      "handle": "Sofos1990",
+      "real_name": null,
+      "aliases": [],
+      "country": "GR",
+      "profile_url": null
+    },
+    {
+      "handle": "TeamAU",
+      "real_name": null,
+      "aliases": [],
+      "country": "AU",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/3232781_",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "2420_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2430.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1648660.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1648664.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1648665.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "NVDIA"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

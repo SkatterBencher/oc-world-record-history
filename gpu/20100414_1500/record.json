@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2010-04-14",
   "achieved_at_approximate": false,
-  "value_mhz": 1500.0,
+  "value_mhz": 1500,
   "hardware": {
     "primary": "AMD Radeon HD 5870",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
+  "hero": null,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "Elmor",
@@ -31,12 +33,10 @@
   ],
   "sources": [],
   "assets": [],
-  "hero": null,
   "tags": [
     "AMD"
   ],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

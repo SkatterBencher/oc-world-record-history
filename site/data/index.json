@@ -13273,20 +13273,22 @@
     ]
   },
   {
-    "uid": "20100311_1485",
+    "uid": "20100310_1485",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2010-03-11",
+    "achieved_at": "2010-03-10",
     "achieved_at_approximate": false,
-    "value_mhz": 1485.0,
+    "value_mhz": 1485,
     "hardware": {
       "primary": "AMD Radeon HD 5870",
       "motherboard": null,
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "NickShih",
@@ -13296,15 +13298,42 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_vantage_-_performance/submissions/972063",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dmv=1978226",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1485_futuremark.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1485_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_343303.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20100311_1485/",
+    "_asset_base": "/assets/gpu/20100310_1485/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -13573,7 +13602,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "1525.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -13596,9 +13625,55 @@
         "label": "XtremeSystems",
         "url": "http://www.xtremesystems.org/forums/showthread.php?249369-ASUS-HD5870-Matrix-hits-1500-and-30-5k",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://www.3dmark.com/3dmv/2082262",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.elmor.se/view/96/asus_hd5870_matrix_hits_1500",
+        "archived_url": null
+      },
+      {
+        "label": "Xfastest",
+        "url": "https://www.xfastest.com/thread-40969-1-1.html",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1500_3dmark.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1500_elmor.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1500_xtremesystems.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1525.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1525_system.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1525_vantage.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -13935,11 +14010,11 @@
     "value_mhz": 1700,
     "hardware": {
       "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-      "motherboard": null,
+      "motherboard": "ASUS P8H67-M Evo",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "1700.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -13957,7 +14032,28 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1700.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1700_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_503177.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_503178.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -13981,11 +14077,11 @@
     "value_mhz": 1950,
     "hardware": {
       "primary": "Intel HD Graphics 2000 (Sandy Bridge)",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-H67MA-UD2H",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "1900.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -14003,7 +14099,28 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1900.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1900_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_505483.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_505484.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -14027,11 +14144,11 @@
     "value_mhz": 2000,
     "hardware": {
       "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-      "motherboard": null,
+      "motherboard": "ASUS P8H67-M Evo",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Single Stage"
     },
-    "hero": null,
+    "hero": "2000.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -14049,7 +14166,28 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2000.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2000_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_512100.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_512101.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -14073,11 +14211,11 @@
     "value_mhz": 2170,
     "hardware": {
       "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-      "motherboard": null,
+      "motherboard": "ASUS P8H67-M Evo",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2170.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -14095,7 +14233,28 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2170.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2170_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_513531.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_513533.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -14119,11 +14278,11 @@
     "value_mhz": 2234,
     "hardware": {
       "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-      "motherboard": null,
+      "motherboard": "ASUS P8H67-M Evo",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2134.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -14141,7 +14300,28 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2134.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2234_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_513531.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_513906.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -14451,9 +14631,9 @@
     "value_mhz": 2300,
     "hardware": {
       "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-      "motherboard": null,
+      "motherboard": "ASUS P8Z68-V Pro",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Cascade"
     },
     "hero": null,
     "not_a_record": false,
@@ -14473,7 +14653,18 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2300.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_627221.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -14580,11 +14771,11 @@
     "value_mhz": 2400,
     "hardware": {
       "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-      "motherboard": null,
+      "motherboard": "Z68A-GD80(B3)",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2400.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -14602,7 +14793,33 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2400.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2400_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_645333.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_645334.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_645335.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -18875,21 +19092,21 @@
     ]
   },
   {
-    "uid": "20160605_2420",
+    "uid": "20160605_2430",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
     "achieved_at": "2016-06-05",
     "achieved_at_approximate": false,
-    "value_mhz": 2420,
+    "value_mhz": 2430,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1080",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-Z170X-SOC Force LN2",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2430.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -18897,6 +19114,27 @@
         "real_name": null,
         "aliases": [],
         "country": "ZA",
+        "profile_url": null
+      },
+      {
+        "handle": "HiCookie",
+        "real_name": null,
+        "aliases": [],
+        "country": "TW",
+        "profile_url": null
+      },
+      {
+        "handle": "Sofos1990",
+        "real_name": null,
+        "aliases": [],
+        "country": "GR",
+        "profile_url": null
+      },
+      {
+        "handle": "TeamAU",
+        "real_name": null,
+        "aliases": [],
+        "country": "AU",
         "profile_url": null
       }
     ],
@@ -18907,14 +19145,40 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2420_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2430.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1648660.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1648664.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1648665.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20160605_2420/",
+    "_asset_base": "/assets/gpu/20160605_2430/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -18931,11 +19195,11 @@
     "value_mhz": 2450,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1080",
-      "motherboard": null,
+      "motherboard": "ASUS Maximus VIII Extreme",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2450.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -18953,7 +19217,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2450.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2450_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1656094.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -18977,11 +19257,11 @@
     "value_mhz": 2645,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1080",
-      "motherboard": null,
+      "motherboard": "ASUS ROG Rampage V Edition 10",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2645.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -18999,7 +19279,38 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2645.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2645_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1662361.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1662369.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1662370.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1662371.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19023,11 +19334,11 @@
     "value_mhz": 2750,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1080",
-      "motherboard": null,
+      "motherboard": "ASUS ROG Rampage V Edition 10",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2750.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -19045,7 +19356,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2750.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2750_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1672787.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19069,11 +19396,11 @@
     "value_mhz": 2700,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1080",
-      "motherboard": null,
+      "motherboard": "ASUS ROG Rampage V Edition 10",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2700.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -19091,7 +19418,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2700.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2700_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1672564.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19115,11 +19458,11 @@
     "value_mhz": 2784,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1080",
-      "motherboard": null,
+      "motherboard": "ASUS Maximus VIII Extreme",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2784.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -19137,7 +19480,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2784.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2784_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1678619.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19161,11 +19520,11 @@
     "value_mhz": 2822,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1060",
-      "motherboard": null,
+      "motherboard": "ASRock Z170M OC Formula",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2822.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -19183,7 +19542,28 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2822.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2822_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1723369.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1723985.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19207,11 +19587,11 @@
     "value_mhz": 2885,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1060",
-      "motherboard": null,
+      "motherboard": "ASUS Maximus VIII Impact",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2885.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -19227,9 +19607,45 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/3359751_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/spy/682040",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2885.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2885_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2885_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1726873.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1726874.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1726881.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19253,11 +19669,11 @@
     "value_mhz": 2860,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1060",
-      "motherboard": null,
+      "motherboard": "ASUS Maximus VIII Impact",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2860.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -19273,9 +19689,45 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/3359748_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/fs/10680419",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2860.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2860_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2860_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1726873.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1726874.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1726875.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19303,11 +19755,32 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "3012.jpg",
     "not_a_record": false,
     "overclockers": [
       {
         "handle": "Vivi",
+        "real_name": null,
+        "aliases": [],
+        "country": "ZA",
+        "profile_url": null
+      },
+      {
+        "handle": "Rsannino",
+        "real_name": null,
+        "aliases": [],
+        "country": "IT",
+        "profile_url": null
+      },
+      {
+        "handle": "Bob(nz)",
+        "real_name": null,
+        "aliases": [],
+        "country": "NZ",
+        "profile_url": null
+      },
+      {
+        "handle": "DrWeez",
         "real_name": null,
         "aliases": [],
         "country": "ZA",
@@ -19321,7 +19794,33 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "3012.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3012_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1749499.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1749500.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1749501.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
@@ -19437,21 +19936,21 @@
     ]
   },
   {
-    "uid": "20170322_3025",
+    "uid": "20170322_3024",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
     "achieved_at": "2017-03-22",
     "achieved_at_approximate": false,
-    "value_mhz": 3025,
+    "value_mhz": 3024.5,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 1080 Ti",
       "motherboard": null,
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "30245_2.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -19469,14 +19968,30 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "30245.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "30245_2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3025_insta2.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVDIA"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20170322_3025/",
+    "_asset_base": "/assets/gpu/20170322_3024/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"

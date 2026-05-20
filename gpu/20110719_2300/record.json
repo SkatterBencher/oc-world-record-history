@@ -9,9 +9,9 @@
   "value_mhz": 2300,
   "hardware": {
     "primary": "Intel HD Graphics 3000 (Sandy Bridge)",
-    "motherboard": null,
+    "motherboard": "ASUS P8Z68-V Pro",
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Cascade"
   },
   "hero": null,
   "not_a_record": false,
@@ -31,7 +31,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "2300.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_627221.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

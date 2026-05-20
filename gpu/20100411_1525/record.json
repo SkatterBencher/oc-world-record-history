@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "1525.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -36,9 +36,55 @@
       "label": "XtremeSystems",
       "url": "http://www.xtremesystems.org/forums/showthread.php?249369-ASUS-HD5870-Matrix-hits-1500-and-30-5k",
       "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://www.3dmark.com/3dmv/2082262",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://www.elmor.se/view/96/asus_hd5870_matrix_hits_1500",
+      "archived_url": null
+    },
+    {
+      "label": "Xfastest",
+      "url": "https://www.xfastest.com/thread-40969-1-1.html",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1500_3dmark.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1500_elmor.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1500_xtremesystems.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1525.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1525_system.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1525_vantage.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],
