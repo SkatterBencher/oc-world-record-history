@@ -1,0 +1,77 @@
+{
+  "uid": "20100318_1324",
+  "category": "gpu",
+  "subcategory": [
+    "igp-cpu"
+  ],
+  "achieved_at": "2010-03-18",
+  "achieved_at_approximate": false,
+  "value_mhz": 1324,
+  "hardware": {
+    "primary": "Intel HD Graphics (Clarkdale)",
+    "motherboard": "Gigabyte GA-H57M-USB3",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Bennylodewijk",
+      "real_name": null,
+      "aliases": [],
+      "country": "ID",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/975791_",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?3dmv=2004872",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1324_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1324_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_347664.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_347665.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_347666.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_347667.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "Intel"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

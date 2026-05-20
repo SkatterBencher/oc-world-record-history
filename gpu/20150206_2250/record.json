@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2015-02-06",
   "achieved_at_approximate": false,
-  "value_mhz": 2250.0,
+  "value_mhz": 2250.4,
   "hardware": {
     "primary": "NVIDIA GeForce GTX 980",
-    "motherboard": null,
+    "motherboard": "Gigabyte GA-X99-SOC Champion",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": "22504.jpg",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Steponz",
@@ -22,14 +24,59 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
-  "hero": null,
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_extreme/submissions/2754727",
+      "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "http://www.3dmark.com/fs/3997198",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "22504.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2250_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2250_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1337563.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1337564.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1337565.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1337566.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

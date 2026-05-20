@@ -9,7 +9,7 @@
   "value_mhz": 475,
   "hardware": {
     "primary": "NVIDIA GeForce 6150",
-    "motherboard": null,
+    "motherboard": "A8N-VM CS",
     "memory": null,
     "cooling": null
   },
@@ -29,9 +29,20 @@
       "label": "HWBOT",
       "url": "https://hwbot.org/submission/558309_",
       "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=5062497",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "475_hwbot.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

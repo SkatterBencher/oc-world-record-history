@@ -1,0 +1,62 @@
+{
+  "uid": "20121012_2077",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2012-10-12",
+  "achieved_at_approximate": false,
+  "value_mhz": 2077,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 680",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "K|ngp|n",
+      "real_name": "Vince Lucido",
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark11_-_performance/submissions/2320002",
+      "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "http://www.3dmark.com/3dm11/4630806",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "2080.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2080_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2080_orb.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "NVIDIA"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

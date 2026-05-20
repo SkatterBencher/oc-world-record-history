@@ -9,11 +9,11 @@
   "value_mhz": 3900,
   "hardware": {
     "primary": "Intel Graphics (Arrow Lake)",
-    "motherboard": null,
+    "motherboard": "ASUS ROG Crosshair Z890 Apex",
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "3900.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -26,8 +26,40 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "YouTube",
+      "url": "https://youtu.be/qA-dLHavu-A",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "Screenshot (150).png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "Screenshot (153).png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3900.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3900_full.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "sys.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

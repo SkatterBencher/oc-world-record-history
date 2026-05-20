@@ -9,11 +9,11 @@
   "value_mhz": 1000,
   "hardware": {
     "primary": "ATI Radeon HD 3300",
-    "motherboard": null,
+    "motherboard": "ASUS M4A78T-E",
     "memory": null,
-    "cooling": null
+    "cooling": "Air"
   },
-  "hero": null,
+  "hero": "1000.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,7 +31,23 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1000.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1000_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_198023.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "ATI"
   ],

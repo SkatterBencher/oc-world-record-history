@@ -9,11 +9,11 @@
   "value_mhz": 1440,
   "hardware": {
     "primary": "Intel HD Graphics (Clarkdale)",
-    "motherboard": null,
+    "motherboard": "MSI H57M-ED65 (MS-7587)",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "1440.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,55 @@
       "label": "HWBOT",
       "url": "https://hwbot.org/submission/1081283_",
       "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?3dmv=2740143",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1440.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1440_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1440_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_479899.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_479900.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_479901.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_479902.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_479903.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

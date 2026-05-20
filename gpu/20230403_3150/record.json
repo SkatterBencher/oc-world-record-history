@@ -1,0 +1,69 @@
+{
+  "uid": "20230403_3150",
+  "category": "gpu",
+  "subcategory": [
+    "igp-cpu"
+  ],
+  "achieved_at": "2023-04-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 3150,
+  "hardware": {
+    "primary": "AMD Radeon Graphics (Raphael)",
+    "motherboard": "Gigabyte B650E Aorus Tachyon",
+    "memory": null,
+    "cooling": "Water"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "MSIMAX",
+      "real_name": null,
+      "aliases": [
+        "AiMax"
+      ],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/submission/5246456_",
+      "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "https://www.3dmark.com/3dm/92375063",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "3150_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3150_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2880883.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2899127.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "AMD"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

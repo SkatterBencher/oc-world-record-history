@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2011-07-17",
   "achieved_at_approximate": false,
-  "value_mhz": 1690.0,
+  "value_mhz": 1690,
   "hardware": {
     "primary": "NVIDIA GeForce GTX 580",
     "motherboard": null,
-    "memory": null,
+    "memory": "Gigabyte GA-P67A-UD5-B3",
     "cooling": null
   },
+  "hero": "1690.jpg",
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Kurbel",
@@ -22,14 +24,54 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
-  "hero": null,
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "http://3dmark.com/3dm03/6425144",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "https://www.3dmark.com/3dm03/6425144",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1690.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1690_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1690_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_626205.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_626206.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_626207.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

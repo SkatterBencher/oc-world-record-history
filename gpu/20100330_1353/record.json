@@ -9,9 +9,9 @@
   "value_mhz": 1353,
   "hardware": {
     "primary": "ATI Radeon HD 4290",
-    "motherboard": null,
+    "motherboard": "ASUS M4A89GTD-PRO",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
   "hero": "1353.png",
   "not_a_record": false,

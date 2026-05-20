@@ -9,7 +9,7 @@
   "value_mhz": 550,
   "hardware": {
     "primary": "NVIDIA GeForce 6100",
-    "motherboard": null,
+    "motherboard": "Biostar GeForce6100-M9",
     "memory": null,
     "cooling": null
   },
@@ -29,9 +29,20 @@
       "label": "HWBOT",
       "url": "https://hwbot.org/submission/565410_",
       "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?2k3=5133200",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "550_hwbot.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],

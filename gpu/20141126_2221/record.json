@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2014-11-26",
   "achieved_at_approximate": false,
-  "value_mhz": 2221.0,
+  "value_mhz": 2221,
   "hardware": {
     "primary": "NVIDIA GeForce GTX 980",
-    "motherboard": null,
+    "motherboard": "EVGA X99 Micro 995",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "K|ngp|n",
@@ -22,14 +24,44 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
-  "hero": null,
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_ultra/submissions/2683689",
+      "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "http://www.3dmark.com/fs/3318198",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "2221_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2221_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1293529.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1293682.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

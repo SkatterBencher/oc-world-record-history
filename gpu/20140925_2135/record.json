@@ -6,13 +6,15 @@
   ],
   "achieved_at": "2014-09-25",
   "achieved_at_approximate": false,
-  "value_mhz": 2135.0,
+  "value_mhz": 2135,
   "hardware": {
     "primary": "NVIDIA GeForce GTX 980",
-    "motherboard": null,
+    "motherboard": "ASUS ROG Rampage V Extreme",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
+  "hero": null,
+  "not_a_record": false,
   "overclockers": [
     {
       "handle": "Smoke",
@@ -20,16 +22,58 @@
       "aliases": [],
       "country": "RU",
       "profile_url": null
+    },
+    {
+      "handle": "12",
+      "real_name": null,
+      "aliases": [],
+      "country": "RU",
+      "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
-  "hero": null,
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike/submissions/2636436",
+      "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "http://3dmark.com/3dm/4151066",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "2135_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2135_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1254093.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1254094.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1254099.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "NVIDIA"
   ],
   "notes": null,
-  "not_a_record": false,
   "verified": true,
   "submitted_by": "skatterbencher"
 }

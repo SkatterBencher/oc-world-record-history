@@ -9,9 +9,9 @@
   "value_mhz": 1300,
   "hardware": {
     "primary": "Intel HD Graphics (Clarkdale)",
-    "motherboard": null,
+    "motherboard": "BIOSTAR TH55XE",
     "memory": null,
-    "cooling": null
+    "cooling": "Air"
   },
   "hero": null,
   "not_a_record": false,
@@ -31,7 +31,18 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1300_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_319843.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

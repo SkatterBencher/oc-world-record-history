@@ -9,11 +9,11 @@
   "value_mhz": 3100,
   "hardware": {
     "primary": "AMD Radeon Graphics (Raphael)",
-    "motherboard": null,
+    "motherboard": "GIGABYTE B650M DS3H",
     "memory": null,
-    "cooling": null
+    "cooling": "Air"
   },
-  "hero": null,
+  "hero": "3100.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,35 @@
       "label": "HWBOT",
       "url": "https://hwbot.org/submission/5197427_",
       "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "https://www.3dmark.com/spy/35590352",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "3100.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3100_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2860517.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2860518.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

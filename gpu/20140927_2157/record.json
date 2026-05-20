@@ -1,0 +1,77 @@
+{
+  "uid": "20140927_2157",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2014-09-27",
+  "achieved_at_approximate": false,
+  "value_mhz": 2157.9,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 750 Ti",
+    "motherboard": "Gigabyte GA-Z97X-SOC Force",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "2157.9.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "DFORDOG",
+      "real_name": null,
+      "aliases": [],
+      "country": "CN",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_extreme/submissions/2639031",
+      "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "http://www.3dmark.com/fs/2839637",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "2157.9.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2157_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2157_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1256492.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1256493.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_1256494.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "NVIDIA"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

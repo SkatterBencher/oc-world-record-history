@@ -9,11 +9,11 @@
   "value_mhz": 1318,
   "hardware": {
     "primary": "Intel HD Graphics (Clarkdale)",
-    "motherboard": null,
+    "motherboard": "Gigabyte GA-H55M-S2H",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "1318.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -29,9 +29,40 @@
       "label": "HWBOT",
       "url": "https://hwbot.org/submission/975557_",
       "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://service.futuremark.com/compare?3dmv=2003250",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "1318.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1318_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_347336.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_347337.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_347338.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "Intel"
   ],

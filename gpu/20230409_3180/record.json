@@ -9,9 +9,9 @@
   "value_mhz": 3180,
   "hardware": {
     "primary": "AMD Radeon Graphics (Raphael)",
-    "motherboard": null,
+    "motherboard": "Gigabyte B650E Aorus Tachyon",
     "memory": null,
-    "cooling": "Liquid Nitrogen"
+    "cooling": "Water"
   },
   "hero": null,
   "not_a_record": false,
@@ -31,9 +31,35 @@
       "label": "HWBOT",
       "url": "https://hwbot.org/submission/5247003_",
       "archived_url": null
+    },
+    {
+      "label": "3DMark ORB",
+      "url": "https://www.3dmark.com/3dm/92398105",
+      "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "3180_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3180_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2880883.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_2899588.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [
     "AMD"
   ],

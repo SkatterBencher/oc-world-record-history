@@ -1,0 +1,72 @@
+{
+  "uid": "20110221_1564",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2011-02-21",
+  "achieved_at_approximate": false,
+  "value_mhz": 1564,
+  "hardware": {
+    "primary": "NVIDIA GeForce GTX 580",
+    "motherboard": "ASUS Rampage III Extreme",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "1564.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "SF3D",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/3dmark03/submissions/2129681",
+      "archived_url": null
+    },
+    {
+      "label": "Futuremark ORB",
+      "url": "http://3dmark.com/3dm03/6393697",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1564.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1564_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1564_orb.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_541682.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_541683.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [
+    "NVIDIA"
+  ],
+  "notes": null,
+  "verified": true,
+  "submitted_by": "skatterbencher"
+}

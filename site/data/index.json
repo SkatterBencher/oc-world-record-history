@@ -9728,7 +9728,7 @@
     "value_mhz": 475,
     "hardware": {
       "primary": "NVIDIA GeForce 6150",
-      "motherboard": null,
+      "motherboard": "A8N-VM CS",
       "memory": null,
       "cooling": null
     },
@@ -9748,9 +9748,20 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/558309_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=5062497",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "475_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -9820,7 +9831,7 @@
     "value_mhz": 550,
     "hardware": {
       "primary": "NVIDIA GeForce 6100",
-      "motherboard": null,
+      "motherboard": "Biostar GeForce6100-M9",
       "memory": null,
       "cooling": null
     },
@@ -9840,9 +9851,20 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/565410_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=5133200",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "550_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -10012,9 +10034,20 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/575450_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k1=9092624",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "570_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -11123,7 +11156,18 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "667_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_37206.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -11409,11 +11453,11 @@
     "value_mhz": 710,
     "hardware": {
       "primary": "NVIDIA GeForce 7150",
-      "motherboard": null,
+      "motherboard": "Biostar TF7150U-M7",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "710.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -11431,7 +11475,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "710.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "710_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_66541.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -11532,9 +11592,20 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/743677_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dm06=7038072",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "725_hwbot.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
@@ -11558,11 +11629,11 @@
     "value_mhz": 750,
     "hardware": {
       "primary": "ATI Radeon HD 3200 (RS780)",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-MA78GM-S2H",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "750.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -11578,9 +11649,30 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/750851_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dm06=7363281",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "750.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "750_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_129826.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -11604,11 +11696,11 @@
     "value_mhz": 880,
     "hardware": {
       "primary": "ATI Radeon HD 3300",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-MA790GP-DS4H",
       "memory": null,
       "cooling": null
     },
-    "hero": null,
+    "hero": "880.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -11626,7 +11718,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "880.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "880_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_144970.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -11650,11 +11758,11 @@
     "value_mhz": 950,
     "hardware": {
       "primary": "ATI Radeon HD 3300",
-      "motherboard": null,
+      "motherboard": "Biostar TA790GX A2+",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "950.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -11672,7 +11780,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "950.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "950_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_152515.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -11742,11 +11866,11 @@
     "value_mhz": 973,
     "hardware": {
       "primary": "ATI Radeon HD 3300",
-      "motherboard": null,
+      "motherboard": "ASRock AOD790GX/128M",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "973.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -11764,7 +11888,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "973.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "973_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_161508.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -12202,11 +12342,11 @@
     "value_mhz": 1000,
     "hardware": {
       "primary": "ATI Radeon HD 3300",
-      "motherboard": null,
+      "motherboard": "ASUS M4A78T-E",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "1000.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -12224,7 +12364,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1000.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1000_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_198023.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -12250,9 +12406,9 @@
       "primary": "ATI Radeon HD 3300",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "1020.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -12270,7 +12426,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1020.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1020_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_209336.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -12294,11 +12466,11 @@
     "value_mhz": 1100,
     "hardware": {
       "primary": "ATI Radeon HD 3300",
-      "motherboard": null,
+      "motherboard": "ASUS M3A78-T",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "1100.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -12316,7 +12488,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1100.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1100_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_214625.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -12340,11 +12528,11 @@
     "value_mhz": 1111,
     "hardware": {
       "primary": "ATI Radeon HD 3300",
-      "motherboard": null,
+      "motherboard": "ASUS A8V-MX",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "1111.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -12362,7 +12550,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1111.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1111_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_215082.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -12775,11 +12979,11 @@
     "value_mhz": 1250,
     "hardware": {
       "primary": "ATI Radeon HD 4200",
-      "motherboard": null,
+      "motherboard": "ASUS M4A785TD-V EVO",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "1250.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -12795,9 +12999,30 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/928307_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?2k3=6230246",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1250.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1250_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_293112.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -12940,11 +13165,11 @@
     "value_mhz": 1352,
     "hardware": {
       "primary": "ATI Radeon HD 3300",
-      "motherboard": null,
+      "motherboard": "Biostar TA790GX A3+",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "1352.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -12962,7 +13187,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1352.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1352_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_306591.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "ATI"
     ],
@@ -12986,11 +13227,11 @@
     "value_mhz": 1114,
     "hardware": {
       "primary": "Intel HD Graphics (Clarkdale)",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-H55M-UD2H",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "1114.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -13010,7 +13251,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1114.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1114_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_309871.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -13163,9 +13420,9 @@
     "value_mhz": 1300,
     "hardware": {
       "primary": "Intel HD Graphics (Clarkdale)",
-      "motherboard": null,
+      "motherboard": "BIOSTAR TH55XE",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
     "hero": null,
     "not_a_record": false,
@@ -13185,7 +13442,18 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1300_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_319843.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -13340,65 +13608,19 @@
     ]
   },
   {
-    "uid": "20100318_1318",
+    "uid": "20100318_1324",
     "category": "gpu",
     "subcategory": [
       "igp-cpu"
     ],
     "achieved_at": "2010-03-18",
     "achieved_at_approximate": false,
-    "value_mhz": 1318,
-    "hardware": {
-      "primary": "Intel HD Graphics (Clarkdale)",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "hero": null,
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Ekky Jengkol",
-        "real_name": null,
-        "aliases": [],
-        "country": "ID",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "HWBOT",
-        "url": "https://hwbot.org/submission/975557_",
-        "archived_url": null
-      }
-    ],
-    "assets": [],
-    "tags": [
-      "Intel"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20100318_1318/",
-    "_genuine_overall": false,
-    "_genuine_in": [
-      "igp-cpu"
-    ]
-  },
-  {
-    "uid": "20100319_1324",
-    "category": "gpu",
-    "subcategory": [
-      "igp-cpu"
-    ],
-    "achieved_at": "2010-03-19",
-    "achieved_at_approximate": false,
     "value_mhz": 1324,
     "hardware": {
       "primary": "Intel HD Graphics (Clarkdale)",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-H57M-USB3",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": null,
     "not_a_record": false,
@@ -13416,16 +13638,129 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/975791_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dmv=2004872",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1324_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1324_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_347664.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_347665.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_347666.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_347667.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20100319_1324/",
+    "_asset_base": "/assets/gpu/20100318_1324/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "igp-cpu"
+    ]
+  },
+  {
+    "uid": "20100318_1318",
+    "category": "gpu",
+    "subcategory": [
+      "igp-cpu"
+    ],
+    "achieved_at": "2010-03-18",
+    "achieved_at_approximate": false,
+    "value_mhz": 1318,
+    "hardware": {
+      "primary": "Intel HD Graphics (Clarkdale)",
+      "motherboard": "Gigabyte GA-H55M-S2H",
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "1318.jpg",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Ekky Jengkol",
+        "real_name": null,
+        "aliases": [],
+        "country": "ID",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/submission/975557_",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dmv=2003250",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1318.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1318_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_347336.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_347337.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_347338.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [
+      "Intel"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20100318_1318/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -13442,9 +13777,9 @@
     "value_mhz": 1353,
     "hardware": {
       "primary": "ATI Radeon HD 4290",
-      "motherboard": null,
+      "motherboard": "ASUS M4A89GTD-PRO",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": "1353.png",
     "not_a_record": false,
@@ -13506,11 +13841,11 @@
     "value_mhz": 1364,
     "hardware": {
       "primary": "Intel HD Graphics (Clarkdale)",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-H55M-S2H",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "1364.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -13526,9 +13861,55 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/981789_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dmv=2048517",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1364_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1364_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_355169.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_355170.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_355171.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_355172.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_355173.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1364.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -13552,11 +13933,11 @@
     "value_mhz": 1387,
     "hardware": {
       "primary": "Intel HD Graphics (Clarkdale)",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-H55M-UD2H",
       "memory": null,
-      "cooling": null
+      "cooling": "Cascade"
     },
-    "hero": null,
+    "hero": "1387.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -13574,7 +13955,33 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1387.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1387_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_357905.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_357906.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_357907.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -13964,11 +14371,11 @@
     "value_mhz": 1440,
     "hardware": {
       "primary": "Intel HD Graphics (Clarkdale)",
-      "motherboard": null,
+      "motherboard": "MSI H57M-ED65 (MS-7587)",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "1440.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -13984,9 +14391,55 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/1081283_",
         "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://service.futuremark.com/compare?3dmv=2740143",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "1440.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1440_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1440_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_479899.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_479900.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_479901.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_479902.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_479903.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -14381,20 +14834,22 @@
     ]
   },
   {
-    "uid": "20110222_1564",
+    "uid": "20110221_1564",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2011-02-22",
+    "achieved_at": "2011-02-21",
     "achieved_at_approximate": false,
-    "value_mhz": 1564.0,
+    "value_mhz": 1564,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 580",
-      "motherboard": null,
+      "motherboard": "ASUS Rampage III Extreme",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "1564.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "SF3D",
@@ -14404,17 +14859,52 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark03/submissions/2129681",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://3dmark.com/3dm03/6393697",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1564.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1564_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1564_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_541682.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_541683.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20110222_1564/",
+    "_asset_base": "/assets/gpu/20110221_1564/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -14428,13 +14918,15 @@
     ],
     "achieved_at": "2011-02-25",
     "achieved_at_approximate": false,
-    "value_mhz": 1603.0,
+    "value_mhz": 1603,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 580",
-      "motherboard": null,
+      "motherboard": "ASUS Maximus IV Extreme",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "1603.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -14442,16 +14934,53 @@
         "aliases": [],
         "country": "SE",
         "profile_url": null
+      },
+      {
+        "handle": "Kinc",
+        "real_name": "Marcus Hultin",
+        "aliases": [],
+        "country": "SE",
+        "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark03/submissions/2131246",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://3dmark.com/3dm03/6394519",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1603.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1603_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1603_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_543503.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110225_1603/",
@@ -14468,30 +14997,67 @@
     ],
     "achieved_at": "2011-02-26",
     "achieved_at_approximate": false,
-    "value_mhz": 1625.0,
+    "value_mhz": 1625,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 580",
-      "motherboard": null,
+      "motherboard": "ASUS Maximus IV Extreme",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "1625.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Stummerwinter",
         "real_name": null,
         "aliases": [],
-        "country": null,
+        "country": "DE",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark03/submissions/2131912",
+        "archived_url": null
+      },
+      {
+        "label": "Futuermark ORB",
+        "url": "http://3dmark.com/3dm03/6394928",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1625.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1625_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1625_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_544275.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_544277.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110226_1625/",
@@ -14508,30 +15074,52 @@
     ],
     "achieved_at": "2011-03-06",
     "achieved_at_approximate": false,
-    "value_mhz": 1627.0,
+    "value_mhz": 1627,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 580",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "1627.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Splave",
-        "real_name": null,
+        "real_name": "Allen Golibersuch",
         "aliases": [],
         "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark03/submissions/2136245",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1627.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1627_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_549335.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110306_1627/",
@@ -14541,40 +15129,77 @@
     ]
   },
   {
-    "uid": "20110506_1681",
+    "uid": "20110310_1681",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2011-05-06",
+    "achieved_at": "2011-03-10",
     "achieved_at_approximate": false,
-    "value_mhz": 1681.0,
+    "value_mhz": 1681,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 580",
-      "motherboard": null,
+      "motherboard": "ASUS Rampage III Black Edition",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "NickShih",
-        "real_name": null,
+        "real_name": "Nick Shih",
         "aliases": [],
-        "country": null,
+        "country": "TW",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark03/submissions/2165090",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "http://3dmark.com/3dm03/6397987",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1681.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1681_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1681_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_584909.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_584910.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20110506_1681/",
+    "_asset_base": "/assets/gpu/20110310_1681/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -14588,13 +15213,15 @@
     ],
     "achieved_at": "2011-07-17",
     "achieved_at_approximate": false,
-    "value_mhz": 1690.0,
+    "value_mhz": 1690,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 580",
       "motherboard": null,
-      "memory": null,
+      "memory": "Gigabyte GA-P67A-UD5-B3",
       "cooling": null
     },
+    "hero": "1690.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Kurbel",
@@ -14604,14 +15231,54 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "http://3dmark.com/3dm03/6425144",
+        "archived_url": null
+      },
+      {
+        "label": "Futuremark ORB",
+        "url": "https://www.3dmark.com/3dm03/6425144",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1690.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1690_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1690_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_626205.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_626206.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_626207.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20110717_1690/",
@@ -15283,20 +15950,22 @@
     ]
   },
   {
-    "uid": "20120104_1700",
+    "uid": "20111229_1700",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2012-01-04",
+    "achieved_at": "2011-12-29",
     "achieved_at_approximate": false,
-    "value_mhz": 1700.0,
+    "value_mhz": 1700,
     "hardware": {
       "primary": "AMD Radeon HD 7970",
-      "motherboard": null,
+      "motherboard": "ASUS Rampage IV Extreme",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Shamino",
@@ -15306,17 +15975,87 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "Kingpincooling",
+        "url": "https://kingpincooling.com/forum/showpost.php?p=18951&postcount=22",
+        "archived_url": null
+      },
+      {
+        "label": "Mydrivers",
+        "url": "https://news.mydrivers.com/1/213/213602.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1700.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1700_kpc.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1700_mydrivers.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004250989.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004251061.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004255917.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004261861.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004272694.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004272710.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004272727.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004272744.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2011123004272761.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20120104_1700/",
+    "_asset_base": "/assets/gpu/20111229_1700/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -15381,13 +16120,15 @@
     ],
     "achieved_at": "2012-03-22",
     "achieved_at_approximate": false,
-    "value_mhz": 1900.0,
+    "value_mhz": 1900,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 680",
-      "motherboard": null,
+      "motherboard": "X79 Classified",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "1900.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "K|ngp|n",
@@ -15397,14 +16138,44 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark11_-_performance/submissions/2267660",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://3dmark.com/3dm11/3015272",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1900.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1900_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1900_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_757366.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20120322_1900/",
@@ -15414,20 +16185,22 @@
     ]
   },
   {
-    "uid": "20120406_1957",
+    "uid": "20120406_1958",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
     "achieved_at": "2012-04-06",
     "achieved_at_approximate": false,
-    "value_mhz": 1957.0,
+    "value_mhz": 1958,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 680",
-      "motherboard": null,
+      "motherboard": "X79 Classified",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "1957.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "K|ngp|n",
@@ -15437,17 +16210,47 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark11_-_performance/submissions/2272102",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://3dmark.com/3dm11/3129811",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1957.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1957_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1957_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_765030.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20120406_1957/",
+    "_asset_base": "/assets/gpu/20120406_1958/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -15604,13 +16407,15 @@
     ],
     "achieved_at": "2012-06-20",
     "achieved_at_approximate": false,
-    "value_mhz": 2002.0,
+    "value_mhz": 2002,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 680",
-      "motherboard": null,
+      "motherboard": "X79 Classified",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "K|ngp|n",
@@ -15620,14 +16425,39 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark11_-_performance/submissions/2293742",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://3dmark.com/3dm11/3694953",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2002_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2002_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_803238.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20120620_2002/",
@@ -16030,20 +16860,22 @@
     ]
   },
   {
-    "uid": "20121012_2080",
+    "uid": "20121011_2040",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2012-10-12",
+    "achieved_at": "2012-10-11",
     "achieved_at_approximate": false,
-    "value_mhz": 2080.0,
+    "value_mhz": 2040,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 680",
-      "motherboard": null,
+      "motherboard": "X79 Classified",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "K|ngp|n",
@@ -16053,37 +16885,64 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark11_-_performance/submissions/2319985",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/3dm11/4623353",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2040_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2040_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_850883.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20121012_2080/",
+    "_asset_base": "/assets/gpu/20121011_2040/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
     ]
   },
   {
-    "uid": "20121012_2040",
+    "uid": "20121012_2077",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
     "achieved_at": "2012-10-12",
     "achieved_at_approximate": false,
-    "value_mhz": 2040.0,
+    "value_mhz": 2077,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 680",
       "motherboard": null,
       "memory": null,
       "cooling": null
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "K|ngp|n",
@@ -16093,17 +16952,42 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark11_-_performance/submissions/2320002",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/3dm11/4630806",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2080.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2080_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2080_orb.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20121012_2040/",
+    "_asset_base": "/assets/gpu/20121012_2077/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -17110,7 +17994,7 @@
     "not_a_record": false,
     "overclockers": [
       {
-        "handle": "sofos1990",
+        "handle": "Sofos1990",
         "real_name": null,
         "aliases": [],
         "country": "GR",
@@ -17201,13 +18085,15 @@
     ],
     "achieved_at": "2014-09-25",
     "achieved_at_approximate": false,
-    "value_mhz": 2135.0,
+    "value_mhz": 2135,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 980",
-      "motherboard": null,
+      "motherboard": "ASUS ROG Rampage V Extreme",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Smoke",
@@ -17215,19 +18101,143 @@
         "aliases": [],
         "country": "RU",
         "profile_url": null
+      },
+      {
+        "handle": "12",
+        "real_name": null,
+        "aliases": [],
+        "country": "RU",
+        "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike/submissions/2636436",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://3dmark.com/3dm/4151066",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2135_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2135_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1254093.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1254094.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1254099.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20140925_2135/",
+    "_genuine_overall": false,
+    "_genuine_in": [
+      "dgpu"
+    ]
+  },
+  {
+    "uid": "20140927_2157",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2014-09-27",
+    "achieved_at_approximate": false,
+    "value_mhz": 2157.9,
+    "hardware": {
+      "primary": "NVIDIA GeForce GTX 750 Ti",
+      "motherboard": "Gigabyte GA-Z97X-SOC Force",
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "2157.9.jpg",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "DFORDOG",
+        "real_name": null,
+        "aliases": [],
+        "country": "CN",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_extreme/submissions/2639031",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/fs/2839637",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2157.9.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2157_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2157_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1256492.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1256493.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1256494.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [
+      "NVIDIA"
+    ],
+    "notes": null,
+    "verified": true,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20140927_2157/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -17280,60 +18290,22 @@
     ]
   },
   {
-    "uid": "20140928_2157",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2014-09-28",
-    "achieved_at_approximate": false,
-    "value_mhz": 2157.0,
-    "hardware": {
-      "primary": "NVIDIA GeForce GTX 750 Ti",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "overclockers": [
-      {
-        "handle": "DFORDOG",
-        "real_name": null,
-        "aliases": [],
-        "country": "CN",
-        "profile_url": null
-      }
-    ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
-    "tags": [
-      "NVIDIA"
-    ],
-    "notes": null,
-    "not_a_record": false,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20140928_2157/",
-    "_genuine_overall": false,
-    "_genuine_in": [
-      "dgpu"
-    ]
-  },
-  {
-    "uid": "20141001_2208",
+    "uid": "20141001_2207",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
     "achieved_at": "2014-10-01",
     "achieved_at_approximate": false,
-    "value_mhz": 2208.0,
+    "value_mhz": 2207.7,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 980",
-      "motherboard": null,
+      "motherboard": "ASUS ROG Rampage V Extreme",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "22077.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Elmor",
@@ -17343,17 +18315,52 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_extreme/submissions/2640844",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/3dm/4221139",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "22077.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2208_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2208_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1258339.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1258340.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20141001_2208/",
+    "_asset_base": "/assets/gpu/20141001_2207/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -17464,13 +18471,15 @@
     ],
     "achieved_at": "2014-11-26",
     "achieved_at_approximate": false,
-    "value_mhz": 2221.0,
+    "value_mhz": 2221,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 980",
-      "motherboard": null,
+      "motherboard": "EVGA X99 Micro 995",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "K|ngp|n",
@@ -17480,14 +18489,44 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_ultra/submissions/2683689",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/fs/3318198",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2221_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2221_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1293529.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1293682.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20141126_2221/",
@@ -17497,40 +18536,87 @@
     ]
   },
   {
-    "uid": "20141201_2245",
+    "uid": "20141130_2245",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2014-12-01",
+    "achieved_at": "2014-11-30",
     "achieved_at_approximate": false,
-    "value_mhz": 2245.0,
+    "value_mhz": 2245,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 980",
-      "motherboard": null,
+      "motherboard": "ASRock X99 OC Formula",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": null,
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "8 Pack",
-        "real_name": null,
+        "real_name": "Ian Parry",
         "aliases": [],
         "country": "GB",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike/submissions/2687468",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/fs/3356117",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "2245_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2245_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1296716.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1296717.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1296718.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1296719.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1296720.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20141201_2245/",
+    "_asset_base": "/assets/gpu/20141130_2245/",
     "_genuine_overall": false,
     "_genuine_in": [
       "dgpu"
@@ -18061,13 +19147,15 @@
     ],
     "achieved_at": "2015-02-06",
     "achieved_at_approximate": false,
-    "value_mhz": 2250.0,
+    "value_mhz": 2250.4,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 980",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-X99-SOC Champion",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "22504.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Steponz",
@@ -18077,14 +19165,59 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_extreme/submissions/2754727",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/fs/3997198",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "22504.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2250_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2250_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1337563.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1337564.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1337565.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1337566.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20150206_2250/",
@@ -18101,30 +19234,79 @@
     ],
     "achieved_at": "2015-02-16",
     "achieved_at_approximate": false,
-    "value_mhz": 2278.0,
+    "value_mhz": 2278.1,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 980",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-X99-SOC Champion",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "22781.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Steponz",
-        "real_name": null,
-        "aliases": [],
+        "real_name": "Joe Steponzi",
+        "aliases": [
+          "BeardedHardware"
+        ],
         "country": "US",
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_extreme/submissions/2764622",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/fs/4089061",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "22781.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2278_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2278_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1343631.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1343632.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1343633.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1343634.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20150216_2278/",
@@ -18141,13 +19323,15 @@
     ],
     "achieved_at": "2015-02-18",
     "achieved_at_approximate": false,
-    "value_mhz": 2300.0,
+    "value_mhz": 2300,
     "hardware": {
       "primary": "NVIDIA GeForce GTX 980",
-      "motherboard": null,
+      "motherboard": "Gigabyte GA-X99-SOC Champion",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
+    "hero": "23003.jpg",
+    "not_a_record": false,
     "overclockers": [
       {
         "handle": "Steponz",
@@ -18157,14 +19341,59 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
-    "hero": null,
+    "sources": [
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/3dmark_-_fire_strike_extreme/submissions/2766654",
+        "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "http://www.3dmark.com/fs/4105735",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "23003.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2300_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2300_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1345013.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1345014.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1345015.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_1345017.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "NVIDIA"
     ],
     "notes": null,
-    "not_a_record": false,
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/gpu/20150218_2300/",
@@ -21414,21 +22643,21 @@
     ]
   },
   {
-    "uid": "20200803_2500",
+    "uid": "20200731_2500",
     "category": "gpu",
     "subcategory": [
       "igp-cpu"
     ],
-    "achieved_at": "2020-08-03",
+    "achieved_at": "2020-07-31",
     "achieved_at_approximate": false,
     "value_mhz": 2500,
     "hardware": {
       "primary": "AMD Radeon Graphics (Renoir)",
-      "motherboard": null,
+      "motherboard": "Gigabyte B550 Vision D",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "2500.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -21444,16 +22673,42 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/4514525_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/fs/23210599",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2500.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2500_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2500_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2377681.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20200803_2500/",
+    "_asset_base": "/assets/gpu/20200731_2500/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -21511,19 +22766,19 @@
     ]
   },
   {
-    "uid": "20210101_2800",
+    "uid": "20201230_2800",
     "category": "gpu",
     "subcategory": [
       "igp-cpu"
     ],
-    "achieved_at": "2021-01-01",
+    "achieved_at": "2020-12-30",
     "achieved_at_approximate": false,
     "value_mhz": 2800,
     "hardware": {
       "primary": "AMD Radeon Graphics (Renoir)",
       "motherboard": null,
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
     "hero": null,
     "not_a_record": false,
@@ -21541,16 +22796,42 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/4645089_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/3dm/55863297",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2800_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2800_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2446143.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2447269.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20210101_2800/",
+    "_asset_base": "/assets/gpu/20201230_2800/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -22062,11 +23343,11 @@
     "value_mhz": 2900,
     "hardware": {
       "primary": "AMD Radeon Graphics (Cezanne)",
-      "motherboard": null,
+      "motherboard": "ASRock X570 AQUA",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2900.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -22084,7 +23365,28 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2900.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2900_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2544677.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2544679.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -22568,17 +23870,19 @@
     "value_mhz": 2937,
     "hardware": {
       "primary": "AMD Radeon Graphics (Cezanne)",
-      "motherboard": null,
+      "motherboard": "ASUS ROG Strix B550-I Gaming",
       "memory": null,
-      "cooling": null
+      "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "2937.jpg",
     "not_a_record": false,
     "overclockers": [
       {
         "handle": "Benchmarc",
         "real_name": null,
-        "aliases": [],
+        "aliases": [
+          "Forks"
+        ],
         "country": "US",
         "profile_url": null
       }
@@ -22588,9 +23892,40 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/5089805_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/3dm/80230708",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "2937.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2937_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2937_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2769539.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2769540.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -23133,11 +24468,11 @@
     "value_mhz": 3050,
     "hardware": {
       "primary": "AMD Radeon Graphics (Raphael)",
-      "motherboard": null,
+      "motherboard": "Gigabyte B650M Aorus Elite AX",
       "memory": null,
-      "cooling": null
+      "cooling": "AIO"
     },
-    "hero": null,
+    "hero": "3050.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -23153,9 +24488,30 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/5178397_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/3dm/87627425",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "3050.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3050_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2845492.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -23179,11 +24535,11 @@
     "value_mhz": 3100,
     "hardware": {
       "primary": "AMD Radeon Graphics (Raphael)",
-      "motherboard": null,
+      "motherboard": "GIGABYTE B650M DS3H",
       "memory": null,
-      "cooling": null
+      "cooling": "Air"
     },
-    "hero": null,
+    "hero": "3100.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -23199,9 +24555,35 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/5197427_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/spy/35590352",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "3100.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3100_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2860517.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2860518.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -23277,19 +24659,19 @@
     ]
   },
   {
-    "uid": "20230408_3150",
+    "uid": "20230403_3150",
     "category": "gpu",
     "subcategory": [
       "igp-cpu"
     ],
-    "achieved_at": "2023-04-08",
+    "achieved_at": "2023-04-03",
     "achieved_at_approximate": false,
     "value_mhz": 3150,
     "hardware": {
       "primary": "AMD Radeon Graphics (Raphael)",
-      "motherboard": null,
+      "motherboard": "Gigabyte B650E Aorus Tachyon",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Water"
     },
     "hero": null,
     "not_a_record": false,
@@ -23309,16 +24691,42 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/5246456_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/3dm/92375063",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "3150_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3150_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2880883.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2899127.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
     "notes": null,
     "verified": true,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20230408_3150/",
+    "_asset_base": "/assets/gpu/20230403_3150/",
     "_genuine_overall": false,
     "_genuine_in": [
       "igp-cpu"
@@ -23335,11 +24743,11 @@
     "value_mhz": 3190,
     "hardware": {
       "primary": "AMD Radeon Graphics (Raphael)",
-      "motherboard": null,
+      "motherboard": "Gigabyte B650E Aorus Tachyon",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Water"
     },
-    "hero": null,
+    "hero": "3190.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -23359,7 +24767,23 @@
         "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "3190.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3190_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2899662.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -23383,9 +24807,9 @@
     "value_mhz": 3180,
     "hardware": {
       "primary": "AMD Radeon Graphics (Raphael)",
-      "motherboard": null,
+      "motherboard": "Gigabyte B650E Aorus Tachyon",
       "memory": null,
-      "cooling": "Liquid Nitrogen"
+      "cooling": "Water"
     },
     "hero": null,
     "not_a_record": false,
@@ -23405,9 +24829,35 @@
         "label": "HWBOT",
         "url": "https://hwbot.org/submission/5247003_",
         "archived_url": null
+      },
+      {
+        "label": "3DMark ORB",
+        "url": "https://www.3dmark.com/3dm/92398105",
+        "archived_url": null
       }
     ],
-    "assets": [],
+    "assets": [
+      {
+        "file": "3180_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3180_orb.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2880883.jpeg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "image_id_2899588.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "AMD"
     ],
@@ -24653,11 +26103,11 @@
     "value_mhz": 3900,
     "hardware": {
       "primary": "Intel Graphics (Arrow Lake)",
-      "motherboard": null,
+      "motherboard": "ASUS ROG Crosshair Z890 Apex",
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "3900.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -24670,8 +26120,40 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/qA-dLHavu-A",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "Screenshot (150).png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "Screenshot (153).png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3900.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "3900_full.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "sys.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [
       "Intel"
     ],
@@ -25628,6 +27110,11 @@
         "file": "Screenshot (144).png",
         "type": "other",
         "caption": null
+      },
+      {
+        "file": "Screenshot.png",
+        "type": "other",
+        "caption": null
       }
     ],
     "tags": [
@@ -25939,7 +27426,7 @@
     "achieved_at_approximate": false,
     "value_mhz": 6504.9,
     "hardware": {
-      "primary": "Corsair 24576 MB CMK48GX5M2X8000C38",
+      "primary": "Corsair CMK48GX5M2X8000C38",
       "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
       "cooling": "Liquid Nitrogen"
@@ -25985,7 +27472,7 @@
     "achieved_at_approximate": false,
     "value_mhz": 6517.4,
     "hardware": {
-      "primary": "A-Data Technology 24576 MB",
+      "primary": "A-Data Technology",
       "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
       "cooling": "Liquid Nitrogen"
@@ -26057,7 +27544,7 @@
     "achieved_at_approximate": false,
     "value_mhz": 6605.7,
     "hardware": {
-      "primary": "Patriot Memory 24576 MB 8200 C38 Series",
+      "primary": "Patriot Memory 8200 C38 Series",
       "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
       "cooling": null
@@ -26141,7 +27628,7 @@
     "achieved_at_approximate": false,
     "value_mhz": 6703.9,
     "hardware": {
-      "primary": "Corsair 24576 MB CMK48GX5M2B7200C36",
+      "primary": "Corsair CMK48GX5M2B7200C36",
       "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
       "cooling": "Liquid Nitrogen"
@@ -26213,7 +27700,7 @@
     "achieved_at_approximate": false,
     "value_mhz": 6765.2,
     "hardware": {
-      "primary": "Corsair 24576 MB CMK48GX5M2X8000C38",
+      "primary": "Corsair CMK48GX5M2X8000C38",
       "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
       "memory": null,
       "cooling": "Liquid Nitrogen"
