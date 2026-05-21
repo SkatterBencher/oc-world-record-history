@@ -1,0 +1,58 @@
+{
+  "uid": "20000523_1558",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2000-05-23",
+  "achieved_at_approximate": false,
+  "value_mhz": 1558.92,
+  "hardware": {
+    "primary": "Intel Pentium III 850 MHz",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "2352000gig.gif",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Hide",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/21_2000_index.php3",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://www2u.biglobe.ne.jp/~hide-n/P3-850.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1558.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1558_muro.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2352000gig.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

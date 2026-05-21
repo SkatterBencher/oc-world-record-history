@@ -14,7 +14,7 @@
     "cooling": "Chilled Water"
   },
   "hero": "305.png",
-  "not_a_record": false,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "Macci",

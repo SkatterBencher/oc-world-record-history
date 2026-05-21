@@ -1,0 +1,44 @@
+{
+  "uid": "20001012_290",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2000-10-12",
+  "achieved_at_approximate": true,
+  "value_mhz": 290,
+  "hardware": {
+    "primary": "NVIDIA GeForce 2 Ultra",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Air"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Guru3D",
+      "real_name": null,
+      "aliases": [],
+      "country": "NL",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Guru3D",
+      "url": "http://www.guru3d.com/review/guillemot/3dprophet2ultra/",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/41_00.phtml",
+      "archived_url": null
+    }
+  ],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

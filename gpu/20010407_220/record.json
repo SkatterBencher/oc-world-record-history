@@ -1,0 +1,45 @@
+{
+  "uid": "20010407_220",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2001-04-07",
+  "achieved_at_approximate": true,
+  "value_mhz": 220,
+  "hardware": {
+    "primary": "ATI Radeon",
+    "motherboard": "MSI K7T Pro2-A",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": true,
+  "overclockers": [
+    {
+      "handle": "Foxhawk",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Downtown",
+      "url": "http://koti.mbnet.fi/~downtown/3dmark2000/3dmark2000.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "220_dt.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": "Snapshot is from April 7, 2001",
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

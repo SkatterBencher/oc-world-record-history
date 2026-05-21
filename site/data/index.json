@@ -1534,6 +1534,66 @@
     "_genuine_in": []
   },
   {
+    "uid": "19990727_209",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "1999-07-27",
+    "achieved_at_approximate": true,
+    "value_mhz": 209,
+    "hardware": {
+      "primary": "Matrox G400",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Air"
+    },
+    "hero": null,
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Unknown",
+        "real_name": null,
+        "aliases": [],
+        "country": null,
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/arkisto/30_index.php3",
+        "archived_url": null
+      },
+      {
+        "label": "Gagames",
+        "url": "http://forums.gagames.com/forums/Forum109/HTML/002346.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "209.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "209_muro.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/19990727_209/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
+  },
+  {
     "uid": "19991007_1082",
     "category": "cpu",
     "subcategory": [],
@@ -1662,68 +1722,6 @@
     "_asset_base": "/assets/cpu/19991101_1151/",
     "_genuine_overall": true,
     "_genuine_in": []
-  },
-  {
-    "uid": "19991112_205",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "1999-11-12",
-    "achieved_at_approximate": false,
-    "value_mhz": 205,
-    "hardware": {
-      "primary": "NVIDIA Riva TNT2 Ultra",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "hero": "205.png",
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Vince Freeman",
-        "real_name": null,
-        "aliases": [],
-        "country": "US",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "Sharkyextreme",
-        "url": "http://www.sharkyextreme.com/hardware/reviews/video/falcon_xentor_se/",
-        "archived_url": null
-      }
-    ],
-    "assets": [
-      {
-        "file": "195_sharky.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "205.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "205_sharky.png",
-        "type": "other",
-        "caption": null
-      }
-    ],
-    "tags": [
-      "NVIDIA"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/19991112_205/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
-    ]
   },
   {
     "uid": "19991116_1238",
@@ -1896,6 +1894,11 @@
         "label": "Nifty Fextpup",
         "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
         "archived_url": null
+      },
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/arkisto/11_2000_index.php3",
+        "archived_url": null
       }
     ],
     "assets": [
@@ -1911,6 +1914,31 @@
       },
       {
         "file": "1286_eltrain2.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1286_muro.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1932000ln2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1932000ln2_2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1932000ln2_3.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1932000ln2_4.jpg",
         "type": "other",
         "caption": null
       }
@@ -1931,14 +1959,14 @@
     "subcategory": [],
     "achieved_at": "2000-04-02",
     "achieved_at_approximate": false,
-    "value_mhz": 1372,
+    "value_mhz": 1372.05,
     "hardware": {
       "primary": "Intel Pentium III 800 MHz",
       "motherboard": null,
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "1372.05.png",
     "not_a_record": false,
     "overclockers": [
       {
@@ -1947,7 +1975,7 @@
         "aliases": [
           "kfuno"
         ],
-        "country": null,
+        "country": "JP",
         "profile_url": null
       }
     ],
@@ -1960,6 +1988,11 @@
       {
         "label": "H.Oda!",
         "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+        "archived_url": null
+      },
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/arkisto/14_2000_index.php3",
         "archived_url": null
       }
     ],
@@ -1976,6 +2009,16 @@
       },
       {
         "file": "1372_system.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1372.05.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "342000rec.gif",
         "type": "other",
         "caption": null
       }
@@ -2021,6 +2064,16 @@
       {
         "label": "H.Oda!",
         "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.mdb.gr.jp/ja0hxv/pai/ep41500.html",
+        "archived_url": null
+      },
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/index.phtml#uutiset",
         "archived_url": null
       }
     ],
@@ -2094,6 +2147,67 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/cpu/20000413_1522/",
+    "_genuine_overall": true,
+    "_genuine_in": []
+  },
+  {
+    "uid": "20000523_1558",
+    "category": "cpu",
+    "subcategory": [],
+    "achieved_at": "2000-05-23",
+    "achieved_at_approximate": false,
+    "value_mhz": 1558.92,
+    "hardware": {
+      "primary": "Intel Pentium III 850 MHz",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "2352000gig.gif",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Hide",
+        "real_name": null,
+        "aliases": [],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/arkisto/21_2000_index.php3",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www2u.biglobe.ne.jp/~hide-n/P3-850.htm",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "1558.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1558_muro.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "2352000gig.gif",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/cpu/20000523_1558/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -2489,6 +2603,55 @@
     ]
   },
   {
+    "uid": "20001012_290",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2000-10-12",
+    "achieved_at_approximate": true,
+    "value_mhz": 290,
+    "hardware": {
+      "primary": "NVIDIA GeForce 2 Ultra",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Air"
+    },
+    "hero": null,
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Guru3D",
+        "real_name": null,
+        "aliases": [],
+        "country": "NL",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Guru3D",
+        "url": "http://www.guru3d.com/review/guillemot/3dprophet2ultra/",
+        "archived_url": null
+      },
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/arkisto/41_00.phtml",
+        "archived_url": null
+      }
+    ],
+    "assets": [],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20001012_290/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
+  },
+  {
     "uid": "20001105_1613",
     "category": "cpu",
     "subcategory": [],
@@ -2542,6 +2705,61 @@
     "_asset_base": "/assets/cpu/20001105_1613/",
     "_genuine_overall": true,
     "_genuine_in": []
+  },
+  {
+    "uid": "20001107_315",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2000-11-07",
+    "achieved_at_approximate": false,
+    "value_mhz": 315,
+    "hardware": {
+      "primary": "NVIDIA GeForce 2 Ultra",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Peltier"
+    },
+    "hero": null,
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Jimmy",
+        "real_name": null,
+        "aliases": [],
+        "country": "FI",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/3dmark2k/index.phtml",
+        "archived_url": null
+      },
+      {
+        "label": "MadOnion ORB",
+        "url": "http://gamershq.madonion.com/products/orb/?publish_compare.shtml?&project_type=1&dprid=869176",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "315_muro.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20001107_315/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
   },
   {
     "uid": "20001114_216",
@@ -2754,6 +2972,11 @@
         "label": "Blog",
         "url": "http://www.mdb.gr.jp/ja0hxv/",
         "archived_url": null
+      },
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/index.phtml#uutiset",
+        "archived_url": null
       }
     ],
     "assets": [
@@ -2766,6 +2989,26 @@
         "file": "214452.jpg",
         "type": "other",
         "caption": null
+      },
+      {
+        "file": "101200ln2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "101200ln2_2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1500_blog.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1500_muro.png",
+        "type": "other",
+        "caption": null
       }
     ],
     "tags": [
@@ -2775,6 +3018,74 @@
     "verified": true,
     "submitted_by": "skatterbencher",
     "_asset_base": "/assets/cpu/20001203_2144/",
+    "_genuine_overall": true,
+    "_genuine_in": []
+  },
+  {
+    "uid": "20001210_2153",
+    "category": "cpu",
+    "subcategory": [],
+    "achieved_at": "2000-12-10",
+    "achieved_at_approximate": false,
+    "value_mhz": 2153,
+    "hardware": {
+      "primary": "Intel Pentium 4 1.5 GHz",
+      "motherboard": "Asus P4T",
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": null,
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Mr. Kondo",
+        "real_name": null,
+        "aliases": [
+          "ja0hxv"
+        ],
+        "country": "JP",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Muropaketti",
+        "url": "http://www.muropaketti.com/index.phtml",
+        "archived_url": null
+      },
+      {
+        "label": "Blog",
+        "url": "http://www.mdb.gr.jp/ja0hxv/pai/ep41500.html",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "101200ln2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "101200ln2_2.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1500_blog.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "1500_muro.png",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/cpu/20001210_2153/",
     "_genuine_overall": true,
     "_genuine_in": []
   },
@@ -3090,93 +3401,6 @@
     "_genuine_in": []
   },
   {
-    "uid": "20010528_256",
-    "category": "gpu",
-    "subcategory": [
-      "dgpu"
-    ],
-    "achieved_at": "2001-05-28",
-    "achieved_at_approximate": false,
-    "value_mhz": 256,
-    "hardware": {
-      "primary": "NVIDIA GeForce3",
-      "motherboard": null,
-      "memory": null,
-      "cooling": null
-    },
-    "hero": "256.png",
-    "not_a_record": false,
-    "overclockers": [
-      {
-        "handle": "Macci",
-        "real_name": null,
-        "aliases": [],
-        "country": "FI",
-        "profile_url": null
-      }
-    ],
-    "sources": [
-      {
-        "label": "GamersHQ News",
-        "url": "http://gamershq.madonion.com/news/?newsarticle=200105/2001052800#200105/2001052800",
-        "archived_url": null
-      },
-      {
-        "label": "GamersHQ ORB",
-        "url": "http://gamershq.madonion.com/compare2k1.shtml?966303",
-        "archived_url": null
-      },
-      {
-        "label": "Tweakers",
-        "url": "https://tweakers.net/nieuws/17076/extreme-geforce3-overclocking.html",
-        "archived_url": null
-      }
-    ],
-    "assets": [
-      {
-        "file": "256.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "256_gamershq.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "7793marks.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "991069323.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "gf3_02.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "nocase.jpg",
-        "type": "other",
-        "caption": null
-      }
-    ],
-    "tags": [
-      "NVIDIA"
-    ],
-    "notes": null,
-    "verified": true,
-    "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20010528_256/",
-    "_genuine_overall": true,
-    "_genuine_in": [
-      "dgpu"
-    ]
-  },
-  {
     "uid": "20010609_3027",
     "category": "cpu",
     "subcategory": [],
@@ -3354,25 +3578,25 @@
     "_genuine_in": []
   },
   {
-    "uid": "20011123_305",
+    "uid": "20011208_340",
     "category": "gpu",
     "subcategory": [
       "dgpu"
     ],
-    "achieved_at": "2001-11-23",
-    "achieved_at_approximate": false,
-    "value_mhz": 305,
+    "achieved_at": "2001-12-08",
+    "achieved_at_approximate": true,
+    "value_mhz": 340,
     "hardware": {
-      "primary": "NVIDIA GeForce3",
-      "motherboard": "EPoX 8KHA+",
+      "primary": "Ati Radeon 7500",
+      "motherboard": "Abit KG7A-Raid",
       "memory": null,
-      "cooling": "Chilled Water"
+      "cooling": null
     },
-    "hero": "305.png",
+    "hero": null,
     "not_a_record": false,
     "overclockers": [
       {
-        "handle": "Macci",
+        "handle": "Fiiu",
         "real_name": null,
         "aliases": [],
         "country": "FI",
@@ -3381,85 +3605,23 @@
     ],
     "sources": [
       {
-        "label": "VR-Zone",
-        "url": "http://www.vr-zone.com/guides/3DMark2001/",
-        "archived_url": null
-      },
-      {
-        "label": "GamersHQ ORB",
-        "url": "http://gamershq.madonion.com/compare2k1.shtml?2054394",
+        "label": "Downtown",
+        "url": "http://koti.mbnet.fi/~downtown/3dmark2001/3dmark2001.htm",
         "archived_url": null
       }
     ],
     "assets": [
       {
-        "file": "302_vrzone2.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "305.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "305_vrzone.png",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "3DMark2001.gif",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "epox_mobo.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "epox_ramsink.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "epox_sinks.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "epox_sinks2.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "epox_vmem.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "epox_vmem2.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "gf3_water_pelt_plate.jpg",
-        "type": "other",
-        "caption": null
-      },
-      {
-        "file": "waterchiller.jpg",
+        "file": "340_dt.png",
         "type": "other",
         "caption": null
       }
     ],
-    "tags": [
-      "NVIDIA"
-    ],
-    "notes": null,
-    "verified": true,
+    "tags": [],
+    "notes": "Snapshot is from December 8, 2001",
+    "verified": false,
     "submitted_by": "skatterbencher",
-    "_asset_base": "/assets/gpu/20011123_305/",
+    "_asset_base": "/assets/gpu/20011208_340/",
     "_genuine_overall": true,
     "_genuine_in": [
       "dgpu"
@@ -3545,6 +3707,13 @@
         "aliases": [
           "Muropaketti"
         ],
+        "country": "FI",
+        "profile_url": null
+      },
+      {
+        "handle": "Kamu",
+        "real_name": null,
+        "aliases": [],
         "country": "FI",
         "profile_url": null
       }

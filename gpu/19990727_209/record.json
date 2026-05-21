@@ -1,0 +1,55 @@
+{
+  "uid": "19990727_209",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "1999-07-27",
+  "achieved_at_approximate": true,
+  "value_mhz": 209,
+  "hardware": {
+    "primary": "Matrox G400",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Air"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Unknown",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/30_index.php3",
+      "archived_url": null
+    },
+    {
+      "label": "Gagames",
+      "url": "http://forums.gagames.com/forums/Forum109/HTML/002346.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "209.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "209_muro.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

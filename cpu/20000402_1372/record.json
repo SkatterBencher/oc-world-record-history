@@ -4,14 +4,14 @@
   "subcategory": [],
   "achieved_at": "2000-04-02",
   "achieved_at_approximate": false,
-  "value_mhz": 1372,
+  "value_mhz": 1372.05,
   "hardware": {
     "primary": "Intel Pentium III 800 MHz",
     "motherboard": null,
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "1372.05.png",
   "not_a_record": false,
   "overclockers": [
     {
@@ -20,7 +20,7 @@
       "aliases": [
         "kfuno"
       ],
-      "country": null,
+      "country": "JP",
       "profile_url": null
     }
   ],
@@ -33,6 +33,11 @@
     {
       "label": "H.Oda!",
       "url": "http://hp.vector.co.jp:80/authors/VA002374/src/info.html",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/14_2000_index.php3",
       "archived_url": null
     }
   ],
@@ -49,6 +54,16 @@
     },
     {
       "file": "1372_system.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1372.05.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "342000rec.gif",
       "type": "other",
       "caption": null
     }

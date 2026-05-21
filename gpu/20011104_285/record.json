@@ -1,0 +1,45 @@
+{
+  "uid": "20011104_285",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2001-11-04",
+  "achieved_at_approximate": true,
+  "value_mhz": 285,
+  "hardware": {
+    "primary": "Ati Radeon 8500",
+    "motherboard": "Soltek SL-75KAV",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": true,
+  "overclockers": [
+    {
+      "handle": "Juzu",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Downtown",
+      "url": "http://koti.mbnet.fi/~downtown/3dmark2001/3dmark2001.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "285_dt.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": "Snapshot is from November 4, 2001",
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

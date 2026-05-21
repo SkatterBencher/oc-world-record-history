@@ -1,25 +1,24 @@
 {
-  "uid": "20001203_2144",
+  "uid": "20001210_2153",
   "category": "cpu",
   "subcategory": [],
-  "achieved_at": "2000-12-03",
+  "achieved_at": "2000-12-10",
   "achieved_at_approximate": false,
-  "value_mhz": 2144.52,
+  "value_mhz": 2153,
   "hardware": {
-    "primary": "Intel Pentium 4 1.4 GHz",
-    "motherboard": "ASUS P4T",
+    "primary": "Intel Pentium 4 1.5 GHz",
+    "motherboard": "Asus P4T",
     "memory": null,
-    "cooling": null
+    "cooling": "Liquid Nitrogen"
   },
-  "hero": "214452.jpg",
+  "hero": null,
   "not_a_record": false,
   "overclockers": [
     {
       "handle": "Mr. Kondo",
-      "real_name": "近藤さん",
+      "real_name": null,
       "aliases": [
-        "ja0hxv",
-        "Mr. ja0hxv"
+        "ja0hxv"
       ],
       "country": "JP",
       "profile_url": null
@@ -27,32 +26,17 @@
   ],
   "sources": [
     {
-      "label": "H.Oda! WCPUID",
-      "url": "http://hp.vector.co.jp/authors/VA002374/src/info.html",
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/index.phtml",
       "archived_url": null
     },
     {
       "label": "Blog",
-      "url": "http://www.mdb.gr.jp/ja0hxv/",
-      "archived_url": null
-    },
-    {
-      "label": "Muropaketti",
-      "url": "http://www.muropaketti.com/index.phtml#uutiset",
+      "url": "http://www.mdb.gr.jp/ja0hxv/pai/ep41500.html",
       "archived_url": null
     }
   ],
   "assets": [
-    {
-      "file": "1653_hoda.png",
-      "type": "other",
-      "caption": null
-    },
-    {
-      "file": "214452.jpg",
-      "type": "other",
-      "caption": null
-    },
     {
       "file": "101200ln2.jpg",
       "type": "other",
@@ -74,10 +58,8 @@
       "caption": null
     }
   ],
-  "tags": [
-    "Intel"
-  ],
+  "tags": [],
   "notes": null,
-  "verified": true,
+  "verified": false,
   "submitted_by": "skatterbencher"
 }

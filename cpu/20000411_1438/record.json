@@ -1,0 +1,48 @@
+{
+  "uid": "20000411_1438",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2000-04-11",
+  "achieved_at_approximate": true,
+  "value_mhz": 1438,
+  "hardware": {
+    "primary": "Intel Pentium III 800 MHz",
+    "motherboard": "Abit BH6",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": null,
+  "not_a_record": true,
+  "overclockers": [
+    {
+      "handle": "ja0hxv",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/15_2000_index.php3",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "1438.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1438_muro.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

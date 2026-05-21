@@ -1,0 +1,45 @@
+{
+  "uid": "20010306_216",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2001-03-06",
+  "achieved_at_approximate": true,
+  "value_mhz": 216,
+  "hardware": {
+    "primary": "ATI Radeon",
+    "motherboard": "Asus A7V",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": true,
+  "overclockers": [
+    {
+      "handle": "Ernest",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Downtown",
+      "url": "http://koti.mbnet.fi/~downtown/3dmark2000/3dmark2000.html",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "216_d.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": "Snapshot is from March 6, 2001",
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

@@ -1,0 +1,50 @@
+{
+  "uid": "20001107_315",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2000-11-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 315,
+  "hardware": {
+    "primary": "NVIDIA GeForce 2 Ultra",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Peltier"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Jimmy",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/3dmark2k/index.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "MadOnion ORB",
+      "url": "http://gamershq.madonion.com/products/orb/?publish_compare.shtml?&project_type=1&dprid=869176",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "315_muro.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

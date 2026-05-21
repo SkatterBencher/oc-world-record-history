@@ -32,6 +32,11 @@
       "label": "Nifty Fextpup",
       "url": "https://www.nifty.com/cgi-bin/go?nifty:fextpup/mes/8/",
       "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/11_2000_index.php3",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -47,6 +52,31 @@
     },
     {
       "file": "1286_eltrain2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1286_muro.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1932000ln2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1932000ln2_2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1932000ln2_3.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1932000ln2_4.jpg",
       "type": "other",
       "caption": null
     }

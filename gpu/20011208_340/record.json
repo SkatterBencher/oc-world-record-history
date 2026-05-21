@@ -1,0 +1,45 @@
+{
+  "uid": "20011208_340",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2001-12-08",
+  "achieved_at_approximate": true,
+  "value_mhz": 340,
+  "hardware": {
+    "primary": "Ati Radeon 7500",
+    "motherboard": "Abit KG7A-Raid",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Fiiu",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Downtown",
+      "url": "http://koti.mbnet.fi/~downtown/3dmark2001/3dmark2001.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "340_dt.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": "Snapshot is from December 8, 2001",
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

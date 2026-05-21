@@ -1,57 +1,60 @@
 {
-  "uid": "19991112_205",
+  "uid": "20001028_275",
   "category": "gpu",
   "subcategory": [
     "dgpu"
   ],
-  "achieved_at": "1999-11-12",
+  "achieved_at": "2000-10-28",
   "achieved_at_approximate": false,
-  "value_mhz": 205,
+  "value_mhz": 275,
   "hardware": {
-    "primary": "NVIDIA Riva TNT2 Ultra",
+    "primary": "NVIDIA GeForce 2 Ultra",
     "motherboard": null,
     "memory": null,
     "cooling": null
   },
-  "hero": "205.png",
+  "hero": null,
   "not_a_record": true,
   "overclockers": [
     {
-      "handle": "Vince Freeman",
+      "handle": "Shirak",
       "real_name": null,
       "aliases": [],
-      "country": "US",
+      "country": "FI",
       "profile_url": null
     }
   ],
   "sources": [
     {
-      "label": "Sharkyextreme",
-      "url": "http://www.sharkyextreme.com/hardware/reviews/video/falcon_xentor_se/",
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/43_00.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/3dmark2k/index.phtml",
       "archived_url": null
     }
   ],
   "assets": [
     {
-      "file": "195_sharky.png",
+      "file": "275_muro1.png",
       "type": "other",
       "caption": null
     },
     {
-      "file": "205.png",
+      "file": "275_muro2.jpg",
       "type": "other",
       "caption": null
     },
     {
-      "file": "205_sharky.png",
+      "file": "275_muro3.png",
       "type": "other",
       "caption": null
     }
   ],
-  "tags": [
-    "NVIDIA"
-  ],
+  "tags": [],
   "notes": null,
-  "verified": true,
+  "verified": false,
   "submitted_by": "skatterbencher"
 }
