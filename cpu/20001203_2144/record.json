@@ -6,7 +6,7 @@
   "achieved_at_approximate": false,
   "value_mhz": 2144.52,
   "hardware": {
-    "primary": "Intel Pentium 4 1.4 GHz",
+    "primary": "Intel Pentium 4 1.5 GHz",
     "motherboard": "ASUS P4T",
     "memory": null,
     "cooling": null
@@ -38,7 +38,7 @@
     },
     {
       "label": "Muropaketti",
-      "url": "http://www.muropaketti.com/index.phtml#uutiset",
+      "url": "http://www.muropaketti.com/arkisto/49_00.phtml",
       "archived_url": null
     }
   ],

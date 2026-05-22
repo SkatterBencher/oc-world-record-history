@@ -36,7 +36,28 @@
       "archived_url": null
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "290_guru1.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "290_guru2.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "290_muro1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "290_muro2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [],
   "notes": null,
   "verified": false,

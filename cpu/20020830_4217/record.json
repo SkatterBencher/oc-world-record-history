@@ -1,0 +1,73 @@
+{
+  "uid": "20020830_4217",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-08-30",
+  "achieved_at_approximate": false,
+  "value_mhz": 4217.49,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.5 GHz",
+    "motherboard": "ASUS P4T533-C",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "421749.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_35.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/top/020830/020830.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "020830_02.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020830_02.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "020830_03.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "421749.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4217_blog.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "pi104_035.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

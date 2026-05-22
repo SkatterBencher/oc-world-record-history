@@ -39,6 +39,11 @@
       "label": "MadOnion HOF",
       "url": "http://gamershq.madonion.com/hardware/halloffame/",
       "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_30.phtml",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -129,6 +134,11 @@
     },
     {
       "file": "9.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "409_muro.png",
       "type": "other",
       "caption": null
     }

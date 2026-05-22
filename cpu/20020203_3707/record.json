@@ -1,0 +1,63 @@
+{
+  "uid": "20020203_3707",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-02-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 3707.61,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.2 GHz",
+    "motherboard": "ABIT TH7II",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Holicho",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_06.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "Holicho",
+      "url": "http://holicho.lib.net/",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "370761.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3707_blog.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3707_muro.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "pi104_047.gif",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

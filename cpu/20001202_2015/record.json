@@ -1,0 +1,68 @@
+{
+  "uid": "20001202_2015",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2000-12-02",
+  "achieved_at_approximate": false,
+  "value_mhz": 2015.68,
+  "hardware": {
+    "primary": "Intel Pentium 4 1.5 GHz",
+    "motherboard": "ASUS P4T",
+    "memory": null,
+    "cooling": "Peltier"
+  },
+  "hero": "021200p4_1.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Stingray",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/48_00.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://www.kumagaya.or.jp/~stingray/p4p.htm",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "021200p4_1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "1830_muro.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "p412051.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "p412052.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "p412053.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

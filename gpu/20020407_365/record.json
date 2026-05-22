@@ -14,7 +14,7 @@
     "cooling": "Peltier"
   },
   "hero": "365.png",
-  "not_a_record": false,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "Gjwild",

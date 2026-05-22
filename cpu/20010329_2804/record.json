@@ -37,6 +37,11 @@
       "label": "Blog",
       "url": "http://holicho.lib.net/",
       "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/01/13_01.phtml",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -62,6 +67,11 @@
     },
     {
       "file": "28099_system2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2804.99_muro.png",
       "type": "other",
       "caption": null
     }

@@ -1,0 +1,58 @@
+{
+  "uid": "20020227_4010",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-02-27",
+  "achieved_at_approximate": false,
+  "value_mhz": 4010,
+  "hardware": {
+    "primary": "Intel Pentium 4",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": "4ghzclock.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Louis Burns",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "AnandTech",
+      "url": "http://www.anandtech.com/cpuchipsets/showdoc.html?i=1592",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4010_anand.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4ghz.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4ghzclock.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "louis.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

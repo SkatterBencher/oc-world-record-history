@@ -1,0 +1,58 @@
+{
+  "uid": "20010312_2300",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2001-03-12",
+  "achieved_at_approximate": false,
+  "value_mhz": 2300,
+  "hardware": {
+    "primary": "Intel Pentium 4 1.7 GHz",
+    "motherboard": "ASUS P4T",
+    "memory": null,
+    "cooling": "Air"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Anpanman",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://www.clio.ne.jp/home/tatumiya/P4ES1700.htm",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/01/11_01.phtml",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "2300_blog.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2300_muro.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2300_muro2.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

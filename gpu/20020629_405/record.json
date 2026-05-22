@@ -14,7 +14,7 @@
     "cooling": "Single Stage"
   },
   "hero": "405.png",
-  "not_a_record": false,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "JCViggen",

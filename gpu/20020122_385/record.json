@@ -1,0 +1,63 @@
+{
+  "uid": "20020122_385",
+  "category": "gpu",
+  "subcategory": [],
+  "achieved_at": "2002-01-22",
+  "achieved_at_approximate": false,
+  "value_mhz": 385,
+  "hardware": {
+    "primary": "ATI Radeon 8500 LE",
+    "motherboard": "Abit TH7-II",
+    "memory": null,
+    "cooling": "Chilled Water"
+  },
+  "hero": "385.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_04.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "Madonion ORB",
+      "url": "http://gamershq.madonion.com/compare2k1.shtml?2524118",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "0124ati.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "385.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "385.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "385_muro.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

@@ -32,6 +32,11 @@
       "label": "VR-Zone",
       "url": "http://www.vr-zone.com/guides/intel/northwood/",
       "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_36.phtml",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -47,6 +52,11 @@
     },
     {
       "file": "wcpuid_max_4418.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4418_muro.png",
       "type": "other",
       "caption": null
     }

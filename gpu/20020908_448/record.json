@@ -1,0 +1,65 @@
+{
+  "uid": "20020908_448",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2002-09-08",
+  "achieved_at_approximate": false,
+  "value_mhz": 448,
+  "hardware": {
+    "primary": "Ati Radeon 9700 Pro",
+    "motherboard": "Abit IT7",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "OPPainter",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_37.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "MadOnion ORB",
+      "url": "http://service.madonion.com/compare?2k1=4428978",
+      "archived_url": null
+    },
+    {
+      "label": "XtremeSystems",
+      "url": "http://www.xtremesystems.org/forums/showthread.php?threadid=2910",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "448.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "448_muro.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "448_xs.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

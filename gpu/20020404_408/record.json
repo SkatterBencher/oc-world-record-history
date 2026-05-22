@@ -1,0 +1,55 @@
+{
+  "uid": "20020404_408",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2002-04-04",
+  "achieved_at_approximate": false,
+  "value_mhz": 408,
+  "hardware": {
+    "primary": "NVIDIA GeForce 4 Ti 4600",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Peltier"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Macci",
+      "real_name": null,
+      "aliases": [],
+      "country": "FI",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_14.phtml",
+      "archived_url": null
+    },
+    {
+      "label": "MadOnion ORB",
+      "url": "http://service.madonion.com/compare?2k1=3153141",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "408.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "408_muro.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

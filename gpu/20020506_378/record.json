@@ -14,7 +14,7 @@
     "cooling": "Liquid Nitrogen"
   },
   "hero": "378.png",
-  "not_a_record": false,
+  "not_a_record": true,
   "overclockers": [
     {
       "handle": "Sampsa",

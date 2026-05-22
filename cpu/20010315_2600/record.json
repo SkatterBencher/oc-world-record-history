@@ -27,6 +27,11 @@
       "label": "Holicho",
       "url": "http://holicho.lib.net/bn_01.htm",
       "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/01/11_01.phtml",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -42,6 +47,11 @@
     },
     {
       "file": "2600_holicho.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "2300_muro2.png",
       "type": "other",
       "caption": null
     }

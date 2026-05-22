@@ -1,0 +1,58 @@
+{
+  "uid": "20020607_4155",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-06-07",
+  "achieved_at_approximate": false,
+  "value_mhz": 4155.57,
+  "hardware": {
+    "primary": "Intel Pentium 4 2.4 GHz",
+    "motherboard": "ASUS P4T-E",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "0607p4.gif",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Ja0hxv",
+      "real_name": null,
+      "aliases": [],
+      "country": "JP",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Blog",
+      "url": "http://ja0hxv.calico.jp/pai/sp17324.gif",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_23.phtml",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "0607p4.gif",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "415557.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4155_muro.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

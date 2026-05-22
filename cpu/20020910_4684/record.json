@@ -1,0 +1,78 @@
+{
+  "uid": "20020910_4684",
+  "category": "cpu",
+  "subcategory": [],
+  "achieved_at": "2002-09-10",
+  "achieved_at_approximate": false,
+  "value_mhz": 4684,
+  "hardware": {
+    "primary": "Intel Pentium 4",
+    "motherboard": null,
+    "memory": null,
+    "cooling": null
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Intel",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "AnandTech",
+      "url": "http://anandtech.com/IT/showdoc.aspx?i=1700&p=3",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_37.phtml",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4684_anand.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4ghz_2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "bluescreen.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "overclocking.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "secret.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "0910p4.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "4684_muro.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

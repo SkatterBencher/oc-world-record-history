@@ -34,6 +34,16 @@
       "label": "VR-Zone",
       "url": "http://www.vr-zone.com/guides/Intel/Northwood/",
       "archived_url": null
+    },
+    {
+      "label": "Blog",
+      "url": "http://www.clio.ne.jp/home/tatumiya/",
+      "archived_url": null
+    },
+    {
+      "label": "Muropaketti",
+      "url": "http://www.muropaketti.com/arkisto/02/02_03.phtml",
+      "archived_url": null
     }
   ],
   "assets": [
@@ -54,6 +64,11 @@
     },
     {
       "file": "th72-3700.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "3702_muro.png",
       "type": "other",
       "caption": null
     }
