@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": "GPU-Z-RX-9060-XT-4.643-GHz.jpg",
+  "hero": "HJyqMQnagAANXp9.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -28,6 +28,11 @@
     {
       "label": "Wccftech",
       "url": "https://wccftech.com/radeon-rx-9060-xt-smashes-into-second-place-at-4-64-ghz-after-amd-overclocker-taps-secret-internal-tools/",
+      "archived_url": null
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/madness727/status/2061709878541127768",
       "archived_url": null
     }
   ],
@@ -44,6 +49,26 @@
     },
     {
       "file": "RX-9060-XT-LN2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "HJyqMQnagAANXp9.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "HJyqMQqaIAAalf5.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "HJyqMR0bUAAbsNT.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "HJyqMRyakAAbbqW.jpg",
       "type": "other",
       "caption": null
     }

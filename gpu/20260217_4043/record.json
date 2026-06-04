@@ -1,0 +1,72 @@
+{
+  "uid": "20260217_4043",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2026-02-17",
+  "achieved_at_approximate": false,
+  "value_mhz": 4043,
+  "hardware": {
+    "primary": "AMD Radeon RX 9060XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "4043.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Sampson",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    },
+    {
+      "handle": "Splave",
+      "real_name": null,
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=1mS8_bmYUL0",
+      "archived_url": null
+    },
+    {
+      "label": "VideoCardz",
+      "url": "https://videocardz.com/newz/amd-beats-gpu-frequency-world-record-with-radeon-rx-9060-xt-hitting-4-769-ghz",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4043.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "RADEON-RX-9060-XT-4.77-GHZ-WORLD-RECORD-HERO-1.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "RADEON-RX-9060-XT-4.77-GHZ-WORLD-RECORD-HERO-2.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "RADEON-RX-9060-XT-4.77-GHZ-WORLD-RECORD-HERO-3.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}
