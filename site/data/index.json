@@ -28091,5 +28091,65 @@
     "_asset_base": "/assets/cpu/20260422_9206/",
     "_genuine_overall": true,
     "_genuine_in": []
+  },
+  {
+    "uid": "20260602_4643",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2026-06-02",
+    "achieved_at_approximate": false,
+    "value_mhz": 4643,
+    "hardware": {
+      "primary": "AMD Radeon RX 9060XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "GPU-Z-RX-9060-XT-4.643-GHz.jpg",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Sampson",
+        "real_name": null,
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wccftech",
+        "url": "https://wccftech.com/radeon-rx-9060-xt-smashes-into-second-place-at-4-64-ghz-after-amd-overclocker-taps-secret-internal-tools/",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "GPU-Z-RX-9060-XT-4.643-GHz.jpg",
+        "type": "gpuz",
+        "caption": null
+      },
+      {
+        "file": "RX-9060-XT-4.643-GHz.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "RX-9060-XT-LN2.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": "The card is in a special mode where set clock = effective clock.",
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20260602_4643/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
+    ]
   }
 ]
