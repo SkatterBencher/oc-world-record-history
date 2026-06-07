@@ -1,0 +1,33 @@
+{
+  "uid": "20260603_4789",
+  "category": "gpu",
+  "subcategory": [
+    "dgpu"
+  ],
+  "achieved_at": "2026-06-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 4789,
+  "hardware": {
+    "primary": "AMD Radeon RX 9060XT",
+    "motherboard": null,
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": null,
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Sampson",
+      "real_name": "Bill Alverson",
+      "aliases": [],
+      "country": "US",
+      "profile_url": null
+    }
+  ],
+  "sources": [],
+  "assets": [],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}

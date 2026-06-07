@@ -1,0 +1,70 @@
+{
+  "uid": "20260601_6778",
+  "category": "memory",
+  "subcategory": [
+    "ddr5"
+  ],
+  "achieved_at": "2026-06-01",
+  "achieved_at_approximate": false,
+  "value_mhz": 6778.4,
+  "hardware": {
+    "primary": "Corsair CMK48GX5M2B7200C36",
+    "motherboard": "Gigabyte Z890 AORUS TACHYON DUO X ICE",
+    "memory": null,
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "6778.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Saltycroissant",
+      "real_name": null,
+      "aliases": [],
+      "country": "CA",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/5xlrta",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/6028970",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "6778.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6778_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "6778_hwbot.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3571851.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "image_id_3571852.jpeg",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}
