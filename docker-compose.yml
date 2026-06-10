@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # Admin service - for editing records locally
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile.admin
+    container_name: oc-museum-admin
+    ports:
+      - "7373:7373"
+    volumes:
+      # Mount the entire repo so changes persist to your local files
+      - .:/app
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:7373')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Web preview service - to preview the static site locally
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    container_name: oc-museum-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    depends_on:
+      - admin
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+networks:
+  default:
+    name: oc-museum-network
