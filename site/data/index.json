@@ -28015,6 +28015,76 @@
     ]
   },
   {
+    "uid": "20251129_6771",
+    "category": "memory",
+    "subcategory": [
+      "ddr5"
+    ],
+    "achieved_at": "2025-11-29",
+    "achieved_at_approximate": false,
+    "value_mhz": 6771.4,
+    "hardware": {
+      "primary": "Corsair CMK48GX5M2X8000C38",
+      "motherboard": "Gigabyte Z890 AORUS TACHYON ICE",
+      "memory": "Corsair CMK48GX5M2X8000C38",
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "6771.jpg",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "Sergmann",
+        "real_name": null,
+        "aliases": [],
+        "country": "DE",
+        "profile_url": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "CPU-Z",
+        "url": "https://valid.x86.fr/xyq5mg",
+        "archived_url": null
+      },
+      {
+        "label": "HWBOT",
+        "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/6039502",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "6771.jpg",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6771_cpuz.png",
+        "type": "cpuz",
+        "caption": null
+      },
+      {
+        "file": "6771_hwbot.png",
+        "type": "other",
+        "caption": null
+      },
+      {
+        "file": "6771_system.jpeg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/memory/20251129_6771/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "ddr5"
+    ]
+  },
+  {
     "uid": "20260217_4043",
     "category": "gpu",
     "subcategory": [
