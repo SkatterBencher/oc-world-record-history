@@ -1,0 +1,80 @@
+{
+  "uid": "20260628_6802",
+  "category": "memory",
+  "subcategory": [
+    "ddr5"
+  ],
+  "achieved_at": "2026-06-28",
+  "achieved_at_approximate": false,
+  "value_mhz": 6802.7,
+  "hardware": {
+    "primary": "Corsair CMK48GX5M2B7200C36",
+    "motherboard": "Gigabyte Z890 AORUS TACHYON DUO X ICE",
+    "memory": "Corsair CMK48GX5M2B7200C36",
+    "cooling": "Liquid Nitrogen"
+  },
+  "hero": "6802.jpg",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Saltycroissant",
+      "real_name": null,
+      "aliases": [],
+      "country": "CA",
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.x86.fr/gvd9m5",
+      "archived_url": null
+    },
+    {
+      "label": "HWBOT",
+      "url": "https://hwbot.org/benchmarks/memory_frequency/submissions/6040674",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "6802.jpg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6802_1.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6802_2.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6802_3.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6802_4.jpeg",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "6802_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "6802_hwbot.png",
+      "type": "other",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}
