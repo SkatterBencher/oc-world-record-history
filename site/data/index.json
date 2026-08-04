@@ -28018,7 +28018,7 @@
     "uid": "20251129_6771",
     "category": "memory",
     "subcategory": [
-      "ddr5"
+      "DDR5"
     ],
     "achieved_at": "2025-11-29",
     "achieved_at_approximate": false,
@@ -28081,7 +28081,7 @@
     "_asset_base": "/assets/memory/20251129_6771/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ddr5"
+      "DDR5"
     ]
   },
   {
@@ -28243,7 +28243,7 @@
     "uid": "20260601_6778",
     "category": "memory",
     "subcategory": [
-      "ddr5"
+      "DDR5"
     ],
     "achieved_at": "2026-06-01",
     "achieved_at_approximate": false,
@@ -28311,7 +28311,7 @@
     "_asset_base": "/assets/memory/20260601_6778/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ddr5"
+      "DDR5"
     ]
   },
   {
@@ -28448,7 +28448,7 @@
     "uid": "20260628_6802",
     "category": "memory",
     "subcategory": [
-      "ddr5"
+      "DDR5"
     ],
     "achieved_at": "2026-06-28",
     "achieved_at_approximate": false,
@@ -28526,7 +28526,7 @@
     "_asset_base": "/assets/memory/20260628_6802/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "ddr5"
+      "DDR5"
     ]
   }
 ]
