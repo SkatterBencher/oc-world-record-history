@@ -962,7 +962,7 @@ function renderPanel(record) {
 
     <div class="panel-section-label">Hardware</div>
     <div class="panel-hardware-grid">
-      ${hwRow('Processor',   hardware.primary)}
+      ${hwRow(cat.label, hardware.primary)}
       ${hwRow('Motherboard', hardware.motherboard)}
       ${hwRow('Memory',      hardware.memory)}
       ${hwRow('Cooling',     hardware.cooling)}
@@ -1508,7 +1508,7 @@ function renderStatisticsPage() {
         return `
           <div class="stat-list-item">
             <span class="stat-list-rank">${i + 1}</span>
-            ${topCountry ? `<span class="stat-list-flag">${getFlagEmoji(topCountry)}</span>` : ''}
+            ${topCountry ? `<span class="stat-list-flag">${gEmoji(topCountry)}</span>` : ''}
             <span class="stat-list-name">${escapeHtml(handle)}</span>
             <div class="stat-list-bar"><div class="stat-list-bar-fill" style="width:${(count/maxOCCount*100).toFixed(1)}%"></div></div>
             <span class="stat-list-count">${count}</span>
