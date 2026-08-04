@@ -1,0 +1,98 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install Pillow jsonschema --quiet
+
+      - name: Build site
+        run: python3 build.py
+
+      - name: Validate JSON schema
+        run: |
+          python3 -c "
+          import json, os, sys
+          import jsonschema
+          with open('_schema/record.schema.json') as f:
+              schema = json.load(f)
+          errors = []
+          for cat in ['cpu','gpu','memory']:
+              cat_dir = cat
+              if not os.path.isdir(cat_dir): continue
+              for uid in os.listdir(cat_dir):
+                  rfile = os.path.join(cat_dir, uid, 'record.json')
+                  if not os.path.exists(rfile): continue
+                  with open(rfile) as f:
+                      record = json.load(f)
+                  try:
+                      jsonschema.validate(record, schema)
+                  except jsonschema.ValidationError as e:
+                      errors.append(rfile + ': ' + e.message)
+          if errors:
+              for e in errors: print('ERROR: ' + e)
+              sys.exit(1)
+          print('All records valid against schema')
+          "
+
+      - name: Check for duplicate UIDs
+        run: |
+          python3 -c "
+          import json, os, sys
+          seen = {}
+          errors = []
+          for cat in ['cpu','gpu','memory']:
+              if not os.path.isdir(cat): continue
+              for uid in os.listdir(cat):
+                  rfile = os.path.join(cat, uid, 'record.json')
+                  if not os.path.exists(rfile): continue
+                  with open(rfile) as f:
+                      record = json.load(f)
+                  rec_uid = record.get('uid')
+                  if rec_uid in seen:
+                      errors.append('Duplicate UID \"' + rec_uid + '\" in ' + rfile + ' (also in ' + seen[rec_uid] + ')')
+                  seen[rec_uid] = rfile
+          if errors:
+              for e in errors: print('ERROR: ' + e)
+              sys.exit(1)
+          print('No duplicate UIDs found')
+          "
+
+      - name: Validate JSON syntax
+        run: |
+          python3 -c "
+          import json, os, sys
+          errors = []
+          for cat in ['cpu','gpu','memory']:
+              if not os.path.isdir(cat): continue
+              for uid in os.listdir(cat):
+                  rfile = os.path.join(cat, uid, 'record.json')
+                  if not os.path.exists(rfile): continue
+                  try:
+                      with open(rfile) as f:
+                          json.load(f)
+                  except json.JSONDecodeError as e:
+                      errors.append(rfile + ': ' + str(e))
+          if errors:
+              for e in errors: print('ERROR: ' + e)
+              sys.exit(1)
+          print('All JSON files have valid syntax')
+          "
