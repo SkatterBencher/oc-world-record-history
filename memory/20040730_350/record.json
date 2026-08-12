@@ -2,11 +2,11 @@
   "uid": "20040730_350",
   "category": "memory",
   "subcategory": [
-    "DDR"
+    "ddr"
   ],
   "achieved_at": "2004-07-30",
   "achieved_at_approximate": false,
-  "value_mhz": 350.0,
+  "value_mhz": 350,
   "hardware": {
     "primary": "A-Data",
     "motherboard": "GIGABYTE GA-K8N Pro",

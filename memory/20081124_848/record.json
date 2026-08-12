@@ -2,11 +2,11 @@
   "uid": "20081124_848",
   "category": "memory",
   "subcategory": [
-    "DDR2"
+    "ddr2"
   ],
   "achieved_at": "2008-11-24",
   "achieved_at_approximate": false,
-  "value_mhz": 848.0,
+  "value_mhz": 848,
   "hardware": {
     "primary": "Team Group",
     "motherboard": "GIGABYTE EP45-UD3P",
