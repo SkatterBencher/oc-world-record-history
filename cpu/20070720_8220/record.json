@@ -11,7 +11,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": "818040.png",
+  "hero": null,
   "not_a_record": false,
   "overclockers": [
     {
@@ -27,7 +27,7 @@
   "tags": [
     "Intel"
   ],
-  "notes": null,
+  "notes": "Hero image (818040.png) referenced but missing from repo — needs to be re-sourced.",
   "verified": true,
   "submitted_by": "skatterbencher"
 }

@@ -2,11 +2,11 @@
   "uid": "20070604_782",
   "category": "memory",
   "subcategory": [
-    "DDR2"
+    "ddr2"
   ],
   "achieved_at": "2007-06-04",
   "achieved_at_approximate": false,
-  "value_mhz": 782.0,
+  "value_mhz": 782,
   "hardware": {
     "primary": "Crucial",
     "motherboard": "GIGABYTE P35C-DS3R",

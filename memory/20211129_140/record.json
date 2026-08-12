@@ -2,11 +2,11 @@
   "uid": "20211129_140",
   "category": "memory",
   "subcategory": [
-    "EDO"
+    "edo"
   ],
   "achieved_at": "2021-11-29",
   "achieved_at_approximate": false,
-  "value_mhz": 140.0,
+  "value_mhz": 140,
   "hardware": {
     "primary": null,
     "motherboard": "P3B-F",
