@@ -272,6 +272,13 @@ for category in CATEGORIES:
             # Use root-relative path so it works regardless of deploy subdirectory
             record["_asset_base"] = f"/assets/{category}/{record_dir.name}/"
 
+            # Warn if hero references an asset that doesn't exist
+            hero = record.get("hero")
+            if hero:
+                asset_files = {a["file"] for a in record.get("assets", []) if isinstance(a, dict) and a.get("file")}
+                if hero not in asset_files:
+                    print(f"  WARNING: {record_file}: hero '{hero}' not found in assets[]")
+
             records.append(record)
 
             # Build tag index — skip null/empty tags
