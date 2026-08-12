@@ -4,7 +4,7 @@
   "subcategory": [],
   "achieved_at": "YYYY-MM-DD",
   "achieved_at_approximate": false,
-  "value_mhz": 0.0,
+  "value_mhz": 1.0,
   "hardware": {
     "primary": null,
     "motherboard": null,
@@ -31,7 +31,7 @@
   "hero": null,
   "tags": [],
   "notes": null,
-  "not_a_record": null,
+  "not_a_record": false,
   "verified": false,
   "submitted_by": "your-github-handle"
 }

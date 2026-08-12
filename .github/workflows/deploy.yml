@@ -29,21 +29,16 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install Pillow --quiet
+        run: pip install Pillow jsonschema --quiet
 
       - name: Build index
         run: python3 build.py
 
-      - name: Validate schema (optional, install jsonschema to enable)
+      - name: Validate schema
         run: |
-          pip install jsonschema --quiet || true
           python3 -c "
           import json, os, sys
-          try:
-            import jsonschema
-          except ImportError:
-            print('jsonschema not installed, skipping validation')
-            sys.exit(0)
+          import jsonschema
           with open('_schema/record.schema.json') as f:
             schema = json.load(f)
           errors = []
