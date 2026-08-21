@@ -1,0 +1,55 @@
+{
+  "uid": "20260503_6775",
+  "category": "memory",
+  "subcategory": [
+    "DDR5"
+  ],
+  "achieved_at": "2026-05-03",
+  "achieved_at_approximate": false,
+  "value_mhz": 6775,
+  "hardware": {
+    "primary": "Intel Core Ultra 9 285K",
+    "motherboard": "Gigabyte Z890 AORUS TACHYON DUO X ICE",
+    "memory": null,
+    "cooling": null
+  },
+  "hero": "6775.png",
+  "not_a_record": false,
+  "overclockers": [
+    {
+      "handle": "Anonymous",
+      "real_name": null,
+      "aliases": [],
+      "country": null,
+      "profile_url": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPU-Z",
+      "url": "https://valid.cpuid.com/f0an7nd2",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "6775.png",
+      "type": "other",
+      "caption": null
+    },
+    {
+      "file": "Screenshot 2026-08-21 at 11-54-36 Intel Core Ultra 9 285K @ 1814.49 MHz - CPU-Z VALIDATOR.png",
+      "type": "cpuz",
+      "caption": null
+    },
+    {
+      "file": "6775_cpuz.png",
+      "type": "cpuz",
+      "caption": null
+    }
+  ],
+  "tags": [],
+  "notes": null,
+  "verified": false,
+  "submitted_by": "skatterbencher"
+}
