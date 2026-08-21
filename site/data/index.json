@@ -28250,13 +28250,13 @@
     "uid": "20260503_6775",
     "category": "memory",
     "subcategory": [
-      "DDR5"
+      "ddr5"
     ],
     "achieved_at": "2026-05-03",
     "achieved_at_approximate": false,
     "value_mhz": 6775,
     "hardware": {
-      "primary": "Intel Core Ultra 9 285K",
+      "primary": "DDR5",
       "motherboard": "Gigabyte Z890 AORUS TACHYON DUO X ICE",
       "memory": null,
       "cooling": null
@@ -28303,7 +28303,7 @@
     "_asset_base": "/assets/memory/20260503_6775/",
     "_genuine_overall": true,
     "_genuine_in": [
-      "DDR5"
+      "ddr5"
     ]
   },
   {
