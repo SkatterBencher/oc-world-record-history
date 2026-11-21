@@ -28481,7 +28481,7 @@
       "memory": null,
       "cooling": "Liquid Nitrogen"
     },
-    "hero": null,
+    "hero": "4789.jpg",
     "not_a_record": false,
     "overclockers": [
       {
@@ -28499,8 +28499,20 @@
         "profile_url": null
       }
     ],
-    "sources": [],
-    "assets": [],
+    "sources": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/m13k-4QZjg8",
+        "archived_url": null
+      }
+    ],
+    "assets": [
+      {
+        "file": "4789.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
     "tags": [],
     "notes": null,
     "verified": false,
@@ -28594,6 +28606,57 @@
     "_genuine_overall": true,
     "_genuine_in": [
       "ddr5"
+    ]
+  },
+  {
+    "uid": "20261115_4837",
+    "category": "gpu",
+    "subcategory": [
+      "dgpu"
+    ],
+    "achieved_at": "2026-11-15",
+    "achieved_at_approximate": false,
+    "value_mhz": 4837,
+    "hardware": {
+      "primary": "Radeon RX 9060XT",
+      "motherboard": null,
+      "memory": null,
+      "cooling": "Liquid Nitrogen"
+    },
+    "hero": "20261115_160743.jpg",
+    "not_a_record": false,
+    "overclockers": [
+      {
+        "handle": "jackhuynh",
+        "real_name": "Jack Huynh",
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      },
+      {
+        "handle": "Sampson",
+        "real_name": "Bill Alverson",
+        "aliases": [],
+        "country": "US",
+        "profile_url": null
+      }
+    ],
+    "sources": [],
+    "assets": [
+      {
+        "file": "20261115_160743.jpg",
+        "type": "other",
+        "caption": null
+      }
+    ],
+    "tags": [],
+    "notes": null,
+    "verified": false,
+    "submitted_by": "skatterbencher",
+    "_asset_base": "/assets/gpu/20261115_4837/",
+    "_genuine_overall": true,
+    "_genuine_in": [
+      "dgpu"
     ]
   }
 ]

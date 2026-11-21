@@ -13,7 +13,7 @@
     "memory": null,
     "cooling": "Liquid Nitrogen"
   },
-  "hero": null,
+  "hero": "4789.jpg",
   "not_a_record": false,
   "overclockers": [
     {
@@ -31,8 +31,20 @@
       "profile_url": null
     }
   ],
-  "sources": [],
-  "assets": [],
+  "sources": [
+    {
+      "label": "YouTube",
+      "url": "https://youtu.be/m13k-4QZjg8",
+      "archived_url": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "4789.jpg",
+      "type": "other",
+      "caption": null
+    }
+  ],
   "tags": [],
   "notes": null,
   "verified": false,
