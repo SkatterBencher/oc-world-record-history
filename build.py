@@ -18,7 +18,7 @@ from itertools import groupby
 from pathlib import Path
 
 try:
-    from PIL import Image as PILImage
+    from PIL import Image as PILImage, ImageOps
     PILLOW_AVAILABLE = True
 except ImportError:
     PILLOW_AVAILABLE = False
@@ -153,6 +153,9 @@ def process_image(src: Path, dest_dir: Path) -> "Path | None":
 
     try:
         with PILImage.open(src) as im:
+            # Apply EXIF orientation (phone photos) before the tag is dropped on save
+            im = ImageOps.exif_transpose(im)
+
             # Flatten transparency for formats that don't support it in WebP lossily
             if im.mode in ("RGBA", "LA", "P"):
                 background = PILImage.new("RGB", im.size, (255, 255, 255))
