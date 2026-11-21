@@ -348,6 +348,17 @@ class AdminHandler(BaseHTTPRequestHandler):
         self.end_headers()
 
     def do_POST(self):
+        try:
+            self._do_POST()
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            try:
+                self.send_json({"error": f"{type(e).__name__}: {e}"}, 500)
+            except Exception:
+                pass
+
+    def _do_POST(self):
         parsed = urlparse(self.path)
         path = parsed.path
         length = int(self.headers.get("Content-Length", 0))
